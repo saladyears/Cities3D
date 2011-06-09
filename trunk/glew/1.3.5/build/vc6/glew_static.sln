@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glew_static", "glew_static.vcproj", "{59E386C8-7B26-4826-9F21-0C8BB16C1722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug MX|Win32 = Debug MX|Win32
+		Debug|Win32 = Debug|Win32
+		Release MX|Win32 = Release MX|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59E386C8-7B26-4826-9F21-0C8BB16C1722}.Debug MX|Win32.ActiveCfg = Debug MX|Win32
+		{59E386C8-7B26-4826-9F21-0C8BB16C1722}.Debug MX|Win32.Build.0 = Debug MX|Win32
+		{59E386C8-7B26-4826-9F21-0C8BB16C1722}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59E386C8-7B26-4826-9F21-0C8BB16C1722}.Debug|Win32.Build.0 = Debug|Win32
+		{59E386C8-7B26-4826-9F21-0C8BB16C1722}.Release MX|Win32.ActiveCfg = Release MX|Win32
+		{59E386C8-7B26-4826-9F21-0C8BB16C1722}.Release MX|Win32.Build.0 = Release MX|Win32
+		{59E386C8-7B26-4826-9F21-0C8BB16C1722}.Release|Win32.ActiveCfg = Release|Win32
+		{59E386C8-7B26-4826-9F21-0C8BB16C1722}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

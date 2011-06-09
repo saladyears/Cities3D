@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_SetBufferSize</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_SendData.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_SetCurrentPosition.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_SetBufferSize">FSOUND_SetBufferSize</A></H2>
+Sets the FMOD internal mixing buffer size.  <BR>
+It is configurable because low buffersizes use less memory, but are more instable.<BR>
+More importantly, increasing buffer size will increase sound output stability, but<BR>
+on the other hand increases latency, and to some extent, CPU usage.<BR>
+* FMOD chooses the most optimal size by default for best stability, depending on the<BR>
+output type - and if the drivers are emulated or not (NT).  <BR>
+It is not recommended changing this value unless you really need to.  You may get worse <BR>
+performance than the default settings chosen by FMOD.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_SetBufferSize</B><B>(</B><BR>
+<B>int </B><B> </B><I>len_ms</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>len_ms</I></TD>
+<TD>The buffer size in milliseconds. <BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, (ie if FMOD is already active) FALSE is returned.<BR>
+<H3>Remarks</H3>
+This function cannot be called after FMOD is already activated with FSOUND_Init.<BR>
+It must be called before FSOUND_Init, or after FSOUND_Close.<BR>
+---------<BR>
+The buffersize seting defaults to 50ms if it is not called for DSOUND.  <BR>
+It defaults to 200ms for Windows Multimedia wave-out or for emulated DirectSound drivers (such as NT drivers).<BR>
+When the output is FSOUND_OUTPUT_ASIO the buffersize is ignored.  The buffersize should be configured using the ASIO driver which can be done with the supplied asioconfig.exe in the FMOD SDK.<BR>
+---------<BR>
+Buffer sizes lower than 50 are clamped at 50.<BR>
+Buffer sizes are also rounded DOWN to the nearest multiple of 25.  This is because FMOD mixes in blocks of 25ms.<BR>
+Due to this buffersize command latency on software channels will be between 25 and 50ms on average (37.5ms) when the buffersize is set to 50.<BR>
+---------<BR>
+Macintosh, PlayStation 2 and GameCube do not support this as they already achieve minimal latency and are forced to 25ms.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, XBox<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Close.html">FSOUND_Close</A>
+, 
+<A HREF="FSOUND_DSP_GetBufferLengthTotal.html">FSOUND_DSP_GetBufferLengthTotal</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

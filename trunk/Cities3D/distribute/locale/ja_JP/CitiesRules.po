@@ -1,0 +1,1532 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2008-08-02 16:51+0900\n"
+"Last-Translator: hito <hitobasira@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+
+#: CitiesStats.cpp:150
+#, fuzzy
+msgid "Red Die"
+msgstr "ダイスを振れ"
+
+#: CitiesStats.cpp:153
+msgid "Third Die"
+msgstr ""
+
+#: CitiesStats.cpp:156
+#, fuzzy
+msgid "Trade Cards Played"
+msgstr "貿易カード"
+
+#: CitiesStats.cpp:159
+#, fuzzy
+msgid "Politics Cards Played"
+msgstr "政治カード"
+
+#: CitiesStats.cpp:162
+#, fuzzy
+msgid "Science Cards Played"
+msgstr "科学カード"
+
+#: CitiesStats.cpp:172
+#, fuzzy
+msgid "Barbarian"
+msgstr "蛮人"
+
+#: CitiesStats.cpp:173 Strings.cpp:728
+msgid "Trade"
+msgstr "貿易力"
+
+#: CitiesStats.cpp:174 Strings.cpp:672
+msgid "Politics"
+msgstr "政治力"
+
+#: CitiesStats.cpp:175 Strings.cpp:690
+msgid "Science"
+msgstr "科学力"
+
+#: CitiesStats.cpp:177
+#, fuzzy
+msgid "Defender Points"
+msgstr "防御点"
+
+#: CitiesStats.cpp:178
+#, fuzzy
+msgid "Metropolis"
+msgstr "貿易メトロポリス"
+
+#: CitiesStats.cpp:179 CitiesStats.cpp:227 Strings.cpp:659
+msgid "Merchant"
+msgstr "商人"
+
+#: CitiesStats.cpp:180
+#, fuzzy
+msgid "Victory Points"
+msgstr "１勝利点。"
+
+#: CitiesStats.cpp:182 CitiesStats.cpp:186 CitiesStats.cpp:190 Strings.cpp:634
+msgid "Cloth"
+msgstr "反物"
+
+#: CitiesStats.cpp:183 CitiesStats.cpp:187 CitiesStats.cpp:191 Strings.cpp:635
+msgid "Coin"
+msgstr "金貨"
+
+#: CitiesStats.cpp:184 CitiesStats.cpp:188 CitiesStats.cpp:192 Strings.cpp:669
+msgid "Paper"
+msgstr "草子"
+
+#: CitiesStats.cpp:194
+#, fuzzy
+msgid "Aqueduct"
+msgstr "Aaueductを使え"
+
+#: CitiesStats.cpp:195 CitiesStats.cpp:203 CitiesStats.cpp:225 Strings.cpp:636
+msgid "Commercial Harbor"
+msgstr "沿岸商業区"
+
+#: CitiesStats.cpp:196 CitiesStats.cpp:204 CitiesStats.cpp:226 Strings.cpp:657
+msgid "Master Merchant"
+msgstr "大旦那"
+
+#: CitiesStats.cpp:197 CitiesStats.cpp:205 CitiesStats.cpp:229 Strings.cpp:684
+msgid "Resource Monopoly"
+msgstr "資源独占"
+
+#: CitiesStats.cpp:198 CitiesStats.cpp:206 CitiesStats.cpp:230 Strings.cpp:731
+msgid "Trade Monopoly"
+msgstr "貿易独占"
+
+#: CitiesStats.cpp:199 CitiesStats.cpp:208 CitiesStats.cpp:241 Strings.cpp:738
+msgid "Wedding"
+msgstr "結婚式"
+
+#: CitiesStats.cpp:200 CitiesStats.cpp:247 Strings.cpp:655
+msgid "Irrigation"
+msgstr "用水路"
+
+#: CitiesStats.cpp:201 CitiesStats.cpp:249 Strings.cpp:663
+msgid "Mining"
+msgstr "採掘業"
+
+#: CitiesStats.cpp:207 CitiesStats.cpp:232 Strings.cpp:611
+msgid "Arsonist"
+msgstr "放火魔"
+
+#: CitiesStats.cpp:210
+msgid "Walls"
+msgstr ""
+
+#: CitiesStats.cpp:211
+#, fuzzy
+msgid "Basic Knights"
+msgstr "軽装歩兵"
+
+#: CitiesStats.cpp:212
+#, fuzzy
+msgid "Strong Knights"
+msgstr "重装歩兵"
+
+#: CitiesStats.cpp:213
+#, fuzzy
+msgid "Mighty Knights"
+msgstr "騎兵"
+
+#: CitiesStats.cpp:214
+msgid "Knight Activates"
+msgstr ""
+
+#: CitiesStats.cpp:215
+#, fuzzy
+msgid "Trade Upgrades"
+msgstr "貿易カード"
+
+#: CitiesStats.cpp:216
+#, fuzzy
+msgid "Politics Upgrades"
+msgstr "政治カード"
+
+#: CitiesStats.cpp:217
+#, fuzzy
+msgid "Science Upgrades"
+msgstr "科学カード"
+
+#: CitiesStats.cpp:218
+#, fuzzy
+msgid "City Repairs"
+msgstr "街の発展"
+
+#: CitiesStats.cpp:220
+#, fuzzy
+msgid "Knights Moved"
+msgstr "諸国流浪の侍"
+
+#: CitiesStats.cpp:221
+msgid "Criminals Expelled"
+msgstr ""
+
+#: CitiesStats.cpp:222
+msgid "Knights Attacked"
+msgstr ""
+
+#: CitiesStats.cpp:223
+#, fuzzy
+msgid "Coommercial Harbor Used"
+msgstr "沿岸商業区"
+
+#: CitiesStats.cpp:228 Strings.cpp:660
+msgid "Merchant Fleet"
+msgstr "商船"
+
+#: CitiesStats.cpp:233 Strings.cpp:618
+msgid "Bishop"
+msgstr "司教"
+
+#: CitiesStats.cpp:234 Strings.cpp:637
+msgid "Constitution"
+msgstr "憲法"
+
+#: CitiesStats.cpp:235 Strings.cpp:642
+msgid "Deserter"
+msgstr "敗走兵"
+
+#: CitiesStats.cpp:236 Strings.cpp:643
+msgid "Diplomat"
+msgstr "外交官"
+
+#: CitiesStats.cpp:237 Strings.cpp:653
+msgid "Intrigue"
+msgstr "密通"
+
+#: CitiesStats.cpp:238 Strings.cpp:689
+msgid "Saboteur"
+msgstr "工作員"
+
+#: CitiesStats.cpp:239 Strings.cpp:718
+msgid "Spy"
+msgstr "密偵"
+
+#: CitiesStats.cpp:240 Strings.cpp:737
+msgid "Warlord"
+msgstr "将軍"
+
+#: CitiesStats.cpp:243 Strings.cpp:607
+msgid "Alchemist"
+msgstr "アルケミスト"
+
+#: CitiesStats.cpp:244 Strings.cpp:638
+msgid "Crane"
+msgstr "クレーン"
+
+#: CitiesStats.cpp:245 Strings.cpp:648
+msgid "Engineer"
+msgstr "技術者"
+
+#: CitiesStats.cpp:246 Strings.cpp:654
+msgid "Inventor"
+msgstr "発明家"
+
+#: CitiesStats.cpp:248 Strings.cpp:658
+msgid "Medicine"
+msgstr "医学"
+
+#: CitiesStats.cpp:250 Strings.cpp:675
+msgid "Printer"
+msgstr "印刷業"
+
+#: CitiesStats.cpp:251 Strings.cpp:685
+msgid "Road Building"
+msgstr "道路工事"
+
+#: CitiesStats.cpp:252 Strings.cpp:717
+msgid "Smith"
+msgstr "鍛冶屋"
+
+#: Strings.cpp:605
+#, fuzzy
+msgid "Activate a knight"
+msgstr "騎士のアクティブ化。"
+
+#: Strings.cpp:606
+msgid "Activate all your knights for free."
+msgstr "すべての騎士をアクティブ化する。"
+
+#: Strings.cpp:608
+msgid ""
+"Allows players to use an active knight to expel criminals before the dice "
+"are rolled, if it is their turn."
+msgstr ""
+"ダイスを振る前に、盗賊撃退のため、アクティブ化した騎士の使用を許可する。"
+
+#: Strings.cpp:609
+msgid ""
+"All players with more Victory Points than you must give you 2 resources or "
+"commodities of their choice."
+msgstr ""
+"使用者より勝利点の高い、すべてのプレイヤーは、使用者に二枚の、資源か物産を、"
+"支払わなければならぬ。"
+
+#: Strings.cpp:610
+msgid ""
+"All players with at least as many Victory Points as you lose half of the "
+"resource or commodity cards in their hand."
+msgstr "使用者の勝利点以上のプレイヤーは、手中の資源か物産の半分を失う。"
+
+#: Strings.cpp:612
+#, fuzzy
+msgid "Attack another knight"
+msgstr "相手の騎士を攻撃"
+
+#: Strings.cpp:613
+msgid "Barbarians"
+msgstr "蛮人"
+
+#: Strings.cpp:614
+msgid "Barbarians are delayed for 1 round"
+msgstr "蛮人を、1 ラウンド無効化する。"
+
+#: Strings.cpp:615
+#, fuzzy
+msgid "Basic knight"
+msgstr "軽装歩兵"
+
+#: Strings.cpp:616
+#, fuzzy
+msgid "Basic knights"
+msgstr "軽装歩兵"
+
+#: Strings.cpp:617
+msgid ""
+"Before the dice are rolled, select a result for each numbered die.  The "
+"event die rolls normally."
+msgstr "使用者が次に振るダイスの目を、自由に決められる。"
+
+#: Strings.cpp:619
+#, fuzzy
+msgid "Build a basic knight"
+msgstr "軽装歩兵の購入"
+
+#: Strings.cpp:620
+msgid "Build a city for 2 ore and 1 wheat."
+msgstr "街をひとつ、鉄二枚と麦一枚で建設できる。"
+
+#: Strings.cpp:621
+#, fuzzy
+msgid "Build a city walls"
+msgstr "%s は、城壁の建設を取り消した。"
+
+#: Strings.cpp:622
+#, fuzzy
+msgid "Build a mighty knight"
+msgstr "%s は、騎士を騎兵にアップグレードさせた。"
+
+#: Strings.cpp:623
+#, fuzzy
+msgid "Build a strong knight"
+msgstr "%s が、騎士を重装歩兵にアップグレードさせた。"
+
+#: Strings.cpp:624
+msgid "Cards To Give"
+msgstr "渡すカード"
+
+#: Strings.cpp:625
+msgid "Cards To Steal"
+msgstr "盗むカード"
+
+#: Strings.cpp:626
+msgid "Change the deck of Politics progress cards."
+msgstr "政治カードのデッキを変更"
+
+#: Strings.cpp:627
+msgid "Change the deck of Science progress cards."
+msgstr "科学カードのデッキを変更。"
+
+#: Strings.cpp:628
+msgid "Change the deck of Trade progress cards."
+msgstr "貿易カードのデッキを変更。"
+
+#: Strings.cpp:629
+msgid "Cities and Knights"
+msgstr "都市国家と騎士"
+
+#: Strings.cpp:630
+msgid ""
+"Cities and Knights is a whole new way of playing Settlers.  Barbarians "
+"attack, knights defend, cities are pillaged or grow.  Politics, trade and "
+"science take on major roles in determining who wins, and who winds up on the "
+"end of a barbarian axe.\n"
+"\n"
+"Cities and Knights is not for the faint of heart.  Games last longer and are "
+"far more competitive than a Standard or Seafarers game, but the strategic "
+"choices are greater and more challenging than ever! "
+msgstr ""
+"都市国家と騎士は斬新なカタンである。蛮人の侵攻や騎士による攻防、都市の略奪や"
+"発展がある　。政治力、貿易力、科学力が勝利を決する。蛮人の斧の餌食となるのは"
+"誰ぞ？\n"
+"\n"
+"都市国家と騎士は軟弱な馴れ合いゲームなどでは無い。汝等には積極的な闘争力が求"
+"められる。カタンや海カタンよりも、はるかに攻撃的で、多彩な戦略性を有して居"
+"る。"
+
+#: Strings.cpp:631
+msgid "Cities and Knights (+3 points)"
+msgstr "都市国家と騎士（+3 ポイント）"
+
+#: Strings.cpp:632
+msgid "City Upgrades"
+msgstr "街の発展"
+
+#: Strings.cpp:633
+#, fuzzy
+msgid "City walls"
+msgstr "城壁"
+
+#: Strings.cpp:639
+#, fuzzy
+msgid "Defender points"
+msgstr "防御点"
+
+#: Strings.cpp:640
+msgid "Delay barbarians"
+msgstr "蛮人の無効化"
+
+#: Strings.cpp:641
+msgid ""
+"Delay the barbarians for one or two rounds.  This lets players get their "
+"feet on the ground before the first invasion."
+msgstr "蛮人の侵攻を1, 2ラウンド無効化させる。"
+
+#: Strings.cpp:644
+msgid "Discard"
+msgstr "破棄"
+
+#: Strings.cpp:645
+msgid "Discard 1 Progress Card"
+msgstr "発展カードを一枚捨てよ。"
+
+#: Strings.cpp:646
+msgid ""
+"Displace an opponent's knight on an intersection next to a road or ship you "
+"own."
+msgstr "使用者の、道か船が当たる場所にある、他人の騎士を一体、取り除く。"
+
+#: Strings.cpp:647
+msgid "Drag and drop dice to select them."
+msgstr "ダイスをドラッグ＆ドロップして選択。"
+
+#: Strings.cpp:649
+#, fuzzy
+msgid "Expel criminals"
+msgstr "盗人の追放"
+
+#: Strings.cpp:650
+msgid ""
+"For each opponent you select, offer 1 resource card from your hand.  They "
+"must give you 1 commodity card of their choice, unless they have none."
+msgstr ""
+"使用者の選んだ者に、それぞれ一枚の資源を与える。資源を与えられた者は、使用者"
+"に一個の物産を貢がねばならぬ。物産を持たぬ場合はこの限りではない。"
+
+#: Strings.cpp:651
+msgid ""
+"Instead of waiting until the first barbarian invasion, the robber is moved "
+"on a 7 from the first roll of the dice."
+msgstr "蛮族の初侵略を待たずして、初回の７の目から、盗賊が動く。"
+
+#: Strings.cpp:652
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr ""
+"このターンにおいて、道二本か、船二隻か、あるいは片方ずつを、建設できる。"
+
+#: Strings.cpp:656
+msgid "Knights errant"
+msgstr "諸国流浪の侍"
+
+#: Strings.cpp:661
+#, fuzzy
+msgid "Mighty knight"
+msgstr "騎兵"
+
+#: Strings.cpp:662
+#, fuzzy
+msgid "Mighty knights"
+msgstr "騎兵"
+
+#: Strings.cpp:664
+#, fuzzy
+msgid "Move a knight"
+msgstr "騎士の移動"
+
+#: Strings.cpp:665
+msgid ""
+"Move the robber or pirate.  In addition, steal 1 card from the hand of every "
+"player with a city or settlement on the new robber tile."
+msgstr ""
+"盗賊か海賊を動かす。さらに、動かした先にある土地の所有者全員から、一枚ずつ資"
+"源を奪える。"
+
+#: Strings.cpp:666
+msgid "No mercy from the robber"
+msgstr "無慈悲なる盗賊"
+
+#: Strings.cpp:667
+msgid "OK"
+msgstr "OK"
+
+#: Strings.cpp:668
+msgid "1 Victory Point!"
+msgstr "１勝利点。"
+
+#: Strings.cpp:670
+msgid "Place a city walls for free."
+msgstr "城壁を建造できる。"
+
+#: Strings.cpp:671
+msgid "Play Card"
+msgstr "カードの使用"
+
+#: Strings.cpp:673
+msgid "Politics cards"
+msgstr "政治カード"
+
+#: Strings.cpp:674
+#, fuzzy
+msgid "Politics metropolis"
+msgstr "政治メトロポリス"
+
+#: Strings.cpp:676
+msgid "Promote two different knights one level for free."
+msgstr "二つの騎士を、１レベルアップグレードできる。"
+
+#: Strings.cpp:677
+msgid "Purchase one city upgrade for 1 commodity less."
+msgstr "街のアップグレードに必要な物産の枚数を、一枚減らす。"
+
+#: Strings.cpp:678
+msgid "Receive 2 ore for each ore tile on which you have a city or settlement."
+msgstr "使用者の所有する鉄の土地ひとつにつき、鉄二枚を得る。"
+
+#: Strings.cpp:679
+msgid ""
+"Receive 2 wheat for each wheat tile on which you have a city or settlement."
+msgstr "使用者が所有する麦の土地ひとつにつき、麦二枚を得る。"
+
+#: Strings.cpp:680
+msgid ""
+"Remove one open road from the board.  If you remove your own road, you may "
+"then place it elsewhere immediately."
+msgstr ""
+"道を一本、取り去る。もし、使用者の所有する道であった場合、好きな場所に移すこ"
+"とができる。"
+
+#: Strings.cpp:681
+msgid ""
+"Remove one open road or ship from the board.  If you remove your own road or "
+"ship, you may then place it elsewhere immediately."
+msgstr ""
+"道か船をひとつ、取り去る。もし、使用者の所有する道か船であった場合、好きな場"
+"所に移すことができる。"
+
+#: Strings.cpp:682
+#, fuzzy
+msgid "Repair a city"
+msgstr "%s よ、街を再建せよ。"
+
+#: Strings.cpp:683
+msgid "Resources"
+msgstr "資源"
+
+#: Strings.cpp:686
+msgid "Robber is not delayed by barbarians"
+msgstr "盗賊が蛮人の侵攻前から存在する。"
+
+#: Strings.cpp:687
+msgid "Roll Dice"
+msgstr "ダイスを振れ"
+
+#: Strings.cpp:688
+#, fuzzy
+msgid "Rounds before barbarians advance"
+msgstr "蛮人が侵攻開始するまでのラウンド数"
+
+#: Strings.cpp:691
+msgid "Science cards"
+msgstr "科学カード"
+
+#: Strings.cpp:692
+#, fuzzy
+msgid "Science metropolis"
+msgstr "科学メトロポリス"
+
+#: Strings.cpp:693
+msgid "Select"
+msgstr "選択"
+
+#: Strings.cpp:694
+msgid ""
+"Select a commodity.  All players must give you 1 of that commodity, unless "
+"they have none."
+msgstr ""
+"一種類の物産を選ぶ。すべてのプレイヤーの内、選ばれた物産を所有する者は、使用"
+"者に選ばれた物産を一枚、貢がねばならぬ。"
+
+#: Strings.cpp:695
+msgid ""
+"Select an opponent's city.  The city produces as a settlement until the "
+"owner pays 1 timber and 1 ore for repairs."
+msgstr ""
+"使用者は街をひとつ選ぶことができる。選ばれた街の所有者が、木と鉄を支払わぬま"
+"で、その町は村とみなす。"
+
+#: Strings.cpp:696
+msgid ""
+"Select an opponent.  Steal 1 progress card of your choice from their hand."
+msgstr "あるプレイヤーから、好きな発展カードを一枚、盗むことができる。"
+
+#: Strings.cpp:697
+msgid ""
+"Select an opponent.  They must remove one knight of their choice from the "
+"board.  You may then place an equivalent knight on the board, following the "
+"normal rules."
+msgstr ""
+"プレイヤーを一人選ぶ。選ばれたプレイヤーは、騎士をひとつ、取り除かねばならな"
+"い。しかる後に、使用者は、取り除かれた騎士と同格の騎士を、通常のルールに従っ"
+"て、配置できる。"
+
+#: Strings.cpp:698
+msgid "Select a Player for Desertion"
+msgstr "逃走させる騎士の、所有者を選べ。"
+
+#: Strings.cpp:699
+msgid "Select a Player to Rob"
+msgstr "誰から盗むか、選べ。"
+
+#: Strings.cpp:700
+msgid "Select a Player to Spy on"
+msgstr "密偵を送り込むプレイヤーを選べ。"
+
+#: Strings.cpp:701
+msgid "Select a Player to Trade With"
+msgstr "トレードするプレイヤーの選択"
+
+#: Strings.cpp:702
+msgid "Select A Progress Card"
+msgstr "発展カードを選べ。"
+
+#: Strings.cpp:703
+msgid ""
+"Select a resource.  All players must give you as many of that resource as "
+"they can, up to 2."
+msgstr ""
+"一種類の資源を選ぶ。その資源を所有するプレイヤーは、2枚を超えない範囲で、使用"
+"者に資源を貢がねばならぬ。"
+
+#: Strings.cpp:704
+msgid ""
+"Select a tile adjacent to a settlement or city you own and place the "
+"merchant on it.  As long as the merchant remains, you trade that resource to "
+"the bank at 2-1, and receive 1 Victory Point."
+msgstr ""
+"使用者の所有する村街の、ある土地に、商人を配置できる。商人がいる限り、その土"
+"地の資源を2-1でバンクとトレードでき、1 勝利点を得る。"
+
+#: Strings.cpp:705
+msgid "Select Dice"
+msgstr "ダイスの選択"
+
+#: Strings.cpp:706
+msgid "Select 1 card to give."
+msgstr "渡すカードを、一枚選べ。"
+
+#: Strings.cpp:707
+msgid "Select 1 card type to trade at 2-1."
+msgstr "2-1でトレードするカードを選べ。"
+
+#: Strings.cpp:708
+msgid "Select 1 commodity type to steal."
+msgstr "盗む物産の種類を選べ。"
+
+#: Strings.cpp:709
+msgid "Select 1 progress card."
+msgstr "発展カードを選べ。"
+
+#: Strings.cpp:710
+msgid ""
+"Select 1 resource or commodity.  This round, trade it to the bank at 2-1."
+msgstr ""
+"一種類の資源か物産を選ぶ。このラウンドにおいて、バンクと2-1でトレードできる。"
+
+#: Strings.cpp:711
+msgid "Select 1 resource to gain."
+msgstr "得る資源を選べ。"
+
+#: Strings.cpp:712
+msgid "Select 1 resource type to steal."
+msgstr "盗む資源の選択"
+
+#: Strings.cpp:713
+msgid "Select 2 cards to give."
+msgstr "渡すカードを、二枚選べ。"
+
+#: Strings.cpp:714
+msgid "Select one die of each color."
+msgstr "各色のダイスの目を選べ。"
+
+#: Strings.cpp:715
+#, fuzzy
+msgid "Show Barbarians tab"
+msgstr "蛮人"
+
+#: Strings.cpp:716
+msgid "Show Upgrades tab"
+msgstr ""
+
+#: Strings.cpp:719
+msgid "Spy Cards"
+msgstr "密偵カード"
+
+#: Strings.cpp:720
+msgid "Steal Card"
+msgstr "盗賊カード"
+
+#: Strings.cpp:721
+#, fuzzy
+msgid "Strong knight"
+msgstr "重装歩兵"
+
+#: Strings.cpp:722
+#, fuzzy
+msgid "Strong knights"
+msgstr "重装歩兵"
+
+#: Strings.cpp:723
+msgid ""
+"Switch any two roll chips on the board, except for those numbered 2, 12, 6, "
+"or 8."
+msgstr ""
+"ボード上の、ある二箇所の土地の数字を交換できる。ただし、2, 12, 6, 8の数字は交"
+"換できない。"
+
+#: Strings.cpp:724
+msgid ""
+"Take 2 resource or commodity cards of your choice from any one opponent with "
+"more Victory Points than you."
+msgstr ""
+"使用者より勝利点の高い者一人から、好きな資源か物産を二枚、得ることができる。"
+
+#: Strings.cpp:725
+msgid "The barbarians advance."
+msgstr "蛮人の侵攻"
+
+#: Strings.cpp:726
+msgid "The barbarians attack and are repelled!"
+msgstr "蛮人が侵略せり。撃退に成功。"
+
+#: Strings.cpp:727
+msgid "The barbarians attack and lay waste!"
+msgstr "蛮人が侵略せり。被害甚大。"
+
+#: Strings.cpp:729
+msgid "Trade cards"
+msgstr "貿易カード"
+
+#: Strings.cpp:730
+#, fuzzy
+msgid "Trade metropolis"
+msgstr "貿易メトロポリス"
+
+#: Strings.cpp:732
+#, fuzzy
+msgid "Upgrade politics"
+msgstr "政治力のアップグレード"
+
+#: Strings.cpp:733
+#, fuzzy
+msgid "Upgrade science"
+msgstr "科学力のアップグレード"
+
+#: Strings.cpp:734
+#, fuzzy
+msgid "Upgrade trade"
+msgstr "貿易力のアップグレード"
+
+#: Strings.cpp:735
+#, fuzzy
+msgid "Use commercial harbor"
+msgstr "沿岸商業区の使用"
+
+#: Strings.cpp:736
+msgid "Use Your Aqueduct"
+msgstr "Aaueductを使え"
+
+#: Strings.cpp:739
+msgid "Your Cards"
+msgstr "汝のカード"
+
+#: Strings.cpp:742
+#, c-format
+msgid "%s, activate a knight."
+msgstr "%s よ、アクティブ化する騎士を選べ。"
+
+#: Strings.cpp:743
+#, c-format
+msgid "%s activates a knight."
+msgstr "%s は、騎士をアクティブ化した。"
+
+#: Strings.cpp:744
+#, c-format
+msgid "%s, attack an opponent's knight."
+msgstr "%s よ、攻撃する騎士を選べ。"
+
+#: Strings.cpp:745
+#, c-format
+msgid "%s attacks a knight of %s."
+msgstr "%s は、%s の騎士を攻撃した。"
+
+#: Strings.cpp:746
+#, c-format
+msgid "Barbarians are delayed for %d rounds"
+msgstr "蛮人を、 %d ラウンド無効化する。"
+
+#: Strings.cpp:747
+#, c-format
+msgid "%s, discard 1 progress card."
+msgstr "%s よ、発展カードを一枚捨てよ。"
+
+#: Strings.cpp:748
+#, c-format
+msgid "%s discards 1 %s card."
+msgstr "%s よ、%s カードを、一枚捨てよ。"
+
+#: Strings.cpp:749
+#, c-format
+msgid "%s displaces a knight of %s."
+msgstr "%s は、%s の騎士を除去した。"
+
+#: Strings.cpp:750
+#, c-format
+msgid "%s expels criminals."
+msgstr "%s は、盗人を追放した。"
+
+#: Strings.cpp:751
+#, c-format
+msgid "%d %s from %s"
+msgstr "%3$s から、%1$d 枚の %2$s を"
+
+#: Strings.cpp:752
+#, fuzzy, c-format
+msgid "%s gives 1 card to %s as a wedding gift."
+msgstr "%s は、%s に、祝儀として、一枚のカード与えた。"
+
+#: Strings.cpp:753
+#, fuzzy, c-format
+msgid "%s gives %s to you as a wedding gift."
+msgstr "%s から祝儀として、%s を受け取った。"
+
+#: Strings.cpp:754
+#, c-format
+msgid "%s gives 2 cards to %s as a Wedding gift."
+msgstr "%s は、%sに、祝儀として、二枚のカードを与えた。"
+
+#: Strings.cpp:755
+#, c-format
+msgid "%s loses %s."
+msgstr "%s は、%s を失った。"
+
+#: Strings.cpp:756
+#, c-format
+msgid "%s loses a city walls."
+msgstr "%s は、城壁を失った。"
+
+#: Strings.cpp:757
+#, c-format
+msgid "%s loses the knight in the attack."
+msgstr "%s は、攻撃により、騎士を失った。"
+
+#: Strings.cpp:758
+#, c-format
+msgid "%s loses the knight."
+msgstr "%s は、騎士を失った。"
+
+#: Strings.cpp:759
+#, c-format
+msgid "%s loses the %s metropolis."
+msgstr "%s は、%s メトロポリスを失った。"
+
+#: Strings.cpp:760
+#, c-format
+msgid "%s moves a knight."
+msgstr "%s が、騎士を動かした。"
+
+#: Strings.cpp:761
+#, c-format
+msgid "%s, move your knight."
+msgstr "%s よ、騎士を動かせ。"
+
+#: Strings.cpp:762
+#, c-format
+msgid "%s, place a city."
+msgstr "%s よ、街を建設せよ。"
+
+#: Strings.cpp:763
+#, c-format
+msgid "%s, place a city walls."
+msgstr "%s よ、城壁を建設せよ。"
+
+#: Strings.cpp:764
+#, c-format
+msgid "%s, place a road."
+msgstr "%s よ、道を建設せよ。"
+
+#: Strings.cpp:765
+#, c-format
+msgid "%s, place a basic knight."
+msgstr "%s よ、軽装歩兵を設置せよ。"
+
+#: Strings.cpp:766
+#, c-format
+msgid "%s, place the merchant."
+msgstr "%s よ、商人を設置せよ。"
+
+#: Strings.cpp:767
+#, c-format
+msgid "%s places a basic knight."
+msgstr "%s が、軽装歩兵を設置した。"
+
+#: Strings.cpp:768
+#, c-format
+msgid "%s places a city walls."
+msgstr "%s は、城壁を建設した。"
+
+#: Strings.cpp:769
+#, c-format
+msgid "%s places the deserter."
+msgstr "%s が、敗走兵を設置した。"
+
+#: Strings.cpp:770
+#, c-format
+msgid "%s, place the deserter."
+msgstr "%s よ、敗走兵を設置せよ。"
+
+#: Strings.cpp:771
+#, c-format
+msgid "%s, place your metropolis."
+msgstr "%s よ、都市を設置せよ。"
+
+#: Strings.cpp:772
+#, fuzzy, c-format
+msgid "%s receives a progress card."
+msgstr "%s は、発展カードを得た。"
+
+#: Strings.cpp:773
+#, fuzzy, c-format
+msgid "%s receives %d %s from irrigation."
+msgstr "%s は、灌漑によって、%d 枚の %s を得た。"
+
+#: Strings.cpp:774
+#, fuzzy, c-format
+msgid "%s receives %d %s from mining."
+msgstr "%s は採掘によって、%d 枚の %sを得た。"
+
+#: Strings.cpp:775
+#, fuzzy, c-format
+msgid "%s receives 1 defender point."
+msgstr "%s は　1 防御点を得た。"
+
+#: Strings.cpp:776
+#, fuzzy, c-format
+msgid "%s receives 1 victory point from a %s card."
+msgstr "%s は、%s カードから、１勝利点を得た。"
+
+#: Strings.cpp:777
+#, c-format
+msgid "%s removes a road of %s."
+msgstr "%s は、%s の道を除去した。"
+
+#: Strings.cpp:778
+#, c-format
+msgid "%s removes a ship of %s."
+msgstr "%s は、%s の舟を除去した。"
+
+#: Strings.cpp:779
+#, c-format
+msgid "%s, repair a city."
+msgstr "%s よ、街を再建せよ。"
+
+#: Strings.cpp:780
+#, c-format
+msgid "%s repairs a city."
+msgstr "%s が、都市を再建した。"
+
+#: Strings.cpp:781
+#, c-format
+msgid "Roll a %d"
+msgstr "%d が振られた。"
+
+#: Strings.cpp:782
+#, c-format
+msgid "%s, sabotage a city."
+msgstr "%s よ、街を破壊せよ。"
+
+#: Strings.cpp:783
+#, c-format
+msgid "%s sabotages a city of %s."
+msgstr "%s は、%s の街を破壊した。"
+
+#: Strings.cpp:784
+#, c-format
+msgid "%s, select a city to reduce."
+msgstr "%s よ、過疎化させる街を選べ。"
+
+#: Strings.cpp:785
+#, c-format
+msgid "%s, select a resource or commodity to trade at 2-1."
+msgstr "%s よ、2-1でトレードしたい、資源か物産を、選べ。"
+
+#: Strings.cpp:786
+#, c-format
+msgid "%s, select a commodity to give to %s."
+msgstr "%s よ、%s に与える物産を選べ。"
+
+#: Strings.cpp:787
+#, c-format
+msgid "%s, select a commodity to steal."
+msgstr "%s よ、盗みたい物産を選べ。"
+
+#: Strings.cpp:788
+#, c-format
+msgid "%s, select a knight to attack with."
+msgstr "%s よ、攻撃させる騎士を選べ。"
+
+#: Strings.cpp:789
+#, c-format
+msgid "%s, select a knight to desert."
+msgstr "%s よ、敗走させる騎士を選べ。"
+
+#: Strings.cpp:790
+#, c-format
+msgid "%s, select a knight to displace."
+msgstr "%s よ、取り除く騎士を選べ。"
+
+#: Strings.cpp:791
+#, c-format
+msgid "%s, select a knight to expel criminals with."
+msgstr "%s よ、盗人を追い払う騎士を選べ。"
+
+#: Strings.cpp:792
+#, c-format
+msgid "%s, select a knight to move."
+msgstr "%s よ、動かす騎士を選べ。"
+
+#: Strings.cpp:793
+#, c-format
+msgid "%s, select a player for desertion."
+msgstr "%s よ、敗走兵を使うプレイヤーを選べ。"
+
+#: Strings.cpp:794
+#, c-format
+msgid "%s, select a player to rob."
+msgstr "%s よ、どのプレイヤーから盗むか選べ。"
+
+#: Strings.cpp:795
+#, c-format
+msgid "%s, select a player to spy on."
+msgstr "%s よ、密偵を送り込むプレイヤーを選べ。"
+
+#: Strings.cpp:796
+#, fuzzy, c-format
+msgid "%s, select a player to use the commercial harbor on."
+msgstr "%s よ、沿岸商業区を使うプレイヤーを選択せよ。"
+
+#: Strings.cpp:797
+#, c-format
+msgid "%s, select a progress card."
+msgstr "%s よ、発展カードを選べ。"
+
+#: Strings.cpp:798
+#, c-format
+msgid "%s, select a resource to give to %s."
+msgstr "%s よ、%s に与える資源を選べ。"
+
+#: Strings.cpp:799
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s よ、盗みたい資源を選べ。"
+
+#: Strings.cpp:800
+#, c-format
+msgid "%s, select a road or ship to remove."
+msgstr "%s よ、除去する道か船を選べ。"
+
+#: Strings.cpp:801
+#, c-format
+msgid "%s, select a road to remove."
+msgstr "%s よ、除去する道を選べ。"
+
+#: Strings.cpp:802
+#, c-format
+msgid "Select 1 card to steal from %s."
+msgstr "%s から盗むカードを、一枚選べ。"
+
+#: Strings.cpp:803
+#, c-format
+msgid "%s, select resources to lose."
+msgstr "%s よ、失う資源を選べ。"
+
+#: Strings.cpp:804
+#, c-format
+msgid "%s selects %s."
+msgstr "%s は %s を選んだ。"
+
+#: Strings.cpp:805
+#, c-format
+msgid "%s selects a deserter."
+msgstr "%s は、敗走させる騎士を選択した。"
+
+#: Strings.cpp:806
+#, c-format
+msgid "%s, select the dice for the next roll."
+msgstr "%s よ、次のダイスの目を選べ。"
+
+#: Strings.cpp:807
+#, c-format
+msgid "%s, select the first roll chip to switch."
+msgstr "%s よ、一つ目の、交換する土地を選べ。"
+
+#: Strings.cpp:808
+#, c-format
+msgid "%s, select the second roll chip to switch."
+msgstr "%s よ、二つ目の、交換する土地を選べ。"
+
+#: Strings.cpp:809
+#, c-format
+msgid "Select 2 cards to steal from %s."
+msgstr "%s から盗む、カードを、二枚選べ。"
+
+#: Strings.cpp:810
+#, c-format
+msgid "%s, select 2 cards to steal from %s."
+msgstr "%s よ、%s から盗む、2枚のカードを選べ。"
+
+#: Strings.cpp:811
+#, c-format
+msgid "%s, select 2 resources or commodities to give to the wedding."
+msgstr "%s よ、祝儀として与える、二枚の資源か物産を、選べ。"
+
+#: Strings.cpp:812
+#, c-format
+msgid "Select 1 commodity to give to %s."
+msgstr "%s に渡す物産を選べ。"
+
+#: Strings.cpp:813
+#, c-format
+msgid "%s, select 1 progress card to steal from %s."
+msgstr "%s よ、%s から盗む、発展カードを、一枚選べ。"
+
+#: Strings.cpp:814
+#, c-format
+msgid "Select 1 resource to give to %s."
+msgstr "%s に渡す資源を選べ。"
+
+#: Strings.cpp:815
+#, c-format
+msgid "%s steals %s."
+msgstr "%s は %s を盗んだ。"
+
+#: Strings.cpp:816
+#, c-format
+msgid "%s steals %s from you."
+msgstr "%s は、%s を盗んだ。"
+
+#: Strings.cpp:817
+#, c-format
+msgid "%s steals 1 card from %s."
+msgstr "%s は、%sから、一枚のカードを盗んだ。"
+
+#: Strings.cpp:818
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr "%s は、1 枚の %s を盗んだ。"
+
+#: Strings.cpp:819
+#, c-format
+msgid "%s steals 1 progress card from %s."
+msgstr "%s は、%s から、一枚の発展カードを盗んだ。"
+
+#: Strings.cpp:820
+#, c-format
+msgid "%s steals 2 cards from %s."
+msgstr "%s は、%s から、二枚のカードを盗んだ。"
+
+#: Strings.cpp:821
+#, c-format
+msgid "%s steals nothing."
+msgstr "%s は何も盗まなかった。"
+
+#: Strings.cpp:822
+#, c-format
+msgid "%s swaps a %d chip for a %d chip."
+msgstr "%s は、%d と、%d の数字を入れ替えた。"
+
+#: Strings.cpp:823
+#, c-format
+msgid "%s takes the %s metropolis."
+msgstr "%s は、%s メトロポリス　を得た。"
+
+#: Strings.cpp:824
+#, fuzzy, c-format
+msgid "%s trades 1 resource to %s for 1 commodity using the commercial harbor."
+msgstr "%s は沿岸商業区を用いて、%s に物産を渡し、資源を得た。"
+
+#: Strings.cpp:825
+#, c-format
+msgid "%s undoes a basic knight."
+msgstr "%s が、軽装歩兵の設置を取り消した。"
+
+#: Strings.cpp:826
+#, c-format
+msgid "%s undoes a city walls."
+msgstr "%s は、城壁の建設を取り消した。"
+
+#: Strings.cpp:827
+#, c-format
+msgid "%s undoes a knight activate."
+msgstr "%s は、騎士のアクティブ化を取り消した。"
+
+#: Strings.cpp:828
+#, c-format
+msgid "%s undoes a knight move."
+msgstr "%s は、騎士の移動を取り消した。"
+
+#: Strings.cpp:829
+#, c-format
+msgid "%s undoes a knight upgrade."
+msgstr "%s は、騎士のアップグレードを取り消した。"
+
+#: Strings.cpp:830
+#, c-format
+msgid "%s undoes the %s upgrade."
+msgstr "%s は、%s のアップグレードを取り消した。"
+
+#: Strings.cpp:831
+#, c-format
+msgid "%s upgrades to a mighty knight."
+msgstr "%s は、騎士を騎兵にアップグレードさせた。"
+
+#: Strings.cpp:832
+#, c-format
+msgid "%s upgrades to a strong knight."
+msgstr "%s が、騎士を重装歩兵にアップグレードさせた。"
+
+#: Strings.cpp:833
+#, c-format
+msgid "%s upgrades %s to level %d."
+msgstr "%s は、%s を、レベル %d にアップグレードした。"
+
+#: Strings.cpp:834
+#, c-format
+msgid "%s, upgrade to a mighty knight."
+msgstr "%s よ、騎士を騎兵へアップグレードせよ。"
+
+#: Strings.cpp:835
+#, c-format
+msgid "%s, upgrade to a strong knight."
+msgstr "%s よ、騎士を重装歩兵にアップグレードせよ。"
+
+#: Strings.cpp:836
+#, c-format
+msgid "%s, use your aqueduct."
+msgstr "%s よ、上水道の恩恵を受けよ。"
+
+#: Strings.cpp:837
+#, fuzzy, c-format
+msgid "%s uses the merchant fleet to trade %s."
+msgstr "%s は商船を用いて %s とトレードした。"
+
+#: Strings.cpp:838
+#, c-format
+msgid "Waiting for %s to activate a knight."
+msgstr "%s が騎士をアクティブ化中。"
+
+#: Strings.cpp:839
+#, c-format
+msgid "Waiting for %s to attack an opponent's knight."
+msgstr "%s が、攻撃する騎士を選択中。"
+
+#: Strings.cpp:840
+#, c-format
+msgid "Waiting for %s to discard 1 progress card."
+msgstr "%s が、捨てる発展カードを選択中。"
+
+#: Strings.cpp:841
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "%s が、失う資源を選択中。"
+
+#: Strings.cpp:842
+#, c-format
+msgid "Waiting for %s to move a knight."
+msgstr "%s が、騎士を移動中。"
+
+#: Strings.cpp:843
+#, c-format
+msgid "Waiting for %s to place a basic knight."
+msgstr "%s が、軽装歩兵を設置中。"
+
+#: Strings.cpp:844
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "%s が街を建設中。"
+
+#: Strings.cpp:845
+#, c-format
+msgid "Waiting for %s to place a city walls."
+msgstr "%s が、城壁を建設中。"
+
+#: Strings.cpp:846
+#, c-format
+msgid "Waiting for %s to place a metropolis."
+msgstr "%s が、都市を設置中。"
+
+#: Strings.cpp:847
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "%s が道を建設中。"
+
+#: Strings.cpp:848
+#, c-format
+msgid "Waiting for %s to place the deserter."
+msgstr "%s が、敗走兵を設置中。"
+
+#: Strings.cpp:849
+#, c-format
+msgid "Waiting for %s to place the merchant."
+msgstr "%s が、商人を設置中。"
+
+#: Strings.cpp:850
+#, c-format
+msgid "Waiting for %s to reduce a city."
+msgstr "%s が、過疎化させる街を選択中。"
+
+#: Strings.cpp:851
+#, c-format
+msgid "Waiting for %s to repair a city."
+msgstr "%s が、街を再建中。"
+
+#: Strings.cpp:852
+#, c-format
+msgid "Waiting for %s to sabotage a city."
+msgstr "%s が、街を破壊中。"
+
+#: Strings.cpp:853
+#, c-format
+msgid "Waiting for %s to select a commodity to trade."
+msgstr "%s が、トレードする物産を選択中。"
+
+#: Strings.cpp:854
+#, c-format
+msgid "Waiting for %s to select a resource or commodity to trade at 2-1."
+msgstr "%s が、2-1でトレードする、資源か物産を、選択中。"
+
+#: Strings.cpp:855
+#, c-format
+msgid "Waiting for %s to select a commodity to steal."
+msgstr "%s が、盗む物産を選択中。"
+
+#: Strings.cpp:856
+#, c-format
+msgid "Waiting for %s to select a knight to attack with."
+msgstr "%s が、攻撃させる岸を選択中。"
+
+#: Strings.cpp:857
+#, c-format
+msgid "Waiting for %s to select a knight to desert."
+msgstr "%s が、敗走させる騎士を選択中。"
+
+#: Strings.cpp:858
+#, c-format
+msgid "Waiting for %s to select a knight to displace."
+msgstr "%s が、取り除く騎士を選択中。"
+
+#: Strings.cpp:859
+#, c-format
+msgid "Waiting for %s to select a knight to expel criminals with."
+msgstr "%s が、盗人を追い払う騎士を選択中。"
+
+#: Strings.cpp:860
+#, c-format
+msgid "Waiting for %s to select a knight to move."
+msgstr "%s が、動かす騎士を選択中。"
+
+#: Strings.cpp:861
+#, c-format
+msgid "Waiting for %s to select a player for desertion."
+msgstr "%s が、敗走兵を使うプレイヤーを選択中。"
+
+#: Strings.cpp:862
+#, c-format
+msgid "Waiting for %s to select a player to rob."
+msgstr "%s が、どのプレイヤーから盗むかを選択中。"
+
+#: Strings.cpp:863
+#, c-format
+msgid "Waiting for %s to select a player to spy on."
+msgstr "%s が、密偵を送り込むプレイヤーを選択中。"
+
+#: Strings.cpp:864
+#, fuzzy, c-format
+msgid "Waiting for %s to select a player to use the commercial harbor on."
+msgstr "%s が、沿岸商業区を使うプレイヤーを選択中。"
+
+#: Strings.cpp:865
+#, c-format
+msgid "Waiting for %s to select a progress card."
+msgstr "%s が、発展カードを選択中。"
+
+#: Strings.cpp:866
+#, c-format
+msgid "Waiting for %s to select a resource to trade."
+msgstr "%s が、トレードする資源を選択中。"
+
+#: Strings.cpp:867
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "%s が、盗む資源を選択中。"
+
+#: Strings.cpp:868
+#, c-format
+msgid "Waiting for %s to select a road or ship to remove."
+msgstr "%s が、除去する道か舟を選択中。"
+
+#: Strings.cpp:869
+#, c-format
+msgid "Waiting for %s to select a road to remove."
+msgstr "%s が、除去する道を選択中。"
+
+#: Strings.cpp:870
+#, c-format
+msgid "Waiting for %s to select 1 progress card to steal from %s."
+msgstr "%s が、%s から盗む、発展カードを選択中。"
+
+#: Strings.cpp:871
+#, c-format
+msgid "Waiting for %s to select the dice for the next roll."
+msgstr "%s が、次のダイスの目を選択中、"
+
+#: Strings.cpp:872
+#, c-format
+msgid "Waiting for %s to select the first roll chip to switch."
+msgstr "%s が、一つ目の、交換する土地を選択中。"
+
+#: Strings.cpp:873
+#, c-format
+msgid "Waiting for %s to select the second roll chip to switch."
+msgstr "%s が、二つ目の、交換する土地を選択中。"
+
+#: Strings.cpp:874
+#, c-format
+msgid "Waiting for %s to select 2 cards to steal from %s."
+msgstr "%s が、%s から盗む、2枚のカードを選択中。"
+
+#: Strings.cpp:875
+#, c-format
+msgid "Waiting for %s to give 2 resources or commodities to the wedding."
+msgstr "%s が、祝儀として与える、二枚の資源か物産を選択中。"
+
+#: Strings.cpp:876
+#, fuzzy, c-format
+msgid "Waiting for %s and %s to trade using the commercial harbor."
+msgstr "%s と、%s が、沿岸商業句を用いてトレード中。"
+
+#: Strings.cpp:877
+#, c-format
+msgid "Waiting for %s to upgrade to a mighty knight."
+msgstr "%s が、騎士を騎兵へアップグレード中。"
+
+#: Strings.cpp:878
+#, c-format
+msgid "Waiting for %s to upgrade to a strong knight."
+msgstr "%s が、騎士を重装歩兵へアップグレード中。"
+
+#: Strings.cpp:879
+#, c-format
+msgid "Waiting for %s to use their aqueduct."
+msgstr "%s が上水道を使用中。"
+
+#: Strings.cpp:880
+#, c-format
+msgid "Waiting for %s to withdraw a knight."
+msgstr "%s が、騎士を退却中。"
+
+#: Strings.cpp:881
+#, c-format
+msgid "%s withdraws a knight."
+msgstr "%s は、騎士を退却させた。"
+
+#: Strings.cpp:882
+#, c-format
+msgid "%s, withdraw your knight."
+msgstr "%s よ、騎士を退却させよ。"
+
+#: Strings.cpp:883
+#, c-format
+msgid "You receive a %s card."
+msgstr "%s カードを得た。"
+
+#: Strings.cpp:884
+#, fuzzy, c-format
+msgid "You trade 1 %s to %s for 1 %s using the commercial harbor."
+msgstr "沿岸商業区を用いて、%2$s に、%1$s を渡し、%3$s を得た。"
+
+#~ msgid "Buy City Walls"
+#~ msgstr "城壁の購入"
+
+#~ msgid "Upgrade to a Strong Knight"
+#~ msgstr "重装歩兵へのアップグレード"
+
+#~ msgid "Upgrade to a Mighty Knight"
+#~ msgstr "騎兵へのアップグレード"
+
+#~ msgid "Repair a Sabotaged City"
+#~ msgstr "壊された街を元に戻す"
+
+#, fuzzy
+#~ msgid "MerchantDraw"
+#~ msgstr "商人"
+
+#~ msgid "Politics cards: %s"
+#~ msgstr "政治カード：%s"
+
+#~ msgid "%d %s"
+#~ msgstr "%d 枚の %s"
+
+#~ msgid "Science cards: %s"
+#~ msgstr "科学カード：%s"
+
+#~ msgid "Trade cards: %s"
+#~ msgstr "貿易力カード:%s"
+
+#~ msgid "Rolls"
+#~ msgstr "ダイスの目"

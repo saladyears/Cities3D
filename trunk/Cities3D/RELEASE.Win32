@@ -1,0 +1,46 @@
+How to release the Win32 build.
+
+PREPARING THE RELEASE
+
+1.  Get the latest version of all code, build it in Release mode and test it 
+    to make sure it runs and plays.
+2.  Verify that all changes you have are checked in or reverted.
+3.  Update the language files.  In /trunk/Cities3D/Cities3D/distribute/locale:
+    a.  Run update_po_files.bat.
+    b.  Check in the updated .po files.
+    c.  Run format_mo_files.bat.
+    d.  Check in the updated .mo files.
+4.  Update the installer at /trunk/Cities3D/Cities3D/installer/Cities3D.nsi if
+    any files have been added or removed from the distribution.
+5.  Update game versions.
+    a.  Update the game version in 
+        /trunk/Cities3D/Cities3D/src/RulesCore/GameEngine.cpp.
+    b.  Update the Cities Online version in 
+        /trunk/Cities3D/Cities3D/src/CitiesOnline/Launcher.cpp.
+    c.  Build the project in Release mode.
+    d.  Check in the updated files.
+6.  Run the installer.
+    a.  You must have the FindProc NSIS plugin installed.  
+        (http://nsis.sourceforge.net/FindProcDLL_plug-in)
+    b.  Right-click on the install file at 
+        /trunk/Cities3D/Cities3D/installer/CitiesOnline.nsi and select "Compile
+        NSIS script".
+    c.  Run the installer and verify that it:
+        i.   Refuses to install with Cities3D or CitiesOnline running.
+        ii.  Uninstalls cleanly.
+        iii. Installs and runs with the new version number visible.
+    d.  Zip the install executable to a file called 
+        Install_CitiesOnline_v<version>.zip.
+7.  Branch the entire trunk in SVN from HEAD to /release/v<version>.
+
+PUBLISHING THE RELEASE
+
+1.  Upload the install .zip file to the site installs directory.
+2.  Delete any old install versions from the site installs directory.
+3.  Update any site pages to point at the new version.
+4.  Close any related tickets on Trac.
+5.  Add the new version number for bug reports on Trac.
+6.  Create the release notes page for the new version on Trac.
+7.  Update the site version to match the CitiesOnline launcher version.
+8.  Create a new blog post at s3dconnector.net.
+9.  Create a new Announcements post at settlersonline.net.

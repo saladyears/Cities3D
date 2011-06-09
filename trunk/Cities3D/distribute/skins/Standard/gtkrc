@@ -1,0 +1,244 @@
+style "Cities3D-default"
+{
+  GtkWidget::interior_focus         = 1
+  GtkWidget::focus_padding          = 1
+  GtkWidget::cursor_color           = "#ffffff"
+  GtkWidget::secondary_cursor_color = "#ffffff"
+  GtkWidget::focus_line_pattern     = "\3\1"
+  GtkButton::default_border         = { 0, 0, 0, 0 }
+  GtkButton::default_outside_border = { 0, 0, 0, 0 }
+  GtkRange::trough_border           = 2
+  GtkRange::slider_width            = 11
+  GtkRange::stepper_size            = 12
+  GtkMenuBar::default_border        = {0,0,0,0}
+  GtkCheckButton::indicator_size    = 12
+
+  xthickness            = 2
+  ythickness            = 2
+
+  fg[NORMAL]        = @fg_color
+  fg[PRELIGHT]      = @fg_color
+  fg[SELECTED]      = @selected_fg_color
+  fg[ACTIVE]        = @fg_color
+  fg[INSENSITIVE]   = darker (@bg_color)
+
+  bg[NORMAL]        = @bg_color
+  bg[PRELIGHT]      = shade (1.02, @bg_color)
+  bg[SELECTED]	    = @selected_bg_color
+  bg[INSENSITIVE]   = @bg_color
+  bg[ACTIVE]        = shade (0.9, @bg_color)
+
+  base[NORMAL]      = @base_color
+  base[PRELIGHT]    = shade (0.95, @bg_color)
+  base[ACTIVE]      = shade (0.9, @selected_bg_color)
+  base[SELECTED]    = @selected_bg_color
+  base[INSENSITIVE] = @bg_color
+
+  text[NORMAL]      = @text_color 
+  text[PRELIGHT]    = @text_color
+  text[ACTIVE]      = @selected_fg_color
+  text[SELECTED]    = @selected_fg_color
+  text[INSENSITIVE] = darker (@bg_color)
+
+  engine "pixmap"
+  {
+     image
+     {
+       function         = SHADOW
+       recolorable      = FALSE
+       file             = "shadow.png"
+       border           = { 5, 5, 5, 5 }
+       stretch          = TRUE
+     }
+     image
+     {
+       function         = SHADOW_GAP
+       recolorable      = TRUE
+       file             = "shadow-gap.png"
+       border           = { 1, 1, 1, 1 }
+       stretch          = TRUE
+       gap_start_file   = "shadow-gap-top.png"
+       gap_start_border = { 0, 0, 1, 0 }
+       gap_end_file     = "shadow-gap-top.png"
+       gap_end_border   = { 0, 0, 1, 0 }
+       gap_side         = TOP
+     }
+    image
+    {
+       function         = VLINE
+       recolorable      = TRUE
+       file             = "line-v.png"
+       border           = { 0, 0, 0, 0 }
+       stretch          = TRUE
+    }
+    image
+    {
+      function          = HLINE
+      recolorable       = TRUE
+      file              = "line-h.png"
+      border            = { 0, 0, 0, 0 }
+      stretch           = TRUE
+    }
+    image
+    {
+      function          = CHECK
+      state             = NORMAL
+      shadow            = OUT
+      recolorable       = TRUE
+      overlay_file      = "check1.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+    image
+    {
+      function          = CHECK
+      state             = PRELIGHT
+      shadow            = OUT
+      recolorable       = TRUE
+      overlay_file      = "check1.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+    image
+    {
+      function          = CHECK
+      state             = ACTIVE
+      shadow            = OUT
+      recolorable       = TRUE
+      overlay_file      = "check2.png" 
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+    image
+    {
+      function          = CHECK
+      state             = INSENSITIVE
+      shadow            = OUT
+      recolorable       = TRUE
+      overlay_file      = "check1.png" 
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+
+    image
+    {
+      function          = CHECK
+      shadow            = IN
+      state             = NORMAL
+      recolorable       = TRUE
+      overlay_file      = "check2.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+    image
+    {
+      function          = CHECK
+      shadow            = IN
+      state             = PRELIGHT
+      recolorable       = TRUE
+      overlay_file      = "check2.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+    image
+    {
+      function          = CHECK
+      shadow            = IN
+      state             = ACTIVE
+      recolorable       = TRUE
+      overlay_file      = "check2.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+    image
+    {
+      function          = CHECK
+      shadow            = IN
+      state             = INSENSITIVE
+      recolorable       = TRUE
+      overlay_file      = "check2.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+    image
+    {
+      function          = OPTION
+      state             = NORMAL
+      shadow            = OUT
+      recolorable       = TRUE
+      overlay_file      = "option1.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+    image
+    {
+      function          = OPTION
+      state             = NORMAL
+      shadow            = IN
+      recolorable       = TRUE
+      overlay_file      = "option2.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+    image
+    {
+      function          = OPTION
+      state             = PRELIGHT
+      shadow            = IN
+      recolorable       = TRUE
+      overlay_file      = "option2.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+    image
+    {
+      function          = OPTION
+      state             = ACTIVE
+      shadow            = IN
+      recolorable       = TRUE
+      overlay_file      = "option1.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+    image
+    {
+      function          = OPTION
+      state             = ACTIVE
+      shadow            = OUT
+      recolorable       = TRUE
+      overlay_file      = "option2.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+    image
+    {
+      function          = OPTION
+      state             = PRELIGHT
+      shadow            = OUT
+      recolorable       = TRUE
+      overlay_file      = "option1.png"
+      overlay_border    = { 0, 0, 0, 0 }
+      overlay_stretch   = FALSE
+    }
+
+  }
+}
+
+class "GtkCheckButton"     style "Cities3D-default"
+class "GtkRadioButton"     style "Cities3D-default"		
+class "GtkFrame"           style "Cities3D-default"
+class "GtkEntry"           style "Cities3D-default"
+class "GtkList"            style "Cities3D-default"
+

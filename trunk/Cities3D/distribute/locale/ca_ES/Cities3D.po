@@ -1,0 +1,352 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-12-05 21:50+0100\n"
+"Last-Translator: Jordi E. Gasulla <jordigasulla@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: SPAIN\n"
+
+#: SplashDialog.cpp:64
+msgid "Finding plugins..."
+msgstr ""
+
+#: CitiesOnlineApp.cpp:339
+msgid "Cities Online may only be launched from the site."
+msgstr ""
+
+#: CitiesOnlineTaskbarIcon.cpp:54
+msgid "Exit"
+msgstr ""
+
+#: CitiesOnlineTaskbarIcon.cpp:84
+#, fuzzy
+msgid "Question"
+msgstr "Descripció"
+
+#: CitiesOnlineTaskbarIcon.cpp:85
+msgid ""
+"You are currently in a Cities Online game!  If you close Cities Online, your "
+"game will also close, and it may go on your record!  Are you sure you want "
+"to continue?"
+msgstr ""
+
+#: Launcher.cpp:276
+msgid ""
+"While you are in a game, Cities Online ignores all commands from the site."
+msgstr ""
+
+#: Launcher.cpp:297
+msgid "Your version of Cities Online is out-of-date."
+msgstr ""
+
+#: LoginDialog.cpp:53
+msgid "Username"
+msgstr ""
+
+#: LoginDialog.cpp:64
+msgid "Password"
+msgstr ""
+
+#: LoginDialog.cpp:82 BaseMessageBox.cpp:61 BaseModalSizer.cpp:46
+#: ResourceSelectionDialog.cpp:73 SelectMapDialog.cpp:69
+msgid "OK"
+msgstr "Acceptar"
+
+#: LoginDialog.cpp:101
+msgid "Enter Your Password"
+msgstr ""
+
+#: ColorInfoData.cpp:54
+msgid "Black"
+msgstr "Negre"
+
+#: ColorInfoData.cpp:55
+msgid "Blue"
+msgstr "Blau"
+
+#: ColorInfoData.cpp:56
+msgid "Brown"
+msgstr "Marró"
+
+#: ColorInfoData.cpp:57
+msgid "Green"
+msgstr "Verd"
+
+#: ColorInfoData.cpp:58
+msgid "Orange"
+msgstr "Taronja"
+
+#: ColorInfoData.cpp:59
+msgid "Purple"
+msgstr "Porpra"
+
+#: ColorInfoData.cpp:60
+msgid "Red"
+msgstr "Vermell"
+
+#: ColorInfoData.cpp:61
+msgid "White"
+msgstr "Blanc"
+
+#: MapDatabase.cpp:106
+msgid "players"
+msgstr "jugadors"
+
+#: MapDatabase.cpp:107
+msgid "points"
+msgstr "punts"
+
+#: NetworkClient.cpp:92
+#, fuzzy
+msgid "Connected!"
+msgstr "Connector"
+
+#: NetworkClient.cpp:121
+#, c-format
+msgid "Could not establish a connection to %s:%d."
+msgstr "No s'ha pogut establir la connexió amb %s:%d."
+
+#: NetworkClient.cpp:146
+msgid "It was not a Cities3D server on the other end!"
+msgstr ""
+
+#: NetworkClient.cpp:175
+msgid "You may not join the same game twice."
+msgstr "No pots ajuntar-te a la mateixa partida dos cops."
+
+#: NetworkClient.cpp:373
+#, c-format
+msgid ""
+"Version mismatch with the server.  You have version %s.  The server has "
+"version %s."
+msgstr ""
+"Incompatibilitat de versions amb el servidor. Tu tens la versió %s. El "
+"servidor té la versió %s."
+
+#: OptionEngine.cpp:257
+msgid "All options have been cleared."
+msgstr ""
+
+#: OptionEngine.cpp:276
+#, c-format
+msgid "The option %s is now selected."
+msgstr "La opció %s està seleccionada a partir d'ara."
+
+#: OptionEngine.cpp:307
+#, c-format
+msgid "The option %s is no longer selected."
+msgstr "La opció %s ja no està seleccionada."
+
+#: PluginEngine.cpp:621
+#, c-format
+msgid "Finding plugins... %s... found %s"
+msgstr ""
+
+#: ServerConnectionThread.cpp:76
+msgid "Received a host check from the site."
+msgstr ""
+
+#: ServerGameThread.cpp:269
+#, c-format
+msgid "%s tries to join a second time and is refused."
+msgstr "En/Na %s ha intentat ajuntar-se per segona vegada i ha estat refusat."
+
+#: ServerGameThread.cpp:304
+#, c-format
+msgid "%s joins as a spectator."
+msgstr "En/Na %s s'ajunta com a espectador."
+
+#: StatEngine.cpp:526
+msgid "Amount"
+msgstr ""
+
+#: StatEngine.cpp:527
+msgid "Expected"
+msgstr ""
+
+#: StatEngine.cpp:528
+msgid "Percent"
+msgstr ""
+
+#: StatEngine.cpp:529
+msgid "Rolls"
+msgstr ""
+
+#: StatEngine.cpp:591
+msgid "Total"
+msgstr ""
+
+#: StatEngine.cpp:642
+#, fuzzy
+msgid "Player"
+msgstr "jugadors"
+
+#: AddPlayerDialog.cpp:64
+msgid "Name"
+msgstr "Nom"
+
+#: AddPlayerDialog.cpp:90
+msgid "Add A Player"
+msgstr "Afegir Un Jugador"
+
+#: AddPlayerDialog.cpp:113
+msgid "Your name cannot be blank or all spaces."
+msgstr "El teu nom no pot estar buit o ser tot espais en blanc."
+
+#: AddPlayerDialog.cpp:121
+msgid "Your name must be 20 characters or less."
+msgstr "El teu nom ha de tenir 20 caràcters o menys."
+
+#: BaseMessageBox.cpp:71
+msgid "Yes"
+msgstr "Si"
+
+#: BaseMessageBox.cpp:72
+msgid "No"
+msgstr "No"
+
+#: BaseModalSizer.cpp:47 SelectMapDialog.cpp:70
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+#: LoseCardsDialog.cpp:90
+#, c-format
+msgid "Select %d resources to lose."
+msgstr "Selecciona %d recursos a perdre."
+
+#: LoseCardsDialog.cpp:214
+msgid "Cards To Lose"
+msgstr "Cartes A Perdre"
+
+#: MapListCtrl.cpp:62
+#, c-format
+msgid "%d players"
+msgstr "%d jugadors"
+
+#: MapListCtrl.cpp:68
+#, c-format
+msgid "%d-%d players"
+msgstr "%d-%d jugadors"
+
+#: MapListCtrl.cpp:76
+#, c-format
+msgid "%d points"
+msgstr "%d punts"
+
+#: MapTextCtrl.cpp:89
+msgid "No map selected."
+msgstr "Cap mapa seleccionat."
+
+#: MapTextCtrl.cpp:119
+msgid "Map"
+msgstr "Mapa"
+
+#: MapTextCtrl.cpp:137
+msgid "Rules"
+msgstr "Regles"
+
+#: MapTextCtrl.cpp:165
+msgid "Options"
+msgstr "Opcions"
+
+#: OptionsDialog.cpp:165
+msgid "Select"
+msgstr "Selecciona"
+
+#: OptionsDialog.cpp:166
+msgid "Unselect"
+msgstr "Deselecciona"
+
+#: OptionsDialog.cpp:185
+msgid "Description"
+msgstr "Descripció"
+
+#: OptionsDialog.cpp:194
+msgid "Settings"
+msgstr "Configuració"
+
+#: OptionsDialog.cpp:211
+msgid "Done"
+msgstr "Fet"
+
+#: OptionsDialog.cpp:218
+msgid "Clear"
+msgstr ""
+
+#: OptionsDialog.cpp:219
+msgid "Load"
+msgstr "Carregar"
+
+#: OptionsDialog.cpp:220
+msgid "Save"
+msgstr "Grabar"
+
+#: OptionsDialog.cpp:244
+msgid "Game Options"
+msgstr "Opcions de Joc"
+
+#: OptionsDialog.cpp:557
+msgid "Enter a file name"
+msgstr "Entra un nom de fitxer"
+
+#: OptionsDialog.cpp:571
+msgid "Select a file"
+msgstr "Seleciona un fitxer"
+
+#: PopupManager.cpp:922
+msgid "Popups are now off."
+msgstr ""
+
+#: PopupManager.cpp:923
+msgid "Popups are now on."
+msgstr ""
+
+#: ResourceSelectionDialog.cpp:150
+msgid "Drag and drop cards to make a selection."
+msgstr "Arrossega cartes per fer una selecció."
+
+#: ResourceSelectionDialog.cpp:187
+msgid "Select Resources"
+msgstr "Selecciona els Recursos"
+
+#: SelectMapDialog.cpp:90
+msgid "Select A Map"
+msgstr "Seleciona Un Mapa"
+
+#, fuzzy
+#~ msgid "Select a Language"
+#~ msgstr "Seleciona un fitxer"
+
+#~ msgid "No map selected"
+#~ msgstr "Cap mapa seleccionat"
+
+#~ msgid "In Game"
+#~ msgstr "Jugant"
+
+#~ msgid "Open"
+#~ msgstr "Obrir"
+
+#~ msgid "Play Card"
+#~ msgstr "Jugar Carta"
+
+#~ msgid "Your Cards"
+#~ msgstr "Les teves Cartes"

@@ -1,0 +1,110 @@
+#
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2009-06-12 23:19+0100\n"
+"Last-Translator: Pim van den Berg <pommiberg@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Strings.cpp:136
+msgid "Deserts are volcanoes"
+msgstr "Woestijnen en vulkanen"
+
+#: Strings.cpp:137
+msgid "has 1 city reduced"
+msgstr "heeft 1 stad gereduceerd"
+
+#: Strings.cpp:138
+msgid "loses 1 city"
+msgstr "verliest 1 stad"
+
+#: Strings.cpp:139
+msgid "loses 1 settlement"
+msgstr "versliest 1 dorp"
+
+#: Strings.cpp:140
+msgid "Show Volcano tab"
+msgstr "Toon Vulkaan tab"
+
+#: Strings.cpp:141
+msgid "Volcano"
+msgstr "Vulkaan"
+
+#: Strings.cpp:142
+msgid "Volcanoes"
+msgstr "Vulkanen"
+
+#: Strings.cpp:143
+msgid ""
+"Replaces all deserts with volcanoes.  A volcano is rich in resources and "
+"provides gold to players who build on it.  However, when rolled, it erupts, "
+"and destroys anything in the path of its lava, which flows to one of its "
+"corners!"
+msgstr ""
+"Vervangt alle woestijnen door vulkanen. Een vulkaan is rijk aan grondstoffen "
+"en levert goud op voor de spelers die erop bouwen. Maar wanneer het wordt "
+"gegooid, barst het uit en vernietigt het alles wat er in de buurt staat."
+
+#: Strings.cpp:144
+msgid "Volcano tile"
+msgstr "Vulkaan fiche"
+
+#: Strings.cpp:147
+#, c-format
+msgid "%s escapes unscathed!"
+msgstr "%s is zonder schade ontsnapt!"
+
+#: Strings.cpp:148
+#, c-format
+msgid "has %d cities reduced"
+msgstr "heefy %d steden gereduceerd"
+
+#: Strings.cpp:149
+#, c-format
+msgid "%s, move your metropolis."
+msgstr "%s, verplaats je metropolis."
+
+#: Strings.cpp:150
+#, c-format
+msgid "loses %d cities"
+msgstr "verliest %d steden"
+
+#: Strings.cpp:151
+#, c-format
+msgid "loses %d settlements"
+msgstr "verliest %d dorpen"
+
+#: Strings.cpp:152
+#, c-format
+msgid "%s loses 1 bonus point to the volcano."
+msgstr "%s verliest 1 bonuspunt door de vulkaan."
+
+#: Strings.cpp:153
+#, c-format
+msgid "Waiting for %s to move a metropolis."
+msgstr "Wachten tot %s een metropolis heeft verplaatst."
+
+#: VolcanoSingleBonusStats.cpp:32
+msgid "Bonus"
+msgstr "Bonus"
+
+#: VolcanoStats.cpp:49
+msgid "Volcano Die"
+msgstr "Slapende Vulkaan"

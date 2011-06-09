@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Sample_Upload</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Sample_Unlock.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_SEEKCALLBACK.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Sample_Upload">FSOUND_Sample_Upload</A></H2>
+This function uploads new sound data from memory to a preallocated/existing sample and does	conversion based on the specified source mode.<BR>
+If sample data already exists at this handle then it is replaced with the new data being uploaded.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_Sample_Upload</B><B>(</B><BR>
+<B>FSOUND_SAMPLE *</B><I>sptr</I><B>,</B><BR>
+<B>void *</B><I>srcdata</I><B>,</B><BR>
+<B>unsigned int </B><B> </B><I>mode_in</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>sptr</I></TD>
+<TD>Pointer to the destination sample<BR>
+</TD><TR VALIGN=top><TD><I>srcdata</I></TD>
+<TD>Pointer to the source data to be uploaded.  On PlayStation 2 this is an IOP address not an EE address.<BR>
+</TD><TR VALIGN=top><TD><I>mode</I></TD>
+<TD>Description of the source data format. Bitwise OR in these bits to describe the data being passed in.<BR>
+See FSOUND_MODES for valid parameters and descriptions.<BR>
+FSOUND_HW3D, FSOUND_HW2D and FSOUND_LOOP modes are ignored, the mode describes the source format, not the destination format.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+Note that on PlayStation 2 the source data address is an IOP address not an EE address.  <BR>
+To get data from EE RAM to the sample you must allocate some IOP memory, dma it to IOP memory then call upload.  There are helper functions in fmodps2.h to achieve this.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_MODES.html">FSOUND_MODES</A>
+, 
+<A HREF="FSOUND_Sample_Alloc.html">FSOUND_Sample_Alloc</A>
+, 
+<A HREF="FSOUND_Sample_Lock.html">FSOUND_Sample_Lock</A>
+, 
+<A HREF="FSOUND_Sample_Unlock.html">FSOUND_Sample_Unlock</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Strings.cpp:136
+msgid "Deserts are volcanoes"
+msgstr ""
+
+#: Strings.cpp:137
+msgid "has 1 city reduced"
+msgstr ""
+
+#: Strings.cpp:138
+msgid "loses 1 city"
+msgstr ""
+
+#: Strings.cpp:139
+msgid "loses 1 settlement"
+msgstr ""
+
+#: Strings.cpp:140
+msgid "Show Volcano tab"
+msgstr ""
+
+#: Strings.cpp:141
+msgid "Volcano"
+msgstr ""
+
+#: Strings.cpp:142
+msgid "Volcanoes"
+msgstr ""
+
+#: Strings.cpp:143
+msgid ""
+"Replaces all deserts with volcanoes.  A volcano is rich in resources and "
+"provides gold to players who build on it.  However, when rolled, it erupts, "
+"and destroys anything in the path of its lava, which flows to one of its "
+"corners!"
+msgstr ""
+
+#: Strings.cpp:144
+msgid "Volcano tile"
+msgstr ""
+
+#: Strings.cpp:147
+#, c-format
+msgid "%s escapes unscathed!"
+msgstr ""
+
+#: Strings.cpp:148
+#, c-format
+msgid "has %d cities reduced"
+msgstr ""
+
+#: Strings.cpp:149
+#, c-format
+msgid "%s, move your metropolis."
+msgstr ""
+
+#: Strings.cpp:150
+#, c-format
+msgid "loses %d cities"
+msgstr ""
+
+#: Strings.cpp:151
+#, c-format
+msgid "loses %d settlements"
+msgstr ""
+
+#: Strings.cpp:152
+#, c-format
+msgid "%s loses 1 bonus point to the volcano."
+msgstr ""
+
+#: Strings.cpp:153
+#, c-format
+msgid "Waiting for %s to move a metropolis."
+msgstr ""
+
+#: VolcanoSingleBonusStats.cpp:32
+msgid "Bonus"
+msgstr ""
+
+#: VolcanoStats.cpp:49
+msgid "Volcano Die"
+msgstr ""

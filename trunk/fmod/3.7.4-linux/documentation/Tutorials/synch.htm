@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>Synchronization Tutorial - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>MUSIC SYNCRHONIZATION</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This section will describe how to synchronize graphics with sound effectively using FMOD functions.<br>
+	It usually involves either polling against a music value to trigger your effect, or getting a callback from FMOD.<br>
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Streams&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	The best way to synchronize a stream, such as a wav or mp3 is by using <a href="../HTML/FSOUND_Stream_SetSynchCallback.html">FSOUND_Stream_SetSynchCallback</a>.<br>
+	All you have to do is drop 'markers' into a wav editing program like SoundForge, and FMOD will automatically generate callbacks as the stream plays when the play cursor runs over the markers!.<br>
+	The strings that you label markers with are even passed into the callback.<br>
+	Note that only WAV files and MP3 with RIFF wrappers will work here.  The markers are saved in a RIFF chunk.
+	<br>
+	<br>
+	If you don't have this luxury or want to use a format that doesn't support this feature, then the next best way to synchronize a stream is by using custom synch points.  This way you can add and remove your own points that wav markers would normally generate.
+	See <a href="../HTML/FSOUND_Stream_AddSynchPoint.html">FSOUND_Stream_AddSynchPoint</a>.<br>
+	Add your markers manually with this and set your synch point callback with <a href="../HTML/FSOUND_Stream_SetSynchCallback.html">FSOUND_Stream_SetSynchCallback</a><br>
+	Your callback could then look something like this but you can put what you like in the callback function.<br>
+	<br>
+	<b>
+	signed char endcallback(FSOUND_STREAM *stream, void *buff, int len, int param)<br>
+	{<br>
+	<ul>
+		// end of stream callback doesn't have a 'buff' value, if it doesn't it could be a synch point.<br>
+		if (buff)<br>
+		{
+	<ul>
+			printf("\nSYNCHPOINT : \"%s\"\n", buff);<br>
+	</ul>
+		}<br>
+	<br>
+		return TRUE;<br>
+	</ul>
+	}<br>
+	</b>
+	<br>
+	Remember FMOD is a real-time system and the amount of time spent in a callback has to be low, or you could cause buffer underrun or stuttering.<br>
+
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">MODs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	To synchronize graphics with mod music, try these functions.
+	<LI><a href="../HTML/FMUSIC_SetZxxCallback.html">FMUSIC_SetZxxCallback</a>
+	<LI><a href="../HTML/FMUSIC_SetRowCallback.html">FMUSIC_SetRowCallback</a>
+	<LI><a href="../HTML/FMUSIC_SetOrderCallback.html">FMUSIC_SetOrderCallback</a><br>
+	<LI><a href="../HTML/FMUSIC_SetInstCallback.html">FMUSIC_SetInstCallback</a><br>
+	This allows you to set callbacks on row, order, instrument or Zxx mod effect events.<br>
+	There is also a time based function <a href="../HTML/FMUSIC_GetTime.html">FMUSIC_GetTime</a>.  
+
+	</UL>
+
+
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

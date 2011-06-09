@@ -1,0 +1,711 @@
+#
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2009-06-14 20:46+0100\n"
+"Last-Translator: Pim van den Berg <pommiberg@gmail.com>\n"
+"Language-Team: Dutch C3D Team <pommiberg@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: StatsPane.cpp:102
+msgid "Map"
+msgstr "Spelbord"
+
+#: StatsPane.cpp:103
+msgid "Map points"
+msgstr "Spelbord punten"
+
+#: StatsPane.cpp:106
+msgid "Rulesets"
+msgstr "Regels"
+
+#: StatsPane.cpp:107 Strings.cpp:417
+msgid "Options"
+msgstr "Opties"
+
+#: Strings.cpp:357
+msgid "Accept"
+msgstr "Accepteren"
+
+#: Strings.cpp:358
+msgid "Action"
+msgstr "Actie"
+
+#: Strings.cpp:359
+msgid "Add"
+msgstr "Toevoegen"
+
+#: Strings.cpp:360
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: Strings.cpp:361
+msgid "All"
+msgstr "Alles"
+
+#: Strings.cpp:362
+msgid "Animation"
+msgstr "Animatie"
+
+#: Strings.cpp:363
+msgid "Assign"
+msgstr "Toekennen"
+
+#: Strings.cpp:364
+msgid "Bitmaps"
+msgstr "Afbeeldingen"
+
+#: Strings.cpp:365
+msgid "Bank"
+msgstr "Bank"
+
+#: Strings.cpp:366
+msgid "Board animations show you when another player changes the board."
+msgstr ""
+"Animaties op het bord worden weergegeven wanneer een andere speler iets "
+"verandert op het bord."
+
+#: Strings.cpp:367
+msgid "Build Options"
+msgstr "Bouw Opties"
+
+#: Strings.cpp:368
+msgid "Cards"
+msgstr "Kaarten"
+
+#: Strings.cpp:369
+msgid "Clear"
+msgstr "Leeg"
+
+#: Strings.cpp:370
+msgid "2.  Click an offer to trade with that player."
+msgstr "2. Selecteer een bod om met deze speler te handelen."
+
+#: Strings.cpp:371
+msgid "Click other offers to match them."
+msgstr "Klik andere boden aan om ze te matchen."
+
+#: Strings.cpp:372
+msgid "Controls"
+msgstr "Instellingen"
+
+#: Strings.cpp:373
+msgid "Core"
+msgstr "Core"
+
+#: Strings.cpp:374
+msgid "Current game settings"
+msgstr "Huidige spel instellingen"
+
+#: Strings.cpp:375
+msgid "Default"
+msgstr "Standaard"
+
+#: Strings.cpp:376
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: Strings.cpp:377
+msgid "Depth Buffer Size"
+msgstr "Diepte Buffer Grootte"
+
+#: Strings.cpp:378
+msgid "Display"
+msgstr "Beeld"
+
+#: Strings.cpp:379
+msgid "Display OpenGL render information"
+msgstr "Toon OpenGL render informatie"
+
+#: Strings.cpp:380
+msgid "Drag and drop cards to create a trade."
+msgstr "Klik en sleep de kaarten om een handel op te zetten"
+
+#: Strings.cpp:381
+msgid "1.  Drag and drop cards to create an offer."
+msgstr "1. Klik en sleep de kaarten om een handelsaanbod te doen."
+
+#: Strings.cpp:382
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr "Klik en sleep een naam of dubbelklik om toe te voegen/verwijderen."
+
+#: Strings.cpp:383
+msgid "End the turn"
+msgstr "Beeindig de beurt"
+
+#: Strings.cpp:384
+msgid "End Turn"
+msgstr "Einde Beurt"
+
+#: Strings.cpp:385
+msgid "Exit"
+msgstr "Afsluiten"
+
+#: Strings.cpp:386
+msgid "E&xit"
+msgstr "&Afsluiten"
+
+#: Strings.cpp:387
+msgid "Few"
+msgstr "Een beetje"
+
+#: Strings.cpp:388
+msgid "3.  Finalize your trade!"
+msgstr "3. Rond de handel af!"
+
+#: Strings.cpp:389
+msgid "for"
+msgstr "voor"
+
+#: Strings.cpp:390
+msgid ""
+"For most image sets, softening the tiles makes the game board look better."
+msgstr ""
+"Voor de meeste sets van afbeeldingen zorgt het verzachten van de tegels "
+"ervoor dat het spelbord er beter uit ziet."
+
+#: Strings.cpp:391
+msgid "Game Images"
+msgstr "Spel Afbeeldingen"
+
+#: Strings.cpp:392
+msgid "Game Sounds"
+msgstr "Geluiden in het Spel"
+
+#: Strings.cpp:393
+msgid "Game Window"
+msgstr "Spel Venster"
+
+#: Strings.cpp:394
+msgid "Half"
+msgstr "Half"
+
+#: Strings.cpp:395
+msgid "Hide popups"
+msgstr "Verberg popups"
+
+#: Strings.cpp:396
+msgid "Hotseat"
+msgstr "Hotseat"
+
+#: Strings.cpp:397
+msgid "Hotseat Setup"
+msgstr "Hotseat Setup"
+
+#: Strings.cpp:398
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: Strings.cpp:399
+#, c-format
+msgid "%s is currently assigned to %s."
+msgstr "%s is toegekend aan %s."
+
+#: Strings.cpp:400
+msgid "Key Bindings"
+msgstr "Toets Instellingen"
+
+#: Strings.cpp:401
+msgid "Keyboard"
+msgstr "Toetsenbord"
+
+#: Strings.cpp:402
+msgid "Keystroke"
+msgstr "Toetscombinatie"
+
+#: Strings.cpp:403
+msgid "Language"
+msgstr "Taal"
+
+#: Strings.cpp:404
+msgid "&Layout"
+msgstr "&Layout"
+
+#: Strings.cpp:405
+msgid "Load A Saved Game"
+msgstr "Open een opgeslagen spel"
+
+#: Strings.cpp:406
+msgid "Load Saved"
+msgstr "Openen"
+
+#: Strings.cpp:407
+msgid "Many"
+msgstr "Veel"
+
+#: Strings.cpp:408
+msgid "Most"
+msgstr "Meeste"
+
+#: Strings.cpp:409
+msgid "Name"
+msgstr "Naam"
+
+#: Strings.cpp:410
+msgid "New"
+msgstr "Nieuw"
+
+#: Strings.cpp:411
+msgid "New keystroke"
+msgstr "Nieuwe toetscombinatie"
+
+#: Strings.cpp:412
+msgid "None"
+msgstr "Niets"
+
+#: Strings.cpp:413
+msgid "No, thanks."
+msgstr "Nee, dank je"
+
+#: Strings.cpp:414
+msgid "No Trades"
+msgstr "Niet Handelen"
+
+#: Strings.cpp:415
+msgid "Offer"
+msgstr "Aanbod"
+
+#: Strings.cpp:416
+msgid "OK"
+msgstr "OK"
+
+#: Strings.cpp:418
+msgid "Pan map down"
+msgstr "Verplaats spelbord omlaag"
+
+#: Strings.cpp:419
+msgid "Pan map left"
+msgstr "Verplaats spelbord links"
+
+#: Strings.cpp:420
+msgid "Pan map right"
+msgstr "Verplaats spelbord rechts"
+
+#: Strings.cpp:421
+msgid "Pan map up"
+msgstr "Verplaats spelbord omhoog"
+
+#: Strings.cpp:422
+msgid "Play a card"
+msgstr "Speel een kaart"
+
+#: Strings.cpp:423
+msgid "Play board animations"
+msgstr "Bord animaties"
+
+#: Strings.cpp:424
+msgid "Players"
+msgstr "Spelers"
+
+#: Strings.cpp:425
+msgid "Play Next"
+msgstr "Speel Volgende"
+
+#: Strings.cpp:426
+msgid "Play Sounds"
+msgstr "Speel Geluiden Af"
+
+#: Strings.cpp:427
+msgid "Popups"
+msgstr "Popups"
+
+#: Strings.cpp:428
+msgid "Question"
+msgstr "Vraag"
+
+#: Strings.cpp:429
+msgid "&Quit"
+msgstr "&Sluiten"
+
+#: Strings.cpp:430
+msgid "Recommended for new players or to distinguish between different colors."
+msgstr ""
+"Aanbevolen voor nieuwe spelers of om tussen verschillende kleuren "
+"onderscheid te maken."
+
+#: Strings.cpp:431
+msgid "Reject"
+msgstr "Wijs Af"
+
+#: Strings.cpp:432
+msgid "Render bitmaps with OpenGL"
+msgstr "Toon afbeeldingen dmv OpenGL"
+
+#: Strings.cpp:433
+msgid "Respond with the Stockyard buttons, or make a counteroffer."
+msgstr "Antwoord met de Voorstel knoppen, of doe een tegenaanbod."
+
+#: Strings.cpp:434
+msgid "&Restore original layout"
+msgstr "&Laad originele layout"
+
+#: Strings.cpp:435
+msgid "Roll Dice"
+msgstr "Gooien"
+
+#: Strings.cpp:436
+msgid "Roll the dice"
+msgstr "Gooi de dobbelstenen"
+
+#: Strings.cpp:437
+msgid "Rotate map down"
+msgstr "Spelbord omlaag draaien"
+
+#: Strings.cpp:438
+msgid "Rotate map left"
+msgstr "Spelbord links draaien"
+
+#: Strings.cpp:439
+msgid "Rotate map right"
+msgstr "Spelbord rechts draaien"
+
+#: Strings.cpp:440
+msgid "Rotate map up"
+msgstr "Spelbord omhoog draaien"
+
+#: Strings.cpp:441
+msgid "&Save"
+msgstr "&Opslaan"
+
+#: Strings.cpp:442
+msgid "Seconds before popups disappear"
+msgstr "Seconden voordat popups verdwijnen"
+
+#: Strings.cpp:443
+msgid "Select a Language"
+msgstr "Selecteer een Taal"
+
+#: Strings.cpp:444
+msgid "Select Map"
+msgstr "Spelbord"
+
+#: Strings.cpp:445
+msgid ""
+"Select the language you would like to use from the list.  You must restart "
+"Cities Online for your choice to take effect."
+msgstr ""
+"Selecteer de taal die je wilt gebruiken. Je zal Cities Online opnieuw moeten "
+"opstarten."
+
+#: Strings.cpp:446
+msgid ""
+"Select the set of images you would like to use from the list.  The display "
+"will be updated immediately."
+msgstr ""
+"Selecteer de set afbeeldingen die je wilt gebruiken. Het scherm zal gelijk "
+"geupdate worden."
+
+#: Strings.cpp:447
+msgid ""
+"Select the set of sounds you would like to use from the list.  Your choice "
+"will take effect immediately."
+msgstr ""
+"Selecteer de set geluiden die je wilt gebruiken. Je keuze wordt direct "
+"doorgevoerd."
+
+#: Strings.cpp:448
+msgid ""
+"Select the skin you would like to use from the list.  Your choice will take "
+"effect immediately."
+msgstr ""
+"Selecteer de skin die je wilt gebruiken. Je keuze zal direct worden "
+"doorgevoerd."
+
+#: Strings.cpp:449
+msgid "&Set this layout as default"
+msgstr "&Stel deze layout als standaard in"
+
+#: Strings.cpp:450
+msgid "Settings"
+msgstr "Instellingen"
+
+#: Strings.cpp:451
+msgid "&Settings"
+msgstr "&Instellingen"
+
+#: Strings.cpp:452
+msgid "Show popups"
+msgstr "Toon popups"
+
+#: Strings.cpp:453
+msgid "Skin"
+msgstr "Skin"
+
+#: Strings.cpp:454
+msgid "Skins"
+msgstr "Skins"
+
+#: Strings.cpp:455
+msgid "Soften tiles"
+msgstr "Verzachtte tegels"
+
+#: Strings.cpp:456
+msgid "Some"
+msgstr "Iets"
+
+#: Strings.cpp:457
+msgid "Sounds"
+msgstr "Geluiden"
+
+#: Strings.cpp:458
+msgid "Stats"
+msgstr "Statistieken"
+
+#: Strings.cpp:459
+msgid "&Stats"
+msgstr "&Statistieken"
+
+#: Strings.cpp:460
+msgid "Status"
+msgstr "Status"
+
+#: Strings.cpp:461
+msgid "Stockyard"
+msgstr "Voorstellen"
+
+#: Strings.cpp:462
+msgid "That would be cheating!"
+msgstr "Dat zou vals spelen zijn geweest!"
+
+#: Strings.cpp:463
+msgid "Toggle fullscreen"
+msgstr "Volledig Scherm"
+
+#: Strings.cpp:464
+msgid "Toggle popups"
+msgstr "Popups Instellen"
+
+#: Strings.cpp:465
+msgid "Trade"
+msgstr "Handelen"
+
+#: Strings.cpp:466
+msgid "Trade!"
+msgstr "Handelen!"
+
+#: Strings.cpp:467
+msgid "Trade with bank"
+msgstr "Handel met de bank"
+
+#: Strings.cpp:468
+msgid "Trade with others"
+msgstr "Handel met anderen"
+
+#: Strings.cpp:469
+msgid "Trade With Others"
+msgstr "Handel met anderen"
+
+#: Strings.cpp:470
+msgid "Trade With The Bank"
+msgstr "Handel met de Bank"
+
+#: Strings.cpp:471
+msgid "Turning sounds off will make the game completely silent."
+msgstr "Wanneer je het geluid uitzet, is het spel volledig stil."
+
+#: Strings.cpp:472
+msgid "Unable to restart the game."
+msgstr "Het is niet mogelijk het spel te herstarten."
+
+#: Strings.cpp:473
+msgid "Undo"
+msgstr "Stap Terug"
+
+#: Strings.cpp:474
+msgid "Undo action"
+msgstr "Ongedaan maken"
+
+#: Strings.cpp:475
+msgid "Use frame buffers (if available)"
+msgstr "Gebruik frame buffers (indien aanwezig)"
+
+#: Strings.cpp:476
+msgid "Use pixel buffers (if available)"
+msgstr "Gebruik pixel buffers (indien aanwezig)"
+
+#: Strings.cpp:477
+msgid "You"
+msgstr "Jij"
+
+#: Strings.cpp:478
+msgid "You accept"
+msgstr "Je accepteert"
+
+#: Strings.cpp:479
+msgid "You get"
+msgstr "Je krijgt"
+
+#: Strings.cpp:480
+msgid "You give"
+msgstr "Je geeft"
+
+#: Strings.cpp:481
+msgid "You offer"
+msgstr "Je biedt aan"
+
+#: Strings.cpp:482
+msgid "You pass"
+msgstr "Je past"
+
+#: Strings.cpp:483
+msgid "You want"
+msgstr "Je wil"
+
+#: Strings.cpp:484
+msgid "You won't trade"
+msgstr "Je wil niet handelen"
+
+#: Strings.cpp:485
+msgid "Zoom into map"
+msgstr "Inzoomen op het spelbord"
+
+#: Strings.cpp:486
+msgid "Zoom out of map"
+msgstr "Uitzoomen van het spelbord"
+
+#: Strings.cpp:489
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Weet je zeker dat je %s wilt verwijderen?"
+
+#: Strings.cpp:490
+#, c-format
+msgid "If %s accepts your offer, finalize it."
+msgstr "Als %s je bod accepteert, rond het dan af."
+
+#: Strings.cpp:491
+#, c-format
+msgid "%s accepts"
+msgstr "%s accepteert"
+
+#: Strings.cpp:492
+#, c-format
+msgid "%s gives"
+msgstr "%s geeft"
+
+#: Strings.cpp:493
+#, c-format
+msgid "%s offers"
+msgstr "%s biedt"
+
+#: Strings.cpp:494
+#, c-format
+msgid "%s passes"
+msgstr "%s past"
+
+#: Strings.cpp:495
+#, c-format
+msgid "%s wants"
+msgstr "%s wil"
+
+#: Strings.cpp:496
+#, c-format
+msgid "%s won't trade"
+msgstr "%s wil niet handelen"
+
+#~ msgid "Replay A Game"
+#~ msgstr "Herhaal een Spel"
+
+#~ msgid "Save"
+#~ msgstr "Opslaan"
+
+#~ msgid "Select"
+#~ msgstr "Selecteren"
+
+#~ msgid "Your name cannot be blank or all spaces."
+#~ msgstr "Je naam mag niet leeg zijn of uit alleen spaties bestaan."
+
+#~ msgid "Add A Layout"
+#~ msgstr "Voeg een Layout toe"
+
+#~ msgid "General"
+#~ msgstr "Algemeen"
+
+#~ msgid ""
+#~ "Highlight a layout and click Select to make it the default for these game "
+#~ "settings.  Manage your layouts with the other buttons."
+#~ msgstr ""
+#~ "Kies een layout en klik op Selecteren om hem standaard te maken voor deze "
+#~ "spel instellingen. Beheer je layouts met de andere knoppen."
+
+#~ msgid "Layout"
+#~ msgstr "Layout"
+
+#~ msgid "Use the TAB key to quickly toggle popups on and off."
+#~ msgstr "Gebruik de TAB toets om snel popups aan en uit te zetten."
+
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
+
+#~ msgid "Game Setup"
+#~ msgstr "Spel Setup"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#~ msgid "Open Saved"
+#~ msgstr "Open Opgeslagen Spel"
+
+#~ msgid "Use curved regions (Windows only)"
+#~ msgstr "Gebruik afgeronde regionen (Alleen Windows)"
+
+#~ msgid "Play UI animations"
+#~ msgstr "Gebruikers Interface animaties"
+
+#~ msgid "UI animations cause game windows to slide in and out."
+#~ msgstr ""
+#~ "Gebruikers Interface animiaties houden in, dat vensters in en uit "
+#~ "schuiven."
+
+#~ msgid "Size"
+#~ msgstr "Grootte"
+
+#~ msgid "Maximum"
+#~ msgstr "Maximum"
+
+#~ msgid ""
+#~ "Drag the slider left or right to change the size of the screen interface."
+#~ msgstr ""
+#~ "Sleep de schuiver naar links of rechs om de grootte van de scherm "
+#~ "weergave te veranderen."
+
+#~ msgid "Always show build options"
+#~ msgstr "Geef altijd de bouw-opties weer"
+
+#~ msgid ""
+#~ "Shows build options even if you don't have the resources to build them.  "
+#~ "Recommended for new players."
+#~ msgstr ""
+#~ "Geeft bouw-opties weer, ook als je de grondstoffen niet hebt om ze te "
+#~ "bouwen. Aanbevolen voor beginners."
+
+#~ msgid "Interface"
+#~ msgstr "Weergave"
+
+#~ msgid "Done"
+#~ msgstr "Klaar"
+
+#~ msgid "General Settings"
+#~ msgstr "Algemene Instellingen"
+
+#~ msgid "Them"
+#~ msgstr "Zij"
+
+#~ msgid "Current Offer"
+#~ msgstr "Huidig Bod"

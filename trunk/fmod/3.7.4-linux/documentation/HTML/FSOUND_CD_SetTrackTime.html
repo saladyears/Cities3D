@@ -1,0 +1,68 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_CD_SetTrackTime</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_CD_SetPlayMode.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_CD_SetVolume.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_CD_SetTrackTime">FSOUND_CD_SetTrackTime</A></H2>
+Performs a seek within a track specified by milliseconds.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_CD_SetTrackTime</B><B>(</B><BR>
+<B>char </B><B> </B><I>drive</I><B>,</B><BR>
+<B>unsigned int </B><B> </B><I>ms</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>drive</I></TD>
+<TD>The drive ID to use.  0 is the default CD drive.  Using D or E in single quotes would be D: or E: for example.  <BR>
+</TD><TR VALIGN=top><TD><I>ms</I></TD>
+<TD>Time to seek into the current track in milliseconds.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+This function will start the track if it is not playing.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, Linux, Macintosh (OSX CFM Only)<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_CD_GetTrackLength.html">FSOUND_CD_GetTrackLength</A>
+, 
+<A HREF="FSOUND_CD_GetTrackTime.html">FSOUND_CD_GetTrackTime</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:58 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

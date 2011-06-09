@@ -1,0 +1,120 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Stream_Play</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Stream_OpenFromHandle.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Stream_PlayEx.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Stream_Play">FSOUND_Stream_Play</A></H2>
+Starts a pre-opened stream playing.<BR>
+<P>
+<B>int F_API </B><B> </B><B>FSOUND_Stream_Play</B><B>(</B><BR>
+<B>int </B><B> </B><I>channel</I><B>,</B><BR>
+<B>FSOUND_STREAM *</B><I>stream</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>channel</I></TD>
+<TD>0+	The channel index in the channel pool. This must not exceed the maximum number of channels allocated with FSOUND_Init <BR>
+FSOUND_FREE<BR>
+Chooses a free channel to play in.  If all channels are used then it<BR>
+selects a channel with a sample playing that has a lower priority than the <BR>
+sample to be played.<BR>
+</TD><TR VALIGN=top><TD><I>stream</I></TD>
+<TD>Pointer to the already opened stream to be played.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, the channel handle the stream is playing in is returned.<BR>
+On failure, -1 is returned.<BR>
+<H3>Remarks</H3>
+When a stream starts to play, it inherits a special high priority (256).  <BR>
+It cannot be rejected by other sound effect channels in the normal fashion as the user can never set a priority above 255 normally.  <BR>
+--------------<BR>
+If the stream has been opened with FSOUND_NONBLOCKING, this function will not succeed until the stream is ready.<BR>
+--------------<BR>
+FSB streaming is not supported if the format from FSBank is 'Retain original format'.  On PC platforms, only PCM and ADPCM FSB files are allowed.<BR>
+--------------<BR>
+FSOUND_STEREOPAN is recommended for stereo streams if you call FSOUND_SetPan.  This puts the left and right channel to full volume.<BR>
+Otherwise a normal pan will give half volume for left and right.  See FSOUND_SetPan for more information on this.<BR>
+--------------<BR>
+You can use normal channel based commands (such as FSOUND_SetVolume etc) on the return handle, as it is a channel handle.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_GetNumSubChannels.html">FSOUND_GetNumSubChannels</A>
+, 
+<A HREF="FSOUND_GetSubChannel.html">FSOUND_GetSubChannel</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+, 
+<A HREF="FSOUND_SetPan.html">FSOUND_SetPan</A>
+, 
+<A HREF="FSOUND_SetVolume.html">FSOUND_SetVolume</A>
+, 
+<A HREF="FSOUND_Stream_Close.html">FSOUND_Stream_Close</A>
+, 
+<A HREF="FSOUND_Stream_Create.html">FSOUND_Stream_Create</A>
+, 
+<A HREF="FSOUND_Stream_Net_GetBufferProperties.html">FSOUND_Stream_Net_GetBufferProperties</A>
+, 
+<A HREF="FSOUND_Stream_Net_GetLastServerStatus.html">FSOUND_Stream_Net_GetLastServerStatus</A>
+, 
+<A HREF="FSOUND_Stream_Net_GetStatus.html">FSOUND_Stream_Net_GetStatus</A>
+, 
+<A HREF="FSOUND_Stream_Net_SetBufferProperties.html">FSOUND_Stream_Net_SetBufferProperties</A>
+, 
+<A HREF="FSOUND_Stream_Net_SetMetadataCallback.html">FSOUND_Stream_Net_SetMetadataCallback</A>
+, 
+<A HREF="FSOUND_Stream_Net_SetProxy.html">FSOUND_Stream_Net_SetProxy</A>
+, 
+<A HREF="FSOUND_Stream_Open.html">FSOUND_Stream_Open</A>
+, 
+<A HREF="FSOUND_Stream_PlayEx.html">FSOUND_Stream_PlayEx</A>
+, 
+<A HREF="FSOUND_Stream_SetEndCallback.html">FSOUND_Stream_SetEndCallback</A>
+, 
+<A HREF="FSOUND_Stream_SetLoopCount.html">FSOUND_Stream_SetLoopCount</A>
+, 
+<A HREF="FSOUND_Stream_SetSubStream.html">FSOUND_Stream_SetSubStream</A>
+, 
+<A HREF="FSOUND_Stream_SetSubStreamSentence.html">FSOUND_Stream_SetSubStreamSentence</A>
+, 
+<A HREF="FSOUND_Stream_SetSyncCallback.html">FSOUND_Stream_SetSyncCallback</A>
+, 
+<A HREF="FSOUND_Stream_Stop.html">FSOUND_Stream_Stop</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

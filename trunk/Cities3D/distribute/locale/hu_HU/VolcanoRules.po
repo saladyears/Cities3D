@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Strings.cpp:136
+msgid "Deserts are volcanoes"
+msgstr "Vulkane ersetzen Wsten"
+
+#: Strings.cpp:137
+msgid "has 1 city reduced"
+msgstr "hat eine Stadt zerstrt"
+
+#: Strings.cpp:138
+msgid "loses 1 city"
+msgstr "verliert eine Stadt"
+
+#: Strings.cpp:139
+msgid "loses 1 settlement"
+msgstr "verliert eine Siedlung"
+
+#: Strings.cpp:140
+#, fuzzy
+msgid "Show Volcano tab"
+msgstr "Vulkanfeld"
+
+#: Strings.cpp:141
+msgid "Volcano"
+msgstr "Vulkan"
+
+#: Strings.cpp:142
+msgid "Volcanoes"
+msgstr "Vulkane"
+
+#: Strings.cpp:143
+msgid ""
+"Replaces all deserts with volcanoes.  A volcano is rich in resources and "
+"provides gold to players who build on it.  However, when rolled, it erupts, "
+"and destroys anything in the path of its lava, which flows to one of its "
+"corners!"
+msgstr ""
+"Ersetzt alle Wstenfelder durch Vulkane. Ein Vulkan ist reich an Ressourcen "
+"und versorgt Spieler, die darauf bauen, mit Gold. Allerdings wird, sobald "
+"seine Zahl gewrfelt wird, alles zerstrt, was der Lava im Weg steht. Die Lava "
+"fliet immer in eine Ecke des Vulkanes!"
+
+#: Strings.cpp:144
+msgid "Volcano tile"
+msgstr "Vulkanfeld"
+
+#: Strings.cpp:147
+#, c-format
+msgid "%s escapes unscathed!"
+msgstr "%s entkommt unversehrt!"
+
+#: Strings.cpp:148
+#, c-format
+msgid "has %d cities reduced"
+msgstr "hat %d Stdte zerstrt"
+
+#: Strings.cpp:149
+#, c-format
+msgid "%s, move your metropolis."
+msgstr "%s, versetze deine Metropole."
+
+#: Strings.cpp:150
+#, c-format
+msgid "loses %d cities"
+msgstr "verliert %d Stdte"
+
+#: Strings.cpp:151
+#, c-format
+msgid "loses %d settlements"
+msgstr "verliert %d Siedlungen"
+
+#: Strings.cpp:152
+#, c-format
+msgid "%s loses 1 bonus point to the volcano."
+msgstr "%s verliert 1 Bonus Punkt durch den Vulkanausbruch."
+
+#: Strings.cpp:153
+#, c-format
+msgid "Waiting for %s to move a metropolis."
+msgstr "Warte darauf, dass %s eine Metropole versetzt."
+
+#: VolcanoSingleBonusStats.cpp:32
+msgid "Bonus"
+msgstr ""
+
+#: VolcanoStats.cpp:49
+#, fuzzy
+msgid "Volcano Die"
+msgstr "Vulkanfeld"

@@ -1,0 +1,72 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_SetDiskBusy</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_SetCurrentPosition.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_SetDriver.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_SetDiskBusy">FSOUND_SetDiskBusy</A></H2>
+Tells FMOD that the user is accessing the disk, so that FMOD will wait until it is finished with it.<BR>
+This is essential for optimal game file access in cooperation with FMOD.<BR>
+<P>
+<B>void F_API </B><B> </B><B>FSOUND_SetDiskBusy</B><B>(</B><BR>
+<B>signed char </B><B> </B><I>diskbusy</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>diskbusy</I></TD>
+<TD>TRUE to tell FMOD the caller is about to access the disk.  FALSE to tell FMOD it has finished with the disk.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+<H3>Remarks</H3>
+It is recommended to wrap FSOUND_SetDiskBusy(TRUE) and FSOUND_SetDiskBusy(FALSE) around all game file<BR>
+access functions.<BR>
+--------------------<BR>
+Note if the user halts the disk access for longer than the buffersize set by FSOUND_Stream_SetBufferSize.<BR>
+Even less than this can cause skipping or corrupted sound, due to seeking and the actual time it takes to<BR>
+do the audio stream read in the stream subsystem.<BR>
+To avoid this it is recommended to split game reads up into chunks, to allow FMOD access to the disk periodically.<BR>
+--------------------<BR>
+This function will block until FMOD is not using the disk any more.<BR>
+___________________<BR>
+Supported on the following platforms : PlayStation 2<BR>
+<H3>See Also</H3>
+<A HREF="FSOUND_IsDiskBusy.html">FSOUND_IsDiskBusy</A>
+, 
+<A HREF="FSOUND_SetDiskBusy.html">FSOUND_SetDiskBusy</A>
+, 
+<A HREF="FSOUND_Stream_SetBufferSize.html">FSOUND_Stream_SetBufferSize</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Thu Dec 15 17:31:33 2005
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

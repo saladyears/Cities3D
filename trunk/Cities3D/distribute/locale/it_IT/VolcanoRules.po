@@ -1,0 +1,116 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2007-05-05 22:29+0100\n"
+"Last-Translator: Giuseppe Bilotta <giuseppe.bilotta@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+
+#: Strings.cpp:136
+msgid "Deserts are volcanoes"
+msgstr "I deserti sono vulcani"
+
+#: Strings.cpp:137
+msgid "has 1 city reduced"
+msgstr "riduce  1 città"
+
+#: Strings.cpp:138
+msgid "loses 1 city"
+msgstr "perde 1 città"
+
+#: Strings.cpp:139
+msgid "loses 1 settlement"
+msgstr "perde 1 insediamento"
+
+#: Strings.cpp:140
+#, fuzzy
+msgid "Show Volcano tab"
+msgstr "Esagono Vulcano"
+
+#: Strings.cpp:141
+msgid "Volcano"
+msgstr "Vulcano"
+
+#: Strings.cpp:142
+msgid "Volcanoes"
+msgstr "Vulcani"
+
+#: Strings.cpp:143
+msgid ""
+"Replaces all deserts with volcanoes.  A volcano is rich in resources and "
+"provides gold to players who build on it.  However, when rolled, it erupts, "
+"and destroys anything in the path of its lava, which flows to one of its "
+"corners!"
+msgstr ""
+"Sostituisce tutti i deserti con vulcano. Un vulcano è ricco di risorse e "
+"fornisce oro ai giocatori che vi costruiscono supra. Tuttavia, se ne esce il "
+"numero, erutta e distrugge tutto ciò che si trova sul percorso della lava, "
+"che scorre verso uno degli angoli!"
+
+#: Strings.cpp:144
+#, fuzzy
+msgid "Volcano tile"
+msgstr "Esagono Vulcano"
+
+#: Strings.cpp:147
+#, c-format
+msgid "%s escapes unscathed!"
+msgstr "%s sfugge indenne!"
+
+#: Strings.cpp:148
+#, c-format
+msgid "has %d cities reduced"
+msgstr "riduce %d città"
+
+#: Strings.cpp:149
+#, c-format
+msgid "%s, move your metropolis."
+msgstr "%s, sposta la metropoli."
+
+#: Strings.cpp:150
+#, c-format
+msgid "loses %d cities"
+msgstr "perde %d città"
+
+#: Strings.cpp:151
+#, c-format
+msgid "loses %d settlements"
+msgstr "perde %d insediamenti"
+
+#: Strings.cpp:152
+#, c-format
+msgid "%s loses 1 bonus point to the volcano."
+msgstr "%s perde 1 punto bonus per il vulcano."
+
+#: Strings.cpp:153
+#, c-format
+msgid "Waiting for %s to move a metropolis."
+msgstr "In attesa che %s sposti una metropoli."
+
+#: VolcanoSingleBonusStats.cpp:32
+msgid "Bonus"
+msgstr ""
+
+#: VolcanoStats.cpp:49
+#, fuzzy
+msgid "Volcano Die"
+msgstr "Esagono Vulcano"

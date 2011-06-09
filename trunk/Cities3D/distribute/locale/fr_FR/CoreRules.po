@@ -1,0 +1,719 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+# 
+# This program is free software; you can redistribute it and/or modify it 
+# under the terms of the GNU General Public License as published by the Free 
+# Software Foundation; either version 2 of the License, or (at your option) 
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but 
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+# for more details.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2005-09-07 20:32-0700\n"
+"Last-Translator: Marty McFly <martiojd@hotmail.fr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: StatsPane.cpp:102
+msgid "Map"
+msgstr ""
+
+#: StatsPane.cpp:103
+msgid "Map points"
+msgstr ""
+
+#: StatsPane.cpp:106
+msgid "Rulesets"
+msgstr ""
+
+#: StatsPane.cpp:107 Strings.cpp:417
+msgid "Options"
+msgstr "Options"
+
+#: Strings.cpp:357
+msgid "Accept"
+msgstr "Accepter"
+
+#: Strings.cpp:358
+#, fuzzy
+msgid "Action"
+msgstr "Animation"
+
+#: Strings.cpp:359
+msgid "Add"
+msgstr "Ajouter"
+
+#: Strings.cpp:360
+msgid "Advanced"
+msgstr "Avancé"
+
+#: Strings.cpp:361
+msgid "All"
+msgstr "Tout"
+
+#: Strings.cpp:362
+msgid "Animation"
+msgstr "Animation"
+
+#: Strings.cpp:363
+msgid "Assign"
+msgstr ""
+
+#: Strings.cpp:364
+msgid "Bitmaps"
+msgstr "Bitmaps"
+
+#: Strings.cpp:365
+msgid "Bank"
+msgstr "Banque"
+
+#: Strings.cpp:366
+msgid "Board animations show you when another player changes the board."
+msgstr "Les animations de plateau indiquent quand un joueur change le plateau."
+
+#: Strings.cpp:367
+#, fuzzy
+msgid "Build Options"
+msgstr "Options"
+
+#: Strings.cpp:368
+msgid "Cards"
+msgstr "Cartes"
+
+#: Strings.cpp:369
+msgid "Clear"
+msgstr "Effacer"
+
+#: Strings.cpp:370
+msgid "2.  Click an offer to trade with that player."
+msgstr "2.  Cliquer sur une offre pour échanger avec ce joueur."
+
+#: Strings.cpp:371
+msgid "Click other offers to match them."
+msgstr "Cliquer sur les autres offres pour les égaler."
+
+#: Strings.cpp:372
+msgid "Controls"
+msgstr ""
+
+#: Strings.cpp:373
+msgid "Core"
+msgstr ""
+
+#: Strings.cpp:374
+msgid "Current game settings"
+msgstr ""
+
+#: Strings.cpp:375
+#, fuzzy
+msgid "Default"
+msgstr "Supprimer"
+
+#: Strings.cpp:376
+msgid "Delete"
+msgstr "Supprimer"
+
+#: Strings.cpp:377
+msgid "Depth Buffer Size"
+msgstr "Taille du buffer de profondeur"
+
+#: Strings.cpp:378
+msgid "Display"
+msgstr "Afficher"
+
+#: Strings.cpp:379
+msgid "Display OpenGL render information"
+msgstr "Afficher les informations de rendering OpenGL"
+
+#: Strings.cpp:380
+msgid "Drag and drop cards to create a trade."
+msgstr "Glisser et déposer des cartes pour créer un échange."
+
+#: Strings.cpp:381
+msgid "1.  Drag and drop cards to create an offer."
+msgstr "1.  Glisser et déposer des cartes pour créer une offre."
+
+#: Strings.cpp:382
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr "Glisser et déposer les noms, ou double-cliquer pour ajouter/supprimer."
+
+#: Strings.cpp:383
+#, fuzzy
+msgid "End the turn"
+msgstr "Terminer tour"
+
+#: Strings.cpp:384
+msgid "End Turn"
+msgstr "Terminer tour"
+
+#: Strings.cpp:385
+msgid "Exit"
+msgstr "Quitter"
+
+#: Strings.cpp:386
+#, fuzzy
+msgid "E&xit"
+msgstr "Quitter"
+
+#: Strings.cpp:387
+msgid "Few"
+msgstr "Peu"
+
+#: Strings.cpp:388
+msgid "3.  Finalize your trade!"
+msgstr "3.  Finalisez votre échange!"
+
+#: Strings.cpp:389
+msgid "for"
+msgstr "pour"
+
+#: Strings.cpp:390
+msgid ""
+"For most image sets, softening the tiles makes the game board look better."
+msgstr ""
+"Pour la plupart des types d'images, adoucir les blocs donnera un meilleur "
+"aspect au plateau."
+
+#: Strings.cpp:391
+msgid "Game Images"
+msgstr "Images du jeu"
+
+#: Strings.cpp:392
+msgid "Game Sounds"
+msgstr "Sons du jeu"
+
+#: Strings.cpp:393
+#, fuzzy
+msgid "Game Window"
+msgstr "Sons du jeu"
+
+#: Strings.cpp:394
+msgid "Half"
+msgstr "La moitié"
+
+#: Strings.cpp:395
+msgid "Hide popups"
+msgstr "Cacher les popups"
+
+#: Strings.cpp:396
+msgid "Hotseat"
+msgstr "Hotseat"
+
+#: Strings.cpp:397
+#, fuzzy
+msgid "Hotseat Setup"
+msgstr "Hotseat"
+
+#: Strings.cpp:398
+msgid "Images"
+msgstr "Images"
+
+#: Strings.cpp:399
+#, c-format
+msgid "%s is currently assigned to %s."
+msgstr ""
+
+#: Strings.cpp:400
+msgid "Key Bindings"
+msgstr ""
+
+#: Strings.cpp:401
+msgid "Keyboard"
+msgstr ""
+
+#: Strings.cpp:402
+msgid "Keystroke"
+msgstr ""
+
+#: Strings.cpp:403
+msgid "Language"
+msgstr "Langue"
+
+#: Strings.cpp:404
+msgid "&Layout"
+msgstr ""
+
+#: Strings.cpp:405
+#, fuzzy
+msgid "Load A Saved Game"
+msgstr "Ouvrir une partie sauvée"
+
+#: Strings.cpp:406
+msgid "Load Saved"
+msgstr ""
+
+#: Strings.cpp:407
+msgid "Many"
+msgstr "Beaucoup"
+
+#: Strings.cpp:408
+msgid "Most"
+msgstr "La plupart"
+
+#: Strings.cpp:409
+msgid "Name"
+msgstr ""
+
+#: Strings.cpp:410
+#, fuzzy
+msgid "New"
+msgstr "Peu"
+
+#: Strings.cpp:411
+msgid "New keystroke"
+msgstr ""
+
+#: Strings.cpp:412
+msgid "None"
+msgstr "Aucune"
+
+#: Strings.cpp:413
+msgid "No, thanks."
+msgstr "Non, merci."
+
+#: Strings.cpp:414
+msgid "No Trades"
+msgstr "Pas d'échanges"
+
+#: Strings.cpp:415
+msgid "Offer"
+msgstr "Faire une offre"
+
+#: Strings.cpp:416
+msgid "OK"
+msgstr "OK"
+
+#: Strings.cpp:418
+msgid "Pan map down"
+msgstr ""
+
+#: Strings.cpp:419
+msgid "Pan map left"
+msgstr ""
+
+#: Strings.cpp:420
+msgid "Pan map right"
+msgstr ""
+
+#: Strings.cpp:421
+msgid "Pan map up"
+msgstr ""
+
+#: Strings.cpp:422
+#, fuzzy
+msgid "Play a card"
+msgstr "Jouer une carte"
+
+#: Strings.cpp:423
+msgid "Play board animations"
+msgstr "Jouer les animations de plateau"
+
+#: Strings.cpp:424
+#, fuzzy
+msgid "Players"
+msgstr "Afficher le suivant"
+
+#: Strings.cpp:425
+msgid "Play Next"
+msgstr "Afficher le suivant"
+
+#: Strings.cpp:426
+msgid "Play Sounds"
+msgstr "Jouer les sons"
+
+#: Strings.cpp:427
+msgid "Popups"
+msgstr "Popups"
+
+#: Strings.cpp:428
+msgid "Question"
+msgstr "Question"
+
+#: Strings.cpp:429
+#, fuzzy
+msgid "&Quit"
+msgstr "Quitter"
+
+#: Strings.cpp:430
+msgid "Recommended for new players or to distinguish between different colors."
+msgstr ""
+"Recommandé pour les nouveaux joueurs ou pour distinguer les différentes "
+"couleurs"
+
+#: Strings.cpp:431
+msgid "Reject"
+msgstr "Refuser"
+
+#: Strings.cpp:432
+msgid "Render bitmaps with OpenGL"
+msgstr "Rendre les bitmaps avec OpenGL"
+
+#: Strings.cpp:433
+msgid "Respond with the Stockyard buttons, or make a counteroffer."
+msgstr "Répondre avec les boutons du Marché, ou faire une contre-proposition."
+
+#: Strings.cpp:434
+msgid "&Restore original layout"
+msgstr ""
+
+#: Strings.cpp:435
+msgid "Roll Dice"
+msgstr "Lancer les dés"
+
+#: Strings.cpp:436
+#, fuzzy
+msgid "Roll the dice"
+msgstr "Lancer les dés"
+
+#: Strings.cpp:437
+msgid "Rotate map down"
+msgstr ""
+
+#: Strings.cpp:438
+msgid "Rotate map left"
+msgstr ""
+
+#: Strings.cpp:439
+msgid "Rotate map right"
+msgstr ""
+
+#: Strings.cpp:440
+msgid "Rotate map up"
+msgstr ""
+
+#: Strings.cpp:441
+#, fuzzy
+msgid "&Save"
+msgstr "Sauver"
+
+#: Strings.cpp:442
+#, fuzzy
+msgid "Seconds before popups disappear"
+msgstr "Secondes avant que les popups disparaissent:"
+
+#: Strings.cpp:443
+msgid "Select a Language"
+msgstr "Choisir une langue"
+
+#: Strings.cpp:444
+msgid "Select Map"
+msgstr "Choisir la carte"
+
+#: Strings.cpp:445
+#, fuzzy
+msgid ""
+"Select the language you would like to use from the list.  You must restart "
+"Cities Online for your choice to take effect."
+msgstr ""
+"Choisir dans la liste la langue que vous voulez utiliser. Vous devrez "
+"relancer Cities3D pour que votre choix soit pris en compte."
+
+#: Strings.cpp:446
+msgid ""
+"Select the set of images you would like to use from the list.  The display "
+"will be updated immediately."
+msgstr ""
+"Choisir dans la liste le type d'images que vous vouler utiliser. L'affichage "
+"sera modifié immédiatement."
+
+#: Strings.cpp:447
+msgid ""
+"Select the set of sounds you would like to use from the list.  Your choice "
+"will take effect immediately."
+msgstr ""
+"Choisir dans la liste le type de sons que vous voulez utilise.  Votre choix "
+"sera pris en compte immédiatement."
+
+#: Strings.cpp:448
+msgid ""
+"Select the skin you would like to use from the list.  Your choice will take "
+"effect immediately."
+msgstr ""
+"Choisir dans la liste la skin que vous voulez utiliser.  Votre choix sera "
+"pris en compte immédiatement."
+
+#: Strings.cpp:449
+msgid "&Set this layout as default"
+msgstr ""
+
+#: Strings.cpp:450
+msgid "Settings"
+msgstr "Réglages"
+
+#: Strings.cpp:451
+#, fuzzy
+msgid "&Settings"
+msgstr "Réglages"
+
+#: Strings.cpp:452
+msgid "Show popups"
+msgstr "Afficher les popups"
+
+#: Strings.cpp:453
+msgid "Skin"
+msgstr "Skin"
+
+#: Strings.cpp:454
+msgid "Skins"
+msgstr "Skins"
+
+#: Strings.cpp:455
+msgid "Soften tiles"
+msgstr "Adoucirs les blocs"
+
+#: Strings.cpp:456
+msgid "Some"
+msgstr "Quelques unes"
+
+#: Strings.cpp:457
+msgid "Sounds"
+msgstr "Sons"
+
+#: Strings.cpp:458
+#, fuzzy
+msgid "Stats"
+msgstr "Spectateurs"
+
+#: Strings.cpp:459
+#, fuzzy
+msgid "&Stats"
+msgstr "Spectateurs"
+
+#: Strings.cpp:460
+#, fuzzy
+msgid "Status"
+msgstr "Spectateurs"
+
+#: Strings.cpp:461
+msgid "Stockyard"
+msgstr "Marché"
+
+#: Strings.cpp:462
+msgid "That would be cheating!"
+msgstr "Ce serait tricher!"
+
+#: Strings.cpp:463
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: Strings.cpp:464
+#, fuzzy
+msgid "Toggle popups"
+msgstr "Afficher les popups"
+
+#: Strings.cpp:465
+msgid "Trade"
+msgstr "Echanger"
+
+#: Strings.cpp:466
+msgid "Trade!"
+msgstr "Echangez!"
+
+#: Strings.cpp:467
+#, fuzzy
+msgid "Trade with bank"
+msgstr "Echange avec la banque"
+
+#: Strings.cpp:468
+#, fuzzy
+msgid "Trade with others"
+msgstr "Echanger avec les autres."
+
+#: Strings.cpp:469
+msgid "Trade With Others"
+msgstr "Echanger avec les autres."
+
+#: Strings.cpp:470
+msgid "Trade With The Bank"
+msgstr "Echange avec la banque"
+
+#: Strings.cpp:471
+msgid "Turning sounds off will make the game completely silent."
+msgstr "Couper les sons rendra le jeu complètement silencieux."
+
+#: Strings.cpp:472
+msgid "Unable to restart the game."
+msgstr "La réouverture de la partie a échoué."
+
+#: Strings.cpp:473
+msgid "Undo"
+msgstr "Annuler"
+
+#: Strings.cpp:474
+msgid "Undo action"
+msgstr ""
+
+#: Strings.cpp:475
+msgid "Use frame buffers (if available)"
+msgstr "Utiliser les frame buffers (si possible)"
+
+#: Strings.cpp:476
+msgid "Use pixel buffers (if available)"
+msgstr "Utiliser les buffers de pixels (si possible)"
+
+#: Strings.cpp:477
+msgid "You"
+msgstr "Vous"
+
+#: Strings.cpp:478
+msgid "You accept"
+msgstr "Vous acceptez"
+
+#: Strings.cpp:479
+msgid "You get"
+msgstr "Vous recevez"
+
+#: Strings.cpp:480
+msgid "You give"
+msgstr "Vous donnez"
+
+#: Strings.cpp:481
+msgid "You offer"
+msgstr "Vous offrez"
+
+#: Strings.cpp:482
+msgid "You pass"
+msgstr "Vos passez"
+
+#: Strings.cpp:483
+msgid "You want"
+msgstr "Vous voulez"
+
+#: Strings.cpp:484
+#, fuzzy
+msgid "You won't trade"
+msgstr "Vous ne voulez pas échanger"
+
+#: Strings.cpp:485
+msgid "Zoom into map"
+msgstr ""
+
+#: Strings.cpp:486
+msgid "Zoom out of map"
+msgstr ""
+
+#: Strings.cpp:489
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Etes vous sûr de vouloir supprimer %s?"
+
+#: Strings.cpp:490
+#, c-format
+msgid "If %s accepts your offer, finalize it."
+msgstr "Si %s accepte votre offre, la finaliser."
+
+#: Strings.cpp:491
+#, c-format
+msgid "%s accepts"
+msgstr "%s accepte"
+
+#: Strings.cpp:492
+#, c-format
+msgid "%s gives"
+msgstr "%s donne"
+
+#: Strings.cpp:493
+#, c-format
+msgid "%s offers"
+msgstr "%s offre"
+
+#: Strings.cpp:494
+#, c-format
+msgid "%s passes"
+msgstr "%s passe"
+
+#: Strings.cpp:495
+#, c-format
+msgid "%s wants"
+msgstr "%s veut"
+
+#: Strings.cpp:496
+#, c-format
+msgid "%s won't trade"
+msgstr "%s ne veut pas échanger"
+
+#~ msgid "Replay A Game"
+#~ msgstr "Rejouer la partie"
+
+#~ msgid "Save"
+#~ msgstr "Sauver"
+
+#, fuzzy
+#~ msgid "Select"
+#~ msgstr "Choisir la carte"
+
+#~ msgid "General"
+#~ msgstr "Général"
+
+#~ msgid "Use the TAB key to quickly toggle popups on and off."
+#~ msgstr ""
+#~ "Utiliser la touche TAB pour activer ou désactiver les popups rapidement."
+
+#~ msgid "Cancel"
+#~ msgstr "Annuler"
+
+#~ msgid "Game Setup"
+#~ msgstr "Réglages du jeu"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#, fuzzy
+#~ msgid "Open Saved"
+#~ msgstr "Ouvrir sauvés"
+
+#~ msgid "Use curved regions (Windows only)"
+#~ msgstr "Utiliser les régions courbes (windows uniquement)"
+
+#~ msgid "Play UI animations"
+#~ msgstr "Jouer les animations IU"
+
+#~ msgid "UI animations cause game windows to slide in and out."
+#~ msgstr ""
+#~ "Les animations IU font apparaître ou disparaître les fenêtres de jeu."
+
+#~ msgid "Size"
+#~ msgstr "Taille"
+
+#~ msgid "Maximum"
+#~ msgstr "Maximum"
+
+#~ msgid ""
+#~ "Drag the slider left or right to change the size of the screen interface."
+#~ msgstr ""
+#~ "Glisser la barre à gauche ou à droite pour changer la taille de "
+#~ "l'interface écran."
+
+#~ msgid "Always show build options"
+#~ msgstr "Toujours montrer les coûts de construction"
+
+#~ msgid ""
+#~ "Shows build options even if you don't have the resources to build them.  "
+#~ "Recommended for new players."
+#~ msgstr ""
+#~ "Montre les coûts de construction même si vous n'avez pas les ressources "
+#~ "pour les construire. Recommendé aux débutants."
+
+#~ msgid "Interface"
+#~ msgstr "Interface"
+
+#~ msgid "Done"
+#~ msgstr "Terminé"
+
+#~ msgid "General Settings"
+#~ msgstr "Réglages généraux"
+
+#~ msgid "Them"
+#~ msgstr "Eux"
+
+#~ msgid "Current Offer"
+#~ msgstr "Offre actuelle"

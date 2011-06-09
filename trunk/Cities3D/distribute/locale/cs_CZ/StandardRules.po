@@ -1,0 +1,658 @@
+﻿# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+#: DevCardOptions.cpp:36
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-02 14:24-0600\n"
+"PO-Revision-Date: 2006-05-30 20:41+0100\n"
+"Last-Translator: Jakub Dvořák <diacon.frost@centrum.cz>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+#: defineOptions.h:26 StandardRules.cpp:42
+msgid "Standard"
+msgstr "Standart"
+
+#: AllowedName.cpp:35
+msgid "Cards allowed"
+msgstr "Pocet karet v ruce"
+
+#: AllowedOption.cpp:48
+msgid ""
+"Change the number of cards each player may hold without losing half on a 7."
+msgstr "Zmena poctu karet, kterĂ© mĹŻze mĂ­t kazdy hrĂˇc u sebe, pri pĂˇdu  7, aniz by o pulku prisel."
+
+#: AllowedOption.cpp:96
+#, c-format
+msgid "%d cards allowed in hand"
+msgstr "%d karet v ruce"
+
+#: AllowedOption.cpp:120
+msgid "Cards allowed in hand:"
+msgstr "Povoleno karet v ruce:"
+
+#: AroundTheBoardName.cpp:35
+msgid "Random chip layout"
+msgstr "Náhodné rozvrzení císel"
+
+#: AroundTheBoardPortsName.cpp:35
+msgid "Random port layout"
+msgstr "Náhodné rozvrzení prístavu"
+
+#: BankDataDevCards.cpp:35 PlayerDataDevCards.cpp:89
+#, fuzzy
+msgid "Development Cards"
+msgstr "Akcní Karty"
+
+#: BankDataStandard.cpp:35 LogicResourceNameStandard.cpp:89
+#: PlayerDataStandard.cpp:136
+msgid "Sheep"
+msgstr "Ovce"
+
+#: BankDataStandard.cpp:37 LogicResourceNameStandard.cpp:117
+#: PlayerDataStandard.cpp:141
+msgid "Ore"
+msgstr "Ruda"
+
+#: BankDataStandard.cpp:39 LogicResourceNameStandard.cpp:59
+#: PlayerDataStandard.cpp:146
+msgid "Timber"
+msgstr "Drevo"
+
+#: BankDataStandard.cpp:41 LogicResourceNameStandard.cpp:74
+#: PlayerDataStandard.cpp:151
+msgid "Clay"
+msgstr "Jíl"
+
+#: BankDataStandard.cpp:43 LogicResourceNameStandard.cpp:103
+#: PlayerDataStandard.cpp:156
+msgid "Wheat"
+msgstr "Obilí"
+
+#: BuildDataDevCards.cpp:39
+#, fuzzy
+msgid "Buy a Development Card"
+msgstr "%s si koupil akční kartičku."
+
+#: BuildDataStandard.cpp:47
+msgid "Build a Road"
+msgstr "Kup Akcní kartu"
+
+#: BuildDataStandard.cpp:51
+#, fuzzy
+msgid "Build a Settlement"
+msgstr "postav Vesnici"
+
+#: BuildDataStandard.cpp:55
+msgid "Build a City"
+msgstr "Postav Mesto"
+
+#: DevCardsDialog.cpp:49
+msgid "Play Card"
+msgstr "Zahrat kartu"
+
+#: DevCardsDialog.cpp:49
+msgid "Your Cards"
+msgstr "Tvoje karty"
+
+#: DevCardsName.cpp:35 DevelopmentCardsName.cpp:35
+#, fuzzy
+msgid "Development cards"
+msgstr "Akcníkarty"
+
+#: DevCardsUI.cpp:74
+msgid "Rolls"
+msgstr "Hod"
+
+#: DevelopmentCardsOption.cpp:47
+#, fuzzy
+msgid "Change the deck of Development cards."
+msgstr "Mení slození balícku akcních karet"
+
+#: DevelopmentCardsOption.cpp:77 LogicCardNameDevCards.cpp:59
+msgid "Victory Point"
+msgstr "Vitezny bod"
+
+#: DevelopmentCardsOption.cpp:78 LogicCardNameDevCards.cpp:74
+msgid "Road Building"
+msgstr "Pokrok - Stavba cest"
+
+#: DevelopmentCardsOption.cpp:79 LogicCardNameDevCards.cpp:89
+#: YearOfPlentyDialog.cpp:162
+msgid "Year Of Plenty"
+msgstr "Pokrok - Vynález"
+
+#: DevelopmentCardsOption.cpp:80 LogicCardNameDevCards.cpp:103
+#: MonopolyDialog.cpp:111
+msgid "Monopoly"
+msgstr "Pokrok - Monopol"
+
+#: DevelopmentCardsOption.cpp:81 LogicCardNameDevCards.cpp:117
+msgid "Soldier"
+msgstr "Rytír"
+
+#: DevelopmentCardsOption.cpp:134
+#, fuzzy, c-format
+msgid "Development cards: %s"
+msgstr "Akcní karty: %s"
+
+#: DrawCityObject.cpp:316
+msgid "City"
+msgstr "Mesto"
+
+#: DrawRoadObject.cpp:253
+msgid "Road"
+msgstr "Cesta"
+
+#: DrawRobberObject.cpp:368
+msgid "Robber"
+msgstr "Zlodej"
+
+#: DrawSettlementObject.cpp:255
+msgid "Settlement"
+msgstr "Vesnice"
+
+#: DrawTileObject.cpp:396
+#, c-format
+msgid "Odds: %s"
+msgstr ""
+
+#: LogicCardTextDevCards.cpp:59
+msgid "Receive 1 Victory Point!"
+msgstr "1 Vítezný bod."
+
+#: LogicCardTextDevCards.cpp:74
+#, fuzzy
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr ""
+"Kdyz vylozis tuto kartu, muzes postavit 2 silnice, 2 lode, nebo 1 cestu a 1 lod zadarmo"
+
+#: LogicCardTextDevCards.cpp:90
+msgid ""
+"In this turn, take any two resource cards from the bank.  They may be used "
+"immediately."
+msgstr "Hrác si muze ihned vzít z banku dve libovovolné suroviny."
+
+#: LogicCardTextDevCards.cpp:105
+msgid ""
+"Choose one resource type.  All other players must give you all their "
+"resource cards of that type."
+msgstr ""
+"Zvol si jednu surovinu. Vsichni ostatní hráci ti musejí odevzdat vsechny "
+"svoje kartičky od zvolené suroviny."
+
+#: LogicCardTextDevCards.cpp:120
+msgid ""
+"Move the robber and steal one resource card from the owner of an adjacent "
+"city or settlement.  Or, move the pirate and steal from the owner of an "
+"adjacent ship."
+msgstr ""
+"Kdyz vylozís tuto kartu, presun zlodeje/pirata a vezmi si jednu kartu od poskozeného hráce."
+
+#: LogicRequestInitialPlacement.cpp:61 RuleBuildSettlementTurn.cpp:120
+#, c-format
+msgid "%s, place a settlement."
+msgstr "%s, postav vesnici."
+
+#: LogicRequestInitialPlacement.cpp:62 RuleBuildSettlementTurn.cpp:121
+#, c-format
+msgid "Waiting for %s to place a settlement."
+msgstr "Ceka se, nez hrác %s postaví vesnici."
+
+#: LogicRequestInitialRoad.cpp:61 RuleBuildRoadCommon.cpp:89
+#, c-format
+msgid "%s, place a road."
+msgstr "%s, postav cestu."
+
+#: LogicRequestInitialRoad.cpp:62 RuleBuildRoadCommon.cpp:90
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "Ceká se, nez hrác %s postaví cestu."
+
+#: LogicResourceNameStandard.cpp:132
+msgid "Desert"
+msgstr "Poust"
+
+#: LogicResourceNameStandard.cpp:146
+msgid "Ocean"
+msgstr "Oceán"
+
+#: LogicResourceNameStandard.cpp:160
+msgid "2-1 Timber Port"
+msgstr "2:1 Prístav (Drevo)"
+
+#: LogicResourceNameStandard.cpp:174
+msgid "2-1 Clay Port"
+msgstr "2:1 Prístav (Cihla)"
+
+#: LogicResourceNameStandard.cpp:188
+msgid "2-1 Sheep Port"
+msgstr "2:1 Prístav (Ovce)"
+
+#: LogicResourceNameStandard.cpp:202
+msgid "2-1 Wheat Port"
+msgstr "2:1 Prístav (Obilí)"
+
+#: LogicResourceNameStandard.cpp:216
+msgid "2-1 Ore Port"
+msgstr "2:1 Prístav (Ruda)"
+
+#: LogicResourceNameStandard.cpp:230
+msgid "3-1 Port"
+msgstr "3:1 Prístav"
+
+#: MonopolyDialog.cpp:51
+#, fuzzy
+msgid "Select 1 resource type to steal."
+msgstr "Vyber surovinu, kterou chces ukrást."
+
+#: No7Name.cpp:35
+msgid "No early 7s"
+msgstr "Spozdení zlodeje"
+
+#: No7Option.cpp:46
+msgid ""
+"Prevent 7s from rolling for one or two rounds.  This lets players get their "
+"feet on the ground before the robber comes calling."
+msgstr "Odkládá pad 7 o jedno nebo dve kola. To muze pomoci hrácum postavit jejich ekonomiku na nohy, nez bude povolán zlodej."
+
+#: No7Option.cpp:93
+msgid "No 7s for 1 round"
+msgstr "Zádná 7 v 1. kole"
+
+#: No7Option.cpp:97
+#, c-format
+msgid "No 7s for %d rounds"
+msgstr "Zádná 7 po %d kola"
+
+#: No7Option.cpp:116
+msgid "Rounds before a 7 is rolled:"
+msgstr "Pocet kol, po které nepadne 7:"
+
+#: PlayerDataDevCards.cpp:95
+#, fuzzy
+msgid "Soldiers"
+msgstr "Rytír"
+
+#: PlayerDataStandard.cpp:162
+msgid "Resource Cards"
+msgstr ""
+
+#: PlayerDataStandard.cpp:169
+msgid "Cities"
+msgstr "Mesta"
+
+#: PlayerDataStandard.cpp:174
+msgid "Settlements"
+msgstr "Vesnice"
+
+#: PlayerDataStandard.cpp:179
+msgid "Roads"
+msgstr "Cesty"
+
+#: PlayerDataStandard.cpp:185
+msgid "Points"
+msgstr "Body"
+
+#: PlayerDataStandard.cpp:189
+#, fuzzy
+msgid "Victory Points"
+msgstr "Vítezny bod"
+
+#: PlayerDataStandard.cpp:193
+msgid "Road Length"
+msgstr "Délka cesty"
+
+#: PointsName.cpp:35
+msgid "Points needed to win"
+msgstr "Pocet bodu k vítezství"
+
+#: PointsOption.cpp:47
+msgid "Change the number of points needed to win the game."
+msgstr "Mení pocet bodu potrebných k vítezství."
+
+#: PointsOption.cpp:90
+#, c-format
+msgid "Play to %d points"
+msgstr "Hraje se do %d bodu"
+
+#: PointsOption.cpp:113
+msgid "Points needed to win:"
+msgstr "Pocet bodu k vítezství:"
+
+#: RandomTilesName.cpp:35
+msgid "Random tile layout"
+msgstr "Náhodné rozvrzení polí"
+
+#: RuleBuildCityTurn.cpp:113
+#, c-format
+msgid "%s, place a city."
+msgstr "%s, postav mesto."
+
+#: RuleBuildCityTurn.cpp:114
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "Ceká se, nez hrác %s postaví mesto."
+
+#: RuleBuyDevCardTurn.cpp:129
+#, c-format
+msgid "%s buys a Development Card."
+msgstr "%s si koupil akcní kartu."
+
+#: RuleBuyDevCardTurn.cpp:145
+#, c-format
+msgid "You receive a %s card."
+msgstr "Obdrzel si kartu %s."
+
+#: RuleEndTurn.cpp:86
+#, c-format
+msgid "%s ends the turn."
+msgstr "%s ukoncil kolo."
+
+#: RuleExecuteBankTrade.cpp:96 RuleExecuteBankTrade.cpp:121
+#: RuleExecuteLose7.cpp:92 RuleExecuteTrade.cpp:103 RuleExecuteTrade.cpp:136
+#: RuleExecuteYearOfPlentyCard.cpp:92
+#, fuzzy, c-format
+msgid "%d %s"
+msgstr ""
+
+#: RuleExecuteBankTrade.cpp:124
+#, fuzzy, c-format
+msgid "%s trades %s to the bank for %s."
+msgstr "%s vymenil s bankou %s za %s."
+
+#: RuleExecuteBankTrade.cpp:185
+#, c-format
+msgid "%s undoes a bank trade."
+msgstr "%s vzal zpet obchod s bankou."
+
+#: RuleExecuteLose7.cpp:95
+#, fuzzy, c-format
+msgid "%s loses %s."
+msgstr "%s ztratil %s."
+
+#: RuleExecuteMonopolyCard.cpp:101
+#, c-format
+msgid "%d %s from %s"
+msgstr "%d %s od %s"
+
+#: RuleExecuteMonopolyCard.cpp:112 RuleRobberSteal.cpp:73
+#: RuleSelectRobberSteal.cpp:79
+#, c-format
+msgid "%s steals nothing."
+msgstr "%s nic neukradl."
+
+#: RuleExecuteMonopolyCard.cpp:116
+#, fuzzy, c-format
+msgid "%s steals %s."
+msgstr "%s ukradl %s."
+
+#: RuleExecuteRobberSteal.cpp:124
+#, c-format
+msgid "You steal 1 %s from %s."
+msgstr "Ukradl jsi 1 %s od %s."
+
+#: RuleExecuteRobberSteal.cpp:129
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr "%s si od tebe ukradl 1 %s. "
+
+#: RuleExecuteRobberSteal.cpp:134
+#, c-format
+msgid "%s steals 1 resource from %s."
+msgstr "%s ukradl 1 surovinu od %s."
+
+#: RuleExecuteTrade.cpp:139
+#, c-format
+msgid "%s trades %s to %s for %s."
+msgstr "%s vymenil %s s %s za %s."
+
+#: RuleExecuteYearOfPlentyCard.cpp:95
+#, fuzzy, c-format
+msgid "%s selects %s."
+msgstr "%s vybral %s."
+
+#: RuleGainLargestArmy.cpp:70
+#, c-format
+msgid "%s takes Largest Army."
+msgstr "%s získal nejvetší vojsko."
+
+#: RuleGainLongestRoad.cpp:74
+#, c-format
+msgid "%s takes Longest Road."
+msgstr "%s postavil nejdelší cestu."
+
+#: RuleGatherResources.cpp:176
+#, c-format
+msgid "There is not enough %s in the bank. No one receives any."
+msgstr "V banku není dostatek suroviny %s. Nikdo proto nic nevydelal."
+
+#: RuleInitializeDevCards.cpp:75
+msgid "Dev"
+msgstr "Akcní karty"
+
+#: RuleLoseLargestArmy.cpp:65
+#, c-format
+msgid "%s loses Largest Army."
+msgstr "%s přišel o největší vojsko."
+
+#: RuleLoseLongestRoad.cpp:69
+#, c-format
+msgid "%s loses Longest Road."
+msgstr "%s prisel o nejdelší cestu."
+
+#: RulePlaceCity.cpp:116
+#, c-format
+msgid "%s places a city."
+msgstr "%s postavil město."
+
+#: RulePlaceCity.cpp:149
+#, c-format
+msgid "%s undoes a city."
+msgstr "%s vzal zpet stavbu mesta."
+
+#: RulePlaceRoad.cpp:118
+#, c-format
+msgid "%s places a road."
+msgstr "%s postavil cestu."
+
+#: RulePlaceRoad.cpp:158
+#, c-format
+msgid "%s undoes a road."
+msgstr "%s vzal zpet stavbu cesty."
+
+#: RulePlaceSettlement.cpp:73
+#, c-format
+msgid "%s places a settlement."
+msgstr "%s postavil vesnici."
+
+#: RulePlaceSettlement.cpp:85
+#, c-format
+msgid "%s undoes a settlement."
+msgstr "%s vzal zpet stavbu vesnice."
+
+#: RulePlayCard.cpp:71
+#, c-format
+msgid "%s plays a %s card."
+msgstr "%s zahrál kartu %s."
+
+#: RuleReduceCity.cpp:105
+#, fuzzy, c-format
+msgid "%s has a city reduced to a settlement."
+msgstr ""
+
+#: RuleRestartPreRoll.cpp:90
+#, fuzzy, c-format
+msgid "%s, play a card, select an action, or roll the dice."
+msgstr "%s, zahraj kartu, vyber akci, nebo hazej kostkou."
+
+#: RuleRestartPreRoll.cpp:92
+#, fuzzy, c-format
+msgid "Waiting for %s to play a card, select an action, or roll the dice."
+msgstr "Ceka se, nez hrác %s zahraje kartu,vybere akci nebo hodí kostkou."
+
+#: RuleRestartPreRoll.cpp:97
+#, c-format
+msgid "%s, play a card or roll the dice."
+msgstr "%s, házej kostkou nebo zahraj kartu."
+
+#: RuleRestartPreRoll.cpp:98
+#, c-format
+msgid "Waiting for %s to play a card or roll the dice."
+msgstr "Ceká se, nez hrác %s zahraje kartu, nebo hodí kostkou."
+
+#: RuleRestartPreRoll.cpp:102
+#, fuzzy, c-format
+msgid "%s, select an action or roll the dice."
+msgstr "%s, házej kostkou nebo zahraj kartu."
+
+#: RuleRestartPreRoll.cpp:103
+#, fuzzy, c-format
+msgid "Waiting for %s to select an action or roll the dice."
+msgstr "Ceká se, nez hrác %s zahraje kartu, nebo hodí kostkou."
+
+#: RuleRestartRobberSteal.cpp:65
+#, fuzzy, c-format
+msgid "%s, choose a player to steal from, or click the robber to not steal."
+msgstr "%s, vyber hrace, od ktereho chceš ukrást surovinu, nebo klikni na zlodeje."
+
+#: RuleRestartRobberSteal.cpp:67
+#, c-format
+msgid "Waiting for %s to steal a card."
+msgstr "Ceká se, nez hrác %s ukradne surovinu."
+
+#: RuleRestartTurn.cpp:73
+#, c-format
+msgid "%s, it is your turn."
+msgstr "%s, jsi na tahu."
+
+#: RuleRestartTurn.cpp:74
+#, c-format
+msgid "Waiting for %s to finish the turn."
+msgstr "Ceká se, nez hrác %s ukoncí tah..."
+
+#: RuleRestartTurnLose7.cpp:145
+#, c-format
+msgid "%s, select resources to lose."
+msgstr "%s, vyber si suroviny, které chceš zahodit."
+
+#: RuleRestartTurnLose7.cpp:150
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "Ceká se, nez hrác %s zahodí své suroviny."
+
+#: RuleRestartTurnMonopoly.cpp:62
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s, vyber surovinu, kterou chces ukrást."
+
+#: RuleRestartTurnMonopoly.cpp:63
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "Ceká se, než hráč %s zvolí surovinu."
+
+#: RuleRestartTurnYearOfPlenty.cpp:61
+#, c-format
+msgid "%s, select two resources."
+msgstr "%s, zvol si dvě suroviny."
+
+#: RuleRestartTurnYearOfPlenty.cpp:62
+#, c-format
+msgid "Waiting for %s to select two resources."
+msgstr "Ceká se, nez hrác %s vybere dve suroviny."
+
+#: RuleRollDiceText.cpp:61
+#, c-format
+msgid "%s rolls a %d."
+msgstr "%s hodil %d."
+
+#: RuleStartRobberCommon.cpp:60
+#, c-format
+msgid "%s, place the robber."
+msgstr "%s, presun zlodeje."
+
+#: RuleStartRobberCommon.cpp:61
+#, c-format
+msgid "Waiting for %s to place the robber."
+msgstr "Ceká se, nez hrác %s presune zlodeje."
+
+#: RuleWin.cpp:105
+#, c-format
+msgid "%s wins the game!"
+msgstr "%s vyhrál hru."
+
+#: RuleWin.cpp:108
+#, c-format
+msgid "%s has won the game."
+msgstr "%s vyhrál hru."
+
+#: StockName.cpp:35
+msgid "Stock amounts"
+msgstr "Stavební moznosti"
+
+#: StockOption.cpp:47
+msgid "Change the starting stock amounts of roads, settlements, and cities."
+msgstr "Mení startovní pocet Cest, Vesnic a Mest."
+
+#: StockOption.cpp:102
+#, fuzzy, c-format
+msgid "%d roads"
+msgstr "%d cesty"
+
+#: StockOption.cpp:104
+#, fuzzy, c-format
+msgid "%d settlements"
+msgstr "%d vesnice"
+
+#: StockOption.cpp:109
+#, fuzzy
+msgid "1 city"
+msgstr "město"
+
+#: StockOption.cpp:113
+#, c-format
+msgid "%d cities"
+msgstr "%d mesta"
+
+#: StockOption.cpp:134
+msgid "Roads:"
+msgstr "Cesty:"
+
+#: StockOption.cpp:152
+msgid "Settlements:"
+msgstr "Vesnice:"
+
+#: StockOption.cpp:170
+msgid "Cities:"
+msgstr "Mesta:"
+
+#: YearOfPlentyDialog.cpp:52
+#, fuzzy
+msgid "Select 2 resources to gain."
+msgstr "Vyber 2 suroviny."
+
+#, fuzzy
+#~ msgid "Select %d resources to lose."
+#~ msgstr "%s, vyber si suroviny, které chceš zahodit."
+
+#~ msgid "%s trades"
+#~ msgstr "%s vyměnil"

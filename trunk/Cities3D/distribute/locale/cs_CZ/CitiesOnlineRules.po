@@ -1,0 +1,64 @@
+﻿# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D 0.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-08 08:35-0600\n"
+"PO-Revision-Date: 2006-06-19 10:54+0100\n"
+"Last-Translator: Jakub Dvořák <diacon.frost@centrum.cz>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+#: Strings.cpp:137
+msgid ""
+"Cities Online was shut down!  This game can no longer be played.  Restart "
+"the game from the site to continue."
+msgstr ""
+
+#: Strings.cpp:138
+msgid "Question"
+msgstr ""
+
+#: Strings.cpp:139
+msgid ""
+"There are players connected to you.  Are you sure you want to shut down the "
+"server?"
+msgstr ""
+
+#: Strings.cpp:140
+msgid "Waiting for players to join."
+msgstr ""
+
+#: Strings.cpp:141
+msgid ""
+"You are currently connected to a server.  Are you sure you want to leave?"
+msgstr ""
+
+#: Strings.cpp:142
+msgid ""
+"You are currently in a Cities Online game!  Are you sure you want to quit?  "
+"It may go on your record!"
+msgstr ""
+
+#: Strings.cpp:143
+msgid ""
+"You are currently watching a Cities Online game, are you sure you want to "
+"quit?"
+msgstr ""

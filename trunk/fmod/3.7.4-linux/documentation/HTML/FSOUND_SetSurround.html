@@ -1,0 +1,72 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_SetSurround</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_SetSpeakerMode.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_SetVolume.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_SetSurround">FSOUND_SetSurround</A></H2>
+Sets a channels surround sound status.  This surround sound is a fake dolby trick that <BR>
+effectively pans the channel to the center, but inverts the waveform in one speaker to<BR>
+make it sound fuller or spacier, or like it is coming out of space between the 2 speakers.<BR>
+Panning is ignored while surround is in effect.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_SetSurround</B><B>(</B><BR>
+<B>int </B><B> </B><I>channel</I><B>,</B><BR>
+<B>signed char </B><B> </B><I>surround</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>channel</I></TD>
+<TD>The channel number/handle to change the surround for.  FSOUND_ALL can also be used (see remarks).<BR>
+</TD><TR VALIGN=top><TD><I>surround</I></TD>
+<TD>Toggle value - TRUE enables surround sound on the channel, FALSE disables it.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+FSOUND_ALL is supported.  Passing this will set the surround sound mode of ALL channels available.<BR>
+If FSOUND_ALL is used the last channel success flag will be returned.  This return value is not useful in most circumstances.<BR>
+---------<BR>
+Note this only works on software channels.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_GetSurround.html">FSOUND_GetSurround</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

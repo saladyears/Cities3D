@@ -1,0 +1,92 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Stream_Create</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Stream_Close.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Stream_CreateDSP.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Stream_Create">FSOUND_Stream_Create</A></H2>
+Creates a user definable stream file ready for playing.  The stream is serviced through a callback.<BR>
+<P>
+<B>DLL_API FSOUND_STREAM *	F_API </B><B> </B><B>FSOUND_Stream_Create</B><B>(</B><BR>
+<B>FSOUND_STREAMCALLBACK </B><B> </B><I>callback</I><B>,</B><BR>
+<B>int </B><B> </B><I>lenbytes</I><B>,</B><BR>
+<B>unsigned int </B><B> </B><I>mode</I><B>,</B><BR>
+<B>int </B><B> </B><I>samplerate</I><B>,</B><BR>
+<B>void *</B><I>userdata</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>callback</I></TD>
+<TD>A pointer to a user defined stream callback function.<BR>
+</TD><TR VALIGN=top><TD><I>lenbytes</I></TD>
+<TD>Size of the data in BYTES the callback will require to be written to the buffer.<BR>
+</TD><TR VALIGN=top><TD><I>mode</I></TD>
+<TD>Description of the raw sample data being opened.  see FSOUND_MODES for a description of these modes.<BR>
+</TD><TR VALIGN=top><TD><I>samplerate</I></TD>
+<TD>Rate of playback.  Be careful you dont set the sample rate too high so that the stream servicer (ie the harddisk) may not keep up.  <BR>
+</TD><TR VALIGN=top><TD><I>userdata</I></TD>
+<TD>User data that is passed back into the stream callback when triggered.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, a pointer to an opened stream is returned.<BR>
+On failure, NULL is returned.<BR>
+<H3>Remarks</H3>
+This method only supports SIGNED RAW streams to be written to the buffer supplied by the callback.  <BR>
+They can be 8 or 16 bit, mono or stereo.<BR>
+'lenbytes' may be rounded down to the nearest sample alignment in bytes.  Ie if you specified 1001 bytes for a 16bit stereo sample stream, len would return 1000 in the callback.  (250 samples * 4 bytes per sample)<BR>
+PlayStation 2 IMPORTANT! : if FSOUND_SendData is NOT called from the stream callback the IOP will hang because it is waiting for this command to be executed before it can unlock its buffer.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_MODES.html">FSOUND_MODES</A>
+, 
+<A HREF="FSOUND_SendData.html">FSOUND_SendData</A>
+, 
+<A HREF="FSOUND_Stream_Close.html">FSOUND_Stream_Close</A>
+, 
+<A HREF="FSOUND_Stream_Play.html">FSOUND_Stream_Play</A>
+, 
+<A HREF="FSOUND_Stream_PlayEx.html">FSOUND_Stream_PlayEx</A>
+, 
+<A HREF="FSOUND_Stream_SetBufferSize.html">FSOUND_Stream_SetBufferSize</A>
+, 
+<A HREF="FSOUND_Stream_Stop.html">FSOUND_Stream_Stop</A>
+, 
+<A HREF="FSOUND_STREAMCALLBACK.html">FSOUND_STREAMCALLBACK</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

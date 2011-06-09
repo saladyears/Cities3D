@@ -1,0 +1,662 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+# 
+# This program is free software; you can redistribute it and/or modify it 
+# under the terms of the GNU General Public License as published by the Free 
+# Software Foundation; either version 2 of the License, or (at your option) 
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but 
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+# for more details.
+# 
+#: DevCardOptions.cpp:36
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-02 14:24-0600\n"
+"PO-Revision-Date: 2005-09-07 20:32-0700\n"
+"Last-Translator: Marty McFly <martiojd@hotmail.fr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: defineOptions.h:26 StandardRules.cpp:42
+msgid "Standard"
+msgstr "Standard"
+
+#: AllowedName.cpp:35
+msgid "Cards allowed"
+msgstr "Cartes autorisées"
+
+#: AllowedOption.cpp:48
+msgid ""
+"Change the number of cards each player may hold without losing half on a 7."
+msgstr ""
+"Changer le nombre de cartes que chaque joueur peut garder sans devoir "
+"défausser en cas de 7."
+
+#: AllowedOption.cpp:96
+#, c-format
+msgid "%d cards allowed in hand"
+msgstr "%d cartes autorisées en main"
+
+#: AllowedOption.cpp:120
+msgid "Cards allowed in hand:"
+msgstr "Cartes autorisées en main:"
+
+#: AroundTheBoardName.cpp:35
+msgid "Random chip layout"
+msgstr "Répartition des jetons au hasard"
+
+#: AroundTheBoardPortsName.cpp:35
+msgid "Random port layout"
+msgstr "Répartition des ports au hasard"
+
+#: BankDataDevCards.cpp:35 PlayerDataDevCards.cpp:89
+msgid "Development Cards"
+msgstr "Cartes de développement"
+
+#: BankDataStandard.cpp:35 LogicResourceNameStandard.cpp:89
+#: PlayerDataStandard.cpp:136
+msgid "Sheep"
+msgstr "Mouton"
+
+#: BankDataStandard.cpp:37 LogicResourceNameStandard.cpp:117
+#: PlayerDataStandard.cpp:141
+msgid "Ore"
+msgstr "Minerai"
+
+#: BankDataStandard.cpp:39 LogicResourceNameStandard.cpp:59
+#: PlayerDataStandard.cpp:146
+msgid "Timber"
+msgstr "Bois"
+
+#: BankDataStandard.cpp:41 LogicResourceNameStandard.cpp:74
+#: PlayerDataStandard.cpp:151
+msgid "Clay"
+msgstr "Argile"
+
+#: BankDataStandard.cpp:43 LogicResourceNameStandard.cpp:103
+#: PlayerDataStandard.cpp:156
+msgid "Wheat"
+msgstr "Blé"
+
+#: BuildDataDevCards.cpp:39
+msgid "Buy a Development Card"
+msgstr "Acheter une carte de développement."
+
+#: BuildDataStandard.cpp:47
+msgid "Build a Road"
+msgstr "Construire une route"
+
+#: BuildDataStandard.cpp:51
+msgid "Build a Settlement"
+msgstr "Construire une colonie"
+
+#: BuildDataStandard.cpp:55
+msgid "Build a City"
+msgstr "Construire une ville"
+
+#: DevCardsDialog.cpp:49
+msgid "Play Card"
+msgstr "Jouer une carte"
+
+#: DevCardsDialog.cpp:49
+msgid "Your Cards"
+msgstr "Vos cartes"
+
+#: DevCardsName.cpp:35 DevelopmentCardsName.cpp:35
+msgid "Development cards"
+msgstr "Cartes de développement"
+
+#: DevCardsUI.cpp:74
+msgid "Rolls"
+msgstr "Lancers"
+
+#: DevelopmentCardsOption.cpp:47
+msgid "Change the deck of Development cards."
+msgstr "Changer la pile de cartes de développement."
+
+#: DevelopmentCardsOption.cpp:77 LogicCardNameDevCards.cpp:59
+msgid "Victory Point"
+msgstr "Point de victoire"
+
+#: DevelopmentCardsOption.cpp:78 LogicCardNameDevCards.cpp:74
+msgid "Road Building"
+msgstr "Construction de route"
+
+#: DevelopmentCardsOption.cpp:79 LogicCardNameDevCards.cpp:89
+#: YearOfPlentyDialog.cpp:162
+msgid "Year Of Plenty"
+msgstr "Découverte"
+
+#: DevelopmentCardsOption.cpp:80 LogicCardNameDevCards.cpp:103
+#: MonopolyDialog.cpp:111
+msgid "Monopoly"
+msgstr "Monopole"
+
+#: DevelopmentCardsOption.cpp:81 LogicCardNameDevCards.cpp:117
+msgid "Soldier"
+msgstr "Chevalier"
+
+#: DevelopmentCardsOption.cpp:134
+#, c-format
+msgid "Development cards: %s"
+msgstr "Cartes de développement: %s"
+
+#: DrawCityObject.cpp:316
+msgid "City"
+msgstr "Ville"
+
+#: DrawRoadObject.cpp:253
+msgid "Road"
+msgstr "Route"
+
+#: DrawRobberObject.cpp:368
+msgid "Robber"
+msgstr "Brigand"
+
+#: DrawSettlementObject.cpp:255
+msgid "Settlement"
+msgstr "Colonie"
+
+#: DrawTileObject.cpp:396
+#, c-format
+msgid "Odds: %s"
+msgstr "Chances: %s"
+
+#: LogicCardTextDevCards.cpp:59
+msgid "Receive 1 Victory Point!"
+msgstr "Vous recevez 1 point de victoire!"
+
+#: LogicCardTextDevCards.cpp:74
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr ""
+"A ce tour, construisez gratuitement deux routes, deux bateaux ou un de "
+"chaque."
+
+#: LogicCardTextDevCards.cpp:90
+msgid ""
+"In this turn, take any two resource cards from the bank.  They may be used "
+"immediately."
+msgstr ""
+"A ce tour, recevez deux ressources de la banque. Elles peuvent être "
+"utilisées "
+
+#: LogicCardTextDevCards.cpp:105
+msgid ""
+"Choose one resource type.  All other players must give you all their "
+"resource cards of that type."
+msgstr ""
+"Choisissez un type de ressources. Tous les joueurs doivent vous donner "
+"toutes leurs ressources de ce type."
+
+#: LogicCardTextDevCards.cpp:120
+msgid ""
+"Move the robber and steal one resource card from the owner of an adjacent "
+"city or settlement.  Or, move the pirate and steal from the owner of an "
+"adjacent ship."
+msgstr ""
+"Déplacez le brigand et volez une ressource du propriétaire d'une colonie ou "
+"d'une ville adjacente. Ou, déplacez le pirate et volez chez le propriétaire "
+"d'un bateau adjacent."
+
+#: LogicRequestInitialPlacement.cpp:61 RuleBuildSettlementTurn.cpp:120
+#, c-format
+msgid "%s, place a settlement."
+msgstr "%s, placez une colonie."
+
+#: LogicRequestInitialPlacement.cpp:62 RuleBuildSettlementTurn.cpp:121
+#, c-format
+msgid "Waiting for %s to place a settlement."
+msgstr "En attente, %s place une colonie."
+
+#: LogicRequestInitialRoad.cpp:61 RuleBuildRoadCommon.cpp:89
+#, c-format
+msgid "%s, place a road."
+msgstr "%S, placez une route."
+
+#: LogicRequestInitialRoad.cpp:62 RuleBuildRoadCommon.cpp:90
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "En attente, %s place une route."
+
+#: LogicResourceNameStandard.cpp:132
+msgid "Desert"
+msgstr "Désert"
+
+#: LogicResourceNameStandard.cpp:146
+msgid "Ocean"
+msgstr "Océan"
+
+#: LogicResourceNameStandard.cpp:160
+msgid "2-1 Timber Port"
+msgstr "Port bois 2:1"
+
+#: LogicResourceNameStandard.cpp:174
+msgid "2-1 Clay Port"
+msgstr "Port argile 2:1"
+
+#: LogicResourceNameStandard.cpp:188
+msgid "2-1 Sheep Port"
+msgstr "Port mouton 2:1"
+
+#: LogicResourceNameStandard.cpp:202
+msgid "2-1 Wheat Port"
+msgstr "Port blé 2:1"
+
+#: LogicResourceNameStandard.cpp:216
+msgid "2-1 Ore Port"
+msgstr "Port minerai 2:1"
+
+#: LogicResourceNameStandard.cpp:230
+msgid "3-1 Port"
+msgstr "Port 3:1"
+
+#: MonopolyDialog.cpp:51
+msgid "Select 1 resource type to steal."
+msgstr "Choisissez 1 ressource à monopoliser."
+
+#: No7Name.cpp:35
+msgid "No early 7s"
+msgstr "Pas de 7 au début"
+
+#: No7Option.cpp:46
+msgid ""
+"Prevent 7s from rolling for one or two rounds.  This lets players get their "
+"feet on the ground before the robber comes calling."
+msgstr ""
+"Annuler 7 aux dés pour un ou deux tours. Ceci permet aux joueurs de respirer "
+"un peu avant que le brigand ne puisse pointer son nez."
+
+#: No7Option.cpp:93
+msgid "No 7s for 1 round"
+msgstr "Pas de 7 pour 1 tour"
+
+#: No7Option.cpp:97
+#, c-format
+msgid "No 7s for %d rounds"
+msgstr "Pas de 7 pour %d tours"
+
+#: No7Option.cpp:116
+msgid "Rounds before a 7 is rolled:"
+msgstr "Nombres de tour avant que 7 ne soit possible:"
+
+#: PlayerDataDevCards.cpp:95
+msgid "Soldiers"
+msgstr "Chevaliers"
+
+#: PlayerDataStandard.cpp:162
+msgid "Resource Cards"
+msgstr "Cartes de ressources"
+
+#: PlayerDataStandard.cpp:169
+msgid "Cities"
+msgstr "Villes"
+
+#: PlayerDataStandard.cpp:174
+msgid "Settlements"
+msgstr "Colonies"
+
+#: PlayerDataStandard.cpp:179
+msgid "Roads"
+msgstr "Routes"
+
+#: PlayerDataStandard.cpp:185
+msgid "Points"
+msgstr "Points"
+
+#: PlayerDataStandard.cpp:189
+msgid "Victory Points"
+msgstr "Points de victoire"
+
+#: PlayerDataStandard.cpp:193
+msgid "Road Length"
+msgstr "Longueur de la route"
+
+#: PointsName.cpp:35
+msgid "Points needed to win"
+msgstr "Points nécessaires pour gagner"
+
+#: PointsOption.cpp:47
+msgid "Change the number of points needed to win the game."
+msgstr "Changer le nombre de pts nécessaires pour gagner la partie."
+
+#: PointsOption.cpp:90
+#, c-format
+msgid "Play to %d points"
+msgstr "Jouer jusqu'à %d points"
+
+#: PointsOption.cpp:113
+msgid "Points needed to win:"
+msgstr "Points nécessaires pour gagner:"
+
+#: RandomTilesName.cpp:35
+msgid "Random tile layout"
+msgstr "Placement des hexagones au hasard"
+
+#: RuleBuildCityTurn.cpp:113
+#, c-format
+msgid "%s, place a city."
+msgstr "%s, placez une ville."
+
+#: RuleBuildCityTurn.cpp:114
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "En attente, %s place une route."
+
+#: RuleBuyDevCardTurn.cpp:129
+#, c-format
+msgid "%s buys a Development Card."
+msgstr "%s achète une carte de développement."
+
+#: RuleBuyDevCardTurn.cpp:145
+#, c-format
+msgid "You receive a %s card."
+msgstr "Vous recevez une carte %s."
+
+#: RuleEndTurn.cpp:86
+#, c-format
+msgid "%s ends the turn."
+msgstr "%s finit sont tour."
+
+#: RuleExecuteBankTrade.cpp:96 RuleExecuteBankTrade.cpp:121
+#: RuleExecuteLose7.cpp:92 RuleExecuteTrade.cpp:103 RuleExecuteTrade.cpp:136
+#: RuleExecuteYearOfPlentyCard.cpp:92
+#, c-format
+msgid "%d %s"
+msgstr "%d %s"
+
+#: RuleExecuteBankTrade.cpp:124
+#, c-format
+msgid "%s trades %s to the bank for %s."
+msgstr "% échange %s avec la banque pour %s."
+
+#: RuleExecuteBankTrade.cpp:185
+#, c-format
+msgid "%s undoes a bank trade."
+msgstr "%s annule un échange avec la banque."
+
+#: RuleExecuteLose7.cpp:95
+#, c-format
+msgid "%s loses %s."
+msgstr "%s perd %s."
+
+#: RuleExecuteMonopolyCard.cpp:101
+#, c-format
+msgid "%d %s from %s"
+msgstr "%d %s de %s"
+
+#: RuleExecuteMonopolyCard.cpp:112 RuleRobberSteal.cpp:73
+#: RuleSelectRobberSteal.cpp:79
+#, c-format
+msgid "%s steals nothing."
+msgstr "%s ne vole rien."
+
+#: RuleExecuteMonopolyCard.cpp:116
+#, c-format
+msgid "%s steals %s."
+msgstr "%s monopolise %s."
+
+#: RuleExecuteRobberSteal.cpp:124
+#, c-format
+msgid "You steal 1 %s from %s."
+msgstr "Vous volez 1 %s à %s."
+
+#: RuleExecuteRobberSteal.cpp:129
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr "%s vous vole 1 %s."
+
+#: RuleExecuteRobberSteal.cpp:134
+#, c-format
+msgid "%s steals 1 resource from %s."
+msgstr "%s vole 1 ressource à %s."
+
+#: RuleExecuteTrade.cpp:139
+#, c-format
+msgid "%s trades %s to %s for %s."
+msgstr "%s "change %s à %s pour %s."
+
+#: RuleExecuteYearOfPlentyCard.cpp:95
+#, c-format
+msgid "%s selects %s."
+msgstr "%s choisit %s."
+
+#: RuleGainLargestArmy.cpp:70
+#, c-format
+msgid "%s takes Largest Army."
+msgstr "%s prend le chevalier le plus puissant."
+
+#: RuleGainLongestRoad.cpp:74
+#, c-format
+msgid "%s takes Longest Road."
+msgstr "%s prend la route la plus longue."
+
+#: RuleGatherResources.cpp:176
+#, c-format
+msgid "There is not enough %s in the bank. No one receives any."
+msgstr "Il n'y a pas assez de %s en banque. Personne n'en reçoit."
+
+#: RuleInitializeDevCards.cpp:75
+msgid "Dev"
+msgstr "Dév."
+
+#: RuleLoseLargestArmy.cpp:65
+#, c-format
+msgid "%s loses Largest Army."
+msgstr "%s perd le chevalier le plus puissant."
+
+#: RuleLoseLongestRoad.cpp:69
+#, c-format
+msgid "%s loses Longest Road."
+msgstr "%s perd la route la plus longue."
+
+#: RulePlaceCity.cpp:116
+#, c-format
+msgid "%s places a city."
+msgstr "%s place une ville."
+
+#: RulePlaceCity.cpp:149
+#, c-format
+msgid "%s undoes a city."
+msgstr "%s annule une ville."
+
+#: RulePlaceRoad.cpp:118
+#, c-format
+msgid "%s places a road."
+msgstr "%s place une route."
+
+#: RulePlaceRoad.cpp:158
+#, c-format
+msgid "%s undoes a road."
+msgstr "%s annule une route."
+
+#: RulePlaceSettlement.cpp:73
+#, c-format
+msgid "%s places a settlement."
+msgstr "%s place une colonie."
+
+#: RulePlaceSettlement.cpp:85
+#, c-format
+msgid "%s undoes a settlement."
+msgstr "%s annule une colonie."
+
+#: RulePlayCard.cpp:71
+#, c-format
+msgid "%s plays a %s card."
+msgstr "%s joue une carte %s."
+
+#: RuleReduceCity.cpp:105
+#, c-format
+msgid "%s has a city reduced to a settlement."
+msgstr "%s réduit une ville en colonie."
+
+#: RuleRestartPreRoll.cpp:90
+#, c-format
+msgid "%s, play a card, select an action, or roll the dice."
+msgstr "%s, jouez une carte, sélectionnez une action ou lancez les dés."
+
+#: RuleRestartPreRoll.cpp:92
+#, c-format
+msgid "Waiting for %s to play a card, select an action, or roll the dice."
+msgstr ""
+"En attente, %s doit jouer une carte, sélectionner une action ou lancer les "
+"dés."
+
+#: RuleRestartPreRoll.cpp:97
+#, c-format
+msgid "%s, play a card or roll the dice."
+msgstr "%s, jouez une carte ou lancez les dés."
+
+#: RuleRestartPreRoll.cpp:98
+#, c-format
+msgid "Waiting for %s to play a card or roll the dice."
+msgstr "En attente, %s doit jouer une carte ou lancer les dés."
+
+#: RuleRestartPreRoll.cpp:102
+#, c-format
+msgid "%s, select an action or roll the dice."
+msgstr "%s, sélectionnez une action ou lancez les dés."
+
+#: RuleRestartPreRoll.cpp:103
+#, c-format
+msgid "Waiting for %s to select an action or roll the dice."
+msgstr "En attente, %s doit sélectionner une action ou lancer les dés."
+
+#: RuleRestartRobberSteal.cpp:65
+#, c-format
+msgid "%s, choose a player to steal from, or click the robber to not steal."
+msgstr ""
+"%s, choisissez à qui voler une carte, ou cliquez sur le brigand pour ne pas "
+"voler."
+
+#: RuleRestartRobberSteal.cpp:67
+#, c-format
+msgid "Waiting for %s to steal a card."
+msgstr "En attente, %s vole une carte."
+
+#: RuleRestartTurn.cpp:73
+#, c-format
+msgid "%s, it is your turn."
+msgstr "%s, à vous de jouer."
+
+#: RuleRestartTurn.cpp:74
+#, c-format
+msgid "Waiting for %s to finish the turn."
+msgstr "En attente, %s n'a pas fini son tour."
+
+#: RuleRestartTurnLose7.cpp:145
+#, c-format
+msgid "%s, select resources to lose."
+msgstr "%s, choisissez les ressources à perdre."
+
+#: RuleRestartTurnLose7.cpp:150
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "En attente, %s perd des ressources."
+
+#: RuleRestartTurnMonopoly.cpp:62
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s, choisissez une ressource à monopoliser."
+
+#: RuleRestartTurnMonopoly.cpp:63
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "En attente, %s choisit une ressource à monopoliser."
+
+#: RuleRestartTurnYearOfPlenty.cpp:61
+#, c-format
+msgid "%s, select two resources."
+msgstr "%s, choisissez deux ressources."
+
+#: RuleRestartTurnYearOfPlenty.cpp:62
+#, c-format
+msgid "Waiting for %s to select two resources."
+msgstr "En attente, %s choisit deux ressources."
+
+#: RuleRollDiceText.cpp:61
+#, c-format
+msgid "%s rolls a %d."
+msgstr "%s a lancé un %d."
+
+#: RuleStartRobberCommon.cpp:60
+#, c-format
+msgid "%s, place the robber."
+msgstr "%s, placez le brigand."
+
+#: RuleStartRobberCommon.cpp:61
+#, c-format
+msgid "Waiting for %s to place the robber."
+msgstr "En attente, %s place le brigand."
+
+#: RuleWin.cpp:105
+#, c-format
+msgid "%s wins the game!"
+msgstr "%s gagne la partie!"
+
+#: RuleWin.cpp:108
+#, c-format
+msgid "%s has won the game."
+msgstr "%s a gagné la partie."
+
+#: StockName.cpp:35
+msgid "Stock amounts"
+msgstr "Quantités en réserve"
+
+#: StockOption.cpp:47
+msgid "Change the starting stock amounts of roads, settlements, and cities."
+msgstr "Changer le nombre initial de routes, colonies et villes en réserve."
+
+#: StockOption.cpp:102
+#, c-format
+msgid "%d roads"
+msgstr "%d routes"
+
+#: StockOption.cpp:104
+#, c-format
+msgid "%d settlements"
+msgstr "%d Colonies"
+
+#: StockOption.cpp:109
+msgid "1 city"
+msgstr "1 ville"
+
+#: StockOption.cpp:113
+#, c-format
+msgid "%d cities"
+msgstr "%d villes"
+
+#: StockOption.cpp:134
+msgid "Roads:"
+msgstr "Routes:"
+
+#: StockOption.cpp:152
+msgid "Settlements:"
+msgstr "Colonies:"
+
+#: StockOption.cpp:170
+msgid "Cities:"
+msgstr "Villes:"
+
+#: YearOfPlentyDialog.cpp:52
+msgid "Select 2 resources to gain."
+msgstr "Choisissez 2 ressources à gagner."
+
+#~ msgid "Select %d resources to lose."
+#~ msgstr "Choisissez %d ressources à perdre."
+
+#~ msgid "Cards To Lose"
+#~ msgstr "Cartes à défausser"
+
+#~ msgid "%s trades"
+#~ msgstr "%s échange"
+
+#~ msgid "to %s for"
+#~ msgstr "avec %s pour"

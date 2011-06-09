@@ -1,0 +1,46 @@
+Obtaining the code on MacOSX:
+---------------------------
+1. Obtain and install the latest svn package. The base package is
+   command line, but several gui packages exist, e.g. RapidSvn
+   (uses wxWidgets) and svnX.
+2. Create a directory called Cities3D and enter it.
+3. Use your svn tool to checkout the following URL:
+   http://svn1.cvsdude.com/saladyears/Cities3D/trunk
+   If you do not wish to download all of the support libraries use 
+   http://svn1.cvsdude.com/saladyears/Cities3D/trunk/Cities3D
+4. Your source tree should look like this:
+		Cities3D/
+		`--- boost/
+		|	 `--- 1_33_1/
+		`--- glew/
+		|	 `--- 1.3.5/
+		`--- fmod/
+		|	 `--- 3.7.5-mac/
+		`--- wxWidgets/
+		|	 `--- 2.8.0
+		`--- Cities3D/
+		`--- build.sh
+
+Compiling the code on MacOSX:
+---------------------------
+1. Using the build.sh script requires a recent version of the
+   XCode Tools and the MacOSX SDK (>=10.4) installed. The build.sh
+   script automates practically everything necessary to get
+   Cities3D and its dependencies compiled correctly.
+2. Enter the Cities3D directory you had created and downloaded the
+   sources into. The build.sh script should be there.
+3. Run "./build.sh release all" to compile and install everything.
+4. Take a long break, this is going to take awhile.
+5. You will see several new folders. Cities3D has been compiled
+   and installed into the Cities3D-install-release directory.
+
+Note: When using the unmodified build.sh script, only the release
+build produces a Universal Binary, which will work natively on
+both PowerPC and Intel based Macs.
+
+Running the game on MacOSX:
+-------------------------
+1. Just double-click the generated bundle in the
+   Cities3D-install-release directory from within finder.
+2. Optionally drag the bundle to your applications folder.
+

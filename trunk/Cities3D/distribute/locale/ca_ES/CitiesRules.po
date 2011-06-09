@@ -1,0 +1,1571 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-12-05 22:07+0100\n"
+"Last-Translator: Jordi E. Gasulla <jordigasulla@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: SPAIN\n"
+
+#: CitiesStats.cpp:150
+msgid "Red Die"
+msgstr ""
+
+#: CitiesStats.cpp:153
+msgid "Third Die"
+msgstr ""
+
+#: CitiesStats.cpp:156
+#, fuzzy
+msgid "Trade Cards Played"
+msgstr "Cartes d'Intercanvi"
+
+#: CitiesStats.cpp:159
+#, fuzzy
+msgid "Politics Cards Played"
+msgstr "Cartes de Política"
+
+#: CitiesStats.cpp:162
+#, fuzzy
+msgid "Science Cards Played"
+msgstr "Cartes de Ciència"
+
+#: CitiesStats.cpp:172
+#, fuzzy
+msgid "Barbarian"
+msgstr "Bàrbars"
+
+#: CitiesStats.cpp:173 Strings.cpp:728
+msgid "Trade"
+msgstr "Intercanvi"
+
+#: CitiesStats.cpp:174 Strings.cpp:672
+msgid "Politics"
+msgstr "Política"
+
+#: CitiesStats.cpp:175 Strings.cpp:690
+msgid "Science"
+msgstr "Ciència"
+
+#: CitiesStats.cpp:177
+#, fuzzy
+msgid "Defender Points"
+msgstr "Punts de Defensor"
+
+#: CitiesStats.cpp:178
+#, fuzzy
+msgid "Metropolis"
+msgstr "Metrópolis del Intercanvi"
+
+#: CitiesStats.cpp:179 CitiesStats.cpp:227 Strings.cpp:659
+msgid "Merchant"
+msgstr "Mercant"
+
+#: CitiesStats.cpp:180
+#, fuzzy
+msgid "Victory Points"
+msgstr "1 Punt de Victoria!"
+
+#: CitiesStats.cpp:182 CitiesStats.cpp:186 CitiesStats.cpp:190 Strings.cpp:634
+msgid "Cloth"
+msgstr "Seda"
+
+#: CitiesStats.cpp:183 CitiesStats.cpp:187 CitiesStats.cpp:191 Strings.cpp:635
+msgid "Coin"
+msgstr "Monedes"
+
+#: CitiesStats.cpp:184 CitiesStats.cpp:188 CitiesStats.cpp:192 Strings.cpp:669
+msgid "Paper"
+msgstr "Paper"
+
+#: CitiesStats.cpp:194
+#, fuzzy
+msgid "Aqueduct"
+msgstr "Usar el teu Aqueducte"
+
+#: CitiesStats.cpp:195 CitiesStats.cpp:203 CitiesStats.cpp:225 Strings.cpp:636
+msgid "Commercial Harbor"
+msgstr "Port Comercial"
+
+#: CitiesStats.cpp:196 CitiesStats.cpp:204 CitiesStats.cpp:226 Strings.cpp:657
+msgid "Master Merchant"
+msgstr "Mestre Mercader"
+
+#: CitiesStats.cpp:197 CitiesStats.cpp:205 CitiesStats.cpp:229 Strings.cpp:684
+msgid "Resource Monopoly"
+msgstr "Monopoli de Recursos"
+
+#: CitiesStats.cpp:198 CitiesStats.cpp:206 CitiesStats.cpp:230 Strings.cpp:731
+msgid "Trade Monopoly"
+msgstr "Monopoli de Comerç"
+
+#: CitiesStats.cpp:199 CitiesStats.cpp:208 CitiesStats.cpp:241 Strings.cpp:738
+msgid "Wedding"
+msgstr "Casament"
+
+#: CitiesStats.cpp:200 CitiesStats.cpp:247 Strings.cpp:655
+msgid "Irrigation"
+msgstr "Irrigació"
+
+#: CitiesStats.cpp:201 CitiesStats.cpp:249 Strings.cpp:663
+msgid "Mining"
+msgstr "Mineria"
+
+#: CitiesStats.cpp:207 CitiesStats.cpp:232 Strings.cpp:611
+msgid "Arsonist"
+msgstr "Incendiari"
+
+#: CitiesStats.cpp:210
+msgid "Walls"
+msgstr ""
+
+#: CitiesStats.cpp:211
+#, fuzzy
+msgid "Basic Knights"
+msgstr "Cavallers Bàsics"
+
+#: CitiesStats.cpp:212
+#, fuzzy
+msgid "Strong Knights"
+msgstr "Cavallers Forts"
+
+#: CitiesStats.cpp:213
+#, fuzzy
+msgid "Mighty Knights"
+msgstr "Cavallers Poderosos"
+
+#: CitiesStats.cpp:214
+msgid "Knight Activates"
+msgstr ""
+
+#: CitiesStats.cpp:215
+#, fuzzy
+msgid "Trade Upgrades"
+msgstr "Cartes d'Intercanvi"
+
+#: CitiesStats.cpp:216
+#, fuzzy
+msgid "Politics Upgrades"
+msgstr "Cartes de Política"
+
+#: CitiesStats.cpp:217
+#, fuzzy
+msgid "Science Upgrades"
+msgstr "Cartes de Ciència"
+
+#: CitiesStats.cpp:218
+#, fuzzy
+msgid "City Repairs"
+msgstr "Millores"
+
+#: CitiesStats.cpp:220
+#, fuzzy
+msgid "Knights Moved"
+msgstr "Soldat errant"
+
+#: CitiesStats.cpp:221
+msgid "Criminals Expelled"
+msgstr ""
+
+#: CitiesStats.cpp:222
+msgid "Knights Attacked"
+msgstr ""
+
+#: CitiesStats.cpp:223
+#, fuzzy
+msgid "Coommercial Harbor Used"
+msgstr "Port Comercial"
+
+#: CitiesStats.cpp:228 Strings.cpp:660
+msgid "Merchant Fleet"
+msgstr "Flota Mercant"
+
+#: CitiesStats.cpp:233 Strings.cpp:618
+msgid "Bishop"
+msgstr "Bisbe"
+
+#: CitiesStats.cpp:234 Strings.cpp:637
+msgid "Constitution"
+msgstr "Constitució"
+
+#: CitiesStats.cpp:235 Strings.cpp:642
+msgid "Deserter"
+msgstr "Desertor"
+
+#: CitiesStats.cpp:236 Strings.cpp:643
+msgid "Diplomat"
+msgstr "Diplomàtic"
+
+#: CitiesStats.cpp:237 Strings.cpp:653
+msgid "Intrigue"
+msgstr "Intriga"
+
+#: CitiesStats.cpp:238 Strings.cpp:689
+msgid "Saboteur"
+msgstr "Sabotejador"
+
+#: CitiesStats.cpp:239 Strings.cpp:718
+msgid "Spy"
+msgstr "Espia"
+
+#: CitiesStats.cpp:240 Strings.cpp:737
+msgid "Warlord"
+msgstr "Senyor de la Guerra"
+
+#: CitiesStats.cpp:243 Strings.cpp:607
+msgid "Alchemist"
+msgstr "Alquimista"
+
+#: CitiesStats.cpp:244 Strings.cpp:638
+msgid "Crane"
+msgstr "Grua"
+
+#: CitiesStats.cpp:245 Strings.cpp:648
+msgid "Engineer"
+msgstr "Enginyer"
+
+#: CitiesStats.cpp:246 Strings.cpp:654
+msgid "Inventor"
+msgstr "Inventor"
+
+#: CitiesStats.cpp:248 Strings.cpp:658
+msgid "Medicine"
+msgstr "Medecina"
+
+#: CitiesStats.cpp:250 Strings.cpp:675
+msgid "Printer"
+msgstr "Impressor"
+
+#: CitiesStats.cpp:251 Strings.cpp:685
+msgid "Road Building"
+msgstr "Construcció de Carreteres"
+
+#: CitiesStats.cpp:252 Strings.cpp:717
+msgid "Smith"
+msgstr "Ferrer"
+
+#: Strings.cpp:605
+#, fuzzy
+msgid "Activate a knight"
+msgstr "Activa un Cavaller"
+
+#: Strings.cpp:606
+msgid "Activate all your knights for free."
+msgstr "Activa tots els teus cavallers gratis."
+
+#: Strings.cpp:608
+msgid ""
+"Allows players to use an active knight to expel criminals before the dice "
+"are rolled, if it is their turn."
+msgstr ""
+"Permet als jugadors utilitzar un cavaller actiu per expulsar els criminals "
+"abans de tirar els daus, si es el seu torn."
+
+#: Strings.cpp:609
+msgid ""
+"All players with more Victory Points than you must give you 2 resources or "
+"commodities of their choice."
+msgstr ""
+"Tots els jugadors amb més Punts de Victoria que tu han de donar-te dos "
+"recursos o commodities de la seva elecció."
+
+#: Strings.cpp:610
+msgid ""
+"All players with at least as many Victory Points as you lose half of the "
+"resource or commodity cards in their hand."
+msgstr ""
+"Tots els jugadors amb com a mínim els mateixos Punts de Victoria que tu "
+"perden la meitat de les seves cartes de recursos o commodities."
+
+#: Strings.cpp:612
+#, fuzzy
+msgid "Attack another knight"
+msgstr "Atacar un Cavaller Enemic"
+
+#: Strings.cpp:613
+msgid "Barbarians"
+msgstr "Bàrbars"
+
+#: Strings.cpp:614
+msgid "Barbarians are delayed for 1 round"
+msgstr "Els bàrbars es retrassaran una ronda"
+
+#: Strings.cpp:615
+#, fuzzy
+msgid "Basic knight"
+msgstr "Cavaller Bàsic"
+
+#: Strings.cpp:616
+#, fuzzy
+msgid "Basic knights"
+msgstr "Cavallers Bàsics"
+
+#: Strings.cpp:617
+msgid ""
+"Before the dice are rolled, select a result for each numbered die.  The "
+"event die rolls normally."
+msgstr ""
+"Abans de tirar els daus, tria un resultat per cada dau numéric. El dau "
+"d'events es tira normalment."
+
+#: Strings.cpp:619
+#, fuzzy
+msgid "Build a basic knight"
+msgstr "Comprar Cavallers Bàsics"
+
+#: Strings.cpp:620
+msgid "Build a city for 2 ore and 1 wheat."
+msgstr "Contrueix una ciutat per 2 pedres i 1 blat."
+
+#: Strings.cpp:621
+#, fuzzy
+msgid "Build a city walls"
+msgstr "En/Na %s desfà les muralles d'una ciutat."
+
+#: Strings.cpp:622
+#, fuzzy
+msgid "Build a mighty knight"
+msgstr "%s promociona a cavaller poderós."
+
+#: Strings.cpp:623
+#, fuzzy
+msgid "Build a strong knight"
+msgstr "En/Na %s promociona a cavaller fort."
+
+#: Strings.cpp:624
+msgid "Cards To Give"
+msgstr "Cartes a Donar"
+
+#: Strings.cpp:625
+msgid "Cards To Steal"
+msgstr "Cartes a Robar"
+
+#: Strings.cpp:626
+msgid "Change the deck of Politics progress cards."
+msgstr "Canvia la pila de cartes de progrés de Política."
+
+#: Strings.cpp:627
+msgid "Change the deck of Science progress cards."
+msgstr "Canviar la pila de cartes de progrés de Ciència."
+
+#: Strings.cpp:628
+msgid "Change the deck of Trade progress cards."
+msgstr "Canviar la pila de cartes de progrés d'Intercanvi."
+
+#: Strings.cpp:629
+msgid "Cities and Knights"
+msgstr "Ciutats i Cavallers"
+
+#: Strings.cpp:630
+msgid ""
+"Cities and Knights is a whole new way of playing Settlers.  Barbarians "
+"attack, knights defend, cities are pillaged or grow.  Politics, trade and "
+"science take on major roles in determining who wins, and who winds up on the "
+"end of a barbarian axe.\n"
+"\n"
+"Cities and Knights is not for the faint of heart.  Games last longer and are "
+"far more competitive than a Standard or Seafarers game, but the strategic "
+"choices are greater and more challenging than ever! "
+msgstr ""
+"Ciutats i Cavallers es una nova manera totalment nova de jugar als "
+"Colonitzadors de Catan. Atacs dels bàrbars, defensa del cavallers, les "
+"ciutats són assaltades o creixen. La política, l'intercanvi i la ciència "
+"tenen ara un paper destacat en determinar qui guanya, i qui acaba passant "
+"per la destral dels bàrbars.\n"
+"\n"
+"Ciutats i Cavallers no es per als que no els agraden les emocions fortes. "
+"Les partides duren més i són molt més competitives que en el joc estandard, "
+"però hi ha més opcions estratègiques i son més desafiants que mai!"
+
+#: Strings.cpp:631
+msgid "Cities and Knights (+3 points)"
+msgstr "Ciutats i Cavallers (+3 punts)"
+
+#: Strings.cpp:632
+#, fuzzy
+msgid "City Upgrades"
+msgstr "Millores"
+
+#: Strings.cpp:633
+#, fuzzy
+msgid "City walls"
+msgstr "Muralles de la Ciutat"
+
+#: Strings.cpp:639
+#, fuzzy
+msgid "Defender points"
+msgstr "Punts de Defensor"
+
+#: Strings.cpp:640
+msgid "Delay barbarians"
+msgstr "Retrassar els bàrbars"
+
+#: Strings.cpp:641
+msgid ""
+"Delay the barbarians for one or two rounds.  This lets players get their "
+"feet on the ground before the first invasion."
+msgstr ""
+"Retrassa els bàrbars per una o dues rondes. Aixó permet als jugadors "
+"establir-se abans de la primera invasió."
+
+#: Strings.cpp:644
+msgid "Discard"
+msgstr "Descartar"
+
+#: Strings.cpp:645
+msgid "Discard 1 Progress Card"
+msgstr "Descarta 1 Carta de Progrés"
+
+#: Strings.cpp:646
+msgid ""
+"Displace an opponent's knight on an intersection next to a road or ship you "
+"own."
+msgstr ""
+"Desplaça un cavaller enemic que estigui a una intersecció al costat d'una "
+"carretera o vaixell teus."
+
+#: Strings.cpp:647
+msgid "Drag and drop dice to select them."
+msgstr "Arrosega els daus per seleccionar-los."
+
+#: Strings.cpp:649
+#, fuzzy
+msgid "Expel criminals"
+msgstr "Expulsar Criminals"
+
+#: Strings.cpp:650
+msgid ""
+"For each opponent you select, offer 1 resource card from your hand.  They "
+"must give you 1 commodity card of their choice, unless they have none."
+msgstr ""
+"A cada oponent que tu triis, ofereix-li 1 recurs de la teva ma. Ells han de "
+"donar-te 1 commodity de la seva elecció, suposant que en tinguin alguna."
+
+#: Strings.cpp:651
+msgid ""
+"Instead of waiting until the first barbarian invasion, the robber is moved "
+"on a 7 from the first roll of the dice."
+msgstr ""
+"En comptes d'esperar fins a la primera invasió dels bàrbars, el lladre es "
+"mou amb un 7 des de la primera tirada dels daus."
+
+#: Strings.cpp:652
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr ""
+"En aquest torn, construeix dos carreteres, dos vaixells o un de cada, gratis."
+
+#: Strings.cpp:656
+msgid "Knights errant"
+msgstr "Soldat errant"
+
+#: Strings.cpp:661
+#, fuzzy
+msgid "Mighty knight"
+msgstr "Cavaller Poderós"
+
+#: Strings.cpp:662
+#, fuzzy
+msgid "Mighty knights"
+msgstr "Cavallers Poderosos"
+
+#: Strings.cpp:664
+#, fuzzy
+msgid "Move a knight"
+msgstr "Mou un Cavaller"
+
+#: Strings.cpp:665
+msgid ""
+"Move the robber or pirate.  In addition, steal 1 card from the hand of every "
+"player with a city or settlement on the new robber tile."
+msgstr ""
+"Mou el lladre o el pirata. A més, roba 1 carta de la mà de cada jugador amb "
+"una ciutat o poblat a aquell hexagon."
+
+#: Strings.cpp:666
+msgid "No mercy from the robber"
+msgstr "No hi ha misericòrdia del lladre"
+
+#: Strings.cpp:667
+msgid "OK"
+msgstr "Acceptar"
+
+#: Strings.cpp:668
+msgid "1 Victory Point!"
+msgstr "1 Punt de Victoria!"
+
+#: Strings.cpp:670
+msgid "Place a city walls for free."
+msgstr "Posa muralles de la ciutat gratis."
+
+#: Strings.cpp:671
+msgid "Play Card"
+msgstr "Jugar Carta"
+
+#: Strings.cpp:673
+msgid "Politics cards"
+msgstr "Cartes de Política"
+
+#: Strings.cpp:674
+#, fuzzy
+msgid "Politics metropolis"
+msgstr "Metrópolis de Política"
+
+#: Strings.cpp:676
+msgid "Promote two different knights one level for free."
+msgstr "Promociona un nivell dos cavallers diferents, gratis."
+
+#: Strings.cpp:677
+msgid "Purchase one city upgrade for 1 commodity less."
+msgstr "Compra un progrés de ciutat per 1 commodity menys."
+
+#: Strings.cpp:678
+msgid "Receive 2 ore for each ore tile on which you have a city or settlement."
+msgstr ""
+"Rep 2 pedres per cada hexagon de pedra en el que tinguis una ciutat o poblat."
+
+#: Strings.cpp:679
+msgid ""
+"Receive 2 wheat for each wheat tile on which you have a city or settlement."
+msgstr ""
+"Rep 2 blats per cada hexagon de blat en el que tinguis una ciutat o poblat."
+
+#: Strings.cpp:680
+msgid ""
+"Remove one open road from the board.  If you remove your own road, you may "
+"then place it elsewhere immediately."
+msgstr ""
+"Treu una carretera oberta del taulell. Si treus una carreteva teva, la pots "
+"tornar a col·locar on vulguis inmediatament."
+
+#: Strings.cpp:681
+msgid ""
+"Remove one open road or ship from the board.  If you remove your own road or "
+"ship, you may then place it elsewhere immediately."
+msgstr ""
+"Treu una carretera o vaixell oberts del taulell. Si treus una carretera o "
+"vaixell teus, els pots tornar a col·locar on vulguis inmediatament."
+
+#: Strings.cpp:682
+#, fuzzy
+msgid "Repair a city"
+msgstr "%s, repara una ciutat."
+
+#: Strings.cpp:683
+#, fuzzy
+msgid "Resources"
+msgstr "Monopoli de Recursos"
+
+#: Strings.cpp:686
+msgid "Robber is not delayed by barbarians"
+msgstr "El lladre no es retrassat pels bàrbars"
+
+#: Strings.cpp:687
+msgid "Roll Dice"
+msgstr ""
+
+#: Strings.cpp:688
+#, fuzzy
+msgid "Rounds before barbarians advance"
+msgstr "Rondes abans de que els bàrbars avancin:"
+
+#: Strings.cpp:691
+msgid "Science cards"
+msgstr "Cartes de Ciència"
+
+#: Strings.cpp:692
+#, fuzzy
+msgid "Science metropolis"
+msgstr "Metrópolis de Ciència"
+
+#: Strings.cpp:693
+msgid "Select"
+msgstr "Selecciona"
+
+#: Strings.cpp:694
+msgid ""
+"Select a commodity.  All players must give you 1 of that commodity, unless "
+"they have none."
+msgstr ""
+"Selecciona una commodity. Tots els jugadors han de donar-te 1 commodity "
+"d'aquestes, a no ser que no en tinguin."
+
+#: Strings.cpp:695
+msgid ""
+"Select an opponent's city.  The city produces as a settlement until the "
+"owner pays 1 timber and 1 ore for repairs."
+msgstr ""
+"Selecciona una ciutat enemiga. Aquella ciutat produeix com un poblat fins "
+"que l'amo pagui 1 fusta i 1 pedra per arreglar-la."
+
+#: Strings.cpp:696
+msgid ""
+"Select an opponent.  Steal 1 progress card of your choice from their hand."
+msgstr ""
+"Selecciona un enemic. Roba una carta de progrés de la teva elecció de la "
+"seva ma."
+
+#: Strings.cpp:697
+msgid ""
+"Select an opponent.  They must remove one knight of their choice from the "
+"board.  You may then place an equivalent knight on the board, following the "
+"normal rules."
+msgstr ""
+"Selecciona un oponent. Ell ha de treure un cavaller de la seva elecció del "
+"taulell. Tu pots posar llavors un cavaller equivalent al taulell, seguint "
+"les regles normals."
+
+#: Strings.cpp:698
+msgid "Select a Player for Desertion"
+msgstr "Selecciona un Jugador a Desertar"
+
+#: Strings.cpp:699
+msgid "Select a Player to Rob"
+msgstr "Selecciona un Jugador a Robar"
+
+#: Strings.cpp:700
+msgid "Select a Player to Spy on"
+msgstr "Selecciona un Jugador a Espiar"
+
+#: Strings.cpp:701
+msgid "Select a Player to Trade With"
+msgstr "Selecciona un Jugador per Negociar"
+
+#: Strings.cpp:702
+msgid "Select A Progress Card"
+msgstr "Selecciona Una Carta de Progrés"
+
+#: Strings.cpp:703
+msgid ""
+"Select a resource.  All players must give you as many of that resource as "
+"they can, up to 2."
+msgstr ""
+"Selecciona un recurs. Tots els jugadors han de donar-te tants d'aquest "
+"recurs com puguin, fins a 2."
+
+#: Strings.cpp:704
+msgid ""
+"Select a tile adjacent to a settlement or city you own and place the "
+"merchant on it.  As long as the merchant remains, you trade that resource to "
+"the bank at 2-1, and receive 1 Victory Point."
+msgstr ""
+"Selecciona un hexagon adjacent a una ciutat o poblat teus i col·loca el "
+"Mercant a sobre. Mentre tinguis el Mercant, pots canviar aquell recurs amb "
+"el banc a 2-1, i rebs 1 Punt de Victoria."
+
+#: Strings.cpp:705
+msgid "Select Dice"
+msgstr "Selecciona els Daus"
+
+#: Strings.cpp:706
+msgid "Select 1 card to give."
+msgstr "Selecciona 1 carta a donar."
+
+#: Strings.cpp:707
+msgid "Select 1 card type to trade at 2-1."
+msgstr "Selecciona 1 tipus de carta per canviar a 2-1."
+
+#: Strings.cpp:708
+msgid "Select 1 commodity type to steal."
+msgstr "Selecciona 1 tipus de commodity a robar."
+
+#: Strings.cpp:709
+msgid "Select 1 progress card."
+msgstr "Selecciona 1 carta de progrés."
+
+#: Strings.cpp:710
+msgid ""
+"Select 1 resource or commodity.  This round, trade it to the bank at 2-1."
+msgstr "Selecciona 1 recurs o commodity. Aquest torn, canvia'l al banc a 2-1."
+
+#: Strings.cpp:711
+msgid "Select 1 resource to gain."
+msgstr "Selecciona 1 recurs a guanyar."
+
+#: Strings.cpp:712
+msgid "Select 1 resource type to steal."
+msgstr "Selecciona 1 tipus de recurs a robar."
+
+#: Strings.cpp:713
+msgid "Select 2 cards to give."
+msgstr "Selecciona 2 cartes a donar."
+
+#: Strings.cpp:714
+msgid "Select one die of each color."
+msgstr "Selecciona un dau de cada color."
+
+#: Strings.cpp:715
+#, fuzzy
+msgid "Show Barbarians tab"
+msgstr "Bàrbars"
+
+#: Strings.cpp:716
+msgid "Show Upgrades tab"
+msgstr ""
+
+#: Strings.cpp:719
+msgid "Spy Cards"
+msgstr "Espiar Cartes"
+
+#: Strings.cpp:720
+msgid "Steal Card"
+msgstr "Robar Carta"
+
+#: Strings.cpp:721
+#, fuzzy
+msgid "Strong knight"
+msgstr "Cavaller Fort"
+
+#: Strings.cpp:722
+#, fuzzy
+msgid "Strong knights"
+msgstr "Cavallers Forts"
+
+#: Strings.cpp:723
+msgid ""
+"Switch any two roll chips on the board, except for those numbered 2, 12, 6, "
+"or 8."
+msgstr ""
+"Intercanvia dos números del taulell qualsevols, excepte els 2, 12, 6 o 8."
+
+#: Strings.cpp:724
+msgid ""
+"Take 2 resource or commodity cards of your choice from any one opponent with "
+"more Victory Points than you."
+msgstr ""
+"Agafa 2 recursos o commodities que tu triis d'un enemic amb més Punts de "
+"Victoria que tu."
+
+#: Strings.cpp:725
+msgid "The barbarians advance."
+msgstr "Els bàrbars avancen."
+
+#: Strings.cpp:726
+msgid "The barbarians attack and are repelled!"
+msgstr "Els bàrbars ataquen i són repelits!"
+
+#: Strings.cpp:727
+msgid "The barbarians attack and lay waste!"
+msgstr "Els bàrbars ataquen i arrasen!"
+
+#: Strings.cpp:729
+msgid "Trade cards"
+msgstr "Cartes d'Intercanvi"
+
+#: Strings.cpp:730
+#, fuzzy
+msgid "Trade metropolis"
+msgstr "Metrópolis del Intercanvi"
+
+#: Strings.cpp:732
+#, fuzzy
+msgid "Upgrade politics"
+msgstr "Millorar Política"
+
+#: Strings.cpp:733
+#, fuzzy
+msgid "Upgrade science"
+msgstr "Millorar Ciència"
+
+#: Strings.cpp:734
+#, fuzzy
+msgid "Upgrade trade"
+msgstr "Millorar Intercanvi"
+
+#: Strings.cpp:735
+#, fuzzy
+msgid "Use commercial harbor"
+msgstr "Utiliza el Port Comercial"
+
+#: Strings.cpp:736
+msgid "Use Your Aqueduct"
+msgstr "Usar el teu Aqueducte"
+
+#: Strings.cpp:739
+msgid "Your Cards"
+msgstr "Les teves Cartes"
+
+#: Strings.cpp:742
+#, c-format
+msgid "%s, activate a knight."
+msgstr "%s, activa un cavaller."
+
+#: Strings.cpp:743
+#, c-format
+msgid "%s activates a knight."
+msgstr "En/Na %s activa un cavaller."
+
+#: Strings.cpp:744
+#, c-format
+msgid "%s, attack an opponent's knight."
+msgstr "%s, ataca a un cavaller enemic."
+
+#: Strings.cpp:745
+#, c-format
+msgid "%s attacks a knight of %s."
+msgstr "En/Na %s ataca un cavaller d'en/na %s."
+
+#: Strings.cpp:746
+#, c-format
+msgid "Barbarians are delayed for %d rounds"
+msgstr "Els bàrbars es retrassaran %d rondes"
+
+#: Strings.cpp:747
+#, c-format
+msgid "%s, discard 1 progress card."
+msgstr "%s, descarta 1 carta de progrés."
+
+#: Strings.cpp:748
+#, c-format
+msgid "%s discards 1 %s card."
+msgstr "En/Na %s descarta 1 carta de %s."
+
+#: Strings.cpp:749
+#, c-format
+msgid "%s displaces a knight of %s."
+msgstr "En/Na %s desplaça un cavaller d'en/na %s."
+
+#: Strings.cpp:750
+#, c-format
+msgid "%s expels criminals."
+msgstr "En/Na %s expulsa els Criminals."
+
+#: Strings.cpp:751
+#, c-format
+msgid "%d %s from %s"
+msgstr "%d %s d'en/na %s"
+
+#: Strings.cpp:752
+#, fuzzy, c-format
+msgid "%s gives 1 card to %s as a wedding gift."
+msgstr "En/Na %s dóna 1 carta a en/na %s com a regal de Casament."
+
+#: Strings.cpp:753
+#, fuzzy, c-format
+msgid "%s gives %s to you as a wedding gift."
+msgstr "En/Na %s et dóna %s com a regal de Casament."
+
+#: Strings.cpp:754
+#, c-format
+msgid "%s gives 2 cards to %s as a Wedding gift."
+msgstr "En/Na %s dóna 2 cartes a en/na %s com a regal de Casament."
+
+#: Strings.cpp:755
+#, c-format
+msgid "%s loses %s."
+msgstr "En/Na %s perd %s."
+
+#: Strings.cpp:756
+#, c-format
+msgid "%s loses a city walls."
+msgstr "En/Na %s perd les muralles d'una ciutat."
+
+#: Strings.cpp:757
+#, c-format
+msgid "%s loses the knight in the attack."
+msgstr "En/Na %s perd el cavaller en l'atac."
+
+#: Strings.cpp:758
+#, c-format
+msgid "%s loses the knight."
+msgstr "En/Na %s perd el cavaller."
+
+#: Strings.cpp:759
+#, c-format
+msgid "%s loses the %s metropolis."
+msgstr "En/Na %s perd la metrópolis de %s."
+
+#: Strings.cpp:760
+#, c-format
+msgid "%s moves a knight."
+msgstr "En/Na %s mou un cavaller."
+
+#: Strings.cpp:761
+#, c-format
+msgid "%s, move your knight."
+msgstr "%s, mou el teu cavaller."
+
+#: Strings.cpp:762
+#, c-format
+msgid "%s, place a city."
+msgstr "%s, posa una ciutat."
+
+#: Strings.cpp:763
+#, c-format
+msgid "%s, place a city walls."
+msgstr "%s, posa muralles de la ciutat."
+
+#: Strings.cpp:764
+#, c-format
+msgid "%s, place a road."
+msgstr "%s, posa una carretera."
+
+#: Strings.cpp:765
+#, c-format
+msgid "%s, place a basic knight."
+msgstr "%s, posa un cavaller bàsic"
+
+#: Strings.cpp:766
+#, c-format
+msgid "%s, place the merchant."
+msgstr "%s, posa el Mercader."
+
+#: Strings.cpp:767
+#, c-format
+msgid "%s places a basic knight."
+msgstr "%s, posa un cavaller bàsic."
+
+#: Strings.cpp:768
+#, c-format
+msgid "%s places a city walls."
+msgstr "%s, posa muralles de la ciutat."
+
+#: Strings.cpp:769
+#, c-format
+msgid "%s places the deserter."
+msgstr "%s, posa el desertor."
+
+#: Strings.cpp:770
+#, c-format
+msgid "%s, place the deserter."
+msgstr "%s, posa el Desertor."
+
+#: Strings.cpp:771
+#, c-format
+msgid "%s, place your metropolis."
+msgstr "%s, posa la teva metrópolis."
+
+#: Strings.cpp:772
+#, fuzzy, c-format
+msgid "%s receives a progress card."
+msgstr "En/Na %s reb una Carta de Progrés."
+
+#: Strings.cpp:773
+#, fuzzy, c-format
+msgid "%s receives %d %s from irrigation."
+msgstr "En/Na %s reb %d %s d'una Irrigació."
+
+#: Strings.cpp:774
+#, fuzzy, c-format
+msgid "%s receives %d %s from mining."
+msgstr "En/Na %s reb %d %s d'una Mineria."
+
+#: Strings.cpp:775
+#, fuzzy, c-format
+msgid "%s receives 1 defender point."
+msgstr "En/Na %s reb 1 Punt de Defensor."
+
+#: Strings.cpp:776
+#, fuzzy, c-format
+msgid "%s receives 1 victory point from a %s card."
+msgstr "En/Na %s reb 1 Punt de Victoria d'una carta %s."
+
+#: Strings.cpp:777
+#, c-format
+msgid "%s removes a road of %s."
+msgstr "En/Na %s treu una carretera d'en/na %s."
+
+#: Strings.cpp:778
+#, c-format
+msgid "%s removes a ship of %s."
+msgstr "En/Na %s treu un vaixell d'en/na %s."
+
+#: Strings.cpp:779
+#, c-format
+msgid "%s, repair a city."
+msgstr "%s, repara una ciutat."
+
+#: Strings.cpp:780
+#, c-format
+msgid "%s repairs a city."
+msgstr "En/Na %s repara una ciutat."
+
+#: Strings.cpp:781
+#, c-format
+msgid "Roll a %d"
+msgstr ""
+
+#: Strings.cpp:782
+#, c-format
+msgid "%s, sabotage a city."
+msgstr "%s, saboteja una ciutat."
+
+#: Strings.cpp:783
+#, c-format
+msgid "%s sabotages a city of %s."
+msgstr "En/Na %s saboteja una ciutat d'en/na %s."
+
+#: Strings.cpp:784
+#, c-format
+msgid "%s, select a city to reduce."
+msgstr "%s, selecciona una ciutat a reduïr."
+
+#: Strings.cpp:785
+#, c-format
+msgid "%s, select a resource or commodity to trade at 2-1."
+msgstr ""
+"%s, selecciona 1 recurs o commodity. Aquest torn, intercanvia'l al banc a 2-"
+"1."
+
+#: Strings.cpp:786
+#, c-format
+msgid "%s, select a commodity to give to %s."
+msgstr "%s, selecciona una commodity per donar-li a en/na %s."
+
+#: Strings.cpp:787
+#, c-format
+msgid "%s, select a commodity to steal."
+msgstr "%s, selecciona una commodity a robar."
+
+#: Strings.cpp:788
+#, c-format
+msgid "%s, select a knight to attack with."
+msgstr "%s, selecciona un cavaller amb el que atacar."
+
+#: Strings.cpp:789
+#, c-format
+msgid "%s, select a knight to desert."
+msgstr "%s, selecciona un cavaller a desertar."
+
+#: Strings.cpp:790
+#, c-format
+msgid "%s, select a knight to displace."
+msgstr "%s, selecciona un cavaller a moure."
+
+#: Strings.cpp:791
+#, c-format
+msgid "%s, select a knight to expel criminals with."
+msgstr "%s, selecciona un cavaller per expulsar els criminals."
+
+#: Strings.cpp:792
+#, c-format
+msgid "%s, select a knight to move."
+msgstr "%s, selecciona un cavaller a moure."
+
+#: Strings.cpp:793
+#, c-format
+msgid "%s, select a player for desertion."
+msgstr "%s, selecciona un/a jugador/a a desertar."
+
+#: Strings.cpp:794
+#, c-format
+msgid "%s, select a player to rob."
+msgstr "%s, selecciona un/a jugador/a a robar."
+
+#: Strings.cpp:795
+#, c-format
+msgid "%s, select a player to spy on."
+msgstr "%s, selecciona un/a jugador/a a espiar."
+
+#: Strings.cpp:796
+#, fuzzy, c-format
+msgid "%s, select a player to use the commercial harbor on."
+msgstr "%s, selecciona un jugador/a per utilitzar-li el Port Comercial."
+
+#: Strings.cpp:797
+#, c-format
+msgid "%s, select a progress card."
+msgstr "%s, selecciona una carta de progrés."
+
+#: Strings.cpp:798
+#, c-format
+msgid "%s, select a resource to give to %s."
+msgstr "%s, selecciona un recurs per donar-li a en/na %s."
+
+#: Strings.cpp:799
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s, selecciona un recurs a robar."
+
+#: Strings.cpp:800
+#, c-format
+msgid "%s, select a road or ship to remove."
+msgstr "%s, selecciona una carretera o vaixell a treure."
+
+#: Strings.cpp:801
+#, c-format
+msgid "%s, select a road to remove."
+msgstr "%s, selecciona una carretera a treure."
+
+#: Strings.cpp:802
+#, c-format
+msgid "Select 1 card to steal from %s."
+msgstr "Selecciona 1 carta a robar d'en/na %s."
+
+#: Strings.cpp:803
+#, c-format
+msgid "%s, select resources to lose."
+msgstr "%s, selecciona recursos a perdre."
+
+#: Strings.cpp:804
+#, c-format
+msgid "%s selects %s."
+msgstr "En/Na %s selecciona %s."
+
+#: Strings.cpp:805
+#, c-format
+msgid "%s selects a deserter."
+msgstr "En/Na %s selecciona un desertor."
+
+#: Strings.cpp:806
+#, c-format
+msgid "%s, select the dice for the next roll."
+msgstr "%s, selecciona els daus per a la següent tirada."
+
+#: Strings.cpp:807
+#, c-format
+msgid "%s, select the first roll chip to switch."
+msgstr "%s, selecciona el primer nombre a intercanviar."
+
+#: Strings.cpp:808
+#, c-format
+msgid "%s, select the second roll chip to switch."
+msgstr "%s, selecciona el segon nombre a intercanviar."
+
+#: Strings.cpp:809
+#, c-format
+msgid "Select 2 cards to steal from %s."
+msgstr "Selecciona 2 cartes a robar d'en/na %s."
+
+#: Strings.cpp:810
+#, c-format
+msgid "%s, select 2 cards to steal from %s."
+msgstr "%s, selecciona 2 cartes a robar a en/na %s."
+
+#: Strings.cpp:811
+#, c-format
+msgid "%s, select 2 resources or commodities to give to the wedding."
+msgstr "%s, selecciona 2 recursos o commodities a donar en el casament."
+
+#: Strings.cpp:812
+#, c-format
+msgid "Select 1 commodity to give to %s."
+msgstr "Selecciona 1 commodity per donar a en/na %s."
+
+#: Strings.cpp:813
+#, c-format
+msgid "%s, select 1 progress card to steal from %s."
+msgstr "%s, selecciona 1 carta de progrés a robar a d'en/na %s."
+
+#: Strings.cpp:814
+#, c-format
+msgid "Select 1 resource to give to %s."
+msgstr "Selecciona 1 recurs a donar a en/na %s."
+
+#: Strings.cpp:815
+#, c-format
+msgid "%s steals %s."
+msgstr "En/Na %s roba %s."
+
+#: Strings.cpp:816
+#, c-format
+msgid "%s steals %s from you."
+msgstr "En/Na %s et roba %s."
+
+#: Strings.cpp:817
+#, c-format
+msgid "%s steals 1 card from %s."
+msgstr "En/Na %s roba 1 carta d'en/na %s."
+
+#: Strings.cpp:818
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr "En/Na %s et roba 1 %s."
+
+#: Strings.cpp:819
+#, c-format
+msgid "%s steals 1 progress card from %s."
+msgstr "En/Na %s roba 1 carta de progrés d'en/na %s."
+
+#: Strings.cpp:820
+#, c-format
+msgid "%s steals 2 cards from %s."
+msgstr "En/Na %s roba 2 cartes d'en/na %s."
+
+#: Strings.cpp:821
+#, c-format
+msgid "%s steals nothing."
+msgstr "En/Na %s no roba res."
+
+#: Strings.cpp:822
+#, c-format
+msgid "%s swaps a %d chip for a %d chip."
+msgstr "En/Na %s intercanvia un %d per un %d."
+
+#: Strings.cpp:823
+#, c-format
+msgid "%s takes the %s metropolis."
+msgstr "En/Na %s aconsegueix la metrópolis de %s."
+
+#: Strings.cpp:824
+#, fuzzy, c-format
+msgid "%s trades 1 resource to %s for 1 commodity using the commercial harbor."
+msgstr ""
+"En/Na %s canvia 1 recurs a en/na %s per 1 commodity utilizant el Port "
+"Comercial."
+
+#: Strings.cpp:825
+#, c-format
+msgid "%s undoes a basic knight."
+msgstr "En/Na %s desfà un cavaller bàsic."
+
+#: Strings.cpp:826
+#, c-format
+msgid "%s undoes a city walls."
+msgstr "En/Na %s desfà les muralles d'una ciutat."
+
+#: Strings.cpp:827
+#, c-format
+msgid "%s undoes a knight activate."
+msgstr "%s desfà l'activació d'un cavaller."
+
+#: Strings.cpp:828
+#, c-format
+msgid "%s undoes a knight move."
+msgstr "En/Na %s desfà el moviment d'un cavaller."
+
+#: Strings.cpp:829
+#, c-format
+msgid "%s undoes a knight upgrade."
+msgstr "%s desfà una promoció de cavaller."
+
+#: Strings.cpp:830
+#, c-format
+msgid "%s undoes the %s upgrade."
+msgstr "En/Na %s desfà una millora de %s."
+
+#: Strings.cpp:831
+#, c-format
+msgid "%s upgrades to a mighty knight."
+msgstr "%s promociona a cavaller poderós."
+
+#: Strings.cpp:832
+#, c-format
+msgid "%s upgrades to a strong knight."
+msgstr "En/Na %s promociona a cavaller fort."
+
+#: Strings.cpp:833
+#, c-format
+msgid "%s upgrades %s to level %d."
+msgstr "En/Na %s millora %s al nivell %d."
+
+#: Strings.cpp:834
+#, c-format
+msgid "%s, upgrade to a mighty knight."
+msgstr "%s, promociona a cavaller poderós."
+
+#: Strings.cpp:835
+#, c-format
+msgid "%s, upgrade to a strong knight."
+msgstr "%s, promociona a cavaller fort."
+
+#: Strings.cpp:836
+#, c-format
+msgid "%s, use your aqueduct."
+msgstr "%s, utiliza el teu aqueducte."
+
+#: Strings.cpp:837
+#, fuzzy, c-format
+msgid "%s uses the merchant fleet to trade %s."
+msgstr "En/Na %s utilitza la Flota Mercant per canviar %s."
+
+#: Strings.cpp:838
+#, c-format
+msgid "Waiting for %s to activate a knight."
+msgstr "Esperant a que en/na %s activi un cavaller."
+
+#: Strings.cpp:839
+#, c-format
+msgid "Waiting for %s to attack an opponent's knight."
+msgstr "Esperant a que en/na %s ataqui a un cavaller enemic."
+
+#: Strings.cpp:840
+#, c-format
+msgid "Waiting for %s to discard 1 progress card."
+msgstr "Esperant a que en/na %s descarti 1 carta de progrés."
+
+#: Strings.cpp:841
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "Esperant a que en/na %s perdi recursos."
+
+#: Strings.cpp:842
+#, c-format
+msgid "Waiting for %s to move a knight."
+msgstr "Esperant a que en/na %s mogui un cavaller."
+
+#: Strings.cpp:843
+#, c-format
+msgid "Waiting for %s to place a basic knight."
+msgstr "Esperant a que en/na %s coloqui un cavaller bàsic."
+
+#: Strings.cpp:844
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "Esperant a que en/na %s coloqui una ciutat."
+
+#: Strings.cpp:845
+#, c-format
+msgid "Waiting for %s to place a city walls."
+msgstr "Esperant a que en/na %s coloqui murallles de la ciutat."
+
+#: Strings.cpp:846
+#, c-format
+msgid "Waiting for %s to place a metropolis."
+msgstr "Esperant a que en/na %s coloqui una metrópolis."
+
+#: Strings.cpp:847
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "Esperant a que en/na %s coloqui una carretera."
+
+#: Strings.cpp:848
+#, c-format
+msgid "Waiting for %s to place the deserter."
+msgstr "Esperant a que en/na %s coloqui el desertor."
+
+#: Strings.cpp:849
+#, c-format
+msgid "Waiting for %s to place the merchant."
+msgstr "Esperant a que en/na %s coloqui el mercader."
+
+#: Strings.cpp:850
+#, c-format
+msgid "Waiting for %s to reduce a city."
+msgstr "Esperant a que en/na %s redueixi una ciutat."
+
+#: Strings.cpp:851
+#, c-format
+msgid "Waiting for %s to repair a city."
+msgstr "Esperant a que en/na %s repari una ciutat."
+
+#: Strings.cpp:852
+#, c-format
+msgid "Waiting for %s to sabotage a city."
+msgstr "Esperant a que en/na %s sabotegi una ciutat."
+
+#: Strings.cpp:853
+#, c-format
+msgid "Waiting for %s to select a commodity to trade."
+msgstr "Esperant a que en/na %s seleccioni una commodity a canviar."
+
+#: Strings.cpp:854
+#, c-format
+msgid "Waiting for %s to select a resource or commodity to trade at 2-1."
+msgstr ""
+"Esperant a que en/na %s seleccioni un recurs o commodity per intercanviar a "
+"2-1."
+
+#: Strings.cpp:855
+#, c-format
+msgid "Waiting for %s to select a commodity to steal."
+msgstr "Esperant a que en/na %s seleccioni una commodity a robar."
+
+#: Strings.cpp:856
+#, c-format
+msgid "Waiting for %s to select a knight to attack with."
+msgstr "Esperant a que en/na %s seleccioni un cavaller amb el que atacar."
+
+#: Strings.cpp:857
+#, c-format
+msgid "Waiting for %s to select a knight to desert."
+msgstr "Esperant a que en/na %s seleccioni un cavaller a desertar."
+
+#: Strings.cpp:858
+#, c-format
+msgid "Waiting for %s to select a knight to displace."
+msgstr "Esperant a que en/na %s seleccioni un cavaller a moure."
+
+#: Strings.cpp:859
+#, c-format
+msgid "Waiting for %s to select a knight to expel criminals with."
+msgstr ""
+"Esperant a que en/na %s seleccioni un cavaller per expulsar els criminals."
+
+#: Strings.cpp:860
+#, c-format
+msgid "Waiting for %s to select a knight to move."
+msgstr "Esperant a que en/na %s seleccioni un cavaller a moure."
+
+#: Strings.cpp:861
+#, c-format
+msgid "Waiting for %s to select a player for desertion."
+msgstr "Esperant a que en/na %s seleccioni un/a jugador/a a desertar."
+
+#: Strings.cpp:862
+#, c-format
+msgid "Waiting for %s to select a player to rob."
+msgstr "Esperant a que en/na %s seleccioni un/a jugador/a a robar."
+
+#: Strings.cpp:863
+#, c-format
+msgid "Waiting for %s to select a player to spy on."
+msgstr "Esperant a que en/na %s seleccioni un/a jugador/a a espiar."
+
+#: Strings.cpp:864
+#, fuzzy, c-format
+msgid "Waiting for %s to select a player to use the commercial harbor on."
+msgstr ""
+"Esperant a que en/na %s seleccioni un/a jugador/a per utilitzar-li el Port "
+"Comercial."
+
+#: Strings.cpp:865
+#, c-format
+msgid "Waiting for %s to select a progress card."
+msgstr "Esperant a que en/na %s seleccioni una carta de progrés."
+
+#: Strings.cpp:866
+#, c-format
+msgid "Waiting for %s to select a resource to trade."
+msgstr "Esperant a que en/na %s seleccioni un recurs a canviar."
+
+#: Strings.cpp:867
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "Esperant a que en/na %s seleccioni un recurs a robar."
+
+#: Strings.cpp:868
+#, c-format
+msgid "Waiting for %s to select a road or ship to remove."
+msgstr "Esperant a que en/na %s seleccioni una carretera o vaixell a treure."
+
+#: Strings.cpp:869
+#, c-format
+msgid "Waiting for %s to select a road to remove."
+msgstr "Esperant a que en/na %s seleccioni una carretera a treure."
+
+#: Strings.cpp:870
+#, c-format
+msgid "Waiting for %s to select 1 progress card to steal from %s."
+msgstr ""
+"Esperant a que en/na %s seleccioni 1 carta de progrés a robar d'en/na %s."
+
+#: Strings.cpp:871
+#, c-format
+msgid "Waiting for %s to select the dice for the next roll."
+msgstr "Esperant a que en/na %s seleccioni els daus per a la següent tirada."
+
+#: Strings.cpp:872
+#, c-format
+msgid "Waiting for %s to select the first roll chip to switch."
+msgstr "Esperant a que en/na %s seleccioni un nombre a intercanviar."
+
+#: Strings.cpp:873
+#, c-format
+msgid "Waiting for %s to select the second roll chip to switch."
+msgstr "Esperant a que en/na %s seleccioni el segon nombre a intercanviar."
+
+#: Strings.cpp:874
+#, c-format
+msgid "Waiting for %s to select 2 cards to steal from %s."
+msgstr "Esperant a que en/na %s seleccioni 2 cartes a robar d'en/na %s."
+
+#: Strings.cpp:875
+#, c-format
+msgid "Waiting for %s to give 2 resources or commodities to the wedding."
+msgstr "Esperant a que en/na %s seleccioni 2 recursos a donar en el casament."
+
+#: Strings.cpp:876
+#, fuzzy, c-format
+msgid "Waiting for %s and %s to trade using the commercial harbor."
+msgstr ""
+"Esperant a que en/na %s i en/na %s intercanviin carters utilitzant el Port "
+"Comercial."
+
+#: Strings.cpp:877
+#, c-format
+msgid "Waiting for %s to upgrade to a mighty knight."
+msgstr "Esperant a que en/na %s promocioni un cavaller poderós."
+
+#: Strings.cpp:878
+#, c-format
+msgid "Waiting for %s to upgrade to a strong knight."
+msgstr "Esperant a que en/na %s promocioni un cavaller fort."
+
+#: Strings.cpp:879
+#, c-format
+msgid "Waiting for %s to use their aqueduct."
+msgstr "Esperant a que en/na %s utilitzi el seu aqueducte."
+
+#: Strings.cpp:880
+#, c-format
+msgid "Waiting for %s to withdraw a knight."
+msgstr "Esperant a que en/na %s retiri un cavaller."
+
+#: Strings.cpp:881
+#, c-format
+msgid "%s withdraws a knight."
+msgstr "En/Na %s retira un cavaller."
+
+#: Strings.cpp:882
+#, c-format
+msgid "%s, withdraw your knight."
+msgstr "%s, retira el teu cavaller."
+
+#: Strings.cpp:883
+#, c-format
+msgid "You receive a %s card."
+msgstr "Tu rebs una carta de %s."
+
+#: Strings.cpp:884
+#, fuzzy, c-format
+msgid "You trade 1 %s to %s for 1 %s using the commercial harbor."
+msgstr "Canvies 1 %s a en/na %s per 1 %s utilizant el Port Comercial."
+
+#~ msgid "Buy City Walls"
+#~ msgstr "Comprar Muralles de la Ciutat"
+
+#~ msgid "Upgrade to a Strong Knight"
+#~ msgstr "Promoció a Cavaller Fort"
+
+#~ msgid "Upgrade to a Mighty Knight"
+#~ msgstr "Promoció a Cavaller Poderós"
+
+#~ msgid "Repair a Sabotaged City"
+#~ msgstr "Reparar una Ciutat Sabotejada"
+
+#, fuzzy
+#~ msgid "MerchantDraw"
+#~ msgstr "Mercant"
+
+#~ msgid "Politics cards: %s"
+#~ msgstr "Cartes de Política: %s"
+
+#~ msgid "%d %s"
+#~ msgstr "%d %s"
+
+#~ msgid "Science cards: %s"
+#~ msgstr "Cartes de Ciència: %s"
+
+#~ msgid "Trade cards: %s"
+#~ msgstr "Cartes d'Intercanvi: %s"
+
+#~ msgid "Rolls"
+#~ msgstr "Tira"
+
+#~ msgid "from you"
+#~ msgstr "de tu"
+
+#~ msgid "%s gives"
+#~ msgstr "En/Na %s dóna"
+
+#~ msgid "to you as a Wedding gift"
+#~ msgstr "a tu com a regal de Casament"

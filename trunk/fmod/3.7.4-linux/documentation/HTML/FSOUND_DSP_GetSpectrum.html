@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_DSP_GetSpectrum</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_DSP_GetSFXUnit.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_DSP_MixBuffers.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_DSP_GetSpectrum">FSOUND_DSP_GetSpectrum</A></H2>
+Function to return a pointer to the current spectrum buffer.  The buffer contains 512 floating<BR>
+point values that represent each frequency band's amplitude for the current FMOD SoundSystem<BR>
+mixing buffer.  The range of frequencies covered by the spectrum is 1 to the nyquist frequency<BR>
+or half of the output rate.  So if the output rate is 44100, then frequencies provided are up<BR>
+to 22050. (entry 511)<BR>
+<P>
+<B>F_FLOAT_API * F_API </B><B> </B><B>FSOUND_DSP_GetSpectrum</B><B>(</B><BR>
+<B>);</B><BR>
+<H3>Return Value</H3>
+A pointer to a buffer containing 512 floats.<BR>
+<H3>Remarks</H3>
+Note that hardware sounds, MIDI, files do not register on the spectrum graph as they are not run through FMODs DSP system.<BR>
+Note that to use this you have to turn on the FSOUND FFT DSP unit.  This is achieved by calling FSOUND_DSP_GetFFTUnit, then using FSOUND_DSP_SetActive to turn it on.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_DSP_GetFFTUnit.html">FSOUND_DSP_GetFFTUnit</A>
+, 
+<A HREF="FSOUND_DSP_SetActive.html">FSOUND_DSP_SetActive</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

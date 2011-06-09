@@ -1,0 +1,110 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_PlaySound</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_OPENCALLBACK.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_PlaySoundEx.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_PlaySound">FSOUND_PlaySound</A></H2>
+Plays a sample in a specified channel, using the sample's default frequency, volume<BR>
+and pan settings.<BR>
+<P>
+<B>int F_API </B><B> </B><B>FSOUND_PlaySound</B><B>(</B><BR>
+<B>int </B><B> </B><I>channel</I><B>,</B><BR>
+<B>FSOUND_SAMPLE *</B><I>sptr</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>channel</I></TD>
+<TD>0+	<BR>
+The absolute channel number in the channel pool.  <BR>
+Remember software channels come first, followed by hardware channels.  <BR>
+You cannot play a software sample on a hardware channel and vice versa.<BR>
+FSOUND_FREE<BR>
+Chooses a free channel to play in.  If all channels are used then it<BR>
+selects a channel with a sample playing that has an EQUAL or LOWER priority <BR>
+than the sample to be played.<BR>
+FSOUND_ALL<BR>
+Passing this will cause ALL channels to play.  (note this will make things<BR>
+VERY noisy!)<BR>
+If FSOUND_ALL is used the last channel success flag will be returned.<BR>
+</TD><TR VALIGN=top><TD><I>sptr</I></TD>
+<TD>Pointer to the sample to be played.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, the channel handle that was selected is returned.<BR>
+On failure, -1 is returned.<BR>
+<H3>Remarks</H3>
+If you play a FSOUND_HW3D declared sample with this function, then the position and velocity<BR>
+are set to those of the listener.  Other attributes such as volume, frequency and pan are taken<BR>
+from the sample's default volume, frequency, pan etc.<BR>
+----------<BR>
+The channel handle :<BR>
+The return value is reference counted.  This stops the user from updating a stolen channel.<BR>
+Basically it means the only sound you can change the attributes (ie volume/pan/frequency/3d position) for are the one you specifically called playsound for.  If another sound steals that channel, and you keep trying to change its attributes (ie volume/pan/frequency/3d position), it will do nothing.<BR>
+This is great if you have sounds being updated from tasks and you just forget about it.<BR>
+You can keep updating the sound attributes and if another task steals that channel, your original task wont change the attributes of the new sound!!!<BR>
+The lower 12 bits contain the channel number. (yes this means a 4096 channel limit for FMOD :)<BR>
+The upper 19 bits contain the reference count.<BR>
+The top 1 bit is the sign bit.<BR>
+ie<BR>
+S RRRRRRRRRRRRRRRRRRR CCCCCCCCCCCC<BR>
+----------<BR>
+Remember if not using FSOUND_FREE, then the channel pool is split up into software and hardware channels.<BR>
+Software channels occupy the first n indicies specified by the value passed into FSOUND_Init.<BR>
+Hardware channels occupy the next n indicies after this, and can be a variable amount, depending on the hardware.<BR>
+Use FSOUND_GetNumHardwareChannels to query how many channels are available in hardware.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_FX_Enable.html">FSOUND_FX_Enable</A>
+, 
+<A HREF="FSOUND_GetNumHardwareChannels.html">FSOUND_GetNumHardwareChannels</A>
+, 
+<A HREF="FSOUND_GetNumSubChannels.html">FSOUND_GetNumSubChannels</A>
+, 
+<A HREF="FSOUND_GetSubChannel.html">FSOUND_GetSubChannel</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+, 
+<A HREF="FSOUND_PlaySoundEx.html">FSOUND_PlaySoundEx</A>
+, 
+<A HREF="FSOUND_Sample_SetMaxPlaybacks.html">FSOUND_Sample_SetMaxPlaybacks</A>
+, 
+<A HREF="FSOUND_StopSound.html">FSOUND_StopSound</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

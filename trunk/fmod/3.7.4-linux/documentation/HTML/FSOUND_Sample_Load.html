@@ -1,0 +1,100 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Sample_Load</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Sample_GetName.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Sample_Lock.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Sample_Load">FSOUND_Sample_Load</A></H2>
+Loads and decodes a static soundfile into memory.<BR>
+This includes such files as .WAV, .MP2, .MP3, .OGG, .RAW and others.<BR>
+<P>
+<B>FSOUND_SAMPLE *	F_API </B><B> </B><B>FSOUND_Sample_Load</B><B>(</B><BR>
+<B>int </B><B> </B><I>index</I><B>,</B><BR>
+<B>const char *</B><I>name_or_data</I><B>,</B><BR>
+<B>unsigned int </B><B> </B><I>inputmode</I><B>,</B><BR>
+<B>int </B><B> </B><I>offset</I><B>,</B><BR>
+<B>int </B><B> </B><I>length</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>index</I></TD>
+<TD>Sample pool index.	See remarks for more on the sample pool.<BR>
+0 or above - The absolute index into the sample pool.  The pool will grow as the index gets larger.  If a slot is already used it will be replaced.<BR>
+FSOUND_FREE - Let FSOUND select an arbitrary sample slot. <BR>
+FSOUND_UNMANAGED - Dont have this sample managed within fsounds sample management system<BR>
+</TD><TR VALIGN=top><TD><I>name_or_data</I></TD>
+<TD>Name of sound file or pointer to memory image to load.<BR>
+</TD><TR VALIGN=top><TD><I>mode</I></TD>
+<TD>Description of the data format, OR in the bits defined in FSOUND_MODES to describe the data being loaded.<BR>
+</TD><TR VALIGN=top><TD><I>offset</I></TD>
+<TD>Optional. 0 by default.  If &gt; 0, this value is used to specify an offset in a file, so fmod will seek before opening.  length must also be specified if this value is used.<BR>
+</TD><TR VALIGN=top><TD><I>length</I></TD>
+<TD>Optional. 0 by default.  If &gt; 0, this value is used to specify the length of a memory block when using FSOUND_LOADMEMORY, or it is the length of a file or file segment if the offset parameter is used.  On PlayStation 2 this must be 16 byte aligned for memory loading.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, a sample pointer is returned.<BR>
+On failure, NULL is returned.<BR>
+<H3>Remarks</H3>
+FMOD has a sample management system that holds onto any samples loaded or allocated, and frees them all when you call FSOUND_Close.  <BR>
+It takes the hassle out of having to keep hold of a lot of sample handles and remember to free them all at the end of your application.<BR>
+It is basically an expandle array of handles that holds each sample until FMOD closes down where it does a cleanup.  <BR>
+FSOUND_UNMANAGED can be used so FMOD does NOT use the sample management system.  You have to make sure they are freed yourself.<BR>
+--------<BR>
+Specify FSOUND_LOADMEMORY to load a file from a memory image.  <BR>
+The pointer you pass to name must be the actual image of the data you want to load.<BR>
+The length parameter is to be filled out if FSOUND_LOADMEMORY is specified, otherwise if you do not specify memory loading, can be safely ignored and should be set to 0.<BR>
+--------<BR>
+Compressed formats are expanded into memory.  If the file is quite large, it could take a while to load.<BR>
+--------<BR>
+If FSOUND_8BITS is specified and the file decodes to 16bit normally, FMOD will downgrade the sample to 8bit.<BR>
+--------<BR>
+On PlayStation 2, the name_or_data pointer and length variables must be 16 byte aligned, for DMA reasons.<BR>
+--------<BR>
+Note that FSOUND_NONBLOCKING is NOT supported with this function.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Close.html">FSOUND_Close</A>
+, 
+<A HREF="FSOUND_MODES.html">FSOUND_MODES</A>
+, 
+<A HREF="FSOUND_Sample_Alloc.html">FSOUND_Sample_Alloc</A>
+, 
+<A HREF="FSOUND_Sample_Free.html">FSOUND_Sample_Free</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

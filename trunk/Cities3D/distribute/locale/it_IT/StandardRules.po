@@ -1,0 +1,785 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2007-05-05 22:17+0100\n"
+"Last-Translator: Giuseppe Bilotta <giuseppe.bilotta@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+
+#: DevCardsStats.cpp:45
+#, fuzzy
+msgid "Development Cards Played"
+msgstr "Carte Sviluppo"
+
+#: DevCardsStats.cpp:49 DevCardsStats.cpp:65 DevCardsStats.cpp:68
+#: Strings.cpp:433
+msgid "Monopoly"
+msgstr "Monopolio"
+
+#: DevCardsStats.cpp:50 Strings.cpp:451
+msgid "Road Building"
+msgstr "Costruzione di strade"
+
+#: DevCardsStats.cpp:51 Strings.cpp:464
+msgid "Soldier"
+msgstr "Cavaliere"
+
+#: DevCardsStats.cpp:52 Strings.cpp:476
+msgid "Victory Point"
+msgstr "Punto Vittoria"
+
+#: DevCardsStats.cpp:53 DevCardsStats.cpp:66 Strings.cpp:479
+msgid "Year Of Plenty"
+msgstr "Scoperta"
+
+#: DevCardsStats.cpp:58
+#, fuzzy
+msgid "Largest Army"
+msgstr "%s perde l'Esercito più potente."
+
+#: DevCardsStats.cpp:63
+#, fuzzy
+msgid "Victory Points"
+msgstr "Punto Vittoria"
+
+#: DevCardsStats.cpp:70
+msgid "Development Cards"
+msgstr "Carte Sviluppo"
+
+#: GoldStats.cpp:32 GoldStats.cpp:33 GoldStats.cpp:34 Strings.cpp:430
+msgid "Gold"
+msgstr "Oro"
+
+#: GoldStats.cpp:36 GoldStats.cpp:37
+msgid "Gold Exchange"
+msgstr ""
+
+#: StandardStats.cpp:188 Strings.cpp:429
+msgid "Dice Rolls"
+msgstr "Tiri"
+
+#: StandardStats.cpp:192 Strings.cpp:442
+msgid "Points"
+msgstr "Punti"
+
+#: StandardStats.cpp:195
+#, fuzzy
+msgid "Resources Gained"
+msgstr "Risorse"
+
+#: StandardStats.cpp:198
+#, fuzzy
+msgid "Resources Lost"
+msgstr "Risorse"
+
+#: StandardStats.cpp:201
+#, fuzzy
+msgid "Resources Blocked"
+msgstr "Risorse"
+
+#: StandardStats.cpp:204
+#, fuzzy
+msgid "Resources Gained From"
+msgstr "Risorse"
+
+#: StandardStats.cpp:207
+#, fuzzy
+msgid "Resources Lost To"
+msgstr "Risorse"
+
+#: StandardStats.cpp:210
+#, fuzzy
+msgid "Resources Blocked By"
+msgstr "Risorse"
+
+#: StandardStats.cpp:213
+msgid "Purchases Made"
+msgstr ""
+
+#: StandardStats.cpp:216
+msgid "Actions Taken"
+msgstr ""
+
+#: StandardStats.cpp:238
+msgid "Structures"
+msgstr ""
+
+#: StandardStats.cpp:243
+#, fuzzy
+msgid "Longest Road"
+msgstr "%s perde la Strada più lunga."
+
+#: StandardStats.cpp:245 StandardStats.cpp:251 StandardStats.cpp:257
+#: Strings.cpp:462
+msgid "Sheep"
+msgstr "Lana"
+
+#: StandardStats.cpp:246 StandardStats.cpp:252 StandardStats.cpp:258
+#: Strings.cpp:440
+msgid "Ore"
+msgstr "Minerale"
+
+#: StandardStats.cpp:247 StandardStats.cpp:253 StandardStats.cpp:259
+#: Strings.cpp:470
+msgid "Timber"
+msgstr "Legno"
+
+#: StandardStats.cpp:248 StandardStats.cpp:254 StandardStats.cpp:260
+#: Strings.cpp:426
+msgid "Clay"
+msgstr "Argilla"
+
+#: StandardStats.cpp:249 StandardStats.cpp:255 StandardStats.cpp:261
+#: Strings.cpp:478
+msgid "Wheat"
+msgstr "Grano"
+
+#: StandardStats.cpp:266
+#, fuzzy
+msgid "Board"
+msgstr "Strada"
+
+#: StandardStats.cpp:268 StandardStats.cpp:274 StandardStats.cpp:278
+#: Strings.cpp:455
+msgid "Robber"
+msgstr "Brigante"
+
+#: StandardStats.cpp:269 StandardStats.cpp:275
+msgid "Bank Trades"
+msgstr ""
+
+#: StandardStats.cpp:270 StandardStats.cpp:276
+#, fuzzy
+msgid "Player Trades"
+msgstr "Gioca Carta"
+
+#: StandardStats.cpp:272
+msgid "Purchases"
+msgstr ""
+
+#: StandardStats.cpp:273
+msgid "7s"
+msgstr ""
+
+#: StandardStats.cpp:279
+msgid "Empty Bank"
+msgstr ""
+
+#: StandardStats.cpp:281 Strings.cpp:454
+msgid "Roads"
+msgstr "Strade"
+
+#: StandardStats.cpp:282 Strings.cpp:461
+msgid "Settlements"
+msgstr "Insediamenti"
+
+#: StandardStats.cpp:283 Strings.cpp:425
+msgid "Cities"
+msgstr "Città"
+
+#: Strings.cpp:413
+#, fuzzy
+msgid "Build a city"
+msgstr "Costruisci una città"
+
+#: Strings.cpp:414
+#, fuzzy
+msgid "Build a road"
+msgstr "Costruisci una strada"
+
+#: Strings.cpp:415
+#, fuzzy
+msgid "Build a settlement"
+msgstr "Compra un insediamento"
+
+#: Strings.cpp:416
+#, fuzzy
+msgid "Buy a development card"
+msgstr "Compra una Carta Sviluppo"
+
+#: Strings.cpp:417
+msgid "Cards allowed"
+msgstr "Carte permesse"
+
+#: Strings.cpp:418
+msgid "Cards allowed in hand:"
+msgstr "Carte permesse:"
+
+#: Strings.cpp:419
+msgid ""
+"Change the number of cards each player may hold without losing half on a 7."
+msgstr ""
+"Cambia il numero di carte che i giocatori possono avere in mano senza "
+"perderne metà al 7."
+
+#: Strings.cpp:420
+msgid "Change the number of points needed to win the game."
+msgstr "Cambia il numero di punti necessari per vincere la partita."
+
+#: Strings.cpp:421
+msgid "Change the deck of Development cards."
+msgstr "Modifica il set di Carte Sviluppo."
+
+#: Strings.cpp:422
+msgid "Change the starting stock amounts of roads, settlements, and cities."
+msgstr ""
+"Cambia la quantità di strade, insediamenti e città presenti inizialmente in "
+"deposito."
+
+#: Strings.cpp:423
+msgid ""
+"Choose one resource type.  All other players must give you all their "
+"resource cards of that type."
+msgstr ""
+"Scegli un tipo di risora. Tutti gli altri giocatori devono darti tutte le "
+"carte risorsa di quel tipo in loro possesso."
+
+#: Strings.cpp:424
+msgid "City"
+msgstr "Città"
+
+#: Strings.cpp:427
+msgid "Desert"
+msgstr "Deserto"
+
+#: Strings.cpp:428
+msgid "Development cards"
+msgstr "Carte Sviluppo"
+
+#: Strings.cpp:431
+msgid ""
+"In this turn, take any two resource cards from the bank.  They may be used "
+"immediately."
+msgstr ""
+"In questo turno puoi prelevare due risorse dalla banca. Possono venire usate "
+"immediatamente."
+
+#: Strings.cpp:432
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr ""
+"In questo turno puoi costruire due strade, due navi o una di ognuna, gratis."
+
+#: Strings.cpp:434
+msgid ""
+"Move the robber and steal one resource card from the owner of an adjacent "
+"city or settlement.  Or, move the pirate and steal from the owner of an "
+"adjacent ship."
+msgstr ""
+"Sposta il brigante e ruba una carta risorsa dal proprietario di una delle "
+"città o degli insediamenti adiacenti. Oppure sposta il pirata e ruba dal "
+"proprietario di una delle navi vicine."
+
+#: Strings.cpp:435
+msgid "No 7s for 1 round"
+msgstr "Niente 7 per 1 round"
+
+#: Strings.cpp:436
+msgid "No early 7s"
+msgstr "Niente 7 prematuri"
+
+#: Strings.cpp:437
+msgid "Ocean"
+msgstr "Oceano"
+
+#: Strings.cpp:438
+#, fuzzy
+msgid "Odds"
+msgstr "Percentuale: %s"
+
+#: Strings.cpp:439
+msgid "1 city"
+msgstr "1 città"
+
+#: Strings.cpp:441
+msgid "Play Card"
+msgstr "Gioca Carta"
+
+#: Strings.cpp:443
+msgid "Points needed to win"
+msgstr "Punti necessari per vincere"
+
+#: Strings.cpp:444
+msgid ""
+"Prevent 7s from rolling for one or two rounds.  This lets players get their "
+"feet on the ground before the robber comes calling."
+msgstr ""
+"Impedisce che venga tirato 7 nei primi uno o due turni. Ciò permette ai "
+"giocatori di cominciare a piazzarsi prima che il brigante venga a far danno."
+
+#: Strings.cpp:445
+msgid "Random chip layout"
+msgstr "Disposizione casuale dei  numeri"
+
+#: Strings.cpp:446
+msgid "Random port layout"
+msgstr "Disposizione casuale dei porti"
+
+#: Strings.cpp:447
+msgid "Random tile layout"
+msgstr "Disposizione casuale delle tessere"
+
+#: Strings.cpp:448
+msgid "Receive 1 Victory Point!"
+msgstr "Guadagna un punto vittoria!"
+
+#: Strings.cpp:449
+#, fuzzy
+msgid "Resource cards"
+msgstr "Risorse"
+
+#: Strings.cpp:450
+msgid "Resources"
+msgstr "Risorse"
+
+#: Strings.cpp:452
+#, fuzzy
+msgid "Road length"
+msgstr "Lunghezza Strada"
+
+#: Strings.cpp:453
+msgid "Road"
+msgstr "Strada"
+
+#: Strings.cpp:456
+msgid "Roll Dice"
+msgstr "Lancia I Dadi"
+
+#: Strings.cpp:457
+#, fuzzy
+msgid "Rounds before a 7 is rolled"
+msgstr "Round prima che 7 sia permesso:"
+
+#: Strings.cpp:458
+msgid "Select 1 resource type to steal."
+msgstr "Seleziona 1 tipo di risorsa da rubare."
+
+#: Strings.cpp:459
+msgid "Select 2 resources to gain."
+msgstr "Seleziona 2 risorse da guadagnare."
+
+#: Strings.cpp:460
+msgid "Settlement"
+msgstr "Insediamento"
+
+#: Strings.cpp:463
+#, fuzzy
+msgid "Show Resources tab"
+msgstr "Risorse"
+
+#: Strings.cpp:465
+msgid "Soldiers"
+msgstr "Soldati"
+
+#: Strings.cpp:466
+msgid "Spend Your Gold"
+msgstr "Spendi Il Tuo Oro"
+
+#: Strings.cpp:467
+msgid "Standard"
+msgstr "Standard"
+
+#: Strings.cpp:468
+msgid "Stock amounts"
+msgstr "Quantità in deposito"
+
+#: Strings.cpp:469
+msgid "3-1 Port"
+msgstr "Porto 3-1"
+
+#: Strings.cpp:471
+msgid "2-1 Clay Port"
+msgstr "Porto 2-1 Argilla"
+
+#: Strings.cpp:472
+msgid "2-1 Ore Port"
+msgstr "Porto 2-1 Minerale"
+
+#: Strings.cpp:473
+msgid "2-1 Sheep Port"
+msgstr "Porto 2-1 Lana"
+
+#: Strings.cpp:474
+msgid "2-1 Timber Port"
+msgstr "Porto 2-1 Legno"
+
+#: Strings.cpp:475
+msgid "2-1 Wheat Port"
+msgstr "Porto 2-1 Grano"
+
+#: Strings.cpp:477
+#, fuzzy
+msgid "Victory points"
+msgstr "Punti Vittoria"
+
+#: Strings.cpp:480
+msgid "Your Cards"
+msgstr "Le Tue Carte"
+
+#: Strings.cpp:483
+#, fuzzy, c-format
+msgid "%s buys a development card."
+msgstr "%s compra una Carta Sviluppo"
+
+#: Strings.cpp:484
+#, c-format
+msgid "%s, choose a player to steal from, or click the robber to not steal."
+msgstr ""
+"%s, scegli un giocatore da cui rubare, o clicca sul brigante per non rubare."
+
+#: Strings.cpp:485
+#, c-format
+msgid "%s ends the turn."
+msgstr "%s finisce il turno"
+
+#: Strings.cpp:486
+#, c-format
+msgid "%s has a city reduced to a settlement."
+msgstr "Una città di %s viene ridotta ad insediamento"
+
+#: Strings.cpp:487
+#, c-format
+msgid "%s has won the game."
+msgstr "%s ha vinto la partita."
+
+#: Strings.cpp:488
+#, c-format
+msgid "%d cards allowed in hand"
+msgstr "%d carte permesse"
+
+#: Strings.cpp:489
+#, c-format
+msgid "%d %s from %s"
+msgstr "%d %s da %s"
+
+#: Strings.cpp:490
+#, c-format
+msgid "%s, it is your turn."
+msgstr "%s, è il tuo turno"
+
+#: Strings.cpp:491
+#, c-format
+msgid "%s loses %s."
+msgstr "%s perde %s."
+
+#: Strings.cpp:492
+#, c-format
+msgid "%s loses Largest Army."
+msgstr "%s perde l'Esercito più potente."
+
+#: Strings.cpp:493
+#, c-format
+msgid "%s loses Longest Road."
+msgstr "%s perde la Strada più lunga."
+
+#: Strings.cpp:494
+#, c-format
+msgid "No 7s for %d rounds"
+msgstr "Niente 7 per %d round"
+
+#: Strings.cpp:495
+#, c-format
+msgid "%s, place a city."
+msgstr "%s, metti una città."
+
+#: Strings.cpp:496
+#, c-format
+msgid "%s, place a road."
+msgstr "%s, metti una strada."
+
+#: Strings.cpp:497
+#, c-format
+msgid "%s, place a settlement."
+msgstr "%s, metti un insediamento"
+
+#: Strings.cpp:498
+#, c-format
+msgid "%s places a city."
+msgstr "%s mette una città."
+
+#: Strings.cpp:499
+#, c-format
+msgid "%s places a settlement."
+msgstr "%s mette un insediamento"
+
+#: Strings.cpp:500
+#, c-format
+msgid "%s places a road."
+msgstr "%s mette una strada."
+
+#: Strings.cpp:501
+#, c-format
+msgid "%s, place the robber."
+msgstr "%s, sposta il brigante."
+
+#: Strings.cpp:502
+#, c-format
+msgid "%s, play a card or roll the dice."
+msgstr "%s, gioca una carta o tira i dadi."
+
+#: Strings.cpp:503
+#, c-format
+msgid "%s, play a card, select an action, or roll the dice."
+msgstr "%s, gioca una carta, scegli un'azione, o tira i dadi."
+
+#: Strings.cpp:504
+#, c-format
+msgid "%s plays a %s card."
+msgstr "%s gioca una carta %s."
+
+#: Strings.cpp:505
+#, c-format
+msgid "Play to %d points"
+msgstr "Giocare %d punti"
+
+#: Strings.cpp:506
+#, c-format
+msgid "%s rolls a %d."
+msgstr "%s tira un %d."
+
+#: Strings.cpp:507
+#, c-format
+msgid "%s, select an action or roll the dice."
+msgstr "%s, scegli un'azione o tira i dadi."
+
+#: Strings.cpp:508
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s, seleziona una risorsa da rubare."
+
+#: Strings.cpp:509
+#, c-format
+msgid "%s selects %s."
+msgstr "%s seleziona %s."
+
+#: Strings.cpp:510
+#, c-format
+msgid "%s, select resources to lose."
+msgstr "%s, seleziona le risorse da perdere."
+
+#: Strings.cpp:511
+#, c-format
+msgid "%s, select two resources."
+msgstr "%s, seleziona due risorse."
+
+#: Strings.cpp:512
+#, c-format
+msgid "Select %d resources to gain."
+msgstr "Seleziona %d risorse da guadagnare."
+
+#: Strings.cpp:513
+#, c-format
+msgid "%s steals nothing."
+msgstr "%s non ruba nulla."
+
+#: Strings.cpp:514
+#, c-format
+msgid "%s steals %s."
+msgstr "%s ruba %s."
+
+#: Strings.cpp:515
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr "%s ruba 1 %s da te."
+
+#: Strings.cpp:516
+#, c-format
+msgid "%s steals 1 resource from %s."
+msgstr "%s ruba 1 risorsa da %s."
+
+#: Strings.cpp:517
+#, c-format
+msgid "%s, spend your gold."
+msgstr "%s, spendi il tuo oro."
+
+#: Strings.cpp:518
+#, c-format
+msgid "%s takes Largest Army."
+msgstr "%s prende l'Esercito più potente."
+
+#: Strings.cpp:519
+#, c-format
+msgid "%s takes Longest Road."
+msgstr "%s prende la Strada più lunga."
+
+#: Strings.cpp:520
+#, c-format
+msgid "There is not enough %s in the bank. No one receives any."
+msgstr "Non c'è abbastanza %s in banca. Nessuno ne riceve."
+
+#: Strings.cpp:521
+#, c-format
+msgid "%s trades %s to %s for %s."
+msgstr "%s scambia %s con %s per %s."
+
+#: Strings.cpp:522
+#, c-format
+msgid "%s trades %s to the bank for %s."
+msgstr "%s scambia %s con la banca per %s."
+
+#: Strings.cpp:523
+#, c-format
+msgid "%s undoes a bank trade."
+msgstr "%s annulla uno scambio."
+
+#: Strings.cpp:524
+#, c-format
+msgid "%s undoes a city."
+msgstr "%s disfa una città."
+
+#: Strings.cpp:525
+#, c-format
+msgid "%s undoes a road."
+msgstr "%s disfa una strada."
+
+#: Strings.cpp:526
+#, c-format
+msgid "%s undoes a settlement."
+msgstr "%s disfa un insediamento"
+
+#: Strings.cpp:527
+#, c-format
+msgid "You receive a %s card."
+msgstr "Ricevi una carta %s"
+
+#: Strings.cpp:528
+#, c-format
+msgid "You steal 1 %s from %s."
+msgstr "Rubi 1 %s da %s"
+
+#: Strings.cpp:529
+#, c-format
+msgid "Waiting for %s to finish the turn."
+msgstr "In attesa che %s finisca il turno."
+
+#: Strings.cpp:530
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "In attesa che %s perda risorse."
+
+#: Strings.cpp:531
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "In attesa che %s metta una città."
+
+#: Strings.cpp:532
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "In attesa che %s metta una strada."
+
+#: Strings.cpp:533
+#, c-format
+msgid "Waiting for %s to place a settlement."
+msgstr "In attesa che %s metta un insediamento."
+
+#: Strings.cpp:534
+#, c-format
+msgid "Waiting for %s to place the robber."
+msgstr "In attesa che %s sposti il brigante."
+
+#: Strings.cpp:535
+#, c-format
+msgid "Waiting for %s to play a card or roll the dice."
+msgstr "In attesa che %s giochi una carta o lanci i dati."
+
+#: Strings.cpp:536
+#, c-format
+msgid "Waiting for %s to play a card, select an action, or roll the dice."
+msgstr "In attesa che %s giochi una carta, sclega un'azione o lanci i dati."
+
+#: Strings.cpp:537
+#, c-format
+msgid "Waiting for %s to select an action or roll the dice."
+msgstr "In attesa che %s scelga un'azione o lanci i dati."
+
+#: Strings.cpp:538
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "In attesa che %s selezioni una carta da rubare."
+
+#: Strings.cpp:539
+#, c-format
+msgid "Waiting for %s to select two resources."
+msgstr "In attesa che %s selezioni due risorse."
+
+#: Strings.cpp:540
+#, c-format
+msgid "Waiting for %s to spend gold."
+msgstr "In attesa che %s spenda il suo oro."
+
+#: Strings.cpp:541
+#, c-format
+msgid "Waiting for %s to steal a card."
+msgstr "In attesa che %s rubi una carta."
+
+#: Strings.cpp:542
+#, c-format
+msgid "%s wins the game!"
+msgstr "%s vince la partita!"
+
+#: Strings.cpp:543
+#, c-format
+msgid "%d cities"
+msgstr "%d città"
+
+#: Strings.cpp:544
+#, c-format
+msgid "%d roads"
+msgstr "%d strade"
+
+#: Strings.cpp:545
+#, c-format
+msgid "%d settlements"
+msgstr "%d insediamenti"
+
+#~ msgid "Development cards: %s"
+#~ msgstr "Carte Sviluppo: %s"
+
+#~ msgid "Points needed to win:"
+#~ msgstr "Punti necessari per vincere:"
+
+#~ msgid "%d %s"
+#~ msgstr "%d %s"
+
+#~ msgid "Dev"
+#~ msgstr "Sviluppo"
+
+#~ msgid "Roads:"
+#~ msgstr "Strade:"
+
+#~ msgid "Settlements:"
+#~ msgstr "Insediamenti:"
+
+#~ msgid "Cities:"
+#~ msgstr "Città:"
+
+#~ msgid "Select %d resources to lose."
+#~ msgstr "Seleziona %d risorse da perdere."
+
+#~ msgid "Cards To Lose"
+#~ msgstr "Carte da Perdere"
+
+#~ msgid "%s trades"
+#~ msgstr "%s scambia"
+
+#~ msgid "to %s for"
+#~ msgstr "con %s per"

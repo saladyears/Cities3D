@@ -1,0 +1,1571 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+# 14.09.2005: Added new translation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: $Id: CitiesRules.po 2761 2008-07-08 00:23:42Z saladyears "
+"$\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2007-04-21 18:08+0200\n"
+"Last-Translator: Pekka Järvinen <pekka.jarvinen@gmail.com>\n"
+"Language-Team: Cities3D internationalization <pekka.jarvinen@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: CitiesStats.cpp:150
+#, fuzzy
+msgid "Red Die"
+msgstr "Heitä noppaa"
+
+#: CitiesStats.cpp:153
+msgid "Third Die"
+msgstr ""
+
+#: CitiesStats.cpp:156
+#, fuzzy
+msgid "Trade Cards Played"
+msgstr "Kauppakortit"
+
+#: CitiesStats.cpp:159
+#, fuzzy
+msgid "Politics Cards Played"
+msgstr "Politiikkakortit"
+
+#: CitiesStats.cpp:162
+#, fuzzy
+msgid "Science Cards Played"
+msgstr "Tiedekortit"
+
+#: CitiesStats.cpp:172
+#, fuzzy
+msgid "Barbarian"
+msgstr "Barbaarit"
+
+#: CitiesStats.cpp:173 Strings.cpp:728
+msgid "Trade"
+msgstr "Kaupankäynti"
+
+#: CitiesStats.cpp:174 Strings.cpp:672
+msgid "Politics"
+msgstr "Politiikka"
+
+#: CitiesStats.cpp:175 Strings.cpp:690
+msgid "Science"
+msgstr "Tiede"
+
+#: CitiesStats.cpp:177
+#, fuzzy
+msgid "Defender Points"
+msgstr "Puolustuspisteet"
+
+#: CitiesStats.cpp:178
+#, fuzzy
+msgid "Metropolis"
+msgstr "Kauppametropoli"
+
+#: CitiesStats.cpp:179 CitiesStats.cpp:227 Strings.cpp:659
+msgid "Merchant"
+msgstr "Kauppias"
+
+#: CitiesStats.cpp:180
+#, fuzzy
+msgid "Victory Points"
+msgstr "Yksi voittopiste!"
+
+#: CitiesStats.cpp:182 CitiesStats.cpp:186 CitiesStats.cpp:190 Strings.cpp:634
+msgid "Cloth"
+msgstr "Vaate"
+
+#: CitiesStats.cpp:183 CitiesStats.cpp:187 CitiesStats.cpp:191 Strings.cpp:635
+msgid "Coin"
+msgstr "Kolikko"
+
+#: CitiesStats.cpp:184 CitiesStats.cpp:188 CitiesStats.cpp:192 Strings.cpp:669
+msgid "Paper"
+msgstr "Paperi"
+
+#: CitiesStats.cpp:194
+#, fuzzy
+msgid "Aqueduct"
+msgstr "Käytä akveduktiasi"
+
+#: CitiesStats.cpp:195 CitiesStats.cpp:203 CitiesStats.cpp:225 Strings.cpp:636
+msgid "Commercial Harbor"
+msgstr "Kauppasatama"
+
+#: CitiesStats.cpp:196 CitiesStats.cpp:204 CitiesStats.cpp:226 Strings.cpp:657
+msgid "Master Merchant"
+msgstr "Pääkauppias"
+
+#: CitiesStats.cpp:197 CitiesStats.cpp:205 CitiesStats.cpp:229 Strings.cpp:684
+msgid "Resource Monopoly"
+msgstr "Resurssimonopoli"
+
+#: CitiesStats.cpp:198 CitiesStats.cpp:206 CitiesStats.cpp:230 Strings.cpp:731
+msgid "Trade Monopoly"
+msgstr "Kauppamonopoli"
+
+#: CitiesStats.cpp:199 CitiesStats.cpp:208 CitiesStats.cpp:241 Strings.cpp:738
+msgid "Wedding"
+msgstr "Häät"
+
+#: CitiesStats.cpp:200 CitiesStats.cpp:247 Strings.cpp:655
+msgid "Irrigation"
+msgstr "Maanmuokkaus"
+
+#: CitiesStats.cpp:201 CitiesStats.cpp:249 Strings.cpp:663
+msgid "Mining"
+msgstr "Kaivostyö"
+
+#: CitiesStats.cpp:207 CitiesStats.cpp:232 Strings.cpp:611
+msgid "Arsonist"
+msgstr "Tuhopolttaja"
+
+#: CitiesStats.cpp:210
+msgid "Walls"
+msgstr ""
+
+#: CitiesStats.cpp:211
+#, fuzzy
+msgid "Basic Knights"
+msgstr "Normaalit ritarit"
+
+#: CitiesStats.cpp:212
+#, fuzzy
+msgid "Strong Knights"
+msgstr "Vahvat ritarit"
+
+#: CitiesStats.cpp:213
+#, fuzzy
+msgid "Mighty Knights"
+msgstr "Mahtavat ritarit"
+
+#: CitiesStats.cpp:214
+msgid "Knight Activates"
+msgstr ""
+
+#: CitiesStats.cpp:215
+#, fuzzy
+msgid "Trade Upgrades"
+msgstr "Kauppakortit"
+
+#: CitiesStats.cpp:216
+#, fuzzy
+msgid "Politics Upgrades"
+msgstr "Politiikkakortit"
+
+#: CitiesStats.cpp:217
+#, fuzzy
+msgid "Science Upgrades"
+msgstr "Tiedekortit"
+
+#: CitiesStats.cpp:218
+#, fuzzy
+msgid "City Repairs"
+msgstr "Kaupungin päivitykset"
+
+#: CitiesStats.cpp:220
+#, fuzzy
+msgid "Knights Moved"
+msgstr "Vapaat ritarit"
+
+#: CitiesStats.cpp:221
+msgid "Criminals Expelled"
+msgstr ""
+
+#: CitiesStats.cpp:222
+msgid "Knights Attacked"
+msgstr ""
+
+#: CitiesStats.cpp:223
+#, fuzzy
+msgid "Coommercial Harbor Used"
+msgstr "Kauppasatama"
+
+#: CitiesStats.cpp:228 Strings.cpp:660
+msgid "Merchant Fleet"
+msgstr "Kauppalaivasto"
+
+#: CitiesStats.cpp:233 Strings.cpp:618
+msgid "Bishop"
+msgstr "Piispa"
+
+#: CitiesStats.cpp:234 Strings.cpp:637
+msgid "Constitution"
+msgstr "Säädös"
+
+#: CitiesStats.cpp:235 Strings.cpp:642
+msgid "Deserter"
+msgstr "Aavikoittaja"
+
+#: CitiesStats.cpp:236 Strings.cpp:643
+msgid "Diplomat"
+msgstr "Diplomaatti"
+
+#: CitiesStats.cpp:237 Strings.cpp:653
+msgid "Intrigue"
+msgstr "Juonittelu"
+
+#: CitiesStats.cpp:238 Strings.cpp:689
+msgid "Saboteur"
+msgstr "Sabotööri"
+
+#: CitiesStats.cpp:239 Strings.cpp:718
+msgid "Spy"
+msgstr "Vakoilija"
+
+#: CitiesStats.cpp:240 Strings.cpp:737
+msgid "Warlord"
+msgstr "Sotalordi"
+
+#: CitiesStats.cpp:243 Strings.cpp:607
+msgid "Alchemist"
+msgstr "Alkemisti"
+
+#: CitiesStats.cpp:244 Strings.cpp:638
+msgid "Crane"
+msgstr "Nosturi"
+
+#: CitiesStats.cpp:245 Strings.cpp:648
+msgid "Engineer"
+msgstr "Insinööri"
+
+#: CitiesStats.cpp:246 Strings.cpp:654
+msgid "Inventor"
+msgstr "Keksijä"
+
+#: CitiesStats.cpp:248 Strings.cpp:658
+msgid "Medicine"
+msgstr "Lääke"
+
+#: CitiesStats.cpp:250 Strings.cpp:675
+msgid "Printer"
+msgstr "Paino"
+
+#: CitiesStats.cpp:251 Strings.cpp:685
+msgid "Road Building"
+msgstr "Tienrakennus"
+
+#: CitiesStats.cpp:252 Strings.cpp:717
+msgid "Smith"
+msgstr "Seppä"
+
+#: Strings.cpp:605
+#, fuzzy
+msgid "Activate a knight"
+msgstr "Aktivoi ritari"
+
+#: Strings.cpp:606
+msgid "Activate all your knights for free."
+msgstr "Aktivoi kaikki ritarisi ilmaiseksi."
+
+#: Strings.cpp:608
+msgid ""
+"Allows players to use an active knight to expel criminals before the dice "
+"are rolled, if it is their turn."
+msgstr ""
+"Sallii pelaajien käyttää vuorollaan aktiivista ritaria karkoittamaan "
+"kriminaalit ennen kuin noppaa heitetään."
+
+#: Strings.cpp:609
+msgid ""
+"All players with more Victory Points than you must give you 2 resources or "
+"commodities of their choice."
+msgstr ""
+"Kaikkien pelaajien, joilla on enemmän voittopisteitä kuin sinulla pitää "
+"antaa sinulle kaksi resurssia tai tavaraa sinulle."
+
+#: Strings.cpp:610
+msgid ""
+"All players with at least as many Victory Points as you lose half of the "
+"resource or commodity cards in their hand."
+msgstr ""
+"Kaikkien pelaajien, joilla on vähintään saman verran voittopisteitä kuin "
+"sinulla pitää antaa puolet  kaikista resursseistaan tai tavaroistaan sinulle."
+
+#: Strings.cpp:612
+#, fuzzy
+msgid "Attack another knight"
+msgstr "Hyökkää vastustajan ritarin kimppuun"
+
+#: Strings.cpp:613
+msgid "Barbarians"
+msgstr "Barbaarit"
+
+#: Strings.cpp:614
+msgid "Barbarians are delayed for 1 round"
+msgstr "Barbaareja viivytetty yksi vuoro"
+
+#: Strings.cpp:615
+#, fuzzy
+msgid "Basic knight"
+msgstr "Perusritari"
+
+#: Strings.cpp:616
+#, fuzzy
+msgid "Basic knights"
+msgstr "Normaalit ritarit"
+
+#: Strings.cpp:617
+msgid ""
+"Before the dice are rolled, select a result for each numbered die.  The "
+"event die rolls normally."
+msgstr ""
+"Ennen kuin noppaa on heitetty, valitse tulos itse. Tapahtumanoppaa heitetään "
+"normaalisti."
+
+#: Strings.cpp:619
+#, fuzzy
+msgid "Build a basic knight"
+msgstr "Osta perusritari"
+
+#: Strings.cpp:620
+msgid "Build a city for 2 ore and 1 wheat."
+msgstr "Rakenna kaupunki kahdella kivellä ja yhdellä ohralla."
+
+#: Strings.cpp:621
+#, fuzzy
+msgid "Build a city walls"
+msgstr "%s peruttaa muurien rakentamisen"
+
+#: Strings.cpp:622
+#, fuzzy
+msgid "Build a mighty knight"
+msgstr "%s päivittää mahtavaan ritariin."
+
+#: Strings.cpp:623
+#, fuzzy
+msgid "Build a strong knight"
+msgstr "%späivittää vahvaan ritariin."
+
+#: Strings.cpp:624
+msgid "Cards To Give"
+msgstr "Annettavia kortteja"
+
+#: Strings.cpp:625
+msgid "Cards To Steal"
+msgstr "Varastettavia kortteja"
+
+#: Strings.cpp:626
+msgid "Change the deck of Politics progress cards."
+msgstr "Vaihda politiikkakorttien etenemiskorttipakkaa."
+
+#: Strings.cpp:627
+msgid "Change the deck of Science progress cards."
+msgstr "Vaihda tiedekorttien pakkaa."
+
+#: Strings.cpp:628
+msgid "Change the deck of Trade progress cards."
+msgstr "Vaihda kaupankäyntikorttien pakkaa."
+
+#: Strings.cpp:629
+msgid "Cities and Knights"
+msgstr "Kaupungit ja ritarit"
+
+#: Strings.cpp:630
+msgid ""
+"Cities and Knights is a whole new way of playing Settlers.  Barbarians "
+"attack, knights defend, cities are pillaged or grow.  Politics, trade and "
+"science take on major roles in determining who wins, and who winds up on the "
+"end of a barbarian axe.\n"
+"\n"
+"Cities and Knights is not for the faint of heart.  Games last longer and are "
+"far more competitive than a Standard or Seafarers game, but the strategic "
+"choices are greater and more challenging than ever! "
+msgstr ""
+"Kaupungit ja ritarit -lisäosa on uusi tapa pelata peliä. Barbaarit "
+"hyökkäävät ja ritarit puolustavat, kaupungit ryöstetään tai ne kasvavat. "
+"Politiikka, kauppa ja tiede ottavat pääroolin voittajan määrittelemisessä ja "
+"siitä, kuka saa barbaarin kirveestä.\n"
+"\n"
+"Kaupungit ja ritarit -lisäosa ei välttämättä sovi aloittelijoille. Pelit "
+"kestävät kauemmin ja ovat paljon haasteellisimpia kuin tavallinen versio ja "
+"Merenkävijät-lisäosa, mutta strategiset päätökset ovat suuremmassa osassa "
+"tekien pelistä paljon haasteellisemman!"
+
+#: Strings.cpp:631
+msgid "Cities and Knights (+3 points)"
+msgstr "Kaupungit ja ritarit (kolme pistettä)"
+
+#: Strings.cpp:632
+msgid "City Upgrades"
+msgstr "Kaupungin päivitykset"
+
+#: Strings.cpp:633
+#, fuzzy
+msgid "City walls"
+msgstr "Kaupungin muurit"
+
+#: Strings.cpp:639
+#, fuzzy
+msgid "Defender points"
+msgstr "Puolustuspisteet"
+
+#: Strings.cpp:640
+msgid "Delay barbarians"
+msgstr "Viivytä barbaareja"
+
+#: Strings.cpp:641
+msgid ""
+"Delay the barbarians for one or two rounds.  This lets players get their "
+"feet on the ground before the first invasion."
+msgstr ""
+"Viivytä barbaareja 1-2 vuoroa. Tämä auttaa pelaajia pääsemään parempaan "
+"alkuun ennen ensimmäistä invaasiota."
+
+#: Strings.cpp:644
+msgid "Discard"
+msgstr "Poista"
+
+#: Strings.cpp:645
+msgid "Discard 1 Progress Card"
+msgstr "Poista yksi edistymiskortti"
+
+#: Strings.cpp:646
+msgid ""
+"Displace an opponent's knight on an intersection next to a road or ship you "
+"own."
+msgstr ""
+
+#: Strings.cpp:647
+msgid "Drag and drop dice to select them."
+msgstr "Vedä ja pudota noppia valitaksesi ne."
+
+#: Strings.cpp:649
+#, fuzzy
+msgid "Expel criminals"
+msgstr "Karkota rikolliset"
+
+#: Strings.cpp:650
+msgid ""
+"For each opponent you select, offer 1 resource card from your hand.  They "
+"must give you 1 commodity card of their choice, unless they have none."
+msgstr ""
+"Valitse pelaajia ja tarjoa heille yhtä resurssia kädestäsi. Heidän täytyy "
+"antaa yksi kauppatavara sinulle mikäli heillä on yhtään."
+
+#: Strings.cpp:651
+msgid ""
+"Instead of waiting until the first barbarian invasion, the robber is moved "
+"on a 7 from the first roll of the dice."
+msgstr ""
+"Ensimmäisen barbaari-invaasion odottamisen sijaan rosvo liikkuu ensimmäisen "
+"nopanheiton jälkeen"
+
+#: Strings.cpp:652
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr ""
+"Tällä vuorolla voit rakentaa ilmaiseksi kaksi tietä, laivaa tai yksi "
+"molempia."
+
+#: Strings.cpp:656
+msgid "Knights errant"
+msgstr "Vapaat ritarit"
+
+#: Strings.cpp:661
+#, fuzzy
+msgid "Mighty knight"
+msgstr "Mahtava ritari"
+
+#: Strings.cpp:662
+#, fuzzy
+msgid "Mighty knights"
+msgstr "Mahtavat ritarit"
+
+#: Strings.cpp:664
+#, fuzzy
+msgid "Move a knight"
+msgstr "Siirrä ritaria"
+
+#: Strings.cpp:665
+msgid ""
+"Move the robber or pirate.  In addition, steal 1 card from the hand of every "
+"player with a city or settlement on the new robber tile."
+msgstr ""
+"Liikuta rosvoa tai piraattia. Voit myös ryöstää yhden resurssin jokaiselta "
+"pelaajalta, jotka ovat samalla laatalla."
+
+#: Strings.cpp:666
+msgid "No mercy from the robber"
+msgstr "Ei armoa rosvoilta"
+
+#: Strings.cpp:667
+msgid "OK"
+msgstr "OK"
+
+#: Strings.cpp:668
+msgid "1 Victory Point!"
+msgstr "Yksi voittopiste!"
+
+#: Strings.cpp:670
+msgid "Place a city walls for free."
+msgstr "Aseta kaupungin muurit ilmaiseksi."
+
+#: Strings.cpp:671
+msgid "Play Card"
+msgstr "Pelaa kortti"
+
+#: Strings.cpp:673
+msgid "Politics cards"
+msgstr "Politiikkakortit"
+
+#: Strings.cpp:674
+#, fuzzy
+msgid "Politics metropolis"
+msgstr "Politiikkametropoli"
+
+#: Strings.cpp:676
+msgid "Promote two different knights one level for free."
+msgstr "Päivitä kaksi eri ritaria ilmaiseksi."
+
+#: Strings.cpp:677
+msgid "Purchase one city upgrade for 1 commodity less."
+msgstr "Osta päivitys yhdellä kauppatavaralla halvemmalla kuin yleensä."
+
+#: Strings.cpp:678
+msgid "Receive 2 ore for each ore tile on which you have a city or settlement."
+msgstr ""
+"Saat kaksi kiveä jokaisesta kaupungista tai kylästä, jotka koskettavat "
+"kiviresurssia."
+
+#: Strings.cpp:679
+msgid ""
+"Receive 2 wheat for each wheat tile on which you have a city or settlement."
+msgstr ""
+"Saat kaksi viljaresurssia jokaisesta kaupungista, missä on kaupunkisi ja "
+"vieressä viljaresurssilaatta."
+
+#: Strings.cpp:680
+msgid ""
+"Remove one open road from the board.  If you remove your own road, you may "
+"then place it elsewhere immediately."
+msgstr ""
+"Poista yksi avoin tie laudalta. Jos poistat oman tien, voit laittaa sen "
+"minne tahansa heti."
+
+#: Strings.cpp:681
+msgid ""
+"Remove one open road or ship from the board.  If you remove your own road or "
+"ship, you may then place it elsewhere immediately."
+msgstr ""
+"Poista yksi avoin tie laudalta. Jos poistat oman tien, voit laittaa sen "
+"minne tahansa heti."
+
+#: Strings.cpp:682
+#, fuzzy
+msgid "Repair a city"
+msgstr "%s, korjaa kaupunki."
+
+#: Strings.cpp:683
+msgid "Resources"
+msgstr "Resurssit"
+
+#: Strings.cpp:686
+msgid "Robber is not delayed by barbarians"
+msgstr "Rosvot eivät hidastu barbaarien ansiosta"
+
+#: Strings.cpp:687
+msgid "Roll Dice"
+msgstr "Heitä noppaa"
+
+#: Strings.cpp:688
+#, fuzzy
+msgid "Rounds before barbarians advance"
+msgstr "Kierrosta kunnes barbaarit etenevät:"
+
+#: Strings.cpp:691
+msgid "Science cards"
+msgstr "Tiedekortit"
+
+#: Strings.cpp:692
+#, fuzzy
+msgid "Science metropolis"
+msgstr "Tiedemetropoli"
+
+#: Strings.cpp:693
+msgid "Select"
+msgstr "Valitse"
+
+#: Strings.cpp:694
+msgid ""
+"Select a commodity.  All players must give you 1 of that commodity, unless "
+"they have none."
+msgstr ""
+"Valitse kauppatavara. Kaikkien pelaajien täytyy antaa yksi tuota "
+"kauppatavaraa mikäli heillä on."
+
+#: Strings.cpp:695
+msgid ""
+"Select an opponent's city.  The city produces as a settlement until the "
+"owner pays 1 timber and 1 ore for repairs."
+msgstr ""
+"Valitse vastustajan kaupunki. Kaupunki tuottaa resursseja samalla tavalla "
+"kuin kylä, kunnes pelaaja korjaa sen yhdellä puulla  ja kivellä."
+
+#: Strings.cpp:696
+msgid ""
+"Select an opponent.  Steal 1 progress card of your choice from their hand."
+msgstr "Valitse pelaaja. Ryöstä yksi kortti heidän kädestään."
+
+#: Strings.cpp:697
+msgid ""
+"Select an opponent.  They must remove one knight of their choice from the "
+"board.  You may then place an equivalent knight on the board, following the "
+"normal rules."
+msgstr ""
+"Valitse pelaaja. Tuon pelaajan täytyy poistaa yksi valitsemansa ritari "
+"laudalta. Tämän jälkeen voit laittaa samantasoisen ritarin laudalle "
+"normaaleja sääntöjä noudattaen."
+
+#: Strings.cpp:698
+msgid "Select a Player for Desertion"
+msgstr "Valitse pelaaja"
+
+#: Strings.cpp:699
+msgid "Select a Player to Rob"
+msgstr "Valitse pelaaja, jolta varastetaan"
+
+#: Strings.cpp:700
+msgid "Select a Player to Spy on"
+msgstr "Valitse pelaaja, jota vakoillaan"
+
+#: Strings.cpp:701
+msgid "Select a Player to Trade With"
+msgstr "Valitse pelaaja, jonka kanssa käyt kauppaa"
+
+#: Strings.cpp:702
+msgid "Select A Progress Card"
+msgstr "Valitse kortti"
+
+#: Strings.cpp:703
+msgid ""
+"Select a resource.  All players must give you as many of that resource as "
+"they can, up to 2."
+msgstr ""
+"Valitse resurssi. Jokaisen pelaajan täytyy antaa maksimissaan kaksi tuota "
+"valitsemaasi resurssia mikäli heillä on sitä."
+
+#: Strings.cpp:704
+msgid ""
+"Select a tile adjacent to a settlement or city you own and place the "
+"merchant on it.  As long as the merchant remains, you trade that resource to "
+"the bank at 2-1, and receive 1 Victory Point."
+msgstr ""
+"Valitse laatta, joka osuu omaan kaupunkiin tai kylään ja aseta kauppias. "
+"Niin kauan kuin kauppias on itselläsi, saat vaihtaa laatalla olevaa "
+"resurssia 2:1 ja saat yhden voittopisteen."
+
+#: Strings.cpp:705
+msgid "Select Dice"
+msgstr "Valitse noppa"
+
+#: Strings.cpp:706
+msgid "Select 1 card to give."
+msgstr "Valitse yksi annettava kortti."
+
+#: Strings.cpp:707
+msgid "Select 1 card type to trade at 2-1."
+msgstr "Valitse korttityyppi, jota voi vaihtaa suhteeseen 2:1."
+
+#: Strings.cpp:708
+msgid "Select 1 commodity type to steal."
+msgstr "Valitse kauppatavaratyyppi, jota varastetaan."
+
+#: Strings.cpp:709
+msgid "Select 1 progress card."
+msgstr "Valitse yksi kortti"
+
+#: Strings.cpp:710
+msgid ""
+"Select 1 resource or commodity.  This round, trade it to the bank at 2-1."
+msgstr ""
+"Valitse resurssi tai tuote. Tämän vuoron ajan voit vaihtaa sitä pankissa 2:1."
+
+#: Strings.cpp:711
+msgid "Select 1 resource to gain."
+msgstr "Valitse yksi resurssi."
+
+#: Strings.cpp:712
+msgid "Select 1 resource type to steal."
+msgstr "Valitse yksi resurssityyppi, jota varastetaan."
+
+#: Strings.cpp:713
+msgid "Select 2 cards to give."
+msgstr "Valitse kaksi annettavaa korttia."
+
+#: Strings.cpp:714
+msgid "Select one die of each color."
+msgstr "Valitse yksi puoli per väri."
+
+#: Strings.cpp:715
+#, fuzzy
+msgid "Show Barbarians tab"
+msgstr "Barbaarit"
+
+#: Strings.cpp:716
+msgid "Show Upgrades tab"
+msgstr ""
+
+#: Strings.cpp:719
+msgid "Spy Cards"
+msgstr "Vakoile kortteja"
+
+#: Strings.cpp:720
+msgid "Steal Card"
+msgstr "Varasta kortti"
+
+#: Strings.cpp:721
+#, fuzzy
+msgid "Strong knight"
+msgstr "Vahva ritari"
+
+#: Strings.cpp:722
+#, fuzzy
+msgid "Strong knights"
+msgstr "Vahvat ritarit"
+
+#: Strings.cpp:723
+msgid ""
+"Switch any two roll chips on the board, except for those numbered 2, 12, 6, "
+"or 8."
+msgstr ""
+"Vaihda kaksi mitä tahansa numeroa laatalla, paitsi numeroita 2, 6, 8 tai 12."
+
+#: Strings.cpp:724
+msgid ""
+"Take 2 resource or commodity cards of your choice from any one opponent with "
+"more Victory Points than you."
+msgstr ""
+"Ota kaksi resurssia tai yksi tavarakortti keneltä tahansa pelaajalta, jolla "
+"on enemmän voittopisteitä kuin sinulla."
+
+#: Strings.cpp:725
+msgid "The barbarians advance."
+msgstr "Barbaarit etenevät"
+
+#: Strings.cpp:726
+msgid "The barbarians attack and are repelled!"
+msgstr "Barbaarit hyökkäävät ja karkoitetaan!"
+
+#: Strings.cpp:727
+msgid "The barbarians attack and lay waste!"
+msgstr "Barbaarit hyökkäävät ja jättävät jälkeensä jätettä!"
+
+#: Strings.cpp:729
+msgid "Trade cards"
+msgstr "Kauppakortit"
+
+#: Strings.cpp:730
+#, fuzzy
+msgid "Trade metropolis"
+msgstr "Kauppametropoli"
+
+#: Strings.cpp:732
+#, fuzzy
+msgid "Upgrade politics"
+msgstr "Päivitä politiikka"
+
+#: Strings.cpp:733
+#, fuzzy
+msgid "Upgrade science"
+msgstr "Päivitä tiede"
+
+#: Strings.cpp:734
+#, fuzzy
+msgid "Upgrade trade"
+msgstr "Päivitä kaupankäynti"
+
+#: Strings.cpp:735
+#, fuzzy
+msgid "Use commercial harbor"
+msgstr "Käytä kauppasatamaa"
+
+#: Strings.cpp:736
+msgid "Use Your Aqueduct"
+msgstr "Käytä akveduktiasi"
+
+#: Strings.cpp:739
+msgid "Your Cards"
+msgstr "Korttisi"
+
+#: Strings.cpp:742
+#, c-format
+msgid "%s, activate a knight."
+msgstr "%s, aktivoi ritari."
+
+#: Strings.cpp:743
+#, c-format
+msgid "%s activates a knight."
+msgstr "%s, aktivoi ritarin."
+
+#: Strings.cpp:744
+#, c-format
+msgid "%s, attack an opponent's knight."
+msgstr "%s, hyökkää vastapelaajan ritarin kimppuun."
+
+# ??
+#: Strings.cpp:745
+#, c-format
+msgid "%s attacks a knight of %s."
+msgstr "%s hyökkää ritarilla %s."
+
+#: Strings.cpp:746
+#, c-format
+msgid "Barbarians are delayed for %d rounds"
+msgstr "Barbaareja viivytetty %d vuoroa"
+
+#: Strings.cpp:747
+#, c-format
+msgid "%s, discard 1 progress card."
+msgstr "%s, poista yksi edistymiskortti."
+
+#: Strings.cpp:748
+#, c-format
+msgid "%s discards 1 %s card."
+msgstr "%s poistaa yhden %s -kortin."
+
+# ??
+#: Strings.cpp:749
+#, c-format
+msgid "%s displaces a knight of %s."
+msgstr "%s siirtää ritaria %s."
+
+#: Strings.cpp:750
+#, c-format
+msgid "%s expels criminals."
+msgstr "%s karkottaa rikolliset."
+
+#: Strings.cpp:751
+#, c-format
+msgid "%d %s from %s"
+msgstr "%d %s pelaajalta %s"
+
+#: Strings.cpp:752
+#, fuzzy, c-format
+msgid "%s gives 1 card to %s as a wedding gift."
+msgstr "%s antaa yhden kortin pelaajalle %s häälahjana."
+
+#: Strings.cpp:753
+#, fuzzy, c-format
+msgid "%s gives %s to you as a wedding gift."
+msgstr "%s antaa %s sinulle häälahjana"
+
+#: Strings.cpp:754
+#, c-format
+msgid "%s gives 2 cards to %s as a Wedding gift."
+msgstr "%s antaa kaksi korttia pelaajalle %s häälahjana"
+
+#: Strings.cpp:755
+#, c-format
+msgid "%s loses %s."
+msgstr "%s menettää %s."
+
+#: Strings.cpp:756
+#, c-format
+msgid "%s loses a city walls."
+msgstr "%s, menettää kaupungin muurit."
+
+#: Strings.cpp:757
+#, c-format
+msgid "%s loses the knight in the attack."
+msgstr "%s häviää taistelussa menettäen ritarinsa."
+
+#: Strings.cpp:758
+#, c-format
+msgid "%s loses the knight."
+msgstr "%s menttää ritarin."
+
+#: Strings.cpp:759
+#, c-format
+msgid "%s loses the %s metropolis."
+msgstr "%s menettää %s metropolin."
+
+#: Strings.cpp:760
+#, c-format
+msgid "%s moves a knight."
+msgstr "%s, liikuttaa ritaria."
+
+#: Strings.cpp:761
+#, c-format
+msgid "%s, move your knight."
+msgstr "%s, liikuta ritaria."
+
+#: Strings.cpp:762
+#, c-format
+msgid "%s, place a city."
+msgstr "%s, aseta kaupunki."
+
+#: Strings.cpp:763
+#, c-format
+msgid "%s, place a city walls."
+msgstr "%s, aseta kaupungin muurit."
+
+#: Strings.cpp:764
+#, c-format
+msgid "%s, place a road."
+msgstr "%s, aseta tie."
+
+#: Strings.cpp:765
+#, c-format
+msgid "%s, place a basic knight."
+msgstr "%s, aseta perusritari."
+
+#: Strings.cpp:766
+#, c-format
+msgid "%s, place the merchant."
+msgstr "%s, aseta kauppias."
+
+#: Strings.cpp:767
+#, c-format
+msgid "%s places a basic knight."
+msgstr "%s, asettaa perusritarin."
+
+#: Strings.cpp:768
+#, c-format
+msgid "%s places a city walls."
+msgstr "%s, asettaa kaupungin muurit."
+
+#: Strings.cpp:769
+#, c-format
+msgid "%s places the deserter."
+msgstr "%s, aseta aavikoittajan."
+
+#: Strings.cpp:770
+#, c-format
+msgid "%s, place the deserter."
+msgstr "%s, aseta aavikoittaja."
+
+#: Strings.cpp:771
+#, c-format
+msgid "%s, place your metropolis."
+msgstr "%s, aseta metropoli."
+
+#: Strings.cpp:772
+#, fuzzy, c-format
+msgid "%s receives a progress card."
+msgstr "%s saa kortin"
+
+#: Strings.cpp:773
+#, fuzzy, c-format
+msgid "%s receives %d %s from irrigation."
+msgstr "%s saa %d x %s maanviljelystä."
+
+#: Strings.cpp:774
+#, fuzzy, c-format
+msgid "%s receives %d %s from mining."
+msgstr "%s saa %d x %s kaivostoiminnasta."
+
+#: Strings.cpp:775
+#, fuzzy, c-format
+msgid "%s receives 1 defender point."
+msgstr "%s saa puolustuspisteen."
+
+#: Strings.cpp:776
+#, fuzzy, c-format
+msgid "%s receives 1 victory point from a %s card."
+msgstr "%s saa voittopisteen kortista %s."
+
+#: Strings.cpp:777
+#, c-format
+msgid "%s removes a road of %s."
+msgstr "%s poistaa pelaajan %s tien."
+
+#: Strings.cpp:778
+#, c-format
+msgid "%s removes a ship of %s."
+msgstr "%s poistaa pelaajan %s laivan."
+
+#: Strings.cpp:779
+#, c-format
+msgid "%s, repair a city."
+msgstr "%s, korjaa kaupunki."
+
+#: Strings.cpp:780
+#, c-format
+msgid "%s repairs a city."
+msgstr "%s korjaa kaupungin."
+
+#: Strings.cpp:781
+#, c-format
+msgid "Roll a %d"
+msgstr ""
+
+#: Strings.cpp:782
+#, c-format
+msgid "%s, sabotage a city."
+msgstr "%s, sabotoi kaupunki."
+
+# ??
+#: Strings.cpp:783
+#, c-format
+msgid "%s sabotages a city of %s."
+msgstr "%s sabotoi pelaajan %s kaupungin."
+
+#: Strings.cpp:784
+#, c-format
+msgid "%s, select a city to reduce."
+msgstr "%s, valitse kaupunki,joka alennetaan kyläksi."
+
+#: Strings.cpp:785
+#, c-format
+msgid "%s, select a resource or commodity to trade at 2-1."
+msgstr "%s, valitse resurssi tai kauppatavara, jota voit vaihtaa pankissa 2:1."
+
+#: Strings.cpp:786
+#, c-format
+msgid "%s, select a commodity to give to %s."
+msgstr "%s, valitse kauppatavara, jota annetaan pelaajalle %s."
+
+#: Strings.cpp:787
+#, c-format
+msgid "%s, select a commodity to steal."
+msgstr "%s, valitse kauppatavara, jota varastetaan."
+
+#: Strings.cpp:788
+#, c-format
+msgid "%s, select a knight to attack with."
+msgstr "%s, valitse ritari, jolla hyökkäät"
+
+#: Strings.cpp:789
+#, c-format
+msgid "%s, select a knight to desert."
+msgstr "%s, valitse ritari."
+
+#: Strings.cpp:790
+#, c-format
+msgid "%s, select a knight to displace."
+msgstr "%s, valitse ritari."
+
+#: Strings.cpp:791
+#, c-format
+msgid "%s, select a knight to expel criminals with."
+msgstr "%s, valitse ritari, jolla karkoitat"
+
+#: Strings.cpp:792
+#, c-format
+msgid "%s, select a knight to move."
+msgstr "%s, valitse liikutettava ritari."
+
+#: Strings.cpp:793
+#, c-format
+msgid "%s, select a player for desertion."
+msgstr "%s, valitse aavikoituva pelaaja."
+
+#: Strings.cpp:794
+#, c-format
+msgid "%s, select a player to rob."
+msgstr "%s, valitse pelaaja, jolta varastetaan."
+
+#: Strings.cpp:795
+#, c-format
+msgid "%s, select a player to spy on."
+msgstr "%s, valitse pelaaja, jota vakoillaan."
+
+#: Strings.cpp:796
+#, fuzzy, c-format
+msgid "%s, select a player to use the commercial harbor on."
+msgstr "%s, valitse pelaaja, joka käyttää kauppasatamaa."
+
+#: Strings.cpp:797
+#, c-format
+msgid "%s, select a progress card."
+msgstr "%s, valitse kortti."
+
+#: Strings.cpp:798
+#, c-format
+msgid "%s, select a resource to give to %s."
+msgstr "%s, valitse yksi resurssi, jota annetaan pelaajalle %s."
+
+#: Strings.cpp:799
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s, valitse yksi resurssi, joka varastetaan."
+
+#: Strings.cpp:800
+#, c-format
+msgid "%s, select a road or ship to remove."
+msgstr "%s, valitse poistettava tie tai laiva."
+
+#: Strings.cpp:801
+#, c-format
+msgid "%s, select a road to remove."
+msgstr "%s, valitse poistettava tie."
+
+#: Strings.cpp:802
+#, c-format
+msgid "Select 1 card to steal from %s."
+msgstr "Valitse varastettava kortti pelaajalta %s."
+
+#: Strings.cpp:803
+#, c-format
+msgid "%s, select resources to lose."
+msgstr "%s, valitse yksi resurssi, joka menetetään."
+
+#: Strings.cpp:804
+#, c-format
+msgid "%s selects %s."
+msgstr "%s valitsee %s."
+
+#: Strings.cpp:805
+#, c-format
+msgid "%s selects a deserter."
+msgstr "%s, valitsee aavikoittajan."
+
+#: Strings.cpp:806
+#, c-format
+msgid "%s, select the dice for the next roll."
+msgstr "%s, valitse noppa seuraavalle heitolle."
+
+#: Strings.cpp:807
+#, c-format
+msgid "%s, select the first roll chip to switch."
+msgstr ""
+
+#: Strings.cpp:808
+#, c-format
+msgid "%s, select the second roll chip to switch."
+msgstr ""
+
+#: Strings.cpp:809
+#, c-format
+msgid "Select 2 cards to steal from %s."
+msgstr "Valitse kaksi varastettavaa korttia pelaajalta %s."
+
+#: Strings.cpp:810
+#, c-format
+msgid "%s, select 2 cards to steal from %s."
+msgstr "%s, valitse kaksi varastettavaa korttia pelaajalta %s."
+
+#: Strings.cpp:811
+#, c-format
+msgid "%s, select 2 resources or commodities to give to the wedding."
+msgstr "%s, valitse kaksi resurssia tai kauppatavaraa häihin."
+
+#: Strings.cpp:812
+#, c-format
+msgid "Select 1 commodity to give to %s."
+msgstr "Valitse yksi kauppatavara, jonka annat pelaajalle %s."
+
+#: Strings.cpp:813
+#, c-format
+msgid "%s, select 1 progress card to steal from %s."
+msgstr "%s, valitse yksi varastettava kortti pelaajalta %s."
+
+#: Strings.cpp:814
+#, c-format
+msgid "Select 1 resource to give to %s."
+msgstr "Valitse yksi resurssi, joka annetaan pelaajalle %s."
+
+#: Strings.cpp:815
+#, c-format
+msgid "%s steals %s."
+msgstr "%s varastaa %s."
+
+#: Strings.cpp:816
+#, c-format
+msgid "%s steals %s from you."
+msgstr "%s varastaa kortin %s sinulta."
+
+#: Strings.cpp:817
+#, c-format
+msgid "%s steals 1 card from %s."
+msgstr "%s varastaa kortin pelaajalta %s"
+
+#: Strings.cpp:818
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr "%s varastaa yhden %s kortin sinulta."
+
+#: Strings.cpp:819
+#, c-format
+msgid "%s steals 1 progress card from %s."
+msgstr "%s varastaa edistymiskortin pelaajalta %s"
+
+#: Strings.cpp:820
+#, c-format
+msgid "%s steals 2 cards from %s."
+msgstr "%s varastaa kaksi korttia pelaajalta %s."
+
+#: Strings.cpp:821
+#, c-format
+msgid "%s steals nothing."
+msgstr "%s ei varasta mitään."
+
+#: Strings.cpp:822
+#, c-format
+msgid "%s swaps a %d chip for a %d chip."
+msgstr "%s vaihtaa numeron %d numeroon %d."
+
+#: Strings.cpp:823
+#, c-format
+msgid "%s takes the %s metropolis."
+msgstr "%s valtaa %s metropolin."
+
+#: Strings.cpp:824
+#, fuzzy, c-format
+msgid "%s trades 1 resource to %s for 1 commodity using the commercial harbor."
+msgstr "%s vaihtaa yhden resurssin kauppasataman kautta yhteen %s."
+
+#: Strings.cpp:825
+#, c-format
+msgid "%s undoes a basic knight."
+msgstr "%s peruttaa perusritarin laiton."
+
+#: Strings.cpp:826
+#, c-format
+msgid "%s undoes a city walls."
+msgstr "%s peruttaa muurien rakentamisen"
+
+#: Strings.cpp:827
+#, c-format
+msgid "%s undoes a knight activate."
+msgstr "%s peruttaa ritarin aktivoimisen"
+
+#: Strings.cpp:828
+#, c-format
+msgid "%s undoes a knight move."
+msgstr "%s peruttaa ritarin liikuttamisen."
+
+#: Strings.cpp:829
+#, c-format
+msgid "%s undoes a knight upgrade."
+msgstr "%s peruttaa ritarin päivittämisen."
+
+#: Strings.cpp:830
+#, c-format
+msgid "%s undoes the %s upgrade."
+msgstr "%s peruttaa %s päivittämisen."
+
+#: Strings.cpp:831
+#, c-format
+msgid "%s upgrades to a mighty knight."
+msgstr "%s päivittää mahtavaan ritariin."
+
+#: Strings.cpp:832
+#, c-format
+msgid "%s upgrades to a strong knight."
+msgstr "%späivittää vahvaan ritariin."
+
+#: Strings.cpp:833
+#, c-format
+msgid "%s upgrades %s to level %d."
+msgstr "%s päivittää %s tasolle %d."
+
+#: Strings.cpp:834
+#, c-format
+msgid "%s, upgrade to a mighty knight."
+msgstr "%s, päivitä mahtavaan ritariin."
+
+#: Strings.cpp:835
+#, c-format
+msgid "%s, upgrade to a strong knight."
+msgstr "%s, päivitä vahvaan ritariin."
+
+#: Strings.cpp:836
+#, c-format
+msgid "%s, use your aqueduct."
+msgstr "%s, käytä akveduktiasi."
+
+#: Strings.cpp:837
+#, fuzzy, c-format
+msgid "%s uses the merchant fleet to trade %s."
+msgstr "%s käyttää kauppalaivastoaan vaihtaakseen tavaraa %s."
+
+#: Strings.cpp:838
+#, c-format
+msgid "Waiting for %s to activate a knight."
+msgstr "Odotetaan pelaajaa %s aktivoimaan ritari."
+
+#: Strings.cpp:839
+#, c-format
+msgid "Waiting for %s to attack an opponent's knight."
+msgstr "Odotetaan pelaajaa %s hyökkäämään toisen pelaajan ritarin kimppuun."
+
+#: Strings.cpp:840
+#, c-format
+msgid "Waiting for %s to discard 1 progress card."
+msgstr "Odotetaan pelaajaa %s heittämään yksi edistymiskortti pois."
+
+#: Strings.cpp:841
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "Odotetaan pelaajaa %s menettämään resursseja."
+
+#: Strings.cpp:842
+#, c-format
+msgid "Waiting for %s to move a knight."
+msgstr "Odotetaan pelaajaa %s liikuttamaan ritaria."
+
+#: Strings.cpp:843
+#, c-format
+msgid "Waiting for %s to place a basic knight."
+msgstr "Odotetaan pelaajaa %s asettamaan perusritari."
+
+#: Strings.cpp:844
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "Odotetaan pelaajaa %s asettamaan kaupunki."
+
+#: Strings.cpp:845
+#, c-format
+msgid "Waiting for %s to place a city walls."
+msgstr "Odotetaan pelaajaa %s asettamaan kaupungin muurit."
+
+#: Strings.cpp:846
+#, c-format
+msgid "Waiting for %s to place a metropolis."
+msgstr "Odotetaan pelaajaa %s asettamaan metropoli."
+
+#: Strings.cpp:847
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "Odotetaan pelaajaa %s asettamaan tie."
+
+#: Strings.cpp:848
+#, c-format
+msgid "Waiting for %s to place the deserter."
+msgstr "Odotetaan pelaajaa %s asettamaan aavikoittaja."
+
+#: Strings.cpp:849
+#, c-format
+msgid "Waiting for %s to place the merchant."
+msgstr "Odotetaan pelaajaa %s asettamaan kauppias."
+
+#: Strings.cpp:850
+#, c-format
+msgid "Waiting for %s to reduce a city."
+msgstr "Odotetaan pelaajaa %s asettamaan kaupunki kyläksi."
+
+#: Strings.cpp:851
+#, c-format
+msgid "Waiting for %s to repair a city."
+msgstr "Odotetaan pelaajaa %s korjaamaan kaupunki."
+
+#: Strings.cpp:852
+#, c-format
+msgid "Waiting for %s to sabotage a city."
+msgstr "Odotetaan pelaajaa %s sabotoimaan kaupunki."
+
+#: Strings.cpp:853
+#, c-format
+msgid "Waiting for %s to select a commodity to trade."
+msgstr "Odotetaan pelaajaa %s valitsemaan kauppatavara, jota vaihdetaan."
+
+#: Strings.cpp:854
+#, c-format
+msgid "Waiting for %s to select a resource or commodity to trade at 2-1."
+msgstr ""
+"Odotetaan pelaajaa %s valitsemaan resurssi tai kauppatavara, jota voi "
+"vaihtaa 2:1."
+
+#: Strings.cpp:855
+#, c-format
+msgid "Waiting for %s to select a commodity to steal."
+msgstr "Odotetaan pelaajaa %s varastamaan kauppatavara."
+
+#: Strings.cpp:856
+#, c-format
+msgid "Waiting for %s to select a knight to attack with."
+msgstr "Odotetaan pelaajaa %s valitsemaan hyökkäävä ritari."
+
+#: Strings.cpp:857
+#, c-format
+msgid "Waiting for %s to select a knight to desert."
+msgstr "Odotetaan pelaajaa %s valitsemaan ritari."
+
+#: Strings.cpp:858
+#, c-format
+msgid "Waiting for %s to select a knight to displace."
+msgstr ""
+
+#: Strings.cpp:859
+#, c-format
+msgid "Waiting for %s to select a knight to expel criminals with."
+msgstr "Odotetaan pelaajaa %s valitsemaan ritari millä karkoitetaan."
+
+#: Strings.cpp:860
+#, c-format
+msgid "Waiting for %s to select a knight to move."
+msgstr "Odotetaan pelaajaa %s liikuttamaan ritaria."
+
+#: Strings.cpp:861
+#, c-format
+msgid "Waiting for %s to select a player for desertion."
+msgstr "Odotetaan pelaajaa %s valitsemaan aavikoituva pelaaja."
+
+#: Strings.cpp:862
+#, c-format
+msgid "Waiting for %s to select a player to rob."
+msgstr "Odotetaan pelaajaa %s valitsemaan pelaaja, jolta varastetaan."
+
+#: Strings.cpp:863
+#, c-format
+msgid "Waiting for %s to select a player to spy on."
+msgstr "Odotetaan pelaajaa %s valitsemaan pelaaja, jota vakoillaan."
+
+#: Strings.cpp:864
+#, fuzzy, c-format
+msgid "Waiting for %s to select a player to use the commercial harbor on."
+msgstr "Odotetaan pelaajaa %s valitsemaan pelaaja kauppasatamaa varten."
+
+#: Strings.cpp:865
+#, c-format
+msgid "Waiting for %s to select a progress card."
+msgstr "Odotetaan pelaajaa %s valitsemaan kortti."
+
+#: Strings.cpp:866
+#, c-format
+msgid "Waiting for %s to select a resource to trade."
+msgstr "Odotetaan pelaajaa %s valitsemaan resurssi, jota vaihdetaan."
+
+#: Strings.cpp:867
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "Odotetaan pelaajaa %s valitsemaan kortti, joka varastetaan."
+
+#: Strings.cpp:868
+#, c-format
+msgid "Waiting for %s to select a road or ship to remove."
+msgstr "Odotetaan pelaajaa %s poistamaan laiva tai tie."
+
+#: Strings.cpp:869
+#, c-format
+msgid "Waiting for %s to select a road to remove."
+msgstr "Odotetaan pelaajaa %s valitsemaan poistettava tie."
+
+#: Strings.cpp:870
+#, c-format
+msgid "Waiting for %s to select 1 progress card to steal from %s."
+msgstr ""
+"Odotetaan pelaajaa %s valitsemaan yksi varastettava kortti pelaajalta %s."
+
+#: Strings.cpp:871
+#, c-format
+msgid "Waiting for %s to select the dice for the next roll."
+msgstr "Odotetaan pelaajaa %s valitsemaan noppa."
+
+#: Strings.cpp:872
+#, c-format
+msgid "Waiting for %s to select the first roll chip to switch."
+msgstr ""
+
+#: Strings.cpp:873
+#, c-format
+msgid "Waiting for %s to select the second roll chip to switch."
+msgstr ""
+
+#: Strings.cpp:874
+#, c-format
+msgid "Waiting for %s to select 2 cards to steal from %s."
+msgstr ""
+"Odotetaan pelaajaa %s valitsemaan kaksi varastettavaa korttia pelaajalta %s."
+
+#: Strings.cpp:875
+#, c-format
+msgid "Waiting for %s to give 2 resources or commodities to the wedding."
+msgstr ""
+"Odotetaan pelaajaa %s valitsemaan kaksi resurssia tai kauppatavaraa häihin."
+
+#: Strings.cpp:876
+#, fuzzy, c-format
+msgid "Waiting for %s and %s to trade using the commercial harbor."
+msgstr ""
+"Odotetaan pelaajaa %s ja %s käymään vaihtokauppaa käyttäen kauppasatamaa."
+
+#: Strings.cpp:877
+#, c-format
+msgid "Waiting for %s to upgrade to a mighty knight."
+msgstr "Odotetaan pelaajaa %s päivittämään mahtavaan ritariin."
+
+#: Strings.cpp:878
+#, c-format
+msgid "Waiting for %s to upgrade to a strong knight."
+msgstr "Odotetaan pelaajaa %s päivittämään vahvaan ritariin."
+
+#: Strings.cpp:879
+#, c-format
+msgid "Waiting for %s to use their aqueduct."
+msgstr "Odotetaan pelaajaa %s käyttämään adkveduktiaan."
+
+#: Strings.cpp:880
+#, c-format
+msgid "Waiting for %s to withdraw a knight."
+msgstr "Odotetaan pelaajaa %s poistamaan ritari."
+
+#: Strings.cpp:881
+#, c-format
+msgid "%s withdraws a knight."
+msgstr "%s, poistaa ritarin."
+
+#: Strings.cpp:882
+#, c-format
+msgid "%s, withdraw your knight."
+msgstr "%s, poista ritari."
+
+#: Strings.cpp:883
+#, c-format
+msgid "You receive a %s card."
+msgstr "Sait kortin %s."
+
+#: Strings.cpp:884
+#, fuzzy, c-format
+msgid "You trade 1 %s to %s for 1 %s using the commercial harbor."
+msgstr "Vaihdat yhden %s kauppasataman kautta yhteen %s."
+
+#~ msgid "Buy City Walls"
+#~ msgstr "Osta kaupungin muurit"
+
+#~ msgid "Upgrade to a Strong Knight"
+#~ msgstr "Päivitä vahvaan ritariin"
+
+#~ msgid "Upgrade to a Mighty Knight"
+#~ msgstr "Päivitä mahtavaan ritariin"
+
+#~ msgid "Repair a Sabotaged City"
+#~ msgstr "Korjaa sabotoitu kaupunki"
+
+#, fuzzy
+#~ msgid "MerchantDraw"
+#~ msgstr "Kauppias"
+
+#~ msgid "Politics cards: %s"
+#~ msgstr "Politiikkakortit: %s"
+
+#~ msgid "%d %s"
+#~ msgstr "%d %s"
+
+#~ msgid "Science cards: %s"
+#~ msgstr "Tiedekortit: %s"
+
+#~ msgid "Trade cards: %s"
+#~ msgstr "Kauppakortit: %s"
+
+#~ msgid "Rolls"
+#~ msgstr "Heittää"
+
+#~ msgid "from you"
+#~ msgstr "sinulta"
+
+#~ msgid "%s gives"
+#~ msgstr "%s antaa"
+
+#~ msgid "to you as a Wedding gift"
+#~ msgstr "sinulle häälahjana"

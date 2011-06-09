@@ -1,0 +1,402 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2008-08-02 16:58+0900\n"
+"Last-Translator: hito <hitobasira@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+
+#: Strings.cpp:217
+msgid "Add"
+msgstr "追加"
+
+#: Strings.cpp:218
+msgid "Chat"
+msgstr "チャット"
+
+#: Strings.cpp:219
+msgid "Connect"
+msgstr "接続"
+
+#: Strings.cpp:220
+msgid "Connected"
+msgstr "接続"
+
+#: Strings.cpp:221
+msgid "Connecting..."
+msgstr "接続中......"
+
+#: Strings.cpp:222
+msgid "Connecting To A Game"
+msgstr "ゲームに接続中"
+
+#: Strings.cpp:223
+msgid "Connection"
+msgstr "接続"
+
+#: Strings.cpp:224
+msgid "Connect To"
+msgstr "クライアント"
+
+#: Strings.cpp:225
+msgid "Connect To A Game"
+msgstr "ゲームに接続"
+
+#: Strings.cpp:226
+msgid "Delete"
+msgstr "削除"
+
+#: Strings.cpp:227
+msgid "Disconnect"
+msgstr "切断"
+
+#: Strings.cpp:228
+msgid "Disconnected from the server."
+msgstr "サーバから切断された。"
+
+#: Strings.cpp:229
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr "名前をD&Dするかダブルクリックして追加／削除。"
+
+#: Strings.cpp:230
+msgid ""
+"Enter an IP address or host name in the Connect To window and the port "
+"number in the Port window.  The default port is 7176."
+msgstr "IPアドレスかホスト名とポート番号を入力。デフォルトポートは7176番。"
+
+#: Strings.cpp:231
+msgid ""
+"Enter a valid host name or IP address in the Hostname window.  Enter the "
+"port number clients should connect to in the Port window.  The default port "
+"is 7176."
+msgstr ""
+"有効なホスト名かIPアドレスと、ポート番号を入力してください。デフォルトポート"
+"は 7176番。"
+
+#: Strings.cpp:232
+msgid "Events"
+msgstr ""
+
+#: Strings.cpp:233
+msgid "Game saved."
+msgstr "ゲームセーブ完了。"
+
+#: Strings.cpp:234
+msgid "Game Setup"
+msgstr "ゲームセットアップ"
+
+#: Strings.cpp:235
+msgid "Host"
+msgstr "ホスト"
+
+#: Strings.cpp:236
+msgid "Hostname"
+msgstr "ホスト名"
+
+#: Strings.cpp:237
+msgid "I'll play!"
+msgstr "プレイする！"
+
+#: Strings.cpp:238
+msgid "IP address"
+msgstr "IPアドレス"
+
+#: Strings.cpp:239
+msgid "LAN / Network"
+msgstr "LAN／ネットワーク"
+
+#: Strings.cpp:240
+msgid "LAN / Network Setup"
+msgstr "LAN／ネットワーク"
+
+#: Strings.cpp:241
+msgid "Lost connection to the server."
+msgstr "サーバとの接続ロスト。"
+
+#: Strings.cpp:242
+msgid "Network"
+msgstr "ネットワーク"
+
+#: Strings.cpp:243
+msgid "Network Game Restart"
+msgstr "ネットワークゲームの再開"
+
+#: Strings.cpp:244
+msgid "Not connected"
+msgstr "未接続"
+
+#: Strings.cpp:245
+msgid "No, thanks."
+msgstr "プレイしない"
+
+#: Strings.cpp:246
+msgid "Not ready!"
+msgstr "準備中"
+
+#: Strings.cpp:247
+msgid "OK"
+msgstr "OK"
+
+#: Strings.cpp:248
+msgid "Online Game Start"
+msgstr "オンラインゲーム開始"
+
+#: Strings.cpp:249
+msgid "Options"
+msgstr "オプション"
+
+#: Strings.cpp:250
+msgid "Player"
+msgstr "プレイヤー"
+
+#: Strings.cpp:251
+msgid "Port"
+msgstr "ポート"
+
+#: Strings.cpp:252
+msgid "Question"
+msgstr "質問"
+
+#: Strings.cpp:253
+msgid "Ready!"
+msgstr "準備完了"
+
+#: Strings.cpp:254
+msgid "Select Map"
+msgstr "マップ選択"
+
+#: Strings.cpp:255
+msgid "Server Settings"
+msgstr "サーバ設定"
+
+#: Strings.cpp:256
+msgid "Settings"
+msgstr "設定"
+
+#: Strings.cpp:257
+msgid "Show Chat tab"
+msgstr ""
+
+#: Strings.cpp:258
+msgid "Show Events tab"
+msgstr ""
+
+#: Strings.cpp:259
+#, fuzzy
+msgid "Show Spectators tab"
+msgstr "観戦者"
+
+#: Strings.cpp:260
+msgid "Spectators"
+msgstr "観戦者"
+
+#: Strings.cpp:261
+msgid "Start Server"
+msgstr "サーバ開始"
+
+#: Strings.cpp:262
+msgid "Started"
+msgstr "開始"
+
+#: Strings.cpp:263
+msgid "Start Game!"
+msgstr "ゲーム開始"
+
+#: Strings.cpp:264
+msgid "Status"
+msgstr "状態"
+
+#: Strings.cpp:265
+msgid "Stopped"
+msgstr "停止"
+
+#: Strings.cpp:266
+msgid "Stop Server"
+msgstr "サーバ停止"
+
+#: Strings.cpp:267
+msgid "The port must be a valid number between 0 and 65535."
+msgstr "有効なポート番号は0-65535です。"
+
+#: Strings.cpp:268
+msgid ""
+"There are players connected to you.  Are you sure you want to shut down the "
+"server?"
+msgstr "接続しているプレイヤーがいます。サーバをシャットダウンしますか？"
+
+#: Strings.cpp:269
+msgid "Unselected"
+msgstr "未選択"
+
+#: Strings.cpp:270
+msgid ""
+"Use the Connection settings to either host a game or connect to a game.  "
+"Select the player you wish to play with from the list."
+msgstr "プレイヤー選択及びホスト／クライアント選択"
+
+#: Strings.cpp:271
+msgid "Waiting..."
+msgstr "待機中......"
+
+#: Strings.cpp:272
+msgid "Waiting for players to join."
+msgstr "プレイヤーの参加待ち"
+
+#: Strings.cpp:273
+msgid "Waiting for players to rejoin."
+msgstr "プレイヤーの復帰待ち。"
+
+#: Strings.cpp:274
+msgid ""
+"You are currently connected to a server.  Are you sure you want to leave?"
+msgstr "現在、サーバに接続しています。切断しますか？"
+
+#: Strings.cpp:275
+msgid "You must enter an IP address or host name."
+msgstr "IPアドレスかホスト名を入力。"
+
+#: Strings.cpp:276
+msgid "You must enter a port number."
+msgstr "ポート番号を入力してください。"
+
+#: Strings.cpp:277
+msgid "You must enter a valid host name or IP address."
+msgstr "有効なホスト名かIPアドレスを入力してください。"
+
+#: Strings.cpp:280
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "%s を削除します。よろしいでしょうか？"
+
+#: Strings.cpp:281
+#, c-format
+msgid "Attempt %d: %s"
+msgstr "接続試行 %d 回目　：　%s　"
+
+#: Strings.cpp:282
+#, c-format
+msgid "Attempting to connect to %s:%d..."
+msgstr "%s:%d へ接続中……"
+
+#: Strings.cpp:283
+#, c-format
+msgid "Attempt %d of %d"
+msgstr "接続試行中 %d / %d"
+
+#: Strings.cpp:284
+#, c-format
+msgid "A player attempts to join with version %s.  The server version is %s."
+msgstr ""
+"バージョン %s のプレイヤーが接続しようとした。サーバのバージョンは %s。"
+
+#: Strings.cpp:285
+#, c-format
+msgid "%s becomes a spectator."
+msgstr "%s は観戦者になった。"
+
+#: Strings.cpp:286
+#, c-format
+msgid "%s drops from the game."
+msgstr "%s がゲームから落ちた。"
+
+#: Strings.cpp:287
+#, c-format
+msgid "%s is no longer ready."
+msgstr "%s の状態が準備中になった。"
+
+#: Strings.cpp:288
+#, c-format
+msgid "%s is now %s."
+msgstr "%s は %s になった。"
+
+#: Strings.cpp:289
+#, c-format
+msgid "%s is ready."
+msgstr "%s 準備完了。"
+
+#: Strings.cpp:290
+#, c-format
+msgid "%s joins as %s."
+msgstr "%s が %s として参加した。"
+
+#: Strings.cpp:291
+#, c-format
+msgid "%s leaves the server."
+msgstr "%s がサーバから退出した。"
+
+#: Strings.cpp:292
+#, c-format
+msgid "%s quits the game."
+msgstr "%s がゲームを終了した。"
+
+#: Strings.cpp:293
+#, c-format
+msgid "%s rejoins as %s."
+msgstr "%s が %s として再参加した。"
+
+#: Strings.cpp:294
+#, c-format
+msgid "%s replaces %s as %s."
+msgstr "%s が %s を %s にした。"
+
+#: Strings.cpp:295
+#, c-format
+msgid "%s shut down the server."
+msgstr "%s はサーバをシャットダウンした。"
+
+#: Strings.cpp:296
+#, c-format
+msgid "%s takes over as %s."
+msgstr "%s は %s を引き受けた。"
+
+#: Strings.cpp:297
+#, c-format
+msgid "The game will restart in %d."
+msgstr "ゲームが %d で再開された。"
+
+#: Strings.cpp:298
+#, fuzzy, c-format
+msgid "The game will start in %d."
+msgstr "ゲームが %d で再開された。"
+
+#: Strings.cpp:299
+#, c-format
+msgid "The map is now %s."
+msgstr "現在のマップは %s。"
+
+#~ msgid "Connect!"
+#~ msgstr "接続"
+
+#~ msgid "Refresh"
+#~ msgstr "更新"
+
+#~ msgid "Connector"
+#~ msgstr "コネクター"
+
+#~ msgid "Direct Connect Setup"
+#~ msgstr "ダイレクトコネクトセットアップ"
+
+#~ msgid "Quit"
+#~ msgstr "終了"
+
+#~ msgid "Game"
+#~ msgstr "ゲーム"

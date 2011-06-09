@@ -1,0 +1,1528 @@
+#
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2009-06-14 20:31+0100\n"
+"Last-Translator: Pim van den Berg <pommiberg@gmail.com>\n"
+"Language-Team: Dutch C3D Team <pommiberg@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: CitiesStats.cpp:150
+msgid "Red Die"
+msgstr "Rode Dobbelsteen"
+
+#: CitiesStats.cpp:153
+msgid "Third Die"
+msgstr "3e Dobbelsteen"
+
+#: CitiesStats.cpp:156
+msgid "Trade Cards Played"
+msgstr "Handelskaarten gespeeld"
+
+#: CitiesStats.cpp:159
+msgid "Politics Cards Played"
+msgstr "Politieke kaarten gespeeld"
+
+#: CitiesStats.cpp:162
+msgid "Science Cards Played"
+msgstr "Wetenschaps kaarten gespeeld"
+
+#: CitiesStats.cpp:172
+msgid "Barbarian"
+msgstr "Barbaar"
+
+#: CitiesStats.cpp:173 Strings.cpp:728
+msgid "Trade"
+msgstr "Handel"
+
+#: CitiesStats.cpp:174 Strings.cpp:672
+msgid "Politics"
+msgstr "Politiek"
+
+#: CitiesStats.cpp:175 Strings.cpp:690
+msgid "Science"
+msgstr "Wetenschap"
+
+#: CitiesStats.cpp:177
+msgid "Defender Points"
+msgstr "Verdedigingspunten"
+
+#: CitiesStats.cpp:178
+msgid "Metropolis"
+msgstr "Metropolis"
+
+#: CitiesStats.cpp:179 CitiesStats.cpp:227 Strings.cpp:659
+msgid "Merchant"
+msgstr "Handelaar"
+
+#: CitiesStats.cpp:180
+msgid "Victory Points"
+msgstr "Overwinningspunten"
+
+#: CitiesStats.cpp:182 CitiesStats.cpp:186 CitiesStats.cpp:190 Strings.cpp:634
+msgid "Cloth"
+msgstr "Doek"
+
+#: CitiesStats.cpp:183 CitiesStats.cpp:187 CitiesStats.cpp:191 Strings.cpp:635
+msgid "Coin"
+msgstr "Muntstuk"
+
+#: CitiesStats.cpp:184 CitiesStats.cpp:188 CitiesStats.cpp:192 Strings.cpp:669
+msgid "Paper"
+msgstr "Papier"
+
+#: CitiesStats.cpp:194
+msgid "Aqueduct"
+msgstr "Aquaduct"
+
+#: CitiesStats.cpp:195 CitiesStats.cpp:203 CitiesStats.cpp:225 Strings.cpp:636
+msgid "Commercial Harbor"
+msgstr "Commerciële Haven"
+
+#: CitiesStats.cpp:196 CitiesStats.cpp:204 CitiesStats.cpp:226 Strings.cpp:657
+msgid "Master Merchant"
+msgstr "Hoofd Handelaar"
+
+#: CitiesStats.cpp:197 CitiesStats.cpp:205 CitiesStats.cpp:229 Strings.cpp:684
+msgid "Resource Monopoly"
+msgstr "Grondstof Monopolie"
+
+#: CitiesStats.cpp:198 CitiesStats.cpp:206 CitiesStats.cpp:230 Strings.cpp:731
+msgid "Trade Monopoly"
+msgstr "Handels Monopolie"
+
+#: CitiesStats.cpp:199 CitiesStats.cpp:208 CitiesStats.cpp:241 Strings.cpp:738
+msgid "Wedding"
+msgstr "Huwelijk"
+
+#: CitiesStats.cpp:200 CitiesStats.cpp:247 Strings.cpp:655
+msgid "Irrigation"
+msgstr "Irrigatie"
+
+#: CitiesStats.cpp:201 CitiesStats.cpp:249 Strings.cpp:663
+msgid "Mining"
+msgstr "Mijnbouw"
+
+#: CitiesStats.cpp:207 CitiesStats.cpp:232 Strings.cpp:611
+msgid "Arsonist"
+msgstr "Pyromaan"
+
+#: CitiesStats.cpp:210
+msgid "Walls"
+msgstr "Muren"
+
+#: CitiesStats.cpp:211
+msgid "Basic Knights"
+msgstr "Eenvoudige Ridders"
+
+#: CitiesStats.cpp:212
+msgid "Strong Knights"
+msgstr "Sterke Ridders"
+
+#: CitiesStats.cpp:213
+msgid "Mighty Knights"
+msgstr "Machtige Ridders"
+
+#: CitiesStats.cpp:214
+msgid "Knight Activates"
+msgstr "Ridder Activeert"
+
+#: CitiesStats.cpp:215
+msgid "Trade Upgrades"
+msgstr "Handels Upgrades"
+
+#: CitiesStats.cpp:216
+msgid "Politics Upgrades"
+msgstr "Politieke Upgrades"
+
+#: CitiesStats.cpp:217
+msgid "Science Upgrades"
+msgstr "Wetenschaps Upgrades"
+
+#: CitiesStats.cpp:218
+msgid "City Repairs"
+msgstr "Stads Reparaties"
+
+#: CitiesStats.cpp:220
+msgid "Knights Moved"
+msgstr "Ridders Verplaatst"
+
+#: CitiesStats.cpp:221
+msgid "Criminals Expelled"
+msgstr "Criminelen Verdreven"
+
+#: CitiesStats.cpp:222
+msgid "Knights Attacked"
+msgstr "Ridders Aangevallen"
+
+#: CitiesStats.cpp:223
+msgid "Coommercial Harbor Used"
+msgstr "Commerciële haven gebruikt"
+
+#: CitiesStats.cpp:228 Strings.cpp:660
+msgid "Merchant Fleet"
+msgstr "Handelsvloot"
+
+#: CitiesStats.cpp:233 Strings.cpp:618
+msgid "Bishop"
+msgstr "Bischop"
+
+#: CitiesStats.cpp:234 Strings.cpp:637
+msgid "Constitution"
+msgstr "Constructie"
+
+#: CitiesStats.cpp:235 Strings.cpp:642
+msgid "Deserter"
+msgstr "Woestijnruiter"
+
+#: CitiesStats.cpp:236 Strings.cpp:643
+msgid "Diplomat"
+msgstr "Diplomaat"
+
+#: CitiesStats.cpp:237 Strings.cpp:653
+msgid "Intrigue"
+msgstr "Intrigue"
+
+#: CitiesStats.cpp:238 Strings.cpp:689
+msgid "Saboteur"
+msgstr "Saboteur"
+
+#: CitiesStats.cpp:239 Strings.cpp:718
+msgid "Spy"
+msgstr "Spion"
+
+#: CitiesStats.cpp:240 Strings.cpp:737
+msgid "Warlord"
+msgstr "Krijgsheer"
+
+#: CitiesStats.cpp:243 Strings.cpp:607
+msgid "Alchemist"
+msgstr "Alchemist"
+
+#: CitiesStats.cpp:244 Strings.cpp:638
+msgid "Crane"
+msgstr "Kraan"
+
+#: CitiesStats.cpp:245 Strings.cpp:648
+msgid "Engineer"
+msgstr "Ingenieur"
+
+#: CitiesStats.cpp:246 Strings.cpp:654
+msgid "Inventor"
+msgstr "Uitvinder"
+
+#: CitiesStats.cpp:248 Strings.cpp:658
+msgid "Medicine"
+msgstr "Medicijn"
+
+#: CitiesStats.cpp:250 Strings.cpp:675
+msgid "Printer"
+msgstr "Printer"
+
+#: CitiesStats.cpp:251 Strings.cpp:685
+msgid "Road Building"
+msgstr "Stratenbouw"
+
+#: CitiesStats.cpp:252 Strings.cpp:717
+msgid "Smith"
+msgstr "Smid"
+
+#: Strings.cpp:605
+msgid "Activate a knight"
+msgstr "Activeer een ridder"
+
+#: Strings.cpp:606
+msgid "Activate all your knights for free."
+msgstr "Activeer gratis al je Ridders."
+
+#: Strings.cpp:608
+msgid ""
+"Allows players to use an active knight to expel criminals before the dice "
+"are rolled, if it is their turn."
+msgstr ""
+"Sta spelers toe, wanneer zij aan de beurt zijn, een actieve ridder te "
+"gebruiken om criminelen te verdrijven voordat er met de dobbelstenen wordt "
+"gegooid."
+
+#: Strings.cpp:609
+msgid ""
+"All players with more Victory Points than you must give you 2 resources or "
+"commodities of their choice."
+msgstr ""
+"Alle spelers met meer Overwinningspunten dan jij moeten 2 grondstoffen of "
+"goederen naar keuze aan je geven."
+
+#: Strings.cpp:610
+msgid ""
+"All players with at least as many Victory Points as you lose half of the "
+"resource or commodity cards in their hand."
+msgstr ""
+"Alle spelers met minimaal evenveel Overwinningspunten als jij verliezen de "
+"helft van al hun grondstof- en goederenkaarten."
+
+#: Strings.cpp:612
+msgid "Attack another knight"
+msgstr "Val een ridder van een tegenstander aan"
+
+#: Strings.cpp:613
+msgid "Barbarians"
+msgstr "Barbaren"
+
+#: Strings.cpp:614
+msgid "Barbarians are delayed for 1 round"
+msgstr "De barbaren worden voor 1 ronde vertraagd"
+
+#: Strings.cpp:615
+msgid "Basic knight"
+msgstr "Eenvoudige ridder"
+
+#: Strings.cpp:616
+msgid "Basic knights"
+msgstr "Eenvoudige ridders"
+
+#: Strings.cpp:617
+msgid ""
+"Before the dice are rolled, select a result for each numbered die.  The "
+"event die rolls normally."
+msgstr ""
+"Selecteer een resultaat voor elke nummer van de dobbelsteen, voordat je met "
+"de dobbelstenen gooit. Het gooien van de dobbelstenen gebeurt zoals "
+"gewoonlijk."
+
+#: Strings.cpp:619
+msgid "Build a basic knight"
+msgstr "Bouw een eenvoudige ridder"
+
+#: Strings.cpp:620
+msgid "Build a city for 2 ore and 1 wheat."
+msgstr "Bouw een stad voor 2 erts en 1 graan."
+
+#: Strings.cpp:621
+msgid "Build a city walls"
+msgstr "Bouw een stadsmuur"
+
+#: Strings.cpp:622
+msgid "Build a mighty knight"
+msgstr "Bouw een machtige ridder"
+
+#: Strings.cpp:623
+msgid "Build a strong knight"
+msgstr "Bouw een sterke ridder"
+
+#: Strings.cpp:624
+msgid "Cards To Give"
+msgstr "Kaarten Te Geven"
+
+#: Strings.cpp:625
+msgid "Cards To Steal"
+msgstr "Kaarten te Stelen"
+
+#: Strings.cpp:626
+msgid "Change the deck of Politics progress cards."
+msgstr ""
+"Stel handmatig in welke Politieke actiekaarten de bank in bezit heeft bij de "
+"start."
+
+#: Strings.cpp:627
+msgid "Change the deck of Science progress cards."
+msgstr ""
+"Stel handmatig in welke Wetenschapskaarten de bank in bezit heeft bij de "
+"start."
+
+#: Strings.cpp:628
+msgid "Change the deck of Trade progress cards."
+msgstr ""
+"Stel handmatig in welke Handelskaarten de bank in bezit heeft bij de start."
+
+#: Strings.cpp:629
+msgid "Cities and Knights"
+msgstr "Steden en Ridders"
+
+#: Strings.cpp:630
+msgid ""
+"Cities and Knights is a whole new way of playing Settlers.  Barbarians "
+"attack, knights defend, cities are pillaged or grow.  Politics, trade and "
+"science take on major roles in determining who wins, and who winds up on the "
+"end of a barbarian axe.\n"
+"\n"
+"Cities and Knights is not for the faint of heart.  Games last longer and are "
+"far more competitive than a Standard or Seafarers game, but the strategic "
+"choices are greater and more challenging than ever! "
+msgstr ""
+"Steden en Ridders is een compleet nieuwe manier van het spelen van de "
+"Kolonisten van Catan.  Aanvallende barbaren, verdedigende ridders, steden "
+"worden geplunderd of groeien. Politiek, handel en de wetenschap spelen een "
+"belangrijke rol bij wie er wint of wie er eindigt in een barbaarse bijl.\n"
+"\n"
+"Steden en Ridders is minder goed voor je gezondheid. Spellen duren langer en "
+"zijn meer competatief dan het Standaard of Zeevaarders spel. Maar de "
+"strategische keuzes zijn groter en uitdagender dan ooit te voren!"
+
+#: Strings.cpp:631
+msgid "Cities and Knights (+3 points)"
+msgstr "Steden en Ridders (+3 punten)"
+
+#: Strings.cpp:632
+msgid "City Upgrades"
+msgstr "Stads Upgrades"
+
+#: Strings.cpp:633
+msgid "City walls"
+msgstr "Stadsmuren"
+
+#: Strings.cpp:639
+msgid "Defender points"
+msgstr "Verdedigingspunten"
+
+#: Strings.cpp:640
+msgid "Delay barbarians"
+msgstr "Vertraag barbaren"
+
+#: Strings.cpp:641
+msgid ""
+"Delay the barbarians for one or two rounds.  This lets players get their "
+"feet on the ground before the first invasion."
+msgstr ""
+"Vertraag de barbaren voor 1 of 2 ronden.  Op deze manier zijn spelers "
+"voorbereid op de eerste invasie."
+
+#: Strings.cpp:644
+msgid "Discard"
+msgstr "Verwerp"
+
+#: Strings.cpp:645
+msgid "Discard 1 Progress Card"
+msgstr "Verwerp een Actiekaart"
+
+#: Strings.cpp:646
+msgid ""
+"Displace an opponent's knight on an intersection next to a road or ship you "
+"own."
+msgstr ""
+"Verplaats de ridder van een tegenstander op een kruising naast een straat of "
+"schip die je bezit."
+
+#: Strings.cpp:647
+msgid "Drag and drop dice to select them."
+msgstr "Klik en sleep de dobbelstenen om ze te selecteren."
+
+#: Strings.cpp:649
+msgid "Expel criminals"
+msgstr "Verdrijf criminelen"
+
+#: Strings.cpp:650
+msgid ""
+"For each opponent you select, offer 1 resource card from your hand.  They "
+"must give you 1 commodity card of their choice, unless they have none."
+msgstr ""
+"Bied elke tegenstander die je selecteert 1 grondstof aan. Zij moeten je 1 "
+"goederenkaart naar keuze geven, tenzij ze niets hebben."
+
+#: Strings.cpp:651
+msgid ""
+"Instead of waiting until the first barbarian invasion, the robber is moved "
+"on a 7 from the first roll of the dice."
+msgstr ""
+"In plaats van wachten totdat de eerste invasie van de barbaren heeft plaats "
+"gevonden, wordt de struikrover verplaatst bij een 7 bij de eerste worp met "
+"de dobbelstenen."
+
+#: Strings.cpp:652
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr "Bouw tijdens deze beurt gratis 2 straten, 2 schepen of van beide 1."
+
+#: Strings.cpp:656
+msgid "Knights errant"
+msgstr "?Klagende ridders?"
+
+#: Strings.cpp:661
+msgid "Mighty knight"
+msgstr "Machtige ridder"
+
+#: Strings.cpp:662
+msgid "Mighty knights"
+msgstr "Machtige ridders"
+
+#: Strings.cpp:664
+msgid "Move a knight"
+msgstr "Verplaats een ridder"
+
+#: Strings.cpp:665
+msgid ""
+"Move the robber or pirate.  In addition, steal 1 card from the hand of every "
+"player with a city or settlement on the new robber tile."
+msgstr ""
+"Verplaats de struikrover of piraat. Steel daarna 1 kaart van elke speler "
+"waarvan een stad of dorp grenst aan de tegel."
+
+#: Strings.cpp:666
+msgid "No mercy from the robber"
+msgstr "Geen genade van de struikrover"
+
+#: Strings.cpp:667
+msgid "OK"
+msgstr "OK"
+
+#: Strings.cpp:668
+msgid "1 Victory Point!"
+msgstr "1 Overwinningspunt!"
+
+#: Strings.cpp:670
+msgid "Place a city walls for free."
+msgstr "Bouw gratis een stadsmuur."
+
+#: Strings.cpp:671
+msgid "Play Card"
+msgstr "Speel Kaart"
+
+#: Strings.cpp:673
+msgid "Politics cards"
+msgstr "Politieke kaarten"
+
+#: Strings.cpp:674
+msgid "Politics metropolis"
+msgstr "Politieke metropolis"
+
+#: Strings.cpp:676
+msgid "Promote two different knights one level for free."
+msgstr "Bevorder gratis 2 verschillende ridders een niveau."
+
+#: Strings.cpp:677
+msgid "Purchase one city upgrade for 1 commodity less."
+msgstr "Koop een stadsupgrade voor 1 goed minder."
+
+#: Strings.cpp:678
+msgid "Receive 2 ore for each ore tile on which you have a city or settlement."
+msgstr ""
+"Ontvang 2 erts voor elke ertstegel, waar je een stad of dorp aan gebouwd "
+"hebt."
+
+#: Strings.cpp:679
+msgid ""
+"Receive 2 wheat for each wheat tile on which you have a city or settlement."
+msgstr ""
+"Ontvang 2 graan voor elke graantegel, waar je een stad of dorp aan gebouwd "
+"hebt."
+
+#: Strings.cpp:680
+msgid ""
+"Remove one open road from the board.  If you remove your own road, you may "
+"then place it elsewhere immediately."
+msgstr ""
+"Verwijder een straat van het spelbord. Wanneer je een eigen straat "
+"verwijdert, mag je het direct ergens anders plaatsen."
+
+#: Strings.cpp:681
+msgid ""
+"Remove one open road or ship from the board.  If you remove your own road or "
+"ship, you may then place it elsewhere immediately."
+msgstr ""
+"Verwijder een straat of schip van het spelbord. Wanneer je een eigen straat "
+"of schip verwijdert, mag je het direct ergens anders plaatsen."
+
+#: Strings.cpp:682
+msgid "Repair a city"
+msgstr "Repareer een stad"
+
+#: Strings.cpp:683
+msgid "Resources"
+msgstr "Grondstoffen"
+
+#: Strings.cpp:686
+msgid "Robber is not delayed by barbarians"
+msgstr "Struikrover is niet vertraagd door de barbaren"
+
+#: Strings.cpp:687
+msgid "Roll Dice"
+msgstr "Gooien"
+
+#: Strings.cpp:688
+msgid "Rounds before barbarians advance"
+msgstr "Ronden voordat de barbaren optrekken"
+
+#: Strings.cpp:691
+msgid "Science cards"
+msgstr "Wetenschapskaarten"
+
+#: Strings.cpp:692
+msgid "Science metropolis"
+msgstr "Wetenschaps metropolis"
+
+#: Strings.cpp:693
+msgid "Select"
+msgstr "Selecteer"
+
+#: Strings.cpp:694
+msgid ""
+"Select a commodity.  All players must give you 1 of that commodity, unless "
+"they have none."
+msgstr ""
+"Selecteer een goederenkaart. Alles spelers moeten je 1 van dezelfde "
+"goederenkaart geven, tenzij ze niets hebben."
+
+#: Strings.cpp:695
+msgid ""
+"Select an opponent's city.  The city produces as a settlement until the "
+"owner pays 1 timber and 1 ore for repairs."
+msgstr ""
+"Selecteer de stad van een tegenstander. De stad produceert als een dorp, "
+"totdat de eigenaar 1 hout en 1 erts betaalt voor de reparatie."
+
+#: Strings.cpp:696
+msgid ""
+"Select an opponent.  Steal 1 progress card of your choice from their hand."
+msgstr "Selecteer een tegenstander. Steel 1 actiekaart naar keuze."
+
+#: Strings.cpp:697
+msgid ""
+"Select an opponent.  They must remove one knight of their choice from the "
+"board.  You may then place an equivalent knight on the board, following the "
+"normal rules."
+msgstr ""
+"Selecteer een tegenstander. Zij moeten 1 ridder naar keuze van het spelbord "
+"verwijderen. Je mag een gelijkwaardige ridder op het spelbord plaatsen door "
+"de normale regels na te leven."
+
+#: Strings.cpp:698
+msgid "Select a Player for Desertion"
+msgstr "Selecteer een Speler voor Desertatie."
+
+#: Strings.cpp:699
+msgid "Select a Player to Rob"
+msgstr "Selecteer een Speler om te Beroven."
+
+#: Strings.cpp:700
+msgid "Select a Player to Spy on"
+msgstr "Selecteer een Speler om te Bespioneren"
+
+#: Strings.cpp:701
+msgid "Select a Player to Trade With"
+msgstr "Selecteer een Speler om mee te Handelen"
+
+#: Strings.cpp:702
+msgid "Select A Progress Card"
+msgstr "Selecteer een Actiekaart."
+
+#: Strings.cpp:703
+msgid ""
+"Select a resource.  All players must give you as many of that resource as "
+"they can, up to 2."
+msgstr ""
+"Selecteer een grondstof. Alle spelers moeten je zoveel mogelijk van die "
+"grondstof geven, maar niet meer dan 2."
+
+#: Strings.cpp:704
+msgid ""
+"Select a tile adjacent to a settlement or city you own and place the "
+"merchant on it.  As long as the merchant remains, you trade that resource to "
+"the bank at 2-1, and receive 1 Victory Point."
+msgstr ""
+"Selecteer een tegel die grenst aan je dorp of stad en plaats de handelaar "
+"erop. Zolang de handelaar erop staat, ruil je die grondstof met 2 tegen 1 "
+"met de bank en ontvang je 1 Overwinningspunt."
+
+#: Strings.cpp:705
+msgid "Select Dice"
+msgstr "Selecteer Dobbelstenen"
+
+#: Strings.cpp:706
+msgid "Select 1 card to give."
+msgstr "Selecteer 1 kaart om te geven."
+
+#: Strings.cpp:707
+msgid "Select 1 card type to trade at 2-1."
+msgstr "Selecteer 1 type kaart om 2 tegen 1 te handelen."
+
+#: Strings.cpp:708
+msgid "Select 1 commodity type to steal."
+msgstr "Selecteer 1 goederentype op te stelen."
+
+#: Strings.cpp:709
+msgid "Select 1 progress card."
+msgstr "Selecteer 1 actiekaart."
+
+#: Strings.cpp:710
+msgid ""
+"Select 1 resource or commodity.  This round, trade it to the bank at 2-1."
+msgstr "Selecteer 1 grondstof of goederenkaart. "
+
+#: Strings.cpp:711
+msgid "Select 1 resource to gain."
+msgstr "Selecteer 1 grondstof die je wilt ontvangen."
+
+#: Strings.cpp:712
+msgid "Select 1 resource type to steal."
+msgstr "Selecteer 1 grondstoftype om te stelen."
+
+#: Strings.cpp:713
+msgid "Select 2 cards to give."
+msgstr "Selecteer 2 kaarten om te geven."
+
+#: Strings.cpp:714
+msgid "Select one die of each color."
+msgstr "Selecteer 1 dobbelsteen van elke kleur."
+
+#: Strings.cpp:715
+msgid "Show Barbarians tab"
+msgstr "Toon barbaren tab"
+
+#: Strings.cpp:716
+msgid "Show Upgrades tab"
+msgstr "Toon upgrades tab"
+
+#: Strings.cpp:719
+msgid "Spy Cards"
+msgstr "Spionage Kaarten"
+
+#: Strings.cpp:720
+msgid "Steal Card"
+msgstr "Steel Kaart"
+
+#: Strings.cpp:721
+msgid "Strong knight"
+msgstr "Sterke ridder"
+
+#: Strings.cpp:722
+msgid "Strong knights"
+msgstr "Sterke ridders"
+
+#: Strings.cpp:723
+msgid ""
+"Switch any two roll chips on the board, except for those numbered 2, 12, 6, "
+"or 8."
+msgstr "Wissel 2 fiches op het spelbord om, behalve de nummers 2, 12, 6 of 8."
+
+#: Strings.cpp:724
+msgid ""
+"Take 2 resource or commodity cards of your choice from any one opponent with "
+"more Victory Points than you."
+msgstr ""
+"Neem 2 grondstoffen of goederenkaarten naar keuze van elke tegenstander die "
+"meer Overwinningspunten heeft dan jij."
+
+#: Strings.cpp:725
+msgid "The barbarians advance."
+msgstr "De barbaren trekken op."
+
+#: Strings.cpp:726
+msgid "The barbarians attack and are repelled!"
+msgstr "De barbaren vallen aan en zijn afgeweerd!"
+
+#: Strings.cpp:727
+msgid "The barbarians attack and lay waste!"
+msgstr "De barbaren vallen aan en redden het niet!"
+
+#: Strings.cpp:729
+msgid "Trade cards"
+msgstr "Handelskaarten"
+
+#: Strings.cpp:730
+msgid "Trade metropolis"
+msgstr "Handels metropolis"
+
+#: Strings.cpp:732
+msgid "Upgrade politics"
+msgstr "Upgrade politiek"
+
+#: Strings.cpp:733
+msgid "Upgrade science"
+msgstr "Upgrade wetenschap"
+
+#: Strings.cpp:734
+msgid "Upgrade trade"
+msgstr "Upgrade handel"
+
+#: Strings.cpp:735
+msgid "Use commercial harbor"
+msgstr "Gebruik de commerciële haven"
+
+#: Strings.cpp:736
+msgid "Use Your Aqueduct"
+msgstr "Gebruik je aquaduct"
+
+#: Strings.cpp:739
+msgid "Your Cards"
+msgstr "Je Kaarten"
+
+#: Strings.cpp:742
+#, c-format
+msgid "%s, activate a knight."
+msgstr "%s, activeer een ridder."
+
+#: Strings.cpp:743
+#, c-format
+msgid "%s activates a knight."
+msgstr "%s activeert een ridder."
+
+#: Strings.cpp:744
+#, c-format
+msgid "%s, attack an opponent's knight."
+msgstr "%s, val een ridder van de tegenstander aan."
+
+#: Strings.cpp:745
+#, c-format
+msgid "%s attacks a knight of %s."
+msgstr "%s valt een ridder van %s aan."
+
+#: Strings.cpp:746
+#, c-format
+msgid "Barbarians are delayed for %d rounds"
+msgstr "De barbaren worden voor %d ronden vertraagd"
+
+#: Strings.cpp:747
+#, c-format
+msgid "%s, discard 1 progress card."
+msgstr "%s, verwerp een actiekaart."
+
+#: Strings.cpp:748
+#, c-format
+msgid "%s discards 1 %s card."
+msgstr "%s verwerpt 1 %s kaart."
+
+#: Strings.cpp:749
+#, c-format
+msgid "%s displaces a knight of %s."
+msgstr "%s verplaatse een ridder van %s."
+
+#: Strings.cpp:750
+#, c-format
+msgid "%s expels criminals."
+msgstr "%s verdrijft criminelen."
+
+#: Strings.cpp:751
+#, c-format
+msgid "%d %s from %s"
+msgstr "%d %s van %s"
+
+#: Strings.cpp:752
+#, c-format
+msgid "%s gives 1 card to %s as a wedding gift."
+msgstr "%s geeft 1 kaart aan %s als huwelijksgeschenk."
+
+#: Strings.cpp:753
+#, c-format
+msgid "%s gives %s to you as a wedding gift."
+msgstr "%s geeft %s aan je als huwelijksgeschenk."
+
+#: Strings.cpp:754
+#, c-format
+msgid "%s gives 2 cards to %s as a Wedding gift."
+msgstr "%s geeft 2 kaarten aan %s als Huwelijksgeschenk."
+
+#: Strings.cpp:755
+#, c-format
+msgid "%s loses %s."
+msgstr "%s verliest %s."
+
+#: Strings.cpp:756
+#, c-format
+msgid "%s loses a city walls."
+msgstr "%s verliest een stadsmuur."
+
+#: Strings.cpp:757
+#, c-format
+msgid "%s loses the knight in the attack."
+msgstr "%s verliest een ridder in het gevecht."
+
+#: Strings.cpp:758
+#, c-format
+msgid "%s loses the knight."
+msgstr "%s verliest de ridder."
+
+#: Strings.cpp:759
+#, c-format
+msgid "%s loses the %s metropolis."
+msgstr "%s verliest de %s metropolis."
+
+#: Strings.cpp:760
+#, c-format
+msgid "%s moves a knight."
+msgstr "%s verplaatst een ridder."
+
+#: Strings.cpp:761
+#, c-format
+msgid "%s, move your knight."
+msgstr "%s, verplaats je ridder."
+
+#: Strings.cpp:762
+#, c-format
+msgid "%s, place a city."
+msgstr "%s, bouw een stad."
+
+#: Strings.cpp:763
+#, c-format
+msgid "%s, place a city walls."
+msgstr "%s, bouw een stadsmuur."
+
+#: Strings.cpp:764
+#, c-format
+msgid "%s, place a road."
+msgstr "%s, bouw een straat."
+
+#: Strings.cpp:765
+#, c-format
+msgid "%s, place a basic knight."
+msgstr "%s, bouw een eenvoudige ridder."
+
+#: Strings.cpp:766
+#, c-format
+msgid "%s, place the merchant."
+msgstr "%s, plaats de handelaar."
+
+#: Strings.cpp:767
+#, c-format
+msgid "%s places a basic knight."
+msgstr "%s bouwt een eenvoudige ridder."
+
+#: Strings.cpp:768
+#, c-format
+msgid "%s places a city walls."
+msgstr "%s bouwt een stadsmuur."
+
+#: Strings.cpp:769
+#, c-format
+msgid "%s places the deserter."
+msgstr "%s, plaatst de woestijnruiter."
+
+#: Strings.cpp:770
+#, c-format
+msgid "%s, place the deserter."
+msgstr "%s, plaats de woestijnruiter."
+
+#: Strings.cpp:771
+#, c-format
+msgid "%s, place your metropolis."
+msgstr "%s, bouw je metropolis."
+
+#: Strings.cpp:772
+#, c-format
+msgid "%s receives a progress card."
+msgstr "%s ontvangt een actiekaart."
+
+#: Strings.cpp:773
+#, c-format
+msgid "%s receives %d %s from irrigation."
+msgstr "%s ontvangt %d %s voor irrigatie."
+
+#: Strings.cpp:774
+#, c-format
+msgid "%s receives %d %s from mining."
+msgstr "%s ontvangt %d %s voor mijnbouw."
+
+#: Strings.cpp:775
+#, c-format
+msgid "%s receives 1 defender point."
+msgstr "%s ontvangt 1 verdedigingspunt."
+
+#: Strings.cpp:776
+#, c-format
+msgid "%s receives 1 victory point from a %s card."
+msgstr "%s ontvangt 1 overwinningspunt van een %s kaart."
+
+#: Strings.cpp:777
+#, c-format
+msgid "%s removes a road of %s."
+msgstr "%s verwijdert een straat van %s."
+
+#: Strings.cpp:778
+#, c-format
+msgid "%s removes a ship of %s."
+msgstr "%s verwijdert een schip van %s."
+
+#: Strings.cpp:779
+#, c-format
+msgid "%s, repair a city."
+msgstr "%s, repareer een stad."
+
+#: Strings.cpp:780
+#, c-format
+msgid "%s repairs a city."
+msgstr "%s repareert een stad."
+
+#: Strings.cpp:781
+#, c-format
+msgid "Roll a %d"
+msgstr "Gooi een %d"
+
+#: Strings.cpp:782
+#, c-format
+msgid "%s, sabotage a city."
+msgstr "%s, saboteer een stad."
+
+#: Strings.cpp:783
+#, c-format
+msgid "%s sabotages a city of %s."
+msgstr "%s saboteert een stad van %s."
+
+#: Strings.cpp:784
+#, c-format
+msgid "%s, select a city to reduce."
+msgstr "%s, selecteer een stad om te degraderen."
+
+#: Strings.cpp:785
+#, c-format
+msgid "%s, select a resource or commodity to trade at 2-1."
+msgstr "%s, selecteer een grondstof of goed om 2 tegen 1 te handelen."
+
+#: Strings.cpp:786
+#, c-format
+msgid "%s, select a commodity to give to %s."
+msgstr "%s, selecteer een goed om aan %s te geven."
+
+#: Strings.cpp:787
+#, c-format
+msgid "%s, select a commodity to steal."
+msgstr "%s, selecteer een goed om te stelen."
+
+#: Strings.cpp:788
+#, c-format
+msgid "%s, select a knight to attack with."
+msgstr "%s, selecteer een ridder om een aanval mee te doen."
+
+#: Strings.cpp:789
+#, c-format
+msgid "%s, select a knight to desert."
+msgstr "%s, selecteer een te verlaten ridder."
+
+#: Strings.cpp:790
+#, c-format
+msgid "%s, select a knight to displace."
+msgstr "%s, selecteer een ridder om te verplaatsen."
+
+#: Strings.cpp:791
+#, c-format
+msgid "%s, select a knight to expel criminals with."
+msgstr "%s, selecteer een ridder om criminelen mee te verdrijven."
+
+#: Strings.cpp:792
+#, c-format
+msgid "%s, select a knight to move."
+msgstr "%s, selecteer een ridder om te verplaatsen."
+
+#: Strings.cpp:793
+#, c-format
+msgid "%s, select a player for desertion."
+msgstr "%s, selecteer een speler om te deserteren."
+
+#: Strings.cpp:794
+#, c-format
+msgid "%s, select a player to rob."
+msgstr "%s, selecteer een speler om van te stelen."
+
+#: Strings.cpp:795
+#, c-format
+msgid "%s, select a player to spy on."
+msgstr "%s, selecteer een speler om te bespioneren."
+
+#: Strings.cpp:796
+#, c-format
+msgid "%s, select a player to use the commercial harbor on."
+msgstr "%s, selecteer een speler om de commerciële haven op te gebruiken."
+
+#: Strings.cpp:797
+#, c-format
+msgid "%s, select a progress card."
+msgstr "%s, selecteer een actiekaart."
+
+#: Strings.cpp:798
+#, c-format
+msgid "%s, select a resource to give to %s."
+msgstr "%s, selecteer een grondstof om aan %s te geven."
+
+#: Strings.cpp:799
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s, selecteer een grondstof om te stelen."
+
+#: Strings.cpp:800
+#, c-format
+msgid "%s, select a road or ship to remove."
+msgstr "%s, selecteer een straat of schip om te verwijderen."
+
+#: Strings.cpp:801
+#, c-format
+msgid "%s, select a road to remove."
+msgstr "%s, selecteer een straat om te verwijderen."
+
+#: Strings.cpp:802
+#, c-format
+msgid "Select 1 card to steal from %s."
+msgstr "Selecteer 1 kaart van %s om te stelen."
+
+#: Strings.cpp:803
+#, c-format
+msgid "%s, select resources to lose."
+msgstr "%s, selecteer grondstoffen om af te staan."
+
+#: Strings.cpp:804
+#, c-format
+msgid "%s selects %s."
+msgstr "%s selecteert %s."
+
+#: Strings.cpp:805
+#, c-format
+msgid "%s selects a deserter."
+msgstr "%s selecteert een woestijnruiter."
+
+#: Strings.cpp:806
+#, c-format
+msgid "%s, select the dice for the next roll."
+msgstr "%s, selecteer de dobbelstenen voor de volgende gooi."
+
+#: Strings.cpp:807
+#, c-format
+msgid "%s, select the first roll chip to switch."
+msgstr "%s, selecteer het 1e fiche om te wisselen."
+
+#: Strings.cpp:808
+#, c-format
+msgid "%s, select the second roll chip to switch."
+msgstr "%s, selecteer het 2e fiche om te wisselen."
+
+#: Strings.cpp:809
+#, c-format
+msgid "Select 2 cards to steal from %s."
+msgstr "Selecteer 2 kaarten van %s om te stelen."
+
+#: Strings.cpp:810
+#, c-format
+msgid "%s, select 2 cards to steal from %s."
+msgstr "%s, selecteer 2 kaarten om van %s te stelen."
+
+#: Strings.cpp:811
+#, c-format
+msgid "%s, select 2 resources or commodities to give to the wedding."
+msgstr "%s, selecteer 2 grondstoffen of goederen om aan het huwelijk te geven."
+
+#: Strings.cpp:812
+#, c-format
+msgid "Select 1 commodity to give to %s."
+msgstr "Selecteer 1 goed om aan %s te geven."
+
+#: Strings.cpp:813
+#, c-format
+msgid "%s, select 1 progress card to steal from %s."
+msgstr "%s, selecteer 1 actiekaart om van %s te stelen."
+
+#: Strings.cpp:814
+#, c-format
+msgid "Select 1 resource to give to %s."
+msgstr "Selecteer 1 grondstof om aan %s te geven."
+
+#: Strings.cpp:815
+#, c-format
+msgid "%s steals %s."
+msgstr "%s steelt %s."
+
+#: Strings.cpp:816
+#, c-format
+msgid "%s steals %s from you."
+msgstr "%s steelt %s van jouw."
+
+#: Strings.cpp:817
+#, c-format
+msgid "%s steals 1 card from %s."
+msgstr "%s steelt 1 kaart van %s."
+
+#: Strings.cpp:818
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr "%s steelt 1 %s van jouw."
+
+#: Strings.cpp:819
+#, c-format
+msgid "%s steals 1 progress card from %s."
+msgstr "%s steelt 1 actiekaart van %s."
+
+#: Strings.cpp:820
+#, c-format
+msgid "%s steals 2 cards from %s."
+msgstr "%s steelt 2 kaarten van %s."
+
+#: Strings.cpp:821
+#, c-format
+msgid "%s steals nothing."
+msgstr "%s steelt niets."
+
+#: Strings.cpp:822
+#, c-format
+msgid "%s swaps a %d chip for a %d chip."
+msgstr "%s wisselt een %d fiche met een %d fiche."
+
+#: Strings.cpp:823
+#, c-format
+msgid "%s takes the %s metropolis."
+msgstr "%s neemt de %s metropolis."
+
+#: Strings.cpp:824
+#, c-format
+msgid "%s trades 1 resource to %s for 1 commodity using the commercial harbor."
+msgstr ""
+"%s handelt 1 grondstof met %s voor 1 goed door middel van de commerciële "
+"haven."
+
+#: Strings.cpp:825
+#, c-format
+msgid "%s undoes a basic knight."
+msgstr "%s maakt het bouwen van een eenvoudige ridder ongedaan."
+
+#: Strings.cpp:826
+#, c-format
+msgid "%s undoes a city walls."
+msgstr "%s maakt het bouwen van een stadsmuur ongedaan."
+
+#: Strings.cpp:827
+#, c-format
+msgid "%s undoes a knight activate."
+msgstr "%s, maakt het activeren van een ridder ongedaan."
+
+#: Strings.cpp:828
+#, c-format
+msgid "%s undoes a knight move."
+msgstr "%s maak het verplaatsen van een ridder ongedaan."
+
+#: Strings.cpp:829
+#, c-format
+msgid "%s undoes a knight upgrade."
+msgstr "%s maakt het upgraden van een ridder ongedaan."
+
+#: Strings.cpp:830
+#, c-format
+msgid "%s undoes the %s upgrade."
+msgstr "%s maakt het upgraden van %s ongedaan."
+
+#: Strings.cpp:831
+#, c-format
+msgid "%s upgrades to a mighty knight."
+msgstr "%s upgrade naar een machtige ridder."
+
+#: Strings.cpp:832
+#, c-format
+msgid "%s upgrades to a strong knight."
+msgstr "%s upgrade naar een sterke ridder."
+
+#: Strings.cpp:833
+#, c-format
+msgid "%s upgrades %s to level %d."
+msgstr "%s upgrade %s naar niveau %d."
+
+#: Strings.cpp:834
+#, c-format
+msgid "%s, upgrade to a mighty knight."
+msgstr "%s, upgrade naar een machtige ridder."
+
+#: Strings.cpp:835
+#, c-format
+msgid "%s, upgrade to a strong knight."
+msgstr "%s, upgrade naar een sterke ridder."
+
+#: Strings.cpp:836
+#, c-format
+msgid "%s, use your aqueduct."
+msgstr "%s, gebruik je aquaduct."
+
+#: Strings.cpp:837
+#, c-format
+msgid "%s uses the merchant fleet to trade %s."
+msgstr "%s gebruikt de handelsvloot om %s te handelen."
+
+#: Strings.cpp:838
+#, c-format
+msgid "Waiting for %s to activate a knight."
+msgstr "Wachten tot %s een ridder heeft geactiveerd."
+
+#: Strings.cpp:839
+#, c-format
+msgid "Waiting for %s to attack an opponent's knight."
+msgstr "Wachten tot %s een ridder van de tegenstander heeft aangevallen."
+
+#: Strings.cpp:840
+#, c-format
+msgid "Waiting for %s to discard 1 progress card."
+msgstr "Wachten tot %s een actiekaart heeft verworpen."
+
+#: Strings.cpp:841
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "Wachten tot %s grondstoffen heeft afgestaan."
+
+#: Strings.cpp:842
+#, c-format
+msgid "Waiting for %s to move a knight."
+msgstr "Wachten tot %s een ridder heeft verplaatst."
+
+#: Strings.cpp:843
+#, c-format
+msgid "Waiting for %s to place a basic knight."
+msgstr "Wachten tot %s een eenvoudige ridder heeft geplaatst."
+
+#: Strings.cpp:844
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "Wachten tot %s een stad heeft gebouwd."
+
+#: Strings.cpp:845
+#, c-format
+msgid "Waiting for %s to place a city walls."
+msgstr "Wachten tot %s een stadsmuur heeft gebouwd."
+
+#: Strings.cpp:846
+#, c-format
+msgid "Waiting for %s to place a metropolis."
+msgstr "Wachten tot %s een metropolis heeft gebouwd."
+
+#: Strings.cpp:847
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "Wachten tot %s een straat heeft gebouwd."
+
+#: Strings.cpp:848
+#, c-format
+msgid "Waiting for %s to place the deserter."
+msgstr "Wachten tot %s de woestijnruiter heeft geplaatst."
+
+#: Strings.cpp:849
+#, c-format
+msgid "Waiting for %s to place the merchant."
+msgstr "Wachten tot %s de handelaar heeft geplaatst."
+
+#: Strings.cpp:850
+#, c-format
+msgid "Waiting for %s to reduce a city."
+msgstr "Wachten tot %s een stad heeft gedegradeerd."
+
+#: Strings.cpp:851
+#, c-format
+msgid "Waiting for %s to repair a city."
+msgstr "Wachten tot %s een stad heeft gerepareerd."
+
+#: Strings.cpp:852
+#, c-format
+msgid "Waiting for %s to sabotage a city."
+msgstr "Wachten tot %s een stad heeft gesaboteerd."
+
+#: Strings.cpp:853
+#, c-format
+msgid "Waiting for %s to select a commodity to trade."
+msgstr "Wachten tot %s een goed heeft gekozen om te handelen."
+
+#: Strings.cpp:854
+#, c-format
+msgid "Waiting for %s to select a resource or commodity to trade at 2-1."
+msgstr ""
+"Wachten tot %s een grondstof of goed heeft geselecteerd om 2 tegen 1 te "
+"handelen."
+
+#: Strings.cpp:855
+#, c-format
+msgid "Waiting for %s to select a commodity to steal."
+msgstr "Wachten tot %s een goed heeft gestolen."
+
+#: Strings.cpp:856
+#, c-format
+msgid "Waiting for %s to select a knight to attack with."
+msgstr "Wachten tot %s een ridder heeft geselecteerd om mee aan te vallen."
+
+#: Strings.cpp:857
+#, c-format
+msgid "Waiting for %s to select a knight to desert."
+msgstr "Wachten tot %s een te verlaten ridder heeft geselecteerd."
+
+#: Strings.cpp:858
+#, c-format
+msgid "Waiting for %s to select a knight to displace."
+msgstr "Wachten tot %s een ridder heeft gekozen om te verplaatsen."
+
+#: Strings.cpp:859
+#, c-format
+msgid "Waiting for %s to select a knight to expel criminals with."
+msgstr ""
+"Wachten tot %s een ridder heeft geselecteerd om criminelen te verdrijven."
+
+#: Strings.cpp:860
+#, c-format
+msgid "Waiting for %s to select a knight to move."
+msgstr "Wachten tot %s een ridder heeft geselecteerd om te verplaatsen."
+
+#: Strings.cpp:861
+#, c-format
+msgid "Waiting for %s to select a player for desertion."
+msgstr "Wachten tot %s een speler heeft gekozen om te deserteren."
+
+#: Strings.cpp:862
+#, c-format
+msgid "Waiting for %s to select a player to rob."
+msgstr "Wachten tot %s een speler heeft gekozen om van te stelen."
+
+#: Strings.cpp:863
+#, c-format
+msgid "Waiting for %s to select a player to spy on."
+msgstr "Wachten tot %s een speler heeft gekozen te bespioneren."
+
+#: Strings.cpp:864
+#, c-format
+msgid "Waiting for %s to select a player to use the commercial harbor on."
+msgstr ""
+"Wachten tot %s een speler heeft gekozen om de commerciële haven op te "
+"gebruiken."
+
+#: Strings.cpp:865
+#, c-format
+msgid "Waiting for %s to select a progress card."
+msgstr "Wachten tot %s een actiekaart heeft geselecteerd."
+
+#: Strings.cpp:866
+#, c-format
+msgid "Waiting for %s to select a resource to trade."
+msgstr "Wachten tot %s een grondstof heeft gekozen om te handelen."
+
+#: Strings.cpp:867
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "Wachten tot %s een grondstof heeft geselecteerd om te stelen."
+
+#: Strings.cpp:868
+#, c-format
+msgid "Waiting for %s to select a road or ship to remove."
+msgstr ""
+"Wachten tot %s een straat of schip heeft geselecteerd om te verwijderen."
+
+#: Strings.cpp:869
+#, c-format
+msgid "Waiting for %s to select a road to remove."
+msgstr "Wachten tot %s een straat heeft geselecteerd om te verwijderen."
+
+#: Strings.cpp:870
+#, c-format
+msgid "Waiting for %s to select 1 progress card to steal from %s."
+msgstr "Wachten tot %s 1 actiekaart heeft gestolen van %s."
+
+#: Strings.cpp:871
+#, c-format
+msgid "Waiting for %s to select the dice for the next roll."
+msgstr "Wachten tot %s de dobbelstenen voor de volgende worp heeft gekozen."
+
+#: Strings.cpp:872
+#, c-format
+msgid "Waiting for %s to select the first roll chip to switch."
+msgstr "Wachten tot %s het 1e fiche heeft geselecteerd om te wisselen."
+
+#: Strings.cpp:873
+#, c-format
+msgid "Waiting for %s to select the second roll chip to switch."
+msgstr "Wachten tot %s het 2e fiche heeft geselecteerd om te wisselen."
+
+#: Strings.cpp:874
+#, c-format
+msgid "Waiting for %s to select 2 cards to steal from %s."
+msgstr "Wachten tot %s 2 kaarten heeft gestolen van %s."
+
+#: Strings.cpp:875
+#, c-format
+msgid "Waiting for %s to give 2 resources or commodities to the wedding."
+msgstr ""
+"Wachten tot %s 2 grondstoffen of goederen heeft gegeven aan het huwelijk."
+
+#: Strings.cpp:876
+#, c-format
+msgid "Waiting for %s and %s to trade using the commercial harbor."
+msgstr ""
+"Wachten tot %s en %s de handel door middel van de commerciële haven hebben "
+"afgerond."
+
+#: Strings.cpp:877
+#, c-format
+msgid "Waiting for %s to upgrade to a mighty knight."
+msgstr "Wachten tot %s een ridder heeft geupgrade naar een machtige ridder."
+
+#: Strings.cpp:878
+#, c-format
+msgid "Waiting for %s to upgrade to a strong knight."
+msgstr "Wachten tot %s een ridder heeft geupgrade naar een sterke ridder."
+
+#: Strings.cpp:879
+#, c-format
+msgid "Waiting for %s to use their aqueduct."
+msgstr "Wachten tot %s een aquaduct heeft gebruikt."
+
+#: Strings.cpp:880
+#, c-format
+msgid "Waiting for %s to withdraw a knight."
+msgstr "Wachten tot %s een ridder heeft terug getrokken."
+
+#: Strings.cpp:881
+#, c-format
+msgid "%s withdraws a knight."
+msgstr "%s trekt een ridder terug."
+
+#: Strings.cpp:882
+#, c-format
+msgid "%s, withdraw your knight."
+msgstr "%s, trek je ridder terug."
+
+#: Strings.cpp:883
+#, c-format
+msgid "You receive a %s card."
+msgstr "Je ontvangt een %s kaart."
+
+#: Strings.cpp:884
+#, c-format
+msgid "You trade 1 %s to %s for 1 %s using the commercial harbor."
+msgstr "Je handelt 1 %s met %s voor 1 %s door middel van de commerciële haven."
+
+#~ msgid "Buy City Walls"
+#~ msgstr "Koop Stadsmuren"
+
+#~ msgid "Upgrade to a Strong Knight"
+#~ msgstr "Upgrade naar een Sterke Ridder"
+
+#~ msgid "Upgrade to a Mighty Knight"
+#~ msgstr "Upgrade naar een Machtige Ridder"
+
+#~ msgid "Repair a Sabotaged City"
+#~ msgstr "Repareer een gesaboteerde Stad"
+
+#, fuzzy
+#~ msgid "MerchantDraw"
+#~ msgstr "Handelaar"
+
+#~ msgid "Politics cards: %s"
+#~ msgstr "Politieke Kaarten: %s"
+
+#~ msgid "%d %s"
+#~ msgstr "%d %s"
+
+#~ msgid "Science cards: %s"
+#~ msgstr "Wetenschapskaarten: %s"
+
+#~ msgid "Trade cards: %s"
+#~ msgstr "Handelskaarten: %s"
+
+#~ msgid "Rolls"
+#~ msgstr "Worp"
+
+#~ msgid "from you"
+#~ msgstr "van jou"
+
+#~ msgid "%s gives"
+#~ msgstr "%s geeft"
+
+#~ msgid "to you as a Wedding gift"
+#~ msgstr "aan jou als een Huwelijksgeschenk."

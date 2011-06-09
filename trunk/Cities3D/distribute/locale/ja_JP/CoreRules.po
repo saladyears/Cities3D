@@ -1,0 +1,706 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2008-08-02 16:59+0900\n"
+"Last-Translator: hito <hitobasira@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+
+#: StatsPane.cpp:102
+msgid "Map"
+msgstr ""
+
+#: StatsPane.cpp:103
+msgid "Map points"
+msgstr ""
+
+#: StatsPane.cpp:106
+msgid "Rulesets"
+msgstr ""
+
+#: StatsPane.cpp:107 Strings.cpp:417
+msgid "Options"
+msgstr "オプション"
+
+#: Strings.cpp:357
+msgid "Accept"
+msgstr "承諾"
+
+#: Strings.cpp:358
+#, fuzzy
+msgid "Action"
+msgstr "アニメーション"
+
+#: Strings.cpp:359
+msgid "Add"
+msgstr "追加"
+
+#: Strings.cpp:360
+msgid "Advanced"
+msgstr "詳細設定"
+
+#: Strings.cpp:361
+msgid "All"
+msgstr "十割"
+
+#: Strings.cpp:362
+msgid "Animation"
+msgstr "アニメーション"
+
+#: Strings.cpp:363
+msgid "Assign"
+msgstr ""
+
+#: Strings.cpp:364
+msgid "Bitmaps"
+msgstr "ビットマップ"
+
+#: Strings.cpp:365
+msgid "Bank"
+msgstr "バンク"
+
+#: Strings.cpp:366
+msgid "Board animations show you when another player changes the board."
+msgstr "他プレイヤーがボードを変更した時に、知らせる。"
+
+#: Strings.cpp:367
+msgid "Build Options"
+msgstr "ビルドオプション"
+
+#: Strings.cpp:368
+msgid "Cards"
+msgstr "カード"
+
+#: Strings.cpp:369
+msgid "Clear"
+msgstr "クリア"
+
+#: Strings.cpp:370
+msgid "2.  Click an offer to trade with that player."
+msgstr "2. クリックして、このプレイヤーとトレードする。"
+
+#: Strings.cpp:371
+msgid "Click other offers to match them."
+msgstr "クリックして、別のオファーをする。"
+
+#: Strings.cpp:372
+msgid "Controls"
+msgstr "コントロール"
+
+#: Strings.cpp:373
+msgid "Core"
+msgstr "コア"
+
+#: Strings.cpp:374
+msgid "Current game settings"
+msgstr "現在のゲーム設定"
+
+#: Strings.cpp:375
+msgid "Default"
+msgstr "デフォルト"
+
+#: Strings.cpp:376
+msgid "Delete"
+msgstr "削除"
+
+#: Strings.cpp:377
+msgid "Depth Buffer Size"
+msgstr "Depthバッファのサイズ"
+
+#: Strings.cpp:378
+msgid "Display"
+msgstr "表示"
+
+#: Strings.cpp:379
+msgid "Display OpenGL render information"
+msgstr "OpenGLの描画情報を表示する"
+
+#: Strings.cpp:380
+msgid "Drag and drop cards to create a trade."
+msgstr "トレードするカードをドラッグ＆ドロップしてください。"
+
+#: Strings.cpp:381
+msgid "1.  Drag and drop cards to create an offer."
+msgstr "1. カードをドラッグ＆ドロップして、トレードを提案する。"
+
+#: Strings.cpp:382
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr "名前をドラッグ＆ドロップするか、ダブルクリックして追加/削除。"
+
+#: Strings.cpp:383
+#, fuzzy
+msgid "End the turn"
+msgstr "ターンエンド"
+
+#: Strings.cpp:384
+msgid "End Turn"
+msgstr "ターンエンド"
+
+#: Strings.cpp:385
+msgid "Exit"
+msgstr "終了"
+
+#: Strings.cpp:386
+msgid "E&xit"
+msgstr "終了"
+
+#: Strings.cpp:387
+msgid "Few"
+msgstr "一割"
+
+#: Strings.cpp:388
+msgid "3.  Finalize your trade!"
+msgstr "3. トレード終了"
+
+#: Strings.cpp:389
+msgid "for"
+msgstr "for"
+
+#: Strings.cpp:390
+msgid ""
+"For most image sets, softening the tiles makes the game board look better."
+msgstr "タイルをソフト表示すると、ボードの見栄えが良くなる。"
+
+#: Strings.cpp:391
+msgid "Game Images"
+msgstr "ゲームイメージ"
+
+#: Strings.cpp:392
+msgid "Game Sounds"
+msgstr "ゲームサウンド"
+
+#: Strings.cpp:393
+#, fuzzy
+msgid "Game Window"
+msgstr "ゲームサウンド"
+
+#: Strings.cpp:394
+msgid "Half"
+msgstr "四割"
+
+#: Strings.cpp:395
+msgid "Hide popups"
+msgstr "ポップアップの非表示"
+
+#: Strings.cpp:396
+msgid "Hotseat"
+msgstr "ローカルゲーム"
+
+#: Strings.cpp:397
+msgid "Hotseat Setup"
+msgstr "ローカルゲーム"
+
+#: Strings.cpp:398
+msgid "Images"
+msgstr "イメージ"
+
+#: Strings.cpp:399
+#, c-format
+msgid "%s is currently assigned to %s."
+msgstr ""
+
+#: Strings.cpp:400
+msgid "Key Bindings"
+msgstr ""
+
+#: Strings.cpp:401
+msgid "Keyboard"
+msgstr ""
+
+#: Strings.cpp:402
+msgid "Keystroke"
+msgstr ""
+
+#: Strings.cpp:403
+msgid "Language"
+msgstr "言語"
+
+#: Strings.cpp:404
+msgid "&Layout"
+msgstr "レイアウト"
+
+#: Strings.cpp:405
+msgid "Load A Saved Game"
+msgstr "セーブされたゲームを開く"
+
+#: Strings.cpp:406
+msgid "Load Saved"
+msgstr "ロード"
+
+#: Strings.cpp:407
+msgid "Many"
+msgstr "六割"
+
+#: Strings.cpp:408
+msgid "Most"
+msgstr "八割"
+
+#: Strings.cpp:409
+msgid "Name"
+msgstr "名前"
+
+#: Strings.cpp:410
+msgid "New"
+msgstr "新規"
+
+#: Strings.cpp:411
+msgid "New keystroke"
+msgstr ""
+
+#: Strings.cpp:412
+msgid "None"
+msgstr "空"
+
+#: Strings.cpp:413
+msgid "No, thanks."
+msgstr "結構です。"
+
+#: Strings.cpp:414
+msgid "No Trades"
+msgstr "トレード拒否"
+
+#: Strings.cpp:415
+msgid "Offer"
+msgstr "オファー"
+
+#: Strings.cpp:416
+msgid "OK"
+msgstr "OK"
+
+#: Strings.cpp:418
+msgid "Pan map down"
+msgstr ""
+
+#: Strings.cpp:419
+msgid "Pan map left"
+msgstr ""
+
+#: Strings.cpp:420
+msgid "Pan map right"
+msgstr ""
+
+#: Strings.cpp:421
+msgid "Pan map up"
+msgstr ""
+
+#: Strings.cpp:422
+msgid "Play a card"
+msgstr ""
+
+#: Strings.cpp:423
+msgid "Play board animations"
+msgstr "ボードアニメーション"
+
+#: Strings.cpp:424
+msgid "Players"
+msgstr "プレイヤー"
+
+#: Strings.cpp:425
+msgid "Play Next"
+msgstr "次へ"
+
+#: Strings.cpp:426
+msgid "Play Sounds"
+msgstr "サウンドの再生"
+
+#: Strings.cpp:427
+msgid "Popups"
+msgstr "ポップアップ"
+
+#: Strings.cpp:428
+msgid "Question"
+msgstr "質問"
+
+#: Strings.cpp:429
+msgid "&Quit"
+msgstr "&終了"
+
+#: Strings.cpp:430
+msgid "Recommended for new players or to distinguish between different colors."
+msgstr "初心者向け。地形が分かりやすくなる。"
+
+#: Strings.cpp:431
+msgid "Reject"
+msgstr "拒否"
+
+#: Strings.cpp:432
+msgid "Render bitmaps with OpenGL"
+msgstr "OpenGLでビットマップを描画する"
+
+#: Strings.cpp:433
+msgid "Respond with the Stockyard buttons, or make a counteroffer."
+msgstr "ストックヤードウインドウのボタンで応答するか、逆提案をすること。"
+
+#: Strings.cpp:434
+msgid "&Restore original layout"
+msgstr ""
+
+#: Strings.cpp:435
+msgid "Roll Dice"
+msgstr "ダイスロール"
+
+#: Strings.cpp:436
+#, fuzzy
+msgid "Roll the dice"
+msgstr "ダイスロール"
+
+#: Strings.cpp:437
+msgid "Rotate map down"
+msgstr ""
+
+#: Strings.cpp:438
+msgid "Rotate map left"
+msgstr ""
+
+#: Strings.cpp:439
+msgid "Rotate map right"
+msgstr ""
+
+#: Strings.cpp:440
+msgid "Rotate map up"
+msgstr ""
+
+#: Strings.cpp:441
+msgid "&Save"
+msgstr "&セーブ"
+
+#: Strings.cpp:442
+#, fuzzy
+msgid "Seconds before popups disappear"
+msgstr "ポップアップが消えるまでの時間："
+
+#: Strings.cpp:443
+msgid "Select a Language"
+msgstr "言語選択"
+
+#: Strings.cpp:444
+msgid "Select Map"
+msgstr "マップ選択"
+
+#: Strings.cpp:445
+#, fuzzy
+msgid ""
+"Select the language you would like to use from the list.  You must restart "
+"Cities Online for your choice to take effect."
+msgstr "使用言語の選択。言語を適用させるには、Cities3Dの再起動が必要。"
+
+#: Strings.cpp:446
+msgid ""
+"Select the set of images you would like to use from the list.  The display "
+"will be updated immediately."
+msgstr "ゲームイメージセットの選択。表示は即座に反映される。"
+
+#: Strings.cpp:447
+msgid ""
+"Select the set of sounds you would like to use from the list.  Your choice "
+"will take effect immediately."
+msgstr "サウンドセットの選択。変更は即座に反映される。"
+
+#: Strings.cpp:448
+msgid ""
+"Select the skin you would like to use from the list.  Your choice will take "
+"effect immediately."
+msgstr "スキン選択。変更は即座に反映される。"
+
+#: Strings.cpp:449
+msgid "&Set this layout as default"
+msgstr ""
+
+#: Strings.cpp:450
+msgid "Settings"
+msgstr "設定"
+
+#: Strings.cpp:451
+msgid "&Settings"
+msgstr "&設定"
+
+#: Strings.cpp:452
+msgid "Show popups"
+msgstr "ポップアップの表示"
+
+#: Strings.cpp:453
+msgid "Skin"
+msgstr "スキン"
+
+#: Strings.cpp:454
+msgid "Skins"
+msgstr "スキン"
+
+#: Strings.cpp:455
+msgid "Soften tiles"
+msgstr "ソフトタイル"
+
+#: Strings.cpp:456
+msgid "Some"
+msgstr "二割"
+
+#: Strings.cpp:457
+msgid "Sounds"
+msgstr "サウンド"
+
+#: Strings.cpp:458
+#, fuzzy
+msgid "Stats"
+msgstr "状態"
+
+#: Strings.cpp:459
+#, fuzzy
+msgid "&Stats"
+msgstr "状態"
+
+#: Strings.cpp:460
+msgid "Status"
+msgstr "状態"
+
+#: Strings.cpp:461
+msgid "Stockyard"
+msgstr "ストックヤード"
+
+#: Strings.cpp:462
+msgid "That would be cheating!"
+msgstr "チートなのはよくないと思います！"
+
+#: Strings.cpp:463
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: Strings.cpp:464
+#, fuzzy
+msgid "Toggle popups"
+msgstr "ポップアップの表示"
+
+#: Strings.cpp:465
+msgid "Trade"
+msgstr "トレード"
+
+#: Strings.cpp:466
+msgid "Trade!"
+msgstr "トレード！"
+
+#: Strings.cpp:467
+#, fuzzy
+msgid "Trade with bank"
+msgstr "バンクとトレード"
+
+#: Strings.cpp:468
+#, fuzzy
+msgid "Trade with others"
+msgstr "他プレイヤーとトレードする。"
+
+#: Strings.cpp:469
+msgid "Trade With Others"
+msgstr "他プレイヤーとトレードする。"
+
+#: Strings.cpp:470
+msgid "Trade With The Bank"
+msgstr "バンクとトレード"
+
+#: Strings.cpp:471
+msgid "Turning sounds off will make the game completely silent."
+msgstr "サウンドを無効にすると、効果音がなくなります。"
+
+#: Strings.cpp:472
+msgid "Unable to restart the game."
+msgstr "ゲームが再開できません。"
+
+#: Strings.cpp:473
+msgid "Undo"
+msgstr "取り消し"
+
+#: Strings.cpp:474
+msgid "Undo action"
+msgstr ""
+
+#: Strings.cpp:475
+msgid "Use frame buffers (if available)"
+msgstr "可能な場合フレームバッファを使う"
+
+#: Strings.cpp:476
+msgid "Use pixel buffers (if available)"
+msgstr "可能な場合ピクセルバッファを使う"
+
+#: Strings.cpp:477
+msgid "You"
+msgstr "あなた"
+
+#: Strings.cpp:478
+msgid "You accept"
+msgstr "承諾"
+
+#: Strings.cpp:479
+msgid "You get"
+msgstr "得るカード"
+
+#: Strings.cpp:480
+msgid "You give"
+msgstr "自分のカード"
+
+#: Strings.cpp:481
+msgid "You offer"
+msgstr "オファー"
+
+#: Strings.cpp:482
+msgid "You pass"
+msgstr "パス"
+
+#: Strings.cpp:483
+msgid "You want"
+msgstr "要求"
+
+#: Strings.cpp:484
+msgid "You won't trade"
+msgstr "トレード拒否"
+
+#: Strings.cpp:485
+msgid "Zoom into map"
+msgstr ""
+
+#: Strings.cpp:486
+msgid "Zoom out of map"
+msgstr ""
+
+#: Strings.cpp:489
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "%s を削除してよろしいですか？"
+
+#: Strings.cpp:490
+#, c-format
+msgid "If %s accepts your offer, finalize it."
+msgstr "%s がオファーを受け入れたならば、トレードを終了する。"
+
+#: Strings.cpp:491
+#, c-format
+msgid "%s accepts"
+msgstr "%s は承諾"
+
+#: Strings.cpp:492
+#, c-format
+msgid "%s gives"
+msgstr "%s のカード"
+
+#: Strings.cpp:493
+#, c-format
+msgid "%s offers"
+msgstr "%s のオファー"
+
+#: Strings.cpp:494
+#, c-format
+msgid "%s passes"
+msgstr "%s はパス"
+
+#: Strings.cpp:495
+#, c-format
+msgid "%s wants"
+msgstr "%s の要求"
+
+#: Strings.cpp:496
+#, c-format
+msgid "%s won't trade"
+msgstr "%s はトレード拒否"
+
+#~ msgid "Replay A Game"
+#~ msgstr "リプレイ"
+
+#~ msgid "Save"
+#~ msgstr "セーブ"
+
+#~ msgid "Select"
+#~ msgstr "マップ選択"
+
+#~ msgid "Your name cannot be blank or all spaces."
+#~ msgstr "名前が空白です。"
+
+#~ msgid "Add A Layout"
+#~ msgstr "レイアウト追加"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid ""
+#~ "Highlight a layout and click Select to make it the default for these game "
+#~ "settings.  Manage your layouts with the other buttons."
+#~ msgstr ""
+#~ "レイアウトをハイライトして選択をクリックすること。他のボタンでレイアウトを"
+#~ "管理する。"
+
+#~ msgid "Layout"
+#~ msgstr "レイアウト"
+
+#~ msgid "Use the TAB key to quickly toggle popups on and off."
+#~ msgstr "TABキーでポップアップの有無を切り替える。"
+
+#~ msgid "Cancel"
+#~ msgstr "キャンセル"
+
+#~ msgid "Game Setup"
+#~ msgstr "ゲーム設定"
+
+#~ msgid "Chat"
+#~ msgstr "チャット"
+
+#~ msgid "Open Saved"
+#~ msgstr "セーブを開く"
+
+#~ msgid "Use curved regions (Windows only)"
+#~ msgstr "非矩形ウインドウにする（Windows限定）"
+
+#~ msgid "Play UI animations"
+#~ msgstr "UIアニメーション"
+
+#~ msgid "UI animations cause game windows to slide in and out."
+#~ msgstr "ゲームウインドウを画面内外にスライドさせる。"
+
+#~ msgid "Size"
+#~ msgstr "サイズ"
+
+#~ msgid "Maximum"
+#~ msgstr "最大値"
+
+#~ msgid ""
+#~ "Drag the slider left or right to change the size of the screen interface."
+#~ msgstr ""
+#~ "スライダーを左右にドラッグしてスクリーンインターフェースのサイズを変更す"
+#~ "る。"
+
+#~ msgid "Always show build options"
+#~ msgstr "建設オプションを常に表示する。"
+
+#~ msgid ""
+#~ "Shows build options even if you don't have the resources to build them.  "
+#~ "Recommended for new players."
+#~ msgstr "資源を持っていなくても、建設オプションを表示する。初心者向け。"
+
+#~ msgid "Interface"
+#~ msgstr "インターフェース"
+
+#~ msgid "Done"
+#~ msgstr "完了"
+
+#~ msgid "General Settings"
+#~ msgstr "一般設定"
+
+#~ msgid "Them"
+#~ msgstr "他プレイヤー"
+
+#~ msgid "Current Offer"
+#~ msgstr "現在のオファー"

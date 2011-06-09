@@ -1,0 +1,413 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-10-20 20:46+0100\n"
+"Last-Translator: Jordi E. Gasulla <jordigasulla@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: SPAIN\n"
+
+#: Strings.cpp:217
+msgid "Add"
+msgstr "Afegir"
+
+#: Strings.cpp:218
+msgid "Chat"
+msgstr ""
+
+#: Strings.cpp:219
+msgid "Connect"
+msgstr "Conectar"
+
+#: Strings.cpp:220
+msgid "Connected"
+msgstr "Conectat"
+
+#: Strings.cpp:221
+msgid "Connecting..."
+msgstr "Conectant..."
+
+#: Strings.cpp:222
+#, fuzzy
+msgid "Connecting To A Game"
+msgstr "Conectar a Una Partida"
+
+#: Strings.cpp:223
+msgid "Connection"
+msgstr "Conexió"
+
+#: Strings.cpp:224
+msgid "Connect To"
+msgstr "Conectar a"
+
+#: Strings.cpp:225
+msgid "Connect To A Game"
+msgstr "Conectar a Una Partida"
+
+#: Strings.cpp:226
+msgid "Delete"
+msgstr "Esborrar"
+
+#: Strings.cpp:227
+msgid "Disconnect"
+msgstr "Desconectar"
+
+#: Strings.cpp:228
+msgid "Disconnected from the server."
+msgstr "Desconnectat del servidor."
+
+#: Strings.cpp:229
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr "Arrossega els noms, o fes doble-click per afegir/treure."
+
+#: Strings.cpp:230
+msgid ""
+"Enter an IP address or host name in the Connect To window and the port "
+"number in the Port window.  The default port is 7176."
+msgstr ""
+"Entra un adreça IP o nom de servidor a la finestra de Conectar A i el número "
+"de port a la finestra de Port. El port per defecte es el 7176."
+
+#: Strings.cpp:231
+msgid ""
+"Enter a valid host name or IP address in the Hostname window.  Enter the "
+"port number clients should connect to in the Port window.  The default port "
+"is 7176."
+msgstr ""
+"Entra un nom de servidor vàlid or una adreça IP a la finestra de Nom del "
+"servidor. Entra el número de port al que els clients s'han de conectar a la "
+"finestra de Port. El port per defecte es el 7176."
+
+#: Strings.cpp:232
+msgid "Events"
+msgstr ""
+
+#: Strings.cpp:233
+msgid "Game saved."
+msgstr "Partida gravada."
+
+#: Strings.cpp:234
+msgid "Game Setup"
+msgstr ""
+
+#: Strings.cpp:235
+msgid "Host"
+msgstr "Servidor"
+
+#: Strings.cpp:236
+msgid "Hostname"
+msgstr "Nom del servidor"
+
+#: Strings.cpp:237
+msgid "I'll play!"
+msgstr "Jo jugaria!"
+
+#: Strings.cpp:238
+msgid "IP address"
+msgstr "Adreça IP"
+
+#: Strings.cpp:239
+msgid "LAN / Network"
+msgstr "Xarxa"
+
+#: Strings.cpp:240
+#, fuzzy
+msgid "LAN / Network Setup"
+msgstr "Xarxa"
+
+#: Strings.cpp:241
+msgid "Lost connection to the server."
+msgstr "Perduda la connexió amb el servidor."
+
+#: Strings.cpp:242
+msgid "Network"
+msgstr "Xarxa"
+
+#: Strings.cpp:243
+msgid "Network Game Restart"
+msgstr "Reiniciar la Partida en Xarxa"
+
+#: Strings.cpp:244
+msgid "Not connected"
+msgstr "Desconectat"
+
+#: Strings.cpp:245
+msgid "No, thanks."
+msgstr "No, gràcies."
+
+#: Strings.cpp:246
+msgid "Not ready!"
+msgstr "No Llestos!"
+
+#: Strings.cpp:247
+msgid "OK"
+msgstr ""
+
+#: Strings.cpp:248
+msgid "Online Game Start"
+msgstr ""
+
+#: Strings.cpp:249
+msgid "Options"
+msgstr "Opcions"
+
+#: Strings.cpp:250
+msgid "Player"
+msgstr "Jugador"
+
+#: Strings.cpp:251
+msgid "Port"
+msgstr "Port"
+
+#: Strings.cpp:252
+msgid "Question"
+msgstr "Pregunta"
+
+#: Strings.cpp:253
+msgid "Ready!"
+msgstr "Llestos!"
+
+#: Strings.cpp:254
+msgid "Select Map"
+msgstr "Selecciona el Mapa"
+
+#: Strings.cpp:255
+msgid "Server Settings"
+msgstr "Configuració del Servidor"
+
+#: Strings.cpp:256
+msgid "Settings"
+msgstr "Configuració"
+
+#: Strings.cpp:257
+msgid "Show Chat tab"
+msgstr ""
+
+#: Strings.cpp:258
+msgid "Show Events tab"
+msgstr ""
+
+#: Strings.cpp:259
+#, fuzzy
+msgid "Show Spectators tab"
+msgstr "Estat"
+
+#: Strings.cpp:260
+#, fuzzy
+msgid "Spectators"
+msgstr "Estat"
+
+#: Strings.cpp:261
+msgid "Start Server"
+msgstr "Parar el Servidor"
+
+#: Strings.cpp:262
+msgid "Started"
+msgstr "Arrancat"
+
+#: Strings.cpp:263
+msgid "Start Game!"
+msgstr "Començar la Partida!"
+
+#: Strings.cpp:264
+msgid "Status"
+msgstr "Estat"
+
+#: Strings.cpp:265
+msgid "Stopped"
+msgstr "Parat"
+
+#: Strings.cpp:266
+msgid "Stop Server"
+msgstr "Parar el Servidor"
+
+#: Strings.cpp:267
+msgid "The port must be a valid number between 0 and 65535."
+msgstr "El port ha de ser un número vàlid entre 0 i 65535."
+
+#: Strings.cpp:268
+msgid ""
+"There are players connected to you.  Are you sure you want to shut down the "
+"server?"
+msgstr ""
+"Hi ha jugadors connectats al teu servidor. Estàs segur que vols apagar-lo?"
+
+#: Strings.cpp:269
+msgid "Unselected"
+msgstr "Deseleccionat"
+
+#: Strings.cpp:270
+msgid ""
+"Use the Connection settings to either host a game or connect to a game.  "
+"Select the player you wish to play with from the list."
+msgstr ""
+"Utilitza la configuració de la Conexió per allotjar o conectar-te a una "
+"partida. Selecciona el/la jugador/a de la llista amb el/la que t'agradaria "
+"jugar."
+
+#: Strings.cpp:271
+msgid "Waiting..."
+msgstr "Esperant..."
+
+#: Strings.cpp:272
+#, fuzzy
+msgid "Waiting for players to join."
+msgstr "Esperant als jugadors perque es reconnectin."
+
+#: Strings.cpp:273
+msgid "Waiting for players to rejoin."
+msgstr "Esperant als jugadors perque es reconnectin."
+
+#: Strings.cpp:274
+msgid ""
+"You are currently connected to a server.  Are you sure you want to leave?"
+msgstr "Estàs conectat a un servidor. Estàs segur que vols desconectar?"
+
+#: Strings.cpp:275
+msgid "You must enter an IP address or host name."
+msgstr "Has d'entrar una adreça IP o un nom de servidor."
+
+#: Strings.cpp:276
+msgid "You must enter a port number."
+msgstr "Has d'entrar un número de port."
+
+#: Strings.cpp:277
+msgid "You must enter a valid host name or IP address."
+msgstr "Has d'entrar un nom de servidor vàlid o una adreça IP."
+
+#: Strings.cpp:280
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Estàs segur que vols esborrar %s?"
+
+#: Strings.cpp:281
+#, c-format
+msgid "Attempt %d: %s"
+msgstr ""
+
+#: Strings.cpp:282
+#, c-format
+msgid "Attempting to connect to %s:%d..."
+msgstr ""
+
+#: Strings.cpp:283
+#, c-format
+msgid "Attempt %d of %d"
+msgstr ""
+
+#: Strings.cpp:284
+#, c-format
+msgid "A player attempts to join with version %s.  The server version is %s."
+msgstr ""
+"Un jugador intenta ajuntar-se amb la versió %s. El servidor té la versió %s."
+
+#: Strings.cpp:285
+#, c-format
+msgid "%s becomes a spectator."
+msgstr "En/Na %s es converteix en espectador."
+
+#: Strings.cpp:286
+#, c-format
+msgid "%s drops from the game."
+msgstr "En/Na %s ha sortit de la partida."
+
+#: Strings.cpp:287
+#, c-format
+msgid "%s is no longer ready."
+msgstr "En/Na %s ja no està preparat."
+
+#: Strings.cpp:288
+#, c-format
+msgid "%s is now %s."
+msgstr "En/Na %s es ara en/na %s."
+
+#: Strings.cpp:289
+#, c-format
+msgid "%s is ready."
+msgstr "En/Na %s està preparat."
+
+#: Strings.cpp:290
+#, fuzzy, c-format
+msgid "%s joins as %s."
+msgstr "En/Na %s es reconnecta com a en/na %s."
+
+#: Strings.cpp:291
+#, c-format
+msgid "%s leaves the server."
+msgstr "En/Na %s es desconnecta del servidor."
+
+#: Strings.cpp:292
+#, c-format
+msgid "%s quits the game."
+msgstr "En/Na %s ha abandonat la partida."
+
+#: Strings.cpp:293
+#, c-format
+msgid "%s rejoins as %s."
+msgstr "En/Na %s es reconnecta com a en/na %s."
+
+#: Strings.cpp:294
+#, c-format
+msgid "%s replaces %s as %s."
+msgstr "En/Na %s reemplaça a en/na %s com a en/na %s."
+
+#: Strings.cpp:295
+#, c-format
+msgid "%s shut down the server."
+msgstr "En/Na %s ha parat el servidor."
+
+#: Strings.cpp:296
+#, c-format
+msgid "%s takes over as %s."
+msgstr "En/Na %s substitueix a en/na %s."
+
+#: Strings.cpp:297
+#, c-format
+msgid "The game will restart in %d."
+msgstr "La partida es reiniciarà en %d."
+
+#: Strings.cpp:298
+#, fuzzy, c-format
+msgid "The game will start in %d."
+msgstr "La partida es reiniciarà en %d."
+
+#: Strings.cpp:299
+#, c-format
+msgid "The map is now %s."
+msgstr "El mapa es ara %s."
+
+#~ msgid "Connect!"
+#~ msgstr "Connectar!"
+
+#~ msgid "Refresh"
+#~ msgstr "Refrescar"
+
+#~ msgid "Connector"
+#~ msgstr "Connector"
+
+#~ msgid "Direct Connect Setup"
+#~ msgstr "Configuració de Conexió Directe"
+
+#~ msgid "Quit"
+#~ msgstr "Sortir"
+
+#~ msgid "Game"
+#~ msgstr "Partida"

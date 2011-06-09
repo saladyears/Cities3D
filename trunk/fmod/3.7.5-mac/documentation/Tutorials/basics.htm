@@ -1,0 +1,199 @@
+<html>
+
+<head>
+<title>THE BASICS</title>
+</head>
+
+<body>
+
+<center>
+<p>
+<img src="fmod.jpg" width="800" height="86">
+<br>
+<br>
+<br>
+</p>
+<h1>THE BASICS</h1>
+</center><font color="#00005F" face="Arial, Helvetica" size="2">
+<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+  <tr>
+    <td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">
+    Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+    </td>
+  </tr>
+</table>
+<ul>
+  <p>This is the first place to look if you have no idea what to do when 
+  downloading FMOD, or those with some idea but need a little bit of help. It 
+  will give you a step by step introduction and tutorial on what to call, what 
+  to link and where to call stuff so you can easily get on your way to great 
+  sounding audio! </p>
+</ul>
+<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+  <tr>
+    <td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">The 
+    package&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></td>
+  </tr>
+</table>
+<ul>
+	The first thing you will do is unzip fmod and find the following directory 
+	structure.<br>
+	<br>
+	<img src="directory.gif" width="199" height="511"> <br>
+	<br>
+
+	<font color="#00005F" face="Arial, Helvetica" size="4">
+	<b><u>/api</u></b><br><br>
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+	The files you are interested in for your own projects are held here<br>
+	This holds <br>
+	<br>
+	<li><b>FMOD.DLL</b>, </li>
+	<li>The <b>import library</b> (fmodvc.lib, fmodbc.lib etc) you need to link (for C users), and</li>
+	<li>The <b>header</b> (fmod.h, fmod.pas, fmod.bas depending on language) you need to include.</li>
+	<br>
+	<br>
+	<u><b>C Users</b></u><br>
+	<li><b>MSVC            </b> - #include "fmod.h" into your source code and link <b>fmodvc.lib </b> by putting it into your link section/makefile/project.<br>
+	<li><b>Codewarrior     </b> - #include "fmod.h" into your source code and link <b>fmodvc.lib </b> by putting it into your link section/makefile/project.<br>
+	<li><b>Watcom          </b> - #include "fmod.h" into your source code and link <b>fmodwc.lib </b> by putting it into your link section/makefile/project.<br>
+	<li><b>Borland         </b> - #include "fmod.h" into your source code and link <b>fmodbc.lib </b> by putting it into your link section/makefile/project.<br>
+	<li><b>LCC-WIN32       </b> - #include "fmod.h" into your source code and link <b>fmodlcc.lib </b> by putting it into your link section/makefile/project.<br>
+	<li><b>Mingw and CygWin</b> - #include "fmod.h" into your source code and link <b>libfmod.a </b> by putting it into your link section/makefile/project.<br>
+	<li><b>Linux / GCC     </b> - #include "fmod.h" into your source code and link with <b>libfmod-X-Y.so</b> (i.e gcc file.c -lfmod-3.5)<br>
+	<br>
+	<i>Note there is no DJGPP support.  If you ask for this you are looking in the wrong place.  DJGPP is DOS only and to find a similar free WIN32 compiler try LCC-WIN32 or CygWin.</i><br>
+	<br>
+	<u><b>Delphi Users</b></u><br>
+	<li>You need to have <b>uses FMOD</b> in your source code somewhere. If delphi cannot find the FMOD header you need to have the path to fmod.pas in your library path.  Go to <b>Tools\Environment Options\Library</b>.  Add the path, eg. C:\fmodapi340\api\delphi (of course, use the path that you have on your system), to Library Path and it should be happy.
+	<br>
+	<br>
+	<u><b>Visual Basic Users</b></u><br>
+	<li>Add fmod.bas to your project.<br>
+    </td>
+
+	<br>
+	<br>
+	<font color="#00005F" face="Arial, Helvetica" size="4">
+	<b><u>/documentation</u></b><br><br>
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+	You must know about this already if you are reading this!<br>
+	<br>
+
+	<br>
+	<br>
+	<font color="#00005F" face="Arial, Helvetica" size="4">
+	<b><u>/media</u></b><br><br>
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+	This directory holds some wav files and songs that the examples use.  For example jbtennis.wav which contains loop points and wav sync markers that fmod can read<br>
+	<br>
+
+	<br>
+	<br>
+	<font color="#00005F" face="Arial, Helvetica" size="4">
+	<b><u>/samples</u></b><br><br>
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+	This folder is for C programmers and contains a variety of samples to demonstrate 3D sound, dsp effects, recording, streams and more<br>
+	To run the precompiled executables, first copy the FMOD.DLL file from /api into the relevant sample directory to make it accessable for the program.<br>
+	<br>
+	<br>
+
+	<br>
+	<font color="#00005F" face="Arial, Helvetica" size="4">
+	<b><u>/samplesdelphi</u></b><br><br>
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+	This folder is for Delphi programmers and contains a variety of samples to demonstrate using FMOD with Delphi.  Written by Steve Williams<br>
+	To run the precompiled executables, first copy the FMOD.DLL file from /api into the relevant sample directory to make it accessable for the program.<br>
+	<br>
+
+	<br>
+	<br>
+	<font color="#00005F" face="Arial, Helvetica" size="4">
+	<b><u>/samplesvb</u></b><br><br>
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+	This folder is for Visual Basic programmers and contains examples of using FMOD with Visual Basic.<br>
+	To run the precompiled executables, first copy the FMOD.DLL file from /api into the relevant sample directory to make it accessable for the program.<br>
+	<br>
+
+	<br>
+	<br>
+	<font color="#00005F" face="Arial, Helvetica" size="4">
+	<b><u>/tools</u></b><br><br>
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+	This folder contains <b>asioconfig.exe.</b><br>
+	This program simply configures any asio devices you have on your system by bringing up the driver's native configuration screen.<br>
+	If you run it and no entries are in the list, your asio drivers are not installed properly.<br>
+	If you select or doubleclick an entry that does exist and no config screen appears then your asio drivers are not installed correctly or you have selected the wrong driver to configure.  Take note of this when selecting the device from the FMOD api.<br>
+	<br>
+
+</ul>
+
+<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+  <tr>
+    <td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Getting started&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></td>
+  </tr>
+</table>
+<ul>
+	<li>The first thing you need to do is make sure FMOD.DLL is accessable from your program.  Otherwise you will get an error something like the one below when you try and run your executable.
+	<center>
+	<br>
+	<img src="error.gif">
+	</center>
+	<br>
+	Copy the FMOD.DLL file out of the /api directory and into the directory where your executable will be.  If they are in the same directory then it will work as expected.<br>
+	Now you are ready to start coding, you need to initialize FMOD first!  You do this <i>once</i> at the start of your program.<br><br>
+	<li>Do this with <a href="../HTML/FSOUND_Init.html">FSOUND_Init</a>.</li>
+	The simplest way to do this is to tell FMOD to mix at 44100hz, and use 32 software channels.  This is done like so.<br>
+	<br>
+	<b>FSOUND_Init(44100, 32, 0);</b><br>
+	<br>
+	To get more detailed control please see the fmod.h file to see what pre-<a href="../HTML/FSOUND_Init.html">FSOUND_Init</a> functions can be called to control things like mixer type, output device etc.  Also <a href="../HTML/FSOUND_Init.html">FSOUND_Init</a> itself has flags which you can find out more about in the relevant documentation.<br>
+	Note that you don't have to actually use the pre-init functions as FMOD automatically detects the best settings for you.<br>
+	If this function succeeds, (see error code if it doesnt), then FMOD is now running and some more interesting things can be done.<br>
+
+</ul>
+
+
+<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+  <tr>
+    <td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Samples, Streams and Songs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></td>
+  </tr>
+</table>
+<ul>
+	You have a music file or a sound you want to play.  What FMOD API should you use to load and play it?<br>
+	Here's a guide.<br><br>
+
+	<li>If it is a sequenced music file such as <b>.MOD</b>, <b>.S3M</b>, <b>.XM</b>, <b>.IT</b> or <b>.MID</b>, then use the <b>FMUSIC API</b>.  You will want to use <a href="../HTML/FMUSIC_LoadSong.html">FMUSIC_LoadSong</a> to load it into memory.  When this gives you a valid return handle, use that handle with <a href="../HTML/FMUSIC_PlaySong.html">FMUSIC_PlaySong</a> to play it!  The handle type for this type of file when loaded is <b>FMUSIC_MODULE</b>.
+	<li>If it is a PCM based or compressed file such as <b>.WAV</b>, <b>.MP2</b>, <b>.MP3</b>, <b>.OGG</b> or <b>.RAW</b> then you have a choice to make. Will it use too much memory if you load it in and decompress it into memory? or is it small enough to fit? <br>  
+		- For small sounds such as sound effects that you want to trigger multiple times at once (for example a gunshot), then you will want to use <a href="../HTML/FSOUND_Sample_Load.html">FSOUND_Sample_Load</a>.  When it gives you a valid return handle, use that handle with <a href="../HTML/FSOUND_PlaySound.html">FSOUND_PlaySound</a> or <a href="../HTML/FSOUND_PlaySoundEx.html">FSOUND_PlaySoundEx</a>.  This is the fastest way to replay sounds, as they are decompressed into memory (at load time) first before being played.  The handle type for this type of file when loaded is <b>FSOUND_SAMPLE</b>.<br>
+		- If the file is going to be big, and doesnt need to be played multiple times at once (note the next option cannot be played multiple times at once), then the other choice is to use <a href="../HTML/FSOUND_Stream_Open.html">FSOUND_Stream_Open</a>.  This opens a file, and prepares it for playing.  When it gives you a valid return handle, use that handle with <a href="../HTML/FSOUND_Stream_Play.html">FSOUND_Stream_Play</a> or <a href="../HTML/FSOUND_Stream_PlayEx.html">FSOUND_Stream_PlayEx</a>.  This streams the file from the disk in realtime and decompresses the file on the fly.  This option uses less memory than samples when the file is past a certain size.  Note that this option uses a lot more cpu time than a sample as it has to access the disk, and if nescessary, decompress the data on the fly.  FMOD decompression routines are usually fairly efficient but it can be significant on slow machines (especially CE devices), or if multiple streams are played together at once.  You can of course measure this with <a href="../HTML/FSOUND_GetCPUUsage.html">FSOUND_GetCPUUsage</a> or just see how it affects your framerate.  The handle type for this type of file when loaded is <b>FSOUND_STREAM</b>.<br>
+		</li>
+	<br>
+	<br>
+	<b>Note</b> : Use FSOUND_FREE when choosing a channel to play a sample or stream on.  It makes the best choice for you.  If you must use a value such as 0-31 etc, then carefully read the channel mapping/index informatiomn in the remarks section of <a href="../HTML/FSOUND_PlaySound.html">FSOUND_PlaySound</a>.<br>
+
+</ul>
+
+
+<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+  <tr>
+    <td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Manipulation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></td>
+  </tr>
+</table>
+<ul>
+	Finally the last most basic things you might want to do are change the song's volume or speed or any other variety of attributes<br>
+	<br>
+	<li>For <b>FMUSIC_MODULE</b> handles you can use the <b>FMUSIC API</b> for commands like <a href="../HTML/FMUSIC_SetPaused.html">FMUSIC_SetPaused</a> and <a href="../HTML/FMUSIC_SetMasterVolume.html">FMUSIC_SetMasterVolume</a>.  See fmod.h (or equivalent) or the documentation for a list of these commands you can use.<br>
+	<li>For <b>FSOUND_SAMPLE</b> handles you can use a variety of commands on a playing sound from the channel handle returned from <a href="../HTML/FSOUND_PlaySound.html">FSOUND_PlaySound</a> or <a href="../HTML/FSOUND_PlaySoundEx.html">FSOUND_PlaySoundEx</a>.  These include such commands as <a href="../HTML/FSOUND_SetVolume.html">FSOUND_SetVolume</a> or <a href="../HTML/FSOUND_SetFrequency.html">FSOUND_SetFrequency</a> or a whole host of commands.<br>
+	<li>For <b>FSOUND_STREAM</b> handles you can use a variety of commands on a playing stream, also from the channel handle returned from <a href="../HTML/FSOUND_Stream_Play.html">FSOUND_Stream_Play</a> or <a href="../HTML/FSOUND_Stream_PlayEx.html">FSOUND_Stream_PlayEx</a>.  Because these also use channels to play on, they can use the channel functions just as a sample would.  You can pause a stream with <a href="../HTML/FSOUND_SetPaused.html">FSOUND_SetPaused</a> for example.
+
+</ul>
+
+
+<br>
+<br>
+</font>
+
+</body>
+
+</html>

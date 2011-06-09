@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>Custom Samples and Streams Tutorial - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>CUSTOM SAMPLES AND STREAMS</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This answers some of the questions regarding how to create a custom/user stream, and a custom/user sample.
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Custom Samples&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	1. Declare and allocate a custom sample...<br>
+	<UL>
+	   FSOUND_SAMPLE *mysamp = <a href="../HTML/FSOUND_Sample_Alloc.html">FSOUND_Sample_Alloc</a>(FSOUND_FREE, length, mode, deffreq, defvol, defpan, defpri);<br>
+	<br>
+	   Remember 'length' is measured in *samples* not bytes, and mode is a bitfield using <br>
+	   <a href="../HTML/FSOUND_MODES.html">FSOUND_MODES</a> (see the help for a description of modes to describe the sample you are allocating)<br>
+	   This will create you an empty sample to upload data into.<br>
+	</UL>
+	2. Upload your data to the sample.<br>
+   	<UL>
+		Use <a href="../HTML/FSOUND_Sample_Lock.html">FSOUND_Sample_Lock</a>()/<a href="../HTML/FSOUND_Sample_Unlock.html">FSOUND_Sample_Unlock</a>() or <a href="../HTML/FSOUND_Sample_Upload.html">FSOUND_Sample_Upload</a>() to get your data into the sample.<br>
+		With <a href="../HTML/FSOUND_Sample_Lock.html">FSOUND_Sample_Lock</a>()/<a href="../HTML/FSOUND_Sample_Unlock.html">FSOUND_Sample_Unlock</a>(), the data you copy in MUST be in signed format. <br>
+		FSOUND_Sample_Upload() is the favoured choice though, as you can describe the format, and it will convert it for you, but you have to pre-read the data into your own buffer first before passing it to <a href="../HTML/FSOUND_Sample_Upload.html">FSOUND_Sample_Upload</a>(), which temporarily uses more memory.  This converts from all types of sources.. unsigned, delta samples, even IT compressed.  more types will come in the future.<br>
+	</UL>
+
+	3. Play it! :)
+
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Custom Streams&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	See <a href="../HTML/FSOUND_Stream_Create.html">FSOUND_Stream_Create</a>.  You can pass a callback function pointer and a length to this function.
+	When you start the stream with <a href="../HTML/FSOUND_Stream_Play.html">FSOUND_Stream_Play</a> (as you would with any other stream), you start getting callbacks.
+	</UL>
+
+
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

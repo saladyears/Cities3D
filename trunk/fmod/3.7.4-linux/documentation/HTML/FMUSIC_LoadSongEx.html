@@ -1,0 +1,91 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FMUSIC_LoadSongEx</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FMUSIC_LoadSong.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FMUSIC.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FMUSIC_OptimizeChannels.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FMUSIC.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FMUSIC_LoadSongEx">FMUSIC_LoadSongEx</A></H2>
+To load a module or bank with a given filename.  FMUSIC Supports loading of <BR>
+- .MOD (protracker/fasttracker modules)<BR>
+- .S3M (screamtracker 3 modules)<BR>
+- .XM  (fasttracker 2 modules)<BR>
+- .IT  (impulse tracker modules)<BR>
+- .MID (MIDI files)<BR>
+- .RMI (MIDI files)<BR>
+- .SGT (DirectMusic segment files)<BR>
+- .FSB (FMOD Sample Bank files)<BR>
+<P>
+<B>FMUSIC_MODULE * F_API </B><B> </B><B>FMUSIC_LoadSongEx</B><B>(</B><BR>
+<B>const char *</B><I>name_or_data</I><B>,</B><BR>
+<B>int </B><B> </B><I>offset</I><B>,</B><BR>
+<B>int </B><B> </B><I>length</I><B>,</B><BR>
+<B>unsigned int </B><B> </B><I>mode</I><B>,</B><BR>
+<B>const int *</B><I>samplelist</I><B>,</B><BR>
+<B>int </B><B> </B><I>samplelistnum</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>name_or_data</I></TD>
+<TD>Name of song or pointer to data containing song to load (if loading from memory and not file).  On PlayStation 2 data must be 16 byte aligned if loading from memory.<BR>
+</TD><TR VALIGN=top><TD><I>offset</I></TD>
+<TD>Optional. 0 by default.  If &gt; 0, this value is used to specify an offset in a file, so fmod will seek before opening.<BR>
+</TD><TR VALIGN=top><TD><I>length</I></TD>
+<TD>Optional. 0 by default.  If &gt; 0, this value is used to specify the length of a memory block when using FSOUND_LOADMEMORY, or it is the length of a file or file segment if the offset parameter is used.  On PlayStation 2 this must be 16 byte aligned for memory loading.<BR>
+</TD><TR VALIGN=top><TD><I>mode</I></TD>
+<TD>Mode for opening song.  With module files, only FSOUND_LOADMEMORY, FSOUND_NONBLOCKING, FSOUND_LOOP_NORMAL, or FSOUND_LOOP_OFF are supported.  For FSB files, FSOUND_2D, FSOUND_HW3D, FSOUND_FORCEMONO also work.<BR>
+</TD><TR VALIGN=top><TD><I>samplelist</I></TD>
+<TD>Optional. Pointer to array of sample indicies to load.  Leave as NULL if you want all samples to be loaded (default behaviour).  See Remarks for more on this.<BR>
+</TD><TR VALIGN=top><TD><I>samplelistnum</I></TD>
+<TD>Optional. Number of entries in the samplelist array.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, a FMUSIC_MODULE handle is returned.<BR>
+On failure, NULL is returned.<BR>
+<H3>Remarks</H3>
+Loading a song from a memory handle is dangerous in one respect, if the data is corrupted or truncated, then FMUSIC could crash internally trying to load it.<BR>
+On PlayStation 2 the data and length pointer must be 16 byte aligned for DMA purposes.<BR>
+The samplelist and samplelistnum parameters are useful for limiting the amount of data fmod loads.  This feature is for the FSB format only.  It is especially useful if you have a bank of sounds and want to randomize the loading a bit by telling which sounds to load with random values, and consequently which not to load.<BR>
+On PlayStation 2, samplelistnum has a limit of 1536 entries.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FMUSIC_FreeSong.html">FMUSIC_FreeSong</A>
+, 
+<A HREF="FMUSIC_LoadSong.html">FMUSIC_LoadSong</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:58 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

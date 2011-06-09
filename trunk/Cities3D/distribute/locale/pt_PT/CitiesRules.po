@@ -1,0 +1,1498 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-06-01 23:56-0000\n"
+"Last-Translator: Jason Fugate <jfugate@settlers3d.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: CitiesStats.cpp:150
+msgid "Red Die"
+msgstr ""
+
+#: CitiesStats.cpp:153
+msgid "Third Die"
+msgstr ""
+
+#: CitiesStats.cpp:156
+#, fuzzy
+msgid "Trade Cards Played"
+msgstr "Cartas de Comércio"
+
+#: CitiesStats.cpp:159
+#, fuzzy
+msgid "Politics Cards Played"
+msgstr "Cartas de Política"
+
+#: CitiesStats.cpp:162
+#, fuzzy
+msgid "Science Cards Played"
+msgstr "Cartas de Ciência"
+
+#: CitiesStats.cpp:172
+msgid "Barbarian"
+msgstr ""
+
+#: CitiesStats.cpp:173 Strings.cpp:728
+#, fuzzy
+msgid "Trade"
+msgstr "Cartas de Comércio"
+
+#: CitiesStats.cpp:174 Strings.cpp:672
+#, fuzzy
+msgid "Politics"
+msgstr "Cartas de Política"
+
+#: CitiesStats.cpp:175 Strings.cpp:690
+#, fuzzy
+msgid "Science"
+msgstr "Cartas de Ciência"
+
+#: CitiesStats.cpp:177
+#, fuzzy
+msgid "Defender Points"
+msgstr "Pontos de Defensor"
+
+#: CitiesStats.cpp:178
+#, fuzzy
+msgid "Metropolis"
+msgstr "Cartas de Ciência"
+
+#: CitiesStats.cpp:179 CitiesStats.cpp:227 Strings.cpp:659
+msgid "Merchant"
+msgstr ""
+
+#: CitiesStats.cpp:180
+msgid "Victory Points"
+msgstr ""
+
+#: CitiesStats.cpp:182 CitiesStats.cpp:186 CitiesStats.cpp:190 Strings.cpp:634
+msgid "Cloth"
+msgstr "Pano"
+
+#: CitiesStats.cpp:183 CitiesStats.cpp:187 CitiesStats.cpp:191 Strings.cpp:635
+msgid "Coin"
+msgstr "Moeda"
+
+#: CitiesStats.cpp:184 CitiesStats.cpp:188 CitiesStats.cpp:192 Strings.cpp:669
+msgid "Paper"
+msgstr "Papel"
+
+#: CitiesStats.cpp:194
+msgid "Aqueduct"
+msgstr ""
+
+#: CitiesStats.cpp:195 CitiesStats.cpp:203 CitiesStats.cpp:225 Strings.cpp:636
+msgid "Commercial Harbor"
+msgstr ""
+
+#: CitiesStats.cpp:196 CitiesStats.cpp:204 CitiesStats.cpp:226 Strings.cpp:657
+msgid "Master Merchant"
+msgstr ""
+
+#: CitiesStats.cpp:197 CitiesStats.cpp:205 CitiesStats.cpp:229 Strings.cpp:684
+msgid "Resource Monopoly"
+msgstr ""
+
+#: CitiesStats.cpp:198 CitiesStats.cpp:206 CitiesStats.cpp:230 Strings.cpp:731
+msgid "Trade Monopoly"
+msgstr ""
+
+#: CitiesStats.cpp:199 CitiesStats.cpp:208 CitiesStats.cpp:241 Strings.cpp:738
+msgid "Wedding"
+msgstr ""
+
+#: CitiesStats.cpp:200 CitiesStats.cpp:247 Strings.cpp:655
+msgid "Irrigation"
+msgstr ""
+
+#: CitiesStats.cpp:201 CitiesStats.cpp:249 Strings.cpp:663
+msgid "Mining"
+msgstr ""
+
+#: CitiesStats.cpp:207 CitiesStats.cpp:232 Strings.cpp:611
+msgid "Arsonist"
+msgstr ""
+
+#: CitiesStats.cpp:210
+msgid "Walls"
+msgstr ""
+
+#: CitiesStats.cpp:211
+#, fuzzy
+msgid "Basic Knights"
+msgstr "Cavaleiros Básicos"
+
+#: CitiesStats.cpp:212
+#, fuzzy
+msgid "Strong Knights"
+msgstr "Cavaleiros Fortes"
+
+#: CitiesStats.cpp:213
+#, fuzzy
+msgid "Mighty Knights"
+msgstr "Cavaleiros Poderosos"
+
+#: CitiesStats.cpp:214
+msgid "Knight Activates"
+msgstr ""
+
+#: CitiesStats.cpp:215
+#, fuzzy
+msgid "Trade Upgrades"
+msgstr "Cartas de Comércio"
+
+#: CitiesStats.cpp:216
+#, fuzzy
+msgid "Politics Upgrades"
+msgstr "Cartas de Política"
+
+#: CitiesStats.cpp:217
+#, fuzzy
+msgid "Science Upgrades"
+msgstr "Cartas de Ciência"
+
+#: CitiesStats.cpp:218
+#, fuzzy
+msgid "City Repairs"
+msgstr "Muralha da Cidade"
+
+#: CitiesStats.cpp:220
+msgid "Knights Moved"
+msgstr ""
+
+#: CitiesStats.cpp:221
+msgid "Criminals Expelled"
+msgstr ""
+
+#: CitiesStats.cpp:222
+msgid "Knights Attacked"
+msgstr ""
+
+#: CitiesStats.cpp:223
+msgid "Coommercial Harbor Used"
+msgstr ""
+
+#: CitiesStats.cpp:228 Strings.cpp:660
+msgid "Merchant Fleet"
+msgstr ""
+
+#: CitiesStats.cpp:233 Strings.cpp:618
+msgid "Bishop"
+msgstr ""
+
+#: CitiesStats.cpp:234 Strings.cpp:637
+msgid "Constitution"
+msgstr ""
+
+#: CitiesStats.cpp:235 Strings.cpp:642
+msgid "Deserter"
+msgstr ""
+
+#: CitiesStats.cpp:236 Strings.cpp:643
+msgid "Diplomat"
+msgstr ""
+
+#: CitiesStats.cpp:237 Strings.cpp:653
+msgid "Intrigue"
+msgstr ""
+
+#: CitiesStats.cpp:238 Strings.cpp:689
+msgid "Saboteur"
+msgstr ""
+
+#: CitiesStats.cpp:239 Strings.cpp:718
+msgid "Spy"
+msgstr ""
+
+#: CitiesStats.cpp:240 Strings.cpp:737
+#, fuzzy
+msgid "Warlord"
+msgstr "uma estrada"
+
+#: CitiesStats.cpp:243 Strings.cpp:607
+msgid "Alchemist"
+msgstr ""
+
+#: CitiesStats.cpp:244 Strings.cpp:638
+msgid "Crane"
+msgstr ""
+
+#: CitiesStats.cpp:245 Strings.cpp:648
+msgid "Engineer"
+msgstr ""
+
+#: CitiesStats.cpp:246 Strings.cpp:654
+msgid "Inventor"
+msgstr ""
+
+#: CitiesStats.cpp:248 Strings.cpp:658
+msgid "Medicine"
+msgstr ""
+
+#: CitiesStats.cpp:250 Strings.cpp:675
+msgid "Printer"
+msgstr ""
+
+#: CitiesStats.cpp:251 Strings.cpp:685
+msgid "Road Building"
+msgstr ""
+
+#: CitiesStats.cpp:252 Strings.cpp:717
+msgid "Smith"
+msgstr ""
+
+#: Strings.cpp:605
+#, fuzzy
+msgid "Activate a knight"
+msgstr "Cavaleiros Fortes"
+
+#: Strings.cpp:606
+#, fuzzy
+msgid "Activate all your knights for free."
+msgstr "Cavaleiros Fortes"
+
+#: Strings.cpp:608
+msgid ""
+"Allows players to use an active knight to expel criminals before the dice "
+"are rolled, if it is their turn."
+msgstr ""
+
+#: Strings.cpp:609
+msgid ""
+"All players with more Victory Points than you must give you 2 resources or "
+"commodities of their choice."
+msgstr ""
+
+#: Strings.cpp:610
+msgid ""
+"All players with at least as many Victory Points as you lose half of the "
+"resource or commodity cards in their hand."
+msgstr ""
+
+#: Strings.cpp:612
+msgid "Attack another knight"
+msgstr ""
+
+#: Strings.cpp:613
+msgid "Barbarians"
+msgstr ""
+
+#: Strings.cpp:614
+msgid "Barbarians are delayed for 1 round"
+msgstr ""
+
+#: Strings.cpp:615
+#, fuzzy
+msgid "Basic knight"
+msgstr "Cavaleiros Básicos"
+
+#: Strings.cpp:616
+#, fuzzy
+msgid "Basic knights"
+msgstr "Cavaleiros Básicos"
+
+#: Strings.cpp:617
+msgid ""
+"Before the dice are rolled, select a result for each numbered die.  The "
+"event die rolls normally."
+msgstr ""
+
+#: Strings.cpp:619
+#, fuzzy
+msgid "Build a basic knight"
+msgstr "Cavaleiros Básicos"
+
+#: Strings.cpp:620
+msgid "Build a city for 2 ore and 1 wheat."
+msgstr ""
+
+#: Strings.cpp:621
+#, fuzzy
+msgid "Build a city walls"
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:622
+#, fuzzy
+msgid "Build a mighty knight"
+msgstr "Cavaleiros Poderosos"
+
+#: Strings.cpp:623
+#, fuzzy
+msgid "Build a strong knight"
+msgstr "Cavaleiros Fortes"
+
+#: Strings.cpp:624
+msgid "Cards To Give"
+msgstr ""
+
+#: Strings.cpp:625
+msgid "Cards To Steal"
+msgstr ""
+
+#: Strings.cpp:626
+msgid "Change the deck of Politics progress cards."
+msgstr ""
+
+#: Strings.cpp:627
+#, fuzzy
+msgid "Change the deck of Science progress cards."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:628
+#, fuzzy
+msgid "Change the deck of Trade progress cards."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:629
+#, fuzzy
+msgid "Cities and Knights"
+msgstr "Cavaleiros Fortes"
+
+#: Strings.cpp:630
+msgid ""
+"Cities and Knights is a whole new way of playing Settlers.  Barbarians "
+"attack, knights defend, cities are pillaged or grow.  Politics, trade and "
+"science take on major roles in determining who wins, and who winds up on the "
+"end of a barbarian axe.\n"
+"\n"
+"Cities and Knights is not for the faint of heart.  Games last longer and are "
+"far more competitive than a Standard or Seafarers game, but the strategic "
+"choices are greater and more challenging than ever! "
+msgstr ""
+
+#: Strings.cpp:631
+#, fuzzy
+msgid "Cities and Knights (+3 points)"
+msgstr "Cavaleiros Fortes"
+
+#: Strings.cpp:632
+#, fuzzy
+msgid "City Upgrades"
+msgstr "Muralha da Cidade"
+
+#: Strings.cpp:633
+#, fuzzy
+msgid "City walls"
+msgstr "Muralha da Cidade"
+
+#: Strings.cpp:639
+#, fuzzy
+msgid "Defender points"
+msgstr "Pontos de Defensor"
+
+#: Strings.cpp:640
+msgid "Delay barbarians"
+msgstr ""
+
+#: Strings.cpp:641
+msgid ""
+"Delay the barbarians for one or two rounds.  This lets players get their "
+"feet on the ground before the first invasion."
+msgstr ""
+
+#: Strings.cpp:644
+msgid "Discard"
+msgstr ""
+
+#: Strings.cpp:645
+msgid "Discard 1 Progress Card"
+msgstr ""
+
+#: Strings.cpp:646
+msgid ""
+"Displace an opponent's knight on an intersection next to a road or ship you "
+"own."
+msgstr ""
+
+#: Strings.cpp:647
+msgid "Drag and drop dice to select them."
+msgstr ""
+
+#: Strings.cpp:649
+#, fuzzy
+msgid "Expel criminals"
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:650
+msgid ""
+"For each opponent you select, offer 1 resource card from your hand.  They "
+"must give you 1 commodity card of their choice, unless they have none."
+msgstr ""
+
+#: Strings.cpp:651
+msgid ""
+"Instead of waiting until the first barbarian invasion, the robber is moved "
+"on a 7 from the first roll of the dice."
+msgstr ""
+
+#: Strings.cpp:652
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr ""
+
+#: Strings.cpp:656
+msgid "Knights errant"
+msgstr ""
+
+#: Strings.cpp:661
+#, fuzzy
+msgid "Mighty knight"
+msgstr "Cavaleiros Poderosos"
+
+#: Strings.cpp:662
+#, fuzzy
+msgid "Mighty knights"
+msgstr "Cavaleiros Poderosos"
+
+#: Strings.cpp:664
+#, fuzzy
+msgid "Move a knight"
+msgstr "Cavaleiros Fortes"
+
+#: Strings.cpp:665
+msgid ""
+"Move the robber or pirate.  In addition, steal 1 card from the hand of every "
+"player with a city or settlement on the new robber tile."
+msgstr ""
+
+#: Strings.cpp:666
+msgid "No mercy from the robber"
+msgstr ""
+
+#: Strings.cpp:667
+msgid "OK"
+msgstr ""
+
+#: Strings.cpp:668
+msgid "1 Victory Point!"
+msgstr ""
+
+#: Strings.cpp:670
+#, fuzzy
+msgid "Place a city walls for free."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:671
+#, fuzzy
+msgid "Play Card"
+msgstr "Cartas de Política"
+
+#: Strings.cpp:673
+#, fuzzy
+msgid "Politics cards"
+msgstr "Cartas de Política"
+
+#: Strings.cpp:674
+#, fuzzy
+msgid "Politics metropolis"
+msgstr "Cartas de Política"
+
+#: Strings.cpp:676
+msgid "Promote two different knights one level for free."
+msgstr ""
+
+#: Strings.cpp:677
+msgid "Purchase one city upgrade for 1 commodity less."
+msgstr ""
+
+#: Strings.cpp:678
+msgid "Receive 2 ore for each ore tile on which you have a city or settlement."
+msgstr ""
+
+#: Strings.cpp:679
+msgid ""
+"Receive 2 wheat for each wheat tile on which you have a city or settlement."
+msgstr ""
+
+#: Strings.cpp:680
+msgid ""
+"Remove one open road from the board.  If you remove your own road, you may "
+"then place it elsewhere immediately."
+msgstr ""
+
+#: Strings.cpp:681
+msgid ""
+"Remove one open road or ship from the board.  If you remove your own road or "
+"ship, you may then place it elsewhere immediately."
+msgstr ""
+
+#: Strings.cpp:682
+#, fuzzy
+msgid "Repair a city"
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:683
+msgid "Resources"
+msgstr ""
+
+#: Strings.cpp:686
+msgid "Robber is not delayed by barbarians"
+msgstr ""
+
+#: Strings.cpp:687
+msgid "Roll Dice"
+msgstr ""
+
+#: Strings.cpp:688
+msgid "Rounds before barbarians advance"
+msgstr ""
+
+#: Strings.cpp:691
+#, fuzzy
+msgid "Science cards"
+msgstr "Cartas de Ciência"
+
+#: Strings.cpp:692
+#, fuzzy
+msgid "Science metropolis"
+msgstr "Cartas de Ciência"
+
+#: Strings.cpp:693
+msgid "Select"
+msgstr ""
+
+#: Strings.cpp:694
+msgid ""
+"Select a commodity.  All players must give you 1 of that commodity, unless "
+"they have none."
+msgstr ""
+
+#: Strings.cpp:695
+msgid ""
+"Select an opponent's city.  The city produces as a settlement until the "
+"owner pays 1 timber and 1 ore for repairs."
+msgstr ""
+
+#: Strings.cpp:696
+msgid ""
+"Select an opponent.  Steal 1 progress card of your choice from their hand."
+msgstr ""
+
+#: Strings.cpp:697
+msgid ""
+"Select an opponent.  They must remove one knight of their choice from the "
+"board.  You may then place an equivalent knight on the board, following the "
+"normal rules."
+msgstr ""
+
+#: Strings.cpp:698
+#, fuzzy
+msgid "Select a Player for Desertion"
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:699
+msgid "Select a Player to Rob"
+msgstr ""
+
+#: Strings.cpp:700
+#, fuzzy
+msgid "Select a Player to Spy on"
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:701
+msgid "Select a Player to Trade With"
+msgstr ""
+
+#: Strings.cpp:702
+msgid "Select A Progress Card"
+msgstr ""
+
+#: Strings.cpp:703
+msgid ""
+"Select a resource.  All players must give you as many of that resource as "
+"they can, up to 2."
+msgstr ""
+
+#: Strings.cpp:704
+msgid ""
+"Select a tile adjacent to a settlement or city you own and place the "
+"merchant on it.  As long as the merchant remains, you trade that resource to "
+"the bank at 2-1, and receive 1 Victory Point."
+msgstr ""
+
+#: Strings.cpp:705
+msgid "Select Dice"
+msgstr ""
+
+#: Strings.cpp:706
+#, fuzzy
+msgid "Select 1 card to give."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:707
+msgid "Select 1 card type to trade at 2-1."
+msgstr ""
+
+#: Strings.cpp:708
+msgid "Select 1 commodity type to steal."
+msgstr ""
+
+#: Strings.cpp:709
+msgid "Select 1 progress card."
+msgstr ""
+
+#: Strings.cpp:710
+msgid ""
+"Select 1 resource or commodity.  This round, trade it to the bank at 2-1."
+msgstr ""
+
+#: Strings.cpp:711
+msgid "Select 1 resource to gain."
+msgstr ""
+
+#: Strings.cpp:712
+msgid "Select 1 resource type to steal."
+msgstr ""
+
+#: Strings.cpp:713
+#, fuzzy
+msgid "Select 2 cards to give."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:714
+msgid "Select one die of each color."
+msgstr ""
+
+#: Strings.cpp:715
+msgid "Show Barbarians tab"
+msgstr ""
+
+#: Strings.cpp:716
+msgid "Show Upgrades tab"
+msgstr ""
+
+#: Strings.cpp:719
+#, fuzzy
+msgid "Spy Cards"
+msgstr "Cartas de Ciência"
+
+#: Strings.cpp:720
+#, fuzzy
+msgid "Steal Card"
+msgstr "Cartas de Ciência"
+
+#: Strings.cpp:721
+#, fuzzy
+msgid "Strong knight"
+msgstr "Cavaleiros Fortes"
+
+#: Strings.cpp:722
+#, fuzzy
+msgid "Strong knights"
+msgstr "Cavaleiros Fortes"
+
+#: Strings.cpp:723
+msgid ""
+"Switch any two roll chips on the board, except for those numbered 2, 12, 6, "
+"or 8."
+msgstr ""
+
+#: Strings.cpp:724
+msgid ""
+"Take 2 resource or commodity cards of your choice from any one opponent with "
+"more Victory Points than you."
+msgstr ""
+
+#: Strings.cpp:725
+msgid "The barbarians advance."
+msgstr ""
+
+#: Strings.cpp:726
+msgid "The barbarians attack and are repelled!"
+msgstr ""
+
+#: Strings.cpp:727
+msgid "The barbarians attack and lay waste!"
+msgstr ""
+
+#: Strings.cpp:729
+#, fuzzy
+msgid "Trade cards"
+msgstr "Cartas de Comércio"
+
+#: Strings.cpp:730
+#, fuzzy
+msgid "Trade metropolis"
+msgstr "Cartas de Ciência"
+
+#: Strings.cpp:732
+msgid "Upgrade politics"
+msgstr ""
+
+#: Strings.cpp:733
+msgid "Upgrade science"
+msgstr ""
+
+#: Strings.cpp:734
+msgid "Upgrade trade"
+msgstr ""
+
+#: Strings.cpp:735
+msgid "Use commercial harbor"
+msgstr ""
+
+#: Strings.cpp:736
+msgid "Use Your Aqueduct"
+msgstr ""
+
+#: Strings.cpp:739
+#, fuzzy
+msgid "Your Cards"
+msgstr "Cartas de Comércio"
+
+#: Strings.cpp:742
+#, fuzzy, c-format
+msgid "%s, activate a knight."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:743
+#, fuzzy, c-format
+msgid "%s activates a knight."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:744
+#, c-format
+msgid "%s, attack an opponent's knight."
+msgstr ""
+
+#: Strings.cpp:745
+#, c-format
+msgid "%s attacks a knight of %s."
+msgstr ""
+
+#: Strings.cpp:746
+#, c-format
+msgid "Barbarians are delayed for %d rounds"
+msgstr ""
+
+#: Strings.cpp:747
+#, fuzzy, c-format
+msgid "%s, discard 1 progress card."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:748
+#, fuzzy, c-format
+msgid "%s discards 1 %s card."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:749
+#, fuzzy, c-format
+msgid "%s displaces a knight of %s."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:750
+#, fuzzy, c-format
+msgid "%s expels criminals."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:751
+#, c-format
+msgid "%d %s from %s"
+msgstr ""
+
+#: Strings.cpp:752
+#, c-format
+msgid "%s gives 1 card to %s as a wedding gift."
+msgstr ""
+
+#: Strings.cpp:753
+#, c-format
+msgid "%s gives %s to you as a wedding gift."
+msgstr ""
+
+#: Strings.cpp:754
+#, c-format
+msgid "%s gives 2 cards to %s as a Wedding gift."
+msgstr ""
+
+#: Strings.cpp:755
+#, fuzzy, c-format
+msgid "%s loses %s."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:756
+#, fuzzy, c-format
+msgid "%s loses a city walls."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:757
+#, c-format
+msgid "%s loses the knight in the attack."
+msgstr ""
+
+#: Strings.cpp:758
+#, fuzzy, c-format
+msgid "%s loses the knight."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:759
+#, c-format
+msgid "%s loses the %s metropolis."
+msgstr ""
+
+#: Strings.cpp:760
+#, c-format
+msgid "%s moves a knight."
+msgstr ""
+
+#: Strings.cpp:761
+#, c-format
+msgid "%s, move your knight."
+msgstr ""
+
+#: Strings.cpp:762
+#, c-format
+msgid "%s, place a city."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:763
+#, fuzzy, c-format
+msgid "%s, place a city walls."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:764
+#, c-format
+msgid "%s, place a road."
+msgstr "%s, coloque uma estrada."
+
+#: Strings.cpp:765
+#, fuzzy, c-format
+msgid "%s, place a basic knight."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:766
+#, fuzzy, c-format
+msgid "%s, place the merchant."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:767
+#, fuzzy, c-format
+msgid "%s places a basic knight."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:768
+#, fuzzy, c-format
+msgid "%s places a city walls."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:769
+#, fuzzy, c-format
+msgid "%s places the deserter."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:770
+#, fuzzy, c-format
+msgid "%s, place the deserter."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:771
+#, fuzzy, c-format
+msgid "%s, place your metropolis."
+msgstr "%s, coloque uma estrada."
+
+#: Strings.cpp:772
+#, fuzzy, c-format
+msgid "%s receives a progress card."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:773
+#, fuzzy, c-format
+msgid "%s receives %d %s from irrigation."
+msgstr "Pontos de Defensor"
+
+#: Strings.cpp:774
+#, fuzzy, c-format
+msgid "%s receives %d %s from mining."
+msgstr "Pontos de Defensor"
+
+#: Strings.cpp:775
+#, fuzzy, c-format
+msgid "%s receives 1 defender point."
+msgstr "Pontos de Defensor"
+
+#: Strings.cpp:776
+#, fuzzy, c-format
+msgid "%s receives 1 victory point from a %s card."
+msgstr "Pontos de Defensor"
+
+#: Strings.cpp:777
+#, c-format
+msgid "%s removes a road of %s."
+msgstr ""
+
+#: Strings.cpp:778
+#, c-format
+msgid "%s removes a ship of %s."
+msgstr ""
+
+#: Strings.cpp:779
+#, fuzzy, c-format
+msgid "%s, repair a city."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:780
+#, fuzzy, c-format
+msgid "%s repairs a city."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:781
+#, c-format
+msgid "Roll a %d"
+msgstr ""
+
+#: Strings.cpp:782
+#, fuzzy, c-format
+msgid "%s, sabotage a city."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:783
+#, fuzzy, c-format
+msgid "%s sabotages a city of %s."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:784
+#, fuzzy, c-format
+msgid "%s, select a city to reduce."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:785
+#, fuzzy, c-format
+msgid "%s, select a resource or commodity to trade at 2-1."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:786
+#, fuzzy, c-format
+msgid "%s, select a commodity to give to %s."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:787
+#, fuzzy, c-format
+msgid "%s, select a commodity to steal."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:788
+#, c-format
+msgid "%s, select a knight to attack with."
+msgstr ""
+
+#: Strings.cpp:789
+#, fuzzy, c-format
+msgid "%s, select a knight to desert."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:790
+#, fuzzy, c-format
+msgid "%s, select a knight to displace."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:791
+#, c-format
+msgid "%s, select a knight to expel criminals with."
+msgstr ""
+
+#: Strings.cpp:792
+#, c-format
+msgid "%s, select a knight to move."
+msgstr ""
+
+#: Strings.cpp:793
+#, fuzzy, c-format
+msgid "%s, select a player for desertion."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:794
+#, fuzzy, c-format
+msgid "%s, select a player to rob."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:795
+#, fuzzy, c-format
+msgid "%s, select a player to spy on."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:796
+#, fuzzy, c-format
+msgid "%s, select a player to use the commercial harbor on."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:797
+#, fuzzy, c-format
+msgid "%s, select a progress card."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:798
+#, fuzzy, c-format
+msgid "%s, select a resource to give to %s."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:799
+#, fuzzy, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:800
+#, fuzzy, c-format
+msgid "%s, select a road or ship to remove."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:801
+#, fuzzy, c-format
+msgid "%s, select a road to remove."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:802
+#, c-format
+msgid "Select 1 card to steal from %s."
+msgstr ""
+
+#: Strings.cpp:803
+#, fuzzy, c-format
+msgid "%s, select resources to lose."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:804
+#, fuzzy, c-format
+msgid "%s selects %s."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:805
+#, fuzzy, c-format
+msgid "%s selects a deserter."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:806
+#, fuzzy, c-format
+msgid "%s, select the dice for the next roll."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:807
+#, fuzzy, c-format
+msgid "%s, select the first roll chip to switch."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:808
+#, fuzzy, c-format
+msgid "%s, select the second roll chip to switch."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:809
+#, c-format
+msgid "Select 2 cards to steal from %s."
+msgstr ""
+
+#: Strings.cpp:810
+#, c-format
+msgid "%s, select 2 cards to steal from %s."
+msgstr ""
+
+#: Strings.cpp:811
+#, fuzzy, c-format
+msgid "%s, select 2 resources or commodities to give to the wedding."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:812
+#, c-format
+msgid "Select 1 commodity to give to %s."
+msgstr ""
+
+#: Strings.cpp:813
+#, fuzzy, c-format
+msgid "%s, select 1 progress card to steal from %s."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:814
+#, c-format
+msgid "Select 1 resource to give to %s."
+msgstr ""
+
+#: Strings.cpp:815
+#, c-format
+msgid "%s steals %s."
+msgstr ""
+
+#: Strings.cpp:816
+#, fuzzy, c-format
+msgid "%s steals %s from you."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:817
+#, c-format
+msgid "%s steals 1 card from %s."
+msgstr ""
+
+#: Strings.cpp:818
+#, fuzzy, c-format
+msgid "%s steals 1 %s from you."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:819
+#, fuzzy, c-format
+msgid "%s steals 1 progress card from %s."
+msgstr "%s, coloque uma cidade."
+
+#: Strings.cpp:820
+#, c-format
+msgid "%s steals 2 cards from %s."
+msgstr ""
+
+#: Strings.cpp:821
+#, c-format
+msgid "%s steals nothing."
+msgstr ""
+
+#: Strings.cpp:822
+#, c-format
+msgid "%s swaps a %d chip for a %d chip."
+msgstr ""
+
+#: Strings.cpp:823
+#, c-format
+msgid "%s takes the %s metropolis."
+msgstr ""
+
+#: Strings.cpp:824
+#, fuzzy, c-format
+msgid "%s trades 1 resource to %s for 1 commodity using the commercial harbor."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:825
+#, c-format
+msgid "%s undoes a basic knight."
+msgstr ""
+
+#: Strings.cpp:826
+#, c-format
+msgid "%s undoes a city walls."
+msgstr ""
+
+#: Strings.cpp:827
+#, c-format
+msgid "%s undoes a knight activate."
+msgstr ""
+
+#: Strings.cpp:828
+#, c-format
+msgid "%s undoes a knight move."
+msgstr ""
+
+#: Strings.cpp:829
+#, c-format
+msgid "%s undoes a knight upgrade."
+msgstr ""
+
+#: Strings.cpp:830
+#, c-format
+msgid "%s undoes the %s upgrade."
+msgstr ""
+
+#: Strings.cpp:831
+#, c-format
+msgid "%s upgrades to a mighty knight."
+msgstr ""
+
+#: Strings.cpp:832
+#, c-format
+msgid "%s upgrades to a strong knight."
+msgstr ""
+
+#: Strings.cpp:833
+#, c-format
+msgid "%s upgrades %s to level %d."
+msgstr ""
+
+#: Strings.cpp:834
+#, c-format
+msgid "%s, upgrade to a mighty knight."
+msgstr ""
+
+#: Strings.cpp:835
+#, c-format
+msgid "%s, upgrade to a strong knight."
+msgstr ""
+
+#: Strings.cpp:836
+#, c-format
+msgid "%s, use your aqueduct."
+msgstr ""
+
+#: Strings.cpp:837
+#, c-format
+msgid "%s uses the merchant fleet to trade %s."
+msgstr ""
+
+#: Strings.cpp:838
+#, fuzzy, c-format
+msgid "Waiting for %s to activate a knight."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:839
+#, fuzzy, c-format
+msgid "Waiting for %s to attack an opponent's knight."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:840
+#, fuzzy, c-format
+msgid "Waiting for %s to discard 1 progress card."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:841
+#, fuzzy, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:842
+#, fuzzy, c-format
+msgid "Waiting for %s to move a knight."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:843
+#, fuzzy, c-format
+msgid "Waiting for %s to place a basic knight."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:844
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:845
+#, fuzzy, c-format
+msgid "Waiting for %s to place a city walls."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:846
+#, fuzzy, c-format
+msgid "Waiting for %s to place a metropolis."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:847
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:848
+#, fuzzy, c-format
+msgid "Waiting for %s to place the deserter."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:849
+#, fuzzy, c-format
+msgid "Waiting for %s to place the merchant."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:850
+#, fuzzy, c-format
+msgid "Waiting for %s to reduce a city."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:851
+#, fuzzy, c-format
+msgid "Waiting for %s to repair a city."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:852
+#, fuzzy, c-format
+msgid "Waiting for %s to sabotage a city."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:853
+#, fuzzy, c-format
+msgid "Waiting for %s to select a commodity to trade."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:854
+#, fuzzy, c-format
+msgid "Waiting for %s to select a resource or commodity to trade at 2-1."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:855
+#, fuzzy, c-format
+msgid "Waiting for %s to select a commodity to steal."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:856
+#, fuzzy, c-format
+msgid "Waiting for %s to select a knight to attack with."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:857
+#, fuzzy, c-format
+msgid "Waiting for %s to select a knight to desert."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:858
+#, fuzzy, c-format
+msgid "Waiting for %s to select a knight to displace."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:859
+#, fuzzy, c-format
+msgid "Waiting for %s to select a knight to expel criminals with."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:860
+#, fuzzy, c-format
+msgid "Waiting for %s to select a knight to move."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:861
+#, fuzzy, c-format
+msgid "Waiting for %s to select a player for desertion."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:862
+#, fuzzy, c-format
+msgid "Waiting for %s to select a player to rob."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:863
+#, fuzzy, c-format
+msgid "Waiting for %s to select a player to spy on."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:864
+#, fuzzy, c-format
+msgid "Waiting for %s to select a player to use the commercial harbor on."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:865
+#, fuzzy, c-format
+msgid "Waiting for %s to select a progress card."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:866
+#, fuzzy, c-format
+msgid "Waiting for %s to select a resource to trade."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:867
+#, fuzzy, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:868
+#, fuzzy, c-format
+msgid "Waiting for %s to select a road or ship to remove."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:869
+#, fuzzy, c-format
+msgid "Waiting for %s to select a road to remove."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:870
+#, fuzzy, c-format
+msgid "Waiting for %s to select 1 progress card to steal from %s."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:871
+#, fuzzy, c-format
+msgid "Waiting for %s to select the dice for the next roll."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:872
+#, fuzzy, c-format
+msgid "Waiting for %s to select the first roll chip to switch."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:873
+#, fuzzy, c-format
+msgid "Waiting for %s to select the second roll chip to switch."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:874
+#, fuzzy, c-format
+msgid "Waiting for %s to select 2 cards to steal from %s."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:875
+#, fuzzy, c-format
+msgid "Waiting for %s to give 2 resources or commodities to the wedding."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:876
+#, fuzzy, c-format
+msgid "Waiting for %s and %s to trade using the commercial harbor."
+msgstr "À espera que %s coloque uma estrada."
+
+#: Strings.cpp:877
+#, fuzzy, c-format
+msgid "Waiting for %s to upgrade to a mighty knight."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:878
+#, fuzzy, c-format
+msgid "Waiting for %s to upgrade to a strong knight."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:879
+#, fuzzy, c-format
+msgid "Waiting for %s to use their aqueduct."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:880
+#, fuzzy, c-format
+msgid "Waiting for %s to withdraw a knight."
+msgstr "À espera que %s coloque uma cidade."
+
+#: Strings.cpp:881
+#, c-format
+msgid "%s withdraws a knight."
+msgstr ""
+
+#: Strings.cpp:882
+#, c-format
+msgid "%s, withdraw your knight."
+msgstr ""
+
+#: Strings.cpp:883
+#, c-format
+msgid "You receive a %s card."
+msgstr ""
+
+#: Strings.cpp:884
+#, fuzzy, c-format
+msgid "You trade 1 %s to %s for 1 %s using the commercial harbor."
+msgstr "À espera que %s coloque uma estrada."
+
+#, fuzzy
+#~ msgid "Buy City Walls"
+#~ msgstr "Muralha da Cidade"
+
+#, fuzzy
+#~ msgid "Upgrade to a Strong Knight"
+#~ msgstr "Cavaleiros Fortes"
+
+#, fuzzy
+#~ msgid "Upgrade to a Mighty Knight"
+#~ msgstr "Cavaleiros Poderosos"
+
+#, fuzzy
+#~ msgid "Politics cards: %s"
+#~ msgstr "Cartas de Política"
+
+#, fuzzy
+#~ msgid "Science cards: %s"
+#~ msgstr "Cartas de Ciência"
+
+#, fuzzy
+#~ msgid "Trade cards: %s"
+#~ msgstr "Cartas de Comércio"

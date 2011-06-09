@@ -1,0 +1,48 @@
+Obtaining the code on Win32:
+---------------------------
+1. Obtain and install the latest (stable) version of TortoiseSVN from 
+   http://tortoisesvn.tigris.org.
+2. After rebooting, select a directory via windows explorer to which you want 
+   to download the code.
+3. Right click in the directory and select "SVN Checkout...".
+4. Use the following settings:
+   URL of repository: http://svn1.cvsdude.com/saladyears/Cities3D/trunk
+   Checkout directory: <path to the folder you wish to download to>
+   NOTE: If you do not wish to download all of the support libraries use 
+   http://svn1.cvsdude.com/saladyears/Cities3D/trunk/Cities3D as your URL.
+5. Click OK and TortoiseSVN will begin getting your code.
+
+Compiling the code on Win32:
+---------------------------
+1. These instructions require the use of Microsoft Visual Studio .NET 2008.
+2. Compile wxWidgets 2.8.10:
+   A.  Open the file /wxWidgets/2.8.10/build/msw/wx_dll.sln in .NET 2008.
+   B.  Set the active configuration to "DLL Unicode Debug" and build the solution.
+   C.  Set the active configuration to "DLL Unicode Release" and build the solution.   
+3. Compile glew 1.3.5:
+   A.  Open the file /glew/1.3.5/build/vc6/glew_static.sln.
+   B.  Set the active configuration to Debug and build the solution.
+   C.  Set the active configuration to Release and build the solution.
+4. Compile crypto++ 5.5.2:
+   A.  Open the file /crypto++/5.5.2/cryptest.sln
+   B.  Set the active configuration to Debug and build cryptdll.
+   C.  Set the active configuration to Release and build cryptdll.
+   D.  Set the active configuration to DLL-Import Debug and build cryptlib.
+   E.  Set the active configuration to DLL-Import Release and build cryptlib.
+5. Copy built .dlls to the Cities3D/distribute directory.
+   A.  Run the /Cities3D/copy_libraries.bat file.
+6. Compile Cities3D.
+   A.  Open the file /Cities3D/src/cities3d.sln in .NET 2008.
+   B.  Set the active configuration to Unicode Debug.
+   C.  Set the "Cities3D Properties->Debugging->Working Directory" to 
+       "../../distribute" (no quotes).
+   D.  Build the solution.
+   E.  Set the active configuration to Unicode Release.
+   F.  Set the "Cities3D Properties->Debugging->Working Directory" to 
+       "../../distribute" (no quotes).
+   G.  Build the solution.
+
+Running the game on Win32:
+-------------------------
+1. Set the active configuration to Debug.
+2. Press F5 to run the game in Debug mode.

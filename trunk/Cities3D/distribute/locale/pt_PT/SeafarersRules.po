@@ -1,0 +1,302 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-06-01 23:56-0000\n"
+"Last-Translator: Jason Fugate <jfugate@settlers3d.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: HiddenTilesStats.cpp:32
+msgid "Discovery"
+msgstr ""
+
+#: RepeatingBonusStats.cpp:32 SingleBonusStats.cpp:32
+msgid "Bonus"
+msgstr ""
+
+#: SeafarersStats.cpp:32 Strings.cpp:272
+msgid "Ships"
+msgstr "Barcos"
+
+#: SeafarersStats.cpp:34
+#, fuzzy
+msgid "Ships Moved"
+msgstr "Barcos"
+
+#: Strings.cpp:258
+#, fuzzy
+msgid "Build a ship"
+msgstr "%s desfaz um barco."
+
+#: Strings.cpp:259
+msgid "Change the starting stock amount of ships."
+msgstr ""
+
+#: Strings.cpp:260
+msgid "Chipless tiles"
+msgstr ""
+
+#: Strings.cpp:261
+msgid "Extra Point"
+msgstr "Ponto Extra"
+
+#: Strings.cpp:262
+msgid "Hidden tiles"
+msgstr ""
+
+#: Strings.cpp:263
+#, fuzzy
+msgid "Move a ship"
+msgstr "%s desfaz um barco."
+
+#: Strings.cpp:264
+msgid "No initial roads along the coast"
+msgstr ""
+
+#: Strings.cpp:265
+msgid "1, then 2 VPs for colonies"
+msgstr ""
+
+#: Strings.cpp:266
+msgid "1 VP for colonies"
+msgstr ""
+
+#: Strings.cpp:267
+msgid "Pirate"
+msgstr "Pirata"
+
+#: Strings.cpp:268
+msgid "Players place ports"
+msgstr ""
+
+#: Strings.cpp:269
+msgid "Random"
+msgstr "Ao acaso"
+
+#: Strings.cpp:270
+msgid "Seafarers"
+msgstr ""
+
+#: Strings.cpp:271
+msgid "Ship"
+msgstr "Barco"
+
+#: Strings.cpp:273
+#, fuzzy
+msgid "Stock ships"
+msgstr "Barcos"
+
+#: Strings.cpp:274
+msgid "Trade routes"
+msgstr ""
+
+#: Strings.cpp:277
+#, fuzzy, c-format
+msgid "%s, choose a player to steal from, or click the pirate to not steal."
+msgstr "%, escolha um jogador para lhe roubar uma carta."
+
+#: Strings.cpp:278
+#, c-format
+msgid "%s gains 1 trade route point."
+msgstr ""
+
+#: Strings.cpp:279
+#, c-format
+msgid "%s gains %d trade route points."
+msgstr ""
+
+#: Strings.cpp:280
+#, fuzzy, c-format
+msgid "%d ships"
+msgstr "um barco"
+
+#: Strings.cpp:281
+#, c-format
+msgid "%s loses 1 trade route point."
+msgstr ""
+
+#: Strings.cpp:282
+#, c-format
+msgid "%s loses %d trade route points."
+msgstr ""
+
+#: Strings.cpp:283
+#, fuzzy, c-format
+msgid "%s moves a ship."
+msgstr "%s desfaz um barco."
+
+#: Strings.cpp:284
+#, fuzzy, c-format
+msgid "%s, move your ship."
+msgstr "%s, coloque um barco."
+
+#: Strings.cpp:285
+#, fuzzy, c-format
+msgid "%s, orient the port harbor."
+msgstr "%s, direccione o porto."
+
+#: Strings.cpp:286
+#, fuzzy, c-format
+msgid "%s, place a port harbor."
+msgstr "%s, coloque um porto"
+
+#: Strings.cpp:287
+#, fuzzy, c-format
+msgid "%s, place a road or a ship."
+msgstr "%s, coloque uma estrada ou um barco."
+
+#: Strings.cpp:288
+#, fuzzy, c-format
+msgid "%s, place a ship."
+msgstr "%s, coloque um barco."
+
+#: Strings.cpp:289
+#, fuzzy, c-format
+msgid "%s places a port harbor."
+msgstr "%s coloca um porto."
+
+#: Strings.cpp:290
+#, fuzzy, c-format
+msgid "%s places a ship."
+msgstr "%s coloca um barco."
+
+#: Strings.cpp:291
+#, fuzzy, c-format
+msgid "%s, place the pirate."
+msgstr "%s, coloque o ladrão ou o pirata."
+
+#: Strings.cpp:292
+#, fuzzy, c-format
+msgid "%s, place the robber or pirate."
+msgstr "%s, coloque o ladrão ou o pirata."
+
+#: Strings.cpp:293
+#, c-format
+msgid "%s receives 1 bonus point for colonizing a new island."
+msgstr ""
+
+#: Strings.cpp:294
+#, c-format
+msgid "%s receives %d bonus points for colonizing a new island."
+msgstr ""
+
+#: Strings.cpp:295
+#, c-format
+msgid "%s receives 1 %s for discovering new land."
+msgstr ""
+
+#: Strings.cpp:296
+#, c-format
+msgid "%s, select a chip from the mainland."
+msgstr ""
+
+#: Strings.cpp:297
+#, fuzzy, c-format
+msgid "%s, select a ship to move."
+msgstr "%s, coloque um barco."
+
+#: Strings.cpp:298
+#, c-format
+msgid "%s steals nothing."
+msgstr "% não rouba."
+
+#: Strings.cpp:299
+#, c-format
+msgid "%s takes a %d from the mainland."
+msgstr ""
+
+#: Strings.cpp:300
+#, fuzzy, c-format
+msgid "%s undoes a ship."
+msgstr "%s desfaz um barco."
+
+#: Strings.cpp:301
+#, fuzzy, c-format
+msgid "%s undoes a ship move."
+msgstr "%s desfaz um barco."
+
+#: Strings.cpp:302
+#, c-format
+msgid "Waiting for %s to orient the port harbor."
+msgstr "Á espera que %s direccione o porto."
+
+#: Strings.cpp:303
+#, c-format
+msgid "Waiting for %s to place a port harbor."
+msgstr "Á espera que %s coloque um porto."
+
+#: Strings.cpp:304
+#, fuzzy, c-format
+msgid "Waiting for %s to place a road or a ship."
+msgstr "Á espera que %s coloque uma estrada ou um barco."
+
+#: Strings.cpp:305
+#, c-format
+msgid "Waiting for %s to place a ship."
+msgstr "Á espera que %s coloque um barco."
+
+#: Strings.cpp:306
+#, fuzzy, c-format
+msgid "Waiting for %s to place the pirate."
+msgstr "Á espera que %s coloque o ladrão ou o pirata."
+
+#: Strings.cpp:307
+#, fuzzy, c-format
+msgid "Waiting for %s to place the robber or pirate."
+msgstr "Á espera que %s coloque o ladrão ou o pirata."
+
+#: Strings.cpp:308
+#, fuzzy, c-format
+msgid "Waiting for %s to select a chip from the mainland."
+msgstr "Á espera que %s lhe roube uma carta."
+
+#: Strings.cpp:309
+#, fuzzy, c-format
+msgid "Waiting for %s to select a ship to move."
+msgstr "Á espera que %s coloque um barco."
+
+#: Strings.cpp:310
+#, fuzzy, c-format
+msgid "Waiting for %s to move a ship."
+msgstr "Á espera que %s coloque um barco."
+
+#: Strings.cpp:311
+#, fuzzy, c-format
+msgid "Waiting for %s to steal a card."
+msgstr "Á espera que %s lhe roube uma carta."
+
+#: TradeRoutesStats.cpp:32
+msgid "Trade Routes"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Ships:"
+#~ msgstr "Barcos"
+
+#~ msgid "Gold"
+#~ msgstr "Ouro"
+
+#, fuzzy
+#~ msgid "%d %s"
+#~ msgstr "um barco"
+
+#, fuzzy
+#~ msgid "Waiting for %s to spend gold."
+#~ msgstr "Á espera que %s lhe roube uma carta."

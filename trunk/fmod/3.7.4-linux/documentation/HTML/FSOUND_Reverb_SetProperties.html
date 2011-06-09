@@ -1,0 +1,72 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Reverb_SetProperties</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Reverb_SetChannelProperties.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Sample_Alloc.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Reverb_SetProperties">FSOUND_Reverb_SetProperties</A></H2>
+Sets hardware reverb parameters for advanced tuning.  <BR>
+The best way to modify these is to set everything to use pre-defined presets given in the header, and then start modifying values.<BR>
+<P>
+<B>signed char	F_API </B><B> </B><B>FSOUND_Reverb_SetProperties</B><B>(</B><BR>
+<B>const FSOUND_REVERB_PROPERTIES *</B><I>props</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>prop</I></TD>
+<TD>A pointer to a FSOUND_REVERB_PROPERTIES struct.  The definition for this structure is given in the link below.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+You must be using FSOUND_OUTPUT_DSOUND as the output mode for this to work.  <BR>
+In dsound, the reverb will only work if you have an	EAX compatible soundcard such as the SBLive, and your sample/stream was created with the FSOUND_HW3D flag.<BR>
+For GameCube, use FSOUND_AUXFX_xxx api.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, XBox, PlayStation 2<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Reverb_GetChannelProperties.html">FSOUND_Reverb_GetChannelProperties</A>
+, 
+<A HREF="FSOUND_Reverb_GetProperties.html">FSOUND_Reverb_GetProperties</A>
+, 
+<A HREF="FSOUND_REVERB_PROPERTIES.html">FSOUND_REVERB_PROPERTIES</A>
+, 
+<A HREF="FSOUND_Reverb_SetChannelProperties.html">FSOUND_Reverb_SetChannelProperties</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

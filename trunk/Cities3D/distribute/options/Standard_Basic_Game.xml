@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OptionSet>
+  <Option module="StandardRules" option="No7s">
+    <Rounds value="1"/>
+  </Option>
+</OptionSet>

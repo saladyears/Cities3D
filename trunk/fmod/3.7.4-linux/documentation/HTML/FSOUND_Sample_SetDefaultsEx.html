@@ -1,0 +1,100 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Sample_SetDefaultsEx</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Sample_SetDefaults.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Sample_SetLoopPoints.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Sample_SetDefaultsEx">FSOUND_Sample_SetDefaultsEx</A></H2>
+Sets a sample's default attributes, so when it is played it uses these values without having to specify them later.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_Sample_SetDefaultsEx</B><B>(</B><BR>
+<B>FSOUND_SAMPLE *</B><I>sptr</I><B>,</B><BR>
+<B>int </B><B> </B><I>deffreq</I><B>,</B><BR>
+<B>int </B><B> </B><I>defvol</I><B>,</B><BR>
+<B>int </B><B> </B><I>defpan</I><B>,</B><BR>
+<B>int </B><B> </B><I>defpri</I><B>,</B><BR>
+<B>int </B><B> </B><I>varfreq</I><B>,</B><BR>
+<B>int </B><B> </B><I>varvol</I><B>,</B><BR>
+<B>int </B><B> </B><I>varpan</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>sptr</I></TD>
+<TD>Pointer to the sample to have its attributes set.<BR>
+</TD><TR VALIGN=top><TD><I>deffreq</I></TD>
+<TD>Default sample frequency. The value here is specified in hz. -1 to ignore.<BR>
+</TD><TR VALIGN=top><TD><I>defvol</I></TD>
+<TD>Default sample volume. This is a value from 0 to 255. -1 to ignore.<BR>
+</TD><TR VALIGN=top><TD><I>defpan</I></TD>
+<TD>Default sample pan position. This is a value from 0 to 255 or FSOUND_STEREOPAN.<BR>
+</TD><TR VALIGN=top><TD><I>defpri</I></TD>
+<TD>Default sample priority. This is a value from 0 to 255. -1 to ignore.<BR>
+</TD><TR VALIGN=top><TD><I>varfreq</I></TD>
+<TD>Frequency variation in hz to apply to deffreq each time this sample is played. -1 to ignore.<BR>
+</TD><TR VALIGN=top><TD><I>varvol</I></TD>
+<TD>Volume variation to apply to defvol each time this sample is played. -1 to ignore.<BR>
+</TD><TR VALIGN=top><TD><I>varpan</I></TD>
+<TD>Pan variation to apply to defpan each time this sample is played. -1 to ignore.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+Frequency, volume and pan variation values specify a +/- variation to the specified default frequency, volume and pan values i.e. with deffreq=44100, varfreq=2000 the actual frequency value used will be in the range 42100 -&gt; 46100.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Sample_GetDefaults.html">FSOUND_Sample_GetDefaults</A>
+, 
+<A HREF="FSOUND_Sample_GetDefaultsEx.html">FSOUND_Sample_GetDefaultsEx</A>
+, 
+<A HREF="FSOUND_Sample_GetLoopPoints.html">FSOUND_Sample_GetLoopPoints</A>
+, 
+<A HREF="FSOUND_Sample_GetMode.html">FSOUND_Sample_GetMode</A>
+, 
+<A HREF="FSOUND_Sample_SetDefaults.html">FSOUND_Sample_SetDefaults</A>
+, 
+<A HREF="FSOUND_SetFrequency.html">FSOUND_SetFrequency</A>
+, 
+<A HREF="FSOUND_SetPan.html">FSOUND_SetPan</A>
+, 
+<A HREF="FSOUND_SetPriority.html">FSOUND_SetPriority</A>
+, 
+<A HREF="FSOUND_SetVolume.html">FSOUND_SetVolume</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

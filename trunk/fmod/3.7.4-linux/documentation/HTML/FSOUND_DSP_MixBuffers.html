@@ -1,0 +1,111 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_DSP_MixBuffers</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_DSP_GetSpectrum.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_DSP_SetActive.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_DSP_MixBuffers">FSOUND_DSP_MixBuffers</A></H2>
+Allows the user to mix their own data from one buffer to another, using FSOUNDs optimized<BR>
+mixer routines.  This was mainly provided for DSP routines, though it can be used for <BR>
+anything.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_DSP_MixBuffers</B><B>(</B><BR>
+<B>void *</B><I>destbuffer</I><B>,</B><BR>
+<B>void *</B><I>srcbuffer</I><B>,</B><BR>
+<B>int </B><B> </B><I>len</I><B>,</B><BR>
+<B>int </B><B> </B><I>freq</I><B>,</B><BR>
+<B>int </B><B> </B><I>vol</I><B>,</B><BR>
+<B>int </B><B> </B><I>pan</I><B>,</B><BR>
+<B>unsigned int </B><B> </B><I>mode</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>destbuffer</I></TD>
+<TD>Pointer to a buffer to have the data mixed into.<BR>
+</TD><TR VALIGN=top><TD><I>srcbuffer</I></TD>
+<TD>Pointer to the source buffer to be mixed in.<BR>
+</TD><TR VALIGN=top><TD><I>len</I></TD>
+<TD>Amount to mix in SAMPLES.<BR>
+</TD><TR VALIGN=top><TD><I>freq</I></TD>
+<TD>Speed to mix data to output buffer.  Remember if you mix at a rate <BR>
+different than the output rate, the buffer lengths will have to be <BR>
+different to compensate.  Ie if the output rate is 44100 and you supply<BR>
+a value of 88200 to FSOUND_DSP_MixBuffers, you will only need a destbuffer<BR>
+that is half the size of srcbuffer.  If you supply a value of 22050 then<BR>
+you will need a destbuffer that is twice as big as srcbuffer.  If they<BR>
+are both the same size then it will only mix half of the data.<BR>
+</TD><TR VALIGN=top><TD><I>vol</I></TD>
+<TD>volume scalar value of mix.  Valid values are 0 (silence) to 255 <BR>
+(full volume).  See FSOUND_SetVolume for more information.<BR>
+</TD><TR VALIGN=top><TD><I>pan</I></TD>
+<TD>pan value for data being mixed.  Valid values are 0 (full left), 128<BR>
+(middle), 255 (full right) and FSOUND_STEREOPAN.  See FSOUND_SetPan for <BR>
+more information.<BR>
+</TD><TR VALIGN=top><TD><I>mode</I></TD>
+<TD>Bit settings to describe the source buffer.  Valid values are found in<BR>
+FSOUND_MODES, but only 8/16bit and stereo/mono flags are interpreted,<BR>
+other flags are ignored.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+'destbuffer' should always the format of the mixing output buffer, as it will use the mixer<BR>
+currently running to do the mixing.<BR>
+For MMX it is 16bit stereo, so it is 4 bytes per output sample (word left, word right)<BR>
+For Standard Blend mode it is 32bit stereo, so it is 8 bytes per output sample (left dword, right dword)<BR>
+For FPU mixer it is 32bit float stereo, so it is 8 bytes per output sample (left float, right float)<BR>
+FSOUND_GetMixer can be used to determine which mixer is being used.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_DSP_Create.html">FSOUND_DSP_Create</A>
+, 
+<A HREF="FSOUND_DSP_MixBuffers.html">FSOUND_DSP_MixBuffers</A>
+, 
+<A HREF="FSOUND_GetMixer.html">FSOUND_GetMixer</A>
+, 
+<A HREF="FSOUND_MODES.html">FSOUND_MODES</A>
+, 
+<A HREF="FSOUND_SetFrequency.html">FSOUND_SetFrequency</A>
+, 
+<A HREF="FSOUND_SetPan.html">FSOUND_SetPan</A>
+, 
+<A HREF="FSOUND_SetVolume.html">FSOUND_SetVolume</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

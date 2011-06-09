@@ -1,0 +1,66 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+# 14.09.2005: Added new translation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: $Id: TexEditor.po 2638 2007-05-16 12:26:18Z saladyears "
+"$\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-06 13:42-0600\n"
+"PO-Revision-Date: 2006-11-11 20:56+0200\n"
+"Last-Translator: Pekka Järvinen\n"
+"Language-Team: Cities3D internationalization <pekka.jarvinen@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Strings.cpp:85
+msgid "Dimensions"
+msgstr "Kuvan koko"
+
+#: Strings.cpp:86
+msgid "Export"
+msgstr "Vie"
+
+#: Strings.cpp:87
+msgid "Extract"
+msgstr "Pura"
+
+#: Strings.cpp:88
+msgid "Image Editor"
+msgstr ""
+
+#: Strings.cpp:89
+msgid "Import"
+msgstr "Tuo"
+
+#: Strings.cpp:90
+msgid "Select a directory to export"
+msgstr "Valitse hakemisto mihin viedään"
+
+#: Strings.cpp:91
+msgid "Select a directory to extract the files in"
+msgstr "Valitse hakemisto mihin tiedostot puretaan"
+
+#: Strings.cpp:92
+msgid "Select a .tex file to import."
+msgstr "Valitse tuotava .tex-tiedosto."
+
+#: Strings.cpp:93
+msgid "Size"
+msgstr "Tiedoston koko"

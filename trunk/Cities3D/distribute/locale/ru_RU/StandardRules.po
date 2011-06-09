@@ -1,0 +1,659 @@
+#
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Translation v 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-15 16:25-0500\n"
+"PO-Revision-Date: 2006-07-28 22:46+0600\n"
+"Last-Translator: Ilya 'Road Builder' Chernykh <metal@ngs.ru>\n"
+"Language-Team: Road Builder <metal@ngs.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: LogicCardNameDevCards.cpp:59
+msgid "Victory Point"
+msgstr "Очко"
+
+#: LogicCardNameDevCards.cpp:74
+msgid "Road Building"
+msgstr "Строительство Дорог"
+
+#: LogicCardNameDevCards.cpp:89
+msgid "Year Of Plenty"
+msgstr "Год Изобилия"
+
+#: LogicCardNameDevCards.cpp:103
+msgid "Monopoly"
+msgstr "Монополия"
+
+#: LogicCardNameDevCards.cpp:117
+msgid "Soldier"
+msgstr "Солдат"
+
+#: LogicCardTextDevCards.cpp:59
+msgid "Receive 1 Victory Point!"
+msgstr "Получите 1 Очко!"
+
+#: LogicCardTextDevCards.cpp:74
+msgid "In this turn, build either two roads, two ships, or one of each at no cost."
+msgstr "В этот ход поставьте две дороги, или два корабля, или одну дорогу и один корабль бесплатно."
+
+#: LogicCardTextDevCards.cpp:90
+msgid "In this turn, take any two resource cards from the bank.  They may be used immediately."
+msgstr "В этот ход возьмите два любых ресурса из банка. Вы можете сразу же их использовать."
+
+#: LogicCardTextDevCards.cpp:105
+msgid "Choose one resource type.  All other players must give you all their resource cards of that type."
+msgstr "Выберите какой-нибудь ресурс. Все остальные игроки должны отдать Вам все свои ресурсы этого вида."
+
+#: LogicCardTextDevCards.cpp:120
+msgid "Move the robber and steal one resource card from the owner of an adjacent city or settlement.  Or, move the pirate and steal from the owner of an adjacent ship."
+msgstr "Передвигайте грабителя и украдите ресурс у владельца прилегающего города или поселения. Или передвигайте пирата и украдите ресурс у владельца прилегающего корабля."
+
+#: LogicRequestInitialPlacement.cpp:61
+#: RuleBuildSettlementTurn.cpp:119
+#, c-format
+msgid "%s, place a settlement."
+msgstr "%s, поставьте поселение."
+
+#: LogicRequestInitialPlacement.cpp:62
+#: RuleBuildSettlementTurn.cpp:120
+#, c-format
+msgid "Waiting for %s to place a settlement."
+msgstr "Ждем, пока %s поставит поселение."
+
+#: LogicRequestInitialRoad.cpp:61
+#: RuleBuildRoadTurn.cpp:121
+#, c-format
+msgid "%s, place a road."
+msgstr "%s, поставьте дорогу."
+
+#: LogicRequestInitialRoad.cpp:62
+#: RuleBuildRoadTurn.cpp:122
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "Ждем, пока %s поставит дорогу."
+
+#: LogicResourceNameStandard.cpp:59
+msgid "Timber"
+msgstr "Дерево"
+
+#: LogicResourceNameStandard.cpp:74
+msgid "Clay"
+msgstr "Глина"
+
+#: LogicResourceNameStandard.cpp:89
+msgid "Sheep"
+msgstr "Овца"
+
+#: LogicResourceNameStandard.cpp:103
+msgid "Wheat"
+msgstr "Пшеница"
+
+#: LogicResourceNameStandard.cpp:117
+msgid "Ore"
+msgstr "Руда"
+
+#: RuleBuildCityTurn.cpp:104
+#, c-format
+msgid "%s, place a city."
+msgstr "%s, поставьте город."
+
+#: RuleBuildCityTurn.cpp:105
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "Ждем, пока %s поставит город."
+
+#: RuleBuyDevCardTurn.cpp:127
+#, c-format
+msgid "%s buys a Development Card."
+msgstr "%s покупает Карту Развития."
+
+#: RuleBuyDevCardTurn.cpp:140
+#, c-format
+msgid "You receive a %s card."
+msgstr "Вы получаете карту %s."
+
+#: RuleEndTurn.cpp:78
+#, c-format
+msgid "%s ends the turn."
+msgstr "%s завершает ход."
+
+#: RuleExecuteBankTrade.cpp:74
+#, c-format
+msgid "%s trades"
+msgstr "%s совершает сделку"
+
+#: RuleExecuteBankTrade.cpp:99
+msgid "to the bank for"
+msgstr "отдает в банк за"
+
+#: RuleExecuteBankTrade.cpp:184
+#, c-format
+msgid "%s undoes a bank trade."
+msgstr "%s отзывает сделку с банком."
+
+#: RuleExecuteLose7.cpp:62
+#, c-format
+msgid "%s loses"
+msgstr "%s теряет"
+
+#: RuleExecuteMonopolyCard.cpp:67
+#, c-format
+msgid "%s steals"
+msgstr "%s крадет"
+
+#: RuleExecuteMonopolyCard.cpp:101
+#, c-format
+msgid "%d %s from %s"
+msgstr "%d %s у %s"
+
+#: RuleExecuteMonopolyCard.cpp:112
+#: RuleRobberSteal.cpp:81
+#, c-format
+msgid "%s steals nothing."
+msgstr "%s ничего не крадет."
+
+#: RuleExecuteRobberSteal.cpp:122
+#, c-format
+msgid "You steal 1 %s from %s."
+msgstr "Вы украли 1 %s у %s."
+
+#: RuleExecuteRobberSteal.cpp:127
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr "%s крадет у вас 1 %s."
+
+#: RuleExecuteRobberSteal.cpp:132
+#, c-format
+msgid "%s steals 1 resource from %s."
+msgstr "%s крадет 1 ресурс у %s."
+
+#: RuleExecuteYearOfPlentyCard.cpp:62
+#, c-format
+msgid "%s selects"
+msgstr "%s выбирает"
+
+#: RuleGainLargestArmy.cpp:69
+#, c-format
+msgid "%s takes Largest Army."
+msgstr "%s получает Самую Большую Армию."
+
+#: RuleGainLongestRoad.cpp:73
+#, c-format
+msgid "%s takes Longest Road."
+msgstr "%s получает Длинную дорогу."
+
+#: RuleGatherResources.cpp:169
+#, c-format
+msgid "There is not enough %s in the bank. No one receives any."
+msgstr "В банке не хватает ресурса %s. Никто ничего не получает."
+
+#: RuleInitializeDevCards.cpp:75
+msgid "Dev"
+msgstr "Карта развития"
+
+#: RuleLoseLargestArmy.cpp:64
+#, c-format
+msgid "%s loses Largest Army."
+msgstr "%s теряет Самую Большую Армию."
+
+#: RuleLoseLongestRoad.cpp:68
+#, c-format
+msgid "%s loses Longest Road."
+msgstr "%s теряет Длинную дорогу."
+
+#: RulePlaceCity.cpp:110
+#, c-format
+msgid "%s places a city."
+msgstr "%s ставит город."
+
+#: RulePlaceCity.cpp:138
+#, c-format
+msgid "%s undoes a city."
+msgstr "%s убирает город."
+
+#: RulePlaceRoad.cpp:111
+#, c-format
+msgid "%s places a road."
+msgstr "%s ставит дорогу."
+
+#: RulePlaceRoad.cpp:148
+#, c-format
+msgid "%s undoes a road."
+msgstr "%s убирает дорогу."
+
+#: RulePlaceSettlement.cpp:114
+#, c-format
+msgid "%s places a settlement."
+msgstr "%s ставит поселение."
+
+#: RulePlaceSettlement.cpp:141
+#, c-format
+msgid "%s undoes a settlement."
+msgstr "%s убирает поселение."
+
+#: RulePlayCard.cpp:68
+#, c-format
+msgid "%s plays a %s card."
+msgstr "%s играет карту %s."
+
+#: RuleRestartPreRollCard.cpp:76
+#, c-format
+msgid "%s, play a card or roll the dice."
+msgstr "%s, играйте карту или бросайте кубики."
+
+#: RuleRestartPreRollCard.cpp:77
+#, c-format
+msgid "Waiting for %s to play a card or roll the dice."
+msgstr "Ждем, пока %s сыграет карту или бросит кубики."
+
+#: RuleRestartRobberSteal.cpp:64
+#, c-format
+msgid "%s, choose a player to steal a card from."
+msgstr "%s, у кого из игроков хотите украсть карту?"
+
+#: RuleRestartRobberSteal.cpp:65
+#, c-format
+msgid "Waiting for %s to steal a card."
+msgstr "Ждем, пока %s украдет карту."
+
+#: RuleRestartTurn.cpp:72
+#, c-format
+msgid "%s, it is your turn."
+msgstr "%s, Ваш ход."
+
+#: RuleRestartTurn.cpp:73
+#, c-format
+msgid "Waiting for %s to finish the turn."
+msgstr "Ждем, пока %s закончит ход."
+
+#: RuleRestartTurnLose7.cpp:134
+#, c-format
+msgid "%s, select resources to lose."
+msgstr "%s, выберите сбрасываемые ресурсы."
+
+#: RuleRestartTurnLose7.cpp:139
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "Ждем, пока %s сбросит ресурсы."
+
+#: RuleRestartTurnMonopoly.cpp:61
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s, выберайте ресурс."
+
+#: RuleRestartTurnMonopoly.cpp:62
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "Ждем, пока %s выберет украдываемый ресурс."
+
+#: RuleRestartTurnYearOfPlenty.cpp:61
+#, c-format
+msgid "%s, select two resources."
+msgstr "%s, выберите два ресурса."
+
+#: RuleRestartTurnYearOfPlenty.cpp:62
+#, c-format
+msgid "Waiting for %s to select two resources."
+msgstr "Ждем, пока %s выберет два ресурса."
+
+#: RuleRollDice.cpp:84
+#, c-format
+msgid "%s rolls a %d."
+msgstr "%s выбросил %d очков."
+
+#: RuleStartRobber.cpp:59
+#, c-format
+msgid "%s, place the robber."
+msgstr "%s, переставьте грабителя."
+
+#: RuleStartRobber.cpp:60
+#, c-format
+msgid "Waiting for %s to place the robber."
+msgstr "Ждем, пока %s переставит грабителя."
+
+#: RuleWin.cpp:103
+#, c-format
+msgid "%s wins the game!"
+msgstr "%s выигрывает!"
+
+#: RuleWin.cpp:106
+#, c-format
+msgid "%s has won the game."
+msgstr "%s победил."
+
+#: LogicCardNameDevCards.cpp:59
+msgid "Victory Point"
+msgstr "Дополнительное Очко"
+
+#: LogicCardNameDevCards.cpp:74
+msgid "Road Building"
+msgstr "Строительство Дорог"
+
+#: LogicCardNameDevCards.cpp:89
+msgid "Year Of Plenty"
+msgstr "Год Изобилия"
+
+#: LogicCardNameDevCards.cpp:103
+msgid "Monopoly"
+msgstr "Монополия"
+
+#: LogicCardNameDevCards.cpp:117
+msgid "Soldier"
+msgstr "Солдат"
+
+#: LogicCardTextDevCards.cpp:59
+msgid "Receive 1 Victory Point!"
+msgstr "Получите 1 Очко!"
+
+#: LogicCardTextDevCards.cpp:74
+msgid "In this turn, build either two roads, two ships, or one of each at no cost."
+msgstr "В этот ход поставьте две дороги, или два корабля, или одну дорогу и один корабль бесплатно."
+
+#: LogicCardTextDevCards.cpp:90
+msgid "In this turn, take any two resource cards from the bank.  They may be used immediately."
+msgstr "В этот ход возьмите два любых ресурса из банка. Вы можете сразу же их использовать."
+
+#: LogicCardTextDevCards.cpp:105
+msgid "Choose one resource type.  All other players must give you all their resource cards of that type."
+msgstr "Выберите один из видов ресурсов. Все остальные игроки должны отдать Вам все свои ресурсы этого вида."
+
+#: LogicCardTextDevCards.cpp:120
+msgid "Move the robber and steal one resource card from the owner of an adjacent city or settlement.  Or, move the pirate and steal from the owner of an adjacent ship."
+msgstr "Передвигайте грабителя и украдите один ресурс у владельца прилегающего города или поселения. Или передвигайте пирата и украдите один ресурс у владельца прилегающего корабля."
+
+#: LogicRequestInitialPlacement.cpp:61
+#: RuleBuildSettlementTurn.cpp:119
+#, c-format
+msgid "%s, place a settlement."
+msgstr "%s, поставьте поселение."
+
+#: LogicRequestInitialPlacement.cpp:62
+#: RuleBuildSettlementTurn.cpp:120
+#, c-format
+msgid "Waiting for %s to place a settlement."
+msgstr "Ждем, пока %s поставит поселение."
+
+#: LogicRequestInitialRoad.cpp:61
+#: RuleBuildRoadTurn.cpp:121
+#, c-format
+msgid "%s, place a road."
+msgstr "%s, поставьте дорогу."
+
+#: LogicRequestInitialRoad.cpp:62
+#: RuleBuildRoadTurn.cpp:122
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "Ждем, пока %s поставит дорогу."
+
+#: LogicResourceNameStandard.cpp:59
+msgid "Timber"
+msgstr "Дерево"
+
+#: LogicResourceNameStandard.cpp:74
+msgid "Clay"
+msgstr "Глина"
+
+#: LogicResourceNameStandard.cpp:89
+msgid "Sheep"
+msgstr "Овца"
+
+#: LogicResourceNameStandard.cpp:103
+msgid "Wheat"
+msgstr "Пшеница"
+
+#: LogicResourceNameStandard.cpp:117
+msgid "Ore"
+msgstr "Руда"
+
+#: RuleBuildCityTurn.cpp:104
+#, c-format
+msgid "%s, place a city."
+msgstr "%s, поставьте город."
+
+#: RuleBuildCityTurn.cpp:105
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "Ждем, пока %s поставит город."
+
+#: RuleBuyDevCardTurn.cpp:127
+#, c-format
+msgid "%s buys a Development Card."
+msgstr "%s покупает Карту Развития."
+
+#: RuleBuyDevCardTurn.cpp:140
+#, c-format
+msgid "You receive a %s card."
+msgstr "Вы получаете карту %s."
+
+#: RuleEndTurn.cpp:78
+#, c-format
+msgid "%s ends the turn."
+msgstr "%s завершает ход."
+
+#: RuleExecuteBankTrade.cpp:74
+#: RuleExecuteTrade.cpp:74
+#, c-format
+msgid "%s trades"
+msgstr "%s совершает сделку"
+
+#: RuleExecuteBankTrade.cpp:99
+msgid "to the bank for"
+msgstr "отдает в банк за"
+
+#: RuleExecuteBankTrade.cpp:184
+#, c-format
+msgid "%s undoes a bank trade."
+msgstr "%s возвращает сделку с банком."
+
+#: RuleExecuteLose7.cpp:62
+#, c-format
+msgid "%s loses"
+msgstr "%s теряет"
+
+#: RuleExecuteMonopolyCard.cpp:67
+#, c-format
+msgid "%s steals"
+msgstr "%s крадет"
+
+#: RuleExecuteMonopolyCard.cpp:101
+#, c-format
+msgid "%d %s from %s"
+msgstr "%d %s у %s"
+
+#: RuleExecuteMonopolyCard.cpp:112
+#: RuleRobberSteal.cpp:81
+#, c-format
+msgid "%s steals nothing."
+msgstr "%s ничего не крадет."
+
+#: RuleExecuteRobberSteal.cpp:122
+#, c-format
+msgid "You steal 1 %s from %s."
+msgstr "Вы украли 1 %s у %s."
+
+#: RuleExecuteRobberSteal.cpp:127
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr "%s крадет у вас 1 %s."
+
+#: RuleExecuteRobberSteal.cpp:132
+#, c-format
+msgid "%s steals 1 resource from %s."
+msgstr "%s крадет 1 ресурс у %s."
+
+#: RuleExecuteTrade.cpp:108
+#, c-format
+msgid "to %s for"
+msgstr "игроку %s за"
+
+#: RuleExecuteYearOfPlentyCard.cpp:62
+#, c-format
+msgid "%s selects"
+msgstr "%s выбирает"
+
+#: RuleGainLargestArmy.cpp:69
+#, c-format
+msgid "%s takes Largest Army."
+msgstr "%s получает Самую Большую Армию."
+
+#: RuleGainLongestRoad.cpp:73
+#, c-format
+msgid "%s takes Longest Road."
+msgstr "%s получает Длинную дорогу."
+
+#: RuleGatherResources.cpp:169
+#, c-format
+msgid "There is not enough %s in the bank. No one receives any."
+msgstr "В банке не хватает ресурса %s. Никто ничего не получает."
+
+#: RuleInitializeDevCards.cpp:75
+msgid "Dev"
+msgstr "Карта развития"
+
+#: RuleLoseLargestArmy.cpp:64
+#, c-format
+msgid "%s loses Largest Army."
+msgstr "%s теряет Самую Большую Армию."
+
+#: RuleLoseLongestRoad.cpp:68
+#, c-format
+msgid "%s loses Longest Road."
+msgstr "%s теряет Длинную дорогу."
+
+#: RulePlaceCity.cpp:110
+#, c-format
+msgid "%s places a city."
+msgstr "%s ставит город."
+
+#: RulePlaceCity.cpp:138
+#, c-format
+msgid "%s undoes a city."
+msgstr "%s убирает город."
+
+#: RulePlaceRoad.cpp:111
+#, c-format
+msgid "%s places a road."
+msgstr "%s ставит дорогу."
+
+#: RulePlaceRoad.cpp:148
+#, c-format
+msgid "%s undoes a road."
+msgstr "%s убирает дорогу."
+
+#: RulePlaceSettlement.cpp:114
+#, c-format
+msgid "%s places a settlement."
+msgstr "%s ставит поселение."
+
+#: RulePlaceSettlement.cpp:141
+#, c-format
+msgid "%s undoes a settlement."
+msgstr "%s убирает поселение."
+
+#: RulePlayCard.cpp:68
+#, c-format
+msgid "%s plays a %s card."
+msgstr "%s играет карту %s."
+
+#: RuleRestartPreRollCard.cpp:76
+#, c-format
+msgid "%s, play a card or roll the dice."
+msgstr "%s, играйте карту или бросайте кубики."
+
+#: RuleRestartPreRollCard.cpp:77
+#, c-format
+msgid "Waiting for %s to play a card or roll the dice."
+msgstr "Ждем, пока %s сыграет карту или бросит кубики."
+
+#: RuleRestartRobberSteal.cpp:64
+#, c-format
+msgid "%s, choose a player to steal a card from."
+msgstr "%s, у кого из игроков хотите украсть карту?"
+
+#: RuleRestartRobberSteal.cpp:65
+#, c-format
+msgid "Waiting for %s to steal a card."
+msgstr "Ждем, пока %s украдет карту."
+
+#: RuleRestartTurn.cpp:72
+#, c-format
+msgid "%s, it is your turn."
+msgstr "%s, Ваш ход."
+
+#: RuleRestartTurn.cpp:73
+#, c-format
+msgid "Waiting for %s to finish the turn."
+msgstr "Ждем, пока %s закончит ход."
+
+#: RuleRestartTurnLose7.cpp:134
+#, c-format
+msgid "%s, select resources to lose."
+msgstr "%s, выберите сбрасываемые ресурсы."
+
+#: RuleRestartTurnLose7.cpp:139
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "Ждем, пока %s сбросит ресурсы."
+
+#: RuleRestartTurnMonopoly.cpp:61
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s, выберайте ресурс."
+
+#: RuleRestartTurnMonopoly.cpp:62
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "Ждем, пока %s выберет украдываемый ресурс."
+
+#: RuleRestartTurnYearOfPlenty.cpp:61
+#, c-format
+msgid "%s, select two resources."
+msgstr "%s, выберите два ресурса."
+
+#: RuleRestartTurnYearOfPlenty.cpp:62
+#, c-format
+msgid "Waiting for %s to select two resources."
+msgstr "Ждем, пока %s выберет два ресурса."
+
+#: RuleRollDice.cpp:84
+#, c-format
+msgid "%s rolls a %d."
+msgstr "%s выбросил %d очков."
+
+#: RuleStartRobber.cpp:59
+#, c-format
+msgid "%s, place the robber."
+msgstr "%s, переставьте грабителя."
+
+#: RuleStartRobber.cpp:60
+#, c-format
+msgid "Waiting for %s to place the robber."
+msgstr "Ждем, пока %s переставит грабителя."
+
+#: RuleWin.cpp:103
+#, c-format
+msgid "%s wins the game!"
+msgstr "%s выиграл!"
+
+#: RuleWin.cpp:106
+#, c-format
+msgid "%s has won the game."
+msgstr "%s победил."
+

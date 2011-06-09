@@ -1,0 +1,75 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_DSP_PRIORITIES</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_CDPLAYMODES.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_INIT_FLAGS.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Defines"><H5>[Define]</A></H5>
+<H2><A NAME="FSOUND_DSP_PRIORITIES">FSOUND_DSP_PRIORITIES</A></H2>
+These default priorities are used by FMOD internal system DSP units.  They describe the <BR>
+position of the DSP chain, and the order of how audio processing is executed.<BR>
+You can actually through the use of FSOUND_DSP_GetxxxUnit (where xxx is the name of the DSP<BR>
+unit), disable or even change the priority of a DSP unit.<BR>
+<P>
+<TABLE>
+<TR VALIGN=top><TD><B>FSOUND_DSP_DEFAULTPRIORITY_CLEARUNIT</B></TD>
+<TD><I>0       /* DSP CLEAR unit - done first */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_DSP_DEFAULTPRIORITY_SFXUNIT</B></TD>
+<TD><I>100     /* DSP SFX unit - done second */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_DSP_DEFAULTPRIORITY_MUSICUNIT</B></TD>
+<TD><I>200     /* DSP MUSIC unit - done third */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_DSP_DEFAULTPRIORITY_USER</B></TD>
+<TD><I>300     /* User priority, use this as reference for your own DSP units */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_DSP_DEFAULTPRIORITY_FFTUNIT</B></TD>
+<TD><I>900     /* This reads data for FSOUND_DSP_GetSpectrum, so it comes after user units */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_DSP_DEFAULTPRIORITY_CLIPANDCOPYUNIT</B></TD>
+<TD><I>1000    /* DSP CLIP AND COPY unit - last */
+</I></TD>
+</TABLE>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_DSP_Create.html">FSOUND_DSP_Create</A>
+, 
+<A HREF="FSOUND_DSP_GetSpectrum.html">FSOUND_DSP_GetSpectrum</A>
+, 
+<A HREF="FSOUND_DSP_SetPriority.html">FSOUND_DSP_SetPriority</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

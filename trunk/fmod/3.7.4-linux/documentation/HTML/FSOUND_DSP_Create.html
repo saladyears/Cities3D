@@ -1,0 +1,185 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_DSP_Create</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_DSP_ClearMixBuffer.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_DSP_Free.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_DSP_Create">FSOUND_DSP_Create</A></H2>
+Creates a DSP unit, and places it in the DSP chain position specified by the priority<BR>
+parameter.  Read the remarks section carefully for issues regarding DSP units.<BR>
+DSP units are freed with FSOUND_DSP_Free.<BR>
+<P>
+<B>FSOUND_DSPUNIT *F_API </B><B> </B><B>FSOUND_DSP_Create</B><B>(</B><BR>
+<B>FSOUND_DSPCALLBACK </B><B> </B><I>callback</I><B>,</B><BR>
+<B>int </B><B> </B><I>priority</I><B>,</B><BR>
+<B>void *</B><I>userdata</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>callback</I></TD>
+<TD>This is a pointer to your DSP Unit callback, of type FSOUND_DSPCALLBACK.<BR>
+The prototype for a callback is declared in the following fashion.<BR>
+Callbacks must return a pointer to the buffer you work on, so that<BR>
+the next dsp unit can work on it.  <BR>
+Here is the simplest case:<BR>
+void *callback(void *originalbuffer, void *newbuffer, int length, void *userdata)<BR>
+{<BR>
+// originalbuffer = fsounds original mixbuffer.<BR>
+// newbuffer = the buffer passed from the previous DSP unit.<BR>
+// length = length in samples at this mix time.<BR>
+// param = user parameter passed through in FSOUND_DSP_Create.<BR>
+//<BR>
+// modify the buffer in some fashion<BR>
+return newbuffer;<BR>
+}<BR>
+See the definition of FSOUND_DSPCALLBACK for more.<BR>
+</TD><TR VALIGN=top><TD><I>priority</I></TD>
+<TD>Order in the priority chain.  Valid numbers are 0 to 1000, 0 being<BR>
+highest priority (first), with 1000 being lowest priority (last).<BR>
+Note that FSOUNDs soundeffects mixers and copy routines are considered<BR>
+part of this DSP unit chain which you can play with.<BR>
+</TD><TR VALIGN=top><TD><I>param</I></TD>
+<TD>User defined parameter, this gets passed into the callback when it is<BR>
+called.  It is safe to leave this value 0.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, a pointer to a new valid DSP unit is returned.<BR>
+On failure, NULL is returned.<BR>
+<H3>Remarks</H3>
+A dsp unit is NOT ACTIVE by default.  You have to activate it with FSOUND_DSP_SetActive<BR>
+---------------------------------------------------------------------------------------<BR>
+Priorities and default system units.<BR>
+---------------------------------------------------------------------------------------<BR>
+A note on priorities.  FSOUND processes DSP units in order of priority.  A 0 priority<BR>
+unit gets processed first, a 1 priority unit gets processed next, and so on.  <BR>
+FSOUND actually uses these DSP units to mix its sound effects and music!  Yes, you have<BR>
+access to them (be careful!).  It is possible to totally remove, replace or deactivate <BR>
+all of FSOUND's system units so that it does nothing at all!<BR>
+FSOUND has preinstalled default system units at the following priority locations:<BR>
+FSOUND_DSP_DEFAULTPRIORITY_CLEARUNIT (priority 0) - Clear Unit.  This unit clears out <BR>
+the mixbuffer for the next units to mix into.  You can disable this unit and replace<BR>
+it with something other than a clearer, such as a scaler, which fades down the mix<BR>
+buffer instead of clearing it, to produce a very rough echo effect.<BR>
+FSOUND_DSP_DEFAULTPRIORITY_SFXUNIT (priority 100) - SFX Unit.  This unit mixes sound <BR>
+effect channels into the mix buffer, which was previously cleared with the Clear <BR>
+Unit.  <BR>
+FSOUND_DSP_DEFAULTPRIORITY_MUSICUNIT (priority 200) - Music Unit.  This unit mixes all <BR>
+music channels into the mix buffer, which was previously mixed into with the SFX <BR>
+Unit.  <BR>
+FSOUND_DSP_DEFAULTPRIORITY_CLIPANDCOPYUNIT (priority 1000) - Clip and Copy Unit.  This <BR>
+unit takes the finally mixed buffer, and clips it to the output stream size (if it<BR>
+needs to), and then sends it off to the sound device.  It is done last.  If this is<BR>
+disabled you will hear no sound.<BR>
+---------------------------------------------------------------------------------------<BR>
+Buffer Lengths.<BR>
+---------------------------------------------------------------------------------------<BR>
+The 'length' value of the DSP callback is roughly 20ms worth of data.<BR>
+Use FSOUND_DSP_GetBufferLength to get the exact callback length.<BR>
+---------------------------------------------------------------------------------------<BR>
+Buffer Widths<BR>
+---------------------------------------------------------------------------------------<BR>
+Remember that FSOUND uses different buffer types depending on what type of mixer it is.<BR>
+You will have to compensate for this by writing different routines depending on the <BR>
+mixer type (ie mmx or non mmx), just like FSOUND does.  <BR>
+Currently there are the 3 types of mixers and their buffer sizes.<BR>
+You can get the type of mixer being used by calling the FSOUND_GetMixer function.<BR>
+You may want to check on this inside your callback, or set up a function pointer system,<BR>
+whatever you think is suitable (it costs nothing to do a FSOUND_GetMixer every time).<BR>
+- FSOUND_MIXER_BLENDMODE : This buffer is a stereo, signed 32bit buffer (8 bytes per <BR>
+sample).  The data is in integer format.<BR>
+Data written to this buffer is not clipped and passed to the output stream until the <BR>
+very end of the chain (the clip and copy unit).  For this type of mixer, you dont <BR>
+have to worry about clipping becuase FSOUND does this for you.<BR>
+- FSOUND_MIXER_QUALITY_FPU / FSOUND_MIXER_QUALITY_FPU_VOLUMERAMP: This buffer is also a <BR>
+stereo, signed 32bit buffer (8 bytes per sample).  This data is in floating point <BR>
+format.<BR>
+The same clip and copy rules apply here as for the above mixer.<BR>
+- Any MMX based mixer : This buffer is a stereo, signed 16bit buffer (4 bytes per sample).<BR>
+When writing to this buffer, you must make sure the result does not overflow this <BR>
+signed 16bit range.<BR>
+If you add data into to this buffer, make sure it is clipped to a signed 16bit range<BR>
+before writing it back.  FSOUND only copies this data to the output stream, it does<BR>
+not clip it.<BR>
+---------------------------------------------------------------------------------------<BR>
+Speed<BR>
+---------------------------------------------------------------------------------------<BR>
+DSP Units are processed then and there, inside the mixing routine.  Remember to make<BR>
+your process as FAST as possible, or the output device's play cursor will catch up to<BR>
+FSOUND's write cursor while your routine takes its time to complete, and make it start <BR>
+to break up.  <BR>
+So basically, if it isnt fast, then FSOUND will not be able to send the data to the<BR>
+output device in time for the next mixer update, and the result will be corrupted sound.<BR>
+FSOUND_DSP_MixBuffers is available now, so if you need to mix some raw data into the output <BR>
+buffer quickly, you can use FSOUND's own optimized mixer directly to do it!<BR>
+Finally, you can see how your routine affects cpu usage, by using FSOUND_GetCPUUsage.<BR>
+The cpu usage returned by this function includes any time spent in DSP units as well.<BR>
+(this function times everything).  If you are really bored, you can see how much FSOUND's<BR>
+system units take cpu-wise, by turning them on and off and seeing how they affect <BR>
+performance.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_DSP_Create.html">FSOUND_DSP_Create</A>
+, 
+<A HREF="FSOUND_DSP_Free.html">FSOUND_DSP_Free</A>
+, 
+<A HREF="FSOUND_DSP_GetBufferLength.html">FSOUND_DSP_GetBufferLength</A>
+, 
+<A HREF="FSOUND_DSP_GetBufferLengthTotal.html">FSOUND_DSP_GetBufferLengthTotal</A>
+, 
+<A HREF="FSOUND_DSP_MixBuffers.html">FSOUND_DSP_MixBuffers</A>
+, 
+<A HREF="FSOUND_DSP_PRIORITIES.html">FSOUND_DSP_PRIORITIES</A>
+, 
+<A HREF="FSOUND_DSP_SetActive.html">FSOUND_DSP_SetActive</A>
+, 
+<A HREF="FSOUND_DSP_SetPriority.html">FSOUND_DSP_SetPriority</A>
+, 
+<A HREF="FSOUND_DSPCALLBACK.html">FSOUND_DSPCALLBACK</A>
+, 
+<A HREF="FSOUND_GetCPUUsage.html">FSOUND_GetCPUUsage</A>
+, 
+<A HREF="FSOUND_GetMixer.html">FSOUND_GetMixer</A>
+, 
+<A HREF="FSOUND_MIXERTYPES.html">FSOUND_MIXERTYPES</A>
+, 
+<A HREF="FSOUND_PlaySoundEx.html">FSOUND_PlaySoundEx</A>
+, 
+<A HREF="FSOUND_Stream_CreateDSP.html">FSOUND_Stream_CreateDSP</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:58 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>DX8 FSOUND_FX Tutorial - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>FSOUND FX API</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	The FSOUND_FX api allows you to do special effects processing per channel through Direct X 8 only.<br>
+	You can do such effects as chorus, compression, distortion, echo, flange, gargle, reverb, and EQ through a simple API.<br>
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Limitations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	Before using the FSOUND_FX api, there are a few limitations that must be known about because of the DirectX API.<br>
+	<br>
+    <li> FX enabled samples can only be played once at a time, not multiple times at once.
+    <li> Samples or streams have to be created with <b>FSOUND_HW2D</b> or <b>FSOUND_HW3D</b>, and <b>FSOUND_ENABLEFX</b> for this to work.
+	<li> If you are using DirectX 8, FSOUND_SetFrequency will not work any more for that sound, you cannot change the pitch of a FX enabled sound.  This is a DirectX limitation.  Direct X 9 does not have this limitation.
+    <li> <a href="../HTML/FSOUND_FX_Enable.html">FSOUND_FX_Enable</a> cannot be called if the sound is playing or locked.
+    <li> If <a href="../HTML/FSOUND_FX_Disable.html">FSOUND_FX_Disable</a> is not called effects will build up on top of each other every time <a href="../HTML/FSOUND_FX_Enable.html">FSOUND_FX_Enable</a> is called.
+	<br>
+	Once these are taken into account, you can go for it!
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Using it&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	You have to use the pause feature of <a href ="../HTML/FSOUND_PlaySoundEx.html">FSOUND_PlaySoundEx</a> for this API to work.<br>
+	The reason for this is DirectX needs a channel resource in hardware to be allocated, and so actually PLAYED (but paused) before the FX functions can succeed.<br>
+	<br>
+	Once you have it played but paused, you can enable multiple effects on one channel, and even the same effect multiple times on the same channel, then unpause it to hear what happens, but at this point you cannot enable more effects.  It has to be paused or restarted.<br>
+	You can update the parameters of effects while they are playing or while it is paused.<br>
+	<br>
+	Here is an example<br>
+	<br>
+	<UL>
+	<b>
+	int channel, echoid, echoid2;<br>
+	channel = <a href ="../HTML/FSOUND_PlaySoundEx.html">FSOUND_PlaySoundEx</a>(FSOUND_FREE, samp2, DrySFXUnit, TRUE);     <br>
+	<br>
+	echoid  = <a href ="../HTML/FSOUND_FX_Enable.html">FSOUND_FX_Enable</a>(channel, FSOUND_FX_ECHO); 	<font color="#6060bF"><i>// enable echo and get the first echo handle</i><font color="#00005f"><br>
+	echoid2 = <a href ="../HTML/FSOUND_FX_Enable.html">FSOUND_FX_Enable</a>(channel, FSOUND_FX_ECHO);    <font color="#6060bF"><i>// enable echo again and get the second echo handle</i><font color="#00005f"><br>
+	<a href ="../HTML/FSOUND_FX_Enable.html">FSOUND_FX_Enable</a>(channel, FSOUND_FX_FLANGER);			<font color="#6060bF"><i>// enable the flange effect, don't bother with the handle, we'll just use the default parameters</i><font color="#00005f"><<br>
+	<br>
+	<a href ="../HTML/FSOUND_SetPaused.html">FSOUND_SetPaused</a>(channel, FALSE);<font color="#6060bF"><i> // now start the sound playing</i><font color="#00005f"><br>
+	<br>
+	<a href ="../HTML/FSOUND_FX_SetEcho.html">FSOUND_FX_SetEcho</a>(echoid,  80.0f, 70.0f, 100.0f, 100.0f, TRUE);	<font color="#6060bF"><i>// Alter the parameters of the first echo for the channel it was enabled on.  This handle is unique to this effect and this channel.  The 2nd echo we enabled will be unaffected</i><font color="#00005f"><br>
+	</b>
+	</UL>
+	<BR>
+	This process must be repeated as when a sound is restarted, all FX information is reset, so effects must be enabled each time.
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">FX on the 'output' channel.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This is a special feature which allows you to enable effects on the output result of the software mixed channels!<br>
+	If you specify <b>FSOUND_INIT_ENABLESYSTEMCHANNELFXX</b> in the flags field of <a href = "../HTML/FSOUND_Init.html">FSOUND_Init</a>.<br>
+	The channel ID to use for altering the output result is <b>FSOUND_SYSTEMCHANNEL</b>.  Call <a href="../HTML/FSOUND_SetPaused.html">FSOUND_SetPaused</a> on this to enable effects.  This will stop all software mixed sound effects.
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">FSOUND_FX + Spectrum and DSP?.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+
+	To use the FSOUND_FX api to do fx on channels requires <b>FSOUND_HW2D</b> or <b>FSOUND_HW3D</b> (and <b>FSOUND_ENABLEFX</b>) flags to work.<br>
+	You may notice if you do this, you will lose the ability to do <a href="../HTML/FSOUND_DSP_GetSpectrum.html">FSOUND_DSP_GetSpectrum</a> or any DSP unit will not register, because FSOUND_FX channels play in hardware, and don't run through the FMOD DSP Engine.<br>
+	<br>
+	There is a way to do this though.  Instead of performing EQ on a channel by channel basis, perform it on the global software mix output.<br>
+	<br>
+	This means you can't have per channel control, but if you are just looking for a way to do EQ on your audio for example, then use the following method.<br>
+	<br>
+	<li>Call <b><a href ="../HTML/FSOUND_SetBufferSize.html">FSOUND_SetBufferSize</a>(100);</b>  When you call <b><a href = "../HTML/FSOUND_Init.html">FSOUND_Init</a></b> with <b>FSOUND_INIT_ENABLESYSTEMCHANNELFX</b> (see step 2) you will need a big enough software engine buffer to allow FX to be processed.  FMOD defaults to 50 which is too small.  This is a limitation of DirectSound and needs to be taken care of.<br>
+	<li>Use <b>FSOUND_INIT_ENABLESYSTEMCHANNELFX</b>in <b><a href = "../HTML/FSOUND_Init.html">FSOUND_Init</a></b>.  This will ready the software engine output to have the FX api used on it.<br>
+	<li>Pause the software engine.  You always need to pause the source when using <b><a href ="../HTML/FSOUND_FX_Enable.html">FSOUND_FX_Enable</a></b> (see step 3), so call <b><a href ="../HTML/FSOUND_SetPaused.html">FSOUND_SetPaused</a>(FSOUND_SYSTEMCHANNEL, TRUE);</b><br>
+	<li>Call <b><a href ="../HTML/FSOUND_FX_Enable.html">FSOUND_FX_Enable</a></b> to create all your FX handles (EQ, distortion whatever).<br>
+	<li>Unpause the software engine.  <b><a href ="../HTML/FSOUND_SetPaused.html">FSOUND_SetPaused</a>(FSOUND_SYSTEMCHANNEL, FALSE);</b><br>
+	<li>Now you are ready! Create streams and sounds in software mode (<b>FSOUND_NORMAL</b> - <i>don't</i> use <b>FSOUND_HW2D</b> or <b>FSOUND_HW3D</b>)<br>
+	<br>
+	Now that all your sounds and streams are in software, you get spectrum analysis back, and also you can use the DSP engine for your own software processing or oscilliscope plotting - with the added benefit of FSOUND_FX processing!<br>
+	</UL>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

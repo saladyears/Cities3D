@@ -1,0 +1,130 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_STREAM_NET_INFO</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_REVERB_PROPERTIES.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_CAPS.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Structures"><H5>[Structure]</A></H5>
+<H2><A NAME="FSOUND_STREAM_NET_INFO">FSOUND_STREAM_NET_INFO</A></H2>
+Structure providing information on an open internet stream.<BR>
+<P>
+<H3>Members</H3>
+<TABLE>
+<TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>hostname</I></TD>
+<TD>/* Host that this stream is being served from */<BR>
+</TD><TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>remotefile</I></TD>
+<TD>/* Filename of this stream on the remote host */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>protocol</I></TD>
+<TD>/* FSOUND_STREAM_NET_PROTOCOL - What protocol this stream is using */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>format</I></TD>
+<TD>/* FSOUND_STREAM_NET_FORMAT   - What file format this stream is using */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>status</I></TD>
+<TD>/* FSOUND_STREAM_NET_STATUS   - Status of this stream - connecting, buffering etc. */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>buffersize</I></TD>
+<TD>/* Size of the stream read buffer in bytes */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>bufferused</I></TD>
+<TD>/* How many bytes of data currently in the stream read buffer */<BR>
+</TD><TR VALIGN=top><TD><B>unsigned int</B></TD>
+<TD><I>sizebytes</I></TD>
+<TD>/* (HTTP Only) Size of the stream */<BR>
+</TD><TR VALIGN=top><TD><B>unsigned int</B></TD>
+<TD><I>bytesread</I></TD>
+<TD>/* How many compressed bytes have been read from the stream */<BR>
+</TD><TR VALIGN=top><TD><B>char       **</B></TD>
+<TD><I>comments</I></TD>
+<TD>/* Pointer to an array of comment (metadata) strings */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>numcomments</I></TD>
+<TD>/* How many comment (metadata) strings are in the array pointed to by 'comments' */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>metadatanum</I></TD>
+<TD>/* Incremented each time a new batch of metadata is read */<BR>
+</TD><TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>notice1</I></TD>
+<TD>/* (SHOUTcast only) General notice sent by the server */<BR>
+</TD><TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>notice2</I></TD>
+<TD>/* (SHOUTcast only) General notice sent by the server */<BR>
+</TD><TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>name</I></TD>
+<TD>/* The name of the stream */<BR>
+</TD><TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>genre</I></TD>
+<TD>/* (SHOUTcast only) The genre of the stream */<BR>
+</TD><TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>description</I></TD>
+<TD>/* (Icecast2 only) A description of the stream */<BR>
+</TD><TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>url</I></TD>
+<TD>/* A URL associated with this stream */<BR>
+</TD><TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>irc</I></TD>
+<TD>/* An IRC channel associated with this stream */<BR>
+</TD><TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>icq</I></TD>
+<TD>/* An ICQ number associated with this stream */<BR>
+</TD><TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>aim</I></TD>
+<TD>/* An AIM number associated with this stream */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>pub</I></TD>
+<TD>/* 1 = this stream is public, 0 = this stream is not public */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>metaint</I></TD>
+<TD>/* (SHOUTcast only) The number of compressed bytes between metadata chunks */<BR>
+</TD><TR VALIGN=top><TD><B>char        *</B></TD>
+<TD><I>bitrate</I></TD>
+<TD>/* A string describing the bitrate of the stream i.e. "128" or "Quality 0" */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>currentbitrate</I></TD>
+<TD>/* The current (i.e. instantaneous) bitrate of the stream i.e. 128, 192, 187 etc. */<BR>
+</TD></TABLE>
+<H3>See Also</H3>
+<A HREF="FSOUND_STREAM_NET_FORMAT.html">FSOUND_STREAM_NET_FORMAT</A>
+, 
+<A HREF="FSOUND_Stream_Net_GetInfo.html">FSOUND_Stream_Net_GetInfo</A>
+, 
+<A HREF="FSOUND_STREAM_NET_PROTOCOL.html">FSOUND_STREAM_NET_PROTOCOL</A>
+, 
+<A HREF="FSOUND_STREAM_NET_STATUS.html">FSOUND_STREAM_NET_STATUS</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Thu Jul 31 17:10:14 2003
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

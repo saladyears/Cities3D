@@ -1,0 +1,61 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+# 
+# This program is free software; you can redistribute it and/or modify it 
+# under the terms of the GNU General Public License as published by the Free 
+# Software Foundation; either version 2 of the License, or (at your option) 
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but 
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+# for more details.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-06 13:42-0600\n"
+"PO-Revision-Date: 2005-09-07 20:32-0700\n"
+"Last-Translator: Jason Fugate <jfugate@settlers3d.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Strings.cpp:85
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+#: Strings.cpp:86
+msgid "Export"
+msgstr "Exportar"
+
+#: Strings.cpp:87
+msgid "Extract"
+msgstr "Extraer"
+
+#: Strings.cpp:88
+msgid "Image Editor"
+msgstr ""
+
+#: Strings.cpp:89
+msgid "Import"
+msgstr "Importar"
+
+#: Strings.cpp:90
+msgid "Select a directory to export"
+msgstr "Seleccione un directorio para exportar"
+
+#: Strings.cpp:91
+msgid "Select a directory to extract the files in"
+msgstr "Seleccione un directorio para extraer los archivos"
+
+#: Strings.cpp:92
+#, fuzzy
+msgid "Select a .tex file to import."
+msgstr "Seleccione un archivo .tex para importar"
+
+#: Strings.cpp:93
+msgid "Size"
+msgstr "Tamaño"

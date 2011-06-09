@@ -1,0 +1,13 @@
+nobase_pkgdata_DATA = \
+	data/mapkey.db \
+	data/maps.db \
+	\
+	{{OPTIONS}}
+	\
+	{{SKINS}}
+	\
+	{{LOCALE}}
+	\
+	{{SOUNDS}}
+	\
+	{{TEX}}

@@ -1,0 +1,119 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Sample_Alloc</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Reverb_SetProperties.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Sample_Free.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Sample_Alloc">FSOUND_Sample_Alloc</A></H2>
+Allocates a new empty sample.  Used if you want to create a sample from scratch and fill the databuffer with your own data (using FSOUND_Sample_Lock or FSOUND_Sample_Upload), instead of just loading a file with FSOUND_Sample_Load.<BR>
+<P>
+<B>FSOUND_SAMPLE * F_API </B><B> </B><B>FSOUND_Sample_Alloc</B><B>(</B><BR>
+<B>int </B><B> </B><I>index</I><B>,</B><BR>
+<B>int </B><B> </B><I>length</I><B>,</B><BR>
+<B>unsigned int </B><B> </B><I>mode</I><B>,</B><BR>
+<B>int </B><B> </B><I>deffreq</I><B>,</B><BR>
+<B>int </B><B> </B><I>defvol</I><B>,</B><BR>
+<B>int </B><B> </B><I>defpan</I><B>,</B><BR>
+<B>int </B><B> </B><I>defpri</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>index</I></TD>
+<TD>Sample pool index.	See remarks for more on the sample pool.<BR>
+0 or above - The absolute index into fsounds sample pool.  The pool will grow as <BR>
+the index gets larger.  If a slot is already used it will be replaced.<BR>
+FSOUND_FREE - Let FSOUND select an arbitrary sample slot. <BR>
+FSOUND_UNMANAGED - Dont have fsound free this sample upon FSOUND_Close<BR>
+</TD><TR VALIGN=top><TD><I>length</I></TD>
+<TD>The length in of the sample buffer in SAMPLES.<BR>
+</TD><TR VALIGN=top><TD><I>mode</I></TD>
+<TD>Bitfield describing various characteristics of the sample.  Valid parameters are <BR>
+described in FSOUND_MODES.<BR>
+</TD><TR VALIGN=top><TD><I>deffreq</I></TD>
+<TD>Default frequency for this sample.<BR>
+</TD><TR VALIGN=top><TD><I>defvol</I></TD>
+<TD>Default volume for this sample.<BR>
+</TD><TR VALIGN=top><TD><I>defpan</I></TD>
+<TD>Default pan for this sample.<BR>
+</TD><TR VALIGN=top><TD><I>defpri</I></TD>
+<TD>Default priority for this sample.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, a pointer to an allocated sample is returned.<BR>
+On failure, NULL is returned.<BR>
+<H3>Remarks</H3>
+FMOD has a sample management system that holds onto any samples loaded or allocated, and<BR>
+frees them all when you call FSOUND_Close.  It takes the hassle out of having to keep hold<BR>
+of a lot of sample handles and remember to free them all at the end of your application.<BR>
+It is basically an expandle array of handles that holds each sample until FMOD closes down where it does<BR>
+a cleanup.  FSOUND_UNMANAGED can be used NOT to use the sample management system.<BR>
+------------<BR>
+FSOUND_Sample_Alloc is only nescessary for lower level operations with sample data.  Usually <BR>
+FSOUND_Load does the work for you.  lower level operations mean such things as uploading data from memory or <BR>
+your own compressed data for example.<BR>
+You can create a new sample from scratch by doing the following operations<BR>
+1. Allocate a new sample with FSOUND_Sample_Alloc<BR>
+2. Write data to the sample buffer with FSOUND_Sample_Lock and FSOUND_Sample_Unlock, or <BR>
+FSOUND_Sample_Upload.<BR>
+Note FSOUND_Sample_Lock only returns a pointer to the sample data, whereas <BR>
+FSOUND_Sample_Upload does a copy from data you give it, with format conversion to the <BR>
+correct format.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Close.html">FSOUND_Close</A>
+, 
+<A HREF="FSOUND_MODES.html">FSOUND_MODES</A>
+, 
+<A HREF="FSOUND_Sample_Alloc.html">FSOUND_Sample_Alloc</A>
+, 
+<A HREF="FSOUND_Sample_Free.html">FSOUND_Sample_Free</A>
+, 
+<A HREF="FSOUND_Sample_Load.html">FSOUND_Sample_Load</A>
+, 
+<A HREF="FSOUND_Sample_Lock.html">FSOUND_Sample_Lock</A>
+, 
+<A HREF="FSOUND_Sample_SetDefaults.html">FSOUND_Sample_SetDefaults</A>
+, 
+<A HREF="FSOUND_Sample_SetLoopPoints.html">FSOUND_Sample_SetLoopPoints</A>
+, 
+<A HREF="FSOUND_Sample_Unlock.html">FSOUND_Sample_Unlock</A>
+, 
+<A HREF="FSOUND_Sample_Upload.html">FSOUND_Sample_Upload</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

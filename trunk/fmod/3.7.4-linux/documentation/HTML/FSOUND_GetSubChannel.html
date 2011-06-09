@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_GetSubChannel</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_GetSFXMasterVolume.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_GetSurround.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_GetSubChannel">FSOUND_GetSubChannel</A></H2>
+This function returns a channel handle from a subchannel within a multichannel FSB file, so that it can be maniuplated seperately, instead of controlling the whole multichannel array with the parent channel that the user retrieves from FSOUND_PlaySound etc.<BR>
+<P>
+<B>int F_API </B><B> </B><B>FSOUND_GetSubChannel</B><B>(</B><BR>
+<B>int </B><B> </B><I>channel</I><B>,</B><BR>
+<B>int </B><B> </B><I>subchannel</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>channel</I></TD>
+<TD>The value returned by FSOUND_Stream_Play, FSOUND_Stream_PlayEx, FSOUND_PlaySound, FSOUND_PlaySoundEx.<BR>
+</TD><TR VALIGN=top><TD><I>subchannel</I></TD>
+<TD>Offset from the parent channel into the multichannel array.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, a raw channel handle is returned.<BR>
+On failure, -1 is returned.<BR>
+<H3>Remarks</H3>
+A multichannel sound, only possible with the .FSB format, can contain multiple subchannels.  When a multichannel sound is played, multiple channels are allocated at the same time.<BR>
+Normally you can just use the parent handle, and things like FSOUND_SetVolume will affect all subchannels at the same time.  With this function, you can get access to the raw subchannels to allow manipulation of each voice seperately within the multichannel array.<BR>
+For example, a 8 sounds/streams can be interleaved into a multichannel FSB.  If you specified a subchannel of 7, it would return a channel handle to the last channel in the multichannel array.<BR>
+A subchannel index of 0 is the parent channel, and the same as the voice passed in is a parameter.<BR>
+The number of subchannels within a multichannel voice can be determined with FSOUND_GetNumSubChannels.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_GetNumSubChannels.html">FSOUND_GetNumSubChannels</A>
+, 
+<A HREF="FSOUND_PlaySound.html">FSOUND_PlaySound</A>
+, 
+<A HREF="FSOUND_PlaySoundEx.html">FSOUND_PlaySoundEx</A>
+, 
+<A HREF="FSOUND_SetVolume.html">FSOUND_SetVolume</A>
+, 
+<A HREF="FSOUND_Stream_Play.html">FSOUND_Stream_Play</A>
+, 
+<A HREF="FSOUND_Stream_PlayEx.html">FSOUND_Stream_PlayEx</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

@@ -1,0 +1,69 @@
+<HTML>
+<HEAD>
+<TITLE>The Test Tools</TITLE>
+<LINK rel="stylesheet" type="text/css" href="../../../style/btl.css" media="screen">
+<LINK rel="stylesheet" type="text/css" href="../../../style/btl-print.css" media="print">
+<META http-equiv="Content-Language" content="en-us">
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<STYLE type="text/css">
+H4
+{
+    margin:     0px;
+}
+</STYLE>
+</HEAD>
+<BODY>
+<DIV class="body"> 
+  <H3>BOOST_WARN_PREDICATE( predicate, arguments_list )<BR>
+  BOOST_CHECK_PREDICATE( predicate, arguments_list )<BR>
+  BOOST_REQUIRE_PREDICATE( predicate, arguments_list )</H3>
+  <P class="first-line-indented">These are generic tools used to validate
+    an arbitrary supplied predicate functor (there is a compile time limit
+    on predicate arity defined by the configurable macro BOOST_TEST_MAX_PREDICATE_ARITY).
+    To validate zero arity predicate use <A href="BOOST_CHECK.html" target="descr">BOOST_&lt;level&gt;</A> tools.
+    In other cases prefer theses tools. The advantage of these tools is that
+    they show arguments runtime values in case of predicate failure.</P>
+  <P class="first-line-indented">The first parameter is the predicate itself.
+    The second parameter is
+    the list of predicate arguments each wrapped in round brackets (BOOST_PP
+    sequence format).</P>
+  <H4>Example: test.cpp</H4>
+<PRE class="code"><SPAN class="cpp-type">bool</SPAN> moo( <SPAN class="cpp-type">int</SPAN> arg1, <SPAN class="cpp-type">int</SPAN> arg2, <SPAN class="cpp-type">int</SPAN> mod ) { <SPAN class="reserv-word">return</SPAN> ((arg1+arg2) % mod) == 0; }
+
+<SPAN class="cpp-type">int</SPAN> test_main( <SPAN class="cpp-type">int</SPAN>, <SPAN class="cpp-type">char</SPAN>* [] ) {
+    <SPAN class="cpp-type">int</SPAN> i = <SPAN class="literal">17</SPAN>;
+    <SPAN class="cpp-type">int</SPAN> j = <SPAN class="literal">15</SPAN>;
+    unit_test_log.set_threshold_level( log_warnings );
+    BOOST_WARN( moo( 12,i,j ) );
+    BOOST_WARN_PREDICATE( moo, (12)(i)(j) );
+
+    <SPAN class="reserv-word">return</SPAN> <SPAN class="literal">0</SPAN>;
+}
+</PRE>
+  <H4>Output:</H4>
+  <P class="test-output">test.cpp(7) : warning in &quot;test_main&quot;: condition
+    moo( 12, i, j ) is not satisfied<BR>
+    test.cpp(8) : warning in &quot;test_main&quot;:
+  condition moo( 12, i, j ) is not satisfied for ( 12, 17, 15 )</P>
+  <H4>Example: test.cpp</H4>
+  <PRE class="code"><SPAN class="cpp-type">int</SPAN> test.cpp( <SPAN class="cpp-type">int</SPAN>, <SPAN class="cpp-type">char</SPAN>* [] ) {
+    <SPAN class="cpp-type">int</SPAN> i = <SPAN class="literal">17</SPAN>;
+
+    BOOST_CHECK_PREDICATE( std::not_equal_to&lt;<SPAN class="cpp-type">int</SPAN>&gt;(), <SPAN class="literal">2</SPAN>, (i,<SPAN class="literal">17</SPAN>) );
+
+    <SPAN class="reserv-word">return</SPAN> <SPAN class="literal">0</SPAN>;
+}
+</PRE>
+  <H4>Output:</H4>
+  <P class="test-output">test.cpp(3) : error in test_main: test std::not_equal_to&lt;int&gt;()(i, 17) 
+    failed for (17, 17) </P>
+  <DIV class="see_also"> 
+    <H4>See Also</H4>
+    <P class="see-also-content"><A href="BOOST_CHECK.html" target="descr">BOOST_CHECK</A></P>
+  </DIV>
+</DIV>
+</BODY>
+</HTML>
+<!-- Copyright Gennadiy Rozental 2001-2005. 
+Distributed under the Boost Software License, Version 1.0. 
+(See accompanying file LICENSE_1_0.txt or copy at www.boost.org/LICENSE_1_0.txt) -->

@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>DSP Engine - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>DSP ENGINE</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This will briefly cover some of the essentials to using the FMOD DSP engine.<br>
+	The DSP engine allows you to read - and process the mixed sound data as it travels to the soundcard in its various phases.  This will be described in more detail below.<br>
+	Why would you want to do this?  It allows you to filter the data if you like.  You could add your own reverb, distortion, EQ to the global FMOD sound stream or anything that you can think of that involves sound data.<br>
+	Another reason is to read it and maybe do analysis or even just plot it as an oscilloscope for effect!
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">What is it?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	The DSP system drives FMOD's software engine.<br>
+	Roughly every 25 milliseconds (platform dependant), FMOD mixes a batch of data to be send to the sound device.<br>
+	To do this it executes a chain of algorithms to produce the sound.  This chain is executed every time and performs the various jobs such as mixing, clipping and calling user callbacks to process the sound data.<br>
+	At the low level, it is simply a linked list of callbacks.  Each time one of these callbacks is called it is passed in the mixer buffer.  You can see the callback of a DSP unit described here as <a href="../HTML/FSOUND_DSPCALLBACK.html">FSOUND_DSPCALLBACK</a>.<br>
+	<br>
+	Internally, FMOD uses these DSP callbacks to perform various stages of its own mixing routines.  It is always working with the <b>mixbuffer</b>.  This is simply a stereo buffer of integers or floats (depending on the mixer type set with <a href="../HTML/FSOUND_SetOutput.html">FSOUND_SetOutput</a> or determined with <a href="../HTML/FSOUND_GetOutput.html">FSOUND_GetOutput</a>.  It is just long enough to mix 25ms worth of data, so you could probably calculate how many samples it would contain based on the sample rate, and 25ms, but there is a function supplied to work this out for you <a href="../HTML/FSOUND_DSP_GetBufferLength.html">FSOUND_DSP_GetBufferLength</a><br>
+	<br>
+	<center>
+	<IMG src="dsp.gif">
+	</center>
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">The "System" DSP Units&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	The diagram above shows the system DSP units that are always present.
+	<br>
+	<li> <b>Clear Unit</b> - All this DSP unit does is silence the mix buffer by setting it all to 0's.  The next DSP units will generally fill in this data with audio by adding/accumulating to it (mixing).  You can get a handle to this unit simply by calling <a href="../HTML/FSOUND_DSP_GetClearUnit.html">FSOUND_DSP_GetClearUnit</a><br>
+	<li> <b>Mix SFX Unit</b> - This unit calls FMOD's internal optimized mixing routines and mixes any sound effects spawned by the user with <a href="../HTML/FSOUND_PlaySound.html">FSOUND_PlaySound</a> or <a href="../HTML/FSOUND_PlaySoundEx.html">FSOUND_PlaySoundEx</a>.  You can get a handle to this unit simply by calling <a href="../HTML/FSOUND_DSP_GetSFXUnit.html">FSOUND_DSP_GetSFXUnit</a><br>
+	<li> <b>Mix Music Unit</b> - This unit executes the FMUSIC music sequencing engine, and mixes the resulting channels used by the FMUSIC engine.  You can get a handle to this unit simply by calling <a href="../HTML/FSOUND_DSP_GetMusicUnit.html">FSOUND_DSP_GetMusicUnit</a><br>
+	<li> <b>FFT Unit</b> - This unit performs an FFT on the mixed output so that <a href="../HTML/FSOUND_DSP_GetSpectrum.html">FSOUND_DSP_GetSpectrum</a> can be used.  It is turned off by default due to the CPU expense incurred, so if you want to use the <a href="../HTML/FSOUND_DSP_GetSpectrum.html">FSOUND_DSP_GetSpectrum</a> function this needs to be turned on with <a href="../HTML/FSOUND_DSP_SetActive.html">FSOUND_DSP_SetActive</a> first.  You can get a handle to this unit simply by calling <a href="../HTML/FSOUND_DSP_GetFFTUnit.html">FSOUND_DSP_GetFFTUnit</a><br>
+	<li> <b>Clip and Copy Unit</b> - This is the final system unit in the FSOUND chain.  You can get a handle to this unit simply by calling <a href="../HTML/FSOUND_DSP_GetClipAndCopyUnit.html">FSOUND_DSP_GetClipAndCopyUnit</a><br>
+	<br>
+	The system units can be disabled, enabled and shifted around in this list!  You could even throw out the FSOUND software engine all together and replace it with your own!
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Priorities&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	Notice how in the diagram above each DSP unit had a 'priority'.  This is simply a numeric value determining its order in the DSP chain.
+	The lower the priority the earlier it gets executed.  Notice how the <b>Clear Unit</b> has a priority of 0, as it wants to be the very first unit executed.<br>
+	This is because it wouldn't make much sense to do anything before it, as the <b>Clear Unit</b> will just wipe it out with zero's anyway!<br>
+	You may disagree with this, well ok! (you may want to execute some non buffer altering logic like a timer that calls PlaySound every now and then for example), so you can simply move it with <a href="../HTML/FSOUND_DSP_SetPriority.html">FSOUND_DSP_SetPriority</a>.<br>
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Now its your turn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	You may be thinking, well this sounds like a good place if I wanted to create my own effects such as reverb or a low pass filter for example, or maybe you just want to read the data that comes in so you can graphically plot it!  Well you're right this is the place to do it.<br>
+	Just call <a href="../HTML/FSOUND_DSP_Create.html">FSOUND_DSP_Create</a>, and give it a callback, and a priority.  Set it active with <a href="../HTML/FSOUND_DSP_SetActive.html">FSOUND_DSP_SetActive</a> and immediately your DSP unit will be ticking.<br>
+	Now the data passed in will be either 16bit stereo integer (-32768 to +32767) or 32bit stereo floating point (-32768.0f to +32767.0f, not 0 to 1).   This can be determined by what mixer is being used at the time, with <a href="../HTML/FSOUND_GetMixer.html">FSOUND_GetMixer</a>.
+	It's up to you now what you do with this data.  One important thing to note is that FMOD mixes the data ahead of time, and the data you are processing is not the data that is immediately audible.  If you are thinking of plotting the data to sync with the audible output, it is wise to buffer the data in a circular buffer, for the number of samples specified by <a href="../HTML/FSOUND_DSP_GetBufferLengthTotal.html">FSOUND_DSP_GetBufferLengthTotal</a>.  This length is divisible by the DSP callback length (always a multiple of 25ms).<br>
+	From this point then you would plot the block of data preceding the one you are filling, which is the one playing at that point in time!<br>
+	See the FMOD example in the /samples/fmod directory for source code that does this, and many other examples of DSP processing.
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">FSOUND_PlaySoundEx and the <b>'FSOUND_DSPUNIT *dsp'</b> parameter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	The 'dsp' parameter in this new PlaySound command, allows you to assign or 'group' a channel to a specific DSP unit.  The dsp unit you assign has to be a new one and not an existing system unit, with no callback.<br>
+	A DSP unit with sound effects attached to it does nothing but execute channel mixing, as it replaces the DSP callback with its own internal mixer callback.<br>
+	One reason for doing this is having a wet/dry mix for an effect.  This is demonstrated in the /samples/dsp directory.  You may want to have some effects affected by reverb for example, but not others.  This is part of the reason the Music Unit is separate from the SFX unit, as you likely don't want music affected by DSP effects but do want the in-game sound effects to be affected.<br>
+	</UL>
+
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

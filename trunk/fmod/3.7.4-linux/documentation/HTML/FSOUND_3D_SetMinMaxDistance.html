@@ -1,0 +1,90 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_3D_SetMinMaxDistance</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_3D_SetDopplerFactor.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_3D_SetRolloffFactor.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_3D_SetMinMaxDistance">FSOUND_3D_SetMinMaxDistance</A></H2>
+Sets the minimum and maximum audible distance for a channel.<BR>
+MinDistance is the minimum distance that the sound emitter will cease to continue growing <BR>
+louder at (as it approaches the listener).  Within the mindistance it stays at the constant loudest volume possible.  Outside of this mindistance it begins to attenuate.<BR>
+MaxDistance is the distance a sound stops attenuating at.  Beyond this point it will stay at the volume it would be at maxdistance units from the listener and will not attenuate any more.<BR>
+MinDistance is useful to give the impression that the sound is loud or soft in 3d space.  An example of this is a small quiet object, such as a bumblebee, which you could set a mindistance of to 0.1 for example, which would cause it to attenuate quickly and dissapear when only a few meters away from the listener.<BR>
+Another example is a jumbo jet, which you could set to a mindistance of 100.0, which would keep the sound volume at max until the listener was 100 meters away, then it would be hundreds of meters more before it would fade out.<BR>
+-------<BR>
+In summary, increase the mindistance of a sound to make it 'louder' in a 3d world, and <BR>
+decrease it to make it 'quieter' in a 3d world.<BR>
+maxdistance is effectively obsolete unless you need the sound to stop fading out at a certain point.  Do not adjust this from the default if you dont need to.<BR>
+Some people have the confusion that maxdistance is the point the sound will fade out to, this is not the case.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_3D_SetMinMaxDistance</B><B>(</B><BR>
+<B>int </B><B> </B><I>channel</I><B>,</B><BR>
+<B>F_FLOAT_API </B><B> </B><I>min</I><B>,</B><BR>
+<B>F_FLOAT_API </B><B> </B><I>max</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>sptr</I></TD>
+<TD>The channel to have its minimum and maximum distance set.<BR>
+</TD><TR VALIGN=top><TD><I>min</I></TD>
+<TD>The channels minimum volume distance in "units".  See remarks for more on units.<BR>
+</TD><TR VALIGN=top><TD><I>max</I></TD>
+<TD>The channels maximum volume distance in "units".  See remarks for more on units.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+FSOUND_ALL is supported.  Passing this will set the min/max distance on ALL channels available.<BR>
+A 'distance unit' is specified by FSOUND_3D_SetDistanceFactor.  By default this is set to meters which is a distance scale of 1.0.  <BR>
+See FSOUND_3D_SetDistanceFactor for more on this.<BR>
+The default units for minimum and maximum distances are 1.0 and 1000000000.0f.<BR>
+Volume drops off at mindistance / distance.<BR>
+To define the min and max distance per sound and not per channel use FSOUND_Sample_SetMinMaxDistance.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_3D_GetMinMaxDistance.html">FSOUND_3D_GetMinMaxDistance</A>
+, 
+<A HREF="FSOUND_3D_SetAttributes.html">FSOUND_3D_SetAttributes</A>
+, 
+<A HREF="FSOUND_3D_SetDistanceFactor.html">FSOUND_3D_SetDistanceFactor</A>
+, 
+<A HREF="FSOUND_Sample_SetMinMaxDistance.html">FSOUND_Sample_SetMinMaxDistance</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:58 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

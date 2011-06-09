@@ -1,0 +1,86 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Close</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_CD_Stop.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_CLOSECALLBACK.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Close">FSOUND_Close</A></H2>
+Shuts down the WHOLE FMOD Sound System.<BR>
+<P>
+<B>void F_API </B><B> </B><B>FSOUND_Close</B><B>(</B><BR>
+<B>);</B><BR>
+<H3>Return Value</H3>
+void<BR>
+<H3>Remarks</H3>
+This also closes down the sample management system, freeing all MANAGED samples loaded (unless they were allocated with the FSOUND_UNMANAGED flag).<BR>
+Streams are not freed.  You must close them yourself.<BR>
+CD Tracks are stopped.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_CD_GetVolume.html">FSOUND_CD_GetVolume</A>
+, 
+<A HREF="FSOUND_CD_SetVolume.html">FSOUND_CD_SetVolume</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+, 
+<A HREF="FSOUND_Sample_Alloc.html">FSOUND_Sample_Alloc</A>
+, 
+<A HREF="FSOUND_Sample_Get.html">FSOUND_Sample_Get</A>
+, 
+<A HREF="FSOUND_Sample_Load.html">FSOUND_Sample_Load</A>
+, 
+<A HREF="FSOUND_SetBufferSize.html">FSOUND_SetBufferSize</A>
+, 
+<A HREF="FSOUND_SetDriver.html">FSOUND_SetDriver</A>
+, 
+<A HREF="FSOUND_SetHWND.html">FSOUND_SetHWND</A>
+, 
+<A HREF="FSOUND_SetMaxHardwareChannels.html">FSOUND_SetMaxHardwareChannels</A>
+, 
+<A HREF="FSOUND_SetMemorySystem.html">FSOUND_SetMemorySystem</A>
+, 
+<A HREF="FSOUND_SetMinHardwareChannels.html">FSOUND_SetMinHardwareChannels</A>
+, 
+<A HREF="FSOUND_SetMixer.html">FSOUND_SetMixer</A>
+, 
+<A HREF="FSOUND_SetOutput.html">FSOUND_SetOutput</A>
+, 
+<A HREF="FSOUND_SetSpeakerMode.html">FSOUND_SetSpeakerMode</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:58 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

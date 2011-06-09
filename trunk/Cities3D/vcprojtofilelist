@@ -1,0 +1,55 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use File::Basename qw(dirname);
+use Getopt::Long;
+
+sub usage()
+{
+    print "Usage: $0 [-b|--bulkbuild] -p|--project <vcprojectfile>\n";
+    exit;
+}
+
+my $project   = undef;
+my $bulkbuild = 0;
+
+GetOptions(
+    "p|project=s"       => \$project,
+    "b|bulkbuild"       => \$bulkbuild,
+);
+
+print "notfound\n" and exit unless -f $project;
+usage() unless $project;
+
+my $base = dirname($project);
+chomp $base;
+$base =~ s#^.*/##;
+my @files = ();
+
+open(FILE, '<', $project) or print "notfound\n" and exit; 
+
+while(<FILE>) {
+    if(/RelativePath="(.+\.(cpp|h))"/)
+    {
+        my $f=$1;
+        my $e=$2;
+
+        if ( $bulkbuild and not /bulkbuild/ )
+        {
+            next;
+        }
+
+        $f=~s#\\#/#g;
+        $f=~s#^\./##;
+        push @files, "$base/$f";
+    }
+}
+
+print "\t";
+print join " \\\n\t", @files;
+print "\n";
+
+close(FILE);
+

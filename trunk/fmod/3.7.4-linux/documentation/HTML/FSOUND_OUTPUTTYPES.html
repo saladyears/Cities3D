@@ -1,0 +1,84 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_OUTPUTTYPES</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_MIXERTYPES.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_SPEAKERMODES.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Enums"><H5>[Enum]</A></H5>
+<H2><A NAME="FSOUND_OUTPUTTYPES">FSOUND_OUTPUTTYPES</A></H2>
+These output types are used with FSOUND_SetOutput, to choose which output driver to use.<BR>
+FSOUND_OUTPUT_DSOUND will not support hardware 3d acceleration if the sound card driver <BR>
+does not support DirectX 6 Voice Manager Extensions.<BR>
+FSOUND_OUTPUT_WINMM is recommended for NT and CE.<BR>
+<P>
+<H3>Enumerators</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>FSOUND_OUTPUT_NOSOUND</I></TD>
+<TD>/* NoSound driver, all calls to this succeed but do nothing. */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_WINMM</I></TD>
+<TD>/* Windows Multimedia driver. */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_DSOUND</I></TD>
+<TD>/* DirectSound driver.  You need this to get EAX2 or EAX3 support, or FX api support. */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_A3D</I></TD>
+<TD>/* A3D driver. */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_OSS</I></TD>
+<TD>/* Linux/Unix OSS (Open Sound System) driver, i.e. the kernel sound drivers. */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_ESD</I></TD>
+<TD>/* Linux/Unix ESD (Enlightment Sound Daemon) driver. */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_ALSA</I></TD>
+<TD>/* Linux Alsa driver. */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_ASIO</I></TD>
+<TD>/* Low latency ASIO driver */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_XBOX</I></TD>
+<TD>/* Xbox driver */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_PS2</I></TD>
+<TD>/* PlayStation 2 driver */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_MAC</I></TD>
+<TD>/* Mac SoundManager driver */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_GC</I></TD>
+<TD>/* Gamecube driver */<BR>
+</TD><TR VALIGN=top><TD><I>FSOUND_OUTPUT_NOSOUND_NONREALTIME</I></TD>
+<TD>/* This is the same as nosound, but the sound generation is driven by FSOUND_Update */<BR>
+</TD></TABLE>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_GetOutput.html">FSOUND_GetOutput</A>
+, 
+<A HREF="FSOUND_SetOutput.html">FSOUND_SetOutput</A>
+, 
+<A HREF="FSOUND_Update.html">FSOUND_Update</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

@@ -1,0 +1,127 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Init</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_GetVolume.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_IOP_Alloc.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Init">FSOUND_Init</A></H2>
+Initializes the FMOD Sound System.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_Init</B><B>(</B><BR>
+<B>int </B><B> </B><I>mixrate</I><B>,</B><BR>
+<B>int </B><B> </B><I>maxsoftwarechannels</I><B>,</B><BR>
+<B>unsigned int </B><B> </B><I>flags</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>mixrate</I></TD>
+<TD>Output rate in hz between 4000 and 65535.  Any thing outside this will cause<BR>
+the function to fail and return FALSE.<BR>
+PS2 Note.   Only rates of 24000 and 48000 are supported.<BR>
+SmartPhone Note.  Use 22050 or the operating system may crash outside of the control of fmod.<BR>
+</TD><TR VALIGN=top><TD><I>maxchannels</I></TD>
+<TD>Maximum number of SOFTWARE channels available.<BR>
+The number of HARDWARE channels is autodetected.  The total number of channels available (hardware and software) after initialization can be found with FSOUND_GetMaxChannels.           <BR>
+Having a large number of maxchannels does not adversely affect cpu usage, but it means it has the POTENTIAL to mix a large number of channels, which can have an adverse effect on cpu usage.<BR>
+1024 is the highest number that can be set.  Anything higher will return an error.<BR>
+</TD><TR VALIGN=top><TD><I>flags</I></TD>
+<TD>See FSOUND_INIT_FLAGS.  Controls some global or initialization time aspects of playback.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+You do not have control over how many hardware channels are available to you.  In a lot of<BR>
+cases it may be 0 (the sound card does not have the ability to supply hardware channels).<BR>
+This is why it is usually a good idea to supply FSOUND_Init with a good number of software<BR>
+channels to fall back onto, for example 32.<BR>
+Hardware channels are 3D hardware channels only.  There is no benefit in supporting hardware<BR>
+for 2d playback of sound effects.  With todays machines and FMOD's superior mixing routines,<BR>
+FMOD's software engine can sometimes be faster than the driver's hardware support!  <BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Close.html">FSOUND_Close</A>
+, 
+<A HREF="FSOUND_File_SetCallbacks.html">FSOUND_File_SetCallbacks</A>
+, 
+<A HREF="FSOUND_GetCurrentLevels.html">FSOUND_GetCurrentLevels</A>
+, 
+<A HREF="FSOUND_GetDriverCaps.html">FSOUND_GetDriverCaps</A>
+, 
+<A HREF="FSOUND_GetFreeHWRam.html">FSOUND_GetFreeHWRam</A>
+, 
+<A HREF="FSOUND_GetMaxChannels.html">FSOUND_GetMaxChannels</A>
+, 
+<A HREF="FSOUND_GetMemoryStats.html">FSOUND_GetMemoryStats</A>
+, 
+<A HREF="FSOUND_GetOutputHandle.html">FSOUND_GetOutputHandle</A>
+, 
+<A HREF="FSOUND_GetOutputRate.html">FSOUND_GetOutputRate</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+, 
+<A HREF="FSOUND_INIT_FLAGS.html">FSOUND_INIT_FLAGS</A>
+, 
+<A HREF="FSOUND_PlaySound.html">FSOUND_PlaySound</A>
+, 
+<A HREF="FSOUND_PlaySoundEx.html">FSOUND_PlaySoundEx</A>
+, 
+<A HREF="FSOUND_SetBufferSize.html">FSOUND_SetBufferSize</A>
+, 
+<A HREF="FSOUND_SetDriver.html">FSOUND_SetDriver</A>
+, 
+<A HREF="FSOUND_SetHWND.html">FSOUND_SetHWND</A>
+, 
+<A HREF="FSOUND_SetMaxHardwareChannels.html">FSOUND_SetMaxHardwareChannels</A>
+, 
+<A HREF="FSOUND_SetMemorySystem.html">FSOUND_SetMemorySystem</A>
+, 
+<A HREF="FSOUND_SetMinHardwareChannels.html">FSOUND_SetMinHardwareChannels</A>
+, 
+<A HREF="FSOUND_SetMixer.html">FSOUND_SetMixer</A>
+, 
+<A HREF="FSOUND_SetOutput.html">FSOUND_SetOutput</A>
+, 
+<A HREF="FSOUND_SetSpeakerMode.html">FSOUND_SetSpeakerMode</A>
+, 
+<A HREF="FSOUND_SPU2_Alloc.html">FSOUND_SPU2_Alloc</A>
+, 
+<A HREF="FSOUND_Stream_Play.html">FSOUND_Stream_Play</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

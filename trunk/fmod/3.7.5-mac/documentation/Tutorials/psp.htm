@@ -1,0 +1,268 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>PlayStation Portable - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>PLAYSTATION PORTABLE SPECIFIC ISSUES / FEATURES</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This section describes how to get started with FMOD for PSP, and also some of the PSP specific features available.<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Getting Started&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		This section describes what you will need to link, and what you need to call to get up and running for PSP specifically.<br>
+        <br>
+		<br>
+		<b><u>What to link and loading modules.</u></b><br>
+        <br>
+        A simple PlayStation Portable application needs the following steps to be taken to use FMOD.<br>
+        <br>
+		<li>Link <b>/api/lib/fmod.a</b> into your project.<br>
+        <br>
+        FMOD requires the following sony libraries and modules to be used as well to get audio support.  They are linked and loaded by the user.<br>
+        <br>
+        <li>Link library <b>libsas.a</b> into your project.<br>
+        <li>Link weak import stub library file <b>libatrac3plus_stub_weak.a</b> into your project.<br>
+        <li>Load module file <b>sc_sascore.prx</b> at runtime.<br>
+        <br>
+        If you require AT3 playback support, load the following sony run-time modules.<br>
+        <br>
+        <li>Load module file <b>libatrac3plus.prx</b>   <br>
+        <li>Load module file <b>libaudiocodec.prx</b>   <br>
+        <br>
+		<b>Note</b> that the default position for sc_sascore.prx and audiocodec.prx is at <b>/usr/local/devkit/kmodule</b> but it may differ on your machine.<br>
+        libatrac3plus.prx can be found normally at <b>/usr/local/devkit/module</b>.
+		<br>
+		<br>
+        <br>
+		<b><u>Loading the modules.</u></b><br>
+		<br>
+		For examples on how to load sony modules, see the FMOD examples.
+        <br>
+		Load sony's <b>sc_sascore.prx</b>.  If AT3 support is desired also load  <b>audiocodec.prx</b> and <b>libatrac3plus.prx</b>.  This is done from host0 or disc0 or whatever file device you store your files on.<br>
+		<br>
+		eg. <br>
+		<b>
+        /* load module */<br>
+        static SceUID load_module(const char *filename, SceKernelLMOption *lm_opt, SceKernelSMOption *sm_opt)<br>
+        {<br>
+        <ul>
+	        SceUID mid;<br>
+	        int ret;<br>
+            <br>
+	        /* load module */<br>
+	        mid = sceKernelLoadModule((char *)filename, 0, lm_opt);<br>
+	        if (mid < 0) <br>
+            {<br>
+            <ul>
+		        printf("fatal error : cannot load %s 0x%08x\n", filename, mid);<br>
+		        return mid;<br>
+            </ul>
+	        }<br>
+            <br>
+	        /* start module */<br>
+	        if ((ret = sceKernelStartModule(mid, 0, NULL, NULL, sm_opt)) < 0) <br>
+            {<br>
+            <ul>
+		        printf("fatal error : cannot start %s 0x%08x\n", filename, ret);<br>
+		        return ret;<br>
+            </ul>
+	        }<br>
+            <br>
+	        return mid;<br>
+        </ul>
+        }<br>
+        <br>
+        <br>
+        ...
+        <br>
+        <br>
+	    SceKernelLMOption kMode;<br>
+        SceUID  sasMid;<br>
+	    <br>
+	    sasMid     = 0;<br>
+        <br>
+	    kMode.size = sizeof(kMode);<br>
+	    kMode.mpidtext = SCE_KERNEL_PRIMARY_KERNEL_PARTITION;<br>
+	    kMode.mpiddata = SCE_KERNEL_PRIMARY_KERNEL_PARTITION;<br>
+	    kMode.position = SCE_KERNEL_LMWO_POS_Low;<br>
+	    kMode.access   = SCE_KERNEL_LMWO_ACCESS_Noseek;<br>
+        <br>
+	    sasMid = load_module("host0:/usr/local/devkit/kmodule/sc_sascore.prx", &kMode, NULL);<br>
+	    if(sasMid < 0) <br>
+        {<br>
+        <ul>
+		    printf ("fatal error : load SAS module\n");<br>
+		    return -1;<br>
+        </ul>
+	    }<br>
+
+        </b>
+        <br>
+        <br>
+		<b><u>Initialize FMOD.</u></b><br>
+        <br>
+		Call <b><a href="../HTML/FSOUND_Init.html">FSOUND_Init</a></b> and proceed programming with the FMOD API as you would on any other platform.<br>
+		<br>
+		<br>
+		<b><u>Release / Debug.</u></b><br>
+		<br>
+		fmod.a and fmodD.a have been supplied.  fmodD is debug, and slower, and prints out a log of FMOD progress, along with english explanations on errors if they occur.<br>
+		<br>
+		<br>
+		<b><u>Stripped / Non stripped.</u></b><br>
+		<br>
+		You may notice there is also fmod_small.a and fmodD_small.a.  These versions use less ram than the full versions, but only because they have features removed.<br>
+		These features are removed in the _small versions.<br>
+		<br>
+		.MOD, .S3M, .XM, .IT, .WAV and .VAG support.  Note for .VAG support, this is talking about the file format, so FSB "VAG" support still exists.<br>
+		<br>
+		Normal streaming (with FSB files), 3d sound and sample management remains.<br>
+		<br>
+		<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Formats supported - hardware / software&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		FMOD PSP supports .VAG and .WAV, although <b>FSB</b> is the highly recommended format, see the next section on FSB files for more information about this.<br>
+		.VAG is mixed in hardware and .WAV is mixed in software. .WAV mixing in software uses processing time.<br>
+		 At the moment, depending on quality settings, FMOD can only mix around 12-20 channels of PCM data at once.<br>
+		<br>
+		.MOD .S3M .XM and .IT music formats are supported, and are mixed in software.  <br>
+		<br>
+		<b>Software mixing speed.</b><br>
+		<br>
+		Using FSOUND_Mixer with one of the following controls the number of channels available in software.  
+		Remember hardware mixing is preferred so you may not have to encounter this issue.<br>
+		<br>
+		 - FSOUND_MIXER_AUTODETECT          (non interpolating stereo output          - fast)<br>
+		 - FSOUND_MIXER_QUALITY_AUTODETECT  (high quality interpolating stereo output - slowest)<br>
+		 - FSOUND_MIXER_MONO                (non interpolating mono output            - fastest)<br>
+		 - FSOUND_MIXER_QUALITY_MONO        (high quality interpolating mono output   - slow)<br>
+		<br>
+		<a href="../HTML/FSOUND_Init.html">FSOUND_Init</a> on the PSP accepts 24000 or 48000.  24000 is lower quality but increases the possible channel count significantly.<br>
+		FMOD will not support other output rates! Do not try and use them!  (erroneous rates just case the output rate to go to 48000)<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">The FSB format - The recommended format for samples and streams.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		Although .WAV and .VAG formats are supported, for loading speed, and streaming speed it is highly recommended to use .FSB files.<br>
+		FSB is hardware accelerated, WAV is not.<br>
+		<br>
+		These are compiled batches of native PlayStation Portable sound data, arranged so when loaded, it is one read to load the headers first, then the raw vag data (which is continuous), which is streamed into RAM.  This is the fastest way to load sound data from UMD.<br>
+		<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Memory managment.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		If so desired, the user can limit fmod's RAM usage to a single block of pre-allocated memory.<br>
+		If you want to limit FMOD's memory usage in this way, simply call <b><a href="../HTML/FSOUND_SetMemorySystem.html">FSOUND_SetMemorySystem</a></b>.<br>
+		<br>
+		ie.<br>
+		<b><a href="../HTML/FSOUND_SetMemorySystem.html">FSOUND_SetMemorySystem</a>(NULL, 128*1024, NULL, NULL, NULL);</b><br>
+		<br>
+		This will force FMOD to only use 128kb of IOP memory.<br>
+		Note that setting too low a value will cause FMOD to fail in its internal system memory allocations and <b><a href="../HTML/FSOUND_Init.html">FSOUND_Init</a></b> could even fail.<br>
+		<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Streaming ATRAC music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+        FMOD supports the playback of .at3 files.  All the user has to do is play it from disc0, or if they like, they can load the file into memory, then use FSOUND_OPENMEMORY to stream the file from memory.<br>
+        <br>
+		Note that the user can use <b><a href="../HTML/FSOUND_Stream_SetBufferSize.html">FSOUND_Stream_SetBufferSize</a></b> to adjust the amount of memory FMOD uses when streaming a file, and if it is from memory, then it will require only a very small stream buffer.<br>
+        If streaming from UMD, the buffer size need to be a lot larger.  It should be the number of milliseconds between each read, which could be anywhere up to 5000ms.<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Battery considerations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+        Note, that even though FMOD supports streaming multiple streams from UMD at once, this is not recommended.  On the PlayStation Portable seeking should be avoided at all times to preserve movement of the umd read head and therefore battery life.<br>
+        This also goes for data streaming.  Do not stream data and music at the same time if there is seeking involved.  Continuous seeking will degrade battery life because it has to mechanically move the seek head.<br>
+        <br>
+        It may be preferable to play 'in memory' music such as sequenced formats like .MOD/.S3M/.XM or .IT.  Another idea is to load an AT3 file into memory first, then stream the file from memory as has been mentioned previously in this documentation.   As atrac can store a minute of audio per mb at 128kbs stereo, then you would need 3mb of memory for 3 minutes of music.
+        <br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">The "15-20% cpu problem"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+        Some users may notice a framerate impact when implementing audio.  This is a known issue with Sony, and it is common knowledge among PSP developers that simply playing one sound in 'hardware' will cause up to 15-20% of the PSP's CPU to be used by audio.<br>
+        <br>
+        The problem lies in Sony's libwave, and there is nothing that can be done about it from FMOD's side until the issue is resolved with sony.  FMOD offers a software mixer that can bypass Sony's VAG routines, but it will still require libwave access which is the problem.<br>
+        <br>
+	</UL>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

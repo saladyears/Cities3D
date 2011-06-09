@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Stream_Net_SetProxy</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Stream_Net_SetMetadataCallback.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Stream_Open.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Stream_Net_SetProxy">FSOUND_Stream_Net_SetProxy</A></H2>
+Set a proxy server to use for all subsequent internet connections.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_Stream_Net_SetProxy</B><B>(</B><BR>
+<B>const char *</B><I>proxy</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>proxy</I></TD>
+<TD>The name of a proxy server in host:port format e.g. www.fmod.org:8888 (defaults to port 80 if no port is specified).<BR>
+Basic authentication is supported. To use it, this parameter must be in user:password@host:port format e.g. bob:sekrit123@www.fmod.org:8888<BR>
+Set this parameter to NULL if no proxy is required.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+___________________<BR>
+Supported on the following platforms : Win32, Macintosh, Linux<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Stream_Close.html">FSOUND_Stream_Close</A>
+, 
+<A HREF="FSOUND_Stream_Net_GetBufferProperties.html">FSOUND_Stream_Net_GetBufferProperties</A>
+, 
+<A HREF="FSOUND_Stream_Net_GetLastServerStatus.html">FSOUND_Stream_Net_GetLastServerStatus</A>
+, 
+<A HREF="FSOUND_Stream_Net_GetStatus.html">FSOUND_Stream_Net_GetStatus</A>
+, 
+<A HREF="FSOUND_Stream_Net_SetBufferProperties.html">FSOUND_Stream_Net_SetBufferProperties</A>
+, 
+<A HREF="FSOUND_Stream_Net_SetMetadataCallback.html">FSOUND_Stream_Net_SetMetadataCallback</A>
+, 
+<A HREF="FSOUND_Stream_Open.html">FSOUND_Stream_Open</A>
+, 
+<A HREF="FSOUND_Stream_Play.html">FSOUND_Stream_Play</A>
+, 
+<A HREF="FSOUND_Stream_Stop.html">FSOUND_Stream_Stop</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

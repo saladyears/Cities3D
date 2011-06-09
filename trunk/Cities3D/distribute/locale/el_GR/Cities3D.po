@@ -1,0 +1,351 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-07-08 18:56-0700\n"
+"Last-Translator: Horse Whisperer <c3d_horsewhisperer@yahoo.com>\n"
+"Language-Team: Horse Whisperer <c3d_horsewhisperer@yahoo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+
+#: SplashDialog.cpp:64
+msgid "Finding plugins..."
+msgstr ""
+
+#: CitiesOnlineApp.cpp:339
+msgid "Cities Online may only be launched from the site."
+msgstr ""
+
+#: CitiesOnlineTaskbarIcon.cpp:54
+msgid "Exit"
+msgstr ""
+
+#: CitiesOnlineTaskbarIcon.cpp:84
+#, fuzzy
+msgid "Question"
+msgstr "Ερώτηση"
+
+#: CitiesOnlineTaskbarIcon.cpp:85
+msgid ""
+"You are currently in a Cities Online game!  If you close Cities Online, your "
+"game will also close, and it may go on your record!  Are you sure you want "
+"to continue?"
+msgstr ""
+
+#: Launcher.cpp:276
+msgid ""
+"While you are in a game, Cities Online ignores all commands from the site."
+msgstr ""
+
+#: Launcher.cpp:297
+msgid "Your version of Cities Online is out-of-date."
+msgstr ""
+
+#: LoginDialog.cpp:53
+msgid "Username"
+msgstr ""
+
+#: LoginDialog.cpp:64
+msgid "Password"
+msgstr ""
+
+#: LoginDialog.cpp:82 BaseMessageBox.cpp:61 BaseModalSizer.cpp:46
+#: ResourceSelectionDialog.cpp:73 SelectMapDialog.cpp:69
+msgid "OK"
+msgstr "Εντάξει"
+
+#: LoginDialog.cpp:101
+msgid "Enter Your Password"
+msgstr ""
+
+#: ColorInfoData.cpp:54
+msgid "Black"
+msgstr "Μαύρος"
+
+#: ColorInfoData.cpp:55
+msgid "Blue"
+msgstr "Μπλε"
+
+#: ColorInfoData.cpp:56
+msgid "Brown"
+msgstr "Καφέ"
+
+#: ColorInfoData.cpp:57
+msgid "Green"
+msgstr "Πράσινος"
+
+#: ColorInfoData.cpp:58
+msgid "Orange"
+msgstr "Πορτοκαλής"
+
+#: ColorInfoData.cpp:59
+msgid "Purple"
+msgstr "Πορφυρός"
+
+#: ColorInfoData.cpp:60
+msgid "Red"
+msgstr "Κόκκινος"
+
+#: ColorInfoData.cpp:61
+msgid "White"
+msgstr "Λευκός"
+
+#: MapDatabase.cpp:106
+#, fuzzy
+msgid "players"
+msgstr "%d παίκτες"
+
+#: MapDatabase.cpp:107
+#, fuzzy
+msgid "points"
+msgstr "Σημεία"
+
+#: NetworkClient.cpp:92
+#, fuzzy
+msgid "Connected!"
+msgstr "Σύνδεση"
+
+#: NetworkClient.cpp:121
+#, c-format
+msgid "Could not establish a connection to %s:%d."
+msgstr ""
+
+#: NetworkClient.cpp:146
+msgid "It was not a Cities3D server on the other end!"
+msgstr ""
+
+#: NetworkClient.cpp:175
+msgid "You may not join the same game twice."
+msgstr ""
+
+#: NetworkClient.cpp:373
+#, c-format
+msgid ""
+"Version mismatch with the server.  You have version %s.  The server has "
+"version %s."
+msgstr ""
+
+#: OptionEngine.cpp:257
+msgid "All options have been cleared."
+msgstr ""
+
+#: OptionEngine.cpp:276
+#, c-format
+msgid "The option %s is now selected."
+msgstr ""
+
+#: OptionEngine.cpp:307
+#, c-format
+msgid "The option %s is no longer selected."
+msgstr ""
+
+#: PluginEngine.cpp:621
+#, c-format
+msgid "Finding plugins... %s... found %s"
+msgstr ""
+
+#: ServerConnectionThread.cpp:76
+msgid "Received a host check from the site."
+msgstr ""
+
+#: ServerGameThread.cpp:269
+#, c-format
+msgid "%s tries to join a second time and is refused."
+msgstr ""
+
+#: ServerGameThread.cpp:304
+#, c-format
+msgid "%s joins as a spectator."
+msgstr ""
+
+#: StatEngine.cpp:526
+msgid "Amount"
+msgstr ""
+
+#: StatEngine.cpp:527
+msgid "Expected"
+msgstr ""
+
+#: StatEngine.cpp:528
+msgid "Percent"
+msgstr ""
+
+#: StatEngine.cpp:529
+msgid "Rolls"
+msgstr ""
+
+#: StatEngine.cpp:591
+msgid "Total"
+msgstr ""
+
+#: StatEngine.cpp:642
+#, fuzzy
+msgid "Player"
+msgstr "%d παίκτες"
+
+#: AddPlayerDialog.cpp:64
+msgid "Name"
+msgstr "Όνομα"
+
+#: AddPlayerDialog.cpp:90
+msgid "Add A Player"
+msgstr "Προσθήκη παικτών"
+
+#: AddPlayerDialog.cpp:113
+msgid "Your name cannot be blank or all spaces."
+msgstr "Αδύνατο το όνομα σας να μείνει κενό."
+
+#: AddPlayerDialog.cpp:121
+msgid "Your name must be 20 characters or less."
+msgstr "Αδύνατο το όνομα σας να περιέχει περισσότερους από 20 χαρακτήρες."
+
+#: BaseMessageBox.cpp:71
+msgid "Yes"
+msgstr "Ναι"
+
+#: BaseMessageBox.cpp:72
+msgid "No"
+msgstr "Όχι"
+
+#: BaseModalSizer.cpp:47 SelectMapDialog.cpp:70
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: LoseCardsDialog.cpp:90
+#, fuzzy, c-format
+msgid "Select %d resources to lose."
+msgstr "Επιλογή πορών"
+
+#: LoseCardsDialog.cpp:214
+msgid "Cards To Lose"
+msgstr ""
+
+#: MapListCtrl.cpp:62
+#, c-format
+msgid "%d players"
+msgstr "%d παίκτες"
+
+#: MapListCtrl.cpp:68
+#, c-format
+msgid "%d-%d players"
+msgstr "%d-%d παίκτες"
+
+#: MapListCtrl.cpp:76
+#, c-format
+msgid "%d points"
+msgstr "%d σημεία"
+
+#: MapTextCtrl.cpp:89
+msgid "No map selected."
+msgstr "Κανένας χάρτης είναι επιλεγμένος."
+
+#: MapTextCtrl.cpp:119
+msgid "Map"
+msgstr "Χάρτης"
+
+#: MapTextCtrl.cpp:137
+msgid "Rules"
+msgstr ""
+
+#: MapTextCtrl.cpp:165
+#, fuzzy
+msgid "Options"
+msgstr "Επιλογές"
+
+#: OptionsDialog.cpp:165
+#, fuzzy
+msgid "Select"
+msgstr "Επιλογή χάρτη"
+
+#: OptionsDialog.cpp:166
+#, fuzzy
+msgid "Unselect"
+msgstr "Μη επιλεγμένος"
+
+#: OptionsDialog.cpp:185
+#, fuzzy
+msgid "Description"
+msgstr "Ερώτηση"
+
+#: OptionsDialog.cpp:194
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: OptionsDialog.cpp:211
+msgid "Done"
+msgstr "Εντάξει"
+
+#: OptionsDialog.cpp:218
+msgid "Clear"
+msgstr ""
+
+#: OptionsDialog.cpp:219
+msgid "Load"
+msgstr ""
+
+#: OptionsDialog.cpp:220
+msgid "Save"
+msgstr ""
+
+#: OptionsDialog.cpp:244
+#, fuzzy
+msgid "Game Options"
+msgstr "Επιλογές"
+
+#: OptionsDialog.cpp:557
+msgid "Enter a file name"
+msgstr ""
+
+#: OptionsDialog.cpp:571
+#, fuzzy
+msgid "Select a file"
+msgstr "Επιλογή χαρτών"
+
+#: PopupManager.cpp:922
+msgid "Popups are now off."
+msgstr ""
+
+#: PopupManager.cpp:923
+msgid "Popups are now on."
+msgstr ""
+
+#: ResourceSelectionDialog.cpp:150
+msgid "Drag and drop cards to make a selection."
+msgstr ""
+
+#: ResourceSelectionDialog.cpp:187
+msgid "Select Resources"
+msgstr "Επιλογή πορών"
+
+#: SelectMapDialog.cpp:90
+msgid "Select A Map"
+msgstr "Επιλογή χαρτών"
+
+#, fuzzy
+#~ msgid "Select a Language"
+#~ msgstr "Επιλογή χαρτών"
+
+#, fuzzy
+#~ msgid "No map selected"
+#~ msgstr "Κανένας χάρτης είναι επιλεγμένος."
+
+#, fuzzy
+#~ msgid "In Game"
+#~ msgstr "Παιχνίδι"

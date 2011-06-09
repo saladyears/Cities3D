@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>XBox - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>XBOX SPECIFIC ISSUES / FEATURES</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This section describes how to get started with FMOD for XBox, and also some of the XBox specific features available.<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Getting Started&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		This section describes what you will need to link, and what you need to call to get up and running for XBox specifically.<br>
+		<br>
+		FMOD comes with 2 libraries.  One is release and one is debug.  The main difference is that the debug version outputs debug information to the debug window of your debugger.<br>
+		This is useful for tracing what fmod is doing if something ever went wrong and you wanted to know where FMOD was at the time.<br>
+		<br>
+		<li><b>/api/lib/fmodxbox.lib</b> - This is the library you will link to most of the time.  Use this for shipping.
+		<li><b>/api/lib/fmodxboxD.lib</b> - This is debug version of FMOD.  It is slower, and prints out a log of FMOD progress through the debug window, along with english explanations on errors if they occur.<br>
+		<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Memory Management&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		On FMOD XBox, you <b>must</b> call <a href="../HTML/FSOUND_SetMemorySystem.html">FSOUND_SetMemorySystem</a>, and supply a pool of memory with a length.<br>
+		<br>
+		for example.<br>
+		<br>
+		<b>
+		#define AUDIO_MEMLENGTH (4*1024*1024)<br>
+		char *mem = malloc(AUDIO_MEMLENGTH);<br>
+		<a href="../HTML/FSOUND_SetMemorySystem.html">FSOUND_SetMemorySystem</a>(mem, AUDIO_MEMLENGTH, NULL, NULL, NULL);<br>
+		</b>
+		<br>
+		then,<br>
+		<br>
+		<b>
+		<a href="../HTML/FSOUND_Init.html">FSOUND_Init</a>(....);<br>
+		</b>
+		etc.<br>
+		<br>
+		The reasoning for this is for performance issues.<br>  
+		FMOD must be able to access sample data within its own memory block to avoid a slowdown issue in DirectSound XBox.<br>
+		<br>
+		The memory provided must be enough to store all samples and extra system memory	overhead for FMOD.<br>
+		<br>
+		You can call <a href="../HTML/FSOUND_GetMemoryStats.html">FSOUND_GetMemoryStats</a> to determine what FMOD needs as a game runs.<br>
+		You could run FMOD and supply it with an unrealistically high memory pool (say 8 megabytes), and then call <a href="../HTML/FSOUND_GetMemoryStats.html">FSOUND_GetMemoryStats</a> to determine the maximum amount of RAM fmod needs to store sounds and for FMOD system overhead.<br>
+		<br>
+		<br>
+		<b>8mb Memory Limitation.</b><br>
+		<br>
+		Currently for hardware sound effects, there is an 8mb limit for sound effects.<br>
+		This is due to the XBox DirectSound architecture. <br>
+		<br>
+		From the XDK Documentation : <i>"DirectSound buffers are managed in a scatter gather entry (SGE) list. <br>
+		There is a maximum of 2,047 SGEs, which each point to a 4-KB page.<br>
+		This means that a maximum of 8 MB are available for allocating or playing DirectSound buffers simultaneously"</i><br>
+		<br>
+		Future versions may have multiple 8mb pools if it is required by developers.<br>
+		<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Special features for FMOD XBox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		FMOD is fully functional on the XBox, including wma, mp3 and ogg vorbis streaming support, and with some extra functionality to take advantage of the 5.1 Dolby Digital surround sound support.<br>
+		<br>
+		<b><a href="../HTML/FSOUND_SetLevels.html">FSOUND_SetLevels</a>.</b>  (See fmodxbox.h).<br>
+		This function allows you put position a sound in any of the 5.1 speaker array in dolby digital. This can be very useful, and you can even do cool things like 5.1 music with it. For example, use FSBank to produce a 6 channel, multichannel interleaved stream, then use FSOUND_GetSubChannel to position all 5 channels into their own speaker.<br> 
+		ie <br>
+		<br>
+		<b>
+		channel = <a href="../HTML/FSOUND_Stream_PlayEx.html">FSOUND_Stream_PlayEx</a>(FSOUND_FREE, stream, 0, TRUE); <br>
+		<a href="../HTML/FSOUND_SetLevels.html">FSOUND_SetLevels</a>(<a href="../HTML/FSOUND_GetSubChannel.html">FSOUND_GetSubChannel</a>(channel, 0), 255, 0, 0, 0, 0, 0); <br>
+		<a href="../HTML/FSOUND_SetLevels.html">FSOUND_SetLevels</a>(<a href="../HTML/FSOUND_GetSubChannel.html">FSOUND_GetSubChannel</a>(channel, 1), 0, 255, 0, 0, 0, 0); <br>
+		<a href="../HTML/FSOUND_SetLevels.html">FSOUND_SetLevels</a>(<a href="../HTML/FSOUND_GetSubChannel.html">FSOUND_GetSubChannel</a>(channel, 2), 0, 0, 255, 0, 0, 0); <br>
+		<a href="../HTML/FSOUND_SetLevels.html">FSOUND_SetLevels</a>(<a href="../HTML/FSOUND_GetSubChannel.html">FSOUND_GetSubChannel</a>(channel, 3), 0, 0, 0, 255, 0, 0); <br>
+		<a href="../HTML/FSOUND_SetLevels.html">FSOUND_SetLevels</a>(<a href="../HTML/FSOUND_GetSubChannel.html">FSOUND_GetSubChannel</a>(channel, 4), 0, 0, 0, 0, 255, 0); <br>
+		<a href="../HTML/FSOUND_SetLevels.html">FSOUND_SetLevels</a>(<a href="../HTML/FSOUND_GetSubChannel.html">FSOUND_GetSubChannel</a>(channel, 5), 0, 0, 0, 0, 0, 255); <br>
+		<a href="../HTML/FSOUND_SetPaused.html">FSOUND_SetPaused</a>(channel, FALSE); <br>
+		</b>
+		<br>
+		<br>
+		A musician would have to product 6 wav files for each speaker in this case before it is interleaved with FSBank into one stream. <br>
+		<br>
+		Even if you dont go to this extent, you can do something simple like spatialize normal stereo music. Normally music is just played through the front 2 channels, so you can improve this with something like <br>
+		<br>
+		<b>
+		<a href="../HTML/FSOUND_SetLevels.html">FSOUND_SetLevels</a>(musicchannel, 255, 255, 255, 128, 128, 255); <br>
+		</b>
+		<br>
+		which puts it in all speakers and half volume in the rears. <br>
+
+	</UL>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

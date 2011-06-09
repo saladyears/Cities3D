@@ -1,0 +1,3228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: src/CitiesRules/CitiesGoldOption.cpp:36
+#: src/CitiesRules/CitiesSeafarersOptions.cpp:36
+#: src/StandardRules/DevCardOptions.cpp:36 src/StandardRules/GoldOption.cpp:38
+#: src/VolcanoRules/VolcanoCitiesOption.cpp:36
+#: src/VolcanoRules/VolcanoHiddenTilesOption.cpp:36
+#: src/VolcanoRules/VolcanoSingleBonusOption.cpp:36
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: cities3d-translate@lists.sourceforge.net\n"
+"POT-Creation-Date: 2006-12-25 12:14+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/CitiesRules/AlchemistDialog.cpp:261
+#: src/CitiesRules/LogicCardNameScience.cpp:59
+#: src/CitiesRules/ScienceCardsOption.cpp:80
+msgid "Alchemist"
+msgstr ""
+
+#: src/CitiesRules/AlchemistDialog.cpp:270
+#: src/common/SelectLanguageDialog.cpp:77 src/CoreRules/GameSetupDialog.cpp:91
+#: src/CoreRules/OpenGameDialog.cpp:66 src/CoreRules/ReplayDialog.cpp:66
+#: src/UICore/BaseMessageBox.cpp:66 src/UICore/BaseModalSizer.cpp:51
+#: src/UICore/ResourceSelectionDialog.cpp:78 src/UICore/SelectMapDialog.cpp:74
+msgid "OK"
+msgstr ""
+
+#: src/CitiesRules/AlchemistDialog.cpp:274
+msgid "Select one die of each color."
+msgstr ""
+
+#: src/CitiesRules/AlchemistDialog.cpp:325
+msgid "Drag and drop dice to select them."
+msgstr ""
+
+#: src/CitiesRules/AlchemistDialog.cpp:349
+msgid "Select Dice"
+msgstr ""
+
+#: src/CitiesRules/AqueductDialog.cpp:56
+msgid "Select 1 resource to gain."
+msgstr ""
+
+#: src/CitiesRules/AqueductDialog.cpp:172
+msgid "Use Your Aqueduct"
+msgstr ""
+
+#: src/CitiesRules/BankDataCities.cpp:35
+#: src/CitiesRules/LogicResourceNameCities.cpp:73
+#: src/CitiesRules/PlayerDataCities.cpp:106
+msgid "Cloth"
+msgstr ""
+
+#: src/CitiesRules/BankDataCities.cpp:37
+#: src/CitiesRules/LogicResourceNameCities.cpp:87
+#: src/CitiesRules/PlayerDataCities.cpp:111
+msgid "Coin"
+msgstr ""
+
+#: src/CitiesRules/BankDataCities.cpp:39
+#: src/CitiesRules/LogicResourceNameCities.cpp:59
+#: src/CitiesRules/PlayerDataCities.cpp:116
+msgid "Paper"
+msgstr ""
+
+#: src/CitiesRules/BarbarianDelayName.cpp:35
+msgid "Delay barbarians"
+msgstr ""
+
+#: src/CitiesRules/BarbarianDelayOptions.cpp:45
+msgid ""
+"Delay the barbarians for one or two rounds.  This lets players get their "
+"feet on the ground before the first invasion."
+msgstr ""
+
+#: src/CitiesRules/BarbarianDelayOptions.cpp:97
+msgid "Barbarians are delayed for 1 round"
+msgstr ""
+
+#: src/CitiesRules/BarbarianDelayOptions.cpp:101
+#, c-format
+msgid "Barbarians are delayed for %d rounds"
+msgstr ""
+
+#: src/CitiesRules/BarbarianDelayOptions.cpp:121
+msgid "Rounds before barbarians advance:"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:47
+msgid "Buy City Walls"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:53
+msgid "Upgrade Science"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:57
+msgid "Upgrade Politics"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:61
+msgid "Upgrade Trade"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:67
+msgid "Buy a Basic Knight"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:72
+msgid "Upgrade to a Strong Knight"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:78
+msgid "Upgrade to a Mighty Knight"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:84
+msgid "Activate a Knight"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:90
+msgid "Move a Knight"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:96
+msgid "Attack an Opponent's Knight"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:102
+msgid "Expel Criminals"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:108
+msgid "Use the Commercial Harbor"
+msgstr ""
+
+#: src/CitiesRules/BuildDataCities.cpp:113
+msgid "Repair a Sabotaged City"
+msgstr ""
+
+#: src/CitiesRules/CitiesName.cpp:35 src/CitiesRules/CitiesRules.cpp:42
+#: src/CitiesRules/defineRules.h:37
+msgid "Cities and Knights"
+msgstr ""
+
+#: src/CitiesRules/CitiesOptions.cpp:36
+msgid ""
+"Cities and Knights is a whole new way of playing Settlers.  Barbarians "
+"attack, knights defend, cities are pillaged or grow.  Politics, trade and "
+"science take on major roles in determining who wins, and who winds up on the "
+"end of a barbarian axe.\n"
+"\n"
+"Cities and Knights is not for the faint of heart.  Games last longer and are "
+"far more competitive than a Standard or Seafarers game, but the strategic "
+"choices are greater and more challenging than ever! "
+msgstr ""
+
+#: src/CitiesRules/CitiesOptions.cpp:75
+msgid "Cities and Knights (+3 points)"
+msgstr ""
+
+#: src/CitiesRules/CitiesUI.cpp:162 src/StandardRules/DevCardsUI.cpp:74
+msgid "Rolls"
+msgstr ""
+
+#: src/CitiesRules/CitiesUI.cpp:165
+msgid "Barbarians"
+msgstr ""
+
+#: src/CitiesRules/CitiesUI.cpp:168
+msgid "Upgrades"
+msgstr ""
+
+#: src/CitiesRules/CommercialHarborCommodityDialog.cpp:58
+#, c-format
+msgid "Select 1 commodity to give to %s."
+msgstr ""
+
+#: src/CitiesRules/CommercialHarborCommodityDialog.cpp:161
+#: src/CitiesRules/CommercialHarborResourceDialog.cpp:174
+#: src/CitiesRules/LogicCardNameTrade.cpp:59
+#: src/CitiesRules/TradeCardsOption.cpp:76
+msgid "Commercial Harbor"
+msgstr ""
+
+#: src/CitiesRules/CommercialHarborPlayerDialog.cpp:142
+msgid "Select a Player to Trade With"
+msgstr ""
+
+#: src/CitiesRules/CommercialHarborResourceDialog.cpp:60
+#, c-format
+msgid "Select 1 resource to give to %s."
+msgstr ""
+
+#: src/CitiesRules/DeserterPlayerDialog.cpp:213
+msgid "Select a Player for Desertion"
+msgstr ""
+
+#: src/CitiesRules/DiscardProgressCardsDialog.cpp:56
+msgid "Discard"
+msgstr ""
+
+#: src/CitiesRules/DiscardProgressCardsDialog.cpp:56
+msgid "Discard 1 Progress Card"
+msgstr ""
+
+#: src/CitiesRules/DrawKnightObject.cpp:224
+msgid "Basic Knight"
+msgstr ""
+
+#: src/CitiesRules/DrawKnightObject.cpp:227
+msgid "Strong Knight"
+msgstr ""
+
+#: src/CitiesRules/DrawKnightObject.cpp:230
+msgid "Mighty Knight"
+msgstr ""
+
+#: src/CitiesRules/DrawMerchantObject.cpp:171
+#: src/CitiesRules/LogicCardNameTrade.cpp:89
+#: src/CitiesRules/PlayerDataCities.cpp:172
+#: src/CitiesRules/TradeCardsOption.cpp:78
+msgid "Merchant"
+msgstr ""
+
+#: src/CitiesRules/DrawWallsObject.cpp:251
+#: src/CitiesRules/PlayerDataCities.cpp:137
+msgid "City Walls"
+msgstr ""
+
+#: src/CitiesRules/KnightErrantName.cpp:35
+#: src/CitiesRules/KnightErrantOptions.cpp:69
+msgid "Knights errant"
+msgstr ""
+
+#: src/CitiesRules/KnightErrantOptions.cpp:36
+msgid ""
+"Allows players to use an active knight to expel criminals before the dice "
+"are rolled, if it is their turn."
+msgstr ""
+
+#: src/CitiesRules/LogicCardNamePolitics.cpp:59
+#: src/CitiesRules/PoliticsCardsOption.cpp:80
+msgid "Arsonist"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNamePolitics.cpp:71
+#: src/CitiesRules/PoliticsCardsOption.cpp:81
+msgid "Bishop"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNamePolitics.cpp:86
+#: src/CitiesRules/PoliticsCardsOption.cpp:82
+msgid "Constitution"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNamePolitics.cpp:101
+#: src/CitiesRules/PoliticsCardsOption.cpp:83
+msgid "Deserter"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNamePolitics.cpp:115
+#: src/CitiesRules/PoliticsCardsOption.cpp:84
+msgid "Diplomat"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNamePolitics.cpp:129
+#: src/CitiesRules/PoliticsCardsOption.cpp:85
+msgid "Intrigue"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNamePolitics.cpp:143
+#: src/CitiesRules/PoliticsCardsOption.cpp:86
+msgid "Saboteur"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNamePolitics.cpp:157
+#: src/CitiesRules/PoliticsCardsOption.cpp:87
+msgid "Spy"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNamePolitics.cpp:171
+#: src/CitiesRules/PoliticsCardsOption.cpp:88
+msgid "Warlord"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNamePolitics.cpp:185
+#: src/CitiesRules/PoliticsCardsOption.cpp:89
+msgid "Wedding"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameScience.cpp:74
+#: src/CitiesRules/ScienceCardsOption.cpp:81
+msgid "Crane"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameScience.cpp:89
+#: src/CitiesRules/ScienceCardsOption.cpp:82
+msgid "Engineer"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameScience.cpp:103
+#: src/CitiesRules/ScienceCardsOption.cpp:83
+msgid "Inventor"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameScience.cpp:117
+#: src/CitiesRules/ScienceCardsOption.cpp:84
+msgid "Irrigation"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameScience.cpp:131
+#: src/CitiesRules/ScienceCardsOption.cpp:85
+msgid "Medicine"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameScience.cpp:145
+#: src/CitiesRules/ScienceCardsOption.cpp:86
+msgid "Mining"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameScience.cpp:159
+#: src/CitiesRules/ScienceCardsOption.cpp:87
+msgid "Printer"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameScience.cpp:173
+#: src/CitiesRules/ScienceCardsOption.cpp:88
+#: src/StandardRules/DevelopmentCardsOption.cpp:78
+#: src/StandardRules/LogicCardNameDevCards.cpp:74
+msgid "Road Building"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameScience.cpp:187
+#: src/CitiesRules/ScienceCardsOption.cpp:89
+msgid "Smith"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameTrade.cpp:74
+#: src/CitiesRules/TradeCardsOption.cpp:77
+msgid "Master Merchant"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameTrade.cpp:103
+#: src/CitiesRules/MerchantFleetDialog.cpp:111
+#: src/CitiesRules/TradeCardsOption.cpp:79
+msgid "Merchant Fleet"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameTrade.cpp:117
+#: src/CitiesRules/ResourceMonopolyDialog.cpp:136
+#: src/CitiesRules/TradeCardsOption.cpp:81
+msgid "Resource Monopoly"
+msgstr ""
+
+#: src/CitiesRules/LogicCardNameTrade.cpp:131
+#: src/CitiesRules/TradeCardsOption.cpp:82
+#: src/CitiesRules/TradeMonopolyDialog.cpp:120
+msgid "Trade Monopoly"
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextDiplomatSeafarers.cpp:59
+msgid ""
+"Remove one open road or ship from the board.  If you remove your own road or "
+"ship, you may then place it elsewhere immediately."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextPolitics.cpp:63
+msgid ""
+"All players with at least as many Victory Points as you lose half of the "
+"resource or commodity cards in their hand."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextPolitics.cpp:79
+msgid ""
+"Move the robber or pirate.  In addition, steal 1 card from the hand of every "
+"player with a city or settlement on the new robber tile."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextPolitics.cpp:98
+#: src/CitiesRules/LogicCardTextScience.cpp:166
+msgid "1 Victory Point!"
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextPolitics.cpp:113
+msgid ""
+"Select an opponent.  They must remove one knight of their choice from the "
+"board.  You may then place an equivalent knight on the board, following the "
+"normal rules."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextPolitics.cpp:130
+msgid ""
+"Remove one open road from the board.  If you remove your own road, you may "
+"then place it elsewhere immediately."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextPolitics.cpp:146
+msgid ""
+"Displace an opponent's knight on an intersection next to a road or ship you "
+"own."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextPolitics.cpp:161
+msgid ""
+"Select an opponent's city.  The city produces as a settlement until the "
+"owner pays 1 timber and 1 ore for repairs."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextPolitics.cpp:177
+msgid ""
+"Select an opponent.  Steal 1 progress card of your choice from their hand."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextPolitics.cpp:192
+msgid "Activate all your knights for free."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextPolitics.cpp:207
+msgid ""
+"All players with more Victory Points than you must give you 2 resources or "
+"commodities of their choice."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextScience.cpp:59
+msgid ""
+"Before the dice are rolled, select a result for each numbered die.  The "
+"event die rolls normally."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextScience.cpp:75
+msgid "Purchase one city upgrade for 1 commodity less."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextScience.cpp:91
+msgid "Place a city walls for free."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextScience.cpp:105
+msgid ""
+"Switch any two roll chips on the board, except for those numbered 2, 12, 6, "
+"or 8."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextScience.cpp:120
+msgid ""
+"Receive 2 wheat for each wheat tile on which you have a city or settlement."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextScience.cpp:135
+msgid "Build a city for 2 ore and 1 wheat."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextScience.cpp:149
+msgid "Receive 2 ore for each ore tile on which you have a city or settlement."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextScience.cpp:180
+#: src/StandardRules/LogicCardTextDevCards.cpp:74
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextScience.cpp:195
+msgid "Promote two different knights one level for free."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextTrade.cpp:59
+msgid ""
+"For each opponent you select, offer 1 resource card from your hand.  They "
+"must give you 1 commodity card of their choice, unless they have none."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextTrade.cpp:76
+msgid ""
+"Take 2 resource or commodity cards of your choice from any one opponent with "
+"more Victory Points than you."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextTrade.cpp:93
+msgid ""
+"Select a tile adjacent to a settlement or city you own and place the "
+"merchant on it.  As long as the merchant remains, you trade that resource to "
+"the bank at 2-1, and receive 1 Victory Point."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextTrade.cpp:110
+msgid ""
+"Select 1 resource or commodity.  This round, trade it to the bank at 2-1."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextTrade.cpp:125
+msgid ""
+"Select a resource.  All players must give you as many of that resource as "
+"they can, up to 2."
+msgstr ""
+
+#: src/CitiesRules/LogicCardTextTrade.cpp:140
+msgid ""
+"Select a commodity.  All players must give you 1 of that commodity, unless "
+"they have none."
+msgstr ""
+
+#: src/CitiesRules/LogicRequestSecondCity.cpp:62
+#: src/CitiesRules/RuleRequestSecondCity.cpp:69
+#: src/StandardRules/RuleBuildCityTurn.cpp:113
+#, c-format
+msgid "%s, place a city."
+msgstr ""
+
+#: src/CitiesRules/LogicRequestSecondCity.cpp:63
+#: src/CitiesRules/RuleRequestSecondCity.cpp:70
+#: src/StandardRules/RuleBuildCityTurn.cpp:114
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr ""
+
+#: src/CitiesRules/LogicRequestSecondRoad.cpp:60
+#: src/StandardRules/LogicRequestInitialRoad.cpp:61
+#: src/StandardRules/RuleBuildRoadCommon.cpp:89
+#, c-format
+msgid "%s, place a road."
+msgstr ""
+
+#: src/CitiesRules/LogicRequestSecondRoad.cpp:61
+#: src/StandardRules/LogicRequestInitialRoad.cpp:62
+#: src/StandardRules/RuleBuildRoadCommon.cpp:90
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr ""
+
+#: src/CitiesRules/LogicUpgradeName.cpp:79 src/CoreRules/ControlsUI.cpp:148
+msgid "Trade"
+msgstr ""
+
+#: src/CitiesRules/LogicUpgradeName.cpp:94
+msgid "Politics"
+msgstr ""
+
+#: src/CitiesRules/LogicUpgradeName.cpp:109
+msgid "Science"
+msgstr ""
+
+#: src/CitiesRules/MasterMerchantPlayerDialog.cpp:132
+msgid "Select a Player to Rob"
+msgstr ""
+
+#: src/CitiesRules/MasterMerchantResourceDialog.cpp:101
+#, c-format
+msgid "Select 1 card to steal from %s."
+msgstr ""
+
+#: src/CitiesRules/MasterMerchantResourceDialog.cpp:106
+#, c-format
+msgid "Select 2 cards to steal from %s."
+msgstr ""
+
+#: src/CitiesRules/MasterMerchantResourceDialog.cpp:228
+msgid "Cards To Steal"
+msgstr ""
+
+#: src/CitiesRules/MerchantFleetDialog.cpp:51
+msgid "Select 1 card type to trade at 2-1."
+msgstr ""
+
+#: src/CitiesRules/NoMercyName.cpp:35
+msgid "No mercy from the robber"
+msgstr ""
+
+#: src/CitiesRules/NoMercyOptions.cpp:36
+msgid ""
+"Instead of waiting until the first barbarian invasion, the robber is moved "
+"on a 7 from the first roll of the dice."
+msgstr ""
+
+#: src/CitiesRules/NoMercyOptions.cpp:70
+msgid "Robber is not delayed by barbarians"
+msgstr ""
+
+#: src/CitiesRules/PlayerDataCities.cpp:122
+msgid "Trade Cards"
+msgstr ""
+
+#: src/CitiesRules/PlayerDataCities.cpp:126
+msgid "Politics Cards"
+msgstr ""
+
+#: src/CitiesRules/PlayerDataCities.cpp:130
+msgid "Science Cards"
+msgstr ""
+
+#: src/CitiesRules/PlayerDataCities.cpp:142
+msgid "Basic Knights"
+msgstr ""
+
+#: src/CitiesRules/PlayerDataCities.cpp:147
+msgid "Strong Knights"
+msgstr ""
+
+#: src/CitiesRules/PlayerDataCities.cpp:152
+msgid "Mighty Knights"
+msgstr ""
+
+#: src/CitiesRules/PlayerDataCities.cpp:158
+msgid "Defender Points"
+msgstr ""
+
+#: src/CitiesRules/PlayerDataCities.cpp:163
+msgid "Science Metropolis"
+msgstr ""
+
+#: src/CitiesRules/PlayerDataCities.cpp:166
+msgid "Politics Metropolis"
+msgstr ""
+
+#: src/CitiesRules/PlayerDataCities.cpp:169
+msgid "Trade Metropolis"
+msgstr ""
+
+#: src/CitiesRules/PlayerSelectionDialog.cpp:74
+#: src/UICore/OptionsDialog.cpp:169
+msgid "Select"
+msgstr ""
+
+#: src/CitiesRules/PlayProgressCardsDialog.cpp:49
+#: src/StandardRules/DevCardsDialog.cpp:49
+msgid "Play Card"
+msgstr ""
+
+#: src/CitiesRules/PlayProgressCardsDialog.cpp:49
+#: src/StandardRules/DevCardsDialog.cpp:49
+msgid "Your Cards"
+msgstr ""
+
+#: src/CitiesRules/PoliticsCardsName.cpp:35
+msgid "Politics cards"
+msgstr ""
+
+#: src/CitiesRules/PoliticsCardsOption.cpp:45
+msgid "Change the deck of Politics progress cards."
+msgstr ""
+
+#: src/CitiesRules/PoliticsCardsOption.cpp:143
+#, c-format
+msgid "Politics cards: %s"
+msgstr ""
+
+#: src/CitiesRules/ResourceMonopolyDialog.cpp:54
+#: src/StandardRules/MonopolyDialog.cpp:51
+msgid "Select 1 resource type to steal."
+msgstr ""
+
+#: src/CitiesRules/RuleActivateKnight.cpp:104
+#, c-format
+msgid "%s, activate a knight."
+msgstr ""
+
+#: src/CitiesRules/RuleActivateKnight.cpp:105
+#, c-format
+msgid "Waiting for %s to activate a knight."
+msgstr ""
+
+#: src/CitiesRules/RuleAqueduct.cpp:133
+#, c-format
+msgid "%s, use your aqueduct."
+msgstr ""
+
+#: src/CitiesRules/RuleAqueduct.cpp:138
+#, c-format
+msgid "Waiting for %s to use their aqueduct."
+msgstr ""
+
+#: src/CitiesRules/RuleAttackKnight.cpp:89
+#, c-format
+msgid "%s, select a knight to attack with."
+msgstr ""
+
+#: src/CitiesRules/RuleAttackKnight.cpp:90
+#, c-format
+msgid "Waiting for %s to select a knight to attack with."
+msgstr ""
+
+#: src/CitiesRules/RuleAttackOpponentKnight.cpp:111
+#, c-format
+msgid "%s attacks a knight of %s."
+msgstr ""
+
+#: src/CitiesRules/RuleAttackOpponentKnight.cpp:148
+#, c-format
+msgid "%s loses the knight in the attack."
+msgstr ""
+
+#: src/CitiesRules/RuleBarbarianAdvance.cpp:80
+msgid "The barbarians advance."
+msgstr ""
+
+#: src/CitiesRules/RuleBarbarianAttack.cpp:76
+msgid "The barbarians attack and are repelled!"
+msgstr ""
+
+#: src/CitiesRules/RuleBarbarianAttack.cpp:106
+msgid "The barbarians attack and lay waste!"
+msgstr ""
+
+#: src/CitiesRules/RuleBuildKnight.cpp:107
+#, c-format
+msgid "%s, place a basic knight."
+msgstr ""
+
+#: src/CitiesRules/RuleBuildKnight.cpp:108
+#, c-format
+msgid "Waiting for %s to place a basic knight."
+msgstr ""
+
+#: src/CitiesRules/RuleBuildWalls.cpp:105
+#, c-format
+msgid "%s, place a city walls."
+msgstr ""
+
+#: src/CitiesRules/RuleBuildWalls.cpp:106
+#, c-format
+msgid "Waiting for %s to place a city walls."
+msgstr ""
+
+#: src/CitiesRules/RuleDefenderPoint.cpp:70
+#, c-format
+msgid "%s receives 1 Defender Point."
+msgstr ""
+
+#: src/CitiesRules/RuleDiplomatText.cpp:59
+#, c-format
+msgid "%s, select a road to remove."
+msgstr ""
+
+#: src/CitiesRules/RuleDiplomatText.cpp:60
+#, c-format
+msgid "Waiting for %s to select a road to remove."
+msgstr ""
+
+#: src/CitiesRules/RuleDiplomatTextSeafarers.cpp:59
+#, c-format
+msgid "%s, select a road or ship to remove."
+msgstr ""
+
+#: src/CitiesRules/RuleDiplomatTextSeafarers.cpp:60
+#, c-format
+msgid "Waiting for %s to select a road or ship to remove."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteAqueduct.cpp:94
+#: src/CitiesRules/RuleExecuteArsonist.cpp:93
+#: src/CitiesRules/RuleExecuteMasterMerchant.cpp:97
+#: src/CitiesRules/RuleExecuteWedding.cpp:101
+#: src/StandardRules/RuleExecuteBankTrade.cpp:96
+#: src/StandardRules/RuleExecuteBankTrade.cpp:121
+#: src/StandardRules/RuleExecuteGold.cpp:94
+#: src/StandardRules/RuleExecuteLose7.cpp:92
+#: src/StandardRules/RuleExecuteTrade.cpp:103
+#: src/StandardRules/RuleExecuteTrade.cpp:136
+#: src/StandardRules/RuleExecuteYearOfPlentyCard.cpp:92
+#, c-format
+msgid "%d %s"
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteAqueduct.cpp:97
+#: src/StandardRules/RuleExecuteGold.cpp:97
+#: src/StandardRules/RuleExecuteYearOfPlentyCard.cpp:95
+#, c-format
+msgid "%s selects %s."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteArsonist.cpp:96
+#: src/StandardRules/RuleExecuteLose7.cpp:95
+#, c-format
+msgid "%s loses %s."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteCardMerchantFleet.cpp:71
+#, c-format
+msgid "%s uses the Merchant Fleet to trade %s."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteCommercialHarbor.cpp:112
+#: src/CitiesRules/RuleExecuteCommercialHarbor.cpp:118
+#, c-format
+msgid "You trade 1 %s to %s for 1 %s using the Commercial Harbor."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteCommercialHarbor.cpp:124
+#, c-format
+msgid "%s trades 1 resource to %s for 1 commodity using the Commercial Harbor."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteDiscardCard.cpp:87
+#, c-format
+msgid "%s discards 1 %s card."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteMasterMerchant.cpp:108
+#, c-format
+msgid "%s steals %s from you."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteMasterMerchant.cpp:120
+#, c-format
+msgid "%s steals 1 card from %s."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteMasterMerchant.cpp:126
+#, c-format
+msgid "%s steals 2 cards from %s."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteResourceMonopolyCard.cpp:104
+#: src/CitiesRules/RuleExecuteTradeMonopolyCard.cpp:103
+#: src/StandardRules/RuleExecuteMonopolyCard.cpp:101
+#, c-format
+msgid "%d %s from %s"
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteResourceMonopolyCard.cpp:112
+#: src/CitiesRules/RuleExecuteTradeMonopolyCard.cpp:118
+#: src/StandardRules/RuleExecuteMonopolyCard.cpp:116
+#, c-format
+msgid "%s steals %s."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteResourceMonopolyCard.cpp:117
+#: src/CitiesRules/RuleExecuteTradeMonopolyCard.cpp:114
+#: src/CitiesRules/RulePirateStealCitiesSeafarers.cpp:100
+#: src/CitiesRules/RuleRobberStealCities.cpp:100
+#: src/SeafarersRules/RuleExecutePirateSteal.cpp:73
+#: src/SeafarersRules/RuleSelectPirateSteal.cpp:75
+#: src/StandardRules/RuleExecuteMonopolyCard.cpp:112
+#: src/StandardRules/RuleRobberSteal.cpp:73
+#: src/StandardRules/RuleSelectRobberSteal.cpp:79
+#, c-format
+msgid "%s steals nothing."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteSpy.cpp:93
+#: src/StandardRules/RuleExecuteRobberSteal.cpp:129
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteSpy.cpp:100
+#, c-format
+msgid "%s steals 1 progress card from %s."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteWedding.cpp:111
+#, c-format
+msgid "%s gives %s to you as a Wedding gift."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteWedding.cpp:119
+#, c-format
+msgid "%s gives 1 card to %s as a Wedding gift."
+msgstr ""
+
+#: src/CitiesRules/RuleExecuteWedding.cpp:125
+#, c-format
+msgid "%s gives 2 cards to %s as a Wedding gift."
+msgstr ""
+
+#: src/CitiesRules/RuleMoveKnight.cpp:90
+#, c-format
+msgid "%s, select a knight to move."
+msgstr ""
+
+#: src/CitiesRules/RuleMoveKnight.cpp:91
+#, c-format
+msgid "Waiting for %s to select a knight to move."
+msgstr ""
+
+#: src/CitiesRules/RulePlaceAttackedKnight.cpp:122
+#: src/CitiesRules/RulePlaceIntrigueKnight.cpp:122
+#, c-format
+msgid "%s withdraws a knight."
+msgstr ""
+
+#: src/CitiesRules/RulePlaceDeserter.cpp:126
+#, c-format
+msgid "%s places the deserter."
+msgstr ""
+
+#: src/CitiesRules/RulePlaceKnight.cpp:90
+#, c-format
+msgid "%s places a basic knight."
+msgstr ""
+
+#: src/CitiesRules/RulePlaceKnight.cpp:126
+#, c-format
+msgid "%s undoes a basic knight."
+msgstr ""
+
+#: src/CitiesRules/RulePlaceMoveKnight.cpp:95
+#, c-format
+msgid "%s moves a knight."
+msgstr ""
+
+#: src/CitiesRules/RulePlaceMoveKnight.cpp:137
+#, c-format
+msgid "%s undoes a knight move."
+msgstr ""
+
+#: src/CitiesRules/RulePlaceWalls.cpp:88
+#, c-format
+msgid "%s places a city walls."
+msgstr ""
+
+#: src/CitiesRules/RulePlaceWalls.cpp:204
+#, c-format
+msgid "%s undoes a city walls."
+msgstr ""
+
+#: src/CitiesRules/RulePlayCardIrrigation.cpp:71
+#, c-format
+msgid "%s receives %d %s from Irrigation."
+msgstr ""
+
+#: src/CitiesRules/RulePlayCardMining.cpp:71
+#, c-format
+msgid "%s receives %d %s from Mining."
+msgstr ""
+
+#: src/CitiesRules/RuleProgressCardCommon.cpp:78
+#, c-format
+msgid "%s receives a Progress Card."
+msgstr ""
+
+#: src/CitiesRules/RuleProgressCardCommon.cpp:93
+#: src/StandardRules/RuleBuyDevCardTurn.cpp:145
+#, c-format
+msgid "You receive a %s card."
+msgstr ""
+
+#: src/CitiesRules/RuleProgressCardCommon.cpp:107
+#, c-format
+msgid "%s receives 1 Victory Point from a %s card."
+msgstr ""
+
+#: src/CitiesRules/RuleReduceCityCities.cpp:99
+#, c-format
+msgid "%s loses a city walls."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartAlchemist.cpp:62
+#, c-format
+msgid "%s, select the dice for the next roll."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartAlchemist.cpp:63
+#, c-format
+msgid "Waiting for %s to select the dice for the next roll."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartDiscardProgressCards.cpp:138
+#, c-format
+msgid "%s, discard 1 progress card."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartDiscardProgressCards.cpp:143
+#, c-format
+msgid "Waiting for %s to discard 1 progress card."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartMetropolis.cpp:112
+#, c-format
+msgid "%s, place your metropolis."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartMetropolis.cpp:113
+#, c-format
+msgid "Waiting for %s to place a metropolis."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartReduceCities.cpp:168
+#, c-format
+msgid "%s, select a city to reduce."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartReduceCities.cpp:173
+#, c-format
+msgid "Waiting for %s to reduce a city."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartSelectExpelKnight.cpp:77
+#, c-format
+msgid "%s, select a knight to expel criminals with."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartSelectExpelKnight.cpp:78
+#, c-format
+msgid "Waiting for %s to select a knight to expel criminals with."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnArsonist.cpp:131
+#: src/StandardRules/RuleRestartTurnLose7.cpp:145
+#, c-format
+msgid "%s, select resources to lose."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnArsonist.cpp:136
+#: src/StandardRules/RuleRestartTurnLose7.cpp:150
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnAttackKnightPlacement.cpp:169
+#, c-format
+msgid "%s, attack an opponent's knight."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnAttackKnightPlacement.cpp:170
+#, c-format
+msgid "Waiting for %s to attack an opponent's knight."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnCommercialHarbor.cpp:62
+#, c-format
+msgid "%s, select a player to use the Commercial Harbor on."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnCommercialHarbor.cpp:63
+#, c-format
+msgid "Waiting for %s to select a player to use the Commercial Harbor on."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnCommercialHarborTrade.cpp:91
+#, c-format
+msgid "Waiting for %s and %s to trade using the Commercial Harbor."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnCommercialHarborTrade.cpp:107
+#, c-format
+msgid "%s, select a resource to give to %s."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnCommercialHarborTrade.cpp:113
+#, c-format
+msgid "Waiting for %s to select a resource to trade."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnCommercialHarborTrade.cpp:131
+#, c-format
+msgid "%s, select a commodity to give to %s."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnCommercialHarborTrade.cpp:137
+#, c-format
+msgid "Waiting for %s to select a commodity to trade."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnDeserter.cpp:62
+#, c-format
+msgid "%s, select a player for desertion."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnDeserter.cpp:63
+#, c-format
+msgid "Waiting for %s to select a player for desertion."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnDeserterPlace.cpp:63
+#, c-format
+msgid "%s, place the deserter."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnDeserterPlace.cpp:64
+#, c-format
+msgid "Waiting for %s to place the deserter."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnDeserterSelect.cpp:63
+#, c-format
+msgid "%s, select a knight to desert."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnDeserterSelect.cpp:64
+#, c-format
+msgid "Waiting for %s to select a knight to desert."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnIntrigue.cpp:63
+#, c-format
+msgid "%s, select a knight to displace."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnIntrigue.cpp:64
+#, c-format
+msgid "Waiting for %s to select a knight to displace."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnIntriguePlace.cpp:91
+#: src/CitiesRules/RuleRestartTurnMoveAttackedKnight.cpp:91
+#, c-format
+msgid "%s, withdraw your knight."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnIntriguePlace.cpp:92
+#: src/CitiesRules/RuleRestartTurnMoveAttackedKnight.cpp:92
+#, c-format
+msgid "Waiting for %s to withdraw a knight."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnInventorChip.cpp:63
+#, c-format
+msgid "%s, select the second roll chip to switch."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnInventorChip.cpp:64
+#, c-format
+msgid "Waiting for %s to select the second roll chip to switch."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnInventor.cpp:63
+#, c-format
+msgid "%s, select the first roll chip to switch."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnInventor.cpp:64
+#, c-format
+msgid "Waiting for %s to select the first roll chip to switch."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnMasterMerchant.cpp:62
+#, c-format
+msgid "%s, select a player to rob."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnMasterMerchant.cpp:63
+#, c-format
+msgid "Waiting for %s to select a player to rob."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnMasterMerchantSteal.cpp:67
+#, c-format
+msgid "%s, select 2 cards to steal from %s."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnMasterMerchantSteal.cpp:69
+#, c-format
+msgid "Waiting for %s to select 2 cards to steal from %s."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnMerchant.cpp:61
+#, c-format
+msgid "%s, place the merchant."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnMerchant.cpp:62
+#, c-format
+msgid "Waiting for %s to place the merchant."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnMerchantFleet.cpp:62
+#, c-format
+msgid "%s, select a resource or commodity to trade at 2-1."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnMerchantFleet.cpp:63
+#, c-format
+msgid "Waiting for %s to select a resource or commodity to trade at 2-1."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnMoveKnightPlacement.cpp:92
+#, c-format
+msgid "%s, move your knight."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnMoveKnightPlacement.cpp:93
+#, c-format
+msgid "Waiting for %s to move a knight."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnRepairCity.cpp:77
+#, c-format
+msgid "%s, repair a city."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnRepairCity.cpp:78
+#, c-format
+msgid "Waiting for %s to repair a city."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnResourceMonopoly.cpp:62
+#: src/StandardRules/RuleRestartTurnMonopoly.cpp:62
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnResourceMonopoly.cpp:63
+#: src/StandardRules/RuleRestartTurnMonopoly.cpp:63
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnSaboteur.cpp:63
+#, c-format
+msgid "%s, sabotage a city."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnSaboteur.cpp:64
+#, c-format
+msgid "Waiting for %s to sabotage a city."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnSpy.cpp:61
+#, c-format
+msgid "%s, select a player to spy on."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnSpy.cpp:62
+#, c-format
+msgid "Waiting for %s to select a player to spy on."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnSpySteal.cpp:67
+#, c-format
+msgid "%s, select 1 progress card to steal from %s."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnSpySteal.cpp:70
+#, c-format
+msgid "Waiting for %s to select 1 progress card to steal from %s."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnTradeMonopoly.cpp:62
+#, c-format
+msgid "%s, select a commodity to steal."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnTradeMonopoly.cpp:63
+#, c-format
+msgid "Waiting for %s to select a commodity to steal."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnWedding.cpp:131
+#, c-format
+msgid "%s, select 2 resources or commodities to give to the wedding."
+msgstr ""
+
+#: src/CitiesRules/RuleRestartTurnWedding.cpp:137
+#, c-format
+msgid "Waiting for %s to give 2 resources or commodities to the wedding."
+msgstr ""
+
+#: src/CitiesRules/RuleSelect2Knight.cpp:87
+#, c-format
+msgid "%s upgrades to a strong knight."
+msgstr ""
+
+#: src/CitiesRules/RuleSelect2Knight.cpp:191
+#: src/CitiesRules/RuleSelect3Knight.cpp:191
+#, c-format
+msgid "%s undoes a knight upgrade."
+msgstr ""
+
+#: src/CitiesRules/RuleSelect3Knight.cpp:87
+#, c-format
+msgid "%s upgrades to a mighty knight."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectActivateKnight.cpp:87
+#, c-format
+msgid "%s activates a knight."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectActivateKnight.cpp:171
+#, c-format
+msgid "%s undoes a knight activate."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectDeserterKnight.cpp:103
+#, c-format
+msgid "%s selects a deserter."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectDiplomatRoad.cpp:61
+#: src/CitiesRules/RuleSelectDiplomatRoadSeafarers.cpp:62
+#, c-format
+msgid "%s removes a road of %s."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectDiplomatRoadSeafarers.cpp:67
+#, c-format
+msgid "%s removes a ship of %s."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectExpelKnight.cpp:105
+#, c-format
+msgid "%s expels criminals."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectIntrigueKnight.cpp:111
+#, c-format
+msgid "%s displaces a knight of %s."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectIntrigueKnight.cpp:136
+#, c-format
+msgid "%s loses the knight."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectMetropolisCity.cpp:154
+#, c-format
+msgid "%s loses the %s metropolis."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectMetropolisCity.cpp:185
+#, c-format
+msgid "%s takes the %s metropolis."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectProgressCards.cpp:114
+#, c-format
+msgid "%s, select a progress card."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectProgressCards.cpp:119
+#, c-format
+msgid "Waiting for %s to select a progress card."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectRepairCity.cpp:101
+#, c-format
+msgid "%s repairs a city."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectSaboteurCity.cpp:108
+#, c-format
+msgid "%s sabotages a city of %s."
+msgstr ""
+
+#: src/CitiesRules/RuleSelectSecondInventorChip.cpp:85
+#, c-format
+msgid "%s swaps a %d chip for a %d chip."
+msgstr ""
+
+#: src/CitiesRules/RuleUpgrade2Knight.cpp:103
+#, c-format
+msgid "%s, upgrade to a strong knight."
+msgstr ""
+
+#: src/CitiesRules/RuleUpgrade2Knight.cpp:104
+#, c-format
+msgid "Waiting for %s to upgrade to a strong knight."
+msgstr ""
+
+#: src/CitiesRules/RuleUpgrade3Knight.cpp:103
+#, c-format
+msgid "%s, upgrade to a mighty knight."
+msgstr ""
+
+#: src/CitiesRules/RuleUpgrade3Knight.cpp:104
+#, c-format
+msgid "Waiting for %s to upgrade to a mighty knight."
+msgstr ""
+
+#: src/CitiesRules/RuleUpgradeCommon.cpp:110
+#, c-format
+msgid "%s upgrades %s to level %d."
+msgstr ""
+
+#: src/CitiesRules/RuleUpgradeCommon.cpp:140
+#, c-format
+msgid "%s undoes the %s upgrade."
+msgstr ""
+
+#: src/CitiesRules/ScienceCardsName.cpp:35
+msgid "Science cards"
+msgstr ""
+
+#: src/CitiesRules/ScienceCardsOption.cpp:45
+msgid "Change the deck of Science progress cards."
+msgstr ""
+
+#: src/CitiesRules/ScienceCardsOption.cpp:143
+#, c-format
+msgid "Science cards: %s"
+msgstr ""
+
+#: src/CitiesRules/SelectProgressCardsDialog.cpp:56
+msgid "Select 1 progress card."
+msgstr ""
+
+#: src/CitiesRules/SelectProgressCardsDialog.cpp:161
+msgid "Select A Progress Card"
+msgstr ""
+
+#: src/CitiesRules/SpyPlayerDialog.cpp:206
+msgid "Select a Player to Spy on"
+msgstr ""
+
+#: src/CitiesRules/StealProgressCardsDialog.cpp:56
+msgid "Steal Card"
+msgstr ""
+
+#: src/CitiesRules/StealProgressCardsDialog.cpp:56
+msgid "Spy Cards"
+msgstr ""
+
+#: src/CitiesRules/TradeCardsName.cpp:35
+msgid "Trade cards"
+msgstr ""
+
+#: src/CitiesRules/TradeCardsOption.cpp:45
+msgid "Change the deck of Trade progress cards."
+msgstr ""
+
+#: src/CitiesRules/TradeCardsOption.cpp:135
+#, c-format
+msgid "Trade cards: %s"
+msgstr ""
+
+#: src/CitiesRules/TradeMonopolyDialog.cpp:51
+msgid "Select 1 commodity type to steal."
+msgstr ""
+
+#: src/CitiesRules/WeddingDialog.cpp:97
+msgid "Select 1 card to give."
+msgstr ""
+
+#: src/CitiesRules/WeddingDialog.cpp:101
+msgid "Select 2 cards to give."
+msgstr ""
+
+#: src/CitiesRules/WeddingDialog.cpp:224
+msgid "Cards To Give"
+msgstr ""
+
+#: src/common/SelectLanguageDialog.cpp:89 src/CoreRules/OptionLanguage.cpp:84
+msgid "Select a Language"
+msgstr ""
+
+#: src/CoreRules/BankTradeDialog.cpp:432
+msgid "You"
+msgstr ""
+
+#: src/CoreRules/BankTradeDialog.cpp:435 src/CoreRules/ControlsUI.cpp:149
+msgid "Bank"
+msgstr ""
+
+#: src/CoreRules/BankTradeDialog.cpp:448
+#: src/CoreRules/OthersTradeDialog.cpp:644
+msgid "Trade!"
+msgstr ""
+
+#: src/CoreRules/BankTradeDialog.cpp:537
+msgid "Drag and drop cards to create a trade."
+msgstr ""
+
+#: src/CoreRules/BankTradeDialog.cpp:563
+msgid "Trade With The Bank"
+msgstr ""
+
+#: src/CoreRules/BankUI.cpp:317 src/CoreRules/BankUI.cpp:479
+msgid "All"
+msgstr ""
+
+#: src/CoreRules/BankUI.cpp:483
+msgid "Most"
+msgstr ""
+
+#: src/CoreRules/BankUI.cpp:488
+msgid "Many"
+msgstr ""
+
+#: src/CoreRules/BankUI.cpp:493
+msgid "Half"
+msgstr ""
+
+#: src/CoreRules/BankUI.cpp:498
+msgid "Some"
+msgstr ""
+
+#: src/CoreRules/BankUI.cpp:503
+msgid "Few"
+msgstr ""
+
+#: src/CoreRules/BankUI.cpp:508
+msgid "None"
+msgstr ""
+
+#: src/CoreRules/ControlsUI.cpp:147
+msgid "Undo"
+msgstr ""
+
+#: src/CoreRules/ControlsUI.cpp:150
+msgid "Cards"
+msgstr ""
+
+#: src/CoreRules/ControlsUI.cpp:151 src/CoreRules/ControlsUI.cpp:529
+msgid "End Turn"
+msgstr ""
+
+#: src/CoreRules/ControlsUI.cpp:522
+msgid "Roll Dice"
+msgstr ""
+
+#: src/CoreRules/CoreRules.cpp:320
+msgid "General"
+msgstr ""
+
+#: src/CoreRules/ExitUI.cpp:44 src/CoreRules/ExitUI.cpp:46
+msgid "Exit"
+msgstr ""
+
+#: src/CoreRules/GameSetupDialog.cpp:93 src/CoreRules/OpenGameDialog.cpp:68
+#: src/CoreRules/ReplayDialog.cpp:68 src/UICore/BaseModalSizer.cpp:53
+#: src/UICore/SelectMapDialog.cpp:76
+msgid "Cancel"
+msgstr ""
+
+#: src/CoreRules/GameSetupDialog.cpp:111
+#: src/NetworkRules/NetworkConnectPage.cpp:329
+msgid "Add"
+msgstr ""
+
+#: src/CoreRules/GameSetupDialog.cpp:115
+#: src/NetworkRules/NetworkConnectPage.cpp:330
+msgid "Delete"
+msgstr ""
+
+#: src/CoreRules/GameSetupDialog.cpp:130
+#: src/NetworkRules/NetworkGamePage.cpp:114
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr ""
+
+#: src/CoreRules/GameSetupDialog.cpp:162
+#: src/NetworkRules/NetworkGamePage.cpp:135
+msgid "Select Map"
+msgstr ""
+
+#: src/CoreRules/GameSetupDialog.cpp:166
+#: src/CoreRules/OptionDisplaySize.cpp:109 src/CoreRules/OptionPopup.cpp:115
+#: src/NetworkRules/NetworkGamePage.cpp:139 src/UICore/MapTextCtrl.cpp:173
+msgid "Options"
+msgstr ""
+
+#: src/CoreRules/GameSetupDialog.cpp:186
+msgid "Game Setup"
+msgstr ""
+
+#: src/CoreRules/GameSetupDialog.cpp:248
+#: src/NetworkRules/NetworkConnectPage.cpp:191
+#: src/NetworkRules/NetworkConnectPage.cpp:214
+#: src/NetworkRules/NetworkConnectPage.cpp:626
+#: src/NetworkRules/NetworkUI.cpp:149 src/NetworkRules/NetworkUI.cpp:163
+msgid "Question"
+msgstr ""
+
+#: src/CoreRules/GameSetupDialog.cpp:249
+#: src/NetworkRules/NetworkConnectPage.cpp:627
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr ""
+
+#: src/CoreRules/HotseatUI.cpp:49
+msgid "Hotseat"
+msgstr ""
+
+#: src/CoreRules/NetworkUINotebook.cpp:183
+msgid "Chat"
+msgstr ""
+
+#: src/CoreRules/NetworkUINotebook.cpp:184
+msgid "Spectators"
+msgstr ""
+
+#: src/CoreRules/OpenGameDialog.cpp:82
+msgid "Open A Saved Game"
+msgstr ""
+
+#: src/CoreRules/OpenUI.cpp:46
+msgid "Open Saved"
+msgstr ""
+
+#: src/CoreRules/OptionAdvanced.cpp:73
+msgid "Bitmaps"
+msgstr ""
+
+#: src/CoreRules/OptionAdvanced.cpp:85
+msgid "Render bitmaps with OpenGL"
+msgstr ""
+
+#: src/CoreRules/OptionAdvanced.cpp:88
+msgid "Use frame buffers (if available)"
+msgstr ""
+
+#: src/CoreRules/OptionAdvanced.cpp:92
+msgid "Use pixel buffers (if available)"
+msgstr ""
+
+#: src/CoreRules/OptionAdvanced.cpp:103
+msgid "Depth Buffer Size"
+msgstr ""
+
+#: src/CoreRules/OptionAdvanced.cpp:132
+msgid "Display OpenGL render information"
+msgstr ""
+
+#: src/CoreRules/OptionAdvanced.cpp:138
+msgid "Use curved regions (Windows only)"
+msgstr ""
+
+#: src/CoreRules/OptionAnimation.cpp:55 src/CoreRules/SettingsDialog.cpp:132
+msgid "Animation"
+msgstr ""
+
+#: src/CoreRules/OptionAnimation.cpp:70
+msgid "Play board animations"
+msgstr ""
+
+#: src/CoreRules/OptionAnimation.cpp:73
+msgid "Play UI animations"
+msgstr ""
+
+#: src/CoreRules/OptionAnimation.cpp:79
+msgid "Board animations show you when another player changes the board."
+msgstr ""
+
+#: src/CoreRules/OptionAnimation.cpp:88
+msgid "UI animations cause game windows to slide in and out."
+msgstr ""
+
+#: src/CoreRules/OptionDisplaySize.cpp:66
+#: src/CoreRules/OptionDisplaySize.cpp:85 src/Tex3D/TexFrame.cpp:547
+msgid "Size"
+msgstr ""
+
+#: src/CoreRules/OptionDisplaySize.cpp:90
+msgid "Maximum"
+msgstr ""
+
+#: src/CoreRules/OptionDisplaySize.cpp:98
+msgid ""
+"Drag the slider left or right to change the size of the screen interface."
+msgstr ""
+
+#: src/CoreRules/OptionDisplaySize.cpp:120
+msgid "Always show build options"
+msgstr ""
+
+#: src/CoreRules/OptionDisplaySize.cpp:124
+msgid ""
+"Shows build options even if you don't have the resources to build them.  "
+"Recommended for new players."
+msgstr ""
+
+#: src/CoreRules/OptionImages.cpp:78
+msgid "Game Images"
+msgstr ""
+
+#: src/CoreRules/OptionImages.cpp:89 src/CoreRules/SettingsDialog.cpp:128
+msgid "Images"
+msgstr ""
+
+#: src/CoreRules/OptionImages.cpp:96
+msgid ""
+"Select the set of images you would like to use from the list.  The display "
+"will be updated immediately."
+msgstr ""
+
+#: src/CoreRules/OptionImages.cpp:104
+msgid "Soften tiles"
+msgstr ""
+
+#: src/CoreRules/OptionImages.cpp:109
+msgid ""
+"For most image sets, softening the tiles makes the game board look better."
+msgstr ""
+
+#: src/CoreRules/OptionLanguage.cpp:92 src/CoreRules/SettingsDialog.cpp:145
+msgid "Language"
+msgstr ""
+
+#: src/CoreRules/OptionLanguage.cpp:98
+msgid ""
+"Select the language you would like to use from the list.  You must restart "
+"Cities3D for your choice to take effect."
+msgstr ""
+
+#: src/CoreRules/OptionPopup.cpp:62 src/CoreRules/SettingsDialog.cpp:134
+msgid "Popups"
+msgstr ""
+
+#: src/CoreRules/OptionPopup.cpp:75
+msgid "Show popups"
+msgstr ""
+
+#: src/CoreRules/OptionPopup.cpp:80
+msgid "Hide popups"
+msgstr ""
+
+#: src/CoreRules/OptionPopup.cpp:94
+msgid "Recommended for new players or to distinguish between different colors."
+msgstr ""
+
+#: src/CoreRules/OptionPopup.cpp:103
+msgid "Use the TAB key to quickly toggle popups on and off."
+msgstr ""
+
+#: src/CoreRules/OptionPopup.cpp:125
+msgid "Seconds before popups disappear:"
+msgstr ""
+
+#: src/CoreRules/OptionSkin.cpp:74 src/CoreRules/OptionSkin.cpp:83
+msgid "Skins"
+msgstr ""
+
+#: src/CoreRules/OptionSkin.cpp:89
+msgid ""
+"Select the skin you would like to use from the list.  Your choice will take "
+"effect immediately."
+msgstr ""
+
+#: src/CoreRules/OptionSounds.cpp:75
+msgid "Game Sounds"
+msgstr ""
+
+#: src/CoreRules/OptionSounds.cpp:86 src/CoreRules/SettingsDialog.cpp:141
+msgid "Sounds"
+msgstr ""
+
+#: src/CoreRules/OptionSounds.cpp:92
+msgid ""
+"Select the set of sounds you would like to use from the list.  Your choice "
+"will take effect immediately."
+msgstr ""
+
+#: src/CoreRules/OptionSounds.cpp:101
+msgid "Play Sounds"
+msgstr ""
+
+#: src/CoreRules/OptionSounds.cpp:107
+msgid "Turning sounds off will make the game completely silent."
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:537
+#: src/CoreRules/StockyardDialog.cpp:115 src/CoreRules/TradeOfferBox.cpp:140
+msgid "You offer"
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:538
+#: src/CoreRules/StockyardDialog.cpp:116 src/CoreRules/TradeOfferBox.cpp:141
+msgid "You want"
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:559
+msgid "Offer"
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:604
+msgid "1.  Drag and drop cards to create an offer."
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:605
+msgid "Respond with the Stockyard buttons, or make a counteroffer."
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:624
+#: src/CoreRules/OthersTradeDialog.cpp:867
+msgid "You give"
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:656
+msgid "Clear"
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:656
+#: src/NetworkRules/NetworkRestartDialog.cpp:87
+msgid "No, thanks."
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:674
+msgid "3.  Finalize your trade!"
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:678
+#, c-format
+msgid "If %s accepts your offer, finalize it."
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:714
+msgid "Trade With Others"
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:850
+#: src/CoreRules/OthersTradeDialog.cpp:869
+msgid "You get"
+msgstr ""
+
+#: src/CoreRules/OthersTradeDialog.cpp:875
+#: src/CoreRules/OthersTradeDialog.cpp:880
+#, c-format
+msgid "%s gives"
+msgstr ""
+
+#: src/CoreRules/PlayerElement.cpp:63
+msgid "That would be cheating!"
+msgstr ""
+
+#: src/CoreRules/QuitUI.cpp:44 src/NetworkRules/NetworkDialog.cpp:75
+msgid "Quit"
+msgstr ""
+
+#: src/CoreRules/Replay.cpp:47 src/CoreRules/ReplayDialog.cpp:82
+msgid "Replay A Game"
+msgstr ""
+
+#: src/CoreRules/ReplayUI.cpp:115
+msgid "Play Next"
+msgstr ""
+
+#: src/CoreRules/RuleRestartGame.cpp:83
+msgid "Unable to restart the game."
+msgstr ""
+
+#: src/CoreRules/SaveUI.cpp:44 src/UICore/OptionsDialog.cpp:212
+msgid "Save"
+msgstr ""
+
+#: src/CoreRules/SettingsDialog.cpp:125
+msgid "Display"
+msgstr ""
+
+#: src/CoreRules/SettingsDialog.cpp:126
+msgid "Interface"
+msgstr ""
+
+#: src/CoreRules/SettingsDialog.cpp:130
+msgid "Skin"
+msgstr ""
+
+#: src/CoreRules/SettingsDialog.cpp:136
+msgid "Advanced"
+msgstr ""
+
+#: src/CoreRules/SettingsDialog.cpp:166 src/UICore/OptionsDialog.cpp:208
+msgid "Done"
+msgstr ""
+
+#: src/CoreRules/SettingsDialog.cpp:209
+msgid "General Settings"
+msgstr ""
+
+#: src/CoreRules/SettingsUI.cpp:46 src/CoreRules/SettingsUI.cpp:48
+#: src/NetworkRules/NetworkConnectPage.cpp:304
+#: src/UICore/OptionsDialog.cpp:192
+msgid "Settings"
+msgstr ""
+
+#: src/CoreRules/StockyardDialog.cpp:72
+msgid "Stockyard"
+msgstr ""
+
+#: src/CoreRules/StockyardDialog.cpp:120 src/CoreRules/TradeOfferBox.cpp:136
+#: src/CoreRules/TradeOfferBox.cpp:146
+#, c-format
+msgid "%s wants"
+msgstr ""
+
+#: src/CoreRules/StockyardDialog.cpp:121 src/CoreRules/TradeOfferBox.cpp:135
+#: src/CoreRules/TradeOfferBox.cpp:145
+#, c-format
+msgid "%s offers"
+msgstr ""
+
+#: src/CoreRules/StockyardDialog.cpp:155
+msgid "Accept"
+msgstr ""
+
+#: src/CoreRules/StockyardDialog.cpp:158
+msgid "Reject"
+msgstr ""
+
+#: src/CoreRules/StockyardDialog.cpp:161
+msgid "No Trades"
+msgstr ""
+
+#: src/CoreRules/StockyardDialog.cpp:177
+msgid "2.  Click an offer to trade with that player."
+msgstr ""
+
+#: src/CoreRules/StockyardDialog.cpp:178
+msgid "Click other offers to match them."
+msgstr ""
+
+#: src/CoreRules/TradeOfferBox.cpp:122
+msgid "You accept"
+msgstr ""
+
+#: src/CoreRules/TradeOfferBox.cpp:127
+#, c-format
+msgid "%s accepts"
+msgstr ""
+
+#: src/CoreRules/TradeOfferBox.cpp:153
+msgid "You pass"
+msgstr ""
+
+#: src/CoreRules/TradeOfferBox.cpp:158
+#, c-format
+msgid "%s passes"
+msgstr ""
+
+#: src/CoreRules/TradeOfferBox.cpp:166
+msgid "You won't trade"
+msgstr ""
+
+#: src/CoreRules/TradeOfferBox.cpp:171
+#, c-format
+msgid "%s won't trade"
+msgstr ""
+
+#: src/CoreRules/TradeOffer.cpp:73
+msgid "for"
+msgstr ""
+
+#: src/DatabaseCore/ColorInfo.cpp:66
+msgid "White"
+msgstr ""
+
+#: src/DatabaseCore/ColorInfo.cpp:70
+msgid "Red"
+msgstr ""
+
+#: src/DatabaseCore/ColorInfo.cpp:74
+msgid "Orange"
+msgstr ""
+
+#: src/DatabaseCore/ColorInfo.cpp:78
+msgid "Blue"
+msgstr ""
+
+#: src/DatabaseCore/ColorInfo.cpp:82
+msgid "Brown"
+msgstr ""
+
+#: src/DatabaseCore/ColorInfo.cpp:86
+msgid "Green"
+msgstr ""
+
+#: src/DatabaseCore/ColorInfo.cpp:90
+msgid "Purple"
+msgstr ""
+
+#: src/DatabaseCore/ColorInfo.cpp:94
+msgid "Black"
+msgstr ""
+
+#: src/ModelCore/MapDatabase.cpp:103 src/ModelCore/MapDatabase.cpp:108
+msgid "players"
+msgstr ""
+
+#: src/ModelCore/MapDatabase.cpp:112
+msgid "points"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectorPage.cpp:81
+msgid "Connect!"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectorPage.cpp:85
+msgid "Refresh"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:96
+msgid "Stop Server"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:100
+msgid "Started"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:108
+msgid "Start Server"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:112
+msgid "Stopped"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:124
+msgid "Disconnect"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:128
+msgid "Connected"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:134
+#: src/NetworkRules/NetworkConnectPage.cpp:301
+#: src/NetworkRules/NetworkNotebook.cpp:64
+msgid "Connect"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:135
+msgid "Not connected"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:170
+msgid "Unselected"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:191
+#: src/NetworkRules/NetworkUI.cpp:150
+msgid ""
+"There are players connected to you.  Are you sure you want to shut down the "
+"server?"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:214
+#: src/NetworkRules/NetworkUI.cpp:164
+msgid ""
+"You are currently connected to a server.  Are you sure you want to leave?"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:244
+msgid "Connection"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:248
+msgid "Status"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:253
+msgid "Host"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:257
+#: src/NetworkRules/NetworkConnectToDialog.cpp:63
+msgid "Connect To"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:277
+msgid "Player"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:289
+msgid "IP address"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:320
+msgid ""
+"Use the Connection settings to either host a game or connect to a game.  "
+"Select the player you wish to play with from the list."
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectPage.cpp:422
+#: src/NetworkRules/NetworkConnectPage.cpp:572
+msgid "Connecting..."
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectToDialog.cpp:65
+#: src/NetworkRules/NetworkSettingsDialog.cpp:68
+msgid "Port"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectToDialog.cpp:87
+msgid ""
+"Enter an IP address or host name in the Connect To window and the port "
+"number in the Port window.  The default port is 7176."
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectToDialog.cpp:110
+msgid "Connect To A Game"
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectToDialog.cpp:137
+msgid "You must enter an IP address or host name."
+msgstr ""
+
+#: src/NetworkRules/NetworkConnectToDialog.cpp:152
+msgid "The port must be a valid number between 0 and 65535."
+msgstr ""
+
+#: src/NetworkRules/NetworkDialog.cpp:73
+msgid "Direct Connect Setup"
+msgstr ""
+
+#: src/NetworkRules/NetworkGamePage.cpp:92
+msgid "Start Game!"
+msgstr ""
+
+#: src/NetworkRules/NetworkGamePage.cpp:92
+msgid "Ready!"
+msgstr ""
+
+#: src/NetworkRules/NetworkGamePage.cpp:104
+msgid "Not ready!"
+msgstr ""
+
+#: src/NetworkRules/NetworkNotebook.cpp:107
+#: src/NetworkRules/NetworkNotebook.cpp:112
+msgid "Game"
+msgstr ""
+
+#: src/NetworkRules/NetworkNotebook.cpp:120
+#: src/NetworkRules/NetworkNotebook.cpp:122
+#: src/NetworkRules/NetworkNotebook.cpp:127
+msgid "Connector"
+msgstr ""
+
+#: src/NetworkRules/NetworkRestartDialog.cpp:84
+msgid "I'll play!"
+msgstr ""
+
+#: src/NetworkRules/NetworkRestartDialog.cpp:100
+#: src/NetworkRules/NetworkRestartDialog.cpp:200
+#: src/NetworkRules/NetworkRuleRestartNetworkRestart.cpp:68
+msgid "Waiting for players to rejoin."
+msgstr ""
+
+#: src/NetworkRules/NetworkRestartDialog.cpp:136
+msgid "Network Game Restart"
+msgstr ""
+
+#: src/NetworkRules/NetworkRestartDialog.cpp:179
+#, c-format
+msgid "The game will restart in %d."
+msgstr ""
+
+#: src/NetworkRules/NetworkRestartListCtrl.cpp:88
+#: src/NetworkRules/NetworkRestartListCtrl.cpp:134
+msgid "Waiting..."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleAutoSave.cpp:70
+msgid "Game saved."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleChangeColorMessage.cpp:66
+#, c-format
+msgid "%s is now %s."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleCheckCountdowns.cpp:88
+#, c-format
+msgid "%s takes over as %s."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleClientConnectionLost.cpp:71
+msgid "Disconnected from the server."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleClientConnectionLost.cpp:84
+#, c-format
+msgid "%s shut down the server."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleClientConnectionLost.cpp:89
+msgid "Lost connection to the server."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleConnectionLostDrop.cpp:66
+#, c-format
+msgid "%s drops from the game."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleConnectionLostQuit.cpp:67
+#, c-format
+msgid "%s quits the game."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleConnectionLostSpectator.cpp:69
+#, c-format
+msgid "%s leaves the server."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleLoadMap.cpp:67
+#, c-format
+msgid "The map is now %s."
+msgstr ""
+
+#: src/NetworkRules/NetworkRulePlayerNotReady.cpp:77
+#, c-format
+msgid "%s is no longer ready."
+msgstr ""
+
+#: src/NetworkRules/NetworkRulePlayerReady.cpp:77
+#, c-format
+msgid "%s is ready."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleRemovePlayer.cpp:86
+#, c-format
+msgid "%s becomes a spectator."
+msgstr ""
+
+#: src/NetworkRules/NetworkRules.cpp:41
+msgid "Network"
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleTakeSeat.cpp:109
+#, c-format
+msgid "%s rejoins as %s."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleTakeSeat.cpp:127
+#, c-format
+msgid "%s replaces %s as %s."
+msgstr ""
+
+#: src/NetworkRules/NetworkRuleVersionMismatch.cpp:61
+#, c-format
+msgid "A player attempts to join with version %s.  The server version is %s."
+msgstr ""
+
+#: src/NetworkRules/NetworkSettingsDialog.cpp:59
+msgid "Hostname"
+msgstr ""
+
+#: src/NetworkRules/NetworkSettingsDialog.cpp:75
+msgid ""
+"Enter a valid host name or IP address in the Hostname window.  Enter the "
+"port number clients should connect to in the Port window.  The default port "
+"is 7176."
+msgstr ""
+
+#: src/NetworkRules/NetworkSettingsDialog.cpp:97
+msgid "Server Settings"
+msgstr ""
+
+#: src/NetworkRules/NetworkSettingsDialog.cpp:128
+msgid "You must enter a valid host name or IP address."
+msgstr ""
+
+#: src/NetworkRules/NetworkSettingsDialog.cpp:141
+msgid "You must enter a port number."
+msgstr ""
+
+#: src/NetworkRules/NetworkUI.cpp:58
+msgid "LAN / Network"
+msgstr ""
+
+#: src/RulesCore/NetworkClient.cpp:103
+#, c-format
+msgid "Could not establish a connection to %s:%d."
+msgstr ""
+
+#: src/RulesCore/NetworkClient.cpp:144
+msgid "You may not join the same game twice."
+msgstr ""
+
+#: src/RulesCore/NetworkClient.cpp:343
+#, c-format
+msgid ""
+"Version mismatch with the server.  You have version %s.  The server has "
+"version %s."
+msgstr ""
+
+#: src/RulesCore/OptionEngine.cpp:258
+#, c-format
+msgid "The option %s is now selected."
+msgstr ""
+
+#: src/RulesCore/OptionEngine.cpp:286
+#, c-format
+msgid "The option %s is no longer selected."
+msgstr ""
+
+#: src/RulesCore/ServerGameThread.cpp:292
+#, c-format
+msgid "%s tries to join a second time and is refused."
+msgstr ""
+
+#: src/RulesCore/ServerGameThread.cpp:327
+#, c-format
+msgid "%s joins as a spectator."
+msgstr ""
+
+#: src/SeafarersRules/BuildDataSeafarers.cpp:43
+msgid "Build a Ship"
+msgstr ""
+
+#: src/SeafarersRules/BuildDataSeafarers.cpp:47
+msgid "Move a Ship"
+msgstr ""
+
+#: src/SeafarersRules/ChiplessName.cpp:35
+msgid "Chipless tiles"
+msgstr ""
+
+#: src/SeafarersRules/DrawExtraObject.cpp:173
+msgid "Extra Point"
+msgstr ""
+
+#: src/SeafarersRules/DrawPirateObject.cpp:47
+msgid "Pirate"
+msgstr ""
+
+#: src/SeafarersRules/DrawShipObject.cpp:842
+msgid "Ship"
+msgstr ""
+
+#: src/SeafarersRules/HiddenName.cpp:35
+msgid "Hidden tiles"
+msgstr ""
+
+#: src/SeafarersRules/InitialShipsName.cpp:35
+msgid "No initial roads along the coast"
+msgstr ""
+
+#: src/SeafarersRules/LogicResourceNameSeafarers.cpp:59
+msgid "Random"
+msgstr ""
+
+#: src/SeafarersRules/PlayerDataSeafarers.cpp:55
+msgid "Ships"
+msgstr ""
+
+#: src/SeafarersRules/PortPlacementName.cpp:35
+msgid "Players place ports"
+msgstr ""
+
+#: src/SeafarersRules/RepeatingBonusName.cpp:35
+msgid "1, then 2 VPs for colonies"
+msgstr ""
+
+#: src/SeafarersRules/RuleBuildShipCommon.cpp:89
+#: src/SeafarersRules/RuleRequestInitialRoadSeafarers.cpp:97
+#, c-format
+msgid "%s, place a ship."
+msgstr ""
+
+#: src/SeafarersRules/RuleBuildShipCommon.cpp:90
+#: src/SeafarersRules/RuleRequestInitialRoadSeafarers.cpp:98
+#, c-format
+msgid "Waiting for %s to place a ship."
+msgstr ""
+
+#: src/SeafarersRules/RuleEvaluateInitialRoads.cpp:146
+#, c-format
+msgid "%s, place a road or a ship."
+msgstr ""
+
+#: src/SeafarersRules/RuleEvaluateInitialRoads.cpp:147
+#, c-format
+msgid "Waiting for %s to place a road or a ship."
+msgstr ""
+
+#: src/SeafarersRules/RuleExecuteChiplessTile.cpp:85
+#, c-format
+msgid "%s takes a %d from the mainland."
+msgstr ""
+
+#: src/SeafarersRules/RuleMoveShip.cpp:123
+#, c-format
+msgid "%s, select a ship to move."
+msgstr ""
+
+#: src/SeafarersRules/RuleMoveShip.cpp:124
+#, c-format
+msgid "Waiting for %s to select a ship to move."
+msgstr ""
+
+#: src/SeafarersRules/RulePlacePortPlacement.cpp:123
+#, c-format
+msgid "%s places a port harbor."
+msgstr ""
+
+#: src/SeafarersRules/RulePlaceSettlementRepeatingBonus.cpp:143
+#: src/SeafarersRules/RulePlaceSettlementSingleBonus.cpp:126
+#, c-format
+msgid "%s receives 1 bonus point for colonizing a new island."
+msgstr ""
+
+#: src/SeafarersRules/RulePlaceSettlementRepeatingBonus.cpp:148
+#, c-format
+msgid "%s receives %d bonus points for colonizing a new island."
+msgstr ""
+
+#: src/SeafarersRules/RulePlaceShip.cpp:77
+#, c-format
+msgid "%s places a ship."
+msgstr ""
+
+#: src/SeafarersRules/RulePlaceShip.cpp:99
+#, c-format
+msgid "%s undoes a ship."
+msgstr ""
+
+#: src/SeafarersRules/RulePlaceShipMove.cpp:89
+#, c-format
+msgid "%s moves a ship."
+msgstr ""
+
+#: src/SeafarersRules/RulePlaceShipMove.cpp:126
+#, c-format
+msgid "%s undoes a ship move."
+msgstr ""
+
+#: src/SeafarersRules/RuleRequestPortOrientation.cpp:85
+#, c-format
+msgid "%s, orient the port harbor."
+msgstr ""
+
+#: src/SeafarersRules/RuleRequestPortOrientation.cpp:86
+#, c-format
+msgid "Waiting for %s to orient the port harbor."
+msgstr ""
+
+#: src/SeafarersRules/RuleRequestPortPlacement.cpp:85
+#, c-format
+msgid "%s, place a port harbor."
+msgstr ""
+
+#: src/SeafarersRules/RuleRequestPortPlacement.cpp:86
+#, c-format
+msgid "Waiting for %s to place a port harbor."
+msgstr ""
+
+#: src/SeafarersRules/RuleRestartPirateSteal.cpp:65
+#, c-format
+msgid "%s, choose a player to steal from, or click the pirate to not steal."
+msgstr ""
+
+#: src/SeafarersRules/RuleRestartPirateSteal.cpp:67
+#: src/StandardRules/RuleRestartRobberSteal.cpp:67
+#, c-format
+msgid "Waiting for %s to steal a card."
+msgstr ""
+
+#: src/SeafarersRules/RuleRestartTurnShipMovePlacement.cpp:111
+#, c-format
+msgid "%s, move your ship."
+msgstr ""
+
+#: src/SeafarersRules/RuleRestartTurnShipMovePlacement.cpp:112
+#, c-format
+msgid "Waiting for %s to move a ship."
+msgstr ""
+
+#: src/SeafarersRules/RuleRewardHiddenTile.cpp:93
+#, c-format
+msgid "%s receives 1 %s for discovering new land."
+msgstr ""
+
+#: src/SeafarersRules/RuleSelectChiplessTile.cpp:93
+#, c-format
+msgid "%s, select a chip from the mainland."
+msgstr ""
+
+#: src/SeafarersRules/RuleSelectChiplessTile.cpp:94
+#, c-format
+msgid "Waiting for %s to select a chip from the mainland."
+msgstr ""
+
+#: src/SeafarersRules/RuleStartPirateCommon.cpp:60
+#, c-format
+msgid "%s, place the pirate."
+msgstr ""
+
+#: src/SeafarersRules/RuleStartPirateCommon.cpp:61
+#, c-format
+msgid "Waiting for %s to place the pirate."
+msgstr ""
+
+#: src/SeafarersRules/RuleStartRobberPirate.cpp:60
+#, c-format
+msgid "%s, place the robber or pirate."
+msgstr ""
+
+#: src/SeafarersRules/RuleStartRobberPirate.cpp:61
+#, c-format
+msgid "Waiting for %s to place the robber or pirate."
+msgstr ""
+
+#: src/SeafarersRules/RuleTradeRoutes.cpp:569
+#, c-format
+msgid "%s loses 1 trade route point."
+msgstr ""
+
+#: src/SeafarersRules/RuleTradeRoutes.cpp:573
+#, c-format
+msgid "%s loses %d trade route points."
+msgstr ""
+
+#: src/SeafarersRules/RuleTradeRoutes.cpp:581
+#, c-format
+msgid "%s gains 1 trade route point."
+msgstr ""
+
+#: src/SeafarersRules/RuleTradeRoutes.cpp:585
+#, c-format
+msgid "%s gains %d trade route points."
+msgstr ""
+
+#: src/SeafarersRules/SeafarersName.cpp:35
+#: src/SeafarersRules/SeafarersRules.cpp:42
+msgid "Seafarers"
+msgstr ""
+
+#: src/SeafarersRules/SingleBonusName.cpp:35
+msgid "1 VP for colonies"
+msgstr ""
+
+#: src/SeafarersRules/StockName.cpp:35
+msgid "Stock ships"
+msgstr ""
+
+#: src/SeafarersRules/StockOption.cpp:47
+msgid "Change the starting stock amount of ships."
+msgstr ""
+
+#: src/SeafarersRules/StockOption.cpp:95
+#, c-format
+msgid "%d ships"
+msgstr ""
+
+#: src/SeafarersRules/StockOption.cpp:115
+msgid "Ships:"
+msgstr ""
+
+#: src/SeafarersRules/TradeRouteName.cpp:35
+msgid "Trade routes"
+msgstr ""
+
+#: src/StandardRules/AllowedName.cpp:35
+msgid "Cards allowed"
+msgstr ""
+
+#: src/StandardRules/AllowedOption.cpp:48
+msgid ""
+"Change the number of cards each player may hold without losing half on a 7."
+msgstr ""
+
+#: src/StandardRules/AllowedOption.cpp:100
+#, c-format
+msgid "%d cards allowed in hand"
+msgstr ""
+
+#: src/StandardRules/AllowedOption.cpp:124
+msgid "Cards allowed in hand:"
+msgstr ""
+
+#: src/StandardRules/AroundTheBoardName.cpp:35
+msgid "Random chip layout"
+msgstr ""
+
+#: src/StandardRules/AroundTheBoardPortsName.cpp:35
+msgid "Random port layout"
+msgstr ""
+
+#: src/StandardRules/BankDataDevCards.cpp:35
+#: src/StandardRules/PlayerDataDevCards.cpp:89
+msgid "Development Cards"
+msgstr ""
+
+#: src/StandardRules/BankDataStandard.cpp:35
+#: src/StandardRules/LogicResourceNameStandard.cpp:89
+#: src/StandardRules/PlayerDataStandard.cpp:136
+msgid "Sheep"
+msgstr ""
+
+#: src/StandardRules/BankDataStandard.cpp:37
+#: src/StandardRules/LogicResourceNameStandard.cpp:117
+#: src/StandardRules/PlayerDataStandard.cpp:141
+msgid "Ore"
+msgstr ""
+
+#: src/StandardRules/BankDataStandard.cpp:39
+#: src/StandardRules/LogicResourceNameStandard.cpp:59
+#: src/StandardRules/PlayerDataStandard.cpp:146
+msgid "Timber"
+msgstr ""
+
+#: src/StandardRules/BankDataStandard.cpp:41
+#: src/StandardRules/LogicResourceNameStandard.cpp:74
+#: src/StandardRules/PlayerDataStandard.cpp:151
+msgid "Clay"
+msgstr ""
+
+#: src/StandardRules/BankDataStandard.cpp:43
+#: src/StandardRules/LogicResourceNameStandard.cpp:103
+#: src/StandardRules/PlayerDataStandard.cpp:156
+msgid "Wheat"
+msgstr ""
+
+#: src/StandardRules/BuildDataDevCards.cpp:39
+msgid "Buy a Development Card"
+msgstr ""
+
+#: src/StandardRules/BuildDataStandard.cpp:47
+msgid "Build a Road"
+msgstr ""
+
+#: src/StandardRules/BuildDataStandard.cpp:51
+msgid "Build a Settlement"
+msgstr ""
+
+#: src/StandardRules/BuildDataStandard.cpp:55
+msgid "Build a City"
+msgstr ""
+
+#: src/StandardRules/defineOptions.h:26 src/StandardRules/StandardRules.cpp:42
+msgid "Standard"
+msgstr ""
+
+#: src/StandardRules/DevCardsName.cpp:35
+#: src/StandardRules/DevelopmentCardsName.cpp:35
+msgid "Development cards"
+msgstr ""
+
+#: src/StandardRules/DevelopmentCardsOption.cpp:47
+msgid "Change the deck of Development cards."
+msgstr ""
+
+#: src/StandardRules/DevelopmentCardsOption.cpp:77
+#: src/StandardRules/LogicCardNameDevCards.cpp:59
+msgid "Victory Point"
+msgstr ""
+
+#: src/StandardRules/DevelopmentCardsOption.cpp:79
+#: src/StandardRules/LogicCardNameDevCards.cpp:89
+#: src/StandardRules/YearOfPlentyDialog.cpp:162
+msgid "Year Of Plenty"
+msgstr ""
+
+#: src/StandardRules/DevelopmentCardsOption.cpp:80
+#: src/StandardRules/LogicCardNameDevCards.cpp:103
+#: src/StandardRules/MonopolyDialog.cpp:111
+msgid "Monopoly"
+msgstr ""
+
+#: src/StandardRules/DevelopmentCardsOption.cpp:81
+#: src/StandardRules/LogicCardNameDevCards.cpp:117
+msgid "Soldier"
+msgstr ""
+
+#: src/StandardRules/DevelopmentCardsOption.cpp:137
+#, c-format
+msgid "Development cards: %s"
+msgstr ""
+
+#: src/StandardRules/DrawCityObject.cpp:316
+msgid "City"
+msgstr ""
+
+#: src/StandardRules/DrawRoadObject.cpp:253
+msgid "Road"
+msgstr ""
+
+#: src/StandardRules/DrawRobberObject.cpp:368
+msgid "Robber"
+msgstr ""
+
+#: src/StandardRules/DrawSettlementObject.cpp:255
+msgid "Settlement"
+msgstr ""
+
+#: src/StandardRules/DrawTileObject.cpp:396
+#, c-format
+msgid "Odds: %s"
+msgstr ""
+
+#: src/StandardRules/GoldDialog.cpp:69
+#, c-format
+msgid "Select %d resources to gain."
+msgstr ""
+
+#: src/StandardRules/GoldDialog.cpp:207
+msgid "Spend Your Gold"
+msgstr ""
+
+#: src/StandardRules/GoldName.cpp:35
+#: src/StandardRules/LogicResourceNameGold.cpp:59
+msgid "Gold"
+msgstr ""
+
+#: src/StandardRules/LogicCardTextDevCards.cpp:59
+msgid "Receive 1 Victory Point!"
+msgstr ""
+
+#: src/StandardRules/LogicCardTextDevCards.cpp:90
+msgid ""
+"In this turn, take any two resource cards from the bank.  They may be used "
+"immediately."
+msgstr ""
+
+#: src/StandardRules/LogicCardTextDevCards.cpp:105
+msgid ""
+"Choose one resource type.  All other players must give you all their "
+"resource cards of that type."
+msgstr ""
+
+#: src/StandardRules/LogicCardTextDevCards.cpp:120
+msgid ""
+"Move the robber and steal one resource card from the owner of an adjacent "
+"city or settlement.  Or, move the pirate and steal from the owner of an "
+"adjacent ship."
+msgstr ""
+
+#: src/StandardRules/LogicRequestInitialPlacement.cpp:61
+#: src/StandardRules/RuleBuildSettlementTurn.cpp:120
+#, c-format
+msgid "%s, place a settlement."
+msgstr ""
+
+#: src/StandardRules/LogicRequestInitialPlacement.cpp:62
+#: src/StandardRules/RuleBuildSettlementTurn.cpp:121
+#, c-format
+msgid "Waiting for %s to place a settlement."
+msgstr ""
+
+#: src/StandardRules/LogicResourceNameStandard.cpp:132
+msgid "Desert"
+msgstr ""
+
+#: src/StandardRules/LogicResourceNameStandard.cpp:146
+msgid "Ocean"
+msgstr ""
+
+#: src/StandardRules/LogicResourceNameStandard.cpp:160
+msgid "2-1 Timber Port"
+msgstr ""
+
+#: src/StandardRules/LogicResourceNameStandard.cpp:174
+msgid "2-1 Clay Port"
+msgstr ""
+
+#: src/StandardRules/LogicResourceNameStandard.cpp:188
+msgid "2-1 Sheep Port"
+msgstr ""
+
+#: src/StandardRules/LogicResourceNameStandard.cpp:202
+msgid "2-1 Wheat Port"
+msgstr ""
+
+#: src/StandardRules/LogicResourceNameStandard.cpp:216
+msgid "2-1 Ore Port"
+msgstr ""
+
+#: src/StandardRules/LogicResourceNameStandard.cpp:230
+msgid "3-1 Port"
+msgstr ""
+
+#: src/StandardRules/No7Name.cpp:35
+msgid "No early 7s"
+msgstr ""
+
+#: src/StandardRules/No7Option.cpp:46
+msgid ""
+"Prevent 7s from rolling for one or two rounds.  This lets players get their "
+"feet on the ground before the robber comes calling."
+msgstr ""
+
+#: src/StandardRules/No7Option.cpp:97
+msgid "No 7s for 1 round"
+msgstr ""
+
+#: src/StandardRules/No7Option.cpp:101
+#, c-format
+msgid "No 7s for %d rounds"
+msgstr ""
+
+#: src/StandardRules/No7Option.cpp:120
+msgid "Rounds before a 7 is rolled:"
+msgstr ""
+
+#: src/StandardRules/PlayerDataDevCards.cpp:95
+msgid "Soldiers"
+msgstr ""
+
+#: src/StandardRules/PlayerDataStandard.cpp:162
+msgid "Resource Cards"
+msgstr ""
+
+#: src/StandardRules/PlayerDataStandard.cpp:169
+msgid "Cities"
+msgstr ""
+
+#: src/StandardRules/PlayerDataStandard.cpp:174
+msgid "Settlements"
+msgstr ""
+
+#: src/StandardRules/PlayerDataStandard.cpp:179
+msgid "Roads"
+msgstr ""
+
+#: src/StandardRules/PlayerDataStandard.cpp:185
+msgid "Points"
+msgstr ""
+
+#: src/StandardRules/PlayerDataStandard.cpp:189
+msgid "Victory Points"
+msgstr ""
+
+#: src/StandardRules/PlayerDataStandard.cpp:193
+msgid "Road Length"
+msgstr ""
+
+#: src/StandardRules/PointsName.cpp:35
+msgid "Points needed to win"
+msgstr ""
+
+#: src/StandardRules/PointsOption.cpp:47
+msgid "Change the number of points needed to win the game."
+msgstr ""
+
+#: src/StandardRules/PointsOption.cpp:94
+#, c-format
+msgid "Play to %d points"
+msgstr ""
+
+#: src/StandardRules/PointsOption.cpp:117
+msgid "Points needed to win:"
+msgstr ""
+
+#: src/StandardRules/RandomTilesName.cpp:35
+msgid "Random tile layout"
+msgstr ""
+
+#: src/StandardRules/RuleBuyDevCardTurn.cpp:129
+#, c-format
+msgid "%s buys a Development Card."
+msgstr ""
+
+#: src/StandardRules/RuleEndTurn.cpp:86
+#, c-format
+msgid "%s ends the turn."
+msgstr ""
+
+#: src/StandardRules/RuleExecuteBankTrade.cpp:124
+#, c-format
+msgid "%s trades %s to the bank for %s."
+msgstr ""
+
+#: src/StandardRules/RuleExecuteBankTrade.cpp:185
+#, c-format
+msgid "%s undoes a bank trade."
+msgstr ""
+
+#: src/StandardRules/RuleExecuteRobberSteal.cpp:124
+#, c-format
+msgid "You steal 1 %s from %s."
+msgstr ""
+
+#: src/StandardRules/RuleExecuteRobberSteal.cpp:134
+#, c-format
+msgid "%s steals 1 resource from %s."
+msgstr ""
+
+#: src/StandardRules/RuleExecuteTrade.cpp:139
+#, c-format
+msgid "%s trades %s to %s for %s."
+msgstr ""
+
+#: src/StandardRules/RuleGainLargestArmy.cpp:70
+#, c-format
+msgid "%s takes Largest Army."
+msgstr ""
+
+#: src/StandardRules/RuleGainLongestRoad.cpp:74
+#, c-format
+msgid "%s takes Longest Road."
+msgstr ""
+
+#: src/StandardRules/RuleGatherResources.cpp:176
+#, c-format
+msgid "There is not enough %s in the bank. No one receives any."
+msgstr ""
+
+#: src/StandardRules/RuleGold.cpp:121
+#, c-format
+msgid "%s, spend your gold."
+msgstr ""
+
+#: src/StandardRules/RuleGold.cpp:126
+#, c-format
+msgid "Waiting for %s to spend gold."
+msgstr ""
+
+#: src/StandardRules/RuleInitializeDevCards.cpp:75
+msgid "Dev"
+msgstr ""
+
+#: src/StandardRules/RuleLoseLargestArmy.cpp:65
+#, c-format
+msgid "%s loses Largest Army."
+msgstr ""
+
+#: src/StandardRules/RuleLoseLongestRoad.cpp:69
+#, c-format
+msgid "%s loses Longest Road."
+msgstr ""
+
+#: src/StandardRules/RulePlaceCity.cpp:116
+#, c-format
+msgid "%s places a city."
+msgstr ""
+
+#: src/StandardRules/RulePlaceCity.cpp:149
+#, c-format
+msgid "%s undoes a city."
+msgstr ""
+
+#: src/StandardRules/RulePlaceRoad.cpp:118
+#, c-format
+msgid "%s places a road."
+msgstr ""
+
+#: src/StandardRules/RulePlaceRoad.cpp:158
+#, c-format
+msgid "%s undoes a road."
+msgstr ""
+
+#: src/StandardRules/RulePlaceSettlement.cpp:73
+#, c-format
+msgid "%s places a settlement."
+msgstr ""
+
+#: src/StandardRules/RulePlaceSettlement.cpp:85
+#, c-format
+msgid "%s undoes a settlement."
+msgstr ""
+
+#: src/StandardRules/RulePlayCard.cpp:71
+#, c-format
+msgid "%s plays a %s card."
+msgstr ""
+
+#: src/StandardRules/RuleReduceCity.cpp:95
+#, c-format
+msgid "%s has a city reduced to a settlement."
+msgstr ""
+
+#: src/StandardRules/RuleRestartPreRoll.cpp:90
+#, c-format
+msgid "%s, play a card, select an action, or roll the dice."
+msgstr ""
+
+#: src/StandardRules/RuleRestartPreRoll.cpp:92
+#, c-format
+msgid "Waiting for %s to play a card, select an action, or roll the dice."
+msgstr ""
+
+#: src/StandardRules/RuleRestartPreRoll.cpp:97
+#, c-format
+msgid "%s, play a card or roll the dice."
+msgstr ""
+
+#: src/StandardRules/RuleRestartPreRoll.cpp:98
+#, c-format
+msgid "Waiting for %s to play a card or roll the dice."
+msgstr ""
+
+#: src/StandardRules/RuleRestartPreRoll.cpp:102
+#, c-format
+msgid "%s, select an action or roll the dice."
+msgstr ""
+
+#: src/StandardRules/RuleRestartPreRoll.cpp:103
+#, c-format
+msgid "Waiting for %s to select an action or roll the dice."
+msgstr ""
+
+#: src/StandardRules/RuleRestartRobberSteal.cpp:65
+#, c-format
+msgid "%s, choose a player to steal from, or click the robber to not steal."
+msgstr ""
+
+#: src/StandardRules/RuleRestartTurn.cpp:73
+#, c-format
+msgid "%s, it is your turn."
+msgstr ""
+
+#: src/StandardRules/RuleRestartTurn.cpp:74
+#, c-format
+msgid "Waiting for %s to finish the turn."
+msgstr ""
+
+#: src/StandardRules/RuleRestartTurnYearOfPlenty.cpp:61
+#, c-format
+msgid "%s, select two resources."
+msgstr ""
+
+#: src/StandardRules/RuleRestartTurnYearOfPlenty.cpp:62
+#, c-format
+msgid "Waiting for %s to select two resources."
+msgstr ""
+
+#: src/StandardRules/RuleRollDiceText.cpp:61
+#, c-format
+msgid "%s rolls a %d."
+msgstr ""
+
+#: src/StandardRules/RuleStartRobberCommon.cpp:60
+#, c-format
+msgid "%s, place the robber."
+msgstr ""
+
+#: src/StandardRules/RuleStartRobberCommon.cpp:61
+#, c-format
+msgid "Waiting for %s to place the robber."
+msgstr ""
+
+#: src/StandardRules/RuleWin.cpp:105
+#, c-format
+msgid "%s wins the game!"
+msgstr ""
+
+#: src/StandardRules/RuleWin.cpp:108
+#, c-format
+msgid "%s has won the game."
+msgstr ""
+
+#: src/StandardRules/StockName.cpp:35
+msgid "Stock amounts"
+msgstr ""
+
+#: src/StandardRules/StockOption.cpp:47
+msgid "Change the starting stock amounts of roads, settlements, and cities."
+msgstr ""
+
+#: src/StandardRules/StockOption.cpp:106
+#, c-format
+msgid "%d roads"
+msgstr ""
+
+#: src/StandardRules/StockOption.cpp:108
+#, c-format
+msgid "%d settlements"
+msgstr ""
+
+#: src/StandardRules/StockOption.cpp:113
+msgid "1 city"
+msgstr ""
+
+#: src/StandardRules/StockOption.cpp:117
+#, c-format
+msgid "%d cities"
+msgstr ""
+
+#: src/StandardRules/StockOption.cpp:138
+msgid "Roads:"
+msgstr ""
+
+#: src/StandardRules/StockOption.cpp:156
+msgid "Settlements:"
+msgstr ""
+
+#: src/StandardRules/StockOption.cpp:174
+msgid "Cities:"
+msgstr ""
+
+#: src/StandardRules/YearOfPlentyDialog.cpp:52
+msgid "Select 2 resources to gain."
+msgstr ""
+
+#: src/Tex3D/TexFrame.cpp:93
+msgid "Import"
+msgstr ""
+
+#: src/Tex3D/TexFrame.cpp:120
+msgid "Export"
+msgstr ""
+
+#: src/Tex3D/TexFrame.cpp:134
+msgid "Extract"
+msgstr ""
+
+#: src/Tex3D/TexFrame.cpp:260
+msgid "Select a .tex file to import."
+msgstr ""
+
+#: src/Tex3D/TexFrame.cpp:285
+msgid "Select a directory to export"
+msgstr ""
+
+#: src/Tex3D/TexFrame.cpp:303
+msgid "Select a directory to extract the files in"
+msgstr ""
+
+#: src/Tex3D/TexFrame.cpp:546
+msgid "Dimensions"
+msgstr ""
+
+#: src/UICore/AddPlayerDialog.cpp:71
+msgid "Name"
+msgstr ""
+
+#: src/UICore/AddPlayerDialog.cpp:91
+msgid "Add A Player"
+msgstr ""
+
+#: src/UICore/AddPlayerDialog.cpp:116
+msgid "Your name cannot be blank or all spaces."
+msgstr ""
+
+#: src/UICore/AddPlayerDialog.cpp:123
+msgid "Your name must be 20 characters or less."
+msgstr ""
+
+#: src/UICore/BaseMessageBox.cpp:74
+msgid "Yes"
+msgstr ""
+
+#: src/UICore/BaseMessageBox.cpp:78
+msgid "No"
+msgstr ""
+
+#: src/UICore/LoseCardsDialog.cpp:95
+#, c-format
+msgid "Select %d resources to lose."
+msgstr ""
+
+#: src/UICore/LoseCardsDialog.cpp:217
+msgid "Cards To Lose"
+msgstr ""
+
+#: src/UICore/MapListCtrl.cpp:65
+#, c-format
+msgid "%d players"
+msgstr ""
+
+#: src/UICore/MapListCtrl.cpp:69
+#, c-format
+msgid "%d-%d players"
+msgstr ""
+
+#: src/UICore/MapListCtrl.cpp:75
+#, c-format
+msgid "%d points"
+msgstr ""
+
+#: src/UICore/MapTextCtrl.cpp:95
+msgid "No map selected."
+msgstr ""
+
+#: src/UICore/MapTextCtrl.cpp:124
+msgid "Map"
+msgstr ""
+
+#: src/UICore/MapTextCtrl.cpp:139
+msgid "Rules"
+msgstr ""
+
+#: src/UICore/OptionsDialog.cpp:172
+msgid "Unselect"
+msgstr ""
+
+#: src/UICore/OptionsDialog.cpp:186
+msgid "Description"
+msgstr ""
+
+#: src/UICore/OptionsDialog.cpp:216
+msgid "Load"
+msgstr ""
+
+#: src/UICore/OptionsDialog.cpp:228
+msgid "Game Options"
+msgstr ""
+
+#: src/UICore/OptionsDialog.cpp:527
+msgid "Enter a file name"
+msgstr ""
+
+#: src/UICore/OptionsDialog.cpp:539
+msgid "Select a file"
+msgstr ""
+
+#: src/UICore/ResourceSelectionDialog.cpp:155
+msgid "Drag and drop cards to make a selection."
+msgstr ""
+
+#: src/UICore/ResourceSelectionDialog.cpp:189
+msgid "Select Resources"
+msgstr ""
+
+#: src/UICore/SelectMapDialog.cpp:90
+msgid "Select A Map"
+msgstr ""
+
+#: src/VolcanoRules/RuleCornerDestroyedSingleBonus.cpp:120
+#, c-format
+msgid "%s loses 1 bonus point to the volcano."
+msgstr ""
+
+#: src/VolcanoRules/RuleRestartVolcanoMetropolis.cpp:169
+#, c-format
+msgid "%s, move your metropolis."
+msgstr ""
+
+#: src/VolcanoRules/RuleRestartVolcanoMetropolis.cpp:174
+#, c-format
+msgid "Waiting for %s to move a metropolis."
+msgstr ""
+
+#: src/VolcanoRules/VolcanoDesertName.cpp:35
+#: src/VolcanoRules/VolcanoDesertOption.cpp:72
+msgid "Deserts are volcanoes"
+msgstr ""
+
+#: src/VolcanoRules/VolcanoDesertOption.cpp:36
+msgid ""
+"Replaces all deserts with volcanoes.  A volcano is rich in resources and "
+"provides gold to players who build on it.  However, when rolled, it erupts, "
+"and destroys anything in the path of its lava, which flows to one of its "
+"corners!"
+msgstr ""
+
+#: src/VolcanoRules/VolcanoName.cpp:35
+msgid "Volcano tile"
+msgstr ""
+
+#: src/VolcanoRules/VolcanoRules.cpp:42
+msgid "Volcanoes"
+msgstr ""
+
+#: src/VolcanoRules/VolcanoUI.cpp:54
+msgid "Volcano"
+msgstr ""

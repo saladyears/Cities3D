@@ -1,0 +1,76 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FMUSIC_SetSample</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FMUSIC_SetRowCallback.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FMUSIC.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FMUSIC_SetUserData.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FMUSIC.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FMUSIC_SetSample">FMUSIC_SetSample</A></H2>
+Replaces a mod's sample with a sample definition specified.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FMUSIC_SetSample</B><B>(</B><BR>
+<B>FMUSIC_MODULE *</B><I>mod</I><B>,</B><BR>
+<B>int </B><B> </B><I>sampno</I><B>,</B><BR>
+<B>FSOUND_SAMPLE *</B><I>sptr</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>mod</I></TD>
+<TD>Pointer to the song to set the sample for.<BR>
+</TD><TR VALIGN=top><TD><I>sampno</I></TD>
+<TD>index to sample inside module.<BR>
+</TD><TR VALIGN=top><TD><I>sptr</I></TD>
+<TD>Pointer to the sample definition to replace mod sample<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+Because of the instrument nature of some formats like XM, this function lists all the samples in order of instruments and their subsamples.<BR>
+ie if instrument 1 has 2 samples and instrument 2 contains 3 samples, then sampno in this case would be 0 and 1 for instrument 1's samples, and 2,3 & 4	for instrument 2's samples.  <BR>
+------------<BR>
+FMOD does not free the existing mod sample that you may be overwriting.  If you do overwrite an existing handle, it may be lost, and you may incur a memory leak.  It is a good idea to free the existing sample first before overwriting it.<BR>
+------------<BR>
+Important: For PlayStation 2, this function has to do a blocking query to the IOP, and can take significantly more time than a standard non blocking fmod function.  This means it is best to cache the pointers for samples while loading, and not call this function in realtime.<BR>
+------------<BR>
+This function is not supported with the MIDI format.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FMUSIC_GetSample.html">FMUSIC_GetSample</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:58 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

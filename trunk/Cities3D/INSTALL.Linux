@@ -1,0 +1,41 @@
+Obtaining the code on Linux:
+---------------------------
+1. Obtain and install the latest svn packages for your distribution.
+   The base package is command line, but several gui packages exist,
+   e.g. RapidSvn (uses wxWidgets) and eSvn (uses Qt).
+2. Create a directory called Cities3D and enter it.
+3. Use your svn tool to checkout the following URL:
+   http://svn1.cvsdude.com/saladyears/Cities3D/trunk
+   If you do not wish to download all of the support libraries use 
+   http://svn1.cvsdude.com/saladyears/Cities3D/trunk/Cities3D
+4. Your source tree should look like this:
+		Cities3D/
+		`--- boost/
+		|	 `--- 1_33_1/
+		`--- glew/
+		|	 `--- 1.3.5/
+		`--- fmod/
+		|	 `--- 3.7.4-linux/   (32bit)
+		|	 `--- 4.2.4-linux64/ (64bit)
+		`--- wxWidgets/
+		|	 `--- 2.8.10
+		`--- Cities3D/
+		`--- build.sh
+
+Compiling the code on Linux:
+---------------------------
+1. Using the build.sh script requires the very latest versions of
+   autoconf, automake, libtool, gettext, make, and g++ installed.
+   The build.sh script automates practically everything necessary
+   to get Cities3D and its dependencies compiled correctly.
+2. Enter the Cities3D directory you had created and downloaded
+   the sources into. The build.sh script should be there.
+3. Run "./build.sh debug all" to compile and install everything.
+4. Take a long break, this is going to take awhile.
+5. You will see several new folders. Cities3D has been compiled
+   and installed into the Cities3D-install-debug directory.
+
+Running the game on Linux:
+-------------------------
+1. Finally, run Cities3D.
+2. See http://www.settlersonline.net/ on how to play via the site.

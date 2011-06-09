@@ -1,0 +1,789 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-12-05 21:54+0100\n"
+"Last-Translator: Jordi E. Gasulla <jordigasulla@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: SPAIN\n"
+
+#: DevCardsStats.cpp:45
+#, fuzzy
+msgid "Development Cards Played"
+msgstr "Cartes de Desenvolupament"
+
+#: DevCardsStats.cpp:49 DevCardsStats.cpp:65 DevCardsStats.cpp:68
+#: Strings.cpp:433
+msgid "Monopoly"
+msgstr "Monopoli"
+
+#: DevCardsStats.cpp:50 Strings.cpp:451
+msgid "Road Building"
+msgstr "Construcció de Carreteres"
+
+#: DevCardsStats.cpp:51 Strings.cpp:464
+msgid "Soldier"
+msgstr "Soldat"
+
+#: DevCardsStats.cpp:52 Strings.cpp:476
+msgid "Victory Point"
+msgstr "Punt de Victòria"
+
+#: DevCardsStats.cpp:53 DevCardsStats.cpp:66 Strings.cpp:479
+msgid "Year Of Plenty"
+msgstr "Any d'Abundància"
+
+#: DevCardsStats.cpp:58
+#, fuzzy
+msgid "Largest Army"
+msgstr "En/Na %s perd l'Exèrcit més Gran."
+
+#: DevCardsStats.cpp:63
+#, fuzzy
+msgid "Victory Points"
+msgstr "Punt de Victòria"
+
+#: DevCardsStats.cpp:70
+msgid "Development Cards"
+msgstr "Cartes de Desenvolupament"
+
+#: GoldStats.cpp:32 GoldStats.cpp:33 GoldStats.cpp:34 Strings.cpp:430
+msgid "Gold"
+msgstr ""
+
+#: GoldStats.cpp:36 GoldStats.cpp:37
+msgid "Gold Exchange"
+msgstr ""
+
+#: StandardStats.cpp:188 Strings.cpp:429
+#, fuzzy
+msgid "Dice Rolls"
+msgstr "Tira"
+
+#: StandardStats.cpp:192 Strings.cpp:442
+msgid "Points"
+msgstr "Punts"
+
+#: StandardStats.cpp:195
+#, fuzzy
+msgid "Resources Gained"
+msgstr "Cartes de Recursos"
+
+#: StandardStats.cpp:198
+#, fuzzy
+msgid "Resources Lost"
+msgstr "Cartes de Recursos"
+
+#: StandardStats.cpp:201
+#, fuzzy
+msgid "Resources Blocked"
+msgstr "Cartes de Recursos"
+
+#: StandardStats.cpp:204
+#, fuzzy
+msgid "Resources Gained From"
+msgstr "Cartes de Recursos"
+
+#: StandardStats.cpp:207
+#, fuzzy
+msgid "Resources Lost To"
+msgstr "Cartes de Recursos"
+
+#: StandardStats.cpp:210
+#, fuzzy
+msgid "Resources Blocked By"
+msgstr "Cartes de Recursos"
+
+#: StandardStats.cpp:213
+msgid "Purchases Made"
+msgstr ""
+
+#: StandardStats.cpp:216
+msgid "Actions Taken"
+msgstr ""
+
+#: StandardStats.cpp:238
+msgid "Structures"
+msgstr ""
+
+#: StandardStats.cpp:243
+#, fuzzy
+msgid "Longest Road"
+msgstr "En/Na %s perd la Carretera més Llarga."
+
+#: StandardStats.cpp:245 StandardStats.cpp:251 StandardStats.cpp:257
+#: Strings.cpp:462
+msgid "Sheep"
+msgstr "Ovella"
+
+#: StandardStats.cpp:246 StandardStats.cpp:252 StandardStats.cpp:258
+#: Strings.cpp:440
+msgid "Ore"
+msgstr "Pedra"
+
+#: StandardStats.cpp:247 StandardStats.cpp:253 StandardStats.cpp:259
+#: Strings.cpp:470
+msgid "Timber"
+msgstr "Fusta"
+
+#: StandardStats.cpp:248 StandardStats.cpp:254 StandardStats.cpp:260
+#: Strings.cpp:426
+msgid "Clay"
+msgstr "Fang"
+
+#: StandardStats.cpp:249 StandardStats.cpp:255 StandardStats.cpp:261
+#: Strings.cpp:478
+msgid "Wheat"
+msgstr "Blat"
+
+#: StandardStats.cpp:266
+#, fuzzy
+msgid "Board"
+msgstr "Carretera"
+
+#: StandardStats.cpp:268 StandardStats.cpp:274 StandardStats.cpp:278
+#: Strings.cpp:455
+msgid "Robber"
+msgstr "Lladre"
+
+#: StandardStats.cpp:269 StandardStats.cpp:275
+msgid "Bank Trades"
+msgstr ""
+
+#: StandardStats.cpp:270 StandardStats.cpp:276
+#, fuzzy
+msgid "Player Trades"
+msgstr "Jugar Carta"
+
+#: StandardStats.cpp:272
+msgid "Purchases"
+msgstr ""
+
+#: StandardStats.cpp:273
+msgid "7s"
+msgstr ""
+
+#: StandardStats.cpp:279
+msgid "Empty Bank"
+msgstr ""
+
+#: StandardStats.cpp:281 Strings.cpp:454
+msgid "Roads"
+msgstr "Carreteres"
+
+#: StandardStats.cpp:282 Strings.cpp:461
+msgid "Settlements"
+msgstr "Poblats"
+
+#: StandardStats.cpp:283 Strings.cpp:425
+msgid "Cities"
+msgstr "Ciutats"
+
+#: Strings.cpp:413
+#, fuzzy
+msgid "Build a city"
+msgstr "Construeix una Ciutat"
+
+#: Strings.cpp:414
+#, fuzzy
+msgid "Build a road"
+msgstr "Construeix una Carretera"
+
+#: Strings.cpp:415
+#, fuzzy
+msgid "Build a settlement"
+msgstr "Construeix un Poblat"
+
+#: Strings.cpp:416
+#, fuzzy
+msgid "Buy a development card"
+msgstr "Compra una Carta de Desenvolupament"
+
+#: Strings.cpp:417
+msgid "Cards allowed"
+msgstr "Cartes permeses"
+
+#: Strings.cpp:418
+msgid "Cards allowed in hand:"
+msgstr "Cartes permeses a la mà:"
+
+#: Strings.cpp:419
+msgid ""
+"Change the number of cards each player may hold without losing half on a 7."
+msgstr ""
+"Canvia el nombre de cartes que cada jugador pot tenir sense perdre la meitat "
+"quan surti un 7."
+
+#: Strings.cpp:420
+msgid "Change the number of points needed to win the game."
+msgstr "Canviar el nombre de punts necessaris per a guanyar la partida."
+
+#: Strings.cpp:421
+msgid "Change the deck of Development cards."
+msgstr "Canvia la pila de Cartes de Desenvolupament."
+
+#: Strings.cpp:422
+msgid "Change the starting stock amounts of roads, settlements, and cities."
+msgstr "Canviar la quantitat de carreteres, poblats i ciutats."
+
+#: Strings.cpp:423
+msgid ""
+"Choose one resource type.  All other players must give you all their "
+"resource cards of that type."
+msgstr ""
+"Escull un recurs. Tots els demés jugadors t'han de donar totes les seves "
+"cartes d'aquell recurs que tinguin."
+
+#: Strings.cpp:424
+msgid "City"
+msgstr "Ciutat"
+
+#: Strings.cpp:427
+msgid "Desert"
+msgstr "Desert"
+
+#: Strings.cpp:428
+msgid "Development cards"
+msgstr "Cartes de Desenvolupament"
+
+#: Strings.cpp:431
+msgid ""
+"In this turn, take any two resource cards from the bank.  They may be used "
+"immediately."
+msgstr ""
+"En aquest torn, agafa dos recursos qualsevols del banc. Els pots fer servir "
+"inmediatament."
+
+#: Strings.cpp:432
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr ""
+"En aquest torn, construeix dues carreteres, dos vaixells, o un de cada, "
+"gratis."
+
+#: Strings.cpp:434
+msgid ""
+"Move the robber and steal one resource card from the owner of an adjacent "
+"city or settlement.  Or, move the pirate and steal from the owner of an "
+"adjacent ship."
+msgstr ""
+"Mou el lladre i roba un carta de recurs del propietari d'una ciutat o poblat "
+"adjacent a aquell hexagon. O, mou el pirata i roba del propietari d'un "
+"vaixell adjacent."
+
+#: Strings.cpp:435
+msgid "No 7s for 1 round"
+msgstr "Cap 7 durant 1 ronda"
+
+#: Strings.cpp:436
+msgid "No early 7s"
+msgstr "Cap 7 matiner"
+
+#: Strings.cpp:437
+msgid "Ocean"
+msgstr "Oceà"
+
+#: Strings.cpp:438
+#, fuzzy
+msgid "Odds"
+msgstr "Possibilitats: %s"
+
+#: Strings.cpp:439
+msgid "1 city"
+msgstr "1 ciutat"
+
+#: Strings.cpp:441
+msgid "Play Card"
+msgstr "Jugar Carta"
+
+#: Strings.cpp:443
+msgid "Points needed to win"
+msgstr "Punts necessaris per a guanyar"
+
+#: Strings.cpp:444
+msgid ""
+"Prevent 7s from rolling for one or two rounds.  This lets players get their "
+"feet on the ground before the robber comes calling."
+msgstr ""
+"Evita que surtin 7s durant una o dues rondes. Això permet als jugadors "
+"començar a establir-se abans de que vingui el lladre."
+
+#: Strings.cpp:445
+msgid "Random chip layout"
+msgstr "Col·locació de números aleatòria"
+
+#: Strings.cpp:446
+msgid "Random port layout"
+msgstr "Col·locació de ports aleatòria"
+
+#: Strings.cpp:447
+msgid "Random tile layout"
+msgstr "Col·locació d'hexàgons aleatòria"
+
+#: Strings.cpp:448
+msgid "Receive 1 Victory Point!"
+msgstr "Reb 1 Punt de Victòria!"
+
+#: Strings.cpp:449
+#, fuzzy
+msgid "Resource cards"
+msgstr "Cartes de Recursos"
+
+#: Strings.cpp:450
+#, fuzzy
+msgid "Resources"
+msgstr "Cartes de Recursos"
+
+#: Strings.cpp:452
+#, fuzzy
+msgid "Road length"
+msgstr "Longitut de la Carretera"
+
+#: Strings.cpp:453
+msgid "Road"
+msgstr "Carretera"
+
+#: Strings.cpp:456
+msgid "Roll Dice"
+msgstr ""
+
+#: Strings.cpp:457
+#, fuzzy
+msgid "Rounds before a 7 is rolled"
+msgstr "Rondes abans de que surti cap 7:"
+
+#: Strings.cpp:458
+msgid "Select 1 resource type to steal."
+msgstr "Selecciona 1 tipus de recurs a robar."
+
+#: Strings.cpp:459
+msgid "Select 2 resources to gain."
+msgstr "Selecciona 2 recursos a guanyar."
+
+#: Strings.cpp:460
+msgid "Settlement"
+msgstr "Poblat"
+
+#: Strings.cpp:463
+#, fuzzy
+msgid "Show Resources tab"
+msgstr "Cartes de Recursos"
+
+#: Strings.cpp:465
+msgid "Soldiers"
+msgstr "Soldats"
+
+#: Strings.cpp:466
+msgid "Spend Your Gold"
+msgstr ""
+
+#: Strings.cpp:467
+msgid "Standard"
+msgstr "Estàndard"
+
+#: Strings.cpp:468
+msgid "Stock amounts"
+msgstr "Quantitats en els magatzems"
+
+#: Strings.cpp:469
+msgid "3-1 Port"
+msgstr "Port 3-1"
+
+#: Strings.cpp:471
+msgid "2-1 Clay Port"
+msgstr "Port 2-1 de Fang"
+
+#: Strings.cpp:472
+msgid "2-1 Ore Port"
+msgstr "Port 2-1 de Pedres"
+
+#: Strings.cpp:473
+msgid "2-1 Sheep Port"
+msgstr "Port 2-1 d'Ovelles"
+
+#: Strings.cpp:474
+msgid "2-1 Timber Port"
+msgstr "Port 2-1 de Fusta"
+
+#: Strings.cpp:475
+msgid "2-1 Wheat Port"
+msgstr "Port 2-1 de Blat"
+
+#: Strings.cpp:477
+#, fuzzy
+msgid "Victory points"
+msgstr "Punts de Victòria"
+
+#: Strings.cpp:480
+msgid "Your Cards"
+msgstr "Les teves Cartes"
+
+#: Strings.cpp:483
+#, fuzzy, c-format
+msgid "%s buys a development card."
+msgstr "En/na %s compra una Carta de Desenvolupament."
+
+#: Strings.cpp:484
+#, c-format
+msgid "%s, choose a player to steal from, or click the robber to not steal."
+msgstr ""
+"%s, escull un jugador al que robar-li una carta, o clica al lladre per a no "
+"robar."
+
+#: Strings.cpp:485
+#, c-format
+msgid "%s ends the turn."
+msgstr "En/Na %s acaba el torn-"
+
+#: Strings.cpp:486
+#, c-format
+msgid "%s has a city reduced to a settlement."
+msgstr "En/Na %s se li redueix una ciutat a assentament."
+
+#: Strings.cpp:487
+#, c-format
+msgid "%s has won the game."
+msgstr "En/Na %s ha guanyat la partida."
+
+#: Strings.cpp:488
+#, c-format
+msgid "%d cards allowed in hand"
+msgstr "%d cartes permeses a la mà"
+
+#: Strings.cpp:489
+#, c-format
+msgid "%d %s from %s"
+msgstr "%d %s de %s"
+
+#: Strings.cpp:490
+#, c-format
+msgid "%s, it is your turn."
+msgstr "%s, es el teu torn."
+
+#: Strings.cpp:491
+#, c-format
+msgid "%s loses %s."
+msgstr "En/Na %s perd %s."
+
+#: Strings.cpp:492
+#, c-format
+msgid "%s loses Largest Army."
+msgstr "En/Na %s perd l'Exèrcit més Gran."
+
+#: Strings.cpp:493
+#, c-format
+msgid "%s loses Longest Road."
+msgstr "En/Na %s perd la Carretera més Llarga."
+
+#: Strings.cpp:494
+#, c-format
+msgid "No 7s for %d rounds"
+msgstr "Cap 7 durant %d rondes"
+
+#: Strings.cpp:495
+#, c-format
+msgid "%s, place a city."
+msgstr "%s, posa una ciutat."
+
+#: Strings.cpp:496
+#, c-format
+msgid "%s, place a road."
+msgstr "%s, posa una carretera."
+
+#: Strings.cpp:497
+#, c-format
+msgid "%s, place a settlement."
+msgstr "%s, posa un poblat."
+
+#: Strings.cpp:498
+#, c-format
+msgid "%s places a city."
+msgstr "En/Na %s posa una ciutat."
+
+#: Strings.cpp:499
+#, c-format
+msgid "%s places a settlement."
+msgstr "En/Na %s posa un poblat."
+
+#: Strings.cpp:500
+#, c-format
+msgid "%s places a road."
+msgstr "En/Na %s posa una carretera."
+
+#: Strings.cpp:501
+#, c-format
+msgid "%s, place the robber."
+msgstr "%s, posa el lladre."
+
+#: Strings.cpp:502
+#, c-format
+msgid "%s, play a card or roll the dice."
+msgstr "%s, juga una carta o tira els daus."
+
+#: Strings.cpp:503
+#, c-format
+msgid "%s, play a card, select an action, or roll the dice."
+msgstr "%s, juga una carta, selecciona una acció, o tira els daus."
+
+#: Strings.cpp:504
+#, c-format
+msgid "%s plays a %s card."
+msgstr "En/Na %s juga un %s."
+
+#: Strings.cpp:505
+#, c-format
+msgid "Play to %d points"
+msgstr "Jugar a %d punts"
+
+#: Strings.cpp:506
+#, c-format
+msgid "%s rolls a %d."
+msgstr "En/Na %s tira un %d."
+
+#: Strings.cpp:507
+#, c-format
+msgid "%s, select an action or roll the dice."
+msgstr "%s, selecciona una acció o tira els daus."
+
+#: Strings.cpp:508
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s, selecciona un recurs a robar."
+
+#: Strings.cpp:509
+#, c-format
+msgid "%s selects %s."
+msgstr "En/Na %s selecciona %s."
+
+#: Strings.cpp:510
+#, c-format
+msgid "%s, select resources to lose."
+msgstr "%s, selecciona els recursos a perdre."
+
+#: Strings.cpp:511
+#, c-format
+msgid "%s, select two resources."
+msgstr "%s, selecciona dos recursos."
+
+#: Strings.cpp:512
+#, fuzzy, c-format
+msgid "Select %d resources to gain."
+msgstr "Selecciona 2 recursos a guanyar."
+
+#: Strings.cpp:513
+#, c-format
+msgid "%s steals nothing."
+msgstr "En/Na %s no roba res."
+
+#: Strings.cpp:514
+#, c-format
+msgid "%s steals %s."
+msgstr "En/Na %s roba %s."
+
+#: Strings.cpp:515
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr "En/Na %s et roba 1 %s."
+
+#: Strings.cpp:516
+#, c-format
+msgid "%s steals 1 resource from %s."
+msgstr "En/Na %s roba 1 recurs d'en/na %s."
+
+#: Strings.cpp:517
+#, c-format
+msgid "%s, spend your gold."
+msgstr ""
+
+#: Strings.cpp:518
+#, c-format
+msgid "%s takes Largest Army."
+msgstr "En/Na %s obté l'Exèrcit més Gran."
+
+#: Strings.cpp:519
+#, c-format
+msgid "%s takes Longest Road."
+msgstr "En/Na %s obté la Carretera més Llarga."
+
+#: Strings.cpp:520
+#, c-format
+msgid "There is not enough %s in the bank. No one receives any."
+msgstr "No hi ha prou %s en el banc. Ningú n'obté cap."
+
+#: Strings.cpp:521
+#, c-format
+msgid "%s trades %s to %s for %s."
+msgstr "En/Na %s canvia %s a en/na %s per %s."
+
+#: Strings.cpp:522
+#, c-format
+msgid "%s trades %s to the bank for %s."
+msgstr "En/Na %s canvia %s amb el banc per %s."
+
+#: Strings.cpp:523
+#, c-format
+msgid "%s undoes a bank trade."
+msgstr "En/Na %s desfà un canvi amb el banc."
+
+#: Strings.cpp:524
+#, c-format
+msgid "%s undoes a city."
+msgstr "En/Na %s desfà una ciutat."
+
+#: Strings.cpp:525
+#, c-format
+msgid "%s undoes a road."
+msgstr "En/Na %s desfà una carretera."
+
+#: Strings.cpp:526
+#, c-format
+msgid "%s undoes a settlement."
+msgstr "En/Na %s desfà un poblat."
+
+#: Strings.cpp:527
+#, c-format
+msgid "You receive a %s card."
+msgstr "Rebs un %s."
+
+#: Strings.cpp:528
+#, c-format
+msgid "You steal 1 %s from %s."
+msgstr "Robes 1 %s d'en/na %s."
+
+#: Strings.cpp:529
+#, c-format
+msgid "Waiting for %s to finish the turn."
+msgstr "Esperant a que en/na %s acabi el seu torn."
+
+#: Strings.cpp:530
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "Esperant a que en/na %s trïi quins recursos perd."
+
+#: Strings.cpp:531
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "Esperant a que en/na %s posi una ciutat"
+
+#: Strings.cpp:532
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "Esperant a que en/na %s posi una carretera."
+
+#: Strings.cpp:533
+#, c-format
+msgid "Waiting for %s to place a settlement."
+msgstr "Esperant a que en/na %s posi un poblat."
+
+#: Strings.cpp:534
+#, c-format
+msgid "Waiting for %s to place the robber."
+msgstr "Esperant a que en/na %s posi el lladre."
+
+#: Strings.cpp:535
+#, c-format
+msgid "Waiting for %s to play a card or roll the dice."
+msgstr "Esperant a que en/na %s jugui una carta o tiri els daus."
+
+#: Strings.cpp:536
+#, c-format
+msgid "Waiting for %s to play a card, select an action, or roll the dice."
+msgstr ""
+"Esperant a que en/na %s jugui una carta, seleccioni una acció, o tiri els "
+"daus."
+
+#: Strings.cpp:537
+#, c-format
+msgid "Waiting for %s to select an action or roll the dice."
+msgstr "Esperant a que en/na %s seleccioni una acció o tiri els daus."
+
+#: Strings.cpp:538
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "Esperant a que en/na %s seleccioni un recurs a robar."
+
+#: Strings.cpp:539
+#, c-format
+msgid "Waiting for %s to select two resources."
+msgstr "Esperant a que en/na %s seleccioni dos recursos."
+
+#: Strings.cpp:540
+#, fuzzy, c-format
+msgid "Waiting for %s to spend gold."
+msgstr "Esperant a que en/na %s posi una carretera."
+
+#: Strings.cpp:541
+#, c-format
+msgid "Waiting for %s to steal a card."
+msgstr "Esperant a que en/na %s robi una carta."
+
+#: Strings.cpp:542
+#, c-format
+msgid "%s wins the game!"
+msgstr "En/Na %s guanya la partida!"
+
+#: Strings.cpp:543
+#, c-format
+msgid "%d cities"
+msgstr "%d ciutats"
+
+#: Strings.cpp:544
+#, c-format
+msgid "%d roads"
+msgstr "%d carreteres"
+
+#: Strings.cpp:545
+#, c-format
+msgid "%d settlements"
+msgstr "%d poblats"
+
+#~ msgid "Development cards: %s"
+#~ msgstr "Cartes de Desenvolupament: %s"
+
+#~ msgid "Points needed to win:"
+#~ msgstr "Punts necessaris per a guanyar:"
+
+#~ msgid "%d %s"
+#~ msgstr "%d %s"
+
+#~ msgid "Dev"
+#~ msgstr "Des"
+
+#~ msgid "Roads:"
+#~ msgstr "Carreteres:"
+
+#~ msgid "Settlements:"
+#~ msgstr "Poblats:"
+
+#~ msgid "Cities:"
+#~ msgstr "Ciutats:"
+
+#~ msgid "Select %d resources to lose."
+#~ msgstr "Selecciona %d recursos a perdre."
+
+#~ msgid "Cards To Lose"
+#~ msgstr "Cartes a perdre"
+
+#~ msgid "%s trades"
+#~ msgstr "En/Na %s canvia"
+
+#~ msgid "to %s for"
+#~ msgstr "a %s per"

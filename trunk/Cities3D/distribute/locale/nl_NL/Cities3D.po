@@ -1,0 +1,351 @@
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2009-06-12 23:57+0100\n"
+"Last-Translator: Pim van den Berg <pommiberg@gmail.com>\n"
+"Language-Team: Dutch C3D Team <pommiberg@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SplashDialog.cpp:64
+msgid "Finding plugins..."
+msgstr "Plugins laden..."
+
+#: CitiesOnlineApp.cpp:339
+msgid "Cities Online may only be launched from the site."
+msgstr "Cities Online kan alleen vanaf de website worden gestart."
+
+#: CitiesOnlineTaskbarIcon.cpp:54
+msgid "Exit"
+msgstr "Sluiten"
+
+#: CitiesOnlineTaskbarIcon.cpp:84
+msgid "Question"
+msgstr "Vraag"
+
+#: CitiesOnlineTaskbarIcon.cpp:85
+msgid ""
+"You are currently in a Cities Online game!  If you close Cities Online, your "
+"game will also close, and it may go on your record!  Are you sure you want "
+"to continue?"
+msgstr ""
+"Je zit momenteel in een Cities Online spel! Als je Cities Online afsluit "
+"wordt het spel ook gesloten en kan het je je punten kosten! Weet je zeker "
+"dat je door wilt gaan?"
+
+#: Launcher.cpp:276
+msgid ""
+"While you are in a game, Cities Online ignores all commands from the site."
+msgstr ""
+"Als je in een spel zit, negeert Cities Online alle commando's van de website."
+
+#: Launcher.cpp:297
+msgid "Your version of Cities Online is out-of-date."
+msgstr "Je gebruikt een oude versie van Cities Online."
+
+#: LoginDialog.cpp:53
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: LoginDialog.cpp:64
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: LoginDialog.cpp:82 BaseMessageBox.cpp:61 BaseModalSizer.cpp:46
+#: ResourceSelectionDialog.cpp:73 SelectMapDialog.cpp:69
+msgid "OK"
+msgstr "OK"
+
+#: LoginDialog.cpp:101
+msgid "Enter Your Password"
+msgstr "Vul je wachtwoord in"
+
+#: ColorInfoData.cpp:54
+msgid "Black"
+msgstr "Zwart"
+
+#: ColorInfoData.cpp:55
+msgid "Blue"
+msgstr "Blauw"
+
+#: ColorInfoData.cpp:56
+msgid "Brown"
+msgstr "Bruin"
+
+#: ColorInfoData.cpp:57
+msgid "Green"
+msgstr "Groen"
+
+#: ColorInfoData.cpp:58
+msgid "Orange"
+msgstr "Oranje"
+
+#: ColorInfoData.cpp:59
+msgid "Purple"
+msgstr "Paars"
+
+#: ColorInfoData.cpp:60
+msgid "Red"
+msgstr "Rood"
+
+#: ColorInfoData.cpp:61
+msgid "White"
+msgstr "Wit"
+
+#: MapDatabase.cpp:106
+msgid "players"
+msgstr "spelers"
+
+#: MapDatabase.cpp:107
+msgid "points"
+msgstr "punten"
+
+#: NetworkClient.cpp:92
+msgid "Connected!"
+msgstr "Verbonden!"
+
+#: NetworkClient.cpp:121
+#, c-format
+msgid "Could not establish a connection to %s:%d."
+msgstr "Kan geen verbinding maken met %s:%d."
+
+#: NetworkClient.cpp:146
+msgid "It was not a Cities3D server on the other end!"
+msgstr ""
+"Je probeerde te verbinden met iets anders dan een Cities Online server!"
+
+#: NetworkClient.cpp:175
+msgid "You may not join the same game twice."
+msgstr "Je mag niet 2x aan het spel deelnemen."
+
+#: NetworkClient.cpp:373
+#, c-format
+msgid ""
+"Version mismatch with the server.  You have version %s.  The server has "
+"version %s."
+msgstr ""
+"Je versie komt niet overeen met die van de server. Je hebt versie %s. De "
+"server heeft versie %s."
+
+#: OptionEngine.cpp:257
+msgid "All options have been cleared."
+msgstr "Alle opties zijn gewist."
+
+#: OptionEngine.cpp:276
+#, c-format
+msgid "The option %s is now selected."
+msgstr "Optie %s is geselecteerd."
+
+#: OptionEngine.cpp:307
+#, c-format
+msgid "The option %s is no longer selected."
+msgstr "Optie %s is niet langer geselecteerd."
+
+#: PluginEngine.cpp:621
+#, c-format
+msgid "Finding plugins... %s... found %s"
+msgstr "Plugins laden... %s... gevonden %s"
+
+#: ServerConnectionThread.cpp:76
+msgid "Received a host check from the site."
+msgstr "Host check ontvangen van de website."
+
+#: ServerGameThread.cpp:269
+#, c-format
+msgid "%s tries to join a second time and is refused."
+msgstr "%s probeert een 2e keer deel te nemen en is geweigerd."
+
+#: ServerGameThread.cpp:304
+#, c-format
+msgid "%s joins as a spectator."
+msgstr "%s neemt deel als een toeschouwer."
+
+#: StatEngine.cpp:526
+msgid "Amount"
+msgstr "Aantal"
+
+#: StatEngine.cpp:527
+msgid "Expected"
+msgstr "Verwachting"
+
+#: StatEngine.cpp:528
+msgid "Percent"
+msgstr "Procentueel"
+
+#: StatEngine.cpp:529
+msgid "Rolls"
+msgstr "Dobbelsteen"
+
+#: StatEngine.cpp:591
+msgid "Total"
+msgstr "Totaal"
+
+#: StatEngine.cpp:642
+msgid "Player"
+msgstr "Speler"
+
+#: AddPlayerDialog.cpp:64
+msgid "Name"
+msgstr "Naam"
+
+#: AddPlayerDialog.cpp:90
+msgid "Add A Player"
+msgstr "Speler Toevoegen"
+
+#: AddPlayerDialog.cpp:113
+msgid "Your name cannot be blank or all spaces."
+msgstr "Je naam mag niet leeg zijn of uit spaties bestaan."
+
+#: AddPlayerDialog.cpp:121
+msgid "Your name must be 20 characters or less."
+msgstr "Je naam moet 20 karakters of minder bevatten."
+
+#: BaseMessageBox.cpp:71
+msgid "Yes"
+msgstr "Ja"
+
+#: BaseMessageBox.cpp:72
+msgid "No"
+msgstr "Nee"
+
+#: BaseModalSizer.cpp:47 SelectMapDialog.cpp:70
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: LoseCardsDialog.cpp:90
+#, c-format
+msgid "Select %d resources to lose."
+msgstr "Selecteer %d grondstoffen om af te staan."
+
+#: LoseCardsDialog.cpp:214
+msgid "Cards To Lose"
+msgstr "Te Verliezen Kaarten"
+
+#: MapListCtrl.cpp:62
+#, c-format
+msgid "%d players"
+msgstr "%d spelers"
+
+#: MapListCtrl.cpp:68
+#, c-format
+msgid "%d-%d players"
+msgstr "%d-%d spelers"
+
+#: MapListCtrl.cpp:76
+#, c-format
+msgid "%d points"
+msgstr "%d punten"
+
+#: MapTextCtrl.cpp:89
+msgid "No map selected."
+msgstr "Geen spelbord geselecteerd."
+
+#: MapTextCtrl.cpp:119
+msgid "Map"
+msgstr "Spelbord"
+
+#: MapTextCtrl.cpp:137
+msgid "Rules"
+msgstr "Regels"
+
+#: MapTextCtrl.cpp:165
+msgid "Options"
+msgstr "Opties"
+
+#: OptionsDialog.cpp:165
+msgid "Select"
+msgstr "Selecteer"
+
+#: OptionsDialog.cpp:166
+msgid "Unselect"
+msgstr "Deselecteer"
+
+#: OptionsDialog.cpp:185
+msgid "Description"
+msgstr "Beschrijving"
+
+#: OptionsDialog.cpp:194
+msgid "Settings"
+msgstr "Instellingen"
+
+#: OptionsDialog.cpp:211
+msgid "Done"
+msgstr "Klaar"
+
+#: OptionsDialog.cpp:218
+msgid "Clear"
+msgstr "Wissen"
+
+#: OptionsDialog.cpp:219
+msgid "Load"
+msgstr "Openen"
+
+#: OptionsDialog.cpp:220
+msgid "Save"
+msgstr "Opslaan"
+
+#: OptionsDialog.cpp:244
+msgid "Game Options"
+msgstr "Spel Opties"
+
+#: OptionsDialog.cpp:557
+msgid "Enter a file name"
+msgstr "Vul een bestandsnaam in"
+
+#: OptionsDialog.cpp:571
+msgid "Select a file"
+msgstr "Selecteer een bestand"
+
+#: PopupManager.cpp:922
+msgid "Popups are now off."
+msgstr "Popups staan nu uit."
+
+#: PopupManager.cpp:923
+msgid "Popups are now on."
+msgstr "Popups staan nu aan."
+
+#: ResourceSelectionDialog.cpp:150
+msgid "Drag and drop cards to make a selection."
+msgstr "Klik en sleep de kaarten om een selectie te maken."
+
+#: ResourceSelectionDialog.cpp:187
+msgid "Select Resources"
+msgstr "Selecteer Grondstoffen"
+
+#: SelectMapDialog.cpp:90
+msgid "Select A Map"
+msgstr "Selecteer een Spelbord"
+
+#, fuzzy
+#~ msgid "Select a Language"
+#~ msgstr "Selecteer een bestand"
+
+#~ msgid "No map selected"
+#~ msgstr "Geen spelbord geselecteerd"
+
+#~ msgid "In Game"
+#~ msgstr "In het Spel"
+
+#~ msgid "Open"
+#~ msgstr "Openen"
+
+#~ msgid "Play Card"
+#~ msgstr "Speel Kaart"
+
+#~ msgid "Your Cards"
+#~ msgstr "Je Ontwikkelingskaarten"

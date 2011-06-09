@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_SetDriver</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_SetDiskBusy.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_SetFrequency.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_SetDriver">FSOUND_SetDriver</A></H2>
+Selects a soundcard driver.<BR>
+It is used when an output mode has enumerated more than one output device, and you need to select between them.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_SetDriver</B><B>(</B><BR>
+<B>int </B><B> </B><I>driver</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>driverno</I></TD>
+<TD>Driver number to select.<BR>
+0 will select the DEFAULT sound driver.<BR>
+&lt;0 will select an INVALID driver which will case the DEVICE to be set <BR>
+to a null (nosound) driver.<BR>
+&gt;0 Selects other valid drivers that can be listed with FSOUND_GetDriverName.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, (ie if FMOD is already active) FALSE is returned.<BR>
+<H3>Remarks</H3>
+This function cannot be called after FMOD is already activated with FSOUND_Init.<BR>
+It must be called before FSOUND_Init, or after FSOUND_Close.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Close.html">FSOUND_Close</A>
+, 
+<A HREF="FSOUND_GetDriver.html">FSOUND_GetDriver</A>
+, 
+<A HREF="FSOUND_GetDriverName.html">FSOUND_GetDriverName</A>
+, 
+<A HREF="FSOUND_GetNumDrivers.html">FSOUND_GetNumDrivers</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+, 
+<A HREF="FSOUND_SetOutput.html">FSOUND_SetOutput</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<root>
+	<!-- The fonts section allows you to change the fonts for nearly every
+		 control in the game.  You can set a default font directly in the
+		 opening <fonts ... > tag.  All subsequent fonts will use the 
+		 attributes of the default font unless they override an attribute on
+		 their own.  Each font listed in the fonts section has a name 
+		 attribute.  This attribute must not be changed.  If it is changed, the
+		 game will not be able to find that font and will resort to using the 
+		 default font, which may produce undesirable results.  Fonts have five 
+		 other attributes that you can set: face, point, bold, italics, and 
+		 underline.  Face is the face name of the font, like "Verdana" or 
+		 "Tahoma".  Point is the point size of the font.  Some fonts ignore 
+		 the point size or only use it as a suggestion because they are fitted 
+		 to certain sizes automatically by the game.  Bold, italics, and 
+		 underline control whether a font is bold, italicized, or underlined.
+		 Each font in the fonts section has a descriptive comment that tells
+		 you what that font controls.
+	-->
+	<fonts face="Tahoma" point="8">
+		<!-- Text in dialog windows that uses bold for emphasis -->
+		<font name="BoldFont" bold="true"/>
+		
+		<!-- Button text, point value is used as a suggestion -->
+	    <font name="ButtonFont" />
+	    
+	    <!-- Card header, above each dev or progress card-->
+	    <font name="CardHeaderFont" point="11" bold="true"/>
+	    
+	    <!-- Chat window entry control -->
+	    <font name="ChatEntryFont"/>
+	    
+	    <!-- Chat messages, size is controlled in sizes section -->
+		<font name="ChatMessageFont"/>	
+		
+		<!-- Context menu items -->
+	    <font name="ContextMenuFont" point="10"/>
+		
+		<!-- Text in main frame and dialog title bars -->
+	    <font name="FrameCaptionFont" point="9" bold="true"/>
+	    
+	    <!-- Open Game list control main text item -->
+	    <font name="GameListMainFont" point="12" bold="true"/>
+	    
+	    <!-- Open Game list control sub text items -->
+		<font name="GameListSubFont" point="7" bold="true"/>
+		
+		<!-- All GameUI windows (players, etc.), point value is ignored -->
+		<font name="GameUIFont"/>
+		
+		<!-- Help text in dialog windows -->
+		<font name="InfoFont" point="7"/>
+		
+		<!-- Map list control main text item -->
+		<font name="MapListMainFont" point="10" bold="true"/>
+		
+		<!-- Map list control sub text items -->
+		<font name="MapListSubFont" point="6" bold="true"/>
+		
+		<!-- Network restart list main text item -->
+		<font name="NetworkRestartListMainFont" point="15" bold="true"/>
+		
+		<!-- Network restart list main sub item -->
+		<font name="NetworkRestartListSubFont" point="8" bold="true"/>
+		
+		<!-- Network notebook tabs, point value is ignored -->
+		<font name="NetworkNotebookTabFont" bold="true"/>
+		
+		<!-- Network in-game tabs, point value is ignored -->
+		<font name="NetworkUINotebookTabFont" bold="true"/>
+		
+    <!-- Player selection control main text item -->
+		<font name="PlayerSelectionMainFont" point="15" bold="true"/>
+		
+		<!-- Player selection control sub text item -->
+		<font name="PlayerSelectionSubFont" point="7" bold="true"/>
+    
+		<!-- Player list control main text item -->
+		<font name="PlayerListMainFont" point="9" bold="true"/>
+		
+		<!-- Player list control sub text item -->
+		<font name="PlayerListSubFont" point="7" bold="true"/>
+		
+		<!-- PlayerUI name, point value is ignored -->
+		<font name="PlayerUINameFont" bold="true"/>
+		
+		<!-- PlayerUI counters, point value is ignored -->
+		<font name="PlayerUITextFont"/>
+		
+		<!-- Popup window font -->
+		<font name="PopupFont" point="10" bold="true"/>
+		
+		<!-- Spectator list control main text item -->
+		<font name="SpectatorListMainFont" point="9" bold="true"/>
+		
+		<!-- Spectator list control sub text items -->
+		<font name="SpectatorListSubFont" point="7" bold="true"/>
+		
+		<!-- System messages, size is controlled in sizes section -->
+		<font name="SystemMessageFont"/>
+		
+		<!-- Tex3D list control main text item -->
+		<font name="TexListMainFont" point="9" bold="true"/>
+		
+		<!-- Tex3D list control sub text item -->
+		<font name="TexListSubFont" point="7" bold="true"/>
+		
+		<!-- Trade box text item -->
+		<font name="TradeBoxFont" point="9" bold="true"/>
+    
+    <!-- Turn timer-->
+    <font name="TurnTimerFont"  point="32" bold="true" italic="true"/>
+
+    <!-- Turn timer text-->
+    <font name="TurnTimerTextFont"  point="7"/>
+	</fonts>
+	
+	<!-- The colors section is not used directly by the game, but allows you
+	     to set up a palette of colors that you can then reference in the
+	     elements section without having to retype rgb values over and over
+	     again.  Each color has four attributes that you must set: name, r, b,
+	     and b.  Name is the alias that you are giving this color that you 
+	     will refer to in the elements section.  R, g, and b are the red, 
+	     green, and blue components of the color.  Each r, g, or b value must
+	     be between 0 and 255, inclusive, 0 being none of that color and 255
+	     being all of that color.
+	-->
+	<colors>
+		<color name="white" r="255" g="255" b="255"/>
+		<color name="black" r="0" g="0" b="0"/>
+		<color name="dkgray" r="64" g="64" b="64"/>
+		<color name="meddkgray" r="131" g="131" b="131"/>
+		<color name="medgray" r="151" g="151" b="151"/>
+		<color name="ltgray" r="192" g="192" b="192"/>
+		<color name="blueoutline" r="0" g="96" b="224"/>
+		<color name="bluehighlight" r="0" g="172" b="255"/>
+		<color name="transparent" r="0" g="128" b="128"/>
+		<color name="green" r="0" g="255" b="0"/>
+		<color name="brickred" r="180" b="123" g="78"/>
+		<color name="red" r="255" b="0" g="0"/>
+		<color name="yellow" r="255" g="255" b="0"/>
+	</colors>
+	
+	<!-- The elements section allows you to control the color of every element
+	     in the game.  Each element in the elements section has a name 
+	     attribute.  This attribute must not be changed.  If it is changed, the
+		 game will not be able to find that element and will resort to using 
+		 white (255, 255, 255) as the color for that element, which may produce
+		 undesirable results.  Elements can be set using one attribute named 
+		 color, or three attributes named r, g, and b.  You may set an element 
+		 by using the color attribute to reference the name of color that you
+		 have created in the colors section.  The game will use the r, g, and b
+		 values of the color you have created, saving you from having to 
+		 rewrite them out over and over if you use it for many elements.  
+		 Alternately, you can also use r, g, and b attributes just like the 
+		 color section if you want to set an element color directly and don't 
+		 wish to add it to your named palette of colors.  Each element in the 
+		 elements section has a descriptive comment that tells you what color 
+		 that element controls.
+	-->
+	<elements>
+		<!-- Background for every window in the game -->
+		<element name="Background" color="black"/>
+
+		<!-- Background for input controls (textboxes, checkboxes, etc.) -->
+		<element name="InputBackground" color="black" />
+		
+		<!-- Button text -->
+		<element name="ButtonText" color="white"/>
+		
+		<!-- Button text shadow, not drawn if set to Transparent value -->
+		<element name="ButtonTextShadow" color="dkgray"/>
+		
+		<!-- Button transparency -->
+		<element name="ButtonTransparent" color="transparent"/>
+		
+		<!-- Chat window entry text -->
+		<element name="ChatEntryText" color="white"/>
+		
+		<!-- Chat window, spectator messages -->
+		<element name="ChatMessageText" color="brickred"/>
+		
+		<!-- Chat window, timestamps -->
+		<element name="ChatMessageTimestamp" color="white"/>
+		
+		<!-- All text not set elsewhere, mostly dialog windows -->
+		<element name="DefaultText" color="white"/>
+		
+		<!-- Text under disabled cards -->
+		<element name="DisabledCardText" color="medgray"/>
+		
+		<!-- Main frame or dialog caption -->
+		<element name="FrameCaptionText" color="white"/>
+		
+		<!-- Main frame or dialog caption, shadow, not drawn if Transparent -->
+		<element name="FrameCaptionTextShadow" color="dkgray"/>
+		
+		<!-- Border around main frame or dialog windows -->
+		<element name="FrameOutline" color="blueoutline"/>
+		
+		<!-- Border around GameUI elements when something is clickable -->
+		<element name="GameUIClickable" color="white"/>
+		
+		<!-- Border around GameUI elements (players, bank, messages, etc.) -->
+		<element name="GameUIOutline" color="dkgray"/>
+		
+		<!-- Default color for GameUI text not set elsewhere -->
+		<element name="GameUIText" color="white"/>
+		
+		<!-- Help text in dialog windows -->
+		<element name="InfoText" color="medgray"/>
+		
+		<!-- Transparency color for UI icons -->
+		<element name="IconTransparent" color="transparent"/>	
+		
+		<!-- List control element background when moused over -->
+		<element name="ListHighlight" color="bluehighlight"/>
+		
+		<!-- List control element background when moused over and selected -->
+		<element name="ListHighlightAndSelection" color="ltgray"/>
+		
+		<!-- List control main item text -->
+		<element name="ListMainText" color="white"/>
+		
+		<!-- List control main item text shadow, not drawn if Transparent -->
+		<element name="ListMainTextShadow" color="black"/>
+		
+		<!-- List control main item text when disabled -->
+		<element name="ListMainTextDisabled" color="ltgray"/>
+		
+		<!-- List control element background when selected -->
+		<element name="ListSelection" color="blueoutline"/>
+		
+		<!-- List control sub item text -->
+		<element name="ListSubText" color="medgray"/>
+		
+		<!-- List control sub item text shadow, not drawn if Transparent -->
+		<element name="ListSubTextShadow" color="black"/>
+		
+		<!-- Map information window -->
+		<element name="MapText" color="white"/>
+		
+		<!-- Player ready when starting a network game -->
+		<element name="NetworkPlayerReady" color="green"/>
+		
+		<!-- Player not ready when starting a network game -->
+		<element name="NetworkPlayerNotReady" color="red"/>
+		
+		<!-- Player is absent in a network game restart -->
+		<element name="NetworkRestartAbsent" color="red"/>
+		
+		<!-- Player is present in a network game restart -->
+		<element name="NetworkRestartPresent" color="white"/>
+		
+		<!-- Network component not selected or not ready -->
+		<element name="NetworkTextOff" color="meddkgray"/>
+		
+		<!-- Network component selected or ready -->
+		<element name="NetworkTextOn" color="bluehighlight"/>
+		
+		<!-- Network component transitioning from not ready to ready -->
+		<element name="NetworkTextWait" color="yellow"/>
+		
+		<!-- Notebook tab currently selected -->
+		<element name="NotebookTabTextCurrent" color="medgray"/>
+		
+		<!-- Notebook tab moused over -->
+		<element name="NotebookTabTextHighlight" color="white"/>
+		
+		<!-- Notebook tab not selected -->
+		<element name="NotebookTabText" color="dkgray"/>
+		
+		<!-- Option excluded -->
+		<element name="OptionExcluded" color="red"/>
+			
+		<!-- Option selected -->
+		<element name="OptionSelected" color="green"/>
+			
+		<!-- Option unselected -->
+		<element name="OptionUnselected" color="white"/>
+		
+		<!-- Player item counters -->
+		<element name="PlayerUICounterText" color="white"/>
+		
+		<!-- Player threatened in some category -->
+		<element name="PlayerUINegative" color="red"/>
+		
+		<!-- Normal player status -->
+		<element name="PlayerUINeutral" color="white"/>
+		
+		<!-- Player ahead of others in a category -->
+		<element name="PlayerUIPositive" color="green"/>
+
+    <!-- Player needing a warning -->
+    <element name="PlayerUIWarning" color="yellow"/>
+		
+		<!-- Border around popup windows -->
+		<element name="PopupMenuOutline" color="white"/>
+		
+		<!-- Spectator wants to join the game -->
+		<element name="SpectatorReplaceYes" color="green"/>
+		
+		<!-- Spectator does not want to join the game -->
+		<element name="SpectatorReplaceNo" color="red"/>
+		
+		<!-- Chat window, system messages -->
+		<element name="SystemMessageText" color="white"/>
+		
+		<!-- Chat window, system message timestamps -->
+		<element name="SystemMessageTimestamp" color="white"/>
+		
+		<!-- A trade offer the user can click on -->
+		<element name="TradeClick" color="bluehighlight"/>
+		
+		<!-- A trade offer the user can only match -->
+		<element name="TradeMatch" color="brickred"/>
+		
+		<!-- Text transparency, used to ignore text shadows -->
+		<element name="Transparent" color="transparent"/>
+		
+		<!-- Outline around locations to drop cards in trade windows -->
+		<element name="TradeCardOutline" color="dkgray"/>
+		
+		<!-- Values that may be changed by the user in dialog windows -->
+		<element name="UserChangeableText" color="bluehighlight"/>
+	</elements>
+	
+	<!-- The sizes section lets you control various dimensions of the UI,
+	     usually in terms of pixels, though some sizes use different values.
+	     Each size listed in the fonts section has a name attribute.  This 
+	     attribute must not be changed.  If it is changed, the game will not be
+	     able to find that size and will resort to using the default size of 
+	     zero, which may produce undesirable results.  Sizes may not be
+	     negative, and will be set to zero if encountered.  Sizes have one
+	     attribute that you can set: size.  Size is the size of the size.  Each
+	     size in the sizes section has a descriptive comment that tells you 
+	     what size that size controls.
+	-->
+	<sizes>
+		<!-- Chat window message, interpreted as an HTML <font> tag size -->
+		<size name="ChatMessageText" size="2"/>
+		
+		<!-- Chat window timestamp, interpreted as an HTML <font> tag size -->
+		<size name="ChatMessageTimestamp" size="1"/>
+		
+		<!-- Thickness of main frame and dialog window borders -->
+		<size name="FrameBorder" size="3"/>
+		
+		<!-- Right indent of close button in main frame -->
+		<size name="FrameButtonInset" size="8"/>
+		
+		<!-- Spacing between buttons in main frame -->
+		<size name="FrameButtonSpacing" size="6"/>
+		
+		<!-- Curve radius of main frame and dialog window corners -->
+		<size name="FrameCurve" size="7"/>
+		
+		<!-- Icon width and height in main frame -->
+		<size name="FrameIcon" size="16"/>
+		
+		<!-- Left indent of icon in main frame -->
+		<size name="FrameIconInset" size="4"/>
+		
+		<!-- Curve radius of the GameUI elements -->
+		<size name="GameUICurve" size="7"/>
+		
+		<!-- Map information text, interpreted as an HTML <font> tag size -->
+		<size name="MapText" size="2"/>
+		
+		<!-- Tab height for the network notebook pages -->
+		<size name="NetworkNotebookTabHeight" size="22"/>
+		
+		<!-- Tab height for the network in-game pages. -->
+		<size name="NetworkUINotebookTabHeight" size="20"/>
+		
+		<!-- Thickness of popup window borders -->
+		<size name="PopupMenuBorder" size="0"/>
+		
+		<!-- Curve radius of popup window corners -->
+		<size name="PopupMenuCurve" size="4"/>
+		
+		<!-- System message, interpreted as an HTML <font> tag size -->
+		<size name="SystemMessageText" size="2"/>
+		
+		<!-- System message timestamp, interpreted as HTML <font> tag size -->
+		<size name="SystemMessageTimestamp" size="1"/>
+	</sizes>
+</root>

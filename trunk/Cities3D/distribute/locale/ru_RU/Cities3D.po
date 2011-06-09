@@ -1,0 +1,2158 @@
+#
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Translation v 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-15 16:25-0500\n"
+"PO-Revision-Date: 2006-06-19 14:43+0600\n"
+"Last-Translator: Ilya 'Road Builder' Chernykh <metal@ngs.ru>\n"
+"Language-Team: Road Builder <metal@ngs.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: AddPlayerDialog.cpp:71
+msgid "Name"
+msgstr "Имя"
+
+#: AddPlayerDialog.cpp:92
+msgid "Add A Player"
+msgstr "Добавить игрока"
+
+#: AddPlayerDialog.cpp:92
+msgid "Edit A Player"
+msgstr "Редактировать игрока"
+
+#: AddPlayerDialog.cpp:126
+msgid "Your name cannot be blank or all spaces."
+msgstr "Ваше имя не может состоять из пробелов или быть пустым."
+
+#: AddPlayerDialog.cpp:133
+msgid "Your name must be 20 characters or less."
+msgstr "Ваше имя не может быть длиннее 20 символов."
+
+#: BankTradeDialog.cpp:430
+msgid "You"
+msgstr "Вы"
+
+#: BankTradeDialog.cpp:433
+#: ControlsUI.cpp:131
+msgid "Bank"
+msgstr "Банк"
+
+#: BankTradeDialog.cpp:446
+#: ControlsUI.cpp:130
+msgid "Trade"
+msgstr "Торговля"
+
+#: BankTradeDialog.cpp:535
+msgid "Drag and drop cards to create a trade."
+msgstr "Перетаскивайте карты для торга."
+
+#: BankTradeDialog.cpp:561
+msgid "Trade With The Bank"
+msgstr "Торговать с банком"
+
+#: BankUI.cpp:291
+#: BankUI.cpp:453
+msgid "All"
+msgstr "Все"
+
+#: BankUI.cpp:457
+msgid "Most"
+msgstr "Большинство"
+
+#: BankUI.cpp:462
+msgid "Many"
+msgstr "Много"
+
+#: BankUI.cpp:467
+msgid "Half"
+msgstr "Половина"
+
+#: BankUI.cpp:472
+msgid "Some"
+msgstr "Несколько"
+
+#: BankUI.cpp:477
+msgid "Few"
+msgstr "Немного"
+
+#: BankUI.cpp:482
+msgid "None"
+msgstr "Пусто"
+
+#: CardsDialog.cpp:73
+msgid "Play Card"
+msgstr "Сыграть карту"
+
+#: CardsDialog.cpp:132
+msgid "Your Cards"
+msgstr "Ваши карты"
+
+#: ControlsUI.cpp:129
+msgid "Undo"
+msgstr "Возврат"
+
+#: ControlsUI.cpp:132
+msgid "Cards"
+msgstr "Карты"
+
+#: ControlsUI.cpp:133
+#: ControlsUI.cpp:382
+msgid "End Turn"
+msgstr "Завершить ход"
+
+#: ControlsUI.cpp:375
+msgid "Roll Dice"
+msgstr "Бросайте кубики"
+
+#: DiceRollWindow.cpp:181
+msgid "Keep visible"
+msgstr "Не прятать"
+
+#: DiceRollWindow.cpp:205
+msgid "Roll Results"
+msgstr "Кубики"
+
+#: GameContextMenu.cpp:51
+#: NetworkConnectPage.cpp:287
+#: SettlersFrame.cpp:83
+msgid "Settings"
+msgstr "Настройки"
+
+#: GameContextMenu.cpp:54
+msgid "Save"
+msgstr "Сохранить"
+
+#: GameContextMenu.cpp:56
+#: NetworkDialog.cpp:74
+msgid "Quit"
+msgstr "Выйти в меню"
+
+#: GameContextMenu.cpp:57
+#: SettlersFrame.cpp:105
+msgid "Exit"
+msgstr "Выход"
+
+#: GameSetupDialog.cpp:87
+#: OpenGameDialog.cpp:66
+#: ReplayDialog.cpp:66
+#: ResourceSelectionDialog.cpp:77
+#: SelectMapDialog.cpp:84
+#: BaseModalSizer.cpp:51
+msgid "OK"
+msgstr "OK"
+
+#: GameSetupDialog.cpp:89
+#: OpenGameDialog.cpp:68
+#: ReplayDialog.cpp:68
+#: SelectMapDialog.cpp:86
+#: BaseModalSizer.cpp:53
+msgid "Cancel"
+msgstr "Отмена"
+
+#: GameSetupDialog.cpp:107
+#: NetworkConnectPage.cpp:311
+msgid "Add"
+msgstr "Добавить"
+
+#: GameSetupDialog.cpp:111
+#: NetworkConnectPage.cpp:312
+msgid "Edit"
+msgstr "Редактировать"
+
+#: GameSetupDialog.cpp:126
+#: NetworkGamePage.cpp:113
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr "Перетащите имена, или измените двойным щелчком."
+
+#: GameSetupDialog.cpp:158
+#: NetworkGamePage.cpp:134
+msgid "Select Map"
+msgstr "Выбрать карту"
+
+#: GameSetupDialog.cpp:162
+#: NetworkGamePage.cpp:138
+msgid "Options"
+msgstr "Варианты"
+
+#: GameSetupDialog.cpp:182
+msgid "Game Setup"
+msgstr "Настройки игры"
+
+#: Lose7Dialog.cpp:217
+msgid "Cards To Lose"
+msgstr "Сбрасываемые карты"
+
+#: MapListCtrl.cpp:65
+#, c-format
+msgid "%d players"
+msgstr "%d игрока(-ов)"
+
+#: MapListCtrl.cpp:69
+#, c-format
+msgid "%d-%d players"
+msgstr "%d-%d игрока(-ов)"
+
+#: MapListCtrl.cpp:75
+#, c-format
+msgid "%d points"
+msgstr "%d очков"
+
+#: MapTextCtrl.cpp:44
+msgid "No map selected."
+msgstr "Не выбрана карта."
+
+#: MonopolyDialog.cpp:51
+msgid "Select 1 resource type to steal."
+msgstr "Выберите ресурс, который желаете украсть."
+
+#: MonopolyDialog.cpp:111
+msgid "Monopoly"
+msgstr "Монополия"
+
+#: NetworkConnectPage.cpp:97
+msgid "Stop Server"
+msgstr "Остановить сервер"
+
+#: NetworkConnectPage.cpp:101
+msgid "Started"
+msgstr "Запущен"
+
+#: NetworkConnectPage.cpp:109
+msgid "Start Server"
+msgstr "Запустить сервер"
+
+#: NetworkConnectPage.cpp:113
+msgid "Stopped"
+msgstr "Остановлен"
+
+#: NetworkConnectPage.cpp:125
+msgid "Disconnect"
+msgstr "Разъединено"
+
+#: NetworkConnectPage.cpp:129
+msgid "Connected"
+msgstr "Соединено"
+
+#: NetworkConnectPage.cpp:135
+#: NetworkConnectPage.cpp:284
+#: NetworkNotebook.cpp:61
+msgid "Connect"
+msgstr "Подключение"
+
+#: NetworkConnectPage.cpp:136
+msgid "Not connected"
+msgstr "Нет соединения"
+
+#: NetworkConnectPage.cpp:166
+msgid "Unselected"
+msgstr "Не выделен"
+
+#: NetworkConnectPage.cpp:184
+#: SettlersFrame.cpp:381
+msgid "There are players connected to you.  Are you sure you want to shut down the server?"
+msgstr "К Вам подключены другие игроки. Вы уверены, что хотите выключить сервер?"
+
+#: NetworkConnectPage.cpp:185
+#: NetworkConnectPage.cpp:206
+#: NetworkConnectPage.cpp:604
+#: SettlersFrame.cpp:382
+#: SettlersFrame.cpp:395
+msgid "Question"
+msgstr "Вопрос"
+
+#: NetworkConnectPage.cpp:205
+#: SettlersFrame.cpp:394
+msgid "You are currently connected to a server.  Are you sure you want to leave?"
+msgstr "Вы сейчас подключены к серверу. Вы уверены, что хотите выйти из игры?"
+
+#: NetworkConnectPage.cpp:232
+msgid "Connection"
+msgstr "Соединение"
+
+#: NetworkConnectPage.cpp:236
+msgid "Status"
+msgstr "Состояние"
+
+#: NetworkConnectPage.cpp:241
+msgid "Host"
+msgstr "Сервер"
+
+#: NetworkConnectPage.cpp:245
+#: NetworkConnectToDialog.cpp:63
+msgid "Connect To"
+msgstr "Подключиться"
+
+#: NetworkConnectPage.cpp:260
+msgid "Player"
+msgstr "Игрок"
+
+#: NetworkConnectPage.cpp:272
+msgid "IP address"
+msgstr "IP адрес"
+
+#: NetworkConnectPage.cpp:302
+msgid "Use the Connection settings to either host a game or connect to a game.  Select the player you wish to play with from the list."
+msgstr "Используйте Настройки соединения для запуска своей игры или подключения к игре. Выберите из списка игрока, которым Вы хотите играть."
+
+#: NetworkConnectPage.cpp:314
+msgid "Delete"
+msgstr "Удалить"
+
+#: NetworkConnectPage.cpp:531
+msgid "Connecting..."
+msgstr "Идет соединение..."
+
+#: NetworkConnectPage.cpp:603
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Вы уверены, что хотите удалить %s?"
+
+#: NetworkConnectToDialog.cpp:65
+#: NetworkSettingsDialog.cpp:68
+msgid "Port"
+msgstr "Порт"
+
+#: NetworkConnectToDialog.cpp:87
+msgid "Enter an IP address or host name in the Connect To window and the port number in the Port window.  The default port is 7176."
+msgstr "Введите IP адрес или имя сервера в окне \"Подключиться\" и номер порта в окне \"Порт\". Порт по умолчанию - 7176."
+
+#: NetworkConnectToDialog.cpp:110
+msgid "Connect To A Game"
+msgstr "Подключиться к игре"
+
+#: NetworkConnectToDialog.cpp:137
+msgid "You must enter an IP address or host name."
+msgstr "Вы должны ввести IP адрес или имя сервера"
+
+#: NetworkConnectToDialog.cpp:152
+msgid "The port must be a valid number between 0 and 65535."
+msgstr "Номер порта должен лежать в интервале от 0 до 65535"
+
+#: NetworkDialog.cpp:72
+msgid "Direct Connect Setup"
+msgstr "Настройки прямого соединения"
+
+#: NetworkGamePage.cpp:91
+msgid "Start Game!"
+msgstr "Начать игру!"
+
+#: NetworkGamePage.cpp:91
+msgid "Ready!"
+msgstr "Готов!"
+
+#: NetworkGamePage.cpp:103
+msgid "Not ready!"
+msgstr "Не готов!"
+
+#: NetworkGamePage.cpp:269
+msgid "Cities & Knights rules are now in use."
+msgstr "В игре используются правила \"Города и Рыцари\"."
+
+#: NetworkGamePage.cpp:270
+msgid "Cities & Knights rules are no longer in use."
+msgstr "Правила \"Города и Рыцари\" теперь не используются."
+
+#: NetworkNotebook.cpp:92
+#: NetworkNotebook.cpp:97
+msgid "Game"
+msgstr "Игра"
+
+#: NetworkRestartDialog.cpp:82
+msgid "I'll play!"
+msgstr "Буду играть!"
+
+#: NetworkRestartDialog.cpp:85
+msgid "No, thanks."
+msgstr "Нет, спасибо."
+
+#: NetworkRestartDialog.cpp:98
+#: NetworkRestartDialog.cpp:198
+msgid "Waiting for players to rejoin."
+msgstr "Ожидаем переподключения игроков."
+
+#: NetworkRestartDialog.cpp:134
+msgid "Network Game Restart"
+msgstr "Перезапуск сетевой игры"
+
+#: NetworkRestartDialog.cpp:177
+#, c-format
+msgid "The game will restart in %d."
+msgstr "Игра будет перезапущена через %d."
+
+#: NetworkRestartListCtrl.cpp:88
+#: NetworkRestartListCtrl.cpp:134
+msgid "Waiting..."
+msgstr "Ожидание..."
+
+#: NetworkSettingsDialog.cpp:59
+msgid "Hostname"
+msgstr "Имя сервера"
+
+#: NetworkSettingsDialog.cpp:75
+msgid "Enter a valid host name or IP address in the Hostname window.  Enter the port number clients should connect to in the Port window.  The default port is 7176."
+msgstr "Введите правильное имя сервера или IP адрес в окне \"Имя сервера\". Введите номер порта для подключения клиентов в окне \"Порт\". Значение порта по умолчанию - 7176."
+
+#: NetworkSettingsDialog.cpp:97
+msgid "Server Settings"
+msgstr "Настройки сервера"
+
+#: NetworkSettingsDialog.cpp:128
+msgid "You must enter a valid host name or IP address."
+msgstr "Вы должны ввести допустимое имя сервера или IP адрес."
+
+#: NetworkSettingsDialog.cpp:141
+msgid "You must enter a port number."
+msgstr "Вы должны ввести номер порта."
+
+#: NetworkUINotebook.cpp:183
+msgid "Chat"
+msgstr "Чат"
+
+#: NetworkUINotebook.cpp:184
+msgid "Spectators"
+msgstr "Наблюдатели"
+
+#: OpenGameDialog.cpp:82
+msgid "Open A Saved Game"
+msgstr "Открыть сохраненную игру"
+
+#: OptionAdvanced.cpp:73
+msgid "Bitmaps"
+msgstr "Изображения"
+
+#: OptionAdvanced.cpp:85
+msgid "Render bitmaps with OpenGL"
+msgstr "Выводить изображения с OpenGL"
+
+#: OptionAdvanced.cpp:88
+msgid "Use frame buffers (if available)"
+msgstr "Использовать буферы кадров (если возможно)"
+
+#: OptionAdvanced.cpp:92
+msgid "Use pixel buffers (if available)"
+msgstr "Использовать буферы пикселей (если возможно)"
+
+#: OptionAdvanced.cpp:103
+msgid "Depth Buffer Size"
+msgstr "Глубина буфера"
+
+#: OptionAdvanced.cpp:132
+msgid "Display OpenGL render information"
+msgstr "Выводить информацию рендеринга OpenGL"
+
+#: OptionAdvanced.cpp:138
+msgid "Use curved regions (Windows only)"
+msgstr "Использовать скривленные области (только Windows)"
+
+#: OptionDisplaySize.cpp:62
+#: SettingsDialog.cpp:119
+msgid "Interface Size"
+msgstr "Размер элементов управления"
+
+#: OptionDisplaySize.cpp:81
+msgid "Size"
+msgstr "Размер"
+
+#: OptionDisplaySize.cpp:86
+msgid "Maximum"
+msgstr "Максимум"
+
+#: OptionDisplaySize.cpp:94
+msgid "Drag the slider left or right to change the size of the screen interface."
+msgstr "Перетащите бегунок влево или вправо для изменения размера окна."
+
+#: OptionImages.cpp:90
+msgid "Game Images"
+msgstr "Набор изображений"
+
+#: OptionImages.cpp:101
+#: SettingsDialog.cpp:121
+msgid "Images"
+msgstr "Изображения"
+
+#: OptionImages.cpp:108
+msgid "Select the set of images you would like to use from the list.  The display will be updated immediately."
+msgstr "Выберите из списка набор изображений, который Вы хотите использовать. Экран будет обновлен автоматически."
+
+#: OptionImages.cpp:116
+msgid "Soften tiles"
+msgstr "Смягчить детали"
+
+#: OptionImages.cpp:121
+msgid "For most image sets, softening the tiles makes the game board look better."
+msgstr "Для большинства наборов изображений смягчение деталей улучшает их внешний вид "
+
+#: OptionLanguage.cpp:83
+msgid "Select a Language"
+msgstr "Выберите язык"
+
+#: OptionLanguage.cpp:91
+#: SettingsDialog.cpp:134
+msgid "Language"
+msgstr "Язык"
+
+#: OptionLanguage.cpp:97
+msgid "Select the language you would like to use from the list.  You must restart Cities3D for your choice to take effect."
+msgstr "Выберите желаемый язык из списка. Вам потребуется перезапустить Cities3D для смены языка."
+
+#: OptionSkin.cpp:86
+#: OptionSkin.cpp:95
+msgid "Skins"
+msgstr "Оформление (скины)"
+
+#: OptionSkin.cpp:101
+msgid "Select the skin you would like to use from the list.  Your choice will take effect immediately."
+msgstr "Выберите из списка желаемое оформление. Ваш выбор будет применен автоматически."
+
+#: OptionSounds.cpp:87
+msgid "Game Sounds"
+msgstr "Набор звуков"
+
+#: OptionSounds.cpp:98
+#: SettingsDialog.cpp:130
+msgid "Sounds"
+msgstr "Звуки"
+
+#: OptionSounds.cpp:104
+msgid "Select the set of sounds you would like to use from the list.  Your choice will take effect immediately."
+msgstr "Выберите из списка желаемый набор звуков. Ваш выбор будет применен автоматически."
+
+#: OptionSounds.cpp:113
+msgid "Play Sounds"
+msgstr "Включить звук"
+
+#: OptionSounds.cpp:119
+msgid "Turning sounds off will make the game completely silent."
+msgstr "Отключение звука сделает игру полностью бесшумной."
+
+#: ReplayDialog.cpp:82
+#: SettlersFrame.cpp:94
+msgid "Replay A Game"
+msgstr "Воспроизвести партию"
+
+#: ReplayUI.cpp:113
+msgid "Play Next"
+msgstr "Дальше"
+
+#: ResourceSelectionDialog.cpp:154
+msgid "Drag and drop cards to make a selection."
+msgstr "Перетаскивайте карты для выбора."
+
+#: ResourceSelectionDialog.cpp:188
+msgid "Select Resources"
+msgstr "Выберите ресурсы"
+
+#: SelectMapDialog.cpp:65
+#: MapDatabase.cpp:110
+msgid "Cities and Knights"
+msgstr "Города и Рыцари"
+
+#: SelectMapDialog.cpp:69
+msgid "Use Cities and Knights rules"
+msgstr "Использовать правила \"Города и Рыцари\""
+
+#: SelectMapDialog.cpp:101
+msgid "Select A Map"
+msgstr "Выберите карту"
+
+#: SettingsDialog.cpp:118
+msgid "Display"
+msgstr "Экран"
+
+#: SettingsDialog.cpp:123
+msgid "Skin"
+msgstr "Оформление"
+
+#: SettingsDialog.cpp:125
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: SettingsDialog.cpp:153
+msgid "Done"
+msgstr "Готово"
+
+#: SettingsDialog.cpp:195
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: SettlersFrame.cpp:70
+msgid "Hotseat"
+msgstr "Локальная игра"
+
+#: SettlersFrame.cpp:71
+msgid "Online"
+msgstr "Сетевая игра"
+
+#: SettlersFrame.cpp:72
+msgid "Open Saved"
+msgstr "Открыть сохраненную игру"
+
+#: YearOfPlentyDialog.cpp:52
+msgid "Select 2 resources to gain."
+msgstr "Выберите из банка 2 ресурса."
+
+#: YearOfPlentyDialog.cpp:162
+msgid "Year Of Plenty"
+msgstr "Год Изобилия"
+
+#: ColorInfo.cpp:66
+msgid "White"
+msgstr "Белый"
+
+#: ColorInfo.cpp:70
+msgid "Red"
+msgstr "Красный"
+
+#: ColorInfo.cpp:74
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: ColorInfo.cpp:78
+msgid "Blue"
+msgstr "Синий"
+
+#: ColorInfo.cpp:82
+msgid "Brown"
+msgstr "Коричневый"
+
+#: ColorInfo.cpp:86
+msgid "Green"
+msgstr "Зеленый"
+
+#: ColorInfo.cpp:90
+msgid "Purple"
+msgstr "Фиолетовый"
+
+#: ColorInfo.cpp:94
+msgid "Black"
+msgstr "Черный"
+
+#: MapDatabase.cpp:101
+msgid "Map"
+msgstr "Карта"
+
+#: MapDatabase.cpp:106
+msgid "Seafarers"
+msgstr "Мореходы"
+
+#: MapDatabase.cpp:116
+msgid "Settlers"
+msgstr "Поселенцы"
+
+#: MapDatabase.cpp:123
+msgid "Map type"
+msgstr "Тип карты"
+
+#: MapDatabase.cpp:130
+#: MapDatabase.cpp:135
+msgid "Players"
+msgstr "Игроков"
+
+#: MapDatabase.cpp:141
+msgid "Points"
+msgstr "Очков для победы"
+
+#: NetworkClient.cpp:92
+#, c-format
+msgid "Could not establish a connection to %s:%d."
+msgstr "Не могу установить соединение с %s:%d."
+
+#: NetworkClient.cpp:133
+msgid "You may not join the same game twice."
+msgstr "Вы не можете дважды подключиться к одной игре."
+
+#: NetworkClient.cpp:332
+#, c-format
+msgid "Version mismatch with the server.  You have version %s.  The server has version %s."
+msgstr "Несовпадение версий. Ваша версия %s. Версия сервера %s."
+
+#: ServerGameThread.cpp:286
+#, c-format
+msgid "%s tries to join a second time and is refused."
+msgstr "%s безуспешно пытается подключиться второй раз."
+
+#: ServerGameThread.cpp:316
+#, c-format
+msgid "%s joins as a spectator."
+msgstr "%s подключился наблюдателем."
+
+#: AddPlayerDialog.cpp:71
+msgid "Name"
+msgstr "Имя"
+
+#: AddPlayerDialog.cpp:92
+msgid "Add A Player"
+msgstr "Добавить игрока"
+
+#: AddPlayerDialog.cpp:92
+msgid "Edit A Player"
+msgstr "Редактировать игрока"
+
+#: AddPlayerDialog.cpp:126
+msgid "Your name cannot be blank or all spaces."
+msgstr "Ваше имя не может состоять из пробелов или быть пустым."
+
+#: AddPlayerDialog.cpp:133
+msgid "Your name must be 20 characters or less."
+msgstr "Ваше имя не может быть длиннее 20 символов."
+
+#: BankTradeDialog.cpp:429
+#: OthersTradeDialog.cpp:378
+msgid "You"
+msgstr "Вы"
+
+#: BankTradeDialog.cpp:432
+#: ControlsUI.cpp:131
+msgid "Bank"
+msgstr "Банк"
+
+#: BankTradeDialog.cpp:445
+#: ControlsUI.cpp:130
+msgid "Trade"
+msgstr "Торговля"
+
+#: BankTradeDialog.cpp:534
+msgid "Drag and drop cards to create a trade."
+msgstr "Перетаскивайте карты для торга"
+
+#: BankTradeDialog.cpp:560
+msgid "Trade With The Bank"
+msgstr "Торговать с банком"
+
+#: BankUI.cpp:291
+#: BankUI.cpp:453
+msgid "All"
+msgstr "Все"
+
+#: BankUI.cpp:457
+msgid "Most"
+msgstr "Большинство"
+
+#: BankUI.cpp:462
+msgid "Many"
+msgstr "Много"
+
+#: BankUI.cpp:467
+msgid "Half"
+msgstr "Половина"
+
+#: BankUI.cpp:472
+msgid "Some"
+msgstr "Несколько"
+
+#: BankUI.cpp:477
+msgid "Few"
+msgstr "Немного"
+
+#: BankUI.cpp:482
+msgid "None"
+msgstr "Пусто"
+
+#: CardsDialog.cpp:73
+msgid "Play Card"
+msgstr "Сыграть карту"
+
+#: CardsDialog.cpp:132
+msgid "Your Cards"
+msgstr "Ваши карты"
+
+#: ControlsUI.cpp:129
+msgid "Undo"
+msgstr "Возврат"
+
+#: ControlsUI.cpp:132
+msgid "Cards"
+msgstr "Карты"
+
+#: ControlsUI.cpp:133
+#: ControlsUI.cpp:382
+msgid "End Turn"
+msgstr "Завершить ход"
+
+#: ControlsUI.cpp:375
+msgid "Roll Dice"
+msgstr "Бросайте кубики"
+
+#: DiceRollWindow.cpp:181
+msgid "Keep visible"
+msgstr "Не прятать"
+
+#: DiceRollWindow.cpp:205
+msgid "Roll Results"
+msgstr "Результаты броска"
+
+#: GameContextMenu.cpp:51
+#: NetworkConnectPage.cpp:287
+#: SettlersFrame.cpp:83
+msgid "Settings"
+msgstr "Настройки"
+
+#: GameContextMenu.cpp:54
+msgid "Save"
+msgstr "Сохранить"
+
+#: GameContextMenu.cpp:56
+#: NetworkDialog.cpp:74
+msgid "Quit"
+msgstr "Выйти в меню"
+
+#: GameContextMenu.cpp:57
+#: SettlersFrame.cpp:105
+msgid "Exit"
+msgstr "Выход"
+
+#: GameSetupDialog.cpp:87
+#: OpenGameDialog.cpp:66
+#: ReplayDialog.cpp:66
+#: ResourceSelectionDialog.cpp:77
+#: SelectMapDialog.cpp:84
+#: BaseModalSizer.cpp:51
+msgid "OK"
+msgstr "OK"
+
+#: GameSetupDialog.cpp:89
+#: OpenGameDialog.cpp:68
+#: ReplayDialog.cpp:68
+#: SelectMapDialog.cpp:86
+#: BaseModalSizer.cpp:53
+msgid "Cancel"
+msgstr "Отмена"
+
+#: GameSetupDialog.cpp:107
+#: NetworkConnectPage.cpp:311
+msgid "Add"
+msgstr "Добавить"
+
+#: GameSetupDialog.cpp:111
+#: NetworkConnectPage.cpp:312
+msgid "Edit"
+msgstr "Редактировать"
+
+#: GameSetupDialog.cpp:126
+#: NetworkGamePage.cpp:113
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr "Перетащите имена, или добавьте/удалите двойным щелчком"
+
+#: GameSetupDialog.cpp:158
+#: NetworkGamePage.cpp:134
+msgid "Select Map"
+msgstr "Выбрать карту"
+
+#: GameSetupDialog.cpp:162
+#: NetworkGamePage.cpp:138
+msgid "Options"
+msgstr "Варианты"
+
+#: GameSetupDialog.cpp:182
+msgid "Game Setup"
+msgstr "Настройки игры"
+
+#: Lose7Dialog.cpp:95
+#, c-format
+msgid "Select %d resources to lose."
+msgstr "Сбросьте %d ресурсов."
+
+#: Lose7Dialog.cpp:217
+msgid "Cards To Lose"
+msgstr "Сбрасываемые карты"
+
+#: MapListCtrl.cpp:65
+#, c-format
+msgid "%d players"
+msgstr "%d игрока(-ов)"
+
+#: MapListCtrl.cpp:69
+#, c-format
+msgid "%d-%d players"
+msgstr "%d-%d игрока(-ов)"
+
+#: MapListCtrl.cpp:75
+#, c-format
+msgid "%d points"
+msgstr "%d очков"
+
+#: MapTextCtrl.cpp:44
+msgid "No map selected."
+msgstr "Не выбрана карта."
+
+#: MonopolyDialog.cpp:51
+msgid "Select 1 resource type to steal."
+msgstr "Выберите ресурс, который желаете украсть."
+
+#: MonopolyDialog.cpp:111
+msgid "Monopoly"
+msgstr "Монополия"
+
+#: NetworkConnectPage.cpp:97
+msgid "Stop Server"
+msgstr "Остановить сервер"
+
+#: NetworkConnectPage.cpp:101
+msgid "Started"
+msgstr "Запущен"
+
+#: NetworkConnectPage.cpp:109
+msgid "Start Server"
+msgstr "Запустить сервер"
+
+#: NetworkConnectPage.cpp:113
+msgid "Stopped"
+msgstr "Остановлен"
+
+#: NetworkConnectPage.cpp:125
+msgid "Disconnect"
+msgstr "Разъединено"
+
+#: NetworkConnectPage.cpp:129
+msgid "Connected"
+msgstr "Соединено"
+
+#: NetworkConnectPage.cpp:135
+#: NetworkConnectPage.cpp:284
+#: NetworkNotebook.cpp:61
+msgid "Connect"
+msgstr "Подключение"
+
+#: NetworkConnectPage.cpp:136
+msgid "Not connected"
+msgstr "Нет соединения"
+
+#: NetworkConnectPage.cpp:166
+msgid "Unselected"
+msgstr "Не выделен"
+
+#: NetworkConnectPage.cpp:184
+#: SettlersFrame.cpp:381
+msgid "There are players connected to you.  Are you sure you want to shut down the server?"
+msgstr "К Вам подключены другие игроки. Вы уверены, что хотите выключить сервер?"
+
+#: NetworkConnectPage.cpp:185
+#: NetworkConnectPage.cpp:206
+#: NetworkConnectPage.cpp:604
+#: SettlersFrame.cpp:382
+#: SettlersFrame.cpp:395
+msgid "Question"
+msgstr "Вопрос"
+
+#: NetworkConnectPage.cpp:205
+#: SettlersFrame.cpp:394
+msgid "You are currently connected to a server.  Are you sure you want to leave?"
+msgstr "Вы сейчас подключены к серверу. Вы уверены, что хотите выйти из игры?"
+
+#: NetworkConnectPage.cpp:232
+msgid "Connection"
+msgstr "Соединение"
+
+#: NetworkConnectPage.cpp:236
+msgid "Status"
+msgstr "Состояние"
+
+#: NetworkConnectPage.cpp:241
+msgid "Host"
+msgstr "Сервер"
+
+#: NetworkConnectPage.cpp:245
+#: NetworkConnectToDialog.cpp:63
+msgid "Connect To"
+msgstr "Подключиться"
+
+#: NetworkConnectPage.cpp:260
+msgid "Player"
+msgstr "Игрок"
+
+#: NetworkConnectPage.cpp:272
+msgid "IP address"
+msgstr "IP адрес"
+
+#: NetworkConnectPage.cpp:302
+msgid "Use the Connection settings to either host a game or connect to a game.  Select the player you wish to play with from the list."
+msgstr "Используйте Настройки соединения для запуска своей игры или подключения к игре. Выберите из списка игрока, которым Вы хотите играть."
+
+#: NetworkConnectPage.cpp:314
+msgid "Delete"
+msgstr "Удалить"
+
+#: NetworkConnectPage.cpp:531
+msgid "Connecting..."
+msgstr "Идет соединение..."
+
+#: NetworkConnectPage.cpp:603
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Вы уверены, что хотите удалить %s?"
+
+#: NetworkConnectToDialog.cpp:65
+#: NetworkSettingsDialog.cpp:68
+msgid "Port"
+msgstr "Порт"
+
+#: NetworkConnectToDialog.cpp:87
+msgid "Enter an IP address or host name in the Connect To window and the port number in the Port window.  The default port is 7176."
+msgstr "Введите IP адрес или имя сервера в окне \"Подключиться\" и номер порта в окне \"Порт\". Порт по умолчанию - 7176."
+
+#: NetworkConnectToDialog.cpp:110
+msgid "Connect To A Game"
+msgstr "Подключиться к игре"
+
+#: NetworkConnectToDialog.cpp:137
+msgid "You must enter an IP address or host name."
+msgstr "Вы должны ввести IP адрес или имя сервера"
+
+#: NetworkConnectToDialog.cpp:152
+msgid "The port must be a valid number between 0 and 65535."
+msgstr "Номер порта должен лежать в интервале от 0 до 65535"
+
+#: NetworkDialog.cpp:72
+msgid "Direct Connect Setup"
+msgstr "Настройки прямого соединения"
+
+#: NetworkGamePage.cpp:91
+msgid "Start Game!"
+msgstr "Начать игру!"
+
+#: NetworkGamePage.cpp:91
+msgid "Ready!"
+msgstr "Готов!"
+
+#: NetworkGamePage.cpp:103
+msgid "Not ready!"
+msgstr "Не готов!"
+
+#: NetworkGamePage.cpp:269
+msgid "Cities & Knights rules are now in use."
+msgstr "В игре используются правила \"Города и Рыцари\"."
+
+#: NetworkGamePage.cpp:270
+msgid "Cities & Knights rules are no longer in use."
+msgstr "Правила \"Города и Рыцари\" теперь не используются."
+
+#: NetworkNotebook.cpp:92
+#: NetworkNotebook.cpp:97
+msgid "Game"
+msgstr "Игра"
+
+#: NetworkRestartDialog.cpp:82
+msgid "I'll play!"
+msgstr "Буду играть!"
+
+#: NetworkRestartDialog.cpp:85
+msgid "No, thanks."
+msgstr "Нет, спасибо."
+
+#: NetworkRestartDialog.cpp:98
+#: NetworkRestartDialog.cpp:198
+msgid "Waiting for players to rejoin."
+msgstr "Ожидаем переподключения игроков."
+
+#: NetworkRestartDialog.cpp:134
+msgid "Network Game Restart"
+msgstr "Перезапуск сетевой игры"
+
+#: NetworkRestartDialog.cpp:177
+#, c-format
+msgid "The game will restart in %d."
+msgstr "Игра будет перезапущена через %d."
+
+#: NetworkRestartListCtrl.cpp:88
+#: NetworkRestartListCtrl.cpp:134
+msgid "Waiting..."
+msgstr "Ожидание..."
+
+#: NetworkSettingsDialog.cpp:59
+msgid "Hostname"
+msgstr "Имя сервера"
+
+#: NetworkSettingsDialog.cpp:75
+msgid "Enter a valid host name or IP address in the Hostname window.  Enter the port number clients should connect to in the Port window.  The default port is 7176."
+msgstr "Введите правильное имя сервера или IP адрес в окне \"Имя сервера\". Введите номер порта для подключения клиентов в окне \"Порт\". Значение порта по умолчанию - 7176."
+
+#: NetworkSettingsDialog.cpp:97
+msgid "Server Settings"
+msgstr "Настройки сервера"
+
+#: NetworkSettingsDialog.cpp:128
+msgid "You must enter a valid host name or IP address."
+msgstr "Вы должны ввести допустимое имя сервера или IP адрес."
+
+#: NetworkSettingsDialog.cpp:141
+msgid "You must enter a port number."
+msgstr "Вы должны ввести номер порта."
+
+#: NetworkUINotebook.cpp:183
+msgid "Chat"
+msgstr "Чат"
+
+#: NetworkUINotebook.cpp:184
+msgid "Spectators"
+msgstr "Наблюдатели"
+
+#: OpenGameDialog.cpp:82
+msgid "Open A Saved Game"
+msgstr "Открыть сохраненную игру"
+
+#: OptionAdvanced.cpp:73
+msgid "Bitmaps"
+msgstr "Изображения"
+
+#: OptionAdvanced.cpp:85
+msgid "Render bitmaps with OpenGL"
+msgstr "Выводить изображения с OpenGL"
+
+#: OptionAdvanced.cpp:88
+msgid "Use frame buffers (if available)"
+msgstr "Использовать буферы кадров (если возможно)"
+
+#: OptionAdvanced.cpp:92
+msgid "Use pixel buffers (if available)"
+msgstr "Использовать буферы пикселей (если возможно)"
+
+#: OptionAdvanced.cpp:103
+msgid "Depth Buffer Size"
+msgstr "Глубина буфера"
+
+#: OptionAdvanced.cpp:132
+msgid "Display OpenGL render information"
+msgstr "Выводить информацию рендеринга OpenGL"
+
+#: OptionAdvanced.cpp:138
+msgid "Use curved regions (Windows only)"
+msgstr "Использовать скривленные области (только Windows)"
+
+#: OptionDisplaySize.cpp:62
+#: SettingsDialog.cpp:119
+msgid "Interface Size"
+msgstr "Размер элементов управления"
+
+#: OptionDisplaySize.cpp:81
+msgid "Size"
+msgstr "Размер"
+
+#: OptionDisplaySize.cpp:86
+msgid "Maximum"
+msgstr "Максимум"
+
+#: OptionDisplaySize.cpp:94
+msgid "Drag the slider left or right to change the size of the screen interface."
+msgstr "Перетащите бегунок влево или вправо для изменения размера окна."
+
+#: OptionImages.cpp:90
+msgid "Game Images"
+msgstr "Набор изображений"
+
+#: OptionImages.cpp:101
+#: SettingsDialog.cpp:121
+msgid "Images"
+msgstr "Изображения"
+
+#: OptionImages.cpp:108
+msgid "Select the set of images you would like to use from the list.  The display will be updated immediately."
+msgstr "Выберите из списка набор изображений, который Вы хотите использовать. Экран будет обновлен автоматически."
+
+#: OptionImages.cpp:116
+msgid "Soften tiles"
+msgstr "Смягчить детали"
+
+#: OptionImages.cpp:121
+msgid "For most image sets, softening the tiles makes the game board look better."
+msgstr "Для большинства наборов изображений смягчение деталей улучшает их внешний вид "
+
+#: OptionLanguage.cpp:83
+msgid "Select a Language"
+msgstr "Выберите язык"
+
+#: OptionLanguage.cpp:91
+#: SettingsDialog.cpp:134
+msgid "Language"
+msgstr "Язык"
+
+#: OptionLanguage.cpp:97
+msgid "Select the language you would like to use from the list.  You must restart Cities3D for your choice to take effect."
+msgstr "Выберите желаемый язык из списка. Вам потребуется перезапустить Cities3D для смены языка."
+
+#: OptionSkin.cpp:86
+#: OptionSkin.cpp:95
+msgid "Skins"
+msgstr "Оформление (скины)"
+
+#: OptionSkin.cpp:101
+msgid "Select the skin you would like to use from the list.  Your choice will take effect immediately."
+msgstr "Выберите из списка желаемое оформление. Ваш выбор будет применен автоматически."
+
+#: OptionSounds.cpp:87
+msgid "Game Sounds"
+msgstr "Набор звуков"
+
+#: OptionSounds.cpp:98
+#: SettingsDialog.cpp:130
+msgid "Sounds"
+msgstr "Звуки"
+
+#: OptionSounds.cpp:104
+msgid "Select the set of sounds you would like to use from the list.  Your choice will take effect immediately."
+msgstr "Выберите из списка желаемый набор звуков. Ваш выбор будет применен автоматически."
+
+#: OptionSounds.cpp:113
+msgid "Play Sounds"
+msgstr "Включить звук"
+
+#: OptionSounds.cpp:119
+msgid "Turning sounds off will make the game completely silent."
+msgstr "Отключение звука сделает игру полностью бесшумной."
+
+#: OthersTradeDialog.cpp:381
+msgid "Them"
+msgstr "Они"
+
+#: OthersTradeDialog.cpp:394
+msgid "Offer"
+msgstr "Предложени"
+
+#: OthersTradeDialog.cpp:441
+msgid "Drag and drop cards to create an offer."
+msgstr "Перетаскивайте карты для торга."
+
+#: OthersTradeDialog.cpp:467
+msgid "Trade With Others"
+msgstr "Торговать с другими игроками"
+
+#: ReplayDialog.cpp:82
+#: SettlersFrame.cpp:94
+msgid "Replay A Game"
+msgstr "Воспроизвести партию"
+
+#: ReplayUI.cpp:113
+msgid "Play Next"
+msgstr "Дальше"
+
+#: ResourceSelectionDialog.cpp:154
+msgid "Drag and drop cards to make a selection."
+msgstr "Перетаскивайте карты для выделения."
+
+#: ResourceSelectionDialog.cpp:188
+msgid "Select Resources"
+msgstr "Выберите ресурсы"
+
+#: SelectMapDialog.cpp:65
+#: MapDatabase.cpp:110
+msgid "Cities and Knights"
+msgstr "Города и Рыцари"
+
+#: SelectMapDialog.cpp:69
+msgid "Use Cities and Knights rules"
+msgstr "Использовать правила \"Города и Рыцари\""
+
+#: SelectMapDialog.cpp:101
+msgid "Select A Map"
+msgstr "Выберите карту"
+
+#: SettingsDialog.cpp:118
+msgid "Display"
+msgstr "Экран"
+
+#: SettingsDialog.cpp:123
+msgid "Skin"
+msgstr "Оформление"
+
+#: SettingsDialog.cpp:125
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: SettingsDialog.cpp:153
+msgid "Done"
+msgstr "Готово"
+
+#: SettingsDialog.cpp:195
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: SettlersFrame.cpp:70
+msgid "Hotseat"
+msgstr "Локальная игра"
+
+#: SettlersFrame.cpp:71
+msgid "Online"
+msgstr "Сетевая игра"
+
+#: SettlersFrame.cpp:72
+msgid "Open Saved"
+msgstr "Открыть сохраненную игру"
+
+#: StockyardDialog.cpp:74
+msgid "Stockyard"
+msgstr "Колода"
+
+#: TradeOfferWindow.cpp:51
+msgid "for"
+msgstr "для"
+
+#: YearOfPlentyDialog.cpp:52
+msgid "Select 2 resources to gain."
+msgstr "Выберите из банка 2 ресурса."
+
+#: YearOfPlentyDialog.cpp:162
+msgid "Year Of Plenty"
+msgstr "Год Изобилия"
+
+#: ColorInfo.cpp:66
+msgid "White"
+msgstr "Белый"
+
+#: ColorInfo.cpp:70
+msgid "Red"
+msgstr "Красный"
+
+#: ColorInfo.cpp:74
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: ColorInfo.cpp:78
+msgid "Blue"
+msgstr "Синий"
+
+#: ColorInfo.cpp:82
+msgid "Brown"
+msgstr "Коричневый"
+
+#: ColorInfo.cpp:86
+msgid "Green"
+msgstr "Зеленый"
+
+#: ColorInfo.cpp:90
+msgid "Purple"
+msgstr "Фиолетовый"
+
+#: ColorInfo.cpp:94
+msgid "Black"
+msgstr "Черный"
+
+#: MapDatabase.cpp:101
+msgid "Map"
+msgstr "Карта"
+
+#: MapDatabase.cpp:106
+msgid "Seafarers"
+msgstr "Мореходы"
+
+#: MapDatabase.cpp:116
+msgid "Settlers"
+msgstr "Поселенцы"
+
+#: MapDatabase.cpp:123
+msgid "Map type"
+msgstr "Тип карты"
+
+#: MapDatabase.cpp:130
+#: MapDatabase.cpp:135
+msgid "Players"
+msgstr "Игроков"
+
+#: MapDatabase.cpp:141
+msgid "Points"
+msgstr "Очков для победы"
+
+#: NetworkClient.cpp:92
+#, c-format
+msgid "Could not establish a connection to %s:%d."
+msgstr "Не могу установить соединение с %s:%d."
+
+#: NetworkClient.cpp:133
+msgid "You may not join the same game twice."
+msgstr "Вы не можете дважды подключиться к одной игре."
+
+#: NetworkClient.cpp:332
+#, c-format
+msgid "Version mismatch with the server.  You have version %s.  The server has version %s."
+msgstr "Несовпадение версий. Ваша версия %s. Версия сервера %s."
+
+#: ServerGameThread.cpp:286
+#, c-format
+msgid "%s tries to join a second time and is refused."
+msgstr "%s безуспешно пытается подключиться второй раз."
+
+#: ServerGameThread.cpp:316
+#, c-format
+msgid "%s joins as a spectator."
+msgstr "%s подключился наблюдателем."
+
+#: AddPlayerDialog.cpp:71
+msgid "Name"
+msgstr "Имя"
+
+#: AddPlayerDialog.cpp:92
+msgid "Add A Player"
+msgstr "Добавить игрока"
+
+#: AddPlayerDialog.cpp:92
+msgid "Edit A Player"
+msgstr "Редактировать игрока"
+
+#: AddPlayerDialog.cpp:126
+msgid "Your name cannot be blank or all spaces."
+msgstr "Ваше имя не может состоять из пробелов или быть пустым."
+
+#: AddPlayerDialog.cpp:133
+msgid "Your name must be 20 characters or less."
+msgstr "Ваше имя не может быть длиннее 20 символов."
+
+#: BankTradeDialog.cpp:429
+#: OthersTradeDialog.cpp:400
+#: OthersTradeDialog.cpp:485
+#: OthersTradeDialog.cpp:729
+msgid "You"
+msgstr "Вы"
+
+#: BankTradeDialog.cpp:432
+#: ControlsUI.cpp:131
+msgid "Bank"
+msgstr "Банк"
+
+#: BankTradeDialog.cpp:445
+#: OthersTradeDialog.cpp:505
+msgid "Trade!"
+msgstr "Торговля!"
+
+#: BankTradeDialog.cpp:534
+msgid "Drag and drop cards to create a trade."
+msgstr "Перетаскивайте карты для торга"
+
+#: BankTradeDialog.cpp:560
+msgid "Trade With The Bank"
+msgstr "Торговать с банком"
+
+#: BankUI.cpp:291
+#: BankUI.cpp:453
+msgid "All"
+msgstr "Все"
+
+#: BankUI.cpp:457
+msgid "Most"
+msgstr "Большинство"
+
+#: BankUI.cpp:462
+msgid "Many"
+msgstr "Много"
+
+#: BankUI.cpp:467
+msgid "Half"
+msgstr "Половина"
+
+#: BankUI.cpp:472
+msgid "Some"
+msgstr "Несколько"
+
+#: BankUI.cpp:477
+msgid "Few"
+msgstr "Немного"
+
+#: BankUI.cpp:482
+msgid "None"
+msgstr "Пусто"
+
+#: CardsDialog.cpp:73
+msgid "Play Card"
+msgstr "Сыграть карту"
+
+#: CardsDialog.cpp:132
+msgid "Your Cards"
+msgstr "Ваши карты"
+
+#: ControlsUI.cpp:129
+msgid "Undo"
+msgstr "Возврат"
+
+#: ControlsUI.cpp:130
+msgid "Trade"
+msgstr "Торговля"
+
+#: ControlsUI.cpp:132
+msgid "Cards"
+msgstr "Карты"
+
+#: ControlsUI.cpp:133
+#: ControlsUI.cpp:382
+msgid "End Turn"
+msgstr "Завершить ход"
+
+#: ControlsUI.cpp:375
+msgid "Roll Dice"
+msgstr "Бросайте кубики"
+
+#: DiceRollWindow.cpp:181
+msgid "Keep visible"
+msgstr "Не прятать"
+
+#: DiceRollWindow.cpp:205
+msgid "Roll Results"
+msgstr "Результаты броска"
+
+#: GameContextMenu.cpp:51
+#: NetworkConnectPage.cpp:287
+#: SettlersFrame.cpp:83
+msgid "Settings"
+msgstr "Настройки"
+
+#: GameContextMenu.cpp:54
+msgid "Save"
+msgstr "Сохранить"
+
+#: GameContextMenu.cpp:56
+#: NetworkDialog.cpp:74
+msgid "Quit"
+msgstr "Выйти в меню"
+
+#: GameContextMenu.cpp:57
+#: SettlersFrame.cpp:105
+msgid "Exit"
+msgstr "Выход"
+
+#: GameSetupDialog.cpp:87
+#: OpenGameDialog.cpp:66
+#: ReplayDialog.cpp:66
+#: ResourceSelectionDialog.cpp:77
+#: SelectMapDialog.cpp:84
+#: BaseModalSizer.cpp:51
+msgid "OK"
+msgstr "OK"
+
+#: GameSetupDialog.cpp:89
+#: OpenGameDialog.cpp:68
+#: ReplayDialog.cpp:68
+#: SelectMapDialog.cpp:86
+#: BaseModalSizer.cpp:53
+msgid "Cancel"
+msgstr "Отмена"
+
+#: GameSetupDialog.cpp:107
+#: NetworkConnectPage.cpp:311
+msgid "Add"
+msgstr "Добавить"
+
+#: GameSetupDialog.cpp:111
+#: NetworkConnectPage.cpp:312
+msgid "Edit"
+msgstr "Редактировать"
+
+#: GameSetupDialog.cpp:126
+#: NetworkGamePage.cpp:113
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr "Перетащите имена, или добавьте/удалите двойным щелчком"
+
+#: GameSetupDialog.cpp:158
+#: NetworkGamePage.cpp:134
+msgid "Select Map"
+msgstr "Выбрать карту"
+
+#: GameSetupDialog.cpp:162
+#: NetworkGamePage.cpp:138
+msgid "Options"
+msgstr "Варианты"
+
+#: GameSetupDialog.cpp:182
+msgid "Game Setup"
+msgstr "Настройки игры"
+
+#: Lose7Dialog.cpp:95
+#, c-format
+msgid "Select %d resources to lose."
+msgstr "Выберите %d сбрасываемых ресурсов."
+
+#: Lose7Dialog.cpp:217
+msgid "Cards To Lose"
+msgstr "Сбрасываемые карты"
+
+#: MapListCtrl.cpp:65
+#, c-format
+msgid "%d players"
+msgstr "%d игрока(-ов)"
+
+#: MapListCtrl.cpp:69
+#, c-format
+msgid "%d-%d players"
+msgstr "%d-%d игрока(-ов)"
+
+#: MapListCtrl.cpp:75
+#, c-format
+msgid "%d points"
+msgstr "%d очков"
+
+#: MapTextCtrl.cpp:44
+msgid "No map selected."
+msgstr "Не выбрана карта."
+
+#: MonopolyDialog.cpp:51
+msgid "Select 1 resource type to steal."
+msgstr "Выберите ресурс, который желаете украсть."
+
+#: MonopolyDialog.cpp:111
+msgid "Monopoly"
+msgstr "Монополия"
+
+#: NetworkConnectPage.cpp:97
+msgid "Stop Server"
+msgstr "Остановить сервер"
+
+#: NetworkConnectPage.cpp:101
+msgid "Started"
+msgstr "Запущен"
+
+#: NetworkConnectPage.cpp:109
+msgid "Start Server"
+msgstr "Запустить сервер"
+
+#: NetworkConnectPage.cpp:113
+msgid "Stopped"
+msgstr "Остановлен"
+
+#: NetworkConnectPage.cpp:125
+msgid "Disconnect"
+msgstr "Разъединено"
+
+#: NetworkConnectPage.cpp:129
+msgid "Connected"
+msgstr "Соединено"
+
+#: NetworkConnectPage.cpp:135
+#: NetworkConnectPage.cpp:284
+#: NetworkNotebook.cpp:61
+msgid "Connect"
+msgstr "Подключение"
+
+#: NetworkConnectPage.cpp:136
+msgid "Not connected"
+msgstr "Нет соединения"
+
+#: NetworkConnectPage.cpp:166
+msgid "Unselected"
+msgstr "Не выделен"
+
+#: NetworkConnectPage.cpp:184
+#: SettlersFrame.cpp:381
+msgid "There are players connected to you.  Are you sure you want to shut down the server?"
+msgstr "К Вам подключены другие игроки. Вы уверены, что хотите выключить сервер?"
+
+#: NetworkConnectPage.cpp:185
+#: NetworkConnectPage.cpp:206
+#: NetworkConnectPage.cpp:604
+#: SettlersFrame.cpp:382
+#: SettlersFrame.cpp:395
+msgid "Question"
+msgstr "Вопрос"
+
+#: NetworkConnectPage.cpp:205
+#: SettlersFrame.cpp:394
+msgid "You are currently connected to a server.  Are you sure you want to leave?"
+msgstr "Вы сейчас подключены к серверу. Вы уверены, что хотите выйти из игры?"
+
+#: NetworkConnectPage.cpp:232
+msgid "Connection"
+msgstr "Соединение"
+
+#: NetworkConnectPage.cpp:236
+msgid "Status"
+msgstr "Состояние"
+
+#: NetworkConnectPage.cpp:241
+msgid "Host"
+msgstr "Сервер"
+
+#: NetworkConnectPage.cpp:245
+#: NetworkConnectToDialog.cpp:63
+msgid "Connect To"
+msgstr "Подключиться"
+
+#: NetworkConnectPage.cpp:260
+msgid "Player"
+msgstr "Игрок"
+
+#: NetworkConnectPage.cpp:272
+msgid "IP address"
+msgstr "IP адрес"
+
+#: NetworkConnectPage.cpp:302
+msgid "Use the Connection settings to either host a game or connect to a game.  Select the player you wish to play with from the list."
+msgstr "Используйте Настройки соединения для запуска своей игры или подключения к игре. Выберите из списка игрока, которым Вы хотите играть."
+
+#: NetworkConnectPage.cpp:314
+msgid "Delete"
+msgstr "Удалить"
+
+#: NetworkConnectPage.cpp:531
+msgid "Connecting..."
+msgstr "Идет соединение..."
+
+#: NetworkConnectPage.cpp:603
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Вы уверены, что хотите удалить %s?"
+
+#: NetworkConnectToDialog.cpp:65
+#: NetworkSettingsDialog.cpp:68
+msgid "Port"
+msgstr "Порт"
+
+#: NetworkConnectToDialog.cpp:87
+msgid "Enter an IP address or host name in the Connect To window and the port number in the Port window.  The default port is 7176."
+msgstr "Введите IP адрес или имя сервера в окне \"Подключиться\" и номер порта в окне \"Порт\". Порт по умолчанию - 7176."
+
+#: NetworkConnectToDialog.cpp:110
+msgid "Connect To A Game"
+msgstr "Подключиться к игре"
+
+#: NetworkConnectToDialog.cpp:137
+msgid "You must enter an IP address or host name."
+msgstr "Вы должны ввести IP адрес или имя сервера"
+
+#: NetworkConnectToDialog.cpp:152
+msgid "The port must be a valid number between 0 and 65535."
+msgstr "Номер порта должен лежать в интервале от 0 до 65535"
+
+#: NetworkDialog.cpp:72
+msgid "Direct Connect Setup"
+msgstr "Настройки прямого соединения"
+
+#: NetworkGamePage.cpp:91
+msgid "Start Game!"
+msgstr "Начать игру!"
+
+#: NetworkGamePage.cpp:91
+msgid "Ready!"
+msgstr "Готов!"
+
+#: NetworkGamePage.cpp:103
+msgid "Not ready!"
+msgstr "Не готов!"
+
+#: NetworkGamePage.cpp:269
+msgid "Cities & Knights rules are now in use."
+msgstr "В игре используются правила \"Города и Рыцари\"."
+
+#: NetworkGamePage.cpp:270
+msgid "Cities & Knights rules are no longer in use."
+msgstr "Правила \"Города и Рыцари\" теперь не используются."
+
+#: NetworkNotebook.cpp:92
+#: NetworkNotebook.cpp:97
+msgid "Game"
+msgstr "Игра"
+
+#: NetworkRestartDialog.cpp:82
+msgid "I'll play!"
+msgstr "Буду играть!"
+
+#: NetworkRestartDialog.cpp:85
+#: OthersTradeDialog.cpp:517
+msgid "No, thanks."
+msgstr "Нет, спасибо."
+
+#: NetworkRestartDialog.cpp:98
+#: NetworkRestartDialog.cpp:198
+msgid "Waiting for players to rejoin."
+msgstr "Ожидаем переподключения игроков."
+
+#: NetworkRestartDialog.cpp:134
+msgid "Network Game Restart"
+msgstr "Перезапуск сетевой игры"
+
+#: NetworkRestartDialog.cpp:177
+#, c-format
+msgid "The game will restart in %d."
+msgstr "Игра будет перезапущена через %d."
+
+#: NetworkRestartListCtrl.cpp:88
+#: NetworkRestartListCtrl.cpp:134
+msgid "Waiting..."
+msgstr "Ожидание..."
+
+#: NetworkSettingsDialog.cpp:59
+msgid "Hostname"
+msgstr "Имя сервера"
+
+#: NetworkSettingsDialog.cpp:75
+msgid "Enter a valid host name or IP address in the Hostname window.  Enter the port number clients should connect to in the Port window.  The default port is 7176."
+msgstr "Введите правильное имя сервера или IP адрес в окне \"Имя сервера\". Введите номер порта для подключения клиентов в окне \"Порт\". Значение порта по умолчанию - 7176."
+
+#: NetworkSettingsDialog.cpp:97
+msgid "Server Settings"
+msgstr "Настройки сервера"
+
+#: NetworkSettingsDialog.cpp:128
+msgid "You must enter a valid host name or IP address."
+msgstr "Вы должны ввести допустимое имя сервера или IP адрес."
+
+#: NetworkSettingsDialog.cpp:141
+msgid "You must enter a port number."
+msgstr "Вы должны ввести номер порта."
+
+#: NetworkUINotebook.cpp:183
+msgid "Chat"
+msgstr "Чат"
+
+#: NetworkUINotebook.cpp:184
+msgid "Spectators"
+msgstr "Наблюдатели"
+
+#: OpenGameDialog.cpp:82
+msgid "Open A Saved Game"
+msgstr "Открыть сохраненную игру"
+
+#: OptionAdvanced.cpp:73
+msgid "Bitmaps"
+msgstr "Изображения"
+
+#: OptionAdvanced.cpp:85
+msgid "Render bitmaps with OpenGL"
+msgstr "Выводить изображения с OpenGL"
+
+#: OptionAdvanced.cpp:88
+msgid "Use frame buffers (if available)"
+msgstr "Использовать буферы кадров (если возможно)"
+
+#: OptionAdvanced.cpp:92
+msgid "Use pixel buffers (if available)"
+msgstr "Использовать буферы пикселей (если возможно)"
+
+#: OptionAdvanced.cpp:103
+msgid "Depth Buffer Size"
+msgstr "Глубина буфера"
+
+#: OptionAdvanced.cpp:132
+msgid "Display OpenGL render information"
+msgstr "Выводить информацию рендеринга OpenGL"
+
+#: OptionAdvanced.cpp:138
+msgid "Use curved regions (Windows only)"
+msgstr "Использовать скривленные области (только Windows)"
+
+#: OptionDisplaySize.cpp:62
+#: SettingsDialog.cpp:119
+msgid "Interface Size"
+msgstr "Размер элементов управления"
+
+#: OptionDisplaySize.cpp:81
+msgid "Size"
+msgstr "Размер"
+
+#: OptionDisplaySize.cpp:86
+msgid "Maximum"
+msgstr "Максимум"
+
+#: OptionDisplaySize.cpp:94
+msgid "Drag the slider left or right to change the size of the screen interface."
+msgstr "Перетащите бегунок влево или вправо для изменения размера окна."
+
+#: OptionImages.cpp:90
+msgid "Game Images"
+msgstr "Набор изображений"
+
+#: OptionImages.cpp:101
+#: SettingsDialog.cpp:121
+msgid "Images"
+msgstr "Изображения"
+
+#: OptionImages.cpp:108
+msgid "Select the set of images you would like to use from the list.  The display will be updated immediately."
+msgstr "Выберите из списка набор изображений, который Вы хотите использовать. Экран будет обновлен автоматически."
+
+#: OptionImages.cpp:116
+msgid "Soften tiles"
+msgstr "Смягчить детали"
+
+#: OptionImages.cpp:121
+msgid "For most image sets, softening the tiles makes the game board look better."
+msgstr "Для большинства наборов изображений смягчение деталей улучшает их внешний вид "
+
+#: OptionLanguage.cpp:83
+msgid "Select a Language"
+msgstr "Выберите язык"
+
+#: OptionLanguage.cpp:91
+#: SettingsDialog.cpp:134
+msgid "Language"
+msgstr "Язык"
+
+#: OptionLanguage.cpp:97
+msgid "Select the language you would like to use from the list.  You must restart Cities3D for your choice to take effect."
+msgstr "Выберите желаемый язык из списка. Вам потребуется перезапустить Cities3D для смены языка."
+
+#: OptionSkin.cpp:86
+#: OptionSkin.cpp:95
+msgid "Skins"
+msgstr "Оформление (скины)"
+
+#: OptionSkin.cpp:101
+msgid "Select the skin you would like to use from the list.  Your choice will take effect immediately."
+msgstr "Выберите из списка желаемое оформление. Ваш выбор будет применен автоматически."
+
+#: OptionSounds.cpp:87
+msgid "Game Sounds"
+msgstr "Набор звуков"
+
+#: OptionSounds.cpp:98
+#: SettingsDialog.cpp:130
+msgid "Sounds"
+msgstr "Звуки"
+
+#: OptionSounds.cpp:104
+msgid "Select the set of sounds you would like to use from the list.  Your choice will take effect immediately."
+msgstr "Выберите из списка желаемый набор звуков. Ваш выбор будет применен автоматически."
+
+#: OptionSounds.cpp:113
+msgid "Play Sounds"
+msgstr "Включить звук"
+
+#: OptionSounds.cpp:119
+msgid "Turning sounds off will make the game completely silent."
+msgstr "Отключение звука сделает игру полностью бесшумной."
+
+#: OthersTradeDialog.cpp:406
+msgid "Them"
+msgstr "Они"
+
+#: OthersTradeDialog.cpp:425
+msgid "Offer"
+msgstr "Предложить"
+
+#: OthersTradeDialog.cpp:470
+msgid "1.  Drag and drop cards to create an offer."
+msgstr "1. Перетаскивайте карты для создания торгового предложения."
+
+#: OthersTradeDialog.cpp:471
+msgid "Respond with the Stockyard buttons, or make a counteroffer."
+msgstr "Отвечайте  или делайте встречное преложение"
+
+#: OthersTradeDialog.cpp:517
+msgid "Clear"
+msgstr "Очистить"
+
+#: OthersTradeDialog.cpp:535
+msgid "3.  Finalize your trade!"
+msgstr "3. Подтвердите Ваше предложение!"
+
+#: OthersTradeDialog.cpp:539
+#, c-format
+msgid "If %s accepts your offer, finalize it."
+msgstr "Если %s примет Ваше предложение, подтвердите его."
+
+#: OthersTradeDialog.cpp:571
+msgid "Trade With Others"
+msgstr "Торговать с игроками"
+
+#: ReplayDialog.cpp:82
+#: SettlersFrame.cpp:94
+msgid "Replay A Game"
+msgstr "Воспроизвести партию"
+
+#: ReplayUI.cpp:113
+msgid "Play Next"
+msgstr "Дальше"
+
+#: ResourceSelectionDialog.cpp:154
+msgid "Drag and drop cards to make a selection."
+msgstr "Перетаскивайте карты для выделения."
+
+#: ResourceSelectionDialog.cpp:188
+msgid "Select Resources"
+msgstr "Выберите ресурсы"
+
+#: SelectMapDialog.cpp:65
+#: MapDatabase.cpp:110
+msgid "Cities and Knights"
+msgstr "Города и Рыцари"
+
+#: SelectMapDialog.cpp:69
+msgid "Use Cities and Knights rules"
+msgstr "Использовать правила \"Города и Рыцари\""
+
+#: SelectMapDialog.cpp:101
+msgid "Select A Map"
+msgstr "Выберите карту"
+
+#: SettingsDialog.cpp:118
+msgid "Display"
+msgstr "Экран"
+
+#: SettingsDialog.cpp:123
+msgid "Skin"
+msgstr "Оформление"
+
+#: SettingsDialog.cpp:125
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: SettingsDialog.cpp:153
+msgid "Done"
+msgstr "Готово"
+
+#: SettingsDialog.cpp:195
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: SettlersFrame.cpp:70
+msgid "Hotseat"
+msgstr "Локальная игра"
+
+#: SettlersFrame.cpp:71
+msgid "Online"
+msgstr "Сетевая игра"
+
+#: SettlersFrame.cpp:72
+msgid "Open Saved"
+msgstr "Открыть сохраненную игру"
+
+#: StockyardDialog.cpp:122
+msgid "Current Offer"
+msgstr "Текущее предложение"
+
+#: StockyardDialog.cpp:151
+msgid "for"
+msgstr "для"
+
+#: StockyardDialog.cpp:175
+msgid "Accept"
+msgstr "Принять"
+
+#: StockyardDialog.cpp:178
+msgid "Reject"
+msgstr "Отвергнуть"
+
+#: StockyardDialog.cpp:181
+msgid "No Trades"
+msgstr "Без торговли"
+
+#: StockyardDialog.cpp:194
+msgid "2.  Click an offer to trade with that player."
+msgstr "2. Нажмите на предложение для начала торговли с этим игроком."
+
+#: StockyardDialog.cpp:195
+msgid "Click other offers to match them."
+msgstr "Нажмите на другие предложения, чтобы ответить на них."
+
+#: StockyardDialog.cpp:252
+msgid "Stockyard"
+msgstr "Запасы"
+
+#: TradeOfferBox.cpp:102
+#, c-format
+msgid "%s accepts"
+msgstr "%s принимает"
+
+#: TradeOfferBox.cpp:106
+#, c-format
+msgid "%s counteroffers"
+msgstr "%s делает встречное предложение"
+
+#: TradeOfferBox.cpp:110
+#, c-format
+msgid "%s passes"
+msgstr "%s передает"
+
+#: TradeOfferBox.cpp:114
+#, c-format
+msgid "%s won't trade"
+msgstr "%s не будет торговать"
+
+#: YearOfPlentyDialog.cpp:52
+msgid "Select 2 resources to gain."
+msgstr "Выберите из банка 2 ресурса."
+
+#: YearOfPlentyDialog.cpp:162
+msgid "Year Of Plenty"
+msgstr "Год Изобилия"
+
+#: ColorInfo.cpp:66
+msgid "White"
+msgstr "Белый"
+
+#: ColorInfo.cpp:70
+msgid "Red"
+msgstr "Красный"
+
+#: ColorInfo.cpp:74
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: ColorInfo.cpp:78
+msgid "Blue"
+msgstr "Синий"
+
+#: ColorInfo.cpp:82
+msgid "Brown"
+msgstr "Коричневый"
+
+#: ColorInfo.cpp:86
+msgid "Green"
+msgstr "Зеленый"
+
+#: ColorInfo.cpp:90
+msgid "Purple"
+msgstr "Фиолетовый"
+
+#: ColorInfo.cpp:94
+msgid "Black"
+msgstr "Черный"
+
+#: MapDatabase.cpp:101
+msgid "Map"
+msgstr "Карта"
+
+#: MapDatabase.cpp:106
+msgid "Seafarers"
+msgstr "Мореходы"
+
+#: MapDatabase.cpp:116
+msgid "Settlers"
+msgstr "Поселенцы"
+
+#: MapDatabase.cpp:123
+msgid "Map type"
+msgstr "Тип карты"
+
+#: MapDatabase.cpp:130
+#: MapDatabase.cpp:135
+msgid "Players"
+msgstr "Игроков"
+
+#: MapDatabase.cpp:141
+msgid "Points"
+msgstr "Очков для победы"
+
+#: NetworkClient.cpp:92
+#, c-format
+msgid "Could not establish a connection to %s:%d."
+msgstr "Не могу установить соединение с %s:%d."
+
+#: NetworkClient.cpp:133
+msgid "You may not join the same game twice."
+msgstr "Вы не можете дважды подключиться к одной игре."
+
+#: NetworkClient.cpp:332
+#, c-format
+msgid "Version mismatch with the server.  You have version %s.  The server has version %s."
+msgstr "Несовпадение версий. Ваша версия %s. Версия сервера %s."
+
+#: ServerGameThread.cpp:286
+#, c-format
+msgid "%s tries to join a second time and is refused."
+msgstr "%s безуспешно пытается подключиться второй раз."
+
+#: ServerGameThread.cpp:316
+#, c-format
+msgid "%s joins as a spectator."
+msgstr "%s подключился наблюдателем."

@@ -1,0 +1,174 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_MODES</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_MISC_VALUES.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_REVERB_CHANNELFLAGS.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Defines"><H5>[Define]</A></H5>
+<H2><A NAME="FSOUND_MODES">FSOUND_MODES</A></H2>
+Sample description bitfields, OR them together for loading and describing samples.<BR>
+NOTE.  If the file format being loaded already has a defined format, such as WAV or MP3, then <BR>
+trying to override the pre-defined format with a new set of format flags will not work.  For<BR>
+example, an 8 bit WAV file will not load as 16bit if you specify FSOUND_16BITS.  It will just<BR>
+ignore the flag and go ahead loading it as 8bits.  For these type of formats the only flags<BR>
+you can specify that will really alter the behaviour of how it is loaded, are the following.<BR>
+---------<BR>
+Looping behaviour - FSOUND_LOOP_OFF, FSOUND_LOOP_NORMAL, FSOUND_LOOP_BIDI <BR>
+Load destination - FSOUND_HW3D, FSOUND_HW2D, FSOUND_2D<BR>
+Loading behaviour - FSOUND_NONBLOCKING, FSOUND_LOADMEMORY, FSOUND_LOADRAW, FSOUND_MPEGACCURATE, FSOUND_MPEGHALFRATE, FSOUND_FORCEMONO<BR>
+Playback behaviour - FSOUND_STREAMABLE, FSOUND_ENABLEFX<BR>
+PlayStation 2 only - FSOUND_USECORE0, FSOUND_USECORE1, FSOUND_LOADMEMORYIOP    <BR>
+---------<BR>
+See flag descriptions for what these do.<BR>
+<P>
+<TABLE>
+<TR VALIGN=top><TD><B>FSOUND_LOOP_OFF</B></TD>
+<TD><I>0x00000001  /* For non looping samples. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_LOOP_NORMAL</B></TD>
+<TD><I>0x00000002  /* For forward looping samples. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_LOOP_BIDI</B></TD>
+<TD><I>0x00000004  /* For bidirectional looping samples.  (no effect if in hardware). */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_8BITS</B></TD>
+<TD><I>0x00000008  /* For 8 bit samples. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_16BITS</B></TD>
+<TD><I>0x00000010  /* For 16 bit samples. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_MONO</B></TD>
+<TD><I>0x00000020  /* For mono samples. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_STEREO</B></TD>
+<TD><I>0x00000040  /* For stereo samples. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_UNSIGNED</B></TD>
+<TD><I>0x00000080  /* For user created source data containing unsigned samples. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_SIGNED</B></TD>
+<TD><I>0x00000100  /* For user created source data containing signed data. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_DELTA</B></TD>
+<TD><I>0x00000200  /* For user created source data stored as delta values. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_IT214</B></TD>
+<TD><I>0x00000400  /* For user created source data stored using IT214 compression. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_IT215</B></TD>
+<TD><I>0x00000800  /* For user created source data stored using IT215 compression. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_HW3D</B></TD>
+<TD><I>0x00001000  /* Attempts to make samples use 3d hardware acceleration. (if the card supports it) */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_2D</B></TD>
+<TD><I>0x00002000  /* Tells software (not hardware) based sample not to be included in 3d processing. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_STREAMABLE</B></TD>
+<TD><I>0x00004000  /* For a streamimg sound where you feed the data to it. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_LOADMEMORY</B></TD>
+<TD><I>0x00008000  /* "name" will be interpreted as a pointer to data for streaming and samples. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_LOADRAW</B></TD>
+<TD><I>0x00010000  /* Will ignore file format and treat as raw pcm. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_MPEGACCURATE</B></TD>
+<TD><I>0x00020000  /* For FSOUND_Stream_Open - for accurate FSOUND_Stream_GetLengthMs/FSOUND_Stream_SetTime.  WARNING, see FSOUND_Stream_Open for inital opening time performance issues. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_FORCEMONO</B></TD>
+<TD><I>0x00040000  /* For forcing stereo streams and samples to be mono - needed if using FSOUND_HW3D and stereo data - incurs a small speed hit for streams */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_HW2D</B></TD>
+<TD><I>0x00080000  /* 2D hardware sounds.  allows hardware specific effects */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_ENABLEFX</B></TD>
+<TD><I>0x00100000  /* Allows DX8 FX to be played back on a sound.  Requires DirectX 8 - Note these sounds cannot be played more than once, be 8 bit, be less than a certain size, or have a changing frequency */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_MPEGHALFRATE</B></TD>
+<TD><I>0x00200000  /* For FMODCE only - decodes mpeg streams using a lower quality decode, but faster execution */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_IMAADPCM</B></TD>
+<TD><I>0x00400000  /* Contents are stored compressed as IMA ADPCM */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_VAG</B></TD>
+<TD><I>0x00800000  /* For PS2 only - Contents are compressed as Sony VAG format */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_NONBLOCKING</B></TD>
+<TD><I>0x01000000  /* For FSOUND_Stream_Open/FMUSIC_LoadSong - Causes stream or music to open in the background and not block the foreground app.  See FSOUND_Stream_GetOpenState or FMUSIC_GetOpenState to determine when it IS ready. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_GCADPCM</B></TD>
+<TD><I>0x02000000  /* For Gamecube only - Contents are compressed as Gamecube DSP-ADPCM format */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_MULTICHANNEL</B></TD>
+<TD><I>0x04000000  /* For PS2 and Gamecube only - Contents are interleaved into a multi-channel (more than stereo) format */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_USECORE0</B></TD>
+<TD><I>0x08000000  /* For PS2 only - Sample/Stream is forced to use hardware voices 00-23 */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_USECORE1</B></TD>
+<TD><I>0x10000000  /* For PS2 only - Sample/Stream is forced to use hardware voices 24-47 */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_LOADMEMORYIOP</B></TD>
+<TD><I>0x20000000  /* For PS2 only - "name" will be interpreted as a pointer to data for streaming and samples.  The address provided will be an IOP address */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_IGNORETAGS</B></TD>
+<TD><I>0x40000000  /* Skips id3v2 etc tag checks when opening a stream, to reduce seek/read overhead when opening files (helps with CD performance) */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_STREAM_NET</B></TD>
+<TD><I>0x80000000  /* Specifies an internet stream */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_NORMAL</B></TD>
+<TD><I>(FSOUND_16BITS | FSOUND_SIGNED | FSOUND_MONO)      
+</I></TD>
+</TABLE>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FMUSIC_GetOpenState.html">FMUSIC_GetOpenState</A>
+, 
+<A HREF="FMUSIC_LoadSong.html">FMUSIC_LoadSong</A>
+, 
+<A HREF="FSOUND_Stream_GetLength.html">FSOUND_Stream_GetLength</A>
+, 
+<A HREF="FSOUND_Stream_GetLengthMs.html">FSOUND_Stream_GetLengthMs</A>
+, 
+<A HREF="FSOUND_Stream_GetOpenState.html">FSOUND_Stream_GetOpenState</A>
+, 
+<A HREF="FSOUND_Stream_Open.html">FSOUND_Stream_Open</A>
+, 
+<A HREF="FSOUND_Stream_SetTime.html">FSOUND_Stream_SetTime</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

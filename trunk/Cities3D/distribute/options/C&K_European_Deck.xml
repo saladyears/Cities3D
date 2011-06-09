@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OptionSet>
+  <Option module="CitiesRules" option="Cities"/>
+  <Option module="CitiesRules" option="ScienceCards">
+    <Alchemist value="2"/>
+    <Crane value="2"/>
+    <Engineer value="1"/>
+    <Inventor value="2"/>
+    <Irrigation value="2"/>
+    <Medicine value="2"/>
+    <Mining value="2"/>
+    <Printer value="1"/>
+    <RoadBuilding value="2"/>
+    <Smith value="2"/>
+  </Option>
+</OptionSet>

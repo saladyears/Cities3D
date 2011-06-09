@@ -1,0 +1,92 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_REVERB_FLAGS</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_REVERB_CHANNELFLAGS.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_REVERB_PRESETS.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Defines"><H5>[Define]</A></H5>
+<H2><A NAME="FSOUND_REVERB_FLAGS">FSOUND_REVERB_FLAGS</A></H2>
+Values for the Flags member of the FSOUND_REVERB_PROPERTIES structure.<BR>
+<P>
+<TABLE>
+<TR VALIGN=top><TD><B>FSOUND_REVERB_FLAGS_DECAYTIMESCALE</B></TD>
+<TD><I>0x00000001 /* 'EnvSize' affects reverberation decay time */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_REVERB_FLAGS_REFLECTIONSSCALE</B></TD>
+<TD><I>0x00000002 /* 'EnvSize' affects reflection level */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_REVERB_FLAGS_REFLECTIONSDELAYSCALE</B></TD>
+<TD><I>0x00000004 /* 'EnvSize' affects initial reflection delay time */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_REVERB_FLAGS_REVERBSCALE</B></TD>
+<TD><I>0x00000008 /* 'EnvSize' affects reflections level */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_REVERB_FLAGS_REVERBDELAYSCALE</B></TD>
+<TD><I>0x00000010 /* 'EnvSize' affects late reverberation delay time */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_REVERB_FLAGS_DECAYHFLIMIT</B></TD>
+<TD><I>0x00000020 /* AirAbsorptionHF affects DecayHFRatio */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_REVERB_FLAGS_ECHOTIMESCALE</B></TD>
+<TD><I>0x00000040 /* 'EnvSize' affects echo time */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_REVERB_FLAGS_MODULATIONTIMESCALE</B></TD>
+<TD><I>0x00000080 /* 'EnvSize' affects modulation time */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_REVERB_FLAGS_CORE0</B></TD>
+<TD><I>0x00000100 /* PS2 Only - Reverb is applied to CORE0 (hw voices 0-23) */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_REVERB_FLAGS_CORE1</B></TD>
+<TD><I>0x00000200 /* PS2 Only - Reverb is applied to CORE1 (hw voices 24-47) */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_REVERB_FLAGS_DEFAULT</B></TD>
+<TD><I>(FSOUND_REVERB_FLAGS_DECAYTIMESCALE |        </I></TD>
+<TR VALIGN=top><TD></TD><TD><I>                                                  FSOUND_REVERB_FLAGS_REFLECTIONSSCALE |      </I></TD>
+<TR VALIGN=top><TD></TD><TD><I>                                                  FSOUND_REVERB_FLAGS_REFLECTIONSDELAYSCALE | </I></TD>
+<TR VALIGN=top><TD></TD><TD><I>                                                  FSOUND_REVERB_FLAGS_REVERBSCALE |           </I></TD>
+<TR VALIGN=top><TD></TD><TD><I>                                                  FSOUND_REVERB_FLAGS_REVERBDELAYSCALE |      </I></TD>
+<TR VALIGN=top><TD></TD><TD><I>                                                  FSOUND_REVERB_FLAGS_DECAYHFLIMIT |          </I></TD>
+<TR VALIGN=top><TD></TD><TD><I>                                                  FSOUND_REVERB_FLAGS_CORE0 |                 </I></TD>
+<TR VALIGN=top><TD></TD><TD><I>                                                  FSOUND_REVERB_FLAGS_CORE1 )
+</I></TD>
+</TABLE>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_REVERB_FLAGS.html">FSOUND_REVERB_FLAGS</A>
+, 
+<A HREF="FSOUND_REVERB_PROPERTIES.html">FSOUND_REVERB_PROPERTIES</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

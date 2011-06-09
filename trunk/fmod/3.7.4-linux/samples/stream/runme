@@ -1,0 +1,4 @@
+#!/bin/sh
+
+./stream ../../media/jbtennis.wav
+

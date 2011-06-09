@@ -1,0 +1,97 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FMOD_ERRORS</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_STATUS_FLAGS.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FMUSIC_TYPES.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Enums"><H5>[Enum]</A></H5>
+<H2><A NAME="FMOD_ERRORS">FMOD_ERRORS</A></H2>
+On failure of commands in FMOD, use FSOUND_GetError to attain what happened.<BR>
+<P>
+<H3>Enumerators</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>FMOD_ERR_NONE</I></TD>
+<TD>/* No errors */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_BUSY</I></TD>
+<TD>/* Cannot call this command after FSOUND_Init.  Call FSOUND_Close first. */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_UNINITIALIZED</I></TD>
+<TD>/* This command failed because FSOUND_Init or FSOUND_SetOutput was not called */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_INIT</I></TD>
+<TD>/* Error initializing output device. */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_ALLOCATED</I></TD>
+<TD>/* Error initializing output device, but more specifically, the output device is already in use and cannot be reused. */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_PLAY</I></TD>
+<TD>/* Playing the sound failed. */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_OUTPUT_FORMAT</I></TD>
+<TD>/* Soundcard does not support the features needed for this soundsystem (16bit stereo output) */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_COOPERATIVELEVEL</I></TD>
+<TD>/* Error setting cooperative level for hardware. */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_CREATEBUFFER</I></TD>
+<TD>/* Error creating hardware sound buffer. */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_FILE_NOTFOUND</I></TD>
+<TD>/* File not found */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_FILE_FORMAT</I></TD>
+<TD>/* Unknown file format */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_FILE_BAD</I></TD>
+<TD>/* Error loading file */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_MEMORY</I></TD>
+<TD>/* Not enough memory or resources */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_VERSION</I></TD>
+<TD>/* The version number of this file format is not supported */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_INVALID_PARAM</I></TD>
+<TD>/* An invalid parameter was passed to this function */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_NO_EAX</I></TD>
+<TD>/* Tried to use an EAX command on a non EAX enabled channel or output. */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_CHANNEL_ALLOC</I></TD>
+<TD>/* Failed to allocate a new channel */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_RECORD</I></TD>
+<TD>/* Recording is not supported on this machine */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_MEDIAPLAYER</I></TD>
+<TD>/* Windows Media Player not installed so cannot play wma or use internet streaming. */<BR>
+</TD><TR VALIGN=top><TD><I>FMOD_ERR_CDDEVICE</I></TD>
+<TD>/* An error occured trying to open the specified CD device */<BR>
+</TD></TABLE>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Close.html">FSOUND_Close</A>
+, 
+<A HREF="FSOUND_GetError.html">FSOUND_GetError</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+, 
+<A HREF="FSOUND_SetOutput.html">FSOUND_SetOutput</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

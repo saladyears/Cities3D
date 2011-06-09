@@ -1,0 +1,135 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Stream_Open</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Stream_Net_SetProxy.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Stream_OpenFromHandle.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Stream_Open">FSOUND_Stream_Open</A></H2>
+Opens an audio file/url/cd ready for streaming.  <BR>
+This opens the file in preparation for playback in real-time, without needing to decode the whole file into memory first.<BR>
+<P>
+<B>FSOUND_STREAM *	F_API </B><B> </B><B>FSOUND_Stream_Open</B><B>(</B><BR>
+<B>const char *</B><I>name_or_data</I><B>,</B><BR>
+<B>unsigned int </B><B> </B><I>mode</I><B>,</B><BR>
+<B>int </B><B> </B><I>offset</I><B>,</B><BR>
+<B>int </B><B> </B><I>length</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>name_or_data</I></TD>
+<TD>Name of the file to open, or pointer to data if FSOUND_LOADMEMORY is used.<BR>
+</TD><TR VALIGN=top><TD><I>mode</I></TD>
+<TD>Simple description of how to play the file.  For all formats except raw PCM,<BR>
+FSOUND_LOOP*, FSOUND_HW3D, FSOUND_HW2D, FSOUND_2D, FSOUND_LOADMEMORY, FSOUND_LOADRAW, FSOUND_MPEGACCURATE, FSOUND_NONBLOCKING flags are the only ones supported.<BR>
+</TD><TR VALIGN=top><TD><I>offset</I></TD>
+<TD>Optional. 0 by default.  If &gt; 0, this value is used to specify an offset in a file, so fmod will seek before opening.  length must also be specified if this value is used.<BR>
+</TD><TR VALIGN=top><TD><I>length</I></TD>
+<TD>Optional. 0 by default.  If &gt; 0, this value is used to specify the length of a memory block when using FSOUND_LOADMEMORY, or it is the length of a file or file segment if the offset parameter is used.  On PlayStation 2 this must be 16 byte aligned for memory loading.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, a pointer to an opened stream is returned.<BR>
+On failure, NULL is returned.<BR>
+<H3>Remarks</H3>
+WAV support supports windows codec compressed WAV files.<BR>
+--------------<BR>
+FSOUND_MPEGACCURATE is to be used cautiously.  To open a file with this mode turned on, it has to scan the whole MP3 first.  This can take several seconds if the file is big, or the harddisk/cpu is slow.<BR>
+A way to speed up this process would be to load the compressed mp3 into memory first, and use the FSOUND_LOADMEMORY flag with this function.<BR>
+--------------<BR>
+NOTE : Internet stream limitations<BR>
+- URLs must start with "http://".<BR>
+- The only supported formats for HTTP streams are MP3 (must have .mp3 extension) and OggVorbis (must have .ogg extension).<BR>
+--------------<BR>
+FSB streaming is not supported if the format from FSBank is 'Retain original format'.  On PC platforms, only PCM and ADPCM FSB files are allowed.<BR>
+--------------<BR>
+Note, on PlayStation 2 you cannot use FSOUND_LOADMEMORY, you may use FSOUND_LOADMEMORYIOP though.<BR>
+--------------<BR>
+When opening with the FSOUND_NONBLOCKING flag, this function always succeeds at the point of being called.  <BR>
+It will always return a valid channel handle, even though the file might fail to open.  To determine any error in non blocking mode use FSOUND_Stream_GetOpenState.<BR>
+--------------<BR>
+NOTE: CDDA Streaming (Win32 only!)<BR>
+To open a CD for CDDA streaming, specify the drive letter of a CD drive e.g. FSOUND_Stream_Open("d:", 0, 0, 0);  FSOUND_Stream_Open will create a stream with multiple substreams, one for each CD track. Use FSOUND_Stream_SetSubStream to select which CD track to play.<BR>
+A number of options can be passed to FSOUND_Stream_Open along with the drive letter. They are :<BR>
+*?   e.g. FSOUND_Stream_Open("d:*?", 0, 0, 0);  This option will cause a tag field called "CD_DEVICE_INFO" to be attached to the stream. This tag field contains information on the specified CD device.<BR>
+*!   e.g. FSOUND_Stream_Open("d:*!", 0, 0, 0);  This option will cause the stream to be opened in "quick open" mode. When a stream is opened in this mode, calls to FSOUND_Stream_SetSubStream will return immediately making it quick to select each substream in turn and get the length of each CD track. Note that a stream in quick open mode cannot be played! Use quick open mode to get track lengths and then re-open the stream without quick open mode to actually play it.<BR>
+*j   e.g. FSOUND_Stream_Open("d:*j", 0, 0, 0);  This option turns jitter correction OFF.<BR>
+*a   e.g. FSOUND_Stream_Open("d:*a", 0, 0, 0);  This option will force FMOD to use ASPI to access the specified CD drive as opposed to NTSCSI. It should generally only be used as a last resort if FMOD is unable to access drives that are known to be working with other programs.<BR>
+Options can be combined like so: FSOUND_Stream_Open("d:*?!j", 0, 0, 0);<BR>
+If a nonblocking CDDA stream fails to open, a tag field called "CD_ERROR" will be attached to the stream. This tag field contains a textual description of why the stream failed to open.<BR>
+NOTE: FMOD will always try to use native NTSCSI support to communicate with CD devices before trying to use ASPI, unless the "*a" option is specified, in which case FMOD will only try to use ASPI. Unlike in pre-3.73 versions, FMOD can now access all CD drives when using ASPI.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_MODES.html">FSOUND_MODES</A>
+, 
+<A HREF="FSOUND_Stream_Close.html">FSOUND_Stream_Close</A>
+, 
+<A HREF="FSOUND_Stream_GetLength.html">FSOUND_Stream_GetLength</A>
+, 
+<A HREF="FSOUND_Stream_GetLengthMs.html">FSOUND_Stream_GetLengthMs</A>
+, 
+<A HREF="FSOUND_Stream_GetOpenState.html">FSOUND_Stream_GetOpenState</A>
+, 
+<A HREF="FSOUND_Stream_Net_GetBufferProperties.html">FSOUND_Stream_Net_GetBufferProperties</A>
+, 
+<A HREF="FSOUND_Stream_Net_GetInfo.html">FSOUND_Stream_Net_GetInfo</A>
+, 
+<A HREF="FSOUND_Stream_Net_GetLastServerStatus.html">FSOUND_Stream_Net_GetLastServerStatus</A>
+, 
+<A HREF="FSOUND_Stream_Net_GetStatus.html">FSOUND_Stream_Net_GetStatus</A>
+, 
+<A HREF="FSOUND_Stream_Net_SetBufferProperties.html">FSOUND_Stream_Net_SetBufferProperties</A>
+, 
+<A HREF="FSOUND_Stream_Net_SetMetadataCallback.html">FSOUND_Stream_Net_SetMetadataCallback</A>
+, 
+<A HREF="FSOUND_Stream_Net_SetProxy.html">FSOUND_Stream_Net_SetProxy</A>
+, 
+<A HREF="FSOUND_Stream_Open.html">FSOUND_Stream_Open</A>
+, 
+<A HREF="FSOUND_Stream_OpenFromHandle.html">FSOUND_Stream_OpenFromHandle</A>
+, 
+<A HREF="FSOUND_Stream_Play.html">FSOUND_Stream_Play</A>
+, 
+<A HREF="FSOUND_Stream_PlayEx.html">FSOUND_Stream_PlayEx</A>
+, 
+<A HREF="FSOUND_Stream_SetBufferSize.html">FSOUND_Stream_SetBufferSize</A>
+, 
+<A HREF="FSOUND_Stream_SetSubStream.html">FSOUND_Stream_SetSubStream</A>
+, 
+<A HREF="FSOUND_Stream_Stop.html">FSOUND_Stream_Stop</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

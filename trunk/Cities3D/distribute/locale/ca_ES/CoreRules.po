@@ -1,0 +1,720 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-12-05 21:52+0100\n"
+"Last-Translator: Jordi E. Gasulla <jordigasulla@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: SPAIN\n"
+
+#: StatsPane.cpp:102
+msgid "Map"
+msgstr ""
+
+#: StatsPane.cpp:103
+msgid "Map points"
+msgstr ""
+
+#: StatsPane.cpp:106
+msgid "Rulesets"
+msgstr ""
+
+#: StatsPane.cpp:107 Strings.cpp:417
+msgid "Options"
+msgstr "Opcions"
+
+#: Strings.cpp:357
+msgid "Accept"
+msgstr "Acceptar"
+
+#: Strings.cpp:358
+#, fuzzy
+msgid "Action"
+msgstr "Animació"
+
+#: Strings.cpp:359
+msgid "Add"
+msgstr "Afegir"
+
+#: Strings.cpp:360
+msgid "Advanced"
+msgstr "Avançat"
+
+#: Strings.cpp:361
+msgid "All"
+msgstr "Tot"
+
+#: Strings.cpp:362
+msgid "Animation"
+msgstr "Animació"
+
+#: Strings.cpp:363
+msgid "Assign"
+msgstr ""
+
+#: Strings.cpp:364
+msgid "Bitmaps"
+msgstr "Mapes de bits"
+
+#: Strings.cpp:365
+msgid "Bank"
+msgstr "Banc"
+
+#: Strings.cpp:366
+msgid "Board animations show you when another player changes the board."
+msgstr ""
+"Les animacions del taulell mostren quan un altre jugador canvia el taulell."
+
+#: Strings.cpp:367
+#, fuzzy
+msgid "Build Options"
+msgstr "Opcions"
+
+#: Strings.cpp:368
+msgid "Cards"
+msgstr "Cartes"
+
+#: Strings.cpp:369
+msgid "Clear"
+msgstr "Netejar"
+
+#: Strings.cpp:370
+msgid "2.  Click an offer to trade with that player."
+msgstr "2. Clica en una oferta per canviar amb aquell jugador."
+
+#: Strings.cpp:371
+msgid "Click other offers to match them."
+msgstr "Clica a altres ofertes per igualar-les."
+
+#: Strings.cpp:372
+msgid "Controls"
+msgstr ""
+
+#: Strings.cpp:373
+msgid "Core"
+msgstr ""
+
+#: Strings.cpp:374
+msgid "Current game settings"
+msgstr ""
+
+#: Strings.cpp:375
+#, fuzzy
+msgid "Default"
+msgstr "Esborrar"
+
+#: Strings.cpp:376
+msgid "Delete"
+msgstr "Esborrar"
+
+#: Strings.cpp:377
+msgid "Depth Buffer Size"
+msgstr "Mida del Buffer de Profunditat"
+
+#: Strings.cpp:378
+msgid "Display"
+msgstr "Mostrar"
+
+#: Strings.cpp:379
+msgid "Display OpenGL render information"
+msgstr "Mostrar informació del dibuixat OpenGL"
+
+#: Strings.cpp:380
+msgid "Drag and drop cards to create a trade."
+msgstr "Arrossega les cartes per crear un canvi."
+
+#: Strings.cpp:381
+msgid "1.  Drag and drop cards to create an offer."
+msgstr "1. Arrossega les cartes per crear una oferta."
+
+#: Strings.cpp:382
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr "Arrossega els noms, o fes doble-click per afegir/treure."
+
+#: Strings.cpp:383
+#, fuzzy
+msgid "End the turn"
+msgstr "Acabar el torn"
+
+#: Strings.cpp:384
+msgid "End Turn"
+msgstr "Acabar el torn"
+
+#: Strings.cpp:385
+msgid "Exit"
+msgstr "Sortir"
+
+#: Strings.cpp:386
+#, fuzzy
+msgid "E&xit"
+msgstr "Sortir"
+
+#: Strings.cpp:387
+msgid "Few"
+msgstr "Pocs"
+
+#: Strings.cpp:388
+msgid "3.  Finalize your trade!"
+msgstr "3. Acabar el canvi!"
+
+#: Strings.cpp:389
+msgid "for"
+msgstr "per"
+
+#: Strings.cpp:390
+msgid ""
+"For most image sets, softening the tiles makes the game board look better."
+msgstr ""
+"Per a la majoria de conjunts d'imatges, suavitzar-los fa que el taulell es "
+"vegi millor."
+
+#: Strings.cpp:391
+msgid "Game Images"
+msgstr "Imatges del Joc"
+
+#: Strings.cpp:392
+msgid "Game Sounds"
+msgstr "Sons del Joc"
+
+#: Strings.cpp:393
+#, fuzzy
+msgid "Game Window"
+msgstr "Sons del Joc"
+
+#: Strings.cpp:394
+msgid "Half"
+msgstr "La meitat"
+
+#: Strings.cpp:395
+msgid "Hide popups"
+msgstr "Amagar les popups"
+
+#: Strings.cpp:396
+msgid "Hotseat"
+msgstr "Joc de les Cadires"
+
+#: Strings.cpp:397
+#, fuzzy
+msgid "Hotseat Setup"
+msgstr "Joc de les Cadires"
+
+#: Strings.cpp:398
+msgid "Images"
+msgstr "Imatges"
+
+#: Strings.cpp:399
+#, c-format
+msgid "%s is currently assigned to %s."
+msgstr ""
+
+#: Strings.cpp:400
+msgid "Key Bindings"
+msgstr ""
+
+#: Strings.cpp:401
+msgid "Keyboard"
+msgstr ""
+
+#: Strings.cpp:402
+msgid "Keystroke"
+msgstr ""
+
+#: Strings.cpp:403
+msgid "Language"
+msgstr "Idioma"
+
+#: Strings.cpp:404
+msgid "&Layout"
+msgstr ""
+
+#: Strings.cpp:405
+#, fuzzy
+msgid "Load A Saved Game"
+msgstr "Obrir una Partida Grabada"
+
+#: Strings.cpp:406
+msgid "Load Saved"
+msgstr ""
+
+#: Strings.cpp:407
+msgid "Many"
+msgstr "Bastants"
+
+#: Strings.cpp:408
+msgid "Most"
+msgstr "La majoria"
+
+#: Strings.cpp:409
+msgid "Name"
+msgstr ""
+
+#: Strings.cpp:410
+#, fuzzy
+msgid "New"
+msgstr "Pocs"
+
+#: Strings.cpp:411
+msgid "New keystroke"
+msgstr ""
+
+#: Strings.cpp:412
+msgid "None"
+msgstr "Cap"
+
+#: Strings.cpp:413
+msgid "No, thanks."
+msgstr "No, gràcies."
+
+#: Strings.cpp:414
+msgid "No Trades"
+msgstr "No vull canvis"
+
+#: Strings.cpp:415
+msgid "Offer"
+msgstr "Oferir"
+
+#: Strings.cpp:416
+msgid "OK"
+msgstr "Acceptar"
+
+#: Strings.cpp:418
+msgid "Pan map down"
+msgstr ""
+
+#: Strings.cpp:419
+msgid "Pan map left"
+msgstr ""
+
+#: Strings.cpp:420
+msgid "Pan map right"
+msgstr ""
+
+#: Strings.cpp:421
+msgid "Pan map up"
+msgstr ""
+
+#: Strings.cpp:422
+#, fuzzy
+msgid "Play a card"
+msgstr "Juga una carta"
+
+#: Strings.cpp:423
+msgid "Play board animations"
+msgstr "Mostrar les animacions del taulell"
+
+#: Strings.cpp:424
+#, fuzzy
+msgid "Players"
+msgstr "Juga el Següent"
+
+#: Strings.cpp:425
+msgid "Play Next"
+msgstr "Juga el Següent"
+
+#: Strings.cpp:426
+msgid "Play Sounds"
+msgstr "Utilitzar els Sons"
+
+#: Strings.cpp:427
+msgid "Popups"
+msgstr "Popups"
+
+#: Strings.cpp:428
+msgid "Question"
+msgstr "Pregunta"
+
+#: Strings.cpp:429
+#, fuzzy
+msgid "&Quit"
+msgstr "Sortir"
+
+#: Strings.cpp:430
+msgid "Recommended for new players or to distinguish between different colors."
+msgstr ""
+"Recomanat per als nous jugadors per distingir entre els diferents colors."
+
+#: Strings.cpp:431
+msgid "Reject"
+msgstr "Rebutjar"
+
+#: Strings.cpp:432
+msgid "Render bitmaps with OpenGL"
+msgstr "Dibuixar els bitmaps amb OpenGL"
+
+#: Strings.cpp:433
+msgid "Respond with the Stockyard buttons, or make a counteroffer."
+msgstr "Respon amb els botons del Stockyard, o fes una contraoferta."
+
+#: Strings.cpp:434
+msgid "&Restore original layout"
+msgstr ""
+
+#: Strings.cpp:435
+msgid "Roll Dice"
+msgstr "Tirar els daus"
+
+#: Strings.cpp:436
+#, fuzzy
+msgid "Roll the dice"
+msgstr "Tirar els daus"
+
+#: Strings.cpp:437
+msgid "Rotate map down"
+msgstr ""
+
+#: Strings.cpp:438
+msgid "Rotate map left"
+msgstr ""
+
+#: Strings.cpp:439
+msgid "Rotate map right"
+msgstr ""
+
+#: Strings.cpp:440
+msgid "Rotate map up"
+msgstr ""
+
+#: Strings.cpp:441
+#, fuzzy
+msgid "&Save"
+msgstr "Grabar"
+
+#: Strings.cpp:442
+#, fuzzy
+msgid "Seconds before popups disappear"
+msgstr "Segons fins que les popus desapareixen:"
+
+#: Strings.cpp:443
+msgid "Select a Language"
+msgstr "Seleccina un Idioma"
+
+#: Strings.cpp:444
+msgid "Select Map"
+msgstr "Selecciona el Mapa"
+
+#: Strings.cpp:445
+#, fuzzy
+msgid ""
+"Select the language you would like to use from the list.  You must restart "
+"Cities Online for your choice to take effect."
+msgstr ""
+"Selecciona l'idioma de la llista que vulguis utilitzar. Has de reiniciar "
+"Cities3D perquè els canvis siguin efectius."
+
+#: Strings.cpp:446
+msgid ""
+"Select the set of images you would like to use from the list.  The display "
+"will be updated immediately."
+msgstr ""
+"Selecciona el conjunt d'imatges de la llista que t'agradaria utilizar. La "
+"pantalla s'actualitzarà inmediatament."
+
+#: Strings.cpp:447
+msgid ""
+"Select the set of sounds you would like to use from the list.  Your choice "
+"will take effect immediately."
+msgstr ""
+"Selecciona el conjunt de sons de la llista que voldries utilitzar. La teva "
+"elecció es farà efectiva inmediatament."
+
+#: Strings.cpp:448
+msgid ""
+"Select the skin you would like to use from the list.  Your choice will take "
+"effect immediately."
+msgstr ""
+"Selecciona l'aparença de la llista que vols utilitzar. La teva elecció es "
+"farà efectiva inmediatament."
+
+#: Strings.cpp:449
+msgid "&Set this layout as default"
+msgstr ""
+
+#: Strings.cpp:450
+msgid "Settings"
+msgstr "Configuració"
+
+#: Strings.cpp:451
+#, fuzzy
+msgid "&Settings"
+msgstr "Configuració"
+
+#: Strings.cpp:452
+msgid "Show popups"
+msgstr "Mostrar les popups"
+
+#: Strings.cpp:453
+msgid "Skin"
+msgstr "Aparença"
+
+#: Strings.cpp:454
+msgid "Skins"
+msgstr "Aparences"
+
+#: Strings.cpp:455
+msgid "Soften tiles"
+msgstr "Suavitza els hexàgons"
+
+#: Strings.cpp:456
+msgid "Some"
+msgstr "Alguns"
+
+#: Strings.cpp:457
+msgid "Sounds"
+msgstr "Sons"
+
+#: Strings.cpp:458
+#, fuzzy
+msgid "Stats"
+msgstr "Espectadors"
+
+#: Strings.cpp:459
+#, fuzzy
+msgid "&Stats"
+msgstr "Espectadors"
+
+#: Strings.cpp:460
+#, fuzzy
+msgid "Status"
+msgstr "Espectadors"
+
+#: Strings.cpp:461
+msgid "Stockyard"
+msgstr "Stockyard"
+
+#: Strings.cpp:462
+msgid "That would be cheating!"
+msgstr "Això seria fer trampes!"
+
+#: Strings.cpp:463
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: Strings.cpp:464
+#, fuzzy
+msgid "Toggle popups"
+msgstr "Mostrar les popups"
+
+#: Strings.cpp:465
+msgid "Trade"
+msgstr "Canviar"
+
+#: Strings.cpp:466
+msgid "Trade!"
+msgstr "Canviar!"
+
+#: Strings.cpp:467
+#, fuzzy
+msgid "Trade with bank"
+msgstr "Canviar amb el Banc"
+
+#: Strings.cpp:468
+#, fuzzy
+msgid "Trade with others"
+msgstr "Canviar amb els Altres"
+
+#: Strings.cpp:469
+msgid "Trade With Others"
+msgstr "Canviar amb els Altres"
+
+#: Strings.cpp:470
+msgid "Trade With The Bank"
+msgstr "Canviar amb el Banc"
+
+#: Strings.cpp:471
+msgid "Turning sounds off will make the game completely silent."
+msgstr "Apagar els sons farà el joc totalment silenciós."
+
+#: Strings.cpp:472
+msgid "Unable to restart the game."
+msgstr "No s'ha pogut reiniciar la partida."
+
+#: Strings.cpp:473
+msgid "Undo"
+msgstr "Desfer"
+
+#: Strings.cpp:474
+msgid "Undo action"
+msgstr ""
+
+#: Strings.cpp:475
+msgid "Use frame buffers (if available)"
+msgstr "Usar frame buffers (si estan disponibles)"
+
+#: Strings.cpp:476
+msgid "Use pixel buffers (if available)"
+msgstr "Usar pixel buffers (si estan disponibles)"
+
+#: Strings.cpp:477
+msgid "You"
+msgstr "Tu"
+
+#: Strings.cpp:478
+msgid "You accept"
+msgstr "Acceptes"
+
+#: Strings.cpp:479
+msgid "You get"
+msgstr "Obtens"
+
+#: Strings.cpp:480
+msgid "You give"
+msgstr "Dónes"
+
+#: Strings.cpp:481
+msgid "You offer"
+msgstr "Ofereixes"
+
+#: Strings.cpp:482
+msgid "You pass"
+msgstr "Passes"
+
+#: Strings.cpp:483
+msgid "You want"
+msgstr "Vols"
+
+#: Strings.cpp:484
+msgid "You won't trade"
+msgstr "No canvies"
+
+#: Strings.cpp:485
+msgid "Zoom into map"
+msgstr ""
+
+#: Strings.cpp:486
+msgid "Zoom out of map"
+msgstr ""
+
+#: Strings.cpp:489
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Estàs segur que vols esborrar %s?"
+
+#: Strings.cpp:490
+#, c-format
+msgid "If %s accepts your offer, finalize it."
+msgstr "Si en/na %s accepta la teva oferta, fer el canvi."
+
+#: Strings.cpp:491
+#, c-format
+msgid "%s accepts"
+msgstr "En/Na %s accepta"
+
+#: Strings.cpp:492
+#, c-format
+msgid "%s gives"
+msgstr "En/Na %s dóna"
+
+#: Strings.cpp:493
+#, c-format
+msgid "%s offers"
+msgstr "En/Na %s ofereix"
+
+#: Strings.cpp:494
+#, c-format
+msgid "%s passes"
+msgstr "En/Na %s passa"
+
+#: Strings.cpp:495
+#, c-format
+msgid "%s wants"
+msgstr "En/Na %s vol"
+
+#: Strings.cpp:496
+#, c-format
+msgid "%s won't trade"
+msgstr "En/Na %s no vol canviar"
+
+#~ msgid "Replay A Game"
+#~ msgstr "Repetir una Partida"
+
+#~ msgid "Save"
+#~ msgstr "Grabar"
+
+#, fuzzy
+#~ msgid "Select"
+#~ msgstr "Selecciona el Mapa"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Use the TAB key to quickly toggle popups on and off."
+#~ msgstr ""
+#~ "Utiliza el tabulador per canviar ràpidament entre mostrar o no els popups."
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel·lar"
+
+#~ msgid "Game Setup"
+#~ msgstr "Configuració de la Partida"
+
+#~ msgid "Chat"
+#~ msgstr "Xat"
+
+#~ msgid "Open Saved"
+#~ msgstr "Obrir Grabada"
+
+#~ msgid "Use curved regions (Windows only)"
+#~ msgstr "Usar regions curvades (només per Windows)"
+
+#~ msgid "Play UI animations"
+#~ msgstr "Mostrar les animacions de la interfície"
+
+#~ msgid "UI animations cause game windows to slide in and out."
+#~ msgstr ""
+#~ "Les animacions de la interfície fan que les finestres del joc apareixin i "
+#~ "desapareixin."
+
+#~ msgid "Size"
+#~ msgstr "Mida"
+
+#~ msgid "Maximum"
+#~ msgstr "Màxim"
+
+#~ msgid ""
+#~ "Drag the slider left or right to change the size of the screen interface."
+#~ msgstr ""
+#~ "Arrossega cap a la dreta o l'esquerra per canviar la mida de la "
+#~ "interfície."
+
+#~ msgid "Always show build options"
+#~ msgstr "Mostrar sempre les opcions de construcció"
+
+#~ msgid ""
+#~ "Shows build options even if you don't have the resources to build them.  "
+#~ "Recommended for new players."
+#~ msgstr ""
+#~ "Mostra les opcions de construcció encara que no tinguis els recursos per "
+#~ "construir-les. Recomanat per a jugadors novells."
+
+#~ msgid "Interface"
+#~ msgstr "Interfície"
+
+#~ msgid "Done"
+#~ msgstr "Fet"
+
+#~ msgid "General Settings"
+#~ msgstr "Configuració General"
+
+#~ msgid "Them"
+#~ msgstr "Ells"
+
+#~ msgid "Current Offer"
+#~ msgstr "Oferta actual"

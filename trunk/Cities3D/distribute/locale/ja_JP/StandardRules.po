@@ -1,0 +1,763 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2008-08-02 16:59+0900\n"
+"Last-Translator: hito <hitobasira@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+
+#: DevCardsStats.cpp:45
+#, fuzzy
+msgid "Development Cards Played"
+msgstr "開発カード"
+
+#: DevCardsStats.cpp:49 DevCardsStats.cpp:65 DevCardsStats.cpp:68
+#: Strings.cpp:433
+msgid "Monopoly"
+msgstr "独占"
+
+#: DevCardsStats.cpp:50 Strings.cpp:451
+msgid "Road Building"
+msgstr "道路工事"
+
+#: DevCardsStats.cpp:51 Strings.cpp:464
+msgid "Soldier"
+msgstr "傭兵"
+
+#: DevCardsStats.cpp:52 Strings.cpp:476
+msgid "Victory Point"
+msgstr "勝利点"
+
+#: DevCardsStats.cpp:53 DevCardsStats.cpp:66 Strings.cpp:479
+msgid "Year Of Plenty"
+msgstr "豊穣の年"
+
+#: DevCardsStats.cpp:58
+#, fuzzy
+msgid "Largest Army"
+msgstr "%s は騎士賞を失った。"
+
+#: DevCardsStats.cpp:63
+#, fuzzy
+msgid "Victory Points"
+msgstr "勝利点"
+
+#: DevCardsStats.cpp:70
+msgid "Development Cards"
+msgstr "開発カード"
+
+#: GoldStats.cpp:32 GoldStats.cpp:33 GoldStats.cpp:34 Strings.cpp:430
+msgid "Gold"
+msgstr "金"
+
+#: GoldStats.cpp:36 GoldStats.cpp:37
+msgid "Gold Exchange"
+msgstr ""
+
+#: StandardStats.cpp:188 Strings.cpp:429
+msgid "Dice Rolls"
+msgstr "ダイスの目"
+
+#: StandardStats.cpp:192 Strings.cpp:442
+msgid "Points"
+msgstr "ポイント数"
+
+#: StandardStats.cpp:195
+#, fuzzy
+msgid "Resources Gained"
+msgstr "資源数"
+
+#: StandardStats.cpp:198
+#, fuzzy
+msgid "Resources Lost"
+msgstr "資源数"
+
+#: StandardStats.cpp:201
+#, fuzzy
+msgid "Resources Blocked"
+msgstr "資源数"
+
+#: StandardStats.cpp:204
+#, fuzzy
+msgid "Resources Gained From"
+msgstr "資源数"
+
+#: StandardStats.cpp:207
+#, fuzzy
+msgid "Resources Lost To"
+msgstr "資源数"
+
+#: StandardStats.cpp:210
+#, fuzzy
+msgid "Resources Blocked By"
+msgstr "資源数"
+
+#: StandardStats.cpp:213
+msgid "Purchases Made"
+msgstr ""
+
+#: StandardStats.cpp:216
+msgid "Actions Taken"
+msgstr ""
+
+#: StandardStats.cpp:238
+msgid "Structures"
+msgstr ""
+
+#: StandardStats.cpp:243
+#, fuzzy
+msgid "Longest Road"
+msgstr "%s は道賞を失った。"
+
+#: StandardStats.cpp:245 StandardStats.cpp:251 StandardStats.cpp:257
+#: Strings.cpp:462
+msgid "Sheep"
+msgstr "羊"
+
+#: StandardStats.cpp:246 StandardStats.cpp:252 StandardStats.cpp:258
+#: Strings.cpp:440
+msgid "Ore"
+msgstr "鉄"
+
+#: StandardStats.cpp:247 StandardStats.cpp:253 StandardStats.cpp:259
+#: Strings.cpp:470
+msgid "Timber"
+msgstr "木"
+
+#: StandardStats.cpp:248 StandardStats.cpp:254 StandardStats.cpp:260
+#: Strings.cpp:426
+msgid "Clay"
+msgstr "土"
+
+#: StandardStats.cpp:249 StandardStats.cpp:255 StandardStats.cpp:261
+#: Strings.cpp:478
+msgid "Wheat"
+msgstr "麦"
+
+#: StandardStats.cpp:266
+#, fuzzy
+msgid "Board"
+msgstr "道"
+
+#: StandardStats.cpp:268 StandardStats.cpp:274 StandardStats.cpp:278
+#: Strings.cpp:455
+msgid "Robber"
+msgstr "盗賊"
+
+#: StandardStats.cpp:269 StandardStats.cpp:275
+msgid "Bank Trades"
+msgstr ""
+
+#: StandardStats.cpp:270 StandardStats.cpp:276
+#, fuzzy
+msgid "Player Trades"
+msgstr "カードの使用"
+
+#: StandardStats.cpp:272
+msgid "Purchases"
+msgstr ""
+
+#: StandardStats.cpp:273
+msgid "7s"
+msgstr ""
+
+#: StandardStats.cpp:279
+msgid "Empty Bank"
+msgstr ""
+
+#: StandardStats.cpp:281 Strings.cpp:454
+msgid "Roads"
+msgstr "道数"
+
+#: StandardStats.cpp:282 Strings.cpp:461
+msgid "Settlements"
+msgstr "村数"
+
+#: StandardStats.cpp:283 Strings.cpp:425
+msgid "Cities"
+msgstr "街数"
+
+#: Strings.cpp:413
+#, fuzzy
+msgid "Build a city"
+msgstr "街の建設"
+
+#: Strings.cpp:414
+#, fuzzy
+msgid "Build a road"
+msgstr "道の建設"
+
+#: Strings.cpp:415
+#, fuzzy
+msgid "Build a settlement"
+msgstr "村の建設"
+
+#: Strings.cpp:416
+#, fuzzy
+msgid "Buy a development card"
+msgstr "開発カードの購入"
+
+#: Strings.cpp:417
+msgid "Cards allowed"
+msgstr "所有できるカード数"
+
+#: Strings.cpp:418
+msgid "Cards allowed in hand:"
+msgstr "所有できるカード枚数："
+
+#: Strings.cpp:419
+msgid ""
+"Change the number of cards each player may hold without losing half on a 7."
+msgstr "７の目が振られた際に、持ちカードの半分を失わずにすむ枚数。"
+
+#: Strings.cpp:420
+msgid "Change the number of points needed to win the game."
+msgstr "勝利に必要なポイント数を変更する。"
+
+#: Strings.cpp:421
+msgid "Change the deck of Development cards."
+msgstr "開発カードのデッキを変更。"
+
+#: Strings.cpp:422
+msgid "Change the starting stock amounts of roads, settlements, and cities."
+msgstr "開始時の、道、村、街のストック量の変更。"
+
+#: Strings.cpp:423
+msgid ""
+"Choose one resource type.  All other players must give you all their "
+"resource cards of that type."
+msgstr ""
+"独占したい資源を選ぶ。他プレイヤーが持つ、選ばれた資源はすべて、自分のものに"
+"なる。"
+
+#: Strings.cpp:424
+msgid "City"
+msgstr "街"
+
+#: Strings.cpp:427
+msgid "Desert"
+msgstr "砂漠"
+
+#: Strings.cpp:428
+msgid "Development cards"
+msgstr "開発カード"
+
+#: Strings.cpp:431
+msgid ""
+"In this turn, take any two resource cards from the bank.  They may be used "
+"immediately."
+msgstr "好きな資源二枚をバンクから得る。得た資源は即座に使用できる。"
+
+#: Strings.cpp:432
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr "使用ターン中に、道と船を、合わせて二本引くことができる。"
+
+#: Strings.cpp:434
+msgid ""
+"Move the robber and steal one resource card from the owner of an adjacent "
+"city or settlement.  Or, move the pirate and steal from the owner of an "
+"adjacent ship."
+msgstr ""
+"盗賊を動かし、設置した土地の所有者から、資源を奪う。もしくは、海賊を動かし、"
+"船所有者から、資源を奪う。"
+
+#: Strings.cpp:435
+msgid "No 7s for 1 round"
+msgstr "1ラウンド、7の目が無効"
+
+#: Strings.cpp:436
+msgid "No early 7s"
+msgstr "初回の7の目は無効"
+
+#: Strings.cpp:437
+msgid "Ocean"
+msgstr "海"
+
+#: Strings.cpp:438
+#, fuzzy
+msgid "Odds"
+msgstr "確率： %s"
+
+#: Strings.cpp:439
+msgid "1 city"
+msgstr "1 件の街"
+
+#: Strings.cpp:441
+msgid "Play Card"
+msgstr "カードの使用"
+
+#: Strings.cpp:443
+msgid "Points needed to win"
+msgstr "勝利に必要なポイント数"
+
+#: Strings.cpp:444
+msgid ""
+"Prevent 7s from rolling for one or two rounds.  This lets players get their "
+"feet on the ground before the robber comes calling."
+msgstr "7の目を、1，2ラウンド無効にする。"
+
+#: Strings.cpp:445
+msgid "Random chip layout"
+msgstr "数字のランダム配置"
+
+#: Strings.cpp:446
+msgid "Random port layout"
+msgstr "貿易港のランダム配置"
+
+#: Strings.cpp:447
+msgid "Random tile layout"
+msgstr "土地のランダム配置"
+
+#: Strings.cpp:448
+msgid "Receive 1 Victory Point!"
+msgstr "1 勝利点を得た。"
+
+#: Strings.cpp:449
+#, fuzzy
+msgid "Resource cards"
+msgstr "資源数"
+
+#: Strings.cpp:450
+msgid "Resources"
+msgstr "資源数"
+
+#: Strings.cpp:452
+#, fuzzy
+msgid "Road length"
+msgstr "交通開発の枚数"
+
+#: Strings.cpp:453
+msgid "Road"
+msgstr "道"
+
+#: Strings.cpp:456
+msgid "Roll Dice"
+msgstr "ダイスを振る"
+
+#: Strings.cpp:457
+#, fuzzy
+msgid "Rounds before a 7 is rolled"
+msgstr "7が振られ始めるまでのラウンド数："
+
+#: Strings.cpp:458
+msgid "Select 1 resource type to steal."
+msgstr "盗む資源の種類を選べ。"
+
+#: Strings.cpp:459
+msgid "Select 2 resources to gain."
+msgstr "二つの資源を選べ。"
+
+#: Strings.cpp:460
+msgid "Settlement"
+msgstr "村"
+
+#: Strings.cpp:463
+#, fuzzy
+msgid "Show Resources tab"
+msgstr "資源数"
+
+#: Strings.cpp:465
+msgid "Soldiers"
+msgstr "兵士数"
+
+#: Strings.cpp:466
+msgid "Spend Your Gold"
+msgstr "金の交換"
+
+#: Strings.cpp:467
+msgid "Standard"
+msgstr "スタンダード"
+
+#: Strings.cpp:468
+msgid "Stock amounts"
+msgstr "ストック量"
+
+#: Strings.cpp:469
+msgid "3-1 Port"
+msgstr "3-1　貿易港"
+
+#: Strings.cpp:471
+msgid "2-1 Clay Port"
+msgstr "2-1　土　貿易港"
+
+#: Strings.cpp:472
+msgid "2-1 Ore Port"
+msgstr "2-1　鉄　貿易港"
+
+#: Strings.cpp:473
+msgid "2-1 Sheep Port"
+msgstr "2-1　羊　貿易港"
+
+#: Strings.cpp:474
+msgid "2-1 Timber Port"
+msgstr "2-1　木　貿易港"
+
+#: Strings.cpp:475
+msgid "2-1 Wheat Port"
+msgstr "2-1　麦　貿易港"
+
+#: Strings.cpp:477
+#, fuzzy
+msgid "Victory points"
+msgstr "勝利点の枚数"
+
+#: Strings.cpp:480
+msgid "Your Cards"
+msgstr "カード"
+
+#: Strings.cpp:483
+#, fuzzy, c-format
+msgid "%s buys a development card."
+msgstr "%s は開発カードを購入した。"
+
+#: Strings.cpp:484
+#, c-format
+msgid "%s, choose a player to steal from, or click the robber to not steal."
+msgstr ""
+"%s 、資源を盗むプレイヤーを選べ。盗まない場合は、盗賊をクリックすること。"
+
+#: Strings.cpp:485
+#, c-format
+msgid "%s ends the turn."
+msgstr "%s ターン終了。"
+
+#: Strings.cpp:486
+#, c-format
+msgid "%s has a city reduced to a settlement."
+msgstr "%s の街は村になってしまった。"
+
+#: Strings.cpp:487
+#, c-format
+msgid "%s has won the game."
+msgstr "%s が勝利した。"
+
+#: Strings.cpp:488
+#, c-format
+msgid "%d cards allowed in hand"
+msgstr "%d 枚のカードを所有できる。"
+
+#: Strings.cpp:489
+#, c-format
+msgid "%d %s from %s"
+msgstr "%3$s から、%1$d枚の %2$s を"
+
+#: Strings.cpp:490
+#, c-format
+msgid "%s, it is your turn."
+msgstr "%s のターン。"
+
+#: Strings.cpp:491
+#, c-format
+msgid "%s loses %s."
+msgstr "%s は、%s を失った。"
+
+#: Strings.cpp:492
+#, c-format
+msgid "%s loses Largest Army."
+msgstr "%s は騎士賞を失った。"
+
+#: Strings.cpp:493
+#, c-format
+msgid "%s loses Longest Road."
+msgstr "%s は道賞を失った。"
+
+#: Strings.cpp:494
+#, c-format
+msgid "No 7s for %d rounds"
+msgstr "%d ラウンド、7の目が無効。"
+
+#: Strings.cpp:495
+#, c-format
+msgid "%s, place a city."
+msgstr "%s 、街を設置せよ。"
+
+#: Strings.cpp:496
+#, c-format
+msgid "%s, place a road."
+msgstr "%s 、道を設置せよ。"
+
+#: Strings.cpp:497
+#, c-format
+msgid "%s, place a settlement."
+msgstr "%s 村を設置せよ。"
+
+#: Strings.cpp:498
+#, c-format
+msgid "%s places a city."
+msgstr "%s は街を設置した。"
+
+#: Strings.cpp:499
+#, c-format
+msgid "%s places a settlement."
+msgstr "%s は村を設置した。"
+
+#: Strings.cpp:500
+#, c-format
+msgid "%s places a road."
+msgstr "%s は道を引いた。"
+
+#: Strings.cpp:501
+#, c-format
+msgid "%s, place the robber."
+msgstr "%s 、盗賊を設置せよ。"
+
+#: Strings.cpp:502
+#, c-format
+msgid "%s, play a card or roll the dice."
+msgstr "%s 、カードを使うか、ダイスを振ること。"
+
+#: Strings.cpp:503
+#, c-format
+msgid "%s, play a card, select an action, or roll the dice."
+msgstr "%s 、カードを使用するか、行動を選択するか、ダイスを振ること。"
+
+#: Strings.cpp:504
+#, c-format
+msgid "%s plays a %s card."
+msgstr "%s は %s のカードを使った。"
+
+#: Strings.cpp:505
+#, c-format
+msgid "Play to %d points"
+msgstr "%d 点"
+
+#: Strings.cpp:506
+#, c-format
+msgid "%s rolls a %d."
+msgstr "%s は %d の目を振った。"
+
+#: Strings.cpp:507
+#, c-format
+msgid "%s, select an action or roll the dice."
+msgstr "%s 、行動を選択するか、ダイスを振ること。"
+
+#: Strings.cpp:508
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s 、盗む資源を選べ。"
+
+#: Strings.cpp:509
+#, c-format
+msgid "%s selects %s."
+msgstr "%s は、%sを選んだ。"
+
+#: Strings.cpp:510
+#, c-format
+msgid "%s, select resources to lose."
+msgstr "%s 、失う資源を選べ。"
+
+#: Strings.cpp:511
+#, c-format
+msgid "%s, select two resources."
+msgstr "%s 、二つの資源を選べ。"
+
+#: Strings.cpp:512
+#, c-format
+msgid "Select %d resources to gain."
+msgstr "%d 枚の資源を獲得できる。"
+
+#: Strings.cpp:513
+#, c-format
+msgid "%s steals nothing."
+msgstr "%s は何も盗まなかった。"
+
+#: Strings.cpp:514
+#, c-format
+msgid "%s steals %s."
+msgstr "%s は、%sを盗んだ。"
+
+#: Strings.cpp:515
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr "%s は %s を盗んだ。"
+
+#: Strings.cpp:516
+#, c-format
+msgid "%s steals 1 resource from %s."
+msgstr "%s は %s から資源を一枚、盗んだ。"
+
+#: Strings.cpp:517
+#, c-format
+msgid "%s, spend your gold."
+msgstr "%s 、金を交換せよ。"
+
+#: Strings.cpp:518
+#, c-format
+msgid "%s takes Largest Army."
+msgstr "%s は騎士賞を獲得した。"
+
+#: Strings.cpp:519
+#, c-format
+msgid "%s takes Longest Road."
+msgstr "%s は道賞を獲得した。"
+
+#: Strings.cpp:520
+#, c-format
+msgid "There is not enough %s in the bank. No one receives any."
+msgstr "バンクに十分な %s がなく、誰も資源を得られなかった。"
+
+#: Strings.cpp:521
+#, c-format
+msgid "%s trades %s to %s for %s."
+msgstr "%1$s は、%3$sに、%2$sを与え、%4$s を得た。"
+
+#: Strings.cpp:522
+#, c-format
+msgid "%s trades %s to the bank for %s."
+msgstr "%s は、バンクに、%sを送り、%s を得た。"
+
+#: Strings.cpp:523
+#, c-format
+msgid "%s undoes a bank trade."
+msgstr "%s はバンクとの交換を取り消した。"
+
+#: Strings.cpp:524
+#, c-format
+msgid "%s undoes a city."
+msgstr "%s は町の設置を取り消した。"
+
+#: Strings.cpp:525
+#, c-format
+msgid "%s undoes a road."
+msgstr "%s は道を取り消した。"
+
+#: Strings.cpp:526
+#, c-format
+msgid "%s undoes a settlement."
+msgstr "%s は村の設置を取り消した。"
+
+#: Strings.cpp:527
+#, c-format
+msgid "You receive a %s card."
+msgstr "%s のカードを得た。"
+
+#: Strings.cpp:528
+#, c-format
+msgid "You steal 1 %s from %s."
+msgstr "%2$s から、%1$s を盗んだ。"
+
+#: Strings.cpp:529
+#, c-format
+msgid "Waiting for %s to finish the turn."
+msgstr "%s が思考中。"
+
+#: Strings.cpp:530
+#, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "%s が、失う資源を選択中。"
+
+#: Strings.cpp:531
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "%s が街を設置中。"
+
+#: Strings.cpp:532
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "%s が道を設置中。"
+
+#: Strings.cpp:533
+#, c-format
+msgid "Waiting for %s to place a settlement."
+msgstr "%s が村を設置中。"
+
+#: Strings.cpp:534
+#, c-format
+msgid "Waiting for %s to place the robber."
+msgstr "%s が、盗賊の設置を思考中。"
+
+#: Strings.cpp:535
+#, c-format
+msgid "Waiting for %s to play a card or roll the dice."
+msgstr "%s が、カードを使うか、ダイスを振るかを思考中。"
+
+#: Strings.cpp:536
+#, c-format
+msgid "Waiting for %s to play a card, select an action, or roll the dice."
+msgstr "%s が、カードを使うか、行動を選択するか、ダイスを振るかを思考中。"
+
+#: Strings.cpp:537
+#, c-format
+msgid "Waiting for %s to select an action or roll the dice."
+msgstr "%s が、行動を選択するか、ダイスを振るかを思考中。"
+
+#: Strings.cpp:538
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "%s が、盗む資源を選択中。"
+
+#: Strings.cpp:539
+#, c-format
+msgid "Waiting for %s to select two resources."
+msgstr "%s が、二つの資源を選択中。"
+
+#: Strings.cpp:540
+#, c-format
+msgid "Waiting for %s to spend gold."
+msgstr "%s が金を交換中"
+
+#: Strings.cpp:541
+#, c-format
+msgid "Waiting for %s to steal a card."
+msgstr "%s が、盗むカードを選択中。"
+
+#: Strings.cpp:542
+#, c-format
+msgid "%s wins the game!"
+msgstr "%s が勝利した！"
+
+#: Strings.cpp:543
+#, c-format
+msgid "%d cities"
+msgstr "%d 件の街"
+
+#: Strings.cpp:544
+#, c-format
+msgid "%d roads"
+msgstr "%d本の道"
+
+#: Strings.cpp:545
+#, c-format
+msgid "%d settlements"
+msgstr "%d件の村"
+
+#~ msgid "Development cards: %s"
+#~ msgstr "開発カード：%s"
+
+#~ msgid "Points needed to win:"
+#~ msgstr "勝利に必要なポイント数："
+
+#~ msgid "%d %s"
+#~ msgstr "%d 枚の %s"
+
+#~ msgid "Dev"
+#~ msgstr "開発"
+
+#~ msgid "Roads:"
+#~ msgstr "道数："
+
+#~ msgid "Settlements:"
+#~ msgstr "村数："
+
+#~ msgid "Cities:"
+#~ msgstr "街数："

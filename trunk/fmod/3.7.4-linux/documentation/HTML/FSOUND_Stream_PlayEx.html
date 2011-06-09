@@ -1,0 +1,110 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Stream_PlayEx</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Stream_Play.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Stream_SetBufferSize.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Stream_PlayEx">FSOUND_Stream_PlayEx</A></H2>
+Extended featured version of FSOUND_Stream_Play.<BR>
+Added functionality includes the ability to start the stream paused.  This allows attributes<BR>
+of a stream channel to be set freely before the stream actually starts playing, until FSOUND_SetPaused(FALSE) is used.<BR>
+Also added is the ability to associate the stream channel to a specified DSP unit.  This allows<BR>
+the user to 'group' channels into seperate DSP units, which allows effects to be inserted<BR>
+between these 'groups', and allow various things like having one group affected by reverb (wet mix) and another group of <BR>
+channels unaffected (dry).  This is useful to seperate things like music from being affected<BR>
+by DSP effects, while other sound effects are.<BR>
+<P>
+<B>int	F_API </B><B> </B><B>FSOUND_Stream_PlayEx</B><B>(</B><BR>
+<B>int </B><B> </B><I>channel</I><B>,</B><BR>
+<B>FSOUND_STREAM *</B><I>stream</I><B>,</B><BR>
+<B>FSOUND_DSPUNIT *</B><I>dspunit</I><B>,</B><BR>
+<B>signed char </B><B> </B><I>paused</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>channel</I></TD>
+<TD>0+	<BR>
+The absolute channel number in the channel pool.  <BR>
+Remember software channels come first, followed by hardware channels.  <BR>
+You cannot play a software sample on a hardware channel and vice versa.<BR>
+FSOUND_FREE<BR>
+Chooses a free channel to play in.  If all channels are used then it<BR>
+selects a channel with a sample playing that has an EQUAL or LOWER priority <BR>
+than the sample to be played.<BR>
+</TD><TR VALIGN=top><TD><I>stream</I></TD>
+<TD>Pointer to the already opened stream to be played.<BR>
+</TD><TR VALIGN=top><TD><I>dspunit</I></TD>
+<TD>Pointer to a dsp unit to attach the channel to.<BR>
+</TD><TR VALIGN=top><TD><I>paused</I></TD>
+<TD>Start the stream paused or not.  Pausing the stream channel allows attributes to be set before it is unpaused.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, a channel handle the stream is playing in is returned.<BR>
+On failure, -1 is returned.<BR>
+<H3>Remarks</H3>
+When a stream starts to play, it inherits a special high priority (256).  <BR>
+It cannot be rejected by other sound effect channels in the normal fashion as the user can never set a priority above 255 normally.  <BR>
+--------<BR>
+FSOUND_STEREOPAN is recommended for stereo streams if you call FSOUND_SetPan.  This puts the left and right channel to full volume.<BR>
+Otherwise a normal pan will give half volume for left and right.  See FSOUND_SetPan for more information on this.<BR>
+--------<BR>
+You can use normal channel based commands (such as FSOUND_SetVolume etc) on the return handle, as it is a channel handle.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_GetNumSubChannels.html">FSOUND_GetNumSubChannels</A>
+, 
+<A HREF="FSOUND_GetSubChannel.html">FSOUND_GetSubChannel</A>
+, 
+<A HREF="FSOUND_SetPan.html">FSOUND_SetPan</A>
+, 
+<A HREF="FSOUND_SetPaused.html">FSOUND_SetPaused</A>
+, 
+<A HREF="FSOUND_SetVolume.html">FSOUND_SetVolume</A>
+, 
+<A HREF="FSOUND_Stream_Close.html">FSOUND_Stream_Close</A>
+, 
+<A HREF="FSOUND_Stream_Create.html">FSOUND_Stream_Create</A>
+, 
+<A HREF="FSOUND_Stream_Open.html">FSOUND_Stream_Open</A>
+, 
+<A HREF="FSOUND_Stream_Play.html">FSOUND_Stream_Play</A>
+, 
+<A HREF="FSOUND_Stream_Stop.html">FSOUND_Stream_Stop</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

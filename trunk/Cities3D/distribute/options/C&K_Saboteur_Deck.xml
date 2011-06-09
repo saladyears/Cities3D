@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OptionSet>
+  <Option module="CitiesRules" option="Cities"/>
+  <Option module="CitiesRules" option="PoliticsCards">
+    <Arsonist value="0"/>
+    <Bishop value="2"/>
+    <Constitution value="1"/>
+    <Deserter value="2"/>
+    <Diplomat value="2"/>
+    <Intrigue value="2"/>
+    <Saboteur value="2"/>
+    <Spy value="3"/>
+    <Warlord value="2"/>
+    <Wedding value="2"/>
+  </Option>
+</OptionSet>

@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_SetMaxHardwareChannels</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_SetLoopMode.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_SetMemorySystem.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_SetMaxHardwareChannels">FSOUND_SetMaxHardwareChannels</A></H2>
+This sets the maximum allocatable channels on a hardware card.  FMOD automatically detects and allocates the maximum number of 3d hardware channels, so calling this will limit that number if it becomes too much.<BR>
+<P>
+<B>DLL_API signed char F_API </B><B> </B><B>FSOUND_SetMaxHardwareChannels</B><B>(</B><BR>
+<B>int </B><B> </B><I>max</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>max</I></TD>
+<TD>The maximum number of hardware channels to allocate, even if the soundcard supports more.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+This function cannot be called after FMOD is already activated with FSOUND_Init.<BR>
+It must be called before FSOUND_Init, or after FSOUND_Close.<BR>
+---------<BR>
+This function has nothing to do with FSOUND_SetMinHardwareChannels, in that this is not a function that forces FMOD into software mixing if a card has a certain number of channels.<BR>
+This function only sets a limit on hardware channels, so if your card has 96 hardware channels, and you set FSOUND_SetMaxHardwareChannels(10), then you will only have 10 hardware channels to use.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Close.html">FSOUND_Close</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+, 
+<A HREF="FSOUND_SetMaxHardwareChannels.html">FSOUND_SetMaxHardwareChannels</A>
+, 
+<A HREF="FSOUND_SetMinHardwareChannels.html">FSOUND_SetMinHardwareChannels</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

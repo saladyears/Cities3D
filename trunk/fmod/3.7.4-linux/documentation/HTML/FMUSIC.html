@@ -1,0 +1,194 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FMUSIC API Reference</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<IMG SRC="d_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+<IMG SRC="d_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+<A ID=buttonbar HREF="FMUSIC_CALLBACK.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<H1>FMUSIC API Reference</H1>
+FMOD Api.  Use this to module files etc<BR>
+<P>
+<A HREF="#Functions">Functions</A> , <A HREF="#Structures">Structures</A> , <A HREF="#Defines">Defines</A> , <A HREF="#Enums">Enums</A>
+<H2><div id=Functionskeyplus style="display:none">
+<span id=Functions class=Outline style="cursor: hand; ">+ </span>
+<A NAME="Functions"><u id=Functions class=Outline style="cursor: hand; ">Functions</u></A>
+</div>
+</H2>
+<H2><div id=Functionskeyminus style="display">
+<span id=Functions class=Outline style="cursor: hand; ">- </span>
+<A NAME="Functions"><u id=Functions class=Outline style="cursor: hand; ">Functions</u></A>
+</div>
+</H2>
+<div id=Functionsdetails style="display; position:relative; left:12;">
+<A HREF="FMUSIC_CALLBACK.html">FMUSIC_CALLBACK</A><BR>
+<A HREF="FMUSIC_FreeSong.html">FMUSIC_FreeSong</A><BR>
+<A HREF="FMUSIC_GetBPM.html">FMUSIC_GetBPM</A><BR>
+<A HREF="FMUSIC_GetGlobalVolume.html">FMUSIC_GetGlobalVolume</A><BR>
+<A HREF="FMUSIC_GetMasterVolume.html">FMUSIC_GetMasterVolume</A><BR>
+<A HREF="FMUSIC_GetName.html">FMUSIC_GetName</A><BR>
+<A HREF="FMUSIC_GetNumChannels.html">FMUSIC_GetNumChannels</A><BR>
+<A HREF="FMUSIC_GetNumInstruments.html">FMUSIC_GetNumInstruments</A><BR>
+<A HREF="FMUSIC_GetNumOrders.html">FMUSIC_GetNumOrders</A><BR>
+<A HREF="FMUSIC_GetNumPatterns.html">FMUSIC_GetNumPatterns</A><BR>
+<A HREF="FMUSIC_GetNumSamples.html">FMUSIC_GetNumSamples</A><BR>
+<A HREF="FMUSIC_GetOpenState.html">FMUSIC_GetOpenState</A><BR>
+<A HREF="FMUSIC_GetOrder.html">FMUSIC_GetOrder</A><BR>
+<A HREF="FMUSIC_GetPattern.html">FMUSIC_GetPattern</A><BR>
+<A HREF="FMUSIC_GetPatternLength.html">FMUSIC_GetPatternLength</A><BR>
+<A HREF="FMUSIC_GetPaused.html">FMUSIC_GetPaused</A><BR>
+<A HREF="FMUSIC_GetRealChannel.html">FMUSIC_GetRealChannel</A><BR>
+<A HREF="FMUSIC_GetRow.html">FMUSIC_GetRow</A><BR>
+<A HREF="FMUSIC_GetSample.html">FMUSIC_GetSample</A><BR>
+<A HREF="FMUSIC_GetSpeed.html">FMUSIC_GetSpeed</A><BR>
+<A HREF="FMUSIC_GetTime.html">FMUSIC_GetTime</A><BR>
+<A HREF="FMUSIC_GetType.html">FMUSIC_GetType</A><BR>
+<A HREF="FMUSIC_GetUserData.html">FMUSIC_GetUserData</A><BR>
+<A HREF="FMUSIC_IsFinished.html">FMUSIC_IsFinished</A><BR>
+<A HREF="FMUSIC_IsPlaying.html">FMUSIC_IsPlaying</A><BR>
+<A HREF="FMUSIC_LoadSong.html">FMUSIC_LoadSong</A><BR>
+<A HREF="FMUSIC_LoadSongEx.html">FMUSIC_LoadSongEx</A><BR>
+<A HREF="FMUSIC_OptimizeChannels.html">FMUSIC_OptimizeChannels</A><BR>
+<A HREF="FMUSIC_PlaySong.html">FMUSIC_PlaySong</A><BR>
+<A HREF="FMUSIC_SetInstCallback.html">FMUSIC_SetInstCallback</A><BR>
+<A HREF="FMUSIC_SetLooping.html">FMUSIC_SetLooping</A><BR>
+<A HREF="FMUSIC_SetMasterSpeed.html">FMUSIC_SetMasterSpeed</A><BR>
+<A HREF="FMUSIC_SetMasterVolume.html">FMUSIC_SetMasterVolume</A><BR>
+<A HREF="FMUSIC_SetOrder.html">FMUSIC_SetOrder</A><BR>
+<A HREF="FMUSIC_SetOrderCallback.html">FMUSIC_SetOrderCallback</A><BR>
+<A HREF="FMUSIC_SetPanSeperation.html">FMUSIC_SetPanSeperation</A><BR>
+<A HREF="FMUSIC_SetPaused.html">FMUSIC_SetPaused</A><BR>
+<A HREF="FMUSIC_SetReverb.html">FMUSIC_SetReverb</A><BR>
+<A HREF="FMUSIC_SetRowCallback.html">FMUSIC_SetRowCallback</A><BR>
+<A HREF="FMUSIC_SetSample.html">FMUSIC_SetSample</A><BR>
+<A HREF="FMUSIC_SetUserData.html">FMUSIC_SetUserData</A><BR>
+<A HREF="FMUSIC_SetZxxCallback.html">FMUSIC_SetZxxCallback</A><BR>
+<A HREF="FMUSIC_StopAllSongs.html">FMUSIC_StopAllSongs</A><BR>
+<A HREF="FMUSIC_StopSong.html">FMUSIC_StopSong</A><BR>
+</div>
+<H2><div id=Structureskeyplus style="display:none">
+<span id=Structures class=Outline style="cursor: hand; ">+ </span>
+<A NAME="Structures"><u id=Structures class=Outline style="cursor: hand; ">Structures</u></A>
+</div>
+</H2>
+<H2><div id=Structureskeyminus style="display">
+<span id=Structures class=Outline style="cursor: hand; ">- </span>
+<A NAME="Structures"><u id=Structures class=Outline style="cursor: hand; ">Structures</u></A>
+</div>
+</H2>
+<div id=Structuresdetails style="display; position:relative; left:12;">
+<A HREF="FSOUND_REVERB_CHANNELPROPERTIES.html">FSOUND_REVERB_CHANNELPROPERTIES</A><BR>
+<A HREF="FSOUND_REVERB_PROPERTIES.html">FSOUND_REVERB_PROPERTIES</A><BR>
+<A HREF="FSOUND_TOC_TAG.html">FSOUND_TOC_TAG</A><BR>
+</div>
+<H2><div id=Defineskeyplus style="display:none">
+<span id=Defines class=Outline style="cursor: hand; ">+ </span>
+<A NAME="Defines"><u id=Defines class=Outline style="cursor: hand; ">Defines</u></A>
+</div>
+</H2>
+<H2><div id=Defineskeyminus style="display">
+<span id=Defines class=Outline style="cursor: hand; ">- </span>
+<A NAME="Defines"><u id=Defines class=Outline style="cursor: hand; ">Defines</u></A>
+</div>
+</H2>
+<div id=Definesdetails style="display; position:relative; left:12;">
+<A HREF="FSOUND_CAPS.html">FSOUND_CAPS</A><BR>
+<A HREF="FSOUND_CDPLAYMODES.html">FSOUND_CDPLAYMODES</A><BR>
+<A HREF="FSOUND_DSP_PRIORITIES.html">FSOUND_DSP_PRIORITIES</A><BR>
+<A HREF="FSOUND_INIT_FLAGS.html">FSOUND_INIT_FLAGS</A><BR>
+<A HREF="FSOUND_MISC_VALUES.html">FSOUND_MISC_VALUES</A><BR>
+<A HREF="FSOUND_MODES.html">FSOUND_MODES</A><BR>
+<A HREF="FSOUND_REVERB_CHANNELFLAGS.html">FSOUND_REVERB_CHANNELFLAGS</A><BR>
+<A HREF="FSOUND_REVERB_FLAGS.html">FSOUND_REVERB_FLAGS</A><BR>
+<A HREF="FSOUND_REVERB_PRESETS.html">FSOUND_REVERB_PRESETS</A><BR>
+<A HREF="FSOUND_STATUS_FLAGS.html">FSOUND_STATUS_FLAGS</A><BR>
+</div>
+<H2><div id=Enumskeyplus style="display:none">
+<span id=Enums class=Outline style="cursor: hand; ">+ </span>
+<A NAME="Enums"><u id=Enums class=Outline style="cursor: hand; ">Enums</u></A>
+</div>
+</H2>
+<H2><div id=Enumskeyminus style="display">
+<span id=Enums class=Outline style="cursor: hand; ">- </span>
+<A NAME="Enums"><u id=Enums class=Outline style="cursor: hand; ">Enums</u></A>
+</div>
+</H2>
+<div id=Enumsdetails style="display; position:relative; left:12;">
+<A HREF="FMOD_ERRORS.html">FMOD_ERRORS</A><BR>
+<A HREF="FMUSIC_TYPES.html">FMUSIC_TYPES</A><BR>
+<A HREF="FSOUND_FX_MODES.html">FSOUND_FX_MODES</A><BR>
+<A HREF="FSOUND_MIXERTYPES.html">FSOUND_MIXERTYPES</A><BR>
+<A HREF="FSOUND_OUTPUTTYPES.html">FSOUND_OUTPUTTYPES</A><BR>
+<A HREF="FSOUND_SPEAKERMODES.html">FSOUND_SPEAKERMODES</A><BR>
+<A HREF="FSOUND_STREAM_NET_STATUS.html">FSOUND_STREAM_NET_STATUS</A><BR>
+<A HREF="FSOUND_TAGFIELD_TYPE.html">FSOUND_TAGFIELD_TYPE</A><BR>
+</div>
+	<script language=JavaScript>
+	function clickHandler()
+	{
+	  var targetId, srcElement, targetElement;
+	  srcElement = window.event.srcElement;
+	  if (srcElement.className == "Outline")
+	  {
+		 targetId = srcElement.id + "details";
+		 targetElement = document.all(targetId);
+		 if (targetElement.style.display == "none")
+		 {
+			targetElement.style.display = "";
+		 }
+		 else
+		 {
+			targetElement.style.display = "none";
+		 }
+		 targetId = srcElement.id + "keyminus";
+		 targetElement = document.all(targetId);
+		 if (targetElement.style.display == "none")
+		 {
+			targetElement.style.display = "";
+		 }
+		 else
+		 {
+			targetElement.style.display = "none";
+		 }
+		 targetId = srcElement.id + "keyplus";
+		 targetElement = document.all(targetId);
+		 if (targetElement.style.display == "none")
+		 {
+			targetElement.style.display = "";
+		 }
+		 else
+		 {
+			targetElement.style.display = "none";
+		 }
+	  }
+	}
+	document.onclick = clickHandler;
+	</script>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:58 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

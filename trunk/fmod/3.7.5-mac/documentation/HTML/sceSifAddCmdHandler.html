@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>sceSifAddCmdHandler</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Update.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_REVERB_CHANNELPROPERTIES.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="sceSifAddCmdHandler">sceSifAddCmdHandler</A></H2>
+For advanced users only.  <BR>
+Only used if users are getting conflicts with FMOD's command handler when writing IOP modules of their own or using other middleware that uses SIFCMD.<BR>
+This function tells FMOD about the user's SIFCMD buffer that has been set with sceSifSetCmdBuffer, and the indicies into that sceSifCmdData array that FMOD can use.<BR>
+The user may have specified a SIF command handler of their own before calling FSOUND_Init and loading FMOD.IRX when setting up their own IOP&lt;-&gt;EE communication.<BR>
+It simply enables FMOD to know the size, and what indicies into the sceSifCmdData array the user has set that FMOD can use.<BR>
+It allows the user's app and FMOD to share the buffer that the user has created.<BR>
+FMOD uses 2 sif handlers.  A main one and secondary one.<BR>
+<P>
+<B>    </B><B> </B><B>sceSifAddCmdHandler</B><B>(</B><BR>
+<B>YOURHANDLERINDEX</B><B> </B><I></I><B>,</B><BR>
+<B>yourhandler</B><B> </B><I></I><B>,</B><BR>
+<B>NULL</B><B> </B><I></I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>buffersize</I></TD>
+<TD>The size of the sceSifCmdData array that the user has set.<BR>
+</TD><TR VALIGN=top><TD><I>bufferindexmain</I></TD>
+<TD>The index into the user created sceSifCmdData array for the primary FMOD sifcmd handler.<BR>
+</TD><TR VALIGN=top><TD><I>bufferindexsecondary</I></TD>
+<TD>The index into the user created sceSifCmdData array for the secondary FMOD sifcmd handler.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+void<BR>
+<H3>Remarks</H3>
+FMOD will automatically use the previously set command buffer, as sceSifSetCmdBuffer returns the previously set buffer which FMOD uses.<BR>
+This is why you dont have to pass in the actual buffer itself.<BR>
+-----------<BR>
+IMPORTANT!  FMOD.IRX must also be notified when it is initialized!<BR>
+The IOP side of the command handler, which is initialized when FMOD.IRX is loaded, must also be notified of the user's IOP side buffer size and indicies.<BR>
+By passing it as command line parameter with sceSifLoadModule, you can do this.  If this is not done, unexpected results may occur.<BR>
+The FMOD.IRX takes 3 parameters.  They are simply 3 integers seperated by a space.  <BR>
+Parameter 1 is equal to 'buffersize'<BR>
+Parameter 2 is equal to 'bufferindexmain'<BR>
+Parameter 3 is equal to 'bufferindexsecondary'<BR>
+------------<BR>
+Here is an example of using sceSifLoadModule to notify FMOD.IRX of your IOP side sifCmd buffer size and command handler index.<BR>
+sprintf(s, "4989424 1238404 205", CMDBUFSIZE, FMODINDEXMAIN, FMODINDEXSECONDARY);  // NOTE : must be formatted as 3 integers seperated by a space.<BR>
+sceSifLoadModule("host0:api/fmod.irx", strlen(s), s);<BR>
+Then later on the EE side, before calling FSOUND_Init, you will call this function, ie<BR>
+FSOUND_SetSifCommandInfo(CMDBUFSIZE, FMODINDEXMAIN, FMODINDEXSECONDARY);<BR>
+And before any of this, you would have set up your own command handler with something like this.<BR>
+sceSifInitCmd();<BR>
+sceSifSetCmdBuffer(&yourcommandbuffer<BR>
+<H3>See Also</H3>
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Thu Dec 15 17:31:37 2005
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

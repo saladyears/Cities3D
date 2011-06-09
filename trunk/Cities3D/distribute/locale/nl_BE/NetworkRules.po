@@ -1,0 +1,417 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: C3D Dutch - Belgium Translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-08-03 19:10+0100\n"
+"Last-Translator: Tijl Kindt <poedit@thequicky.net>\n"
+"Language-Team: C3D Dutch - Belgium Translators <cities3d@thequicky.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: Belgium\n"
+
+#: Strings.cpp:217
+msgid "Add"
+msgstr "Toevoegen"
+
+#: Strings.cpp:218
+msgid "Chat"
+msgstr ""
+
+#: Strings.cpp:219
+msgid "Connect"
+msgstr "Verbinden"
+
+#: Strings.cpp:220
+msgid "Connected"
+msgstr "Verbonden"
+
+#: Strings.cpp:221
+msgid "Connecting..."
+msgstr "Verbinding aan het maken..."
+
+#: Strings.cpp:222
+#, fuzzy
+msgid "Connecting To A Game"
+msgstr "Verbind Met Een Spel"
+
+#: Strings.cpp:223
+msgid "Connection"
+msgstr "Verbinding"
+
+#: Strings.cpp:224
+msgid "Connect To"
+msgstr "Verbind Met"
+
+#: Strings.cpp:225
+msgid "Connect To A Game"
+msgstr "Verbind Met Een Spel"
+
+#: Strings.cpp:226
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: Strings.cpp:227
+msgid "Disconnect"
+msgstr "Verbreken"
+
+#: Strings.cpp:228
+msgid "Disconnected from the server."
+msgstr "Verbinding met de server verbroken."
+
+#: Strings.cpp:229
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr ""
+"Sleep een naam heen en weer, of dubbeklik om toe te voegen of te verwijderen."
+
+#: Strings.cpp:230
+msgid ""
+"Enter an IP address or host name in the Connect To window and the port "
+"number in the Port window.  The default port is 7176."
+msgstr ""
+"Vul in het Verbind Met venster een IP adres of hostnaam in en vul in het "
+"Poort venster een poort in. De standaardpoort is 7176."
+
+#: Strings.cpp:231
+msgid ""
+"Enter a valid host name or IP address in the Hostname window.  Enter the "
+"port number clients should connect to in the Port window.  The default port "
+"is 7176."
+msgstr ""
+"Vul in het Hostnaam venster een geldige hostnaam of IP adres in. Vul in het "
+"Poort venster de het poortnummer in waar de spelers verbinding mee moeten "
+"maken. De standaardpoort is 7176."
+
+#: Strings.cpp:232
+msgid "Events"
+msgstr ""
+
+#: Strings.cpp:233
+msgid "Game saved."
+msgstr "Spel opgeslagen."
+
+#: Strings.cpp:234
+msgid "Game Setup"
+msgstr ""
+
+#: Strings.cpp:235
+msgid "Host"
+msgstr "Host"
+
+#: Strings.cpp:236
+msgid "Hostname"
+msgstr "Hostnaam"
+
+#: Strings.cpp:237
+msgid "I'll play!"
+msgstr "Ik speel wel!"
+
+#: Strings.cpp:238
+msgid "IP address"
+msgstr "IP adres"
+
+#: Strings.cpp:239
+msgid "LAN / Network"
+msgstr "LAN / Netwerk"
+
+#: Strings.cpp:240
+#, fuzzy
+msgid "LAN / Network Setup"
+msgstr "LAN / Netwerk"
+
+#: Strings.cpp:241
+msgid "Lost connection to the server."
+msgstr "Verbinding met de server verloren."
+
+#: Strings.cpp:242
+#, fuzzy
+msgid "Network"
+msgstr "LAN / Netwerk"
+
+#: Strings.cpp:243
+msgid "Network Game Restart"
+msgstr "Netwerk Spel Herstart"
+
+#: Strings.cpp:244
+msgid "Not connected"
+msgstr "Niet verbonden"
+
+#: Strings.cpp:245
+msgid "No, thanks."
+msgstr "Nee, dank je."
+
+#: Strings.cpp:246
+msgid "Not ready!"
+msgstr "Niet Klaar!"
+
+#: Strings.cpp:247
+msgid "OK"
+msgstr ""
+
+#: Strings.cpp:248
+msgid "Online Game Start"
+msgstr ""
+
+#: Strings.cpp:249
+msgid "Options"
+msgstr "Opties"
+
+#: Strings.cpp:250
+msgid "Player"
+msgstr "Speler"
+
+#: Strings.cpp:251
+msgid "Port"
+msgstr "Poort"
+
+#: Strings.cpp:252
+msgid "Question"
+msgstr "Vraag"
+
+#: Strings.cpp:253
+msgid "Ready!"
+msgstr "Klaar!"
+
+#: Strings.cpp:254
+msgid "Select Map"
+msgstr "Scenario"
+
+#: Strings.cpp:255
+msgid "Server Settings"
+msgstr "Server Instellingen"
+
+#: Strings.cpp:256
+msgid "Settings"
+msgstr "Instellingen"
+
+#: Strings.cpp:257
+msgid "Show Chat tab"
+msgstr ""
+
+#: Strings.cpp:258
+msgid "Show Events tab"
+msgstr ""
+
+#: Strings.cpp:259
+#, fuzzy
+msgid "Show Spectators tab"
+msgstr "Status"
+
+#: Strings.cpp:260
+#, fuzzy
+msgid "Spectators"
+msgstr "Status"
+
+#: Strings.cpp:261
+msgid "Start Server"
+msgstr "Start Server"
+
+#: Strings.cpp:262
+msgid "Started"
+msgstr "Gestart"
+
+#: Strings.cpp:263
+msgid "Start Game!"
+msgstr "Start Spel!"
+
+#: Strings.cpp:264
+msgid "Status"
+msgstr "Status"
+
+#: Strings.cpp:265
+msgid "Stopped"
+msgstr "Gestopt"
+
+#: Strings.cpp:266
+msgid "Stop Server"
+msgstr "Stop Server"
+
+#: Strings.cpp:267
+msgid "The port must be a valid number between 0 and 65535."
+msgstr "De poort moet een geldig getal tussen 0 en 65535 zijn."
+
+#: Strings.cpp:268
+msgid ""
+"There are players connected to you.  Are you sure you want to shut down the "
+"server?"
+msgstr ""
+"Er zijn spelers met jou verbonden.  Ben je zeker dat je de server wil "
+"afsluiten?"
+
+#: Strings.cpp:269
+msgid "Unselected"
+msgstr "Niet geselecteerd"
+
+#: Strings.cpp:270
+msgid ""
+"Use the Connection settings to either host a game or connect to a game.  "
+"Select the player you wish to play with from the list."
+msgstr ""
+"Gebruik de Verbindingsinstellingen om een spel te hosten of met een ander "
+"spel mee te doen. Selecteer de speler met wie je wil spelen van de lijst."
+
+#: Strings.cpp:271
+msgid "Waiting..."
+msgstr "Aan het wachten..."
+
+#: Strings.cpp:272
+#, fuzzy
+msgid "Waiting for players to join."
+msgstr "Aan het wachten op spelers die terug moeten binnenkomen."
+
+#: Strings.cpp:273
+msgid "Waiting for players to rejoin."
+msgstr "Aan het wachten op spelers die terug moeten binnenkomen."
+
+#: Strings.cpp:274
+msgid ""
+"You are currently connected to a server.  Are you sure you want to leave?"
+msgstr ""
+"Je bent op dit moment verbonden met een server.  Ben je zeker dat je het "
+"spel wil verlaten?"
+
+#: Strings.cpp:275
+msgid "You must enter an IP address or host name."
+msgstr "Je moet een IP adres of hostnaam invullen."
+
+#: Strings.cpp:276
+msgid "You must enter a port number."
+msgstr "Je moet een poortnummer invullen."
+
+#: Strings.cpp:277
+msgid "You must enter a valid host name or IP address."
+msgstr "Je moet een geldige hostnaam of IP adres invullen."
+
+#: Strings.cpp:280
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Ben je zeker dat je %s wil verwijderen?"
+
+#: Strings.cpp:281
+#, c-format
+msgid "Attempt %d: %s"
+msgstr ""
+
+#: Strings.cpp:282
+#, c-format
+msgid "Attempting to connect to %s:%d..."
+msgstr ""
+
+#: Strings.cpp:283
+#, c-format
+msgid "Attempt %d of %d"
+msgstr ""
+
+#: Strings.cpp:284
+#, c-format
+msgid "A player attempts to join with version %s.  The server version is %s."
+msgstr ""
+"Een speler probeert binnen te komen met versie %s.  De versie van de server "
+"is %s."
+
+#: Strings.cpp:285
+#, c-format
+msgid "%s becomes a spectator."
+msgstr "%s wordt toeschouwer."
+
+#: Strings.cpp:286
+#, c-format
+msgid "%s drops from the game."
+msgstr "%s heeft de verbinding met het spel verloren."
+
+#: Strings.cpp:287
+#, c-format
+msgid "%s is no longer ready."
+msgstr "%s is niet meer klaar."
+
+#: Strings.cpp:288
+#, c-format
+msgid "%s is now %s."
+msgstr "%s is nu %s."
+
+#: Strings.cpp:289
+#, c-format
+msgid "%s is ready."
+msgstr "%s is klaar."
+
+#: Strings.cpp:290
+#, fuzzy, c-format
+msgid "%s joins as %s."
+msgstr "%s komt terug binnen als %s."
+
+#: Strings.cpp:291
+#, c-format
+msgid "%s leaves the server."
+msgstr "%s heeft de server verlaten."
+
+#: Strings.cpp:292
+#, c-format
+msgid "%s quits the game."
+msgstr "%s verlaat het spel."
+
+#: Strings.cpp:293
+#, c-format
+msgid "%s rejoins as %s."
+msgstr "%s komt terug binnen als %s."
+
+#: Strings.cpp:294
+#, c-format
+msgid "%s replaces %s as %s."
+msgstr "%s vervangt %s als %s."
+
+#: Strings.cpp:295
+#, c-format
+msgid "%s shut down the server."
+msgstr "%s heeft de server afgesloten."
+
+#: Strings.cpp:296
+#, c-format
+msgid "%s takes over as %s."
+msgstr "%s neemt over als %s."
+
+#: Strings.cpp:297
+#, c-format
+msgid "The game will restart in %d."
+msgstr "Het spel zal hervatten in %d."
+
+#: Strings.cpp:298
+#, fuzzy, c-format
+msgid "The game will start in %d."
+msgstr "Het spel zal hervatten in %d."
+
+#: Strings.cpp:299
+#, c-format
+msgid "The map is now %s."
+msgstr "Het scenario is nu %s."
+
+#, fuzzy
+#~ msgid "Connect!"
+#~ msgstr "Verbinden"
+
+#, fuzzy
+#~ msgid "Connector"
+#~ msgstr "Verbinden"
+
+#~ msgid "Direct Connect Setup"
+#~ msgstr "Directe Verbinding Setup"
+
+#~ msgid "Quit"
+#~ msgstr "Spel Verlaten"
+
+#~ msgid "Game"
+#~ msgstr "Spel"

@@ -1,0 +1,62 @@
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-06 13:42-0600\n"
+"PO-Revision-Date: 2005-12-27 17:41+0900\n"
+"Last-Translator: ardour <ardour1@naver.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Korean\n"
+"X-Poedit-Country: KOREA, REPUBLIC OF\n"
+
+#: Strings.cpp:85
+msgid "Dimensions"
+msgstr "크기"
+
+#: Strings.cpp:86
+msgid "Export"
+msgstr "내보내기"
+
+#: Strings.cpp:87
+msgid "Extract"
+msgstr "추출"
+
+#: Strings.cpp:88
+msgid "Image Editor"
+msgstr ""
+
+#: Strings.cpp:89
+#, fuzzy
+msgid "Import"
+msgstr "가져오기"
+
+#: Strings.cpp:90
+msgid "Select a directory to export"
+msgstr "내보낼 디렉토리 선택"
+
+#: Strings.cpp:91
+msgid "Select a directory to extract the files in"
+msgstr "파일을 추축할 디렉토리 선택"
+
+#: Strings.cpp:92
+msgid "Select a .tex file to import."
+msgstr "가져올 tex파일 선택"
+
+#: Strings.cpp:93
+msgid "Size"
+msgstr "사이즈"

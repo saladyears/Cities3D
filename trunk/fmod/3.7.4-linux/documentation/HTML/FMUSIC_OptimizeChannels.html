@@ -1,0 +1,89 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FMUSIC_OptimizeChannels</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FMUSIC_LoadSongEx.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FMUSIC.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FMUSIC_PlaySong.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FMUSIC.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FMUSIC_OptimizeChannels">FMUSIC_OptimizeChannels</A></H2>
+This function helps with channel usage.  If you are desperate for channels, and you are prepared to <BR>
+let the music routines drop a few channels, then calling this function can help.<BR>
+It basically doesnt try to play any new sounds if a certain channel limit is being played (including sound effects),<BR>
+and the new sound is below a certain specified volume.<BR>
+ie.<BR>
+You set it to maxchannels = 16, and minvolume = 0x10. <BR>
+In this case, the mod will play normally as long as the total number of channels being played inclusing sound effefcts is below 16<BR>
+(see FSOUND_GetChannelsPlaying).<BR>
+If the number of channels playing exceeds 16 (through a change in the music, or extra sound effects<BR>
+are spawned, then sounds with a musician specified volume of less than 0x10 will be ignored.<BR>
+The volume is based on volume column/default volume/volume set commands in the mod.  master volume,<BR>
+envelope volumes etc are not taken into account (this gives more control over how it will work from the<BR>
+tracker).<BR>
+<P>
+<B>DLL_API signed char F_API </B><B> </B><B>FMUSIC_OptimizeChannels</B><B>(</B><BR>
+<B>FMUSIC_MODULE *</B><I>mod</I><B>,</B><BR>
+<B>int </B><B> </B><I>maxchannels</I><B>,</B><BR>
+<B>int </B><B> </B><I>minvolume</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>mod</I></TD>
+<TD>Pointer to the song to set channel/volume optimization settings.<BR>
+</TD><TR VALIGN=top><TD><I>maxchannels</I></TD>
+<TD>Channel count to be mixed before fmusic starts to drop channels from the song.<BR>
+</TD><TR VALIGN=top><TD><I>minvolume</I></TD>
+<TD>If maxchannels is exceeded, then music channels with volumes below this value will not be<BR>
+played.  Range is 0-64.  This is the value the tracker displays.  All trackers use 0-64.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+maxchannels will default to the number of channels allocated by FSOUND, so this will never happen<BR>
+by default.<BR>
+minvolume will default to 0, so it will always succeed by default.<BR>
+To see how many channels are currently being MIXED, use FSOUND_GetChannelsPlaying.<BR>
+As a musician mentioned to me once, most of his default volumes are set fairly high, and any low end <BR>
+volumes are usually	echoes etc, and can afford to be dropped.<BR>
+------------<BR>
+Note : This function is not supported with the MIDI format.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_GetChannelsPlaying.html">FSOUND_GetChannelsPlaying</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:58 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

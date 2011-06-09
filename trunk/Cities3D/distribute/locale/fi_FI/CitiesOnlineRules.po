@@ -1,0 +1,92 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+# 14.09.2005: Added new translation
+msgid ""
+msgstr ""
+"Project-Id-Version: $Id: Cities3D.po 3179 2009-06-08 14:45:35Z saladyears $\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-12-06 14:22+0200\n"
+"Last-Translator: Pekka Jrvinen\n"
+"Language-Team: Cities3D internationalization <pekka.jarvinen@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Strings.cpp:180
+msgid "Act to avoid a passive quit!"
+msgstr ""
+
+#: Strings.cpp:181
+msgid ""
+"Cities Online was shut down!  This game can no longer be played.  Restart "
+"the game from the site to continue."
+msgstr ""
+
+#: Strings.cpp:182
+msgid "Multiplier"
+msgstr ""
+
+#: Strings.cpp:183
+msgid "Question"
+msgstr ""
+
+#: Strings.cpp:184
+msgid ""
+"There are players connected to you.  Are you sure you want to shut down the "
+"server?"
+msgstr ""
+
+#: Strings.cpp:185
+msgid "Turn timers left"
+msgstr ""
+
+#: Strings.cpp:186
+msgid "Waiting for players to join."
+msgstr ""
+
+#: Strings.cpp:187
+msgid ""
+"You are currently connected to a server.  Are you sure you want to leave?"
+msgstr ""
+
+#: Strings.cpp:188
+msgid ""
+"You are currently in a Cities Online game!  Are you sure you want to quit?  "
+"It may go on your record!"
+msgstr ""
+
+#: Strings.cpp:189
+msgid ""
+"You are currently watching a Cities Online game, are you sure you want to "
+"quit?"
+msgstr ""
+
+#: Strings.cpp:192
+#, c-format
+msgid "%s is out of time."
+msgstr ""
+
+#: Strings.cpp:193
+#, c-format
+msgid "%s uses 1 turn timer (%d left)."
+msgstr ""
+
+#: Strings.cpp:194
+#, c-format
+msgid "%s uses %d turn timers (%d left)."
+msgstr ""

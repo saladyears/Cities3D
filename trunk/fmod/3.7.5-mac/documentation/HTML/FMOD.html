@@ -1,0 +1,457 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FMOD</TITLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL" SIZE=2>
+<H2>FMOD</H2>
+<div id=FMUSICkeyplus style="display">
+<span id=FMUSIC class=Outline style="cursor: hand; ">+ </span>
+<A HREF="FMUSIC.html#" TARGET="ENTRY_FRAME"><u id=FMUSIC class=Outline style="cursor: hand; ">FMUSIC API Reference</u></A><BR>
+</div>
+<div id=FMUSICkeyminus style="display:none">
+<span id=FMUSIC class=Outline style="cursor: hand; ">- </span>
+<A HREF="FMUSIC.html#" TARGET="ENTRY_FRAME"><u id=FMUSIC class=Outline style="cursor: hand; ">FMUSIC API Reference</u></A><BR>
+</div>
+
+<div id=FMUSICdetails style="display:None; position:relative; left:12;">
+<div id=FMUSICFunctionskeyplus style="display">
+<span id=FMUSICFunctions class=Outline style="cursor: hand; ">+ </span>
+<A HREF="FMUSIC.html#Functions" TARGET="ENTRY_FRAME"><u id=FMUSICFunctions class=Outline style="cursor: hand; ">Functions</u></A><BR>
+</div>
+<div id=FMUSICFunctionskeyminus style="display:none">
+<span id=FMUSICFunctions class=Outline style="cursor: hand; ">- </span>
+<A HREF="FMUSIC.html#Functions" TARGET="ENTRY_FRAME"><u id=FMUSICFunctions class=Outline style="cursor: hand; ">Functions</u></A><BR>
+</div>
+
+<div id=FMUSICFunctionsdetails style="display:None; position:relative; left:12;">
+<A HREF="FMUSIC_CALLBACK.html#" TARGET="ENTRY_FRAME">FMUSIC_CALLBACK</A><BR>
+<A HREF="FMUSIC_FreeSong.html#" TARGET="ENTRY_FRAME">FMUSIC_FreeSong</A><BR>
+<A HREF="FMUSIC_GetBPM.html#" TARGET="ENTRY_FRAME">FMUSIC_GetBPM</A><BR>
+<A HREF="FMUSIC_GetGlobalVolume.html#" TARGET="ENTRY_FRAME">FMUSIC_GetGlobalVolume</A><BR>
+<A HREF="FMUSIC_GetMasterVolume.html#" TARGET="ENTRY_FRAME">FMUSIC_GetMasterVolume</A><BR>
+<A HREF="FMUSIC_GetName.html#" TARGET="ENTRY_FRAME">FMUSIC_GetName</A><BR>
+<A HREF="FMUSIC_GetNumChannels.html#" TARGET="ENTRY_FRAME">FMUSIC_GetNumChannels</A><BR>
+<A HREF="FMUSIC_GetNumInstruments.html#" TARGET="ENTRY_FRAME">FMUSIC_GetNumInstruments</A><BR>
+<A HREF="FMUSIC_GetNumOrders.html#" TARGET="ENTRY_FRAME">FMUSIC_GetNumOrders</A><BR>
+<A HREF="FMUSIC_GetNumPatterns.html#" TARGET="ENTRY_FRAME">FMUSIC_GetNumPatterns</A><BR>
+<A HREF="FMUSIC_GetNumSamples.html#" TARGET="ENTRY_FRAME">FMUSIC_GetNumSamples</A><BR>
+<A HREF="FMUSIC_GetOpenState.html#" TARGET="ENTRY_FRAME">FMUSIC_GetOpenState</A><BR>
+<A HREF="FMUSIC_GetOrder.html#" TARGET="ENTRY_FRAME">FMUSIC_GetOrder</A><BR>
+<A HREF="FMUSIC_GetPattern.html#" TARGET="ENTRY_FRAME">FMUSIC_GetPattern</A><BR>
+<A HREF="FMUSIC_GetPatternLength.html#" TARGET="ENTRY_FRAME">FMUSIC_GetPatternLength</A><BR>
+<A HREF="FMUSIC_GetPaused.html#" TARGET="ENTRY_FRAME">FMUSIC_GetPaused</A><BR>
+<A HREF="FMUSIC_GetRealChannel.html#" TARGET="ENTRY_FRAME">FMUSIC_GetRealChannel</A><BR>
+<A HREF="FMUSIC_GetRow.html#" TARGET="ENTRY_FRAME">FMUSIC_GetRow</A><BR>
+<A HREF="FMUSIC_GetSample.html#" TARGET="ENTRY_FRAME">FMUSIC_GetSample</A><BR>
+<A HREF="FMUSIC_GetSpeed.html#" TARGET="ENTRY_FRAME">FMUSIC_GetSpeed</A><BR>
+<A HREF="FMUSIC_GetTime.html#" TARGET="ENTRY_FRAME">FMUSIC_GetTime</A><BR>
+<A HREF="FMUSIC_GetType.html#" TARGET="ENTRY_FRAME">FMUSIC_GetType</A><BR>
+<A HREF="FMUSIC_GetUserData.html#" TARGET="ENTRY_FRAME">FMUSIC_GetUserData</A><BR>
+<A HREF="FMUSIC_IsFinished.html#" TARGET="ENTRY_FRAME">FMUSIC_IsFinished</A><BR>
+<A HREF="FMUSIC_IsPlaying.html#" TARGET="ENTRY_FRAME">FMUSIC_IsPlaying</A><BR>
+<A HREF="FMUSIC_LoadSong.html#" TARGET="ENTRY_FRAME">FMUSIC_LoadSong</A><BR>
+<A HREF="FMUSIC_LoadSongEx.html#" TARGET="ENTRY_FRAME">FMUSIC_LoadSongEx</A><BR>
+<A HREF="FMUSIC_OptimizeChannels.html#" TARGET="ENTRY_FRAME">FMUSIC_OptimizeChannels</A><BR>
+<A HREF="FMUSIC_PlaySong.html#" TARGET="ENTRY_FRAME">FMUSIC_PlaySong</A><BR>
+<A HREF="FMUSIC_SetInstCallback.html#" TARGET="ENTRY_FRAME">FMUSIC_SetInstCallback</A><BR>
+<A HREF="FMUSIC_SetLooping.html#" TARGET="ENTRY_FRAME">FMUSIC_SetLooping</A><BR>
+<A HREF="FMUSIC_SetMasterSpeed.html#" TARGET="ENTRY_FRAME">FMUSIC_SetMasterSpeed</A><BR>
+<A HREF="FMUSIC_SetMasterVolume.html#" TARGET="ENTRY_FRAME">FMUSIC_SetMasterVolume</A><BR>
+<A HREF="FMUSIC_SetOrder.html#" TARGET="ENTRY_FRAME">FMUSIC_SetOrder</A><BR>
+<A HREF="FMUSIC_SetOrderCallback.html#" TARGET="ENTRY_FRAME">FMUSIC_SetOrderCallback</A><BR>
+<A HREF="FMUSIC_SetPanSeperation.html#" TARGET="ENTRY_FRAME">FMUSIC_SetPanSeperation</A><BR>
+<A HREF="FMUSIC_SetPaused.html#" TARGET="ENTRY_FRAME">FMUSIC_SetPaused</A><BR>
+<A HREF="FMUSIC_SetReverb.html#" TARGET="ENTRY_FRAME">FMUSIC_SetReverb</A><BR>
+<A HREF="FMUSIC_SetRowCallback.html#" TARGET="ENTRY_FRAME">FMUSIC_SetRowCallback</A><BR>
+<A HREF="FMUSIC_SetSample.html#" TARGET="ENTRY_FRAME">FMUSIC_SetSample</A><BR>
+<A HREF="FMUSIC_SetUserData.html#" TARGET="ENTRY_FRAME">FMUSIC_SetUserData</A><BR>
+<A HREF="FMUSIC_SetZxxCallback.html#" TARGET="ENTRY_FRAME">FMUSIC_SetZxxCallback</A><BR>
+<A HREF="FMUSIC_StopAllSongs.html#" TARGET="ENTRY_FRAME">FMUSIC_StopAllSongs</A><BR>
+<A HREF="FMUSIC_StopSong.html#" TARGET="ENTRY_FRAME">FMUSIC_StopSong</A><BR>
+</div>
+<div id=FMUSICStructureskeyplus style="display">
+<span id=FMUSICStructures class=Outline style="cursor: hand; ">+ </span>
+<A HREF="FMUSIC.html#Structures" TARGET="ENTRY_FRAME"><u id=FMUSICStructures class=Outline style="cursor: hand; ">Structures</u></A><BR>
+</div>
+<div id=FMUSICStructureskeyminus style="display:none">
+<span id=FMUSICStructures class=Outline style="cursor: hand; ">- </span>
+<A HREF="FMUSIC.html#Structures" TARGET="ENTRY_FRAME"><u id=FMUSICStructures class=Outline style="cursor: hand; ">Structures</u></A><BR>
+</div>
+
+<div id=FMUSICStructuresdetails style="display:None; position:relative; left:12;">
+<A HREF="FSOUND_REVERB_CHANNELPROPERTIES.html#" TARGET="ENTRY_FRAME">FSOUND_REVERB_CHANNELPROPERTIES</A><BR>
+<A HREF="FSOUND_REVERB_PROPERTIES.html#" TARGET="ENTRY_FRAME">FSOUND_REVERB_PROPERTIES</A><BR>
+<A HREF="FSOUND_TOC_TAG.html#" TARGET="ENTRY_FRAME">FSOUND_TOC_TAG</A><BR>
+</div>
+<div id=FMUSICDefineskeyplus style="display">
+<span id=FMUSICDefines class=Outline style="cursor: hand; ">+ </span>
+<A HREF="FMUSIC.html#Defines" TARGET="ENTRY_FRAME"><u id=FMUSICDefines class=Outline style="cursor: hand; ">Defines</u></A><BR>
+</div>
+<div id=FMUSICDefineskeyminus style="display:none">
+<span id=FMUSICDefines class=Outline style="cursor: hand; ">- </span>
+<A HREF="FMUSIC.html#Defines" TARGET="ENTRY_FRAME"><u id=FMUSICDefines class=Outline style="cursor: hand; ">Defines</u></A><BR>
+</div>
+
+<div id=FMUSICDefinesdetails style="display:None; position:relative; left:12;">
+<A HREF="FSOUND_CAPS.html#" TARGET="ENTRY_FRAME">FSOUND_CAPS</A><BR>
+<A HREF="FSOUND_CDPLAYMODES.html#" TARGET="ENTRY_FRAME">FSOUND_CDPLAYMODES</A><BR>
+<A HREF="FSOUND_DSP_PRIORITIES.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_PRIORITIES</A><BR>
+<A HREF="FSOUND_INIT_FLAGS.html#" TARGET="ENTRY_FRAME">FSOUND_INIT_FLAGS</A><BR>
+<A HREF="FSOUND_MISC_VALUES.html#" TARGET="ENTRY_FRAME">FSOUND_MISC_VALUES</A><BR>
+<A HREF="FSOUND_MODES.html#" TARGET="ENTRY_FRAME">FSOUND_MODES</A><BR>
+<A HREF="FSOUND_REVERB_CHANNELFLAGS.html#" TARGET="ENTRY_FRAME">FSOUND_REVERB_CHANNELFLAGS</A><BR>
+<A HREF="FSOUND_REVERB_FLAGS.html#" TARGET="ENTRY_FRAME">FSOUND_REVERB_FLAGS</A><BR>
+<A HREF="FSOUND_REVERB_PRESETS.html#" TARGET="ENTRY_FRAME">FSOUND_REVERB_PRESETS</A><BR>
+<A HREF="FSOUND_STATUS_FLAGS.html#" TARGET="ENTRY_FRAME">FSOUND_STATUS_FLAGS</A><BR>
+</div>
+<div id=FMUSICEnumskeyplus style="display">
+<span id=FMUSICEnums class=Outline style="cursor: hand; ">+ </span>
+<A HREF="FMUSIC.html#Enums" TARGET="ENTRY_FRAME"><u id=FMUSICEnums class=Outline style="cursor: hand; ">Enums</u></A><BR>
+</div>
+<div id=FMUSICEnumskeyminus style="display:none">
+<span id=FMUSICEnums class=Outline style="cursor: hand; ">- </span>
+<A HREF="FMUSIC.html#Enums" TARGET="ENTRY_FRAME"><u id=FMUSICEnums class=Outline style="cursor: hand; ">Enums</u></A><BR>
+</div>
+
+<div id=FMUSICEnumsdetails style="display:None; position:relative; left:12;">
+<A HREF="FMOD_ERRORS.html#" TARGET="ENTRY_FRAME">FMOD_ERRORS</A><BR>
+<A HREF="FMUSIC_TYPES.html#" TARGET="ENTRY_FRAME">FMUSIC_TYPES</A><BR>
+<A HREF="FSOUND_FX_MODES.html#" TARGET="ENTRY_FRAME">FSOUND_FX_MODES</A><BR>
+<A HREF="FSOUND_MIXERTYPES.html#" TARGET="ENTRY_FRAME">FSOUND_MIXERTYPES</A><BR>
+<A HREF="FSOUND_OUTPUTTYPES.html#" TARGET="ENTRY_FRAME">FSOUND_OUTPUTTYPES</A><BR>
+<A HREF="FSOUND_SPEAKERMODES.html#" TARGET="ENTRY_FRAME">FSOUND_SPEAKERMODES</A><BR>
+<A HREF="FSOUND_STREAM_NET_STATUS.html#" TARGET="ENTRY_FRAME">FSOUND_STREAM_NET_STATUS</A><BR>
+<A HREF="FSOUND_TAGFIELD_TYPE.html#" TARGET="ENTRY_FRAME">FSOUND_TAGFIELD_TYPE</A><BR>
+</div>
+</div>
+<div id=FSOUNDkeyplus style="display">
+<span id=FSOUND class=Outline style="cursor: hand; ">+ </span>
+<A HREF="FSOUND.html#" TARGET="ENTRY_FRAME"><u id=FSOUND class=Outline style="cursor: hand; ">FSOUND API Reference</u></A><BR>
+</div>
+<div id=FSOUNDkeyminus style="display:none">
+<span id=FSOUND class=Outline style="cursor: hand; ">- </span>
+<A HREF="FSOUND.html#" TARGET="ENTRY_FRAME"><u id=FSOUND class=Outline style="cursor: hand; ">FSOUND API Reference</u></A><BR>
+</div>
+
+<div id=FSOUNDdetails style="display:None; position:relative; left:12;">
+<div id=FSOUNDFunctionskeyplus style="display">
+<span id=FSOUNDFunctions class=Outline style="cursor: hand; ">+ </span>
+<A HREF="FSOUND.html#Functions" TARGET="ENTRY_FRAME"><u id=FSOUNDFunctions class=Outline style="cursor: hand; ">Functions</u></A><BR>
+</div>
+<div id=FSOUNDFunctionskeyminus style="display:none">
+<span id=FSOUNDFunctions class=Outline style="cursor: hand; ">- </span>
+<A HREF="FSOUND.html#Functions" TARGET="ENTRY_FRAME"><u id=FSOUNDFunctions class=Outline style="cursor: hand; ">Functions</u></A><BR>
+</div>
+
+<div id=FSOUNDFunctionsdetails style="display:None; position:relative; left:12;">
+<A HREF="FSOUND_3D_GetAttributes.html#" TARGET="ENTRY_FRAME">FSOUND_3D_GetAttributes</A><BR>
+<A HREF="FSOUND_3D_GetMinMaxDistance.html#" TARGET="ENTRY_FRAME">FSOUND_3D_GetMinMaxDistance</A><BR>
+<A HREF="FSOUND_3D_Listener_GetAttributes.html#" TARGET="ENTRY_FRAME">FSOUND_3D_Listener_GetAttributes</A><BR>
+<A HREF="FSOUND_3D_Listener_SetAttributes.html#" TARGET="ENTRY_FRAME">FSOUND_3D_Listener_SetAttributes</A><BR>
+<A HREF="FSOUND_3D_Listener_SetCurrent.html#" TARGET="ENTRY_FRAME">FSOUND_3D_Listener_SetCurrent</A><BR>
+<A HREF="FSOUND_3D_SetAttributes.html#" TARGET="ENTRY_FRAME">FSOUND_3D_SetAttributes</A><BR>
+<A HREF="FSOUND_3D_SetDistanceFactor.html#" TARGET="ENTRY_FRAME">FSOUND_3D_SetDistanceFactor</A><BR>
+<A HREF="FSOUND_3D_SetDopplerFactor.html#" TARGET="ENTRY_FRAME">FSOUND_3D_SetDopplerFactor</A><BR>
+<A HREF="FSOUND_3D_SetMinMaxDistance.html#" TARGET="ENTRY_FRAME">FSOUND_3D_SetMinMaxDistance</A><BR>
+<A HREF="FSOUND_3D_SetRolloffFactor.html#" TARGET="ENTRY_FRAME">FSOUND_3D_SetRolloffFactor</A><BR>
+<A HREF="FSOUND_ALLOCCALLBACK.html#" TARGET="ENTRY_FRAME">FSOUND_ALLOCCALLBACK</A><BR>
+<A HREF="FSOUND_CD_GetNumTracks.html#" TARGET="ENTRY_FRAME">FSOUND_CD_GetNumTracks</A><BR>
+<A HREF="FSOUND_CD_GetPaused.html#" TARGET="ENTRY_FRAME">FSOUND_CD_GetPaused</A><BR>
+<A HREF="FSOUND_CD_GetTrack.html#" TARGET="ENTRY_FRAME">FSOUND_CD_GetTrack</A><BR>
+<A HREF="FSOUND_CD_GetTrackLength.html#" TARGET="ENTRY_FRAME">FSOUND_CD_GetTrackLength</A><BR>
+<A HREF="FSOUND_CD_GetTrackTime.html#" TARGET="ENTRY_FRAME">FSOUND_CD_GetTrackTime</A><BR>
+<A HREF="FSOUND_CD_GetVolume.html#" TARGET="ENTRY_FRAME">FSOUND_CD_GetVolume</A><BR>
+<A HREF="FSOUND_CD_OpenTray.html#" TARGET="ENTRY_FRAME">FSOUND_CD_OpenTray</A><BR>
+<A HREF="FSOUND_CD_Play.html#" TARGET="ENTRY_FRAME">FSOUND_CD_Play</A><BR>
+<A HREF="FSOUND_CD_SetPaused.html#" TARGET="ENTRY_FRAME">FSOUND_CD_SetPaused</A><BR>
+<A HREF="FSOUND_CD_SetPlayMode.html#" TARGET="ENTRY_FRAME">FSOUND_CD_SetPlayMode</A><BR>
+<A HREF="FSOUND_CD_SetTrackTime.html#" TARGET="ENTRY_FRAME">FSOUND_CD_SetTrackTime</A><BR>
+<A HREF="FSOUND_CD_SetVolume.html#" TARGET="ENTRY_FRAME">FSOUND_CD_SetVolume</A><BR>
+<A HREF="FSOUND_CD_Stop.html#" TARGET="ENTRY_FRAME">FSOUND_CD_Stop</A><BR>
+<A HREF="FSOUND_Close.html#" TARGET="ENTRY_FRAME">FSOUND_Close</A><BR>
+<A HREF="FSOUND_CLOSECALLBACK.html#" TARGET="ENTRY_FRAME">FSOUND_CLOSECALLBACK</A><BR>
+<A HREF="FSOUND_DSP_ClearMixBuffer.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_ClearMixBuffer</A><BR>
+<A HREF="FSOUND_DSP_Create.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_Create</A><BR>
+<A HREF="FSOUND_DSP_Free.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_Free</A><BR>
+<A HREF="FSOUND_DSP_GetActive.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_GetActive</A><BR>
+<A HREF="FSOUND_DSP_GetBufferLength.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_GetBufferLength</A><BR>
+<A HREF="FSOUND_DSP_GetBufferLengthTotal.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_GetBufferLengthTotal</A><BR>
+<A HREF="FSOUND_DSP_GetClearUnit.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_GetClearUnit</A><BR>
+<A HREF="FSOUND_DSP_GetClipAndCopyUnit.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_GetClipAndCopyUnit</A><BR>
+<A HREF="FSOUND_DSP_GetFFTUnit.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_GetFFTUnit</A><BR>
+<A HREF="FSOUND_DSP_GetMusicUnit.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_GetMusicUnit</A><BR>
+<A HREF="FSOUND_DSP_GetPriority.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_GetPriority</A><BR>
+<A HREF="FSOUND_DSP_GetSFXUnit.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_GetSFXUnit</A><BR>
+<A HREF="FSOUND_DSP_GetSpectrum.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_GetSpectrum</A><BR>
+<A HREF="FSOUND_DSP_MixBuffers.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_MixBuffers</A><BR>
+<A HREF="FSOUND_DSP_SetActive.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_SetActive</A><BR>
+<A HREF="FSOUND_DSP_SetPriority.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_SetPriority</A><BR>
+<A HREF="FSOUND_DSPCALLBACK.html#" TARGET="ENTRY_FRAME">FSOUND_DSPCALLBACK</A><BR>
+<A HREF="FSOUND_File_SetCallbacks.html#" TARGET="ENTRY_FRAME">FSOUND_File_SetCallbacks</A><BR>
+<A HREF="FSOUND_FREECALLBACK.html#" TARGET="ENTRY_FRAME">FSOUND_FREECALLBACK</A><BR>
+<A HREF="FSOUND_FX_Disable.html#" TARGET="ENTRY_FRAME">FSOUND_FX_Disable</A><BR>
+<A HREF="FSOUND_FX_Enable.html#" TARGET="ENTRY_FRAME">FSOUND_FX_Enable</A><BR>
+<A HREF="FSOUND_FX_SetChorus.html#" TARGET="ENTRY_FRAME">FSOUND_FX_SetChorus</A><BR>
+<A HREF="FSOUND_FX_SetCompressor.html#" TARGET="ENTRY_FRAME">FSOUND_FX_SetCompressor</A><BR>
+<A HREF="FSOUND_FX_SetDistortion.html#" TARGET="ENTRY_FRAME">FSOUND_FX_SetDistortion</A><BR>
+<A HREF="FSOUND_FX_SetEcho.html#" TARGET="ENTRY_FRAME">FSOUND_FX_SetEcho</A><BR>
+<A HREF="FSOUND_FX_SetFlanger.html#" TARGET="ENTRY_FRAME">FSOUND_FX_SetFlanger</A><BR>
+<A HREF="FSOUND_FX_SetGargle.html#" TARGET="ENTRY_FRAME">FSOUND_FX_SetGargle</A><BR>
+<A HREF="FSOUND_FX_SetI3DL2Reverb.html#" TARGET="ENTRY_FRAME">FSOUND_FX_SetI3DL2Reverb</A><BR>
+<A HREF="FSOUND_FX_SetParamEQ.html#" TARGET="ENTRY_FRAME">FSOUND_FX_SetParamEQ</A><BR>
+<A HREF="FSOUND_FX_SetWavesReverb.html#" TARGET="ENTRY_FRAME">FSOUND_FX_SetWavesReverb</A><BR>
+<A HREF="FSOUND_GetAmplitude.html#" TARGET="ENTRY_FRAME">FSOUND_GetAmplitude</A><BR>
+<A HREF="FSOUND_GetChannelsPlaying.html#" TARGET="ENTRY_FRAME">FSOUND_GetChannelsPlaying</A><BR>
+<A HREF="FSOUND_GetCPUUsage.html#" TARGET="ENTRY_FRAME">FSOUND_GetCPUUsage</A><BR>
+<A HREF="FSOUND_GetCurrentLevels.html#" TARGET="ENTRY_FRAME">FSOUND_GetCurrentLevels</A><BR>
+<A HREF="FSOUND_GetCurrentPosition.html#" TARGET="ENTRY_FRAME">FSOUND_GetCurrentPosition</A><BR>
+<A HREF="FSOUND_GetCurrentSample.html#" TARGET="ENTRY_FRAME">FSOUND_GetCurrentSample</A><BR>
+<A HREF="FSOUND_GetDriver.html#" TARGET="ENTRY_FRAME">FSOUND_GetDriver</A><BR>
+<A HREF="FSOUND_GetDriverCaps.html#" TARGET="ENTRY_FRAME">FSOUND_GetDriverCaps</A><BR>
+<A HREF="FSOUND_GetDriverName.html#" TARGET="ENTRY_FRAME">FSOUND_GetDriverName</A><BR>
+<A HREF="FSOUND_GetError.html#" TARGET="ENTRY_FRAME">FSOUND_GetError</A><BR>
+<A HREF="FSOUND_GetFreeHWRam.html#" TARGET="ENTRY_FRAME">FSOUND_GetFreeHWRam</A><BR>
+<A HREF="FSOUND_GetFrequency.html#" TARGET="ENTRY_FRAME">FSOUND_GetFrequency</A><BR>
+<A HREF="FSOUND_GetLoopMode.html#" TARGET="ENTRY_FRAME">FSOUND_GetLoopMode</A><BR>
+<A HREF="FSOUND_GetMaxChannels.html#" TARGET="ENTRY_FRAME">FSOUND_GetMaxChannels</A><BR>
+<A HREF="FSOUND_GetMaxSamples.html#" TARGET="ENTRY_FRAME">FSOUND_GetMaxSamples</A><BR>
+<A HREF="FSOUND_GetMemoryStats.html#" TARGET="ENTRY_FRAME">FSOUND_GetMemoryStats</A><BR>
+<A HREF="FSOUND_GetMixer.html#" TARGET="ENTRY_FRAME">FSOUND_GetMixer</A><BR>
+<A HREF="FSOUND_GetMute.html#" TARGET="ENTRY_FRAME">FSOUND_GetMute</A><BR>
+<A HREF="FSOUND_GetNumDrivers.html#" TARGET="ENTRY_FRAME">FSOUND_GetNumDrivers</A><BR>
+<A HREF="FSOUND_GetNumHWChannels.html#" TARGET="ENTRY_FRAME">FSOUND_GetNumHWChannels</A><BR>
+<A HREF="FSOUND_GetNumSubChannels.html#" TARGET="ENTRY_FRAME">FSOUND_GetNumSubChannels</A><BR>
+<A HREF="FSOUND_GetOutput.html#" TARGET="ENTRY_FRAME">FSOUND_GetOutput</A><BR>
+<A HREF="FSOUND_GetOutputHandle.html#" TARGET="ENTRY_FRAME">FSOUND_GetOutputHandle</A><BR>
+<A HREF="FSOUND_GetOutputRate.html#" TARGET="ENTRY_FRAME">FSOUND_GetOutputRate</A><BR>
+<A HREF="FSOUND_GetPan.html#" TARGET="ENTRY_FRAME">FSOUND_GetPan</A><BR>
+<A HREF="FSOUND_GetPaused.html#" TARGET="ENTRY_FRAME">FSOUND_GetPaused</A><BR>
+<A HREF="FSOUND_GetPriority.html#" TARGET="ENTRY_FRAME">FSOUND_GetPriority</A><BR>
+<A HREF="FSOUND_GetReserved.html#" TARGET="ENTRY_FRAME">FSOUND_GetReserved</A><BR>
+<A HREF="FSOUND_GetSFXMasterVolume.html#" TARGET="ENTRY_FRAME">FSOUND_GetSFXMasterVolume</A><BR>
+<A HREF="FSOUND_GetSpeakerMode.html#" TARGET="ENTRY_FRAME">FSOUND_GetSpeakerMode</A><BR>
+<A HREF="FSOUND_GetSubChannel.html#" TARGET="ENTRY_FRAME">FSOUND_GetSubChannel</A><BR>
+<A HREF="FSOUND_GetSurround.html#" TARGET="ENTRY_FRAME">FSOUND_GetSurround</A><BR>
+<A HREF="FSOUND_GetVersion.html#" TARGET="ENTRY_FRAME">FSOUND_GetVersion</A><BR>
+<A HREF="FSOUND_GetVolume.html#" TARGET="ENTRY_FRAME">FSOUND_GetVolume</A><BR>
+<A HREF="FSOUND_Init.html#" TARGET="ENTRY_FRAME">FSOUND_Init</A><BR>
+<A HREF="FSOUND_IOP_Alloc.html#" TARGET="ENTRY_FRAME">FSOUND_IOP_Alloc</A><BR>
+<A HREF="FSOUND_IOP_Free.html#" TARGET="ENTRY_FRAME">FSOUND_IOP_Free</A><BR>
+<A HREF="FSOUND_IsPlaying.html#" TARGET="ENTRY_FRAME">FSOUND_IsPlaying</A><BR>
+<A HREF="FSOUND_METADATACALLBACK.html#" TARGET="ENTRY_FRAME">FSOUND_METADATACALLBACK</A><BR>
+<A HREF="FSOUND_OPENCALLBACK.html#" TARGET="ENTRY_FRAME">FSOUND_OPENCALLBACK</A><BR>
+<A HREF="FSOUND_PlaySound.html#" TARGET="ENTRY_FRAME">FSOUND_PlaySound</A><BR>
+<A HREF="FSOUND_PlaySoundEx.html#" TARGET="ENTRY_FRAME">FSOUND_PlaySoundEx</A><BR>
+<A HREF="FSOUND_READCALLBACK.html#" TARGET="ENTRY_FRAME">FSOUND_READCALLBACK</A><BR>
+<A HREF="FSOUND_REALLOCCALLBACK.html#" TARGET="ENTRY_FRAME">FSOUND_REALLOCCALLBACK</A><BR>
+<A HREF="FSOUND_Record_GetDriver.html#" TARGET="ENTRY_FRAME">FSOUND_Record_GetDriver</A><BR>
+<A HREF="FSOUND_Record_GetDriverName.html#" TARGET="ENTRY_FRAME">FSOUND_Record_GetDriverName</A><BR>
+<A HREF="FSOUND_Record_GetNumDrivers.html#" TARGET="ENTRY_FRAME">FSOUND_Record_GetNumDrivers</A><BR>
+<A HREF="FSOUND_Record_GetPosition.html#" TARGET="ENTRY_FRAME">FSOUND_Record_GetPosition</A><BR>
+<A HREF="FSOUND_Record_SetDriver.html#" TARGET="ENTRY_FRAME">FSOUND_Record_SetDriver</A><BR>
+<A HREF="FSOUND_Record_StartSample.html#" TARGET="ENTRY_FRAME">FSOUND_Record_StartSample</A><BR>
+<A HREF="FSOUND_Record_Stop.html#" TARGET="ENTRY_FRAME">FSOUND_Record_Stop</A><BR>
+<A HREF="FSOUND_Reverb_GetChannelProperties.html#" TARGET="ENTRY_FRAME">FSOUND_Reverb_GetChannelProperties</A><BR>
+<A HREF="FSOUND_Reverb_GetProperties.html#" TARGET="ENTRY_FRAME">FSOUND_Reverb_GetProperties</A><BR>
+<A HREF="FSOUND_Reverb_SetChannelProperties.html#" TARGET="ENTRY_FRAME">FSOUND_Reverb_SetChannelProperties</A><BR>
+<A HREF="FSOUND_Reverb_SetProperties.html#" TARGET="ENTRY_FRAME">FSOUND_Reverb_SetProperties</A><BR>
+<A HREF="FSOUND_Sample_Alloc.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_Alloc</A><BR>
+<A HREF="FSOUND_Sample_Free.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_Free</A><BR>
+<A HREF="FSOUND_Sample_Get.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_Get</A><BR>
+<A HREF="FSOUND_Sample_GetDefaults.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_GetDefaults</A><BR>
+<A HREF="FSOUND_Sample_GetDefaultsEx.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_GetDefaultsEx</A><BR>
+<A HREF="FSOUND_Sample_GetLength.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_GetLength</A><BR>
+<A HREF="FSOUND_Sample_GetLoopPoints.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_GetLoopPoints</A><BR>
+<A HREF="FSOUND_Sample_GetMinMaxDistance.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_GetMinMaxDistance</A><BR>
+<A HREF="FSOUND_Sample_GetMode.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_GetMode</A><BR>
+<A HREF="FSOUND_Sample_GetName.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_GetName</A><BR>
+<A HREF="FSOUND_Sample_Load.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_Load</A><BR>
+<A HREF="FSOUND_Sample_Lock.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_Lock</A><BR>
+<A HREF="FSOUND_Sample_SetDefaults.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_SetDefaults</A><BR>
+<A HREF="FSOUND_Sample_SetDefaultsEx.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_SetDefaultsEx</A><BR>
+<A HREF="FSOUND_Sample_SetLoopPoints.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_SetLoopPoints</A><BR>
+<A HREF="FSOUND_Sample_SetMaxPlaybacks.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_SetMaxPlaybacks</A><BR>
+<A HREF="FSOUND_Sample_SetMinMaxDistance.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_SetMinMaxDistance</A><BR>
+<A HREF="FSOUND_Sample_SetMode.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_SetMode</A><BR>
+<A HREF="FSOUND_Sample_Unlock.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_Unlock</A><BR>
+<A HREF="FSOUND_Sample_Upload.html#" TARGET="ENTRY_FRAME">FSOUND_Sample_Upload</A><BR>
+<A HREF="FSOUND_SEEKCALLBACK.html#" TARGET="ENTRY_FRAME">FSOUND_SEEKCALLBACK</A><BR>
+<A HREF="FSOUND_SendData.html#" TARGET="ENTRY_FRAME">FSOUND_SendData</A><BR>
+<A HREF="FSOUND_SetBufferSize.html#" TARGET="ENTRY_FRAME">FSOUND_SetBufferSize</A><BR>
+<A HREF="FSOUND_SetCurrentPosition.html#" TARGET="ENTRY_FRAME">FSOUND_SetCurrentPosition</A><BR>
+<A HREF="FSOUND_SetDiskBusy.html#" TARGET="ENTRY_FRAME">FSOUND_SetDiskBusy</A><BR>
+<A HREF="FSOUND_SetDriver.html#" TARGET="ENTRY_FRAME">FSOUND_SetDriver</A><BR>
+<A HREF="FSOUND_SetFrequency.html#" TARGET="ENTRY_FRAME">FSOUND_SetFrequency</A><BR>
+<A HREF="FSOUND_SetHWND.html#" TARGET="ENTRY_FRAME">FSOUND_SetHWND</A><BR>
+<A HREF="FSOUND_SetLevels.html#" TARGET="ENTRY_FRAME">FSOUND_SetLevels</A><BR>
+<A HREF="FSOUND_SetLoopMode.html#" TARGET="ENTRY_FRAME">FSOUND_SetLoopMode</A><BR>
+<A HREF="FSOUND_SetMaxHardwareChannels.html#" TARGET="ENTRY_FRAME">FSOUND_SetMaxHardwareChannels</A><BR>
+<A HREF="FSOUND_SetMemorySystem.html#" TARGET="ENTRY_FRAME">FSOUND_SetMemorySystem</A><BR>
+<A HREF="FSOUND_SetMinHardwareChannels.html#" TARGET="ENTRY_FRAME">FSOUND_SetMinHardwareChannels</A><BR>
+<A HREF="FSOUND_SetMixer.html#" TARGET="ENTRY_FRAME">FSOUND_SetMixer</A><BR>
+<A HREF="FSOUND_SetMute.html#" TARGET="ENTRY_FRAME">FSOUND_SetMute</A><BR>
+<A HREF="FSOUND_SetOutput.html#" TARGET="ENTRY_FRAME">FSOUND_SetOutput</A><BR>
+<A HREF="FSOUND_SetPan.html#" TARGET="ENTRY_FRAME">FSOUND_SetPan</A><BR>
+<A HREF="FSOUND_SetPanSeperation.html#" TARGET="ENTRY_FRAME">FSOUND_SetPanSeperation</A><BR>
+<A HREF="FSOUND_SetPaused.html#" TARGET="ENTRY_FRAME">FSOUND_SetPaused</A><BR>
+<A HREF="FSOUND_SetPriority.html#" TARGET="ENTRY_FRAME">FSOUND_SetPriority</A><BR>
+<A HREF="FSOUND_SetReserved.html#" TARGET="ENTRY_FRAME">FSOUND_SetReserved</A><BR>
+<A HREF="FSOUND_SetSFXMasterVolume.html#" TARGET="ENTRY_FRAME">FSOUND_SetSFXMasterVolume</A><BR>
+<A HREF="FSOUND_SetSpeakerMode.html#" TARGET="ENTRY_FRAME">FSOUND_SetSpeakerMode</A><BR>
+<A HREF="FSOUND_SetSurround.html#" TARGET="ENTRY_FRAME">FSOUND_SetSurround</A><BR>
+<A HREF="FSOUND_SetVolume.html#" TARGET="ENTRY_FRAME">FSOUND_SetVolume</A><BR>
+<A HREF="FSOUND_SetVolumeAbsolute.html#" TARGET="ENTRY_FRAME">FSOUND_SetVolumeAbsolute</A><BR>
+<A HREF="FSOUND_SPU2_Alloc.html#" TARGET="ENTRY_FRAME">FSOUND_SPU2_Alloc</A><BR>
+<A HREF="FSOUND_SPU2_Free.html#" TARGET="ENTRY_FRAME">FSOUND_SPU2_Free</A><BR>
+<A HREF="FSOUND_SPU2_GetRawAddress.html#" TARGET="ENTRY_FRAME">FSOUND_SPU2_GetRawAddress</A><BR>
+<A HREF="FSOUND_StopSound.html#" TARGET="ENTRY_FRAME">FSOUND_StopSound</A><BR>
+<A HREF="FSOUND_Stream_AddSyncPoint.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_AddSyncPoint</A><BR>
+<A HREF="FSOUND_Stream_Close.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Close</A><BR>
+<A HREF="FSOUND_Stream_Create.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Create</A><BR>
+<A HREF="FSOUND_Stream_CreateDSP.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_CreateDSP</A><BR>
+<A HREF="FSOUND_Stream_DeleteSyncPoint.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_DeleteSyncPoint</A><BR>
+<A HREF="FSOUND_Stream_FindTagField.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_FindTagField</A><BR>
+<A HREF="FSOUND_Stream_GetLength.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetLength</A><BR>
+<A HREF="FSOUND_Stream_GetLengthMs.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetLengthMs</A><BR>
+<A HREF="FSOUND_Stream_GetMode.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetMode</A><BR>
+<A HREF="FSOUND_Stream_GetNumSubStreams.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetNumSubStreams</A><BR>
+<A HREF="FSOUND_Stream_GetNumSyncPoints.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetNumSyncPoints</A><BR>
+<A HREF="FSOUND_Stream_GetNumTagFields.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetNumTagFields</A><BR>
+<A HREF="FSOUND_Stream_GetOpenState.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetOpenState</A><BR>
+<A HREF="FSOUND_Stream_GetPosition.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetPosition</A><BR>
+<A HREF="FSOUND_Stream_GetSample.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetSample</A><BR>
+<A HREF="FSOUND_Stream_GetSyncPoint.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetSyncPoint</A><BR>
+<A HREF="FSOUND_Stream_GetSyncPointInfo.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetSyncPointInfo</A><BR>
+<A HREF="FSOUND_Stream_GetTagField.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetTagField</A><BR>
+<A HREF="FSOUND_Stream_GetTime.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_GetTime</A><BR>
+<A HREF="FSOUND_Stream_Net_GetBufferProperties.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Net_GetBufferProperties</A><BR>
+<A HREF="FSOUND_Stream_Net_GetLastServerStatus.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Net_GetLastServerStatus</A><BR>
+<A HREF="FSOUND_Stream_Net_GetStatus.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Net_GetStatus</A><BR>
+<A HREF="FSOUND_Stream_Net_SetBufferProperties.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Net_SetBufferProperties</A><BR>
+<A HREF="FSOUND_Stream_Net_SetMetadataCallback.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Net_SetMetadataCallback</A><BR>
+<A HREF="FSOUND_Stream_Net_SetProxy.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Net_SetProxy</A><BR>
+<A HREF="FSOUND_Stream_Net_SetTimeout.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Net_SetTimeout</A><BR>
+<A HREF="FSOUND_Stream_Open.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Open</A><BR>
+<A HREF="FSOUND_Stream_OpenFromHandle.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_OpenFromHandle</A><BR>
+<A HREF="FSOUND_Stream_Play.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Play</A><BR>
+<A HREF="FSOUND_Stream_PlayEx.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_PlayEx</A><BR>
+<A HREF="FSOUND_Stream_SetBufferSize.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_SetBufferSize</A><BR>
+<A HREF="FSOUND_Stream_SetEndCallback.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_SetEndCallback</A><BR>
+<A HREF="FSOUND_Stream_SetLoopCount.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_SetLoopCount</A><BR>
+<A HREF="FSOUND_Stream_SetLoopPoints.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_SetLoopPoints</A><BR>
+<A HREF="FSOUND_Stream_SetMode.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_SetMode</A><BR>
+<A HREF="FSOUND_Stream_SetPosition.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_SetPosition</A><BR>
+<A HREF="FSOUND_Stream_SetSubStream.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_SetSubStream</A><BR>
+<A HREF="FSOUND_Stream_SetSubStreamSentence.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_SetSubStreamSentence</A><BR>
+<A HREF="FSOUND_Stream_SetSyncCallback.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_SetSyncCallback</A><BR>
+<A HREF="FSOUND_Stream_SetTime.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_SetTime</A><BR>
+<A HREF="FSOUND_Stream_Stop.html#" TARGET="ENTRY_FRAME">FSOUND_Stream_Stop</A><BR>
+<A HREF="FSOUND_STREAMCALLBACK.html#" TARGET="ENTRY_FRAME">FSOUND_STREAMCALLBACK</A><BR>
+<A HREF="FSOUND_TELLCALLBACK.html#" TARGET="ENTRY_FRAME">FSOUND_TELLCALLBACK</A><BR>
+<A HREF="FSOUND_Update.html#" TARGET="ENTRY_FRAME">FSOUND_Update</A><BR>
+<A HREF="sceSifAddCmdHandler.html#" TARGET="ENTRY_FRAME">sceSifAddCmdHandler</A><BR>
+</div>
+<div id=FSOUNDStructureskeyplus style="display">
+<span id=FSOUNDStructures class=Outline style="cursor: hand; ">+ </span>
+<A HREF="FSOUND.html#Structures" TARGET="ENTRY_FRAME"><u id=FSOUNDStructures class=Outline style="cursor: hand; ">Structures</u></A><BR>
+</div>
+<div id=FSOUNDStructureskeyminus style="display:none">
+<span id=FSOUNDStructures class=Outline style="cursor: hand; ">- </span>
+<A HREF="FSOUND.html#Structures" TARGET="ENTRY_FRAME"><u id=FSOUNDStructures class=Outline style="cursor: hand; ">Structures</u></A><BR>
+</div>
+
+<div id=FSOUNDStructuresdetails style="display:None; position:relative; left:12;">
+<A HREF="FSOUND_REVERB_CHANNELPROPERTIES.html#" TARGET="ENTRY_FRAME">FSOUND_REVERB_CHANNELPROPERTIES</A><BR>
+<A HREF="FSOUND_REVERB_PROPERTIES.html#" TARGET="ENTRY_FRAME">FSOUND_REVERB_PROPERTIES</A><BR>
+<A HREF="FSOUND_TOC_TAG.html#" TARGET="ENTRY_FRAME">FSOUND_TOC_TAG</A><BR>
+</div>
+<div id=FSOUNDDefineskeyplus style="display">
+<span id=FSOUNDDefines class=Outline style="cursor: hand; ">+ </span>
+<A HREF="FSOUND.html#Defines" TARGET="ENTRY_FRAME"><u id=FSOUNDDefines class=Outline style="cursor: hand; ">Defines</u></A><BR>
+</div>
+<div id=FSOUNDDefineskeyminus style="display:none">
+<span id=FSOUNDDefines class=Outline style="cursor: hand; ">- </span>
+<A HREF="FSOUND.html#Defines" TARGET="ENTRY_FRAME"><u id=FSOUNDDefines class=Outline style="cursor: hand; ">Defines</u></A><BR>
+</div>
+
+<div id=FSOUNDDefinesdetails style="display:None; position:relative; left:12;">
+<A HREF="FSOUND_CAPS.html#" TARGET="ENTRY_FRAME">FSOUND_CAPS</A><BR>
+<A HREF="FSOUND_CDPLAYMODES.html#" TARGET="ENTRY_FRAME">FSOUND_CDPLAYMODES</A><BR>
+<A HREF="FSOUND_DSP_PRIORITIES.html#" TARGET="ENTRY_FRAME">FSOUND_DSP_PRIORITIES</A><BR>
+<A HREF="FSOUND_INIT_FLAGS.html#" TARGET="ENTRY_FRAME">FSOUND_INIT_FLAGS</A><BR>
+<A HREF="FSOUND_MISC_VALUES.html#" TARGET="ENTRY_FRAME">FSOUND_MISC_VALUES</A><BR>
+<A HREF="FSOUND_MODES.html#" TARGET="ENTRY_FRAME">FSOUND_MODES</A><BR>
+<A HREF="FSOUND_REVERB_CHANNELFLAGS.html#" TARGET="ENTRY_FRAME">FSOUND_REVERB_CHANNELFLAGS</A><BR>
+<A HREF="FSOUND_REVERB_FLAGS.html#" TARGET="ENTRY_FRAME">FSOUND_REVERB_FLAGS</A><BR>
+<A HREF="FSOUND_REVERB_PRESETS.html#" TARGET="ENTRY_FRAME">FSOUND_REVERB_PRESETS</A><BR>
+<A HREF="FSOUND_STATUS_FLAGS.html#" TARGET="ENTRY_FRAME">FSOUND_STATUS_FLAGS</A><BR>
+</div>
+<div id=FSOUNDEnumskeyplus style="display">
+<span id=FSOUNDEnums class=Outline style="cursor: hand; ">+ </span>
+<A HREF="FSOUND.html#Enums" TARGET="ENTRY_FRAME"><u id=FSOUNDEnums class=Outline style="cursor: hand; ">Enums</u></A><BR>
+</div>
+<div id=FSOUNDEnumskeyminus style="display:none">
+<span id=FSOUNDEnums class=Outline style="cursor: hand; ">- </span>
+<A HREF="FSOUND.html#Enums" TARGET="ENTRY_FRAME"><u id=FSOUNDEnums class=Outline style="cursor: hand; ">Enums</u></A><BR>
+</div>
+
+<div id=FSOUNDEnumsdetails style="display:None; position:relative; left:12;">
+<A HREF="FMOD_ERRORS.html#" TARGET="ENTRY_FRAME">FMOD_ERRORS</A><BR>
+<A HREF="FMUSIC_TYPES.html#" TARGET="ENTRY_FRAME">FMUSIC_TYPES</A><BR>
+<A HREF="FSOUND_FX_MODES.html#" TARGET="ENTRY_FRAME">FSOUND_FX_MODES</A><BR>
+<A HREF="FSOUND_MIXERTYPES.html#" TARGET="ENTRY_FRAME">FSOUND_MIXERTYPES</A><BR>
+<A HREF="FSOUND_OUTPUTTYPES.html#" TARGET="ENTRY_FRAME">FSOUND_OUTPUTTYPES</A><BR>
+<A HREF="FSOUND_SPEAKERMODES.html#" TARGET="ENTRY_FRAME">FSOUND_SPEAKERMODES</A><BR>
+<A HREF="FSOUND_STREAM_NET_STATUS.html#" TARGET="ENTRY_FRAME">FSOUND_STREAM_NET_STATUS</A><BR>
+<A HREF="FSOUND_TAGFIELD_TYPE.html#" TARGET="ENTRY_FRAME">FSOUND_TAGFIELD_TYPE</A><BR>
+</div>
+</div>
+	<script language=JavaScript>
+	function clickHandler()
+	{
+	  var targetId, srcElement, targetElement;
+	  srcElement = window.event.srcElement;
+	  if (srcElement.className == "Outline")
+	  {
+		 targetId = srcElement.id + "details";
+		 targetElement = document.all(targetId);
+		 if (targetElement.style.display == "none")
+		 {
+			targetElement.style.display = "";
+		 }
+		 else
+		 {
+			targetElement.style.display = "none";
+		 }
+		 targetId = srcElement.id + "keyminus";
+		 targetElement = document.all(targetId);
+		 if (targetElement.style.display == "none")
+		 {
+			targetElement.style.display = "";
+		 }
+		 else
+		 {
+			targetElement.style.display = "none";
+		 }
+		 targetId = srcElement.id + "keyplus";
+		 targetElement = document.all(targetId);
+		 if (targetElement.style.display == "none")
+		 {
+			targetElement.style.display = "";
+		 }
+		 else
+		 {
+			targetElement.style.display = "none";
+		 }
+	  }
+	}
+	document.onclick = clickHandler;
+	</script>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Thu Dec 15 17:31:25 2005
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

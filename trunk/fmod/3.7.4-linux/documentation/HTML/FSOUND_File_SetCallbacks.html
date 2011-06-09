@@ -1,0 +1,96 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_File_SetCallbacks</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_DSPCALLBACK.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_FREECALLBACK.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_File_SetCallbacks">FSOUND_File_SetCallbacks</A></H2>
+Specify user callbacks for FMOD's internal file manipulation functions.<BR>
+If ANY of these parameters are NULL, then FMOD will switch back to its own file routines.<BR>
+You can replace this with memory routines (ie name can be cast to a memory address for example, then open sets up<BR>
+a handle based on this information), or alternate file routines, ie a WAD file reader.<BR>
+<P>
+<B>DLL_API void F_API </B><B> </B><B>FSOUND_File_SetCallbacks</B><B>(</B><BR>
+<B>FSOUND_OPENCALLBACK </B><B> </B><I>useropen</I><B>,</B><BR>
+<B>FSOUND_CLOSECALLBACK </B><B> </B><I>userclose</I><B>,</B><BR>
+<B>FSOUND_READCALLBACK </B><B> </B><I>userread</I><B>,</B><BR>
+<B>FSOUND_SEEKCALLBACK </B><B> </B><I>userseek</I><B>,</B><BR>
+<B>FSOUND_TELLCALLBACK </B><B> </B><I>usertell</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>OpenCallback</I></TD>
+<TD>Callback for opening a file.<BR>
+</TD><TR VALIGN=top><TD><I>CloseCallback</I></TD>
+<TD>Callback for closing a file.<BR>
+</TD><TR VALIGN=top><TD><I>ReadCallback</I></TD>
+<TD>Callback for reading from a file.  <BR>
+</TD><TR VALIGN=top><TD><I>SeekCallback</I></TD>
+<TD>Callback for seeking within a file..<BR>
+</TD><TR VALIGN=top><TD><I>TellCallback</I></TD>
+<TD>Callback for returning the offset from the base of the open file in bytes.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+void<BR>
+<H3>Remarks</H3>
+Memory loader FMOD functions are not affected, such as FMUSIC_LoadSongMemory etc.<BR>
+WARNING : This function is dangerous in the wrong hands.  You must return the right values, and each command must work properly, or FMOD will not function, or it may even crash if you give it invalid data.<BR>
+You must support SEEK_SET, SEEK_CUR and SEEK_END properly, or FMOD will not work properly.  See standard I/O help files on how these work under fseek().<BR>
+Read the documentation in REMARKS and do exactly what it says.  See the "simple" example for how it is used properly.<BR>
+The MIDI loader does not support user file callbacks.  For WAD type data structures with embedded MIDI files FMUSIC_LoadSongMemory will have to be used.<BR>
+--------------<BR>
+PlayStation 2 NOTE!  This function takes IOP function pointers, not EE pointers!  It is for custom IOP file systems not EE based ones.<BR>
+This function can only be called after FSOUND_Init on PlayStation 2, not before.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, PlayStation 2, XBox, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FMUSIC_LoadSong.html">FMUSIC_LoadSong</A>
+, 
+<A HREF="FSOUND_CLOSECALLBACK.html">FSOUND_CLOSECALLBACK</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+, 
+<A HREF="FSOUND_OPENCALLBACK.html">FSOUND_OPENCALLBACK</A>
+, 
+<A HREF="FSOUND_READCALLBACK.html">FSOUND_READCALLBACK</A>
+, 
+<A HREF="FSOUND_SEEKCALLBACK.html">FSOUND_SEEKCALLBACK</A>
+, 
+<A HREF="FSOUND_TELLCALLBACK.html">FSOUND_TELLCALLBACK</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

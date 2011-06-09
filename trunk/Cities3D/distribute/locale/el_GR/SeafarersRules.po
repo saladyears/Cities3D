@@ -1,0 +1,304 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cities3D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-07-08 16:03-0700\n"
+"Last-Translator: Horse Whisperer <c3d_horsewhisperer@yahoo.com>\n"
+"Language-Team: Horse Whisperer <c3d_horsewhisperer@yahoo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+
+#: HiddenTilesStats.cpp:32
+msgid "Discovery"
+msgstr ""
+
+#: RepeatingBonusStats.cpp:32 SingleBonusStats.cpp:32
+msgid "Bonus"
+msgstr ""
+
+#: SeafarersStats.cpp:32 Strings.cpp:272
+msgid "Ships"
+msgstr "Πλοίο"
+
+#: SeafarersStats.cpp:34
+#, fuzzy
+msgid "Ships Moved"
+msgstr "Πλοίο"
+
+#: Strings.cpp:258
+#, fuzzy
+msgid "Build a ship"
+msgstr "ο/η %s ακυρώνει την τοποθέτηση του πλοίου."
+
+#: Strings.cpp:259
+msgid "Change the starting stock amount of ships."
+msgstr ""
+
+#: Strings.cpp:260
+msgid "Chipless tiles"
+msgstr ""
+
+#: Strings.cpp:261
+msgid "Extra Point"
+msgstr "Πρόσθετο σημείo"
+
+#: Strings.cpp:262
+msgid "Hidden tiles"
+msgstr ""
+
+#: Strings.cpp:263
+#, fuzzy
+msgid "Move a ship"
+msgstr "ο/η %s ακυρώνει την τοποθέτηση του πλοίου."
+
+#: Strings.cpp:264
+msgid "No initial roads along the coast"
+msgstr ""
+
+#: Strings.cpp:265
+msgid "1, then 2 VPs for colonies"
+msgstr ""
+
+#: Strings.cpp:266
+msgid "1 VP for colonies"
+msgstr ""
+
+#: Strings.cpp:267
+msgid "Pirate"
+msgstr "Πειρατής"
+
+#: Strings.cpp:268
+msgid "Players place ports"
+msgstr ""
+
+#: Strings.cpp:269
+msgid "Random"
+msgstr "Τυχαίος"
+
+#: Strings.cpp:270
+msgid "Seafarers"
+msgstr ""
+
+#: Strings.cpp:271
+msgid "Ship"
+msgstr "Πλοίο"
+
+#: Strings.cpp:273
+#, fuzzy
+msgid "Stock ships"
+msgstr "Πλοίο"
+
+#: Strings.cpp:274
+msgid "Trade routes"
+msgstr ""
+
+#: Strings.cpp:277
+#, fuzzy, c-format
+msgid "%s, choose a player to steal from, or click the pirate to not steal."
+msgstr "Επιλέξτε έναν παίκτι από ποιον να κλέψτε μια κάρτα, %s."
+
+#: Strings.cpp:278
+#, c-format
+msgid "%s gains 1 trade route point."
+msgstr ""
+
+#: Strings.cpp:279
+#, c-format
+msgid "%s gains %d trade route points."
+msgstr ""
+
+#: Strings.cpp:280
+#, fuzzy, c-format
+msgid "%d ships"
+msgstr "Πλοίο"
+
+#: Strings.cpp:281
+#, c-format
+msgid "%s loses 1 trade route point."
+msgstr ""
+
+#: Strings.cpp:282
+#, c-format
+msgid "%s loses %d trade route points."
+msgstr ""
+
+#: Strings.cpp:283
+#, fuzzy, c-format
+msgid "%s moves a ship."
+msgstr "ο/η %s ακυρώνει την τοποθέτηση του πλοίου."
+
+#: Strings.cpp:284
+#, fuzzy, c-format
+msgid "%s, move your ship."
+msgstr "Τοποθετήστε ένα πλοίο, %s."
+
+#: Strings.cpp:285
+#, c-format
+msgid "%s, orient the port harbor."
+msgstr "Προσανατολίστε το λιμάνι, %s."
+
+#: Strings.cpp:286
+#, c-format
+msgid "%s, place a port harbor."
+msgstr "Τοποθετήστε ένα λιμάνι, %s."
+
+#: Strings.cpp:287
+#, c-format
+msgid "%s, place a road or a ship."
+msgstr "Τοποθετήστε ένα πλοίο ή ένα δρόμο, %s."
+
+#: Strings.cpp:288
+#, c-format
+msgid "%s, place a ship."
+msgstr "Τοποθετήστε ένα πλοίο, %s."
+
+#: Strings.cpp:289
+#, c-format
+msgid "%s places a port harbor."
+msgstr "ο/η %s τοποθετεί ένα λιμάνι."
+
+#: Strings.cpp:290
+#, c-format
+msgid "%s places a ship."
+msgstr "ο/η %s τοποθετεί ένα πλοίο."
+
+#: Strings.cpp:291
+#, fuzzy, c-format
+msgid "%s, place the pirate."
+msgstr "Τοποθετήστε τον λιστή ή τον πειρατή, %s."
+
+#: Strings.cpp:292
+#, c-format
+msgid "%s, place the robber or pirate."
+msgstr "Τοποθετήστε τον λιστή ή τον πειρατή, %s."
+
+#: Strings.cpp:293
+#, c-format
+msgid "%s receives 1 bonus point for colonizing a new island."
+msgstr ""
+
+#: Strings.cpp:294
+#, c-format
+msgid "%s receives %d bonus points for colonizing a new island."
+msgstr ""
+
+#: Strings.cpp:295
+#, c-format
+msgid "%s receives 1 %s for discovering new land."
+msgstr ""
+
+#: Strings.cpp:296
+#, c-format
+msgid "%s, select a chip from the mainland."
+msgstr ""
+
+#: Strings.cpp:297
+#, fuzzy, c-format
+msgid "%s, select a ship to move."
+msgstr "Τοποθετήστε ένα πλοίο, %s."
+
+#: Strings.cpp:298
+#, c-format
+msgid "%s steals nothing."
+msgstr "ο/η %s δεν κλέβει τίποτα."
+
+#: Strings.cpp:299
+#, c-format
+msgid "%s takes a %d from the mainland."
+msgstr ""
+
+#: Strings.cpp:300
+#, c-format
+msgid "%s undoes a ship."
+msgstr "ο/η %s ακυρώνει την τοποθέτηση του πλοίου."
+
+#: Strings.cpp:301
+#, fuzzy, c-format
+msgid "%s undoes a ship move."
+msgstr "ο/η %s ακυρώνει την τοποθέτηση του πλοίου."
+
+#: Strings.cpp:302
+#, c-format
+msgid "Waiting for %s to orient the port harbor."
+msgstr "Περιμένουμε τον/την %s να προσανατολίσει το λιμάνι."
+
+#: Strings.cpp:303
+#, c-format
+msgid "Waiting for %s to place a port harbor."
+msgstr "Περιμένουμε τον/την %s να προσανατολίσει το λιμάνι."
+
+#: Strings.cpp:304
+#, c-format
+msgid "Waiting for %s to place a road or a ship."
+msgstr "Περιμένουμε τον/την %s να τοποθετήσει ένα πλοίο ή ένα δρόμο."
+
+#: Strings.cpp:305
+#, c-format
+msgid "Waiting for %s to place a ship."
+msgstr "Περιμένουμε τον/την %s να τοποθετήσει ένα πλοίο."
+
+#: Strings.cpp:306
+#, fuzzy, c-format
+msgid "Waiting for %s to place the pirate."
+msgstr "Περιμένουμε τον/την %s για να τοποθετήσει τον λιστή ή τον πειρατή."
+
+#: Strings.cpp:307
+#, c-format
+msgid "Waiting for %s to place the robber or pirate."
+msgstr "Περιμένουμε τον/την %s για να τοποθετήσει τον λιστή ή τον πειρατή."
+
+#: Strings.cpp:308
+#, fuzzy, c-format
+msgid "Waiting for %s to select a chip from the mainland."
+msgstr "Περιμένουμε τον/την %s για να κλέψει μια κάρτα."
+
+#: Strings.cpp:309
+#, fuzzy, c-format
+msgid "Waiting for %s to select a ship to move."
+msgstr "Περιμένουμε τον/την %s να τοποθετήσει ένα πλοίο."
+
+#: Strings.cpp:310
+#, fuzzy, c-format
+msgid "Waiting for %s to move a ship."
+msgstr "Περιμένουμε τον/την %s να τοποθετήσει ένα πλοίο."
+
+#: Strings.cpp:311
+#, c-format
+msgid "Waiting for %s to steal a card."
+msgstr "Περιμένουμε τον/την %s για να κλέψει μια κάρτα."
+
+#: TradeRoutesStats.cpp:32
+msgid "Trade Routes"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Ships:"
+#~ msgstr "Πλοίο"
+
+#~ msgid "Gold"
+#~ msgstr "Χρυσός"
+
+#, fuzzy
+#~ msgid "%d %s"
+#~ msgstr "Πλοίο"
+
+#, fuzzy
+#~ msgid "Waiting for %s to spend gold."
+#~ msgstr "Περιμένουμε τον/την %s για να κλέψει μια κάρτα."

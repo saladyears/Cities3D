@@ -1,0 +1,113 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_3D_Listener_GetAttributes</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_3D_GetMinMaxDistance.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_3D_Listener_SetAttributes.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_3D_Listener_GetAttributes">FSOUND_3D_Listener_GetAttributes</A></H2>
+This retrieves the position, velocity and orientation of a 3d sound listener.<BR>
+<P>
+<B>void F_API </B><B> </B><B>FSOUND_3D_Listener_GetAttributes</B><B>(</B><BR>
+<B>F_FLOAT_API *</B><I>pos</I><B>,</B><BR>
+<B>F_FLOAT_API *</B><I>vel</I><B>,</B><BR>
+<B>F_FLOAT_API *</B><I>fx</I><B>,</B><BR>
+<B>F_FLOAT_API *</B><I>fy</I><B>,</B><BR>
+<B>F_FLOAT_API *</B><I>fz</I><B>,</B><BR>
+<B>F_FLOAT_API *</B><I>tx</I><B>,</B><BR>
+<B>F_FLOAT_API *</B><I>ty</I><B>,</B><BR>
+<B>F_FLOAT_API *</B><I>tz</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>pos</I></TD>
+<TD>Pointer to a position vector (xyz float triplet), of the listener in world space, <BR>
+measured in distance units.<BR>
+This can be NULL to ignore it.<BR>
+</TD><TR VALIGN=top><TD><I>vel</I></TD>
+<TD>Pointer to a velocity vector (xyz float triplet), of the listener measured in <BR>
+distance units PER SECOND.<BR>
+This can be NULL to ignore it.<BR>
+</TD><TR VALIGN=top><TD><I>fx</I></TD>
+<TD>pointer to x component of a FORWARD unit length orientation vector<BR>
+This can be NULL to ignore it.<BR>
+</TD><TR VALIGN=top><TD><I>fy</I></TD>
+<TD>pointer to y component of a FORWARD unit length orientation vector<BR>
+This can be NULL to ignore it.<BR>
+</TD><TR VALIGN=top><TD><I>fz</I></TD>
+<TD>pointer to z component of a FORWARD unit length orientation vector<BR>
+This can be NULL to ignore it.<BR>
+</TD><TR VALIGN=top><TD><I>tx</I></TD>
+<TD>pointer to x component of a TOP or upwards facing unit length orientation vector<BR>
+This can be NULL to ignore it.<BR>
+</TD><TR VALIGN=top><TD><I>ty</I></TD>
+<TD>pointer to y component of a TOP or upwards facing unit length orientation vector<BR>
+This can be NULL to ignore it.<BR>
+</TD><TR VALIGN=top><TD><I>tz</I></TD>
+<TD>pointer to z component of a TOP or upwards facing unit length orientation vector<BR>
+This can be NULL to ignore it.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+FSOUND treats +X as right, +Y as up, and +Z as forwards.  (left handed)<BR>
+To map to your own coordinate system, flip and exchange these values.  For example if you wanted to use	right handed coordinates, you would negate the Z value of your own direction vector.<BR>
+Orientation vectors are expected to be of UNIT length. This means the magnitude of the vector should be 1.0f.<BR>
+---------<BR>
+A 'distance unit' is specified by FSOUND_3D_SetDistanceFactor.  By default this is set to meters which is a distance scale of 1.0.  <BR>
+See FSOUND_3D_SetDistanceFactor for more on this.<BR>
+---------<BR>
+Please remember to use units PER SECOND, NOT PER FRAME as this is a common mistake.  <BR>
+Do not just	use (pos - lastpos) from the last frame's data for velocity, as this is not correct.  <BR>
+You need to time compensate it so it is given in units per SECOND.<BR>
+You could alter your pos - lastpos calculation to something like this. <BR>
+vel = (pos-lastpos) / (time taken since last frame in seconds). <BR>
+I.e. at 60fps the formula would look like this <BR>
+vel = (pos-lastpos) / 0.0166667.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_3D_Listener_SetCurrent.html">FSOUND_3D_Listener_SetCurrent</A>
+, 
+<A HREF="FSOUND_3D_SetAttributes.html">FSOUND_3D_SetAttributes</A>
+, 
+<A HREF="FSOUND_3D_SetDistanceFactor.html">FSOUND_3D_SetDistanceFactor</A>
+, 
+<A HREF="FSOUND_3D_SetDopplerFactor.html">FSOUND_3D_SetDopplerFactor</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:58 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

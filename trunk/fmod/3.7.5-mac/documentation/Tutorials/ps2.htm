@@ -1,0 +1,300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>PlayStation 2 - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>PLAYSTATION 2 SPECIFIC ISSUES / FEATURES</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This section describes how to get started with FMOD for PS2, and also some of the PS2 specific features available.<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Getting Started&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		This section describes what you will need to link, and what you need to call to get up and running for PS2 specifically.<br>
+		<br>
+		<b>What to link and loading modules.</b><br>
+		<br>
+		<li>Link <b>/api/lib/fmod.a</b> into your project.
+		<li>Put <b>/api/fmod.irx</b> into your modules directory.  You have to load the IRX yourself using sceSifLoadModule.  More about this follows.<br>
+		<br>
+		A simple PlayStation 2 application has to do the following to use FMOD.<br>
+		<br>
+		<b>1.</b><br>
+		<ul>
+			Load <b>fmod.irx</b> and sony's <b>libsd.irx</b>.  This is done from host0 or cdrom0 or whatever file device you store your files on.<br>
+			Load libsd first, then fmod.<br>
+			<br>
+			eg. <br>
+			<b>
+			<ul>
+				while (sceSifLoadModule(host0:modules/libsd.irx", 0, NULL) < 0) <br>
+				{<br>
+				<ul>
+					printf("loading libsd.irx failed\n");<br>
+				</ul>
+				}<br>
+					while (sceSifLoadModule("host0:modules/fmod.irx", 0, NULL) < 0) <br>
+				{<br>
+				<ul>
+					printf("loading fmod.irx failed\n");<br>
+				</ul>
+				}<br>
+			</ul>
+			</b>
+			<br>
+			Note that the default position for libsd.irx is at /usr/local/sce/iop/modules/ but it may differ on your machine.<br>
+			<br>
+			<b>What does each module do?</b><br>
+			<li>libsd.irx    - This is a sony irx that contains the low level hardware routines needed by fmod.irx.
+			<li>fmod.irx     - This is the fmod library and contains the majority of the functionality.
+		</ul>
+		<b>2.</b>
+		<ul>
+			Remember to Initialize the IOP heap with sceSifInitIopHeap(). <br>
+			This is to be called after the call to sceSifInitRpc(0) and before loading any modules.<br>
+			<br>
+			eg.<br>
+			<b>
+			sceSifInitRpc(0);<br>
+			sceSifInitIopHeap();<br>
+			</b>
+			<br>
+			<b>WARNING!</b> If you reboot the IOP you have to call the above again!!!  Otherwise FMOD will fail to initialize.<br>
+		</ul>
+		<b>3.</b>
+		<ul>
+		Call <b><a href="../HTML/FSOUND_Init.html">FSOUND_Init</a></b> and proceed programming with the FMOD API as you would on any other platform.<br>
+		On PS2, you must call <b><a href="../HTML/FSOUND_Update.html">FSOUND_Update</a></b> to get commands to issue.<br>
+		<br>
+		Mismatching fmod.a and fmod.irx versions are not tolerated.  <br>
+		FMOD will fail to initialize if they are from different releases of FMOD.<br>
+		<br>
+		</ul>
+		<br>
+		<b>Release / Debug.</b><br>
+		<br>
+		fmod.irx and fmodD.irx have been supplied.  fmodD.irx is debug, and slower, and prints out a log of FMOD progress, along with english explanations on errors if they occur.<br>
+		<br>
+		<br>
+		<b>Stripped / Non stripped.</b><br>
+		<br>
+		You may notice there is also fmod_small.irx and fmodD_small.irx.  These versions use less IOP ram than the full versions, but only because they have features removed.<br>
+		These features are removed in the _small versions.<br>
+		<br>
+		.MOD, .S3M, .XM, .IT, .WAV and .VAG support.  Note for .VAG support, this is talking about the file format, so FSB "VAG" support still exists.<br>
+		<br>
+		Normal streaming (with FSB files), 3d sound and sample management remains.<br>
+		<br>
+		<br>
+		<b>EE Thread Priority.</b><br>
+		<br>
+		Note that if the EE main thread priority is not changed from the default of 1, FMOD	will change it to 32.<br>
+		No thread can start when the default priority is 1 so this is nescessary. <br>
+		FMOD uses 1 thread to receive messages from the IOP.<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Formats supported - hardware / software&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		FMOD PS2 supports .VAG and .WAV, although <b>FSB</b> is the highly recommended format, see the next section on FSB files for more information about this.<br>
+		.VAG is mixed in hardware and .WAV is mixed in software. .WAV mixing in software uses IOP processing time.<br>
+		 At the moment, depending on quality settings, FMOD can only mix around 12-20 channels of PCM data at once.<br>
+		<br>
+		.MOD .S3M .XM and .IT music formats are supported, and are mixed in software.  <br>
+		Again currently only mods with 12-20 channels or less are recommended due to the CPU strain on the 33mhz IOP processor.  <br>
+		32 channel mods should be supported after more optimizations.<br>
+		<br>
+		<b>Software mixing speed on the IOP.</b><br>
+		<br>
+		Using FSOUND_Mixer with one of the following controls the number of channels available in software.  
+		Remember hardware mixing is preferred so you may not have to encounter this issue.<br>
+		<br>
+		 - FSOUND_MIXER_AUTODETECT          (non interpolating stereo output          - fast)<br>
+		 - FSOUND_MIXER_QUALITY_AUTODETECT  (high quality interpolating stereo output - slowest)<br>
+		 - FSOUND_MIXER_MONO                (non interpolating mono output            - fastest)<br>
+		 - FSOUND_MIXER_QUALITY_MONO        (high quality interpolating mono output   - slow)<br>
+		<br>
+		<a href="../HTML/FSOUND_Init.html">FSOUND_Init</a> on the PS2 accepts 24000 or 48000.  24000 is lower quality but increases the possible channel count significantly.<br>
+		FMOD will not support other output rates! Do not try and use them!  (erroneous rates just case the output rate to go to 48000)<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">The FSB format - The recommended format for samples and streams.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		Although .WAV and .VAG formats are supported, for loading speed, and streaming speed it is highly recommended to use .FSB files.<br>
+		FSB is hardware accelerated, WAV is not.<br>
+		<br>
+		These are compiled batches of native PlayStation 2 SPU2 sound data, arranged so when loaded, it is one read to load the headers first, then the raw vag data (which is continuous), which is streamed into SPU2 ram.  This is the fastest way to load sound data.<br>
+		<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Memory managment.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		<b>IOP Memory.</b><br>
+		<br>
+		Upon calling <b><a href="../HTML/FSOUND_Init.html">FSOUND_Init</a></b>, FMOD allocates ALL remaining memory on the IOP.  <br>
+		This is so FMOD can store sounds in IOP ram if needed.<br>
+		If you want to limit FMOD's IOP memory usage, simply call <b><a href="../HTML/FSOUND_SetMemorySystem.html">FSOUND_SetMemorySystem</a></b>.<br>
+		<br>
+		ie.<br>
+		<b><a href="../HTML/FSOUND_SetMemorySystem.html">FSOUND_SetMemorySystem</a>(NULL, 128*1024, NULL, NULL, NULL);</b><br>
+		<br>
+		This will force FMOD to only use 128kb of IOP memory.<br>
+		Note that setting too low a value will cause FMOD to fail in its internal system memory allocations and <b><a href="../HTML/FSOUND_Init.html">FSOUND_Init</a></b> could even fail.<br>
+		<br>
+		<b>EE Memory.</b><br>
+		<br>
+		The EE memory footprint is minimal.  There is <b>no dynamic memory allocation on the EE</b>.<br>
+		The EE library is simply a command layer wrapping all FMOD api functions, and uses nothing but static structures and memory to avoid malloc/free/new/delete issues on the EE side.<br>
+		It uses this library to pass commands to the IOP for processing on that CPU.<br>
+		<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Reverb.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		You have access to the hardware PlayStation 2 SPU2 reverb through FMOD's FSOUND_Reverb_xxx API.<br>
+		Note that the SPU2 Reverb is a lot more primitive than I3DL2 reverb and EAX3.<br>
+		In the FSOUND_REVERB_PROPERTIES structure, only Environment, Room and Flags are supported.<br>
+		<br>
+		<b>'Environment'</b>
+		<ul>
+			This is a value between 0 and 9 mapping to the sony reverb modes.<br>
+			You will find 9 special presets for the PlayStation 2 with this environment value set accordingly. <br>
+			ie<br>
+			FSOUND_PRESET_PS2_ROOM    <br>
+			FSOUND_PRESET_PS2_STUDIO_A<br>
+			FSOUND_PRESET_PS2_STUDIO_B<br>
+			FSOUND_PRESET_PS2_STUDIO_C<br>
+			FSOUND_PRESET_PS2_HALL    <br>
+			FSOUND_PRESET_PS2_SPACE   <br>
+			FSOUND_PRESET_PS2_ECHO    <br>
+			FSOUND_PRESET_PS2_DELAY   <br>
+			FSOUND_PRESET_PS2_PIPE    <br>
+			The other presets will not work, except for FSOUND_PRESET_OFF.<br>
+		</ul>
+		<b>'Room'</b>
+		<ul>
+			This still controls the amount of reverb mixed into the output.<br>
+			Normally it is in decibels, between -10000 (silent) and 0 (full volume), and it is the same range on the PlayStation 2, but it is a linear scale between -10000 and 0, not a logarithmic one.<br>
+		</ul>
+		<b>'Flags'</b>
+		<ul>
+			This only utilizes the following fields on PlayStation 2.<br>
+			FSOUND_REVERB_FLAGS_CORE0 (hardware voices 0 to 23)<br>
+			FSOUND_REVERB_FLAGS_CORE1 (hardware voices 24 to 47)<br>
+			This tells the FMOD engine which core, or set of hardware voices to apply the reverb settings to.  <br>
+			By default (in the presets) it is set to apply to both cores, but you can remove these flags to control each core seperately.<br>
+		</ul>
+		<br>
+		Note that <b><a href="../HTML/FSOUND_Reverb_SetChannelProperties.html">FSOUND_Reverb_SetChannelProperties</a></b> is supported through the 'Room' parameter only,<br>
+		and that this value is binary, ie -10000 is 'reverb off' for the channel, and anything else is 'reverb on'.<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">FSOUND_SetDiskBusy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		This function is usually not optional and is essential for smooth running disk cooperation between fmod and the game.<br>
+		This function causes mutual exclusion for the cdrom or host0 so that you don't get read errors when trying to access the disk while fmod is playing a stream or accessing the disk in some manner (ie opening a bank or stream in FSOUND_NONBLOCKING mode)<br>
+		In your game code you would do something like this: <br>
+		<br>
+		<b>
+		FSOUND_SetDiskBusy(TRUE); <br>
+		sceRead(...); <br>
+		FSOUND_SetDiskBusy(FALSE); <br>
+		</b>
+		<br>
+		This will block on a semaphore in <b>FSOUND_SetDiskBusy(TRUE)</b> if fmod is using the disk, and if it enters and executes the sceRead/sceCdRead, fmod will not access the disk, and instead wait until it is available to use again.<br>
+		Note - if you set this for too long, audio streams may start to skip / stutter, because FMOD didnt get enough time to fill its audio buffer. Make sure you either split up your own reads into smaller chunks, or make a bigger buffersize for FMOD to use with FSOUND_Stream_SetBufferSize.<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Dolby Prologic 2 output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		Use <b><a href="../HTML/FSOUND_SetSpeakerMode.html">FSOUND_SetSpeakerMode</a>(FSOUND_SPEAKERMODE_PROLOGIC2)</b> or <b><a href="../HTML/FSOUND_SetSpeakerMode.html">FSOUND_SetSpeakerMode</a>(FSOUND_SPEAKERMODE_PROLOGIC2_INTERIOR)</b> to enable 5.1 surround sound on ps2.<br>
+		The interior mode uses twice as many hardware voices (meaning you effectively only get 24 voices instead of 48), but allows sounds to smoothly move from left to right and vice versa, where the normal mode will 'jump' from one speaker to the other if running straight along the X axis. <br>
+		It is a tradeoff between voices and quality, if you need to, you should evaluate both methods to see which works better.<br>
+		Note on a stereo sound system, the interior 2 voice method will cause a phasing effect, which can sound odd or bad, it is really meant for a prologic 2 system. <br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Volume ramping&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		Most games released on the ps2 (not using FMOD) make click and pop noises because the hardware doesn't support smooth volume or pan changes.<br>
+		FMOD has implemented an advanced ramping system that not many people know about or are too put off by the difficulty of the method.<br>
+		You can enable this as a flag in <b><a href="../HTML/FSOUND_Init.html">FSOUND_Init</a></b> using the <b>FSOUND_INIT_PS2_USEVOLUMERAMPING</b> flag.<br>
+		Turning this on will reduce hardware clicks or remove them, producing clean sounding audio, giving you an advantage over your competitors!<br>
+	</UL>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

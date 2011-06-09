@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>3D Sound Tutorial - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>SPECTRUM ANALYSIS</H1>
+
+	<IMG src="spectrum.jpg">
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This short section reveals how easy it is to obtain the realtime spectrum graph for FMOD's DSP output as you hear it, for graphical display or even advanced signal processing!
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Using it&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	The spectrum analysis unit is an FMOD System DSP Unit.  If you are unsure of the FMOD DSP system then see the DSP tutorial.<br>
+	By default it is turned off because it can consume a reasonable amount of cpu time and it doesn't want to be doing Fast Fourier Transform code when the spectrum isn't even being queried!<br>
+	To turn it on is quite simple.  Just call.<br>
+	<br>
+	<b><a href="../HTML/FSOUND_DSP_SetActive.html">FSOUND_DSP_SetActive</a>(<a href="../HTML/FSOUND_DSP_GetFFTUnit.html">FSOUND_DSP_GetFFTUnit</a>, TRUE);</b><br>
+	<br>
+	To turn it off again is just as simple.  Just call.<br>
+	<br>
+	<b>FSOUND_DSP_SetActive(FSOUND_DSP_GetFFTUnit(), FALSE);</b><br>
+	<br>
+	When your audio is playing, this DSP unit will every 25ms, or the rate of the DSP engine, update a snapshot of the current audible spectrum.<br>
+	<br>
+	The range for this FFT produces a spectrum array between 1hz and Nyquist, or in other words, 1hz and the sample rate given to <a href="../HTML/FSOUND_Init.html">FSOUND_Init</a> divided by 2.<br>
+	If you had a 44khz output it would produce results up to 22khz.<br>
+	<br>
+	To get the spectrum, use <a href="../HTML/FSOUND_DSP_GetSpectrum.html">FSOUND_DSP_GetSpectrum</a>.  As the documentation for this function says, it returns a pointer to an array of 512 floating point values between 0.0 and 1.0.<br>
+	Simply plot these values, scaling the 0 to 1 value to the height of your spectrum display, or process them for things like beat detection etc.  Values above 11khz (when initialized with 44khz) become very small and are some times graphically not very interesting.  The FMOD media player only plots the first 256 entries because of this.  It is up to you how you interpret the data.<br>
+	If you want a different size window beside 512 then simply interpolate, disregard or skip entries and average them to your desired range.  Different window sizes for the current FFT are not planned for future releases of FMOD.<br>
+	<br>
+	<b>NOTE:</b> You can change the position of the system FFT DSP unit.  It is currently positioned last in the chain of DSP units by default so that the spectrum results in feedback from everything played through the FMOD software engine.
+	See <a href="../HTML/FSOUND_DSP_PRIORITIES.html">FSOUND_DSP_PRIORITIES</a> for the relative system DSP unit priorities.  You could move it to before the music unit and after the SFX unit for example, which would exclude mods from having its input into the spectrum graph.  It would be achieved like this<br>
+	<b>FSOUND_DSP_SetPriority(FSOUND_DSP_GetFFTUnit(), 150);</b>
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">What happens if I want to get a Spectrum but use FSOUND_FX? Aren't the 2 incompatible?.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+
+	It is possible but with some limitations, See <a href="dx8fx.htm">this</a> section for more information<br>
+
+
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

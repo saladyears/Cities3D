@@ -1,0 +1,245 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>FSOUND_NONBLOCKING - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>USING THE FSOUND_NONBLOCKING FLAG</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	The <a href="../HTML/FSOUND_MODES.html">FSOUND_NONBLOCKING</a> flag stops certain stream or music commands blocking the caller when being executed, by performing them in a seperate thread.<br>
+	Mainly meant for opening streams and music, to avoid the slowness of disk access generating huge pauses, this flag makes these commands return immediately without affecting the frame-rate at all!<br>
+	The flag must be specified in <a href="../HTML/FSOUND_Stream_Open.html">FSOUND_Stream_Open</a> or <a href="../HTML/FMUSIC_LoadSongEx.html">FMUSIC_LoadSongEx</a> using the mode parameter for it to work.  You cannot use SetMode type functions to make it work, it must be called at the time of opening.<br>
+	<br>
+	This raises new issues though.  You cannot just access a stream or music file that has been opened with the <a href="../HTML/FSOUND_MODES.html">FSOUND_NONBLOCKING</a> flag immediately!  You have to wait for it to open!<br>
+	FMOD does not 'queue' commands to non blocking streams/musics.  This could lead to mis-use and overflows, or even confusion about the state of the stream behaviour at the time, so a polling method is preferred so that the user can control exactly what occurs in what order.<br>
+
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Polling for success&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	The key to working with nonblocking streams and music files is to wait for them to open before playing them.  One method to do this is to poll the state of a stream using <a href="../HTML/FSOUND_Stream_GetOpenState.html">FSOUND_Stream_GetOpenState</a> or <a href="../HTML/FMUSIC_GetOpenState.html">FMUSIC_GetOpenState</a>.<br>
+	Another method is to try and play the stream or access the subsounds continuously in a game loop until it succeeds.<br>
+	<br>
+	While a non blocking stream is opening, nearly all functions will return an error code to signify that the stream is not ready.<br>
+	This means something like <a href="../HTML/FSOUND_Stream_Play.html">FSOUND_Stream_Play</a> will return -1 while it is trying to open the file in the background.<br>
+	When it returns a valid channel handle, you know it is ready and has succeeded!<br>
+	<br>
+	An example for playing a non blocking stream is provided below.  This is a typical loop that should be used when trying to play a non blocking stream.  You will notice, once it succeeds, it won't try and play again because <b>channel</b> is not -1 anymore.
+	<br>
+	<b>
+	<br>
+	FSOUND_STREAM *stream;<br>
+	int channel = -1;<br>
+	<br>
+    stream = <a href="../HTML/FSOUND_Stream_Open.html">FSOUND_Stream_Open</a>("mystream.fsb", FSOUND_NONBLOCKING, 0, 0);<br>
+	<br>
+	do<br>
+	{<br>
+		<UL>
+        if (channel < 0)<br>
+        {<br>
+			<UL>
+            channel = <a href="../HTML/FSOUND_Stream_Play.html">FSOUND_Stream_Play</a>(FSOUND_FREE, stream);<br>
+			</UL>
+        }<br>
+		<br>
+		GameCode();<br>
+		<br>
+		</UL>
+	} while (1)<br>
+	</b>
+	<br>
+	Alternatively you could use the <a href="../HTML/FSOUND_Stream_GetOpenState.html">FSOUND_Stream_GetOpenState</a> method.  This is shown below.<br>
+	<b>
+	<br>
+	FSOUND_STREAM *stream;<br>
+	int channel = -1;<br>
+	<br>
+    stream = <a href="../HTML/FSOUND_Stream_Open.html">FSOUND_Stream_Open</a>("mystream.fsb", FSOUND_NONBLOCKING, 0, 0);<br>
+	<br>
+	do<br>
+	{<br>
+		<UL>
+        if (channel < 0 && <a href="../HTML/FSOUND_Stream_GetOpenState.html">FSOUND_Stream_GetOpenState</a>(stream) < 0)<br>
+        {<br>
+			<UL>
+            channel = <a href="../HTML/FSOUND_Stream_Play.html">FSOUND_Stream_Play</a>(FSOUND_FREE, stream);<br>
+			</UL>
+        }<br>
+		<br>
+		GameCode();<br>
+		<br>
+		</UL>
+	} while (1)<br>
+	</b>
+	<br>
+	It is basically the same thing and slightly redundant.
+	<br>
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">FSB format, substreams and sentences.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	<u><b>
+	Setting SubStreams<br>
+	</b></u>
+	FSB has multiple sounds packed within it, so you might want to use <a href="../HTML/FSOUND_Stream_SetSubStream.html">FSOUND_Stream_SetSubStream</a><br>
+	You don't need to poll to get <a href="../HTML/FSOUND_Stream_SetSubStream.html">FSOUND_Stream_SetSubStream</a> to work.  It has been optimized so that it will immediately seek to the correct substream once the open has finished.  This is a special case for this function, and no other functions allow this.<br>
+	This means you can call it straight away, even after a non blocking stream open.<br>
+	Here is a version of the above loop, that sets a substream.<br>
+	<b>
+	<br>
+	FSOUND_STREAM *stream;<br>
+	int channel = -1;<br>
+	<br>
+
+    stream = <a href="../HTML/FSOUND_Stream_Open.html">FSOUND_Stream_Open</a>("mystream.fsb", FSOUND_NONBLOCKING, 0, 0);<br>
+    <a href="../HTML/FSOUND_Stream_SetSubStream.html">FSOUND_Stream_SetSubStream</a>(stream, SOUND_4);<br>
+	<br>
+	do<br>
+	{<br>
+		<UL>
+		if (channel < 0)<br>
+		{<br>
+			<UL>
+            channel = <a href="../HTML/FSOUND_Stream_Play.html">FSOUND_Stream_Play</a>(FSOUND_FREE, stream);<br>
+			</UL>
+        }<br>
+
+		<br>
+		GameCode();<br>
+		<br>
+		</UL>
+	} while (1)<br>
+	</b>
+	<br>
+	Note that once you call <a href="../HTML/FSOUND_Stream_SetSubStream.html">FSOUND_Stream_SetSubStream</a>, the stream is 'not ready' again.  This may not seem to be relevant if you call it after <a href="../HTML/FSOUND_Stream_Open.html">FSOUND_Stream_Open</a>, because we already knew it was not going to be ready, but if you call it when the stream has actually finished opening and is ready (for example, you may want to set the substream long after the stream has opened, ie 30 seconds later), then you will need to remember this, but the above logic always takes care of it.  You just need to set <b>channel</b> to -1 in the above example whenever you call <a href="../HTML/FSOUND_Stream_SetSubStream.html">FSOUND_Stream_SetSubStream</a> and it will work.<br>
+	<br>
+	<br>
+	<u><b>
+	Setting SubStream Sentences<br>
+	</b></u>
+	Setting a sub-stream-sentence is next , and is slightly trickier.  <a href="../HTML/FSOUND_Stream_SetSubStreamSentence.html">FSOUND_Stream_SetSubStreamSentence</a> does not succeed immediately like <a href="../HTML/FSOUND_Stream_SetSubStream.html">FSOUND_Stream_SetSubStream</a>, and will actually fail if the open is still in progress, so you cannot call it straight after <a href="../HTML/FSOUND_Stream_Open.html">FSOUND_Stream_Open</a> like we did in the previous example.<br>
+	What you have to do is poll for the stream to be in a ready state, then execute <a href="../HTML/FSOUND_Stream_SetSubStreamSentence.html">FSOUND_Stream_SetSubStreamSentence</a>.  Alternatively you can continually call <a href="../HTML/FSOUND_Stream_SetSubStreamSentence.html">FSOUND_Stream_SetSubStreamSentence</a> until it succeeds, a bit like we did with the call to <a href="../HTML/FSOUND_Stream_Play.html">FSOUND_Stream_Play</a> in the previous example.<br>
+	Note the following code<br>
+	<b>
+	<br>
+	FSOUND_STREAM *stream;<br>
+	int channel = -1;<br>
+	int setsentence = 0;<br>
+	<br>
+
+    stream = <a href="../HTML/FSOUND_Stream_Open.html">FSOUND_Stream_Open</a>("mystream.fsb", FSOUND_NONBLOCKING, 0, 0);<br>
+	<br>
+	do<br>
+	{<br>
+		<UL>
+
+        if (!setsentence)<br>
+        {<br>
+			<UL>
+            int sentence[2] = { SOUND_4, SOUND_5 };<br>
+			<br>
+            setsentence = <a href="../HTML/FSOUND_Stream_SetSubStreamSentence.html">FSOUND_Stream_SetSubStreamSentence</a>(stream, sentence, 2);<br>
+			</UL>
+		}<br>
+		else if (channel < 0)<br>
+		{<br>
+			<UL>
+            channel = <a href="../HTML/FSOUND_Stream_Play.html">FSOUND_Stream_Play</a>(FSOUND_FREE, stream);<br>
+            if (channel != -1)<br>
+            {<br>
+				<UL>
+                <a href="../HTML/FSOUND_Stream_SetMode.html">FSOUND_Stream_SetMode</a>(stream, FSOUND_LOOP_NORMAL);		// This is just here as an example.<br>
+				</UL>
+            }<br>
+			</UL>
+        }<br>
+
+		<br>
+		GameCode();<br>
+		<br>
+		</UL>
+	} while (1)<br>
+	</b>
+	<br>
+	<br>
+	Remember at all times, you can use <a href="../HTML/FSOUND_Stream_GetOpenState.html">FSOUND_Stream_GetOpenState</a> just as effectively as continuously polling the command you want to succeed.  It is just slightly less code using the above method.<br>
+	<br>
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Things to look out for&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	<br>
+	If you suspect a file has not opened, or failed to open, poll <a href="../HTML/FSOUND_Stream_GetOpenState.html">FSOUND_Stream_GetOpenState</a>.  This will return the state of the stream, and if it has failed, it will return -3.<br>
+	Note that even though the stream has failed to open, the stream handle is still valid when opening in non-blocking mode.  You will need to close it.<br>
+	<br>
+	The point of <a href="../HTML/FSOUND_MODES.html">FSOUND_NONBLOCKING</a> is that it takes no cpu time away from the caller.  This means it cannot check the validity of a file, as that would constitute disk access, which could block and cause frames to drop from the application.<br>
+	All disk access is done from the FMOD asynchronous loading thread, so if it fails, the user cannot get immediate feedback, they have to check the status seperately.
+	<br>
+	Don't try and close a stream before it is ready!  This will cause a memory leak, as <a href="../HTML/FSOUND_Stream_Close.html">FSOUND_Stream_Close</a> will return FALSE because it is not ready.
+	<br>
+	Check the documentation for each stream function to see if it will fail or not due to not being ready in a non blocking state.
+	</UL>
+
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

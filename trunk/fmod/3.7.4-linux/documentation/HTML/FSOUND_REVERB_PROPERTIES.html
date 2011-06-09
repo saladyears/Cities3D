@@ -1,0 +1,146 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_REVERB_PROPERTIES</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_REVERB_CHANNELPROPERTIES.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_TOC_TAG.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Structures"><H5>[Structure]</A></H5>
+<H2><A NAME="FSOUND_REVERB_PROPERTIES">FSOUND_REVERB_PROPERTIES</A></H2>
+Structure defining a reverb environment.<BR>
+For more indepth descriptions of the reverb properties under win32, please see the EAX2 and EAX3<BR>
+documentation at http://developer.creative.com/ under the 'downloads' section.<BR>
+If they do not have the EAX3 documentation, then most information can be attained from<BR>
+the EAX2 documentation, as EAX3 only adds some more parameters and functionality on top of EAX2.<BR>
+Note the default reverb properties are the same as the FSOUND_PRESET_GENERIC preset.<BR>
+Note that integer values that typically range from -10,000 to 1000 are represented in decibels, and are of a logarithmic scale, not linear, wheras float values are typically linear.<BR>
+PORTABILITY: Each member has the platform it supports in braces ie (win32/xbox).  <BR>
+Some reverb parameters are only supported in win32 and some only on xbox. If all parameters are set then the reverb should product a similar effect on either platform.<BR>
+The numerical values listed below are the maximum, minimum and default values for each variable respectively.<BR>
+<P>
+<H3>Members</H3>
+<TABLE>
+<TR VALIGN=top><TD><B>unsigned int</B></TD>
+<TD><I>Environment</I></TD>
+<TD>/* 0     , 25    , 0      , sets all listener properties (WIN32/PS2 only) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>EnvSize</I></TD>
+<TD>/* 1.0   , 100.0 , 7.5    , environment size in meters (WIN32 only) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>EnvDiffusion</I></TD>
+<TD>/* 0.0   , 1.0   , 1.0    , environment diffusion (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>Room</I></TD>
+<TD>/* -10000, 0     , -1000  , room effect level (at mid frequencies) (WIN32/XBOX/PS2) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>RoomHF</I></TD>
+<TD>/* -10000, 0     , -100   , relative room effect level at high frequencies (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>RoomLF</I></TD>
+<TD>/* -10000, 0     , 0      , relative room effect level at low frequencies (WIN32 only) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>DecayTime</I></TD>
+<TD>/* 0.1   , 20.0  , 1.49   , reverberation decay time at mid frequencies (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>DecayHFRatio</I></TD>
+<TD>/* 0.1   , 2.0   , 0.83   , high-frequency to mid-frequency decay time ratio (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>DecayLFRatio</I></TD>
+<TD>/* 0.1   , 2.0   , 1.0    , low-frequency to mid-frequency decay time ratio (WIN32 only) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>Reflections</I></TD>
+<TD>/* -10000, 1000  , -2602  , early reflections level relative to room effect (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>ReflectionsDelay</I></TD>
+<TD>/* 0.0   , 0.3   , 0.007  , initial reflection delay time (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>ReflectionsPan[3]</I></TD>
+<TD>/*       ,       , [0,0,0], early reflections panning vector (WIN32 only) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>Reverb</I></TD>
+<TD>/* -10000, 2000  , 200    , late reverberation level relative to room effect (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>ReverbDelay</I></TD>
+<TD>/* 0.0   , 0.1   , 0.011  , late reverberation delay time relative to initial reflection (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>ReverbPan[3]</I></TD>
+<TD>/*       ,       , [0,0,0], late reverberation panning vector (WIN32 only) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>EchoTime</I></TD>
+<TD>/* .075  , 0.25  , 0.25   , echo time (WIN32/PS2 only.  PS2 = Delay time for ECHO/DELAY modes only) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>EchoDepth</I></TD>
+<TD>/* 0.0   , 1.0   , 0.0    , echo depth (WIN32/PS2 only.  PS2 = Feedback level for ECHO mode only) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>ModulationTime</I></TD>
+<TD>/* 0.04  , 4.0   , 0.25   , modulation time (WIN32 only) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>ModulationDepth</I></TD>
+<TD>/* 0.0   , 1.0   , 0.0    , modulation depth (WIN32 only) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>AirAbsorptionHF</I></TD>
+<TD>/* -100  , 0.0   , -5.0   , change in level per meter at high frequencies (WIN32 only) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>HFReference</I></TD>
+<TD>/* 1000.0, 20000 , 5000.0 , reference high frequency (hz) (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>LFReference</I></TD>
+<TD>/* 20.0  , 1000.0, 250.0  , reference low frequency (hz) (WIN32 only) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>RoomRolloffFactor</I></TD>
+<TD>/* 0.0   , 10.0  , 0.0    , like FSOUND_3D_SetRolloffFactor but for room effect (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>Diffusion</I></TD>
+<TD>/* 0.0   , 100.0 , 100.0  , Value that controls the echo density in the late reverberation decay. (XBOX only) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>Density</I></TD>
+<TD>/* 0.0   , 100.0 , 100.0  , Value that controls the modal density in the late reverberation decay (XBOX only) */<BR>
+</TD><TR VALIGN=top><TD><B>unsigned int</B></TD>
+<TD><I>Flags</I></TD>
+<TD>/* FSOUND_REVERB_FLAGS - modifies the behavior of above properties (WIN32/PS2 only) */<BR>
+</TD></TABLE>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_3D_SetRolloffFactor.html">FSOUND_3D_SetRolloffFactor</A>
+, 
+<A HREF="FSOUND_REVERB_FLAGS.html">FSOUND_REVERB_FLAGS</A>
+, 
+<A HREF="FSOUND_Reverb_GetProperties.html">FSOUND_Reverb_GetProperties</A>
+, 
+<A HREF="FSOUND_REVERB_PRESETS.html">FSOUND_REVERB_PRESETS</A>
+, 
+<A HREF="FSOUND_Reverb_SetProperties.html">FSOUND_Reverb_SetProperties</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

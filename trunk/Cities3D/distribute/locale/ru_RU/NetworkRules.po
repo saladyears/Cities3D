@@ -1,0 +1,412 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Translation v 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2006-08-09 06:10+0600\n"
+"Last-Translator: Ilya 'Road Builder' Chernykh <metal@ngs.ru>\n"
+"Language-Team: Road Builder <metal@ngs.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: Strings.cpp:217
+msgid "Add"
+msgstr "Добавить"
+
+#: Strings.cpp:218
+msgid "Chat"
+msgstr ""
+
+#: Strings.cpp:219
+msgid "Connect"
+msgstr "Подключиться"
+
+#: Strings.cpp:220
+msgid "Connected"
+msgstr "Подключен"
+
+#: Strings.cpp:221
+msgid "Connecting..."
+msgstr "Идет соединение..."
+
+#: Strings.cpp:222
+#, fuzzy
+msgid "Connecting To A Game"
+msgstr "Подключиться к игре."
+
+#: Strings.cpp:223
+msgid "Connection"
+msgstr "Соединение"
+
+#: Strings.cpp:224
+msgid "Connect To"
+msgstr "Подключиться к"
+
+#: Strings.cpp:225
+msgid "Connect To A Game"
+msgstr "Подключиться к игре."
+
+#: Strings.cpp:226
+msgid "Delete"
+msgstr "Удалить"
+
+#: Strings.cpp:227
+msgid "Disconnect"
+msgstr "Отключиться"
+
+#: Strings.cpp:228
+msgid "Disconnected from the server."
+msgstr "Соединение с сервером прервано."
+
+#: Strings.cpp:229
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr "Переносите имена мышкой или двойным щелчком."
+
+#: Strings.cpp:230
+msgid ""
+"Enter an IP address or host name in the Connect To window and the port "
+"number in the Port window.  The default port is 7176."
+msgstr ""
+"Введите IP адрес или имя хозяина игры в окне \"Подключиться к\" и номер "
+"порта в окне \"Порт\". Значение порта по умолчанию - 7176."
+
+#: Strings.cpp:231
+msgid ""
+"Enter a valid host name or IP address in the Hostname window.  Enter the "
+"port number clients should connect to in the Port window.  The default port "
+"is 7176."
+msgstr ""
+"Введите правильное имя хозяина или IP адрес в окне \"Имя хозяина\". Введите "
+"номер порта для подключеня в окне \"Порт\". Значение порта по умолчанию - "
+"7176."
+
+#: Strings.cpp:232
+msgid "Events"
+msgstr ""
+
+#: Strings.cpp:233
+msgid "Game saved."
+msgstr "Игра сохранена."
+
+#: Strings.cpp:234
+msgid "Game Setup"
+msgstr ""
+
+#: Strings.cpp:235
+msgid "Host"
+msgstr "Хозяин"
+
+#: Strings.cpp:236
+msgid "Hostname"
+msgstr "Имя хозяина"
+
+#: Strings.cpp:237
+msgid "I'll play!"
+msgstr "Буду играть!"
+
+#: Strings.cpp:238
+msgid "IP address"
+msgstr "IP адрес"
+
+#: Strings.cpp:239
+msgid "LAN / Network"
+msgstr "Локальная сеть."
+
+#: Strings.cpp:240
+#, fuzzy
+msgid "LAN / Network Setup"
+msgstr "Локальная сеть."
+
+#: Strings.cpp:241
+msgid "Lost connection to the server."
+msgstr "Соединение с сервером потеряно."
+
+#: Strings.cpp:242
+msgid "Network"
+msgstr "Сеть"
+
+#: Strings.cpp:243
+msgid "Network Game Restart"
+msgstr "Перезапуск сетевой игры."
+
+#: Strings.cpp:244
+msgid "Not connected"
+msgstr "Не подключен"
+
+#: Strings.cpp:245
+msgid "No, thanks."
+msgstr "Нет, спасибо."
+
+#: Strings.cpp:246
+msgid "Not ready!"
+msgstr "Не готов!"
+
+#: Strings.cpp:247
+msgid "OK"
+msgstr ""
+
+#: Strings.cpp:248
+msgid "Online Game Start"
+msgstr ""
+
+#: Strings.cpp:249
+msgid "Options"
+msgstr "Опции"
+
+#: Strings.cpp:250
+msgid "Player"
+msgstr "Игрок"
+
+#: Strings.cpp:251
+msgid "Port"
+msgstr "Порт"
+
+#: Strings.cpp:252
+msgid "Question"
+msgstr "Вопрос"
+
+#: Strings.cpp:253
+msgid "Ready!"
+msgstr "Готов!"
+
+#: Strings.cpp:254
+msgid "Select Map"
+msgstr "Выбор карты"
+
+#: Strings.cpp:255
+msgid "Server Settings"
+msgstr "Настройки сервера"
+
+#: Strings.cpp:256
+msgid "Settings"
+msgstr "Настройки"
+
+#: Strings.cpp:257
+msgid "Show Chat tab"
+msgstr ""
+
+#: Strings.cpp:258
+msgid "Show Events tab"
+msgstr ""
+
+#: Strings.cpp:259
+#, fuzzy
+msgid "Show Spectators tab"
+msgstr "Статус"
+
+#: Strings.cpp:260
+#, fuzzy
+msgid "Spectators"
+msgstr "Статус"
+
+#: Strings.cpp:261
+msgid "Start Server"
+msgstr "Запустить сервер"
+
+#: Strings.cpp:262
+msgid "Started"
+msgstr "Запущен"
+
+#: Strings.cpp:263
+msgid "Start Game!"
+msgstr "Запустить игру!"
+
+#: Strings.cpp:264
+msgid "Status"
+msgstr "Статус"
+
+#: Strings.cpp:265
+msgid "Stopped"
+msgstr "Остановлен"
+
+#: Strings.cpp:266
+msgid "Stop Server"
+msgstr "Остановить сервер"
+
+#: Strings.cpp:267
+msgid "The port must be a valid number between 0 and 65535."
+msgstr "Значение порта должно быть целым числом от 0 до 65535."
+
+#: Strings.cpp:268
+msgid ""
+"There are players connected to you.  Are you sure you want to shut down the "
+"server?"
+msgstr ""
+"К Вам подключены другие игроки. Вы действительно хотите выключить сервер?"
+
+#: Strings.cpp:269
+msgid "Unselected"
+msgstr "Неотмеченные"
+
+#: Strings.cpp:270
+msgid ""
+"Use the Connection settings to either host a game or connect to a game.  "
+"Select the player you wish to play with from the list."
+msgstr ""
+"Используйте Настройки соединения для запуска игры или подключение к игре. "
+"Выберите из списка игрока, которым хотите играть."
+
+#: Strings.cpp:271
+msgid "Waiting..."
+msgstr "Ожидание..."
+
+#: Strings.cpp:272
+#, fuzzy
+msgid "Waiting for players to join."
+msgstr "Ожидаем переподключения игроков."
+
+#: Strings.cpp:273
+msgid "Waiting for players to rejoin."
+msgstr "Ожидаем переподключения игроков."
+
+#: Strings.cpp:274
+msgid ""
+"You are currently connected to a server.  Are you sure you want to leave?"
+msgstr "Вы подключены к игре. Вы действительно хотите выйти?"
+
+#: Strings.cpp:275
+msgid "You must enter an IP address or host name."
+msgstr "Вы должны ввести IP адрес или имя хозяина."
+
+#: Strings.cpp:276
+msgid "You must enter a port number."
+msgstr "Вы должны указать номер порта."
+
+#: Strings.cpp:277
+msgid "You must enter a valid host name or IP address."
+msgstr "Вы должны ввести правильное имя хозяина или IP адрес."
+
+#: Strings.cpp:280
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Вы уверены, что хотите удалить %s?"
+
+#: Strings.cpp:281
+#, c-format
+msgid "Attempt %d: %s"
+msgstr ""
+
+#: Strings.cpp:282
+#, c-format
+msgid "Attempting to connect to %s:%d..."
+msgstr ""
+
+#: Strings.cpp:283
+#, c-format
+msgid "Attempt %d of %d"
+msgstr ""
+
+#: Strings.cpp:284
+#, c-format
+msgid "A player attempts to join with version %s.  The server version is %s."
+msgstr ""
+"Произошла неудачная попытка подключения игрока с версией игры %s. Версия "
+"сервера - %s."
+
+#: Strings.cpp:285
+#, c-format
+msgid "%s becomes a spectator."
+msgstr "%s встал из-за стола и стал наблюдателем."
+
+#: Strings.cpp:286
+#, c-format
+msgid "%s drops from the game."
+msgstr "%s потерял связь с игрой."
+
+#: Strings.cpp:287
+#, c-format
+msgid "%s is no longer ready."
+msgstr "%s опять не готов к игре."
+
+#: Strings.cpp:288
+#, c-format
+msgid "%s is now %s."
+msgstr "%s теперь %s."
+
+#: Strings.cpp:289
+#, c-format
+msgid "%s is ready."
+msgstr "%s готов."
+
+#: Strings.cpp:290
+#, fuzzy, c-format
+msgid "%s joins as %s."
+msgstr "%s переподключился, цвет %s."
+
+#: Strings.cpp:291
+#, c-format
+msgid "%s leaves the server."
+msgstr "%s отключился от сервера."
+
+#: Strings.cpp:292
+#, c-format
+msgid "%s quits the game."
+msgstr "%s покинул игру."
+
+#: Strings.cpp:293
+#, c-format
+msgid "%s rejoins as %s."
+msgstr "%s переподключился, цвет %s."
+
+#: Strings.cpp:294
+#, c-format
+msgid "%s replaces %s as %s."
+msgstr "%s заменяет %s, цвет %s."
+
+#: Strings.cpp:295
+#, c-format
+msgid "%s shut down the server."
+msgstr "%s выключил сервер."
+
+#: Strings.cpp:296
+#, c-format
+msgid "%s takes over as %s."
+msgstr "%s берет %s цвет."
+
+#: Strings.cpp:297
+#, c-format
+msgid "The game will restart in %d."
+msgstr "Игра будет перезапущена в %d."
+
+#: Strings.cpp:298
+#, fuzzy, c-format
+msgid "The game will start in %d."
+msgstr "Игра будет перезапущена в %d."
+
+#: Strings.cpp:299
+#, c-format
+msgid "The map is now %s."
+msgstr "Карта изменилась на %s."
+
+#, fuzzy
+#~ msgid "Connect!"
+#~ msgstr "Подключиться"
+
+#, fuzzy
+#~ msgid "Connector"
+#~ msgstr "Подключиться"
+
+#~ msgid "Direct Connect Setup"
+#~ msgstr "Настройки прямого соединения"
+
+#~ msgid "Quit"
+#~ msgstr "Выход"
+
+#~ msgid "Game"
+#~ msgstr "Игра"

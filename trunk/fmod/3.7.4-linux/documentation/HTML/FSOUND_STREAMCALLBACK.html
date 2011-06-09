@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_STREAMCALLBACK</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Stream_Stop.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_TELLCALLBACK.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_STREAMCALLBACK">FSOUND_STREAMCALLBACK</A></H2>
+Callback used with user streams.<BR>
+<P>
+<B>signed char F_CALLBACKAPI </B><B> </B><B>FSOUND_STREAMCALLBACK</B><B>(</B><BR>
+<B>FSOUND_STREAM *</B><I>stream</I><B>,</B><BR>
+<B>void *</B><I>buff</I><B>,</B><BR>
+<B>int </B><B> </B><I>len</I><B>,</B><BR>
+<B>void *</B><I>userdata</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>stream</I></TD>
+<TD>Pointer to the stream in question.<BR>
+</TD><TR VALIGN=top><TD><I>buff</I></TD>
+<TD>from FSOUND_Stream_Create - Pointer to the stream data buffer to write to<BR>
+from FSOUND_Stream_SetEndCallback - NULL<BR>
+from FSOUND_Stream_SetSyncCallback - Pointer to a string  <BR>
+</TD><TR VALIGN=top><TD><I>len</I></TD>
+<TD>from FSOUND_Stream_Create - Length of buffer specified in BYTES. <BR>
+from FSOUND_Stream_SetEndCallback - 0<BR>
+from FSOUND_Stream_SetSyncCallback - 0<BR>
+</TD><TR VALIGN=top><TD><I>param</I></TD>
+<TD>A user data value specified from FSOUND_Stream_Create,<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+If created by FSOUND_Stream_Create -<BR>
+To allow the stream to continue, TRUE is returned.<BR>
+To stop the stream, FALSE is returned.<BR>
+The return value is ignored if created by FSOUND_Stream_SetEndCallback or FSOUND_Stream_SetSyncCallback<BR>
+--------------<BR>
+PlayStation 2 IMPORTANT! For user created streams only.<BR>
+The address for 'buff' is an IOP based address, you cannot directly access it.<BR>
+You have to use FSOUND_SendData to DMA your data from the EE to the IOP.<BR>
+if FSOUND_SendData is NOT called from this callback the IOP will hang because it is waiting for this command to be executed before it can unlock its buffer and send it to the SPU.<BR>
+<H3>Remarks</H3>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_SendData.html">FSOUND_SendData</A>
+, 
+<A HREF="FSOUND_Stream_Create.html">FSOUND_Stream_Create</A>
+, 
+<A HREF="FSOUND_Stream_SetEndCallback.html">FSOUND_Stream_SetEndCallback</A>
+, 
+<A HREF="FSOUND_Stream_SetSyncCallback.html">FSOUND_Stream_SetSyncCallback</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

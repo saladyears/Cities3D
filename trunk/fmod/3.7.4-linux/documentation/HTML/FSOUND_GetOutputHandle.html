@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_GetOutputHandle</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_GetOutput.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_GetOutputRate.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_GetOutputHandle">FSOUND_GetOutputHandle</A></H2>
+Returns a pointer to the system level output device module.<BR>
+This means a pointer to a DIRECTSOUND, WINMM handle, or with NOSOUND output, NULL<BR>
+<P>
+<B>void * F_API </B><B> </B><B>FSOUND_GetOutputHandle</B><B>(</B><BR>
+<B>);</B><BR>
+<H3>Return Value</H3>
+Pointer to output handle specific to the device.<BR>
+<H3>Remarks</H3>
+Must be called after FSOUND_Init or else it will fail,<BR>
+Cast the resulting pointer depending on what output system pointer you are after.<BR>
+FSOUND_OUTPUT_NOSOUND,             NULL is returned.<BR>
+FSOUND_OUTPUT_WINMM,               HWAVEOUT is returned.<BR>
+FSOUND_OUTPUT_DSOUND,              LPDIRECTSOUND is returned.<BR>
+FSOUND_OUTPUT_OSS,                 File handle is returned, (cast to int)<BR>
+FSOUND_OUTPUT_ESD,                 Handle returned by so_esd_open_sound (cast to int).  <BR>
+FSOUND_OUTPUT_ALSA                 snd_pcm_t * is returned.<BR>
+FSOUND_OUTPUT_ASIO                 AsioDriverList pointer is returned.<BR>
+FSOUND_OUTPUT_XBOX                 LPDIRECTSOUND is returned.<BR>
+FSOUND_OUTPUT_PS2                  NULL is returned.<BR>
+FSOUND_OUTPUT_MAC                  SndChannelPtr is returned.<BR>
+FSOUND_OUTPUT_GC                   NULL is returned.<BR>
+FSOUND_OUTPUT_NOSOUND_NONREALTIME  NULL is returned.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_GetOutput.html">FSOUND_GetOutput</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+, 
+<A HREF="FSOUND_OUTPUTTYPES.html">FSOUND_OUTPUTTYPES</A>
+, 
+<A HREF="FSOUND_SetFrequency.html">FSOUND_SetFrequency</A>
+, 
+<A HREF="FSOUND_SetOutput.html">FSOUND_SetOutput</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

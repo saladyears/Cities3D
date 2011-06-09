@@ -1,0 +1,98 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_SetFrequency</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_SetDriver.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_SetHWND.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_SetFrequency">FSOUND_SetFrequency</A></H2>
+Sets a channels frequency or playback rate, in HZ.<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_SetFrequency</B><B>(</B><BR>
+<B>int </B><B> </B><I>channel</I><B>,</B><BR>
+<B>int </B><B> </B><I>freq</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>channel</I></TD>
+<TD>The channel number/handle to change the frequency for. FSOUND_ALL can also be used (see remarks).<BR>
+</TD><TR VALIGN=top><TD><I>freq</I></TD>
+<TD>The frequency to set.  Valid ranges are from 100 to 705600, and -100 to -705600.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+FSOUND_ALL is supported here.  Passing this will set ALL channels to specified frequency.<BR>
+If FSOUND_ALL is used the last channel success flag will be returned.  This return value is not useful in most circumstances.<BR>
+Negative frequencies make the sound play backwards, so FSOUND_SetCurrentPosition would be needed to set the sound to the right position.  <BR>
+---------<BR>
+NOTE: FSOUND_HW3D limitations in Direct Sound.<BR>
+Every hardware device has a minimum and maximum frequency.  You can determine these by looking at the DirectSound caps and viewing the members dwMaxSecondarySampleRate and dwMaxSecondarySampleRate.<BR>
+FMOD clamps frequencies to these values when playing back on hardware, so if you are setting the frequency outside of this range, the frequency will stay at either dwMinSecondarySampleRate or dwMaxSecondarySampleRate.<BR>
+To find out these two values in fmod (maybe whether to decide to drop back to software mixing or not), you can use the following code.<BR>
+---------<BR>
+include &lt;dsound.h&gt;<BR>
+int     minhwfreq, maxhwfreq;<BR>
+if (FSOUND_GetNumHardwareChannels() && FSOUND_GetOutput() == FSOUND_OUTPUT_DSOUND)<BR>
+{<BR>
+HRESULT hr;<BR>
+DSCAPS  dscaps;<BR>
+memset(&dscaps, 0, sizeof(DSCAPS));<BR>
+dscaps.dwSize = sizeof(DSCAPS);<BR>
+hr = IDirectSound_GetCaps((LPDIRECTSOUND)FSOUND_GetOutputHandle(), &dscaps);<BR>
+minhwfreq = dscaps.dwMinSecondarySampleRate;<BR>
+maxhwfreq = dscaps.dwMaxSecondarySampleRate;<BR>
+}<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_DSP_MixBuffers.html">FSOUND_DSP_MixBuffers</A>
+, 
+<A HREF="FSOUND_GetFrequency.html">FSOUND_GetFrequency</A>
+, 
+<A HREF="FSOUND_GetOutput.html">FSOUND_GetOutput</A>
+, 
+<A HREF="FSOUND_GetOutputHandle.html">FSOUND_GetOutputHandle</A>
+, 
+<A HREF="FSOUND_Sample_SetDefaults.html">FSOUND_Sample_SetDefaults</A>
+, 
+<A HREF="FSOUND_Sample_SetDefaultsEx.html">FSOUND_Sample_SetDefaultsEx</A>
+, 
+<A HREF="FSOUND_SetCurrentPosition.html">FSOUND_SetCurrentPosition</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

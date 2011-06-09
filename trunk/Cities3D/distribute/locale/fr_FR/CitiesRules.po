@@ -1,0 +1,1336 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+# 
+# This program is free software; you can redistribute it and/or modify it 
+# under the terms of the GNU General Public License as published by the Free 
+# Software Foundation; either version 2 of the License, or (at your option) 
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but 
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+# for more details.
+# 
+#: CitiesSeafarersOptions.cpp:36
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-24 13:52-0600\n"
+"PO-Revision-Date: 2005-09-07 20:32-0700\n"
+"Last-Translator: Marty McFly <martiojd@hotmail.fr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: defineRules.h:32 CitiesName.cpp:35 CitiesRules.cpp:42
+msgid "Cities and Knights"
+msgstr "Villes et Chevaliers"
+
+#: AlchemistDialog.cpp:261 LogicCardNameScience.cpp:59
+msgid "Alchemist"
+msgstr "Alchimiste"
+
+#: AlchemistDialog.cpp:270
+msgid "OK"
+msgstr "OK"
+
+#: AlchemistDialog.cpp:274
+msgid "Select one die of each color."
+msgstr "Choisir un dé de chaque couleur."
+
+#: AlchemistDialog.cpp:325
+msgid "Drag and drop dice to select them."
+msgstr "Glisser et déposer les dés pour les choisir."
+
+#: AlchemistDialog.cpp:349
+msgid "Select Dice"
+msgstr "Choisir les dés"
+
+#: AqueductDialog.cpp:54
+msgid "Select 1 resource to gain."
+msgstr "Choisir 1 ressource à recevoir."
+
+#: AqueductDialog.cpp:157
+msgid "Use Your Aqueduct"
+msgstr "Utiliser votre aqueduc"
+
+#: BankDataCities.cpp:35 LogicResourceNameCities.cpp:73
+#: PlayerDataCities.cpp:106
+msgid "Cloth"
+msgstr "Tissu"
+
+#: BankDataCities.cpp:37 LogicResourceNameCities.cpp:87
+#: PlayerDataCities.cpp:111
+msgid "Coin"
+msgstr "Monnaie"
+
+#: BankDataCities.cpp:39 LogicResourceNameCities.cpp:59
+#: PlayerDataCities.cpp:116
+msgid "Paper"
+msgstr "Papier"
+
+#: BarbarianDelayName.cpp:35
+msgid "Delay barbarians"
+msgstr "Retarder les barbares"
+
+#: BarbarianDelayOptions.cpp:44
+msgid ""
+"Delay the barbarians for one or two rounds.  This lets players get their "
+"feet on the ground before the first invasion."
+msgstr ""
+"Retarder les barbares d'un ou deux tours. Ceci permet aux joueurs de "
+"s'établir avant la première invasion."
+
+#: BarbarianDelayOptions.cpp:92
+msgid "Barbarians are delayed for 1 round"
+msgstr "Les barbares sont retardés pour un tour"
+
+#: BarbarianDelayOptions.cpp:96
+#, c-format
+msgid "Barbarians are delayed for %d rounds"
+msgstr "Les barbares sont retardés pour %d tours"
+
+#: BarbarianDelayOptions.cpp:116
+msgid "Rounds before barbarians advance:"
+msgstr "Tours avant l'arrivée des barbares:"
+
+#: BuildDataCities.cpp:47
+msgid "Buy City Walls"
+msgstr "Acheter un mur d'enceinte"
+
+#: BuildDataCities.cpp:53
+msgid "Upgrade Science"
+msgstr "Développer les sciences"
+
+#: BuildDataCities.cpp:57
+msgid "Upgrade Politics"
+msgstr "Développer la politique"
+
+#: BuildDataCities.cpp:61
+msgid "Upgrade Trade"
+msgstr "Développer le commerce"
+
+#: BuildDataCities.cpp:67
+msgid "Buy a Basic Knight"
+msgstr "Engager un chevalier faible"
+
+#: BuildDataCities.cpp:72
+msgid "Upgrade to a Strong Knight"
+msgstr "Entraine un chevalier pour le rendre fort"
+
+#: BuildDataCities.cpp:78
+msgid "Upgrade to a Mighty Knight"
+msgstr "Entrainer un chevalier pour le rendre intrépide"
+
+#: BuildDataCities.cpp:84
+msgid "Activate a Knight"
+msgstr "Activer un chevalier"
+
+#: BuildDataCities.cpp:90
+msgid "Move a Knight"
+msgstr "Déplacer un chevalier"
+
+#: BuildDataCities.cpp:96
+msgid "Attack an Opponent's Knight"
+msgstr "Attaquer le chevalier d'un adversaire"
+
+#: BuildDataCities.cpp:102
+msgid "Expel Criminals"
+msgstr "Expulser des criminels"
+
+#: BuildDataCities.cpp:108
+msgid "Use the Commercial Harbor"
+msgstr "Utiliser le port de commerce"
+
+#: BuildDataCities.cpp:113
+msgid "Repair a Sabotaged City"
+msgstr "Réparer une ville sabotée"
+
+#: CitiesOptions.cpp:36
+#, fuzzy
+msgid ""
+"Cities and Knights is a whole new way of playing Settlers.  Barbarians "
+"attack, knights defend, cities are pillaged or grow.  Politics, trade and "
+"science take on major roles in determining who wins, and who winds up on the "
+"end of a barbarian axe.\n"
+"\n"
+"Cities and Knights is not for the faint of heart.  Games last longer and are "
+"far more competitive than a Standard or Seafarers game, but the strategic "
+"choices are greater and more challenging than ever! "
+msgstr ""
+"Villes et Chevaliers est une façon complètement différente de jouer aux "
+"Colons. Les barbares passent à l'attaque, les chevaliers tentent de "
+"défendre, les villes peuvent croître ou être pillées. La politique, le "
+"commerce et la science deviennent des éléments clés pour déterminer le "
+"vainqueur, ou ceux qui finiront du côté des barbares.\n"
+"\n"
+"Villes et Chevaliers ne s'adresse pas à n'importe quel joueur. Les parties "
+"sont plus longues et beaucoup plus compétitives que dans une partie de "
+"Colons ou Marins, et les choix stratégiques sont plus importants et "
+"difficiles que jamais!"
+
+#: CitiesOptions.cpp:70
+msgid "Cities and Knights (+3 points)"
+msgstr "Villes et Chevaliers (+3 points)"
+
+#: CitiesUI.cpp:157
+msgid "Rolls"
+msgstr "Lancers"
+
+#: CitiesUI.cpp:160
+msgid "Barbarians"
+msgstr "Barbares"
+
+#: CitiesUI.cpp:163
+msgid "Upgrades"
+msgstr "Développer"
+
+#: CommercialHarborCommodityDialog.cpp:58
+#, c-format
+msgid "Select 1 commodity to give to %s."
+msgstr "Choisir 1 marchandise à donner à %s."
+
+#: CommercialHarborCommodityDialog.cpp:161
+#: CommercialHarborResourceDialog.cpp:158 LogicCardNameTrade.cpp:59
+msgid "Commercial Harbor"
+msgstr "Port de commerce"
+
+#: CommercialHarborPlayerDialog.cpp:142
+msgid "Select a Player to Trade With"
+msgstr "Choisir un joueur avec qui échanger"
+
+#: CommercialHarborResourceDialog.cpp:58
+#, c-format
+msgid "Select 1 resource to give to %s."
+msgstr "Choisir 1 ressource à donner à %s."
+
+#: DeserterPlayerDialog.cpp:213
+msgid "Select a Player for Desertion"
+msgstr "Choisir un joueur pour la désertion."
+
+#: DiscardProgressCardsDialog.cpp:56
+msgid "Discard"
+msgstr "Défausser"
+
+#: DiscardProgressCardsDialog.cpp:56
+msgid "Discard 1 Progress Card"
+msgstr "Défausser 1 carte progrès"
+
+#: DrawKnightObject.cpp:224
+msgid "Basic Knight"
+msgstr "Chevalier faible"
+
+#: DrawKnightObject.cpp:227
+msgid "Strong Knight"
+msgstr "Chevalier fort"
+
+#: DrawKnightObject.cpp:230
+msgid "Mighty Knight"
+msgstr "Chevalier intrépide"
+
+#: DrawMerchantObject.cpp:171 LogicCardNameTrade.cpp:89
+#: PlayerDataCities.cpp:172
+msgid "Merchant"
+msgstr "Marchand"
+
+#: DrawWallsObject.cpp:251 PlayerDataCities.cpp:137
+msgid "City Walls"
+msgstr "Murs d'enceinte"
+
+#: KnightErrantName.cpp:35 KnightErrantOptions.cpp:65
+msgid "Knights errant"
+msgstr "Chevaliers errants"
+
+#: KnightErrantOptions.cpp:36
+msgid ""
+"Allows players to use an active knight to expel criminals before the dice "
+"are rolled, if it is their turn."
+msgstr ""
+"Permet aux joueurs d'utiliser un chevalier actif pour expulser des criminels "
+"avant le lancer de dés, si c'est leur tour."
+
+#: LogicCardNamePolitics.cpp:59
+msgid "Bishop"
+msgstr "Evêque"
+
+#: LogicCardNamePolitics.cpp:74
+msgid "Constitution"
+msgstr "Constitution"
+
+#: LogicCardNamePolitics.cpp:89
+msgid "Deserter"
+msgstr "Déserteur"
+
+#: LogicCardNamePolitics.cpp:103
+msgid "Diplomat"
+msgstr "Diplomate"
+
+#: LogicCardNamePolitics.cpp:117
+msgid "Intrigue"
+msgstr "Complot"
+
+#: LogicCardNamePolitics.cpp:131
+msgid "Saboteur"
+msgstr "Saboteur"
+
+#: LogicCardNamePolitics.cpp:145
+msgid "Spy"
+msgstr "Espion"
+
+#: LogicCardNamePolitics.cpp:159
+#, fuzzy
+msgid "Warlord"
+msgstr "Seigneur de guerre"
+
+#: LogicCardNamePolitics.cpp:173
+msgid "Wedding"
+msgstr "Mariage"
+
+#: LogicCardNameScience.cpp:74
+msgid "Crane"
+msgstr "Grue"
+
+#: LogicCardNameScience.cpp:89
+msgid "Engineer"
+msgstr "Ingénieur"
+
+#: LogicCardNameScience.cpp:103
+msgid "Inventor"
+msgstr "Inventeur"
+
+#: LogicCardNameScience.cpp:117
+msgid "Irrigation"
+msgstr "Irrigation"
+
+#: LogicCardNameScience.cpp:131
+msgid "Medicine"
+msgstr "Médecine"
+
+#: LogicCardNameScience.cpp:145
+msgid "Mining"
+msgstr "Mine"
+
+#: LogicCardNameScience.cpp:159
+msgid "Printer"
+msgstr "Imprimeur"
+
+#: LogicCardNameScience.cpp:173
+msgid "Road Building"
+msgstr "COnstruction de routes"
+
+#: LogicCardNameScience.cpp:187
+msgid "Smith"
+msgstr "Forgeron"
+
+#: LogicCardNameTrade.cpp:74
+msgid "Master Merchant"
+msgstr "Maître marchand"
+
+#: LogicCardNameTrade.cpp:103 MerchantFleetDialog.cpp:111
+msgid "Merchant Fleet"
+msgstr "Flotte marchande"
+
+#: LogicCardNameTrade.cpp:117 ResourceMonopolyDialog.cpp:118
+msgid "Resource Monopoly"
+msgstr "Monopole ressources"
+
+#: LogicCardNameTrade.cpp:131 TradeMonopolyDialog.cpp:120
+msgid "Trade Monopoly"
+msgstr "Monopole commerce"
+
+#: LogicCardTextDiplomatSeafarers.cpp:59
+msgid ""
+"Remove one open road or ship from the board.  If you remove your own road or "
+"ship, you may then place it elsewhere immediately."
+msgstr ""
+"Enlevez une route ouverte ou un bateau du plateau.  Si vous enlevez une de vos "
+"routes ou bateaux, vous pouvez le replacer ailleurs immédiatement."
+
+#: LogicCardTextPolitics.cpp:59
+msgid ""
+"Move the robber or pirate.  In addition, steal 1 card from the hand of every "
+"player with a city or settlement on the new robber tile."
+msgstr ""
+"Déplacez le brigand ou le pirate. De plus, volez 1 carte de la main de chaque "
+"joueur avec une ville ou une colonnie sur le nouvel hex du brigand."
+
+#: LogicCardTextPolitics.cpp:78 LogicCardTextScience.cpp:166
+msgid "1 Victory Point!"
+msgstr "1 point de victoire!"
+
+#: LogicCardTextPolitics.cpp:93
+msgid ""
+"Select an opponent.  They must remove one knight of their choice from the "
+"board.  You may then place an equivalent knight on the board, following the "
+"normal rules."
+msgstr "Choisissez un adversaire. Il devra retirer un chevalier de son choix "
+"du plateau. Vous pouvez alors place un chevalier équivalent sur le plateau "
+"en respectant les règles habituelles."
+
+#: LogicCardTextPolitics.cpp:110
+msgid ""
+"Remove one open road from the board.  If you remove your own road, you may "
+"then place it elsewhere immediately."
+msgstr ""
+"Retirer une route ouverte du plateau. Si vous retirez une de vos routes, vous "
+"pouvez la replace ailleurs immédiatement."
+
+#: LogicCardTextPolitics.cpp:126
+msgid ""
+"Displace an opponent's knight on an intersection next to a road or ship you "
+"own."
+msgstr ""
+"Déplacez un chevalier d'un adversaire sur une intersection adjacente à une de "
+"vos routes ou bateau."
+
+#: LogicCardTextPolitics.cpp:141
+msgid ""
+"Select an opponent's city.  The city produces as a settlement until the "
+"owner pays 1 timber and 1 ore for repairs."
+msgstr ""
+"Choisissez une ville d'un adversaire. La ville produit comme une colonie "
+"jusqu'à ce que le propriétaire paye 1 bois et 1 minerai pour les réparations."
+
+#: LogicCardTextPolitics.cpp:157
+msgid ""
+"Select an opponent.  Steal 1 progress card of your choice from their hand."
+msgstr ""
+"Choisissez un adversaire. Volez lui 1 carte progrès de votre choix."
+
+#: LogicCardTextPolitics.cpp:172
+msgid "Activate all your knights for free."
+msgstr "Activer tous vos chevalier gratuitement."
+
+#: LogicCardTextPolitics.cpp:187
+msgid ""
+"All players with more Victory Points than you must give you 2 resources or "
+"commodities of their choice."
+msgstr ""
+"Tous les joueurs avec plus de points de victoire que vous doivent vous donner "
+"2 ressources ou marchandises de leur choix."
+
+#: LogicCardTextScience.cpp:59
+#, fuzzy
+msgid ""
+"Before the dice are rolled, select a result for each numbered die.  The "
+"event die rolls normally."
+msgstr ""
+"Avant le lancer de dés, choisissez un résultat pour chaque dé numéroté. Les dé "
+"d'événement est lancé normalement."
+
+#: LogicCardTextScience.cpp:75
+msgid "Purchase one city upgrade for 1 commodity less."
+msgstr "Achetez un développement de ville pour 1 marchandise de moins."
+
+#: LogicCardTextScience.cpp:91
+msgid "Place a city walls for free."
+msgstr "Placez un mur d'enceinte gratuitement."
+
+#: LogicCardTextScience.cpp:105
+msgid ""
+"Switch any two roll chips on the board, except for those numbered 2, 12, 6, "
+"or 8."
+msgstr ""
+"Echangez deux jetons sur le plateau, sauf les jetons numérotés 2, 12, 6 ou 8."
+
+#: LogicCardTextScience.cpp:120
+msgid ""
+"Receive 2 wheat for each wheat tile on which you have a city or settlement."
+msgstr ""
+"Recevez 2 blés pour chaque hex de blé sur lesquels vous avez une ville ou une "
+colonie."
+
+#: LogicCardTextScience.cpp:135
+msgid "Build a city for 2 ore and 1 wheat."
+msgstr "Construisez une ville pour 2 minerais et 1 blé."
+
+#: LogicCardTextScience.cpp:149
+msgid "Receive 2 ore for each ore tile on which you have a city or settlement."
+msgstr "Recevez 2 minerais pour chaque hex minerai sur lequel vous avez une "
+"ville ou une colonie."
+
+#: LogicCardTextScience.cpp:180
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr ""
+"A ce tour, construisez deux routes, deux bateaux ou une de chaque gratuitement." 
+
+#: LogicCardTextScience.cpp:195
+msgid "Promote two different knights one level for free."
+msgstr "Développez deux chevaliers différents d'un niveau gratuitement."
+
+#: LogicCardTextTrade.cpp:59
+msgid ""
+"For each opponent you select, offer 1 resource card from your hand.  They "
+"must give you 1 commodity card of their choice, unless they have none."
+msgstr ""
+"A chaque adversaire sélectionné, offrez 1 carte de ressource de votre main. "
+"Ils devront vous donnez 1 carte marchandise de leur choix, sauf s'ils n'en ont pas."
+
+#: LogicCardTextTrade.cpp:76
+msgid ""
+"Take 2 resource or commodity cards of your choice from any one opponent with "
+"more Victory Points than you."
+msgstr ""
+"¨Prenez 2 cartes ressource ou marchandise de votre choix à un adversaire qui "
+"a moins de points de victoire que vous."
+
+#: LogicCardTextTrade.cpp:93
+msgid ""
+"Select a tile adjacent to a settlement or city you own and place the "
+"merchant on it.  As long as the merchant remains, you trade that resource to "
+"the bank at 2-1, and receive 1 Victory Point."
+msgstr ""
+"Choisissez un hex adjacent à une de vos villes ou colonies, et placez-y le marchand. "
+"Tant que le marchand y reste, vous pouvez échanger cette ressource 2-1 à la banque, "
+"et recevoir un point de victoire."
+
+#: LogicCardTextTrade.cpp:110
+msgid ""
+"Select 1 resource or commodity.  This round, trade it to the bank at 2-1."
+msgstr ""
+"Choisissez 1 ressource ou marchandise. A ce tour, vous pouvez l'échanger 2-1 à "
+"la banque."
+
+#: LogicCardTextTrade.cpp:125
+msgid ""
+"Select a resource.  All players must give you as many of that resource as "
+"they can, up to 2."
+msgstr ""
+"Choisissez un type de ressource. Tous les joueurs doivent vous donner 2 ressources "
+"de ce type, ou moins s'ils n'en ont pas 2."
+
+#: LogicCardTextTrade.cpp:140
+msgid ""
+"Select a commodity.  All players must give you 1 of that commodity, unless "
+"they have none."
+msgstr ""
+"Choisissez une marchandise. Tous les joueurs doivent vous donner 1 de cette marchandise, "
+"sauf s'ils n'en ont pas."
+
+#: LogicRequestSecondCity.cpp:62 RuleRequestSecondCity.cpp:69
+#, c-format
+msgid "%s, place a city."
+msgstr "%s, placez une ville."
+
+#: LogicRequestSecondCity.cpp:63 RuleRequestSecondCity.cpp:70
+#, c-format
+msgid "Waiting for %s to place a city."
+msgstr "En attente, %s place une ville."
+
+#: LogicRequestSecondRoad.cpp:60
+#, c-format
+msgid "%s, place a road."
+msgstr "%s, placez une route."
+
+#: LogicRequestSecondRoad.cpp:61
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "En attente, %s place une route."
+
+#: LogicUpgradeName.cpp:79
+msgid "Trade"
+msgstr "Commerce"
+
+#: LogicUpgradeName.cpp:94
+msgid "Politics"
+msgstr "Politique"
+
+#: LogicUpgradeName.cpp:109
+msgid "Science"
+msgstr "Sciences"
+
+#: MasterMerchantPlayerDialog.cpp:132
+msgid "Select a Player to Rob"
+msgstr "Choisissez un joueur à voler"
+
+#: MasterMerchantResourceDialog.cpp:101
+#, c-format
+msgid "Select 1 card to steal from %s."
+msgstr "Choisissez 1 carte à voler à %s."
+
+#: MasterMerchantResourceDialog.cpp:106
+#, c-format
+msgid "Select 2 cards to steal from %s."
+msgstr "Choisissez 2 cartes à voler à %s."
+
+#: MasterMerchantResourceDialog.cpp:228
+msgid "Cards To Steal"
+msgstr "Cartes à voler"
+
+#: MerchantFleetDialog.cpp:51
+msgid "Select 1 card type to trade at 2-1."
+msgstr "Choisir 1 type de carte à échanger 2-1."
+
+#: NoMercyName.cpp:35
+msgid "No mercy from the robber"
+msgstr "Pas de pitié de la part du brigand"
+
+#: NoMercyOptions.cpp:36
+msgid ""
+"Instead of waiting until the first barbarian invasion, the robber is moved "
+"on a 7 from the first roll of the dice."
+msgstr ""
+"Au lieu d'attendre avant la première invasion barbare, le brigand est "
+"déplacé dès le premier 7."
+
+#: NoMercyOptions.cpp:66
+msgid "Robber is not delayed by barbarians"
+msgstr "Le brigand n'est pas retardé par les barbares"
+
+#: PlayerDataCities.cpp:122
+msgid "Trade Cards"
+msgstr "Cartes progrès économique"
+
+#: PlayerDataCities.cpp:126
+msgid "Politics Cards"
+msgstr "Cartes progrès politique"
+
+#: PlayerDataCities.cpp:130
+msgid "Science Cards"
+msgstr "Cartes progrès culturel"
+
+#: PlayerDataCities.cpp:142
+msgid "Basic Knights"
+msgstr "Chevaliers faibles"
+
+#: PlayerDataCities.cpp:147
+msgid "Strong Knights"
+msgstr "Chevaliers forts"
+
+#: PlayerDataCities.cpp:152
+msgid "Mighty Knights"
+msgstr "Chevaliers intrépides"
+
+#: PlayerDataCities.cpp:158
+msgid "Defender Points"
+msgstr "Points sauveur de Catan"
+
+#: PlayerDataCities.cpp:163
+msgid "Science Metropolis"
+msgstr "Métropole scientifique"
+
+#: PlayerDataCities.cpp:166
+msgid "Politics Metropolis"
+msgstr "Métropole politique"
+
+#: PlayerDataCities.cpp:169
+msgid "Trade Metropolis"
+msgstr "Métropole commerciale"
+
+#: PlayerSelectionDialog.cpp:74
+msgid "Select"
+msgstr "Choisir"
+
+#: PlayProgressCardsDialog.cpp:49
+msgid "Play Card"
+msgstr "Jouer une carte"
+
+#: PlayProgressCardsDialog.cpp:49
+msgid "Your Cards"
+msgstr "Vos cartes"
+
+#: ResourceMonopolyDialog.cpp:51
+msgid "Select 1 resource type to steal."
+msgstr "Choisissez 1 type de ressource à voler."
+
+#: RuleActivateKnight.cpp:104
+#, c-format
+msgid "%s, activate a knight."
+msgstr "%s, activez un chevalier."
+
+#: RuleActivateKnight.cpp:105
+#, c-format
+msgid "Waiting for %s to activate a knight."
+msgstr "En attente, %s active un chevalier."
+
+#: RuleAqueduct.cpp:133
+#, c-format
+msgid "%s, use your aqueduct."
+msgstr "%s, utilisez votre aqueduc."
+
+#: RuleAqueduct.cpp:138
+#, c-format
+msgid "Waiting for %s to use their aqueduct."
+msgstr "En attente, %s utilise son aqueduc."
+
+#: RuleAttackKnight.cpp:89
+#, c-format
+msgid "%s, select a knight to attack with."
+msgstr "%s, choisir avec quel chevalier attaquer."
+
+#: RuleAttackKnight.cpp:90
+#, c-format
+msgid "Waiting for %s to select a knight to attack with."
+msgstr "En attente, %s choisit avec quel chevalier attaquer."
+
+#: RuleAttackOpponentKnight.cpp:111
+#, c-format
+msgid "%s attacks a knight of %s."
+msgstr "%s attaque un chevalier de %s."
+
+#: RuleAttackOpponentKnight.cpp:148
+#, c-format
+msgid "%s loses the knight in the attack."
+msgstr "%s perd un chevalier dans l'attaque."
+
+#: RuleBarbarianAdvance.cpp:80
+msgid "The barbarians advance."
+msgstr "Les barbares avancent."
+
+#: RuleBarbarianAttack.cpp:76
+msgid "The barbarians attack and are repelled!"
+msgstr "Les barbares attaquent et sont repoussés!"
+
+#: RuleBarbarianAttack.cpp:106
+msgid "The barbarians attack and lay waste!"
+msgstr "Les barbares attaquent et font des dégats!"
+
+#: RuleBuildKnight.cpp:107
+#, c-format
+msgid "%s, place a basic knight."
+msgstr "%s, placez un chevalier faible."
+
+#: RuleBuildKnight.cpp:108
+#, c-format
+msgid "Waiting for %s to place a basic knight."
+msgstr "En attente, %s place un chevalier faible."
+
+#: RuleBuildWalls.cpp:105
+#, c-format
+msgid "%s, place a city walls."
+msgstr "%s, placez un mur d'enceinte."
+
+#: RuleBuildWalls.cpp:106
+#, c-format
+msgid "Waiting for %s to place a city walls."
+msgstr "En attente, %s place un mur d'enceinte."
+
+#: RuleDefenderPoint.cpp:70
+#, fuzzy, c-format
+msgid "%s receives 1 Defender Point."
+msgstr "%s reçoit 1 point défense."
+
+#: RuleDiplomatText.cpp:59
+#, c-format
+msgid "%s, select a road to remove."
+msgstr "%s, choisissez une route à enlever."
+
+#: RuleDiplomatText.cpp:60
+#, c-format
+msgid "Waiting for %s to select a road to remove."
+msgstr "En attente, %s choisit une route à enlever."
+
+#: RuleDiplomatTextSeafarers.cpp:59
+#, c-format
+msgid "%s, select a road or ship to remove."
+msgstr "%s, choisissez une route ou un bateau à enlever."
+
+#: RuleDiplomatTextSeafarers.cpp:60
+#, c-format
+msgid "Waiting for %s to select a road or ship to remove."
+msgstr "En attente, %s choisit une route ou un bateau à enlever."
+
+#: RuleExecuteAqueduct.cpp:67
+#, c-format
+msgid "%s selects"
+msgstr "%s choisit"
+
+#: RuleExecuteCardMerchantFleet.cpp:71
+#, c-format
+msgid "%s uses the Merchant Fleet to trade %s."
+msgstr "%s utilise la flotte marchande pour échanger %s."
+
+#: RuleExecuteCommercialHarbor.cpp:93
+#, c-format
+msgid "%s trades 1 %s to %s for 1 %s using the Commercial Harbor."
+msgstr "%s échange 1 %s avec %s pour 1 %s par le port commercial."
+
+#: RuleExecuteDiscardCard.cpp:87
+#, fuzzy, c-format
+msgid "%s discards 1 %s card."
+msgstr "%s défausse 1 carte %s."
+
+#: RuleExecuteMasterMerchant.cpp:70 RuleExecuteResourceMonopolyCard.cpp:68
+#: RuleExecuteSpy.cpp:93 RuleExecuteTradeMonopolyCard.cpp:68
+#, c-format
+msgid "%s steals"
+msgstr "%s vole"
+
+#: RuleExecuteMasterMerchant.cpp:110 RuleExecuteSpy.cpp:97
+msgid "from you"
+msgstr "chez vous"
+
+#: RuleExecuteMasterMerchant.cpp:123
+#, c-format
+msgid "%s steals 1 card from %s."
+msgstr "%s vole 1 carte à %s."
+
+#: RuleExecuteMasterMerchant.cpp:129
+#, c-format
+msgid "%s steals 2 cards from %s."
+msgstr "%s vole 2 cartes à %s."
+
+#: RuleExecuteResourceMonopolyCard.cpp:104
+#: RuleExecuteTradeMonopolyCard.cpp:104
+#, c-format
+msgid "%d %s from %s"
+msgstr "%d %s de %s"
+
+#: RuleExecuteResourceMonopolyCard.cpp:115
+#: RuleExecuteTradeMonopolyCard.cpp:115 RulePirateStealCitiesSeafarers.cpp:100
+#: RuleRobberStealCities.cpp:100
+#, c-format
+msgid "%s steals nothing."
+msgstr "%s ne vole rien."
+
+#: RuleExecuteSpy.cpp:104
+#, c-format
+msgid "%s steals 1 progress card from %s."
+msgstr "%s vole 1 carte progrès à %s."
+
+#: RuleExecuteWedding.cpp:65
+#, c-format
+msgid "%s gives"
+msgstr "%s donne"
+
+#: RuleExecuteWedding.cpp:113
+msgid "to you as a Wedding gift"
+msgstr "pour vous comme cadeau de mariage"
+
+#: RuleExecuteWedding.cpp:121
+#, c-format
+msgid "%s gives 1 card to %s as a Wedding gift."
+msgstr "%s donne 1 carte à %s comme cadeau de mariage."
+
+#: RuleExecuteWedding.cpp:127
+#, c-format
+msgid "%s gives 2 cards to %s as a Wedding gift."
+msgstr "%s donne 2 cartes à %s comme cadeau de mariage."
+
+#: RuleMoveKnight.cpp:90
+#, c-format
+msgid "%s, select a knight to move."
+msgstr "%s, choisissez un chevalier à déplacer"
+
+#: RuleMoveKnight.cpp:91
+#, c-format
+msgid "Waiting for %s to select a knight to move."
+msgstr "En attente, %s choisit un chevalier à déplacer."
+
+#: RulePlaceAttackedKnight.cpp:122 RulePlaceIntrigueKnight.cpp:122
+#, c-format
+msgid "%s withdraws a knight."
+msgstr "%s retire un chevalier."
+
+#: RulePlaceDeserter.cpp:126
+#, c-format
+msgid "%s places the deserter."
+msgstr "%s place le déserteur."
+
+#: RulePlaceKnight.cpp:90
+#, c-format
+msgid "%s places a basic knight."
+msgstr "%s place un chevalier faible."
+
+#: RulePlaceKnight.cpp:126
+#, c-format
+msgid "%s undoes a basic knight."
+msgstr "%s annule un chevalier faible."
+
+#: RulePlaceMoveKnight.cpp:95
+#, c-format
+msgid "%s moves a knight."
+msgstr "%s déplace un chevalier."
+
+#: RulePlaceMoveKnight.cpp:137
+#, c-format
+msgid "%s undoes a knight move."
+msgstr "%s annule un déplacement de chevalier."
+
+#: RulePlaceWalls.cpp:88
+#, c-format
+msgid "%s places a city walls."
+msgstr "%s place un mur d'enceinte."
+
+#: RulePlaceWalls.cpp:204
+#, c-format
+msgid "%s undoes a city walls."
+msgstr "%s annule un mur d'enceinte."
+
+#: RulePlayCardIrrigation.cpp:71
+#, fuzzy, c-format
+msgid "%s receives %d %s from Irrigation."
+msgstr "%s reçoit %d %s de l'irrigation."
+
+#: RulePlayCardMining.cpp:71
+#, fuzzy, c-format
+msgid "%s receives %d %s from Mining."
+msgstr "%s reçoit %d %s de la mine."
+
+#: RuleProgressCardCommon.cpp:78
+#, c-format
+msgid "%s receives a Progress Card."
+msgstr "%s reçoit une carte progress."
+
+#: RuleProgressCardCommon.cpp:93
+#, c-format
+msgid "You receive a %s card."
+msgstr "Vous recevez une carte %s."
+
+#: RuleProgressCardCommon.cpp:107
+#, fuzzy, c-format
+msgid "%s receives 1 Victory Point from a %s card."
+msgstr "%s reçoit 1 point défense d'une carte %s."
+
+#: RuleReduceCityCities.cpp:99
+#, c-format
+msgid "%s loses a city walls."
+msgstr "%s perd un mur d'enceinte."
+
+#: RuleRestartAlchemist.cpp:62
+#, c-format
+msgid "%s, select the dice for the next roll."
+msgstr "%s, choisissez les dés pour le prochain lancer."
+
+#: RuleRestartAlchemist.cpp:63
+#, c-format
+msgid "Waiting for %s to select the dice for the next roll."
+msgstr "En attente, %s choisit les dés pour le prochain lancer."
+
+#: RuleRestartDiscardProgressCards.cpp:138
+#, c-format
+msgid "%s, discard 1 progress card."
+msgstr "%s, défaussez 1 carte progrès."
+
+#: RuleRestartDiscardProgressCards.cpp:143
+#, c-format
+msgid "Waiting for %s to discard 1 progress card."
+msgstr "En attente, %s défausse une carte progrès."
+
+#: RuleRestartMetropolis.cpp:112
+#, c-format
+msgid "%s, place your metropolis."
+msgstr "%s, placez votre métropole."
+
+#: RuleRestartMetropolis.cpp:113
+#, c-format
+msgid "Waiting for %s to place a metropolis."
+msgstr "En attente, %s place une métropole."
+
+#: RuleRestartReduceCities.cpp:168
+#, c-format
+msgid "%s, select a city to reduce."
+msgstr "%s, choisissez une ville à réduire."
+
+#: RuleRestartReduceCities.cpp:173
+#, c-format
+msgid "Waiting for %s to reduce a city."
+msgstr "En attente, %s réduit une ville."
+
+#: RuleRestartSelectExpelKnight.cpp:77
+#, c-format
+msgid "%s, select a knight to expel criminals with."
+msgstr "%s, choisissez un chevalier pour expulser les criminels."
+
+#: RuleRestartSelectExpelKnight.cpp:78
+#, c-format
+msgid "Waiting for %s to select a knight to expel criminals with."
+msgstr "En attente, %s choisit un chevalier pour expulser les criminels."
+
+#: RuleRestartTurnAttackKnightPlacement.cpp:169
+#, c-format
+msgid "%s, attack an opponent's knight."
+msgstr "%s, attaquez un chevalier d'un adversaire."
+
+#: RuleRestartTurnAttackKnightPlacement.cpp:170
+#, c-format
+msgid "Waiting for %s to attack an opponent's knight."
+msgstr "En attente, %s attaque un chevalier d'un adversaire."
+
+#: RuleRestartTurnCommercialHarbor.cpp:62
+#, c-format
+msgid "%s, select a player to use the Commercial Harbor on."
+msgstr "%s, choisissez un joueur avec qui utiliser le port de commerce."
+
+#: RuleRestartTurnCommercialHarbor.cpp:63
+#, fuzzy, c-format
+msgid "Waiting for %s to select a player to use the Commercial Harbor on."
+msgstr "En attente, %s choisit un joueur avec qui utiliser le port de commerce."
+
+#: RuleRestartTurnCommercialHarborTrade.cpp:91
+#, c-format
+msgid "Waiting for %s and %s to trade using the Commercial Harbor."
+msgstr "En attente, %s et %s utilisent le port de commerce pour échanger."
+
+#: RuleRestartTurnCommercialHarborTrade.cpp:107
+#, c-format
+msgid "%s, select a resource to give to %s."
+msgstr "%s, choisissez une ressource à donner à %s."
+
+#: RuleRestartTurnCommercialHarborTrade.cpp:113
+#, c-format
+msgid "Waiting for %s to select a resource to trade."
+msgstr "En attente, %s choisit une ressource à échanger."
+
+#: RuleRestartTurnCommercialHarborTrade.cpp:131
+#, c-format
+msgid "%s, select a commodity to give to %s."
+msgstr "%s, choisissez une marchandise à donner à %s."
+
+#: RuleRestartTurnCommercialHarborTrade.cpp:137
+#, c-format
+msgid "Waiting for %s to select a commodity to trade."
+msgstr "En attente, %s choisit une marchandise à échanger."
+
+#: RuleRestartTurnDeserter.cpp:62
+#, c-format
+msgid "%s, select a player for desertion."
+msgstr "%s, choisissez un joueur pour la désertion."
+
+#: RuleRestartTurnDeserter.cpp:63
+#, c-format
+msgid "Waiting for %s to select a player for desertion."
+msgstr "En attente, %s choisit un joueur pour la désertion."
+
+#: RuleRestartTurnDeserterPlace.cpp:63
+#, c-format
+msgid "%s, place the deserter."
+msgstr "%s, placez le déserteur."
+
+#: RuleRestartTurnDeserterPlace.cpp:64
+#, c-format
+msgid "Waiting for %s to place the deserter."
+msgstr "En attente, %s place le déserteur."
+
+#: RuleRestartTurnDeserterSelect.cpp:63
+#, c-format
+msgid "%s, select a knight to desert."
+msgstr "%s, choisissez un chevalier à faire déserter"
+
+#: RuleRestartTurnDeserterSelect.cpp:64
+#, c-format
+msgid "Waiting for %s to select a knight to desert."
+msgstr "En attente, %s choisit un chevalier à faire déserter."
+
+#: RuleRestartTurnIntrigue.cpp:63
+#, c-format
+msgid "%s, select a knight to displace."
+msgstr "%s, choisissez un chevalier à déplacer"
+
+#: RuleRestartTurnIntrigue.cpp:64
+#, c-format
+msgid "Waiting for %s to select a knight to displace."
+msgstr "En attente, %s choisit un chevalier à déplacer."
+
+#: RuleRestartTurnIntriguePlace.cpp:91
+#: RuleRestartTurnMoveAttackedKnight.cpp:91
+#, c-format
+msgid "%s, withdraw your knight."
+msgstr "%s, retirez votre chevalier."
+
+#: RuleRestartTurnIntriguePlace.cpp:92
+#: RuleRestartTurnMoveAttackedKnight.cpp:92
+#, c-format
+msgid "Waiting for %s to withdraw a knight."
+msgstr "En attente, %s retire un chevalier."
+
+#: RuleRestartTurnInventor.cpp:63
+#, fuzzy, c-format
+msgid "%s, select the first roll chip to switch."
+msgstr "%s, choisissez le premier jeton à échanger."
+
+#: RuleRestartTurnInventor.cpp:64
+#, fuzzy, c-format
+msgid "Waiting for %s to select the first roll chip to switch."
+msgstr "En attente, %s choisit le premier jeton à échanger."
+
+#: RuleRestartTurnInventorChip.cpp:63
+#, fuzzy, c-format
+msgid "%s, select the second roll chip to switch."
+msgstr "%s, choisissez le deuxième jeton à échanger."
+
+#: RuleRestartTurnInventorChip.cpp:64
+#, fuzzy, c-format
+msgid "Waiting for %s to select the second roll chip to switch."
+msgstr "En attente, %s choisit le deuxième jeton à échanger."
+
+#: RuleRestartTurnMasterMerchant.cpp:62
+#, fuzzy, c-format
+msgid "%s, select a player to rob."
+msgstr "%s, choisissez à qui voler."
+
+#: RuleRestartTurnMasterMerchant.cpp:63
+#, fuzzy, c-format
+msgid "Waiting for %s to select a player to rob."
+msgstr "En attente, %s choisit à qui voler."
+
+#: RuleRestartTurnMasterMerchantSteal.cpp:67
+#, c-format
+msgid "%s, select 2 cards to steal from %s."
+msgstr "%s, choisissez 2 cartes à voler à %s."
+
+#: RuleRestartTurnMasterMerchantSteal.cpp:69
+#, c-format
+msgid "Waiting for %s to select 2 cards to steal from %s."
+msgstr "En attente, %s choisit 2 cartes à voler à %s."
+
+#: RuleRestartTurnMerchant.cpp:61
+#, c-format
+msgid "%s, place the merchant."
+msgstr "%s, placez le marchand."
+
+#: RuleRestartTurnMerchant.cpp:62
+#, c-format
+msgid "Waiting for %s to place the merchant."
+msgstr "En attente, %s place le marchand."
+
+#: RuleRestartTurnMerchantFleet.cpp:62
+#, c-format
+msgid "%s, select a resource or commodity to trade at 2-1."
+msgstr "%s, choisissez une ressource ou marchandise à échanger 2-1."
+
+#: RuleRestartTurnMerchantFleet.cpp:63
+#, c-format
+msgid "Waiting for %s to select a resource or commodity to trade at 2-1."
+msgstr "En attente, %s choisit une ressource ou marchandise à échanger 2-1."
+
+#: RuleRestartTurnMoveKnightPlacement.cpp:92
+#, c-format
+msgid "%s, move your knight."
+msgstr "%s, déplacez votre chevalier."
+
+#: RuleRestartTurnMoveKnightPlacement.cpp:93
+#, c-format
+msgid "Waiting for %s to move a knight."
+msgstr "En attente, %s déplace un chevalier."
+
+#: RuleRestartTurnRepairCity.cpp:77
+#, c-format
+msgid "%s, repair a city."
+msgstr "%s, réparez une ville."
+
+#: RuleRestartTurnRepairCity.cpp:78
+#, c-format
+msgid "Waiting for %s to repair a city."
+msgstr "En attente, %s répare une ville."
+
+#: RuleRestartTurnResourceMonopoly.cpp:62
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr "%s, choisissez une ressource à voler."
+
+#: RuleRestartTurnResourceMonopoly.cpp:63
+#, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "En attente, %s choisit une ressource à voler."
+
+#: RuleRestartTurnSaboteur.cpp:63
+#, c-format
+msgid "%s, sabotage a city."
+msgstr "%s, sabotez une ville."
+
+#: RuleRestartTurnSaboteur.cpp:64
+#, c-format
+msgid "Waiting for %s to sabotage a city."
+msgstr "En attente, %s sabote une ville."
+
+#: RuleRestartTurnSpy.cpp:61
+#, c-format
+msgid "%s, select a player to spy on."
+msgstr "%s, choisissez un joueur à espionner."
+
+#: RuleRestartTurnSpy.cpp:62
+#, c-format
+msgid "Waiting for %s to select a player to spy on."
+msgstr "En attente, %s choisit un joueur à espionner."
+
+#: RuleRestartTurnSpySteal.cpp:67
+#, c-format
+msgid "%s, select 1 progress card to steal from %s."
+msgstr "%s, choisissez 1 carte progrès à voler à %s."
+
+#: RuleRestartTurnSpySteal.cpp:70
+#, c-format
+msgid "Waiting for %s to select 1 progress card to steal from %s."
+msgstr "En attente, %s choisit 1 carte progrès à voler à %s."
+
+#: RuleRestartTurnTradeMonopoly.cpp:62
+#, c-format
+msgid "%s, select a commodity to steal."
+msgstr "%s, choisissez une marchandise à voler."
+
+#: RuleRestartTurnTradeMonopoly.cpp:63
+#, c-format
+msgid "Waiting for %s to select a commodity to steal."
+msgstr "En attente, %s choisit une marchandise à voler."
+
+#: RuleRestartTurnWedding.cpp:131
+#, c-format
+msgid "%s, select 2 resources or commodities to give to the wedding."
+msgstr "%s, choisissez 2 ressources ou marchandises à donner pour le mariage."
+
+#: RuleRestartTurnWedding.cpp:137
+#, c-format
+msgid "Waiting for %s to give 2 resources or commodities to the wedding."
+msgstr "En attente, %s donnent 2 ressources ou marchandises pour le mariage."
+
+#: RuleSelect2Knight.cpp:87
+#, c-format
+msgid "%s upgrades to a strong knight."
+msgstr "%s entraine un chevalier qui devient fort."
+
+#: RuleSelect2Knight.cpp:191 RuleSelect3Knight.cpp:191
+#, c-format
+msgid "%s undoes a knight upgrade."
+msgstr "%s annule l'entrainement d'un chevalier."
+
+#: RuleSelect3Knight.cpp:87
+#, c-format
+msgid "%s upgrades to a mighty knight."
+msgstr "%s entraine un chevalier qui devient intrépide."
+
+#: RuleSelectActivateKnight.cpp:87
+#, c-format
+msgid "%s activates a knight."
+msgstr "%s active un chevalier."
+
+#: RuleSelectActivateKnight.cpp:171
+#, c-format
+msgid "%s undoes a knight activate."
+msgstr "%s annule l'activation d'un chevalier."
+
+#: RuleSelectDeserterKnight.cpp:103
+#, c-format
+msgid "%s selects a deserter."
+msgstr "%s choisit un déserteur."
+
+#: RuleSelectDiplomatRoad.cpp:61 RuleSelectDiplomatRoadSeafarers.cpp:62
+#, c-format
+msgid "%s removes a road of %s."
+msgstr "%s enlève une route de %s."
+
+#: RuleSelectDiplomatRoadSeafarers.cpp:67
+#, c-format
+msgid "%s removes a ship of %s."
+msgstr "%s déplace un bateau de %s."
+
+#: RuleSelectExpelKnight.cpp:105
+#, c-format
+msgid "%s expels criminals."
+msgstr "%s expulse des criminels."
+
+#: RuleSelectIntrigueKnight.cpp:111
+#, c-format
+msgid "%s displaces a knight of %s."
+msgstr "%s déplace un chevalier de %s."
+
+#: RuleSelectIntrigueKnight.cpp:136
+#, c-format
+msgid "%s loses the knight."
+msgstr "%s perd le chevalier."
+
+#: RuleSelectMetropolisCity.cpp:154
+#, c-format
+msgid "%s loses the %s metropolis."
+msgstr "%s perd la métropole %s."
+
+#: RuleSelectMetropolisCity.cpp:185
+#, c-format
+msgid "%s takes the %s metropolis."
+msgstr "%s prend la métropole %s."
+
+#: RuleSelectProgressCards.cpp:114
+#, c-format
+msgid "%s, select a progress card."
+msgstr "%s, choisissez une carte progrès."
+
+#: RuleSelectProgressCards.cpp:119
+#, c-format
+msgid "Waiting for %s to select a progress card."
+msgstr "En attente, %s choisit une carte progrès."
+
+#: RuleSelectRepairCity.cpp:101
+#, c-format
+msgid "%s repairs a city."
+msgstr "%s répare une ville."
+
+#: RuleSelectSaboteurCity.cpp:108
+#, c-format
+msgid "%s sabotages a city of %s."
+msgstr "%s attaque une ville de %s."
+
+#: RuleSelectSecondInventorChip.cpp:85
+#, c-format
+msgid "%s swaps a %d chip for a %d chip."
+msgstr "%s échange un jeton %d pour un jeton %d."
+
+#: RuleUpgrade2Knight.cpp:103
+#, c-format
+msgid "%s, upgrade to a strong knight."
+msgstr "%s, entrainez un chevalier fort."
+
+#: RuleUpgrade2Knight.cpp:104
+#, c-format
+msgid "Waiting for %s to upgrade to a strong knight."
+msgstr "En attente, %s entraine un chevalier qui devient fort."
+
+#: RuleUpgrade3Knight.cpp:103
+#, c-format
+msgid "%s, upgrade to a mighty knight."
+msgstr "%s, entrainez un chevalier qui devient intrépide."
+
+#: RuleUpgrade3Knight.cpp:104
+#, c-format
+msgid "Waiting for %s to upgrade to a mighty knight."
+msgstr "En attente, %s entraine un chevalier qui devient intrépide."
+
+#: RuleUpgradeCommon.cpp:105
+#, c-format
+msgid "%s upgrades %s to level %d."
+msgstr "%s développe %s au niveau %d."
+
+#: RuleUpgradeCommon.cpp:135
+#, fuzzy, c-format
+msgid "%s undoes the %s upgrade."
+msgstr "%s annule le développement %s."
+
+#: SelectProgressCardsDialog.cpp:56
+msgid "Select 1 progress card."
+msgstr "Choisir 1 carte progrès."
+
+#: SelectProgressCardsDialog.cpp:161
+msgid "Select A Progress Card"
+msgstr "Choisir une carte progrès"
+
+#: SpyPlayerDialog.cpp:206
+msgid "Select a Player to Spy on"
+msgstr "Choisir un joueur à espionner."
+
+#: StealProgressCardsDialog.cpp:56
+#, fuzzy
+msgid "Steal Card"
+msgstr "Voler carte"
+
+#: StealProgressCardsDialog.cpp:56
+#, fuzzy
+msgid "Spy Cards"
+msgstr "Espionner cartes"
+
+#: TradeMonopolyDialog.cpp:51
+msgid "Select 1 commodity type to steal."
+msgstr "Choisir 1 type de marchandise à voler."
+
+#: WeddingDialog.cpp:97
+msgid "Select 1 card to give."
+msgstr "Choisir 1 carte à donner."
+
+#: WeddingDialog.cpp:101
+msgid "Select 2 cards to give."
+msgstr "Choisir 2 cartes à donner."
+
+#: WeddingDialog.cpp:224
+msgid "Cards To Give"
+msgstr "Cartes à donner"

@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_3D_Listener_SetCurrent</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_3D_Listener_SetAttributes.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_3D_SetAttributes.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_3D_Listener_SetCurrent">FSOUND_3D_Listener_SetCurrent</A></H2>
+Sets the current listener number and number of listeners, if the user wants to simulate multiple listeners at once.  <BR>
+This is usually for the case in a game where there is a splitscreen and multiple players playing the game at once.<BR>
+<P>
+<B>void F_API </B><B> </B><B>FSOUND_3D_Listener_SetCurrent</B><B>(</B><BR>
+<B>int </B><B> </B><I>current</I><B>,</B><BR>
+<B>int </B><B> </B><I>numlisteners</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>current</I></TD>
+<TD>Current listener number.  Listener commands following this function call will affect this listener number.  (default: 0)<BR>
+</TD><TR VALIGN=top><TD><I>numlisteners</I></TD>
+<TD>Number of listeners active. (default: 1)<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+void<BR>
+<H3>Remarks</H3>
+Only affects FSOUND_3D_Listener_SetAttributes and FSOUND_3D_Listener_GetAttributes.<BR>
+Setting more than 1 listener will turn off doppler and cause all panning to be ignored and 3d sound will come from the center (mono).<BR>
+-------------<BR>
+For WIN32 FSOUND_HW3D based sounds, channels must have their attributes set after this function is called, otherwise unexpected audible results may occur.<BR>
+For example you cannot update your channels with FSOUND_3D_SetAttributes, call FSOUND_3D_Listener_SetCurrent, and then call FSOUND_Update and expect all the voices to update correctly.  <BR>
+The correct order is to call FSOUND_3D_Listener_SetCurrent first, then update all channels with FSOUND_3D_SetAttributes, then call FSOUND_Update.  <BR>
+This is due to DirectSound not supporting multiple listeners, so FMOD has to do inverse transforms on the positions to simulate it with one listener, at the time FSOUND_3D_SetAttributes is called.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_3D_Listener_GetAttributes.html">FSOUND_3D_Listener_GetAttributes</A>
+, 
+<A HREF="FSOUND_3D_Listener_SetAttributes.html">FSOUND_3D_Listener_SetAttributes</A>
+, 
+<A HREF="FSOUND_3D_Listener_SetCurrent.html">FSOUND_3D_Listener_SetCurrent</A>
+, 
+<A HREF="FSOUND_3D_SetAttributes.html">FSOUND_3D_SetAttributes</A>
+, 
+<A HREF="FSOUND_Update.html">FSOUND_Update</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:58 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

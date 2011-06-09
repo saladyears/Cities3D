@@ -1,0 +1,731 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2005-12-27 15:23+0900\n"
+"Last-Translator: ardour <ardour1@naver.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Korean\n"
+"X-Poedit-Country: KOREA, REPUBLIC OF\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: DevCardsStats.cpp:45
+msgid "Development Cards Played"
+msgstr ""
+
+#: DevCardsStats.cpp:49 DevCardsStats.cpp:65 DevCardsStats.cpp:68
+#: Strings.cpp:433
+msgid "Monopoly"
+msgstr ""
+
+#: DevCardsStats.cpp:50 Strings.cpp:451
+msgid "Road Building"
+msgstr ""
+
+#: DevCardsStats.cpp:51 Strings.cpp:464
+msgid "Soldier"
+msgstr ""
+
+#: DevCardsStats.cpp:52 Strings.cpp:476
+msgid "Victory Point"
+msgstr ""
+
+#: DevCardsStats.cpp:53 DevCardsStats.cpp:66 Strings.cpp:479
+msgid "Year Of Plenty"
+msgstr ""
+
+#: DevCardsStats.cpp:58
+#, fuzzy
+msgid "Largest Army"
+msgstr "%s 도로 건설"
+
+#: DevCardsStats.cpp:63
+msgid "Victory Points"
+msgstr ""
+
+#: DevCardsStats.cpp:70
+#, fuzzy
+msgid "Development Cards"
+msgstr "%s 도로 건설"
+
+#: GoldStats.cpp:32 GoldStats.cpp:33 GoldStats.cpp:34 Strings.cpp:430
+msgid "Gold"
+msgstr ""
+
+#: GoldStats.cpp:36 GoldStats.cpp:37
+msgid "Gold Exchange"
+msgstr ""
+
+#: StandardStats.cpp:188 Strings.cpp:429
+msgid "Dice Rolls"
+msgstr ""
+
+#: StandardStats.cpp:192 Strings.cpp:442
+msgid "Points"
+msgstr ""
+
+#: StandardStats.cpp:195
+msgid "Resources Gained"
+msgstr ""
+
+#: StandardStats.cpp:198
+msgid "Resources Lost"
+msgstr ""
+
+#: StandardStats.cpp:201
+msgid "Resources Blocked"
+msgstr ""
+
+#: StandardStats.cpp:204
+msgid "Resources Gained From"
+msgstr ""
+
+#: StandardStats.cpp:207
+msgid "Resources Lost To"
+msgstr ""
+
+#: StandardStats.cpp:210
+msgid "Resources Blocked By"
+msgstr ""
+
+#: StandardStats.cpp:213
+msgid "Purchases Made"
+msgstr ""
+
+#: StandardStats.cpp:216
+msgid "Actions Taken"
+msgstr ""
+
+#: StandardStats.cpp:238
+msgid "Structures"
+msgstr ""
+
+#: StandardStats.cpp:243
+#, fuzzy
+msgid "Longest Road"
+msgstr "%s 도로 건설"
+
+#: StandardStats.cpp:245 StandardStats.cpp:251 StandardStats.cpp:257
+#: Strings.cpp:462
+msgid "Sheep"
+msgstr "양"
+
+#: StandardStats.cpp:246 StandardStats.cpp:252 StandardStats.cpp:258
+#: Strings.cpp:440
+msgid "Ore"
+msgstr "광석"
+
+#: StandardStats.cpp:247 StandardStats.cpp:253 StandardStats.cpp:259
+#: Strings.cpp:470
+msgid "Timber"
+msgstr "목재"
+
+#: StandardStats.cpp:248 StandardStats.cpp:254 StandardStats.cpp:260
+#: Strings.cpp:426
+msgid "Clay"
+msgstr "점토"
+
+#: StandardStats.cpp:249 StandardStats.cpp:255 StandardStats.cpp:261
+#: Strings.cpp:478
+msgid "Wheat"
+msgstr "보리"
+
+#: StandardStats.cpp:266
+msgid "Board"
+msgstr ""
+
+#: StandardStats.cpp:268 StandardStats.cpp:274 StandardStats.cpp:278
+#: Strings.cpp:455
+msgid "Robber"
+msgstr ""
+
+#: StandardStats.cpp:269 StandardStats.cpp:275
+msgid "Bank Trades"
+msgstr ""
+
+#: StandardStats.cpp:270 StandardStats.cpp:276
+msgid "Player Trades"
+msgstr ""
+
+#: StandardStats.cpp:272
+msgid "Purchases"
+msgstr ""
+
+#: StandardStats.cpp:273
+msgid "7s"
+msgstr ""
+
+#: StandardStats.cpp:279
+msgid "Empty Bank"
+msgstr ""
+
+#: StandardStats.cpp:281 Strings.cpp:454
+msgid "Roads"
+msgstr ""
+
+#: StandardStats.cpp:282 Strings.cpp:461
+msgid "Settlements"
+msgstr ""
+
+#: StandardStats.cpp:283 Strings.cpp:425
+msgid "Cities"
+msgstr ""
+
+#: Strings.cpp:413
+#, fuzzy
+msgid "Build a city"
+msgstr "%s 도시취소"
+
+#: Strings.cpp:414
+#, fuzzy
+msgid "Build a road"
+msgstr "%s 도시취소"
+
+#: Strings.cpp:415
+#, fuzzy
+msgid "Build a settlement"
+msgstr "%s 마을 취소"
+
+#: Strings.cpp:416
+msgid "Buy a development card"
+msgstr ""
+
+#: Strings.cpp:417
+msgid "Cards allowed"
+msgstr ""
+
+#: Strings.cpp:418
+msgid "Cards allowed in hand:"
+msgstr ""
+
+#: Strings.cpp:419
+msgid ""
+"Change the number of cards each player may hold without losing half on a 7."
+msgstr ""
+
+#: Strings.cpp:420
+msgid "Change the number of points needed to win the game."
+msgstr ""
+
+#: Strings.cpp:421
+msgid "Change the deck of Development cards."
+msgstr ""
+
+#: Strings.cpp:422
+msgid "Change the starting stock amounts of roads, settlements, and cities."
+msgstr ""
+
+#: Strings.cpp:423
+msgid ""
+"Choose one resource type.  All other players must give you all their "
+"resource cards of that type."
+msgstr ""
+
+#: Strings.cpp:424
+msgid "City"
+msgstr ""
+
+#: Strings.cpp:427
+msgid "Desert"
+msgstr ""
+
+#: Strings.cpp:428
+msgid "Development cards"
+msgstr ""
+
+#: Strings.cpp:431
+msgid ""
+"In this turn, take any two resource cards from the bank.  They may be used "
+"immediately."
+msgstr ""
+
+#: Strings.cpp:432
+msgid ""
+"In this turn, build either two roads, two ships, or one of each for free."
+msgstr ""
+
+#: Strings.cpp:434
+msgid ""
+"Move the robber and steal one resource card from the owner of an adjacent "
+"city or settlement.  Or, move the pirate and steal from the owner of an "
+"adjacent ship."
+msgstr ""
+
+#: Strings.cpp:435
+msgid "No 7s for 1 round"
+msgstr ""
+
+#: Strings.cpp:436
+msgid "No early 7s"
+msgstr ""
+
+#: Strings.cpp:437
+msgid "Ocean"
+msgstr ""
+
+#: Strings.cpp:438
+msgid "Odds"
+msgstr ""
+
+#: Strings.cpp:439
+msgid "1 city"
+msgstr ""
+
+#: Strings.cpp:441
+msgid "Play Card"
+msgstr ""
+
+#: Strings.cpp:443
+msgid "Points needed to win"
+msgstr ""
+
+#: Strings.cpp:444
+msgid ""
+"Prevent 7s from rolling for one or two rounds.  This lets players get their "
+"feet on the ground before the robber comes calling."
+msgstr ""
+
+#: Strings.cpp:445
+msgid "Random chip layout"
+msgstr ""
+
+#: Strings.cpp:446
+msgid "Random port layout"
+msgstr ""
+
+#: Strings.cpp:447
+msgid "Random tile layout"
+msgstr ""
+
+#: Strings.cpp:448
+msgid "Receive 1 Victory Point!"
+msgstr ""
+
+#: Strings.cpp:449
+msgid "Resource cards"
+msgstr ""
+
+#: Strings.cpp:450
+msgid "Resources"
+msgstr ""
+
+#: Strings.cpp:452
+msgid "Road length"
+msgstr ""
+
+#: Strings.cpp:453
+msgid "Road"
+msgstr ""
+
+#: Strings.cpp:456
+msgid "Roll Dice"
+msgstr ""
+
+#: Strings.cpp:457
+msgid "Rounds before a 7 is rolled"
+msgstr ""
+
+#: Strings.cpp:458
+#, fuzzy
+msgid "Select 1 resource type to steal."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:459
+#, fuzzy
+msgid "Select 2 resources to gain."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:460
+msgid "Settlement"
+msgstr ""
+
+#: Strings.cpp:463
+msgid "Show Resources tab"
+msgstr ""
+
+#: Strings.cpp:465
+msgid "Soldiers"
+msgstr ""
+
+#: Strings.cpp:466
+msgid "Spend Your Gold"
+msgstr ""
+
+#: Strings.cpp:467
+msgid "Standard"
+msgstr ""
+
+#: Strings.cpp:468
+msgid "Stock amounts"
+msgstr ""
+
+#: Strings.cpp:469
+msgid "3-1 Port"
+msgstr ""
+
+#: Strings.cpp:471
+msgid "2-1 Clay Port"
+msgstr ""
+
+#: Strings.cpp:472
+msgid "2-1 Ore Port"
+msgstr ""
+
+#: Strings.cpp:473
+msgid "2-1 Sheep Port"
+msgstr ""
+
+#: Strings.cpp:474
+msgid "2-1 Timber Port"
+msgstr ""
+
+#: Strings.cpp:475
+msgid "2-1 Wheat Port"
+msgstr ""
+
+#: Strings.cpp:477
+msgid "Victory points"
+msgstr ""
+
+#: Strings.cpp:480
+msgid "Your Cards"
+msgstr ""
+
+#: Strings.cpp:483
+#, fuzzy, c-format
+msgid "%s buys a development card."
+msgstr "%s 도로 건설"
+
+#: Strings.cpp:484
+#, c-format
+msgid "%s, choose a player to steal from, or click the robber to not steal."
+msgstr ""
+
+#: Strings.cpp:485
+#, c-format
+msgid "%s ends the turn."
+msgstr ""
+
+#: Strings.cpp:486
+#, fuzzy, c-format
+msgid "%s has a city reduced to a settlement."
+msgstr "%s, 마을 건설"
+
+#: Strings.cpp:487
+#, c-format
+msgid "%s has won the game."
+msgstr ""
+
+#: Strings.cpp:488
+#, c-format
+msgid "%d cards allowed in hand"
+msgstr ""
+
+#: Strings.cpp:489
+#, c-format
+msgid "%d %s from %s"
+msgstr ""
+
+#: Strings.cpp:490
+#, c-format
+msgid "%s, it is your turn."
+msgstr ""
+
+#: Strings.cpp:491
+#, fuzzy, c-format
+msgid "%s loses %s."
+msgstr "%s 도로 건설"
+
+#: Strings.cpp:492
+#, fuzzy, c-format
+msgid "%s loses Largest Army."
+msgstr "%s 도로 건설"
+
+#: Strings.cpp:493
+#, fuzzy, c-format
+msgid "%s loses Longest Road."
+msgstr "%s 도로 건설"
+
+#: Strings.cpp:494
+#, c-format
+msgid "No 7s for %d rounds"
+msgstr ""
+
+#: Strings.cpp:495
+#, fuzzy, c-format
+msgid "%s, place a city."
+msgstr "%s, 도시 건설"
+
+#: Strings.cpp:496
+#, c-format
+msgid "%s, place a road."
+msgstr "%s, 도로 건설"
+
+#: Strings.cpp:497
+#, c-format
+msgid "%s, place a settlement."
+msgstr "%s, 마을 건설"
+
+#: Strings.cpp:498
+#, c-format
+msgid "%s places a city."
+msgstr "%s, 도시 건설"
+
+#: Strings.cpp:499
+#, c-format
+msgid "%s places a settlement."
+msgstr "%s 마을 건설"
+
+#: Strings.cpp:500
+#, c-format
+msgid "%s places a road."
+msgstr "%s 도로 건설"
+
+#: Strings.cpp:501
+#, fuzzy, c-format
+msgid "%s, place the robber."
+msgstr "%s, 도로 건설"
+
+#: Strings.cpp:502
+#, c-format
+msgid "%s, play a card or roll the dice."
+msgstr ""
+
+#: Strings.cpp:503
+#, fuzzy, c-format
+msgid "%s, play a card, select an action, or roll the dice."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:504
+#, fuzzy, c-format
+msgid "%s plays a %s card."
+msgstr "%s 도로 건설"
+
+#: Strings.cpp:505
+#, c-format
+msgid "Play to %d points"
+msgstr ""
+
+#: Strings.cpp:506
+#, fuzzy, c-format
+msgid "%s rolls a %d."
+msgstr "%s 도로 건설"
+
+#: Strings.cpp:507
+#, fuzzy, c-format
+msgid "%s, select an action or roll the dice."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:508
+#, c-format
+msgid "%s, select a resource to steal."
+msgstr ""
+
+#: Strings.cpp:509
+#, fuzzy, c-format
+msgid "%s selects %s."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:510
+#, fuzzy, c-format
+msgid "%s, select resources to lose."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:511
+#, c-format
+msgid "%s, select two resources."
+msgstr ""
+
+#: Strings.cpp:512
+#, fuzzy, c-format
+msgid "Select %d resources to gain."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:513
+#, c-format
+msgid "%s steals nothing."
+msgstr ""
+
+#: Strings.cpp:514
+#, c-format
+msgid "%s steals %s."
+msgstr ""
+
+#: Strings.cpp:515
+#, c-format
+msgid "%s steals 1 %s from you."
+msgstr ""
+
+#: Strings.cpp:516
+#, c-format
+msgid "%s steals 1 resource from %s."
+msgstr ""
+
+#: Strings.cpp:517
+#, c-format
+msgid "%s, spend your gold."
+msgstr ""
+
+#: Strings.cpp:518
+#, fuzzy, c-format
+msgid "%s takes Largest Army."
+msgstr "%s 도로 건설"
+
+#: Strings.cpp:519
+#, fuzzy, c-format
+msgid "%s takes Longest Road."
+msgstr "%s 도로 건설"
+
+#: Strings.cpp:520
+#, c-format
+msgid "There is not enough %s in the bank. No one receives any."
+msgstr ""
+
+#: Strings.cpp:521
+#, c-format
+msgid "%s trades %s to %s for %s."
+msgstr ""
+
+#: Strings.cpp:522
+#, c-format
+msgid "%s trades %s to the bank for %s."
+msgstr ""
+
+#: Strings.cpp:523
+#, fuzzy, c-format
+msgid "%s undoes a bank trade."
+msgstr "%s 도시취소"
+
+#: Strings.cpp:524
+#, c-format
+msgid "%s undoes a city."
+msgstr "%s 도시취소"
+
+#: Strings.cpp:525
+#, fuzzy, c-format
+msgid "%s undoes a road."
+msgstr "%s 도시취소"
+
+#: Strings.cpp:526
+#, c-format
+msgid "%s undoes a settlement."
+msgstr "%s 마을 취소"
+
+#: Strings.cpp:527
+#, c-format
+msgid "You receive a %s card."
+msgstr ""
+
+#: Strings.cpp:528
+#, c-format
+msgid "You steal 1 %s from %s."
+msgstr ""
+
+#: Strings.cpp:529
+#, fuzzy, c-format
+msgid "Waiting for %s to finish the turn."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:530
+#, fuzzy, c-format
+msgid "Waiting for %s to lose resources."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:531
+#, fuzzy, c-format
+msgid "Waiting for %s to place a city."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:532
+#, c-format
+msgid "Waiting for %s to place a road."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:533
+#, c-format
+msgid "Waiting for %s to place a settlement."
+msgstr "%s가 마을건설중"
+
+#: Strings.cpp:534
+#, fuzzy, c-format
+msgid "Waiting for %s to place the robber."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:535
+#, fuzzy, c-format
+msgid "Waiting for %s to play a card or roll the dice."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:536
+#, fuzzy, c-format
+msgid "Waiting for %s to play a card, select an action, or roll the dice."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:537
+#, fuzzy, c-format
+msgid "Waiting for %s to select an action or roll the dice."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:538
+#, fuzzy, c-format
+msgid "Waiting for %s to select a resource to steal."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:539
+#, fuzzy, c-format
+msgid "Waiting for %s to select two resources."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:540
+#, fuzzy, c-format
+msgid "Waiting for %s to spend gold."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:541
+#, fuzzy, c-format
+msgid "Waiting for %s to steal a card."
+msgstr "%s가 도로건설중"
+
+#: Strings.cpp:542
+#, c-format
+msgid "%s wins the game!"
+msgstr ""
+
+#: Strings.cpp:543
+#, c-format
+msgid "%d cities"
+msgstr ""
+
+#: Strings.cpp:544
+#, c-format
+msgid "%d roads"
+msgstr ""
+
+#: Strings.cpp:545
+#, fuzzy, c-format
+msgid "%d settlements"
+msgstr "%s 마을 취소"
+
+#~ msgid "Dev"
+#~ msgstr "개발카드"
+
+#, fuzzy
+#~ msgid "Select %d resources to lose."
+#~ msgstr "%s가 도로건설중"

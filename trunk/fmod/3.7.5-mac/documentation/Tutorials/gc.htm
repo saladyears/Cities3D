@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>GameCube - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>GAMECUBE SPECIFIC ISSUES / FEATURES</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		This section describes how to get started with FMOD for Gamecube<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Compiling and linking&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		Include <b>fmod.h</b> in your project, this is found in api/inc.<br>
+		<br>
+		To link FMOD to your project, there are the following files.<br>
+		<li><b>/api/lib/fmodgc.lib</b> - Link to this file if you are using <b>SN Systems</b> compiler.
+		<li><b>/api/lib/fmodgcD.lib</b> - This is the debug version of fmodgc.lib and outputs a log of FMOD's progress and any error messages (in plain english) to the TTY.
+		<li><b>/api/lib/fmodgc_cw.a</b> - Link to this file if you are using the <b>Metrowerks Codewarrior</b> compiler.
+		<li><b>/api/lib/fmodgc_cwD.a</b> - This is the debug version of fmodgc_cw.lib and outputs a log of FMOD's progress and any error messages (in plain english) to the TTY.
+		<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Running the examples&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		Simply load their .dsp files into Dev Studio and hit F7.<br>
+		<br>
+		<b>NOTE</b>: You will need to copy all files in the media directory to <br>
+		<ul>
+			  $DVDROOT/fmod. For example: <br>
+			  <br>
+			  copy media\*.* c:\DolphinSDK1.0\dvddata\fmod
+		</ul>
+		<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Conversion tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		<b>dspadpcm.exe</b>
+		<br>
+		<br>
+		FMOD supports the Nintendo DSPADPCM format as output by the Nintendo tool "dspadpcm.exe".
+		FMOD expects the file extension ".dsp" on these files.<br>
+		For clarity and consistency, FMOD refers to this format as FSOUND_GCADPCM. <br>
+		<b>NOTE</b>: dspadpcm.exe can only convert MONO samples!<br>
+		<br>
+		<b>fsbank.exe</b><br>
+		<br>
+		This is a Windows app that creates .fsb files - FMOD's native sample bank format.<br>
+		Use it to create sample banks of either MONO or STEREO ADPCM samples suitable for playing or streaming using the GameCube ADPCM hardware. <br>
+		<br>
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Performance issues and Gamecube specific FMOD features.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		<b>Hardware voice dropping</b><br>
+		<br>
+		Due to a design issue with the Gamecube hardware, the processor will drop hardware voices if it's DSP chip gets overloaded.<br>
+		Call <b><a href="../HTML/FSOUND_Update.html">FSOUND_Update</a></b> each game cycle and FMOD will automatically reacquire voices that get dropped. <br>
+		FMOD's priority system has been linked into this, so it is likely to drop lower priority sounds that have their priority set with <b><a href="../HTML/FSOUND_Sample_Defaults.html">FSOUND_Sample_Defaults</a></b>.<br>
+		<br>
+		<b>Direct DVD streaming</b>
+		<br>
+		Use FMOD's stream API to play streams using the GameCube's DVD audio streaming capability. <br>
+		When opening a stream, simply specify a file with a .adp extension and FMOD will stream it using the GameCube's hardware straight from the DVD to the AI, completely bypassing both ARAM and MRAM.<br>
+		<br>
+		<b>Gamecube extras</b><br>
+		<br>
+		Look in <b>fmodgc.h</b> for GameCube-specific functions relating to such things as DVD status callbacks, AUX effects, specifying a block of ARAM for FMOD to use and accessing IPL sound settings.<br>
+	</UL>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

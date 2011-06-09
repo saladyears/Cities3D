@@ -1,0 +1,75 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Stream_CreateDSP</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Stream_Create.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Stream_DeleteSyncPoint.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Stream_CreateDSP">FSOUND_Stream_CreateDSP</A></H2>
+Allows the user to add a custom DSP unit to a stream.<BR>
+<P>
+<B>FSOUND_DSPUNIT *F_API </B><B> </B><B>FSOUND_Stream_CreateDSP</B><B>(</B><BR>
+<B>FSOUND_STREAM *</B><I>stream</I><B>,</B><BR>
+<B>FSOUND_DSPCALLBACK </B><B> </B><I>callback</I><B>,</B><BR>
+<B>int </B><B> </B><I>priority</I><B>,</B><BR>
+<B>void *</B><I>userdata</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>stream</I></TD>
+<TD>The stream pointer to have a DSP attached to.<BR>
+</TD><TR VALIGN=top><TD><I>callback</I></TD>
+<TD>A standard FSOUND_DSPCALLBACK function callback pointer.<BR>
+</TD><TR VALIGN=top><TD><I>priority</I></TD>
+<TD>The priority, or position within the streams DSP chain to place the unit.<BR>
+</TD><TR VALIGN=top><TD><I>param</I></TD>
+<TD>A user parameter that gets passed back into the DSP callback.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, a handle to the FSOUND_DSPUNIT is returned.  All DSP functions are performable on this.<BR>
+On failure, 0 is returned.<BR>
+<H3>Remarks</H3>
+The priority for a stream DSP unit is not related to the priorities specified in fmod.h.<BR>
+The priorities are anything fom 0 onwards, and ALWAYS come after data is read/decoded for the stream. <BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_DSP_Create.html">FSOUND_DSP_Create</A>
+, 
+<A HREF="FSOUND_DSPCALLBACK.html">FSOUND_DSPCALLBACK</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

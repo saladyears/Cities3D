@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Record_StartSample</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Record_SetDriver.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Record_Stop.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Record_StartSample">FSOUND_Record_StartSample</A></H2>
+Starts recording into a predefined sample using the sample's default playback rate as the recording rate.<BR>
+<P>
+<B>signed char	F_API </B><B> </B><B>FSOUND_Record_StartSample</B><B>(</B><BR>
+<B>FSOUND_SAMPLE *</B><I>sptr</I><B>,</B><BR>
+<B>signed char </B><B> </B><I>loop</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>sptr</I></TD>
+<TD>The sample to record into.<BR>
+</TD><TR VALIGN=top><TD><I>loop</I></TD>
+<TD>TRUE or FALSE flag whether the recorder should keep recording once it has hit the end, <BR>
+and start from the start again, therefore creating a continuous recording session into that <BR>
+sample buffer.  Looping the recording buffer is good for realtime processing of recorded<BR>
+information, as you can record and playback the sample at the same time.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+If you want to play back the sample at the same time is is recording, you will have to play the sound	and try and keep it just behind the recording cursor.<BR>
+Under FSOUND_OUTPUT_OSS mode, it is single duplex, so playback will stop when recording is in progress!  Try FSOUND_OUTPUT_ALSA for full duplex as they have better drivers in this respect.<BR>
+-------------<BR>
+The recording/playback rates are slightly innacurate and are not identical (ie 44100.0 for playback, 44100.1 for recording), so one could possibly be faster or slower than the other.  In this case the recording and the playback cursor could overlap, and the output will sound corrupted.  <BR>
+To counter this you might adjust the playback frequency of the channel you are playing the record sample on while it plays, using FSOUND_GetCurrentPosition and FSOUND_Record_GetPosition as calibration points.<BR>
+In the recording sample there is an example of trying to play back sound as it records, and the mechanism to try and keep the 2 cursors a safe distance from each other is employed.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_GetCurrentPosition.html">FSOUND_GetCurrentPosition</A>
+, 
+<A HREF="FSOUND_Record_GetPosition.html">FSOUND_Record_GetPosition</A>
+, 
+<A HREF="FSOUND_Record_Stop.html">FSOUND_Record_Stop</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

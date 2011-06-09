@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_TOC_TAG</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_REVERB_PROPERTIES.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_CAPS.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Structures"><H5>[Structure]</A></H5>
+<H2><A NAME="FSOUND_TOC_TAG">FSOUND_TOC_TAG</A></H2>
+Structure defining a CD table of contents. This structure is returned as a tag from FSOUND_Stream_FindTagField when the tag name "CD_TOC" is specified.<BR>
+Note: All tracks on the CD - including data tracks- will be represented in this structure so it's use for anything other than generating disc id information is not recommended.<BR>
+See the cdda example program for info on retrieving and using this structure.<BR>
+<P>
+<H3>Members</H3>
+<TABLE>
+<TR VALIGN=top><TD><B>char</B></TD>
+<TD><I>name[4]</I></TD>
+<TD>/* The string "TOC", just in case this structure is accidentally treated as a string */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>numtracks</I></TD>
+<TD>/* The number of tracks on the CD */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>min[100]</I></TD>
+<TD>/* The start offset of each track in minutes */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>sec[100]</I></TD>
+<TD>/* The start offset of each track in seconds */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>frame[100]</I></TD>
+<TD>/* The start offset of each track in frames */<BR>
+</TD></TABLE>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Stream_FindTagField.html">FSOUND_Stream_FindTagField</A>
+, 
+<A HREF="FSOUND_Stream_Open.html">FSOUND_Stream_Open</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

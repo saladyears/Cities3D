@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>TroubleShooting - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>TROUBLESHOOTING</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This will cover some of the most common problems people come across when using FMOD.  Remember if you have any problems just send a mail to <A HREF="mailto:support@fmod.org">support@fmod.org</A>
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">FSOUND_Init fails on CE devices&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This sometimes happens if the sound device is already busy, and the sound hardware will not release itself to FMOD until it finishes playing a sound.<br>
+	This can happen when activesync starts up and plays the connection noise just as FMOD is trying to initialize.<br>
+	To remedy this just initialize fmod in a loop until it succeeds, sleeping every 10 or 100ms or however long you prefer.<br>
+	It is a good idea to timeout if it never succeeds then resolve the issue through checking the error code or stopping the program that is stealing the resource.<br>
+	ie.<br>
+	<br><b>
+			int retrycount = 0;<br>
+	        while (!FSOUND_Init(22050, 32, FSOUND_INIT_GLOBALFOCUS) && retrycount < 10)	<br>
+            {<br><ul>
+                Sleep(100);<br>
+                retrycount++;<br></ul>
+            }<br>
+<br>
+            if (retrycount == 10)<br>
+	        {<br><ul>
+				/* Print error */<br></ul>
+	        }<br>
+	</b>
+	<br>
+	In this example it will keep retrying for about 1 second until it exits and prints an error message.<br>
+
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Stuttering/Skipping sound&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	More commonly known as buffer underrun/overrun, this can be 1 or a combination of factors<br>
+	<br>
+	<b>Bad soundcard drivers</b><br>
+	This may be solved by upgrading your soundcard drivers.  (Note it is recommended you get the latest drivers anyway)<br>
+	<br>
+	<b>CPU issues</b><br>
+	Machine to slow, or whatever your are trying to do with FMOD is too cpu intensive! (ie playing 100 mp3's at once will most likely bring FMOD to its knees, or maybe a user stream callback or DSP callback is spending too much time executing).<br>
+	<br>
+	<b>Mixer buffersize is set too small</b><br>
+	You can increase stability to combat these issues, by increasing FMOD's internal mixing buffer size.  This will lead to greater stability but also larger latency on issuing commands to hearing the result.<br>
+	Call <a href="../HTML/FSOUND_SetBufferSize.html">FSOUND_SetBufferSize</a> to alter this value (in milliseconds).  It must only be called <b>before</b> calling <a href="../HTML/FSOUND_Init.html">FSOUND_Init</a>, it will fail otherwise.<br>
+	Please don't set this value to huge numbers like 2000 or 10000.  It won't help increase stability and will consume larger amounts of CPU time and RAM.<br>
+	First try a value of 100, then 150, then 200, and no more.<br>
+	<br>
+	<b>Stream buffersize is set too small</b><br>
+	If you are using the stream API, you might be streaming off a slow media, such as CDROM or over network, or even a fragmented harddisk, and fmod needs more time to fill its streaming backbuffer.<br>
+	For streaming buffers, fmod defaults to a 400ms stream buffersize.  This is seperate to the mixer buffersize described above and not related.<br>
+	Changing this value <b>does not</b> alter latency.  Streams are pre-buffered and always start instantly no matter what the buffersize.<br>
+	Call <a href="../HTML/FSOUND_Stream_SetBufferSize.html">FSOUND_Stream_SetBufferSize</a> to alter this value (in milliseconds).  It must only be before opening a stream to take effect.<br>
+	Setting this value to large values will cause larger cpu spikes (if a compressed format) and more memory usage.<br>
+	Values around 1000 to 2000 max are recommended.  Larger values are not.<br>
+	<br>
+	<b>Video Card Drivers</b><br>
+	Yes video card drivers can affect sound output.<br>
+	Always make sure you have the latest 3d/videocard drivers, and that your users are aware of this as well.<br>
+	It has been noted that a bad VIDEO card driver can cause break ups and instability in sound output, as they are badly written and cause the bus to be taken over by the video card, not letting any sound data to be transferred to the soundcard.<br>
+	This has been noted on S3 Virge and Voodoo 1 drivers so far, so always remember first to have the LATEST video driver, and make sure you note this in your documentation as well upon distribution.<br>
+	<br>
+	<b>Frame-rate is too high!</b><br>
+	Yes this can also affect the sound output, for the same reasons as described above.  Excessive calls of the video driver can force the sound driver to not be serviced.  It has been found that introducing a frame-rate limiter will solve this problem.<br>
+	<br>
+	<b>Output type</b><br>
+	FSOUND_OUTPUT_DSOUND will provide more solid output than FSOUND_OUTPUT_WINMM in anything except NT.<br>
+	This is a problem with Windows Multimedia Services not being as realtime as it should be.<br>
+	Under NT FSOUND_OUTPUT_WINMM is more stable, as DirectSound in NT is just emulated by using WINMM itself and is actually slower and has longer latency!.<br>
+	<b>NOTE: </b>Please don't feel the need to use FSOUND_SetOutput if you don't need to.  FMOD autodetects the best output mode based on the operating system.
+	</UL>
+
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

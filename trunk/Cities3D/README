@@ -1,0 +1,19 @@
+Cities3D is a cross-platform implementation of the board game Settlers of Catan
+with all expansions, including Seafarers, and Cities & Knights.  It displays 
+the game world in 3 dimensions, with rotation, panning, and zooming, in bright 
+beautiful textures contributed to the project freely by talented individuals 
+from around the world.  The user interface is entirely custom drawn, with 
+crisp, clean lines and dozens of high-quality bitmaps to facilitate an 
+intuitive, pleasing experience for users.  Cities3D has an extensible plugin 
+architecture that allows new rules and variants to be added into the game 
+without changing an ounce of code in existing rules or variants.  In fact, the 
+core rules themselves for Settlers, and the expansions, are all plugins.
+
+Cities3D is built on the firm foundation of OpenGL (http://www.opengl.org), 
+wxWidgets (http://www.wxWidgets.org) and boost (http://www.boost.org), all 
+real-world solutions that have been used in production code.  The architecture 
+was built with a lot of thought, and a lot of Design Patterns, in an attempt to
+make a truly exceptional object-oriented system.  The sound library is 
+fmod (http://www.fmod.org), and the unit testing is done with 
+cppunit (http://cppunit.sourceforge.net/cgi-bin/moin.cgi).  The source code 
+documentation was created using NaturalDocs (http://www.naturaldocs.org).

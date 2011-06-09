@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_DSPCALLBACK</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_DSP_SetPriority.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_File_SetCallbacks.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_DSPCALLBACK">FSOUND_DSPCALLBACK</A></H2>
+Callback definition for DSP units.<BR>
+<P>
+<B>void * F_CALLBACKAPI </B><B> </B><B>FSOUND_DSPCALLBACK</B><B>(</B><BR>
+<B>void *</B><I>originalbuffer</I><B>,</B><BR>
+<B>void *</B><I>newbuffer</I><B>,</B><BR>
+<B>int </B><B> </B><I>length</I><B>,</B><BR>
+<B>void *</B><I>userdata</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>originalbuffer</I></TD>
+<TD>This is the pointer to the original buffer passed into the first DSP unit.  This is useful if you want the clean, original data, and you have been returning new modified buffers for the DSP chain to use.<BR>
+</TD><TR VALIGN=top><TD><I>newbuffer</I></TD>
+<TD>This is a pointer to the previous DSP buffer that *it* returned.  This buffer that this DSP returns will be passed into the newbuffer parameter of the NEXT unit in the DSP chain.<BR>
+</TD><TR VALIGN=top><TD><I>length</I></TD>
+<TD>The length of the buffer provided in SAMPLES, not bytes.<BR>
+</TD><TR VALIGN=top><TD><I>param</I></TD>
+<TD>A user data value specified in FSOUND_DSP_Create.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+Pointer to a sample buffer for the next DSP unit to use.<BR>
+<H3>Remarks</H3>
+You must return the buffer you work on, or it will not be fed through to the next DSP unit, and eventually the the system clip and copy unit, which makes the sound audible.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_DSP_Create.html">FSOUND_DSP_Create</A>
+, 
+<A HREF="FSOUND_Stream_CreateDSP.html">FSOUND_Stream_CreateDSP</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

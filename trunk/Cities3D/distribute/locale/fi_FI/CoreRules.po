@@ -1,0 +1,706 @@
+# 
+# Cities3D - Copyright (C) 2001-2009 Jason Fugate (jfugate@settlers3d.net)
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+# for more details.
+#
+# 14.09.2005: Added new translation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: $Id: CoreRules.po 2761 2008-07-08 00:23:42Z saladyears "
+"$\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2007-05-08 16:23+0200\n"
+"Last-Translator: Pekka Järvinen <pekka.jarvinen@gmail.com>\n"
+"Language-Team: Cities3D internationalization <pekka.jarvinen@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: StatsPane.cpp:102
+msgid "Map"
+msgstr ""
+
+#: StatsPane.cpp:103
+msgid "Map points"
+msgstr ""
+
+#: StatsPane.cpp:106
+msgid "Rulesets"
+msgstr ""
+
+#: StatsPane.cpp:107 Strings.cpp:417
+msgid "Options"
+msgstr "Asetukset"
+
+#: Strings.cpp:357
+msgid "Accept"
+msgstr "Hyväksy"
+
+#: Strings.cpp:358
+#, fuzzy
+msgid "Action"
+msgstr "Animaatio"
+
+#: Strings.cpp:359
+msgid "Add"
+msgstr "Lisää"
+
+#: Strings.cpp:360
+msgid "Advanced"
+msgstr "Lisää.."
+
+#: Strings.cpp:361
+msgid "All"
+msgstr "Kaikki"
+
+#: Strings.cpp:362
+msgid "Animation"
+msgstr "Animaatio"
+
+#: Strings.cpp:363
+msgid "Assign"
+msgstr ""
+
+#: Strings.cpp:364
+msgid "Bitmaps"
+msgstr "Bittikartat"
+
+#: Strings.cpp:365
+msgid "Bank"
+msgstr "Pankki"
+
+#: Strings.cpp:366
+msgid "Board animations show you when another player changes the board."
+msgstr ""
+"Pelianimaatiot selkiyttävät muiden pelaajien tekemiä muutoksia pelilaudalle."
+
+#: Strings.cpp:367
+msgid "Build Options"
+msgstr "Rakenna"
+
+#: Strings.cpp:368
+msgid "Cards"
+msgstr "Kortit"
+
+#: Strings.cpp:369
+msgid "Clear"
+msgstr "Tyhjennä"
+
+#: Strings.cpp:370
+msgid "2.  Click an offer to trade with that player."
+msgstr "2. Klikkaa tarjousta vaihtaaksesi pelaajan kanssa."
+
+#: Strings.cpp:371
+msgid "Click other offers to match them."
+msgstr "Klikkaa muita tarjouksia vastataksesi niihin."
+
+#: Strings.cpp:372
+msgid "Controls"
+msgstr "Kontrollit"
+
+#: Strings.cpp:373
+msgid "Core"
+msgstr "Ydin"
+
+#: Strings.cpp:374
+msgid "Current game settings"
+msgstr "Tämän pelin asetukset"
+
+#: Strings.cpp:375
+msgid "Default"
+msgstr "Vakio"
+
+#: Strings.cpp:376
+msgid "Delete"
+msgstr "Poista"
+
+#: Strings.cpp:377
+msgid "Depth Buffer Size"
+msgstr "Puskurin koko"
+
+#: Strings.cpp:378
+msgid "Display"
+msgstr "Näyttö"
+
+#: Strings.cpp:379
+msgid "Display OpenGL render information"
+msgstr "Näytä OpenGL-renderöintitietoa"
+
+#: Strings.cpp:380
+msgid "Drag and drop cards to create a trade."
+msgstr "Vedä ja pudota kortteja luodaksesi vaihto."
+
+#: Strings.cpp:381
+msgid "1.  Drag and drop cards to create an offer."
+msgstr "1. Vedä ja pudota kortteja luodaksesi vaihto."
+
+#: Strings.cpp:382
+msgid "Drag and drop names, or double-click to add/remove."
+msgstr "Raahaa ja pudota nimiä, tai tuplaklikkaa lisätäksesi / poistaaksesi."
+
+#: Strings.cpp:383
+#, fuzzy
+msgid "End the turn"
+msgstr "Lopeta vuoro"
+
+#: Strings.cpp:384
+msgid "End Turn"
+msgstr "Lopeta vuoro"
+
+#: Strings.cpp:385
+msgid "Exit"
+msgstr "Pois"
+
+#: Strings.cpp:386
+msgid "E&xit"
+msgstr "&Sulje"
+
+#: Strings.cpp:387
+msgid "Few"
+msgstr "Muutama"
+
+#: Strings.cpp:388
+msgid "3.  Finalize your trade!"
+msgstr "3. Päätä kauppa!"
+
+#: Strings.cpp:389
+msgid "for"
+msgstr " "
+
+#: Strings.cpp:390
+msgid ""
+"For most image sets, softening the tiles makes the game board look better."
+msgstr "Pehmennys tekee yleensä pelistä paremman näköisen."
+
+#: Strings.cpp:391
+msgid "Game Images"
+msgstr "Pelikuvat"
+
+#: Strings.cpp:392
+msgid "Game Sounds"
+msgstr "Peliäänet"
+
+#: Strings.cpp:393
+#, fuzzy
+msgid "Game Window"
+msgstr "Peliäänet"
+
+#: Strings.cpp:394
+msgid "Half"
+msgstr "Puolet"
+
+#: Strings.cpp:395
+msgid "Hide popups"
+msgstr "Piilota ponnahdusikkunat"
+
+#: Strings.cpp:396
+msgid "Hotseat"
+msgstr "Moninpeli tällä koneella"
+
+#: Strings.cpp:397
+msgid "Hotseat Setup"
+msgstr "Moninpeli samalla tietokoneella"
+
+#: Strings.cpp:398
+msgid "Images"
+msgstr "Kuvat"
+
+#: Strings.cpp:399
+#, c-format
+msgid "%s is currently assigned to %s."
+msgstr ""
+
+#: Strings.cpp:400
+msgid "Key Bindings"
+msgstr ""
+
+#: Strings.cpp:401
+msgid "Keyboard"
+msgstr ""
+
+#: Strings.cpp:402
+msgid "Keystroke"
+msgstr ""
+
+#: Strings.cpp:403
+msgid "Language"
+msgstr "Kieli"
+
+#: Strings.cpp:404
+msgid "&Layout"
+msgstr ""
+
+#: Strings.cpp:405
+msgid "Load A Saved Game"
+msgstr "Avaa tallennettu peli"
+
+#: Strings.cpp:406
+msgid "Load Saved"
+msgstr "Lataa tallennettu peli"
+
+#: Strings.cpp:407
+msgid "Many"
+msgstr "Monta"
+
+#: Strings.cpp:408
+msgid "Most"
+msgstr "Suurin osa"
+
+#: Strings.cpp:409
+msgid "Name"
+msgstr "Nimi"
+
+#: Strings.cpp:410
+msgid "New"
+msgstr "Uusi"
+
+#: Strings.cpp:411
+msgid "New keystroke"
+msgstr ""
+
+#: Strings.cpp:412
+msgid "None"
+msgstr "Ei yhtään"
+
+#: Strings.cpp:413
+msgid "No, thanks."
+msgstr "Ei kiitos."
+
+#: Strings.cpp:414
+msgid "No Trades"
+msgstr "Ei kauppoja"
+
+#: Strings.cpp:415
+msgid "Offer"
+msgstr "Tarjoa"
+
+#: Strings.cpp:416
+msgid "OK"
+msgstr "OK"
+
+#: Strings.cpp:418
+msgid "Pan map down"
+msgstr ""
+
+#: Strings.cpp:419
+msgid "Pan map left"
+msgstr ""
+
+#: Strings.cpp:420
+msgid "Pan map right"
+msgstr ""
+
+#: Strings.cpp:421
+msgid "Pan map up"
+msgstr ""
+
+#: Strings.cpp:422
+#, fuzzy
+msgid "Play a card"
+msgstr "Pelaa kortti"
+
+#: Strings.cpp:423
+msgid "Play board animations"
+msgstr "Näytä pelilaudan animaatiot"
+
+#: Strings.cpp:424
+msgid "Players"
+msgstr "Pelaajat"
+
+#: Strings.cpp:425
+msgid "Play Next"
+msgstr "Pelaa seuraava"
+
+#: Strings.cpp:426
+msgid "Play Sounds"
+msgstr "Äänet"
+
+#: Strings.cpp:427
+msgid "Popups"
+msgstr "Ponnahdusikkunat"
+
+#: Strings.cpp:428
+msgid "Question"
+msgstr "Kysymys"
+
+#: Strings.cpp:429
+msgid "&Quit"
+msgstr "&Poistu"
+
+#: Strings.cpp:430
+msgid "Recommended for new players or to distinguish between different colors."
+msgstr "Suositellaan uusille pelaajille ja erottamaan värit toisistaan."
+
+#: Strings.cpp:431
+msgid "Reject"
+msgstr "Hylkää"
+
+#: Strings.cpp:432
+msgid "Render bitmaps with OpenGL"
+msgstr "Renderöi bittikartat käyttäen OpenGL:ää"
+
+#: Strings.cpp:433
+msgid "Respond with the Stockyard buttons, or make a counteroffer."
+msgstr "Vastaa varastonappuloilla, tai tee vastatarjous."
+
+#: Strings.cpp:434
+msgid "&Restore original layout"
+msgstr ""
+
+#: Strings.cpp:435
+msgid "Roll Dice"
+msgstr "Heitä noppaa"
+
+#: Strings.cpp:436
+#, fuzzy
+msgid "Roll the dice"
+msgstr "Heitä noppaa"
+
+#: Strings.cpp:437
+msgid "Rotate map down"
+msgstr ""
+
+#: Strings.cpp:438
+msgid "Rotate map left"
+msgstr ""
+
+#: Strings.cpp:439
+msgid "Rotate map right"
+msgstr ""
+
+#: Strings.cpp:440
+msgid "Rotate map up"
+msgstr ""
+
+#: Strings.cpp:441
+msgid "&Save"
+msgstr "&Tallenna"
+
+#: Strings.cpp:442
+#, fuzzy
+msgid "Seconds before popups disappear"
+msgstr "Sekuntia ponnahdusikkunoiden sulkemiseen:"
+
+#: Strings.cpp:443
+msgid "Select a Language"
+msgstr "Valitse kieli"
+
+#: Strings.cpp:444
+msgid "Select Map"
+msgstr "Valitse kartta"
+
+#: Strings.cpp:445
+#, fuzzy
+msgid ""
+"Select the language you would like to use from the list.  You must restart "
+"Cities Online for your choice to take effect."
+msgstr ""
+"Valitse haluamasi kieli listalta. Vaihto vaatii pelin uudelleenkäynnistyksen."
+
+#: Strings.cpp:446
+msgid ""
+"Select the set of images you would like to use from the list.  The display "
+"will be updated immediately."
+msgstr "Valitse käytettävät kuvat listalta. Muutos astuu voimaan välittömästi."
+
+#: Strings.cpp:447
+msgid ""
+"Select the set of sounds you would like to use from the list.  Your choice "
+"will take effect immediately."
+msgstr "Valitse käytettävät äänet listalta. Muutos astuu voimaan välittömästi."
+
+#: Strings.cpp:448
+msgid ""
+"Select the skin you would like to use from the list.  Your choice will take "
+"effect immediately."
+msgstr "Valitse teema listalta. Muutos astuu voimaan välittömästi."
+
+#: Strings.cpp:449
+msgid "&Set this layout as default"
+msgstr ""
+
+#: Strings.cpp:450
+msgid "Settings"
+msgstr "Asetukset"
+
+#: Strings.cpp:451
+msgid "&Settings"
+msgstr "&Asetukset"
+
+#: Strings.cpp:452
+msgid "Show popups"
+msgstr "Näytä ponnahdusikkunat"
+
+#: Strings.cpp:453
+msgid "Skin"
+msgstr "Teema"
+
+#: Strings.cpp:454
+msgid "Skins"
+msgstr "Teemat"
+
+#: Strings.cpp:455
+msgid "Soften tiles"
+msgstr "Pehmennä"
+
+#: Strings.cpp:456
+msgid "Some"
+msgstr "Jonkin verran"
+
+#: Strings.cpp:457
+msgid "Sounds"
+msgstr "Äänet"
+
+#: Strings.cpp:458
+#, fuzzy
+msgid "Stats"
+msgstr "Tila"
+
+#: Strings.cpp:459
+#, fuzzy
+msgid "&Stats"
+msgstr "Tila"
+
+#: Strings.cpp:460
+msgid "Status"
+msgstr "Tila"
+
+#: Strings.cpp:461
+msgid "Stockyard"
+msgstr "Varasto"
+
+#: Strings.cpp:462
+msgid "That would be cheating!"
+msgstr "Se olisi huijaamista!"
+
+#: Strings.cpp:463
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: Strings.cpp:464
+#, fuzzy
+msgid "Toggle popups"
+msgstr "Näytä ponnahdusikkunat"
+
+#: Strings.cpp:465
+msgid "Trade"
+msgstr "Kauppaa"
+
+#: Strings.cpp:466
+msgid "Trade!"
+msgstr "Käy vaihtokauppaa!"
+
+#: Strings.cpp:467
+#, fuzzy
+msgid "Trade with bank"
+msgstr "Vaihda pankin kanssa"
+
+#: Strings.cpp:468
+#, fuzzy
+msgid "Trade with others"
+msgstr "Vaihda muiden pelaajien kanssa"
+
+#: Strings.cpp:469
+msgid "Trade With Others"
+msgstr "Vaihda muiden pelaajien kanssa"
+
+#: Strings.cpp:470
+msgid "Trade With The Bank"
+msgstr "Vaihda pankin kanssa"
+
+#: Strings.cpp:471
+msgid "Turning sounds off will make the game completely silent."
+msgstr "Äänien pois laittaminen tekee pelistä täysin äänettömän."
+
+#: Strings.cpp:472
+msgid "Unable to restart the game."
+msgstr "Ei pystytä käynnistämään peliä uudelleen."
+
+#: Strings.cpp:473
+msgid "Undo"
+msgstr "Peru"
+
+#: Strings.cpp:474
+msgid "Undo action"
+msgstr ""
+
+#: Strings.cpp:475
+msgid "Use frame buffers (if available)"
+msgstr "Käytä ruutupuskuria (jos saatavilla)"
+
+#: Strings.cpp:476
+msgid "Use pixel buffers (if available)"
+msgstr "Käytä pikselipuskuria (jos saatavilla)"
+
+#: Strings.cpp:477
+msgid "You"
+msgstr "Sinä"
+
+#: Strings.cpp:478
+msgid "You accept"
+msgstr "Sinä hyväksyt"
+
+#: Strings.cpp:479
+msgid "You get"
+msgstr "Sinä saat"
+
+#: Strings.cpp:480
+msgid "You give"
+msgstr "Sinä annat"
+
+#: Strings.cpp:481
+msgid "You offer"
+msgstr "Sinä tarjoat"
+
+#: Strings.cpp:482
+msgid "You pass"
+msgstr "Sinä passaat"
+
+#: Strings.cpp:483
+msgid "You want"
+msgstr "Sinä haluat"
+
+#: Strings.cpp:484
+msgid "You won't trade"
+msgstr "Sinä et tee kauppaa"
+
+#: Strings.cpp:485
+msgid "Zoom into map"
+msgstr ""
+
+#: Strings.cpp:486
+msgid "Zoom out of map"
+msgstr ""
+
+#: Strings.cpp:489
+#, c-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Oletko varma, että haluat tuhota %s?"
+
+#: Strings.cpp:490
+#, c-format
+msgid "If %s accepts your offer, finalize it."
+msgstr "Jos %s hyväksyy tarjouksesi, päätä se."
+
+#: Strings.cpp:491
+#, c-format
+msgid "%s accepts"
+msgstr "%s hyväksyy"
+
+#: Strings.cpp:492
+#, c-format
+msgid "%s gives"
+msgstr "%s antaa"
+
+#: Strings.cpp:493
+#, c-format
+msgid "%s offers"
+msgstr "%s tarjoaa"
+
+#: Strings.cpp:494
+#, c-format
+msgid "%s passes"
+msgstr "%s passaa"
+
+#: Strings.cpp:495
+#, c-format
+msgid "%s wants"
+msgstr "%s haluaa"
+
+#: Strings.cpp:496
+#, c-format
+msgid "%s won't trade"
+msgstr "%s ei tee kauppaa"
+
+#~ msgid "Replay A Game"
+#~ msgstr "Toista peli"
+
+#~ msgid "Save"
+#~ msgstr "Tallenna"
+
+#~ msgid "Select"
+#~ msgstr "Valitse"
+
+#~ msgid "Your name cannot be blank or all spaces."
+#~ msgstr "Nimesi ei voi olla tyhjä tai pelkkiä välilyöntejä."
+
+#~ msgid "Add A Layout"
+#~ msgstr "Lisää"
+
+#~ msgid "General"
+#~ msgstr "Yleisasetukset"
+
+#~ msgid "Use the TAB key to quickly toggle popups on and off."
+#~ msgstr ""
+#~ "Käytä sarkain-näppäintä laittaaksesi ponnahdusikkunat päälle ja pois."
+
+#~ msgid "Cancel"
+#~ msgstr "Peruuta"
+
+#~ msgid "Game Setup"
+#~ msgstr "Peliasetukset"
+
+#~ msgid "Chat"
+#~ msgstr "Keskustelu"
+
+#~ msgid "Open Saved"
+#~ msgstr "Avaa talletettu peli"
+
+#~ msgid "Use curved regions (Windows only)"
+#~ msgstr "Käytä kaariutuvia alueita (vain Windows)"
+
+#~ msgid "Play UI animations"
+#~ msgstr "Näytä käyttöliittymän animaatiot"
+
+#~ msgid "UI animations cause game windows to slide in and out."
+#~ msgstr "Käyttöliittymäanimaatiot päällä pelin ikkunat liukuvat ruudulle."
+
+#~ msgid "Size"
+#~ msgstr "Koko"
+
+#~ msgid "Maximum"
+#~ msgstr "Maksimi"
+
+#~ msgid ""
+#~ "Drag the slider left or right to change the size of the screen interface."
+#~ msgstr ""
+#~ "Raahaa säädintä vasemmalle tai oikealle vaikuttaaksesi käyttöliittymän "
+#~ "kokoon."
+
+#~ msgid "Always show build options"
+#~ msgstr "Näytä aina rakennusmahdollisuudet"
+
+#~ msgid ""
+#~ "Shows build options even if you don't have the resources to build them.  "
+#~ "Recommended for new players."
+#~ msgstr ""
+#~ "Näyttää rakennusoptiot vaikkei sinulla olisikaan resursseja niihin. "
+#~ "Suositellaan uusille pelaajille."
+
+#~ msgid "Interface"
+#~ msgstr "Käyttöliittymä"
+
+#~ msgid "Done"
+#~ msgstr "Valmis"
+
+#~ msgid "General Settings"
+#~ msgstr "Yleisasetukset"
+
+#~ msgid "Them"
+#~ msgstr "He"
+
+#~ msgid "Current Offer"
+#~ msgstr "Nykyinen tarjous"

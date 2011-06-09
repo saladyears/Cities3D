@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>3D Sound Tutorial - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>3D SOUND AND GAME CODING</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	3D Sound in FMOD is accomplished through a various different API's which are handled transparently to you through one unified interface.  These are DirectSound 3D with EAX 2.0 and EAD 3.0/HD support, or FMOD fallback software 3D stereo engine.
+	<BR><BR>
+	It is recommended when you see an API function highlighted as a link, that you check the API reference for more detail.
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Hardware Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	Allocating samples with <b>FSOUND_HW3D</b> is the key to getting your sounds to use 3D hardware acceleration. <BR>
+	You do this when loading wav, raw, mp3, etc samples, through the following function.<BR><BR>
+	<LI><a href="../HTML/FSOUND_Sample_Load.html">FSOUND_Sample_Load</a>(int index, const char *name_or_data, unsigned int inputmode, int offset, int length);
+	Bitwise <b>OR</b> in the <b>FSOUND_HW3D</b> flag into the <b>mode</b> parameter of the loading function.<BR><BR>
+	If you have the correct hardware, the sound will be loaded into hardware mode.<BR>
+	If not, the sample will be loaded in software mode, transparently to the programmer, but it will not be accelerated or take advantage of advanced 3d algorithms and EAX.<BR><BR>
+	Here is an example of a wav file attempting to be loaded as a 3D Hardware buffer.<BR>
+	<b><a href="../HTML/FSOUND_Sample_Load.html">FSOUND_Sample_Load</a>(FSOUND_FREE, "engine.wav", FSOUND_HW3D | FSOUND_LOOP_NORMAL, 0, 0);</b><BR><BR>
+	Or you can force it into software by not specifying the FSOUND_HW3D flag<BR>
+	<b><a href="../HTML/FSOUND_Sample_Load.html">FSOUND_Sample_Load</a>(FSOUND_FREE, "engine.wav", FSOUND_LOOP_NORMAL, 0, 0);</b><BR><BR>
+	Or you can have it as a 2D sound (2d sounds are not affected by 3d functions, and are rendered in software), using the FSOUND_2D flag.<BR>
+	<b><a href="../HTML/FSOUND_Sample_Load.html">FSOUND_Sample_Load</a>(FSOUND_FREE, "engine.wav", FSOUND_2D | FSOUND_LOOP_NORMAL, 0, 0);</b><BR><BR>
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Typical game loop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This would be a typical example of a game audio loop.<BR><BR>
+	<b>
+	do<br>
+	{	<UL>
+		UpdateGame(); <font color="#6060bF"><i>// here the game is updated and the sources would  be moved with FSOUND_SetAttributes</i><font color="#00005f"><br>
+		<br>
+		<a href="../HTML/FSOUND_3D_Listener_SetAttributes.html">FSOUND_3D_Listener_SetAttributes</a>(listenerpos, listenervel, fx, fy, fz, tx, ty, tz);	<font color="#6060bF"><i>// update 'ears'</i><font color="#00005f"><br>
+		<a href="../HTML/FSOUND_Update.html">FSOUND_Update</a>();	<font color="#6060bF"><i>// needed to update 3d engine, once per frame</i><font color="#00005f"><br>
+	</UL>
+	} while (gamerunning);<br>
+	</b>
+	<BR>
+	Most games usually take the position,velocity and orientation from the camera's vectors and matrix.
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Velocity parameter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	Velocity is only required if you want doppler effects.  Otherwise you can pass NULL to both <a href="../HTML/FSOUND_3D_Listener_SetAttributes.html">FSOUND_3D_Listener_SetAttributes</a> and <a href="../HTML/FSOUND_3D_SetAttributes.html">FSOUND_3D_SetAttributes</a> for the velocity parameter, and no doppler effect will be heard<br><br>
+	This is stressed over and over again, but can't be stressed enough.  It is important that the velocity passed to FMOD is <b>METERS PER SECOND</b> and <b><i>NOT</i></b> meters per FRAME.<br><br>
+	What does this mean?  Use proper velocity vectors from physics code etc, and don't just subtract last frames position from the current position, as this is affected by framerate. (ie the higher the framerate the smaller the position deltas, and therefore smaller doppler effects, which is incorrect)<br><br>
+	If the only way you can get the velocity is to subtract this and last frame's position vectors, then remember to time adjust them from meters per frame back up to meters per second.<br>
+	This is done simply by scaling the difference vector obtained by subtracting the 2 position vectors, by one over the frame time delta.<br><br>
+	Here is an example<br>
+	<b>
+	velx = (posx-lastposx) * 1000 / timedelta;<br>
+	velz = (posy-lastposy) * 1000 / timedelta;<br>
+	velz = (posz-lastposz) * 1000 / timedelta;<br>
+	</b>
+	timedelta is the time since the last frame in milliseconds.  This can be obtained with functions such as timeGetTime().<br>
+	So at 60fps, the timedelta would be 16.67ms.  if the source moved 0.1 meters in this time, the actual velocity in meters per second would be<br>
+	<b>vel = 0.1 * 1000 / 16.67 = 6 meters per second.</b><br>
+	Similarly, if we only have half the framerate of 30fps, then subtracting position deltas will gives us twice the distance that it would at 60fps (so it would have moved 0.2 meters this time)<br>
+	<b>vel = 0.2 * 1000 / 33.33 = 6 meters per second still! phew!.</b><br>
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Orientation and coordinate systems&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	Getting the correct orientation set up is essential if you want the source to move around you in 3d space.<br>
+	FMOD Uses a <b>left handed coordinate system</b>, (x = right, y = up, z = forwards), which is the same as DirectSound3D and A3D<br><br>
+	If you use a different coordinate system, then you will need to flip certain axis or even swap them around inside the call to <a href="../HTML/FSOUND_3D_Listener_SetAttributes.html">FSOUND_3D_Listener_SetAttributes</a>.<br>
+	Take the right handed coordinate system, where Z points backwards, or comes out of the screen at you.  To convert this to FMOD coordinate system simply negate the Z coordinate of the listener up and forward vector.<br><br>
+	Just think <b>RIGHT, UP, FORWARDS</b> for each element of a vector (ie x,y,z), and map whatever axis fit your model into this, to generate the 2 vectors that points forwards and up.
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Channel resource management and low end cards&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	Some soundcards only support 4 or 8 3D hardware channels, whereas other soundcards support 32 and 96 hardware 3D channels.<br>
+	What do you do in your game?  only play 4 3D hardware based sounds at once to meet the base spec?  Not likely.  It would be ridiculous to limit yourself to these 4 channels when you have the potential of other high end cards that can do nearly 100 hardware channels at once.<br><br>
+	The solution is to use <a href="../HTML/FSOUND_SetMinHardwareChannels.html">FSOUND_SetMinHardwareChannels</a>.  This function is called once before calling <a href="../HTML/FSOUND_Init.html">FSOUND_Init</a>.<br>
+	What this allows you to do is <b>assume</b> a number of channels will either ALL be played in hardware, or NONE in hardware (therefore in software).<br>
+	It basically says 'if the card doesn't have n number of channels, then mix all sounds in software'.  This allows you to assume that you have say 16 sounds to be playing at once, and if the hardware has at least that many channels available, it will play them all in hardware.
+	If you come across a card that only supports 4 hardware channels at once, then it fails the criteria and your sounds are played all in software.  <br>
+	<br>
+	The best thing about this is NO PlaySound's fail because of running out of channels on unexpected cards!  You can guarantee a certain number of channels available, and if the hardware is there, then all the better!
+	</UL>
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Use priorities!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	FMOD's priority system is there to be used.  If you trigger lots of sounds on a limited number of channels, some might be more important than others.<br>
+	If you were doing a first person shooter, the player's gunshot sound would be one of the most important sounds.  So it should have a high priority set with <a href="../HTML/FSOUND_SetPriority.html">FSOUND_SetPriority</a>.
+	Other less important sounds would be rejected if the number of allocated channels became full, and that gunshot needed to be heard!
+	</UL>
+
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

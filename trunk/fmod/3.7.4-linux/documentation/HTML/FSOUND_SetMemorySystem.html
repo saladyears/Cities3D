@@ -1,0 +1,103 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_SetMemorySystem</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_SetMaxHardwareChannels.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_SetMinHardwareChannels.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_SetMemorySystem">FSOUND_SetMemorySystem</A></H2>
+Specifies a method for FMOD to allocate memory, either through callbacks or its own internal memory management.  You can also supply a pool of memory for FMOD to work with and it will do so with no extra calls to malloc or free.<BR>
+This is useful for systems that want FMOD to use their own memory management, or fixed memory devices such as PocketPC, XBox, PS2 and GameCube that dont want any allocations occuring out of their control causing fragmentation or unpredictable overflows in a tight memory space.<BR>
+See remarks for more useful information.<BR>
+<P>
+<B>DLL_API signed char F_API </B><B> </B><B>FSOUND_SetMemorySystem</B><B>(</B><BR>
+<B>void *</B><I>poolmem</I><B>,</B><BR>
+<B>int </B><B> </B><I>poollen</I><B>,</B><BR>
+<B>FSOUND_ALLOCCALLBACK </B><B> </B><I>useralloc</I><B>,</B><BR>
+<B>FSOUND_REALLOCCALLBACK </B><B> </B><I>userrealloc</I><B>,</B><BR>
+<B>FSOUND_FREECALLBACK </B><B> </B><I>userfree</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>pool</I></TD>
+<TD>If you want a fixed block of memory for FMOD to use, pass it in here.  Specify the length in poollen.  Specifying NULL doesnt use internal management and it relies on callbacks.<BR>
+</TD><TR VALIGN=top><TD><I>poollen</I></TD>
+<TD>Length in bytes of the pool of memory for FMOD to use specified in.  Specifying 0 turns off internal memory management and relies purely on callbacks.  Length must be a multiple of 512.<BR>
+</TD><TR VALIGN=top><TD><I>useralloc</I></TD>
+<TD>Only supported if pool is NULL.  Otherwise it overrides the FMOD internal calls to alloc.  Compatible with ansi malloc().<BR>
+</TD><TR VALIGN=top><TD><I>userrealloc</I></TD>
+<TD>Only supported if pool is NULL.  Otherwise it overrides the FMOD internal calls to realloc.  Compatible with ansi realloc().<BR>
+</TD><TR VALIGN=top><TD><I>userfree</I></TD>
+<TD>Only supported if pool is NULL.  Otherwise it overrides the FMOD internal calls to free. Compatible with ansi free().<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+void<BR>
+<H3>Remarks</H3>
+FMOD has been tested to stay in a limit and fail gracefully if the fixed pool size is not large enough with FMOD_ERR_MEMORY errors.<BR>
+FMOD only does allocation when creating streams, music or samples and the FSOUND_Init stage.  It never allocates or deallocates memory during the course of runtime processing.<BR>
+To find out the required fixed size the user can call FSOUND_GetMemoryStats with a larger than nescessary pool size (or no pool), and find out the maximum ram usage at any one time within FMOD.<BR>
+-------------------------------------<BR>
+FMOD behaves differently based on what you pass into this function in 3 different combinations.<BR>
+Here are the examples.<BR>
+NULL, 0,   NULL,    NULL,      NULL   : Falls back purely to ansi C malloc, realloc and free.<BR>
+NULL, 0,   myalloc, myrealloc, myfree : Calls user supplied callbacks every time fmod does a memory allocation or deallocation.<BR>
+ptr,  len, NULL,    NULL,      NULL   : Uses "ptr" and manages memory internally.  NO extra mallocs or frees are performed from this point.<BR>
+-------------------------------------<BR>
+Callbacks and memory pools cannot be combined, as if a pool is specified FMOD, manipulates the pool of memory internally with its own allocate and free scheme.<BR>
+The memory management algorithm to work within a fixed size of ram is extremely efficient and faster than the standard C malloc or free.<BR>
+-------------------------------------<BR>
+On XBox you MUST specify a pointer and length.  The memory provided must be enough to store all sample data.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_ALLOCCALLBACK.html">FSOUND_ALLOCCALLBACK</A>
+, 
+<A HREF="FSOUND_Close.html">FSOUND_Close</A>
+, 
+<A HREF="FSOUND_FREECALLBACK.html">FSOUND_FREECALLBACK</A>
+, 
+<A HREF="FSOUND_GetFreeHWRam.html">FSOUND_GetFreeHWRam</A>
+, 
+<A HREF="FSOUND_GetMemoryStats.html">FSOUND_GetMemoryStats</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+, 
+<A HREF="FSOUND_IOP_Alloc.html">FSOUND_IOP_Alloc</A>
+, 
+<A HREF="FSOUND_REALLOCCALLBACK.html">FSOUND_REALLOCCALLBACK</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

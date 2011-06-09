@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>Co-existing with movie players - Firelight Technologies Pty, Ltd.</TITLE>
+</HEAD>
+
+
+
+
+
+<BODY class="fmod" bgcolor="#FFFFFF" leftmargin="10" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	<center>
+	<IMG src="fmod.jpg">
+	<BR>
+	<BR>
+	<BR>
+	<H1>FMOD AND MOVIE PLAYERS</H1>
+	</center>
+
+	<font color="#00005F" face="Arial, Helvetica" size="2">
+
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Introduction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+	This section describes how to have FMOD happily coexist with various movie playback systems available.
+
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">PlayStation 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		The main causes on conflicts between other middleware that uses audio or the IOP, and FMOD are:<br>
+		<br>
+		<li><b><u>Conflict between the SPU2 DMA channels.</u></b>  There are 2 of these.  <u>DMA channel 0</u> and <u>DMA channel 1</u>.  By default FMOD uses SPU2 DMA channel 0 for software mixing, and DMA core 1 for uploading sample data and for streaming to.  This means DMA core 1 is used when <a href="../HTML/FMUSIC_LoadSong.html">FMUSIC_LoadSong</a> / <a href="../HTML/FMUSIC_LoadSongEx.html">FMUSIC_LoadSongEx</a> is being executed to load a PS2 FSB file, or streaming using <a href="../HTML/FSOUND_Stream_Open.html">FSOUND_Stream_Open</a> / <a href="../HTML/FSOUND_Stream_Play.html">FSOUND_Stream_Play</a>.  To work around this issue see the following tips.
+			<ul>
+			<li><b>Turn off the FMOD software mixer.</b>  This will free up <u>DMA Channel 0</u>.  Most of the time you are not going to need this.  You can do this by using <a href="../HTML/FSOUND_Init.html">FSOUND_Init</a> with software channels set to <b>0</b>.
+			<li><b>Swap FMOD's mixer/upload channel usage around.</b>  If the 3rd party software still uses <u>DMA Channel 1</u> (the channel FMOD uses for bank uploads and streaming), you can either change your 3rd party software to use <u>DMA Channel 0</u> instead of <u>DMA Channel 1</u>, or tell FMOD to swap its usage around by specifying <a href="../HTML/FSOUND_INIT_FLAGS.html">FMOD_INIT_PS2_SWAPDMACORES</a>.  If you didn't turn the software mixer off, this would make FMOD use <u>DMA Channel 0</u> for streams and sample bank uploads, and <u>DMA Channel 1</u> for the software mixer.
+			</ul>
+		<br>
+		<li><b><u>Conflict on the SIFCMD ports.</u></b>  If your middleware or your own code is using the SIFCMD sony library to communicate with the IOP, then if you dont take care to share the SIFCMD buffers and ports with FMOD, messages will get lost and unexpected behaviour will occur in FMOD and your 3rd party software.
+			<ul>
+			<li><b>If you want to initialize your 3rd party software <u>after</u> FMOD.</b>  Use this information if the code has a way to set up its SIFCMD usage.  Note that FMOD uses SIFCMD port <b>0 and 1</b>, and has a <b>buffer size of 16</b>.
+			<li><b>If you want to initialize your 3rd party software <u>before</u> FMOD.</b>  If FMOD is initialized first, call <b>FSOUND_SetSifCommandInfo</b> from <b>fmodps2.h</b>.  Also load your FMOD.IRX or FMODSMALL.IRX with command line parameters to allow the IOP side to get the same information.  For more detailed information on this see the comment above the function prototype in <b>fmodps2.h</b>.
+			</ul>
+		<br>
+		<li><b><u>SPU2 ram usage and SPU2 hardware voice usage.</u></b>  Because FMOD and the middleware might not know about each other, they might allocate memory or use SPU2 voices without any regard for the other.
+			<ul>
+			<li><b>Use FSOUND_SPU2_Alloc / FSOUND_SPU2_GetRawAddress / FSOUND_SPU2_Free.</b>  Use these functions to allocate SPU2 memory for your 3rd party application.   This way it will use FMOD's memory manager.
+			<li><b>Use FSOUND_SetReserved.</b>  If the 3rd party software uses SPU2 voices, you can mark the literal SPU2 voice index as not to be used within FMOD.  If the 3rd party software used SPU2 voice 0 for example FMOD would use <a href="../HTML/FSOUND_SetReserved.html">FSOUND_SetReserved</a>(number_of_software_channels + 0, TRUE);  Note that the software channels value is mentioned because raw channel indicies are 0 to (maxnumsoftwarechannels - 1) = software voices, and after this are hardware voices.  If you have the software mixer turned off, then 0 would be SPU2 voice 0 and 47 would be SPU2 voice 47.
+			</ul>
+		<br>
+	</UL>
+
+
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">XBOX&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		The main causes on conflicts between other middleware that uses audio on the XBox, and FMOD are:<br>
+		<br>
+		<li><b><u>"DSOUND: CMcpxAPU::AllocateVoices: Error: Not enough free hardware voices".</u></b>  By default FMOD assumes it is in total control of the audio, so it allocates every XBox audio voice.  If another 3rd party software application tries to allocate a hardware voice it will fail.  
+			<ul>
+			<li>Use FSOUND_SetMaxHardwareChannels.</b>  To get around this issue just call <a href="../HTML/FSOUND_SetMaxHardwareChannels.html">FSOUND_SetMaxHardwareChannels</a> to reduce the count.  XBox has around 192 HW2D voices so you could reduce this and still have plenty of voices free.
+			</ul>
+		<br>
+		<li><b><u>DSP Image incorrect.</u></b>  FMOD has an internal MCP DSP image that it loads.  It is stripped down to save memory, (hundreds of kilobytes) by removing unnescessary features.  This may conflict with other 3rd party software that relies on a standard DSP image such as Microsoft's dsstdfx.bin.
+			<ul>
+			<li><b>Use FSOUND_SpecifyEffectsImage.</b>  If the 3rd party middleware has a dsp image file that it relies on you can use <b>FSOUND_SpecifyEffectsImage</b> (found in <b>fmodxbox.h</b>) to make FMOD use that image.
+			<li><b>Make the other software use FMOD's image.</b>  You can get a handle to FMOD's internal dsp image structure by calling <b>FSOUND_GetEffectImageDesc</b> (found in <b>fmodxbox.h</b>) if the 3rd party has such a facility to allow this sort of external image to be used.
+			</ul>
+		<br>
+		<li><b><u>Needs access to the XBox LPDIRECTSOUND handle.</u></b>  If the 3rd party software is initialized second, it may want to use the XBox LPDIRECTSOUND handle.
+			<ul>
+			<li><b>Use FSOUND_GetOutputHandle.</b> If you need to get a handle to FMOD's internal DirectSound pointer, you can share it by calling <a href="../HTML/FSOUND_GetOutputHandle.html">FSOUND_GetOutputHandle</a> and casting it to the appropriate pointer type.
+			</ul>
+		<br>
+	</UL>
+
+
+	</UL>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Win32&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		If you need to get a handle to FMOD's internal DirectSound pointer, you can share it by calling <a href="../HTML/FSOUND_GetOutputHandle.html">FSOUND_GetOutputHandle</a> and casting it to the appropriate pointer type.<br>
+		This also goes for XBox and other platforms, and depends on th
+	</UL>
+
+
+	<table border="1" cellpadding="0" cellspacing="0" width="100%" bgcolor="#506080">
+	  <tr>
+		<td width="100%"><font color="#FFFF80" face="Arial, Helvetica" size="2">Bink on PS2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small></small></font></td>
+	  </tr>
+	</table>
+	<UL>
+		Here is a quick way to get FMOD PS2 and Bink to co-exist.<br>
+		<br>	
+		Initialize FMOD first.<br>
+		<br>
+		<b>FSOUND_Init(48000, 0, FSOUND_INIT_PS2_SWAPDMACORES);</b><br>
+		<b>FSOUND_SetReserved(0,TRUE);</b><br>
+		<br>
+		Initialize Bink<br>
+		<br>
+		<b>
+		MovieBuffer = sceSifAllocIopHeap( RAD_IOPMemoryAmount( RAD_IOP_NEED_CORE1 ) );<br>
+		RAD_IOPMemoryAmount(RAD_IOP_NEED_CORE1) ));<br>
+		if ( !RAD_IOPStartUp( 1, 2, MovieBuffer, RAD_IOP_NEED_CORE1|RAD_IOP_NO_INIT_LIBSD ) )<br>
+		{<br>
+			<ul>
+			sceSifFreeIopHeap(MovieBuffer);<br>
+			// error<br>
+			</ul>
+		}<br>
+		RAD_IOPHardwareVolumes(1, 0x3fff, 0x3fff, 0x3fff, 0x3fff);<br>
+		BinkSoundUseRAD_IOP(1);<br>
+		</b>
+		<br>
+	</UL>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+	<BR>
+
+</BODY>
+</HTML>

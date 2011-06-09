@@ -1,0 +1,102 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_INIT_FLAGS</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_DSP_PRIORITIES.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_MISC_VALUES.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Defines"><H5>[Define]</A></H5>
+<H2><A NAME="FSOUND_INIT_FLAGS">FSOUND_INIT_FLAGS</A></H2>
+Initialization flags.  Use them with FSOUND_Init in the flags parameter to change various behaviour.<BR>
+FSOUND_INIT_ENABLESYSTEMCHANNELFX Is an init mode which enables the FSOUND mixer buffer to be affected by DirectX 8 effects.<BR>
+Note that due to limitations of DirectSound, FSOUND_Init may fail if this is enabled because the buffersize is too small.<BR>
+This can be fixed with FSOUND_SetBufferSize.  Increase the BufferSize until it works.<BR>
+When it is enabled you can use the FSOUND_FX api, and use FSOUND_SYSTEMCHANNEL as the channel id when setting parameters.<BR>
+<P>
+<TABLE>
+<TR VALIGN=top><TD><B>FSOUND_INIT_USEDEFAULTMIDISYNTH</B></TD>
+<TD><I>0x0001    /* Win32 only - Causes MIDI playback to force software decoding. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_GLOBALFOCUS</B></TD>
+<TD><I>0x0002    /* Win32 only - For DirectSound output - sound is not muted when window is out of focus. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_ENABLESYSTEMCHANNELFX</B></TD>
+<TD><I>0x0004    /* Win32 only - For DirectSound output - Allows FSOUND_FX api to be used on global software mixer output! (use FSOUND_SYSTEMCHANNEL as channel id) */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_ACCURATEVULEVELS</B></TD>
+<TD><I>0x0008    /* This latency adjusts FSOUND_GetCurrentLevels, but incurs a small cpu and memory hit */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_PS2_DISABLECORE0REVERB</B></TD>
+<TD><I>0x0010    /* PS2 only   - Disable reverb on CORE 0 (SPU2 voices 00-23) to regain SRAM */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_PS2_DISABLECORE1REVERB</B></TD>
+<TD><I>0x0020    /* PS2 only   - Disable reverb on CORE 1 (SPU2 voices 24-47) to regain SRAM */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_PS2_SWAPDMACORES</B></TD>
+<TD><I>0x0040    /* PS2 only   - By default FMOD uses DMA CH0 for mixing, CH1 for uploads, this flag swaps them around */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_DONTLATENCYADJUST</B></TD>
+<TD><I>0x0080    /* Callbacks are not latency adjusted, and are called at mix time.  Also information functions are immediate */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_GC_INITLIBS</B></TD>
+<TD><I>0x0100    /* GC only    - Initializes GC audio libraries */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_STREAM_FROM_MAIN_THREAD</B></TD>
+<TD><I>0x0200    /* Turns off fmod streamer thread, and makes streaming update from FSOUND_Update called by the user */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_PS2_USEVOLUMERAMPING</B></TD>
+<TD><I>0x0400    /* PS2 only   - Turns on volume ramping system to remove hardware clicks. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_DSOUND_DEFERRED</B></TD>
+<TD><I>0x0800    /* Win32 only - For DirectSound output.  3D commands are batched together and executed at FSOUND_Update. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_DSOUND_HRTF_LIGHT</B></TD>
+<TD><I>0x1000    /* Win32 only - For DirectSound output.  FSOUND_HW3D buffers use a slightly higher quality algorithm when 3d hardware acceleration is not present. */
+</I></TD>
+<TR VALIGN=top><TD><B>FSOUND_INIT_DSOUND_HRTF_FULL</B></TD>
+<TD><I>0x2000    /* Win32 only - For DirectSound output.  FSOUND_HW3D buffers use full quality 3d playback when 3d hardware acceleration is not present. */
+</I></TD>
+</TABLE>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_GetCurrentLevels.html">FSOUND_GetCurrentLevels</A>
+, 
+<A HREF="FSOUND_Init.html">FSOUND_Init</A>
+, 
+<A HREF="FSOUND_SetBufferSize.html">FSOUND_SetBufferSize</A>
+, 
+<A HREF="FSOUND_Update.html">FSOUND_Update</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

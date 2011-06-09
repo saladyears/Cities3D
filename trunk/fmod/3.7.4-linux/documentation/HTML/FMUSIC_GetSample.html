@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FMUSIC_GetSample</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FMUSIC_GetRow.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FMUSIC.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FMUSIC_GetSpeed.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FMUSIC.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FMUSIC_GetSample">FMUSIC_GetSample</A></H2>
+Returns a pointer to a sample inside a module.  <BR>
+Once you have access to the module's sample, you can do a lot of things <BR>
+to it, including locking and modifying the data within; using the <BR>
+FSOUND_Sample_ functionality.<BR>
+<P>
+<B>FSOUND_SAMPLE * F_API </B><B> </B><B>FMUSIC_GetSample</B><B>(</B><BR>
+<B>FMUSIC_MODULE *</B><I>mod</I><B>,</B><BR>
+<B>int </B><B> </B><I>sampno</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>mod</I></TD>
+<TD>Pointer to the song to retrieve a sample handle from<BR>
+</TD><TR VALIGN=top><TD><I>sampno</I></TD>
+<TD>index to sample inside module.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, a valid sample handle is returned.<BR>
+On failure, NULL is returned.<BR>
+<H3>Remarks</H3>
+Because of the instrument nature of some formats like XM, this<BR>
+function lists all the samples in order of instruments and their subsamples.<BR>
+ie if instrument 1 has 2 samples and instrument 2 contains 3 samples, then <BR>
+sampno in this case would be 0 and 1 for instrument 1's samples, and 2,3 & 4<BR>
+for instrument 2's samples.  <BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FMUSIC_SetSample.html">FMUSIC_SetSample</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:58 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

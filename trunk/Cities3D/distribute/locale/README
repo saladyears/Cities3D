@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+LOCALE README
+-------------------------------------------------------------------------------
+
+The batch files in this directory are used to maintain the translation files
+for Cities3D.
+
+format_mo_files.bat - Converts all .po files in language subdirectories into
+the binary format .mo files that Cities3D uses for string lookup.  This batch
+file should only be run after all .po files have been updated prior to a 
+release.  Calls msgfmt.bat.
+
+msgfmt.bat - Converts the given subdirectory's .po files into the binary format
+.mo files that Cities3D uses for string lookup.
+
+USAGE: msgfmt [dir]
+
+msgmerge.bat - Merges the given subdirectory's .po files with the most
+up-to-date strings for the project, which must be created using xgettext.bat
+prior to running msgmerge.  This batch file is run as a part of 
+update_po_files.bat.
+
+USAGE: msgmerge [dir]
+
+update_po_files.bat - Updates all .po files in all language subdirectories with
+any changes in the Cities3D project.  Calls xgettext.bat and msgmerge.bat.
+
+xgettext.bat - Runs xgettext on all source files in the Cities3D project and
+generates .po files in the current directory that contain the most up-to-date
+strings for the project.  This batch file is run as part of 
+update_po_files.bat.

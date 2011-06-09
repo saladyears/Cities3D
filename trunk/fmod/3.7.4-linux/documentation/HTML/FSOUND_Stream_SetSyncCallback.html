@@ -1,0 +1,93 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Stream_SetSyncCallback</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Stream_SetSubStreamSentence.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Stream_SetTime.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Stream_SetSyncCallback">FSOUND_Stream_SetSyncCallback</A></H2>
+Sets a callback function for when a stream passes over a WAV tag/marker.  These are markers that<BR>
+a sound editing program such as Sound Forge can drop into the actual wave data.  FMOD will<BR>
+trigger callbacks with these markers when the stream plays, and pass in the string through the callback that the marker contains.<BR>
+<P>
+<B>signed char	F_API </B><B> </B><B>FSOUND_Stream_SetSyncCallback</B><B>(</B><BR>
+<B>FSOUND_STREAM *</B><I>stream</I><B>,</B><BR>
+<B>FSOUND_STREAMCALLBACK </B><B> </B><I>callback</I><B>,</B><BR>
+<B>void *</B><I>userdata</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>stream</I></TD>
+<TD>Pointer to the stream to callback when a sync point is reached.<BR>
+</TD><TR VALIGN=top><TD><I>callback</I></TD>
+<TD>Function to call when sync point is reached.<BR>
+</TD><TR VALIGN=top><TD><I>userdata</I></TD>
+<TD>user data that is passed into the callback.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+Note it uses a FSOUND_STREAMCALLBACK function callback.  This is normally for user streams but for <BR>
+the sake of re-usability this prototype is used.  'buff' is a null terminated string provided by <BR>
+the marker.  'len' is the offset in samples that the marker was set at.<BR>
+The return value can be TRUE or FALSE, it is ignored.<BR>
+-----------<BR>
+Note you can save a WAV out using an MP3 wav codec (and then just rename the WAV to MP3 if you like) to get <BR>
+sync marker support for compressed MP3 files.  FMOD will pick up on this and read the markers out.<BR>
+--------------<BR>
+If the stream has been opened with FSOUND_NONBLOCKING, this function will not succeed until the stream is ready.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_MODES.html">FSOUND_MODES</A>
+, 
+<A HREF="FSOUND_Stream_AddSyncPoint.html">FSOUND_Stream_AddSyncPoint</A>
+, 
+<A HREF="FSOUND_Stream_DeleteSyncPoint.html">FSOUND_Stream_DeleteSyncPoint</A>
+, 
+<A HREF="FSOUND_Stream_GetNumSyncPoints.html">FSOUND_Stream_GetNumSyncPoints</A>
+, 
+<A HREF="FSOUND_Stream_GetSyncPoint.html">FSOUND_Stream_GetSyncPoint</A>
+, 
+<A HREF="FSOUND_Stream_GetSyncPointInfo.html">FSOUND_Stream_GetSyncPointInfo</A>
+, 
+<A HREF="FSOUND_Stream_Play.html">FSOUND_Stream_Play</A>
+, 
+<A HREF="FSOUND_STREAMCALLBACK.html">FSOUND_STREAMCALLBACK</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

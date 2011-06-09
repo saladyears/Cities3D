@@ -1,0 +1,76 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_READCALLBACK</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_PlaySoundEx.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_REALLOCCALLBACK.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_READCALLBACK">FSOUND_READCALLBACK</A></H2>
+Callback for reading from a file.<BR>
+<P>
+<B>int F_CALLBACKAPI </B><B> </B><B>FSOUND_READCALLBACK</B><B>(</B><BR>
+<B>void *</B><I>buffer</I><B>,</B><BR>
+<B>int </B><B> </B><I>size</I><B>,</B><BR>
+<B>void *</B><I>handle</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>buffer</I></TD>
+<TD>You must read and copy your file data into this pointer.<BR>
+</TD><TR VALIGN=top><TD><I>length</I></TD>
+<TD>You must read this many bytes from your file data.<BR>
+</TD><TR VALIGN=top><TD><I>handle</I></TD>
+<TD>This is the handle you returned from the open callback to use for your own file routines.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+Return the number of bytes that were *successfully* read here.  Normally this is just the same as 'length', but if you are at the end of the file, you will probably only read successfully the number of bytes up to the end of the file (if you tried to read more than that).<BR>
+<H3>Remarks</H3>
+You must read 'length' number of bytes into the 'buffer' provided, then if you need to, increment your file pointer.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_CLOSECALLBACK.html">FSOUND_CLOSECALLBACK</A>
+, 
+<A HREF="FSOUND_File_SetCallbacks.html">FSOUND_File_SetCallbacks</A>
+, 
+<A HREF="FSOUND_OPENCALLBACK.html">FSOUND_OPENCALLBACK</A>
+, 
+<A HREF="FSOUND_SEEKCALLBACK.html">FSOUND_SEEKCALLBACK</A>
+, 
+<A HREF="FSOUND_TELLCALLBACK.html">FSOUND_TELLCALLBACK</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

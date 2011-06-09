@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-19 13:40-0600\n"
+"PO-Revision-Date: 2008-08-02 16:51+0900\n"
+"Last-Translator: hito <hitobasira@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Strings.cpp:136
+msgid "Deserts are volcanoes"
+msgstr "砂漠が火山になる。"
+
+#: Strings.cpp:137
+msgid "has 1 city reduced"
+msgstr "街が 1 件過疎化"
+
+#: Strings.cpp:138
+msgid "loses 1 city"
+msgstr "街を 1 件失った。"
+
+#: Strings.cpp:139
+msgid "loses 1 settlement"
+msgstr "村を 1 件 失った。"
+
+#: Strings.cpp:140
+#, fuzzy
+msgid "Show Volcano tab"
+msgstr "火山のタイル"
+
+#: Strings.cpp:141
+msgid "Volcano"
+msgstr "火山"
+
+#: Strings.cpp:142
+msgid "Volcanoes"
+msgstr "火山"
+
+#: Strings.cpp:143
+msgid ""
+"Replaces all deserts with volcanoes.  A volcano is rich in resources and "
+"provides gold to players who build on it.  However, when rolled, it erupts, "
+"and destroys anything in the path of its lava, which flows to one of its "
+"corners!"
+msgstr ""
+"砂漠を火山にする。火山は資源に富み、金を産出する。しかし、ダイスが振られる"
+"と、噴火して、ダイスの目の頂点にある建造物を破壊する。"
+
+#: Strings.cpp:144
+msgid "Volcano tile"
+msgstr "火山のタイル"
+
+#: Strings.cpp:147
+#, c-format
+msgid "%s escapes unscathed!"
+msgstr "%s は無事逃げおおせた。"
+
+#: Strings.cpp:148
+#, c-format
+msgid "has %d cities reduced"
+msgstr "街が %d 件過疎化"
+
+#: Strings.cpp:149
+#, c-format
+msgid "%s, move your metropolis."
+msgstr "%s よ、メトロポリスを動かせ。"
+
+#: Strings.cpp:150
+#, c-format
+msgid "loses %d cities"
+msgstr "街を %d 件失った。"
+
+#: Strings.cpp:151
+#, c-format
+msgid "loses %d settlements"
+msgstr "家を %d 件失った。"
+
+#: Strings.cpp:152
+#, c-format
+msgid "%s loses 1 bonus point to the volcano."
+msgstr "%s は火山によって、１ボーナスポイントを失った。"
+
+#: Strings.cpp:153
+#, c-format
+msgid "Waiting for %s to move a metropolis."
+msgstr "%s がメトロポリスを移動中。"
+
+#: VolcanoSingleBonusStats.cpp:32
+msgid "Bonus"
+msgstr ""
+
+#: VolcanoStats.cpp:49
+#, fuzzy
+msgid "Volcano Die"
+msgstr "火山のタイル"

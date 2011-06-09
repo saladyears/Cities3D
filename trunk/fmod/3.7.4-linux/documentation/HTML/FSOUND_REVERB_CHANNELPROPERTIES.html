@@ -1,0 +1,124 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_REVERB_CHANNELPROPERTIES</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Update.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_REVERB_PROPERTIES.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Structures"><H5>[Structure]</A></H5>
+<H2><A NAME="FSOUND_REVERB_CHANNELPROPERTIES">FSOUND_REVERB_CHANNELPROPERTIES</A></H2>
+Structure defining the properties for a reverb source, related to a FSOUND channel.<BR>
+For more indepth descriptions of the reverb properties under win32, please see the EAX3<BR>
+documentation at http://developer.creative.com/ under the 'downloads' section.<BR>
+If they do not have the EAX3 documentation, then most information can be attained from<BR>
+the EAX2 documentation, as EAX3 only adds some more parameters and functionality on top of <BR>
+EAX2.<BR>
+Note the default reverb properties are the same as the FSOUND_PRESET_GENERIC preset.<BR>
+Note that integer values that typically range from -10,000 to 1000 are represented in <BR>
+decibels, and are of a logarithmic scale, not linear, wheras float values are typically linear.<BR>
+PORTABILITY: Each member has the platform it supports in braces ie (win32/xbox).  <BR>
+Some reverb parameters are only supported in win32 and some only on xbox. If all parameters are set then<BR>
+the reverb should product a similar effect on either platform.<BR>
+Linux and FMODCE do not support the reverb api.<BR>
+The numerical values listed below are the maximum, minimum and default values for each variable respectively.<BR>
+<P>
+<H3>Members</H3>
+<TABLE>
+<TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>Direct</I></TD>
+<TD>/* -10000, 1000,  0,    direct path level (at low and mid frequencies) (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>DirectHF</I></TD>
+<TD>/* -10000, 0,     0,    relative direct path level at high frequencies (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>Room</I></TD>
+<TD>/* -10000, 1000,  0,    room effect level (at low and mid frequencies) (WIN32/XBOX/PS2) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>RoomHF</I></TD>
+<TD>/* -10000, 0,     0,    relative room effect level at high frequencies (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>Obstruction</I></TD>
+<TD>/* -10000, 0,     0,    main obstruction control (attenuation at high frequencies)  (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>ObstructionLFRatio</I></TD>
+<TD>/* 0.0,    1.0,   0.0,  obstruction low-frequency level re. main control (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>Occlusion</I></TD>
+<TD>/* -10000, 0,     0,    main occlusion control (attenuation at high frequencies) (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>OcclusionLFRatio</I></TD>
+<TD>/* 0.0,    1.0,   0.25, occlusion low-frequency level re. main control (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>OcclusionRoomRatio</I></TD>
+<TD>/* 0.0,    10.0,  1.5,  relative occlusion control for room effect (WIN32) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>OcclusionDirectRatio</I></TD>
+<TD>/* 0.0,    10.0,  1.0,  relative occlusion control for direct path (WIN32) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>Exclusion</I></TD>
+<TD>/* -10000, 0,     0,    main exlusion control (attenuation at high frequencies) (WIN32) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>ExclusionLFRatio</I></TD>
+<TD>/* 0.0,    1.0,   1.0,  exclusion low-frequency level re. main control (WIN32) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>OutsideVolumeHF</I></TD>
+<TD>/* -10000, 0,     0,    outside sound cone level at high frequencies (WIN32) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>DopplerFactor</I></TD>
+<TD>/* 0.0,    10.0,  0.0,  like DS3D flDopplerFactor but per source (WIN32) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>RolloffFactor</I></TD>
+<TD>/* 0.0,    10.0,  0.0,  like DS3D flRolloffFactor but per source (WIN32) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>RoomRolloffFactor</I></TD>
+<TD>/* 0.0,    10.0,  0.0,  like DS3D flRolloffFactor but for room effect (WIN32/XBOX) */<BR>
+</TD><TR VALIGN=top><TD><B>float</B></TD>
+<TD><I>AirAbsorptionFactor</I></TD>
+<TD>/* 0.0,    10.0,  1.0,  multiplies AirAbsorptionHF member of FSOUND_REVERB_PROPERTIES (WIN32) */<BR>
+</TD><TR VALIGN=top><TD><B>int</B></TD>
+<TD><I>Flags</I></TD>
+<TD>/* FSOUND_REVERB_CHANNELFLAGS - modifies the behavior of properties (WIN32) */<BR>
+</TD></TABLE>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_REVERB_CHANNELFLAGS.html">FSOUND_REVERB_CHANNELFLAGS</A>
+, 
+<A HREF="FSOUND_Reverb_GetChannelProperties.html">FSOUND_Reverb_GetChannelProperties</A>
+, 
+<A HREF="FSOUND_REVERB_PROPERTIES.html">FSOUND_REVERB_PROPERTIES</A>
+, 
+<A HREF="FSOUND_Reverb_SetChannelProperties.html">FSOUND_Reverb_SetChannelProperties</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

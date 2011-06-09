@@ -1,0 +1,72 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_Stream_GetOpenState</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_Stream_GetNumTagFields.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_Stream_GetPosition.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_Stream_GetOpenState">FSOUND_Stream_GetOpenState</A></H2>
+If a stream is opened with FSOUND_NONBLOCKING, this function returns the state of the opening stream.<BR>
+<P>
+<B>int F_API </B><B> </B><B>FSOUND_Stream_GetOpenState</B><B>(</B><BR>
+<B>FSOUND_STREAM *</B><I>stream</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>stream</I></TD>
+<TD>Pointer to the stream to get the open state from.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+0 = stream is opened and ready.<BR>
+-1 = stream handle passed in is invalid.<BR>
+-2 = stream is still opening or performing a SetSubStream command.<BR>
+-3 = stream failed to open. (file not found, out of memory or other error).<BR>
+-4 = connecting to remote host (internet streams only)<BR>
+-5 = stream is buffering data (internet streams only)<BR>
+<H3>Remarks</H3>
+A blocking stream will return NULL from FSOUND_Stream_Open so a return value of -3 is redundant in this case.<BR>
+A blocking stream will always return 0 if it is not NULL.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_Stream_Open.html">FSOUND_Stream_Open</A>
+, 
+<A HREF="FSOUND_Stream_SetSubStream.html">FSOUND_Stream_SetSubStream</A>
+, 
+<A HREF="FSOUND_Stream_SetSubStreamSentence.html">FSOUND_Stream_SetSubStreamSentence</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>

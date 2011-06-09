@@ -1,0 +1,92 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="SOURCEDOC.EXE">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>FSOUND_SetPan</TITLE>
+<STYLE>
+#flush {margin-left: -10p; margin-right: -0p}
+#buttonbar {color: white}
+</STYLE>
+</HEAD>
+<BODY TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="white">
+<FONT FACE="ARIAL">
+<SPAN ID="flush">
+<A NAME="SEE ALSO">
+<TABLE WIDTH="100%" COLS=2 BORDER=0 BGCOLOR="#000000">
+<TR ALIGN=RIGHT>
+<TD ALIGN=LEFT>
+<IMG SRC="banner03.gif" WIDTH="88" HEIGHT="31"  BORDER=0>
+</TD>
+<TD ALIGN=RIGHT VALIGN=TOP>
+<FONT FACE="ARIAL" SIZE="2">
+<A ID=buttonbar HREF="FSOUND_SetOutput.html">
+<IMG SRC="u_prev.gif" WIDTH="71" HEIGHT="16"  BORDER=0 ALT="Previous Topic">
+</A>
+<A ID=buttonbar HREF="FSOUND.html">
+<IMG SRC="u_index.gif" WIDTH="47" HEIGHT="16"  BORDER=0 ALT="Index">
+</A>
+<A ID=buttonbar HREF="FSOUND_SetPanSeperation.html">
+<IMG SRC="u_next.gif" WIDTH="48" HEIGHT="16"  BORDER=0 ALT="Next Topic">
+</A>
+</FONT></TD><TD WIDTH=15></TD>
+</TR>
+</TABLE>
+</A>
+</SPAN>
+<A HREF="FSOUND.html#Functions"><H5>[API function]</A></H5>
+<H2><A NAME="FSOUND_SetPan">FSOUND_SetPan</A></H2>
+Sets a channels pan position linearly<BR>
+<P>
+<B>signed char F_API </B><B> </B><B>FSOUND_SetPan</B><B>(</B><BR>
+<B>int </B><B> </B><I>channel</I><B>,</B><BR>
+<B>int </B><B> </B><I>pan</I><BR>
+<B>);</B><BR>
+<H3>Parameters</H3>
+<TABLE>
+<TR VALIGN=top><TD><I>channel</I></TD>
+<TD>The channel number/handle to change the pan for.  FSOUND_ALL can also be used (see remarks)<BR>
+</TD><TR VALIGN=top><TD><I>pan</I></TD>
+<TD>The panning position for this channel to set.<BR>
+parameters are:<BR>
+- from 0 (full left) to 255 (full right)<BR>
+- FSOUND_STEREOPAN.  This is meant for stereo samples, but will work on mono <BR>
+samples as well.  It makes both left and right FULL volume instead of 50/50<BR>
+as middle panning does.  See remarks section for more information on this.<BR>
+</TD></TABLE>
+<H3>Return Value</H3>
+On success, TRUE is returned.<BR>
+On failure, FALSE is returned.<BR>
+<H3>Remarks</H3>
+FSOUND_ALL is supported.  Passing this will set the pan of ALL channels available.<BR>
+If FSOUND_ALL is used the last channel success flag will be returned.  This return value is not useful in most circumstances.<BR>
+----------<BR>
+Important : If you are playing a STEREO sample, and using normal middle panning, it will only come out at half the volume <BR>
+they are supposed to.  To avoid this use FSOUND_STEREO pan.<BR>
+Panning works in the following manner:<BR>
+full left  : 100to left, 0to right<BR>
+full right : 0to left, 100to right<BR>
+middle     : 71to left, 71to right<BR>
+FMOD Uses 'constant power' panning.  The center position is 71 4742512n each channel as it keeps an even RMS output level when<BR>
+moving the sound from left to right.  Placing 50 4742512n each channel for a middle position is incorrect.<BR>
+The pan graph for constant power panning resembles a curve instead of straight lines.<BR>
+___________________<BR>
+Supported on the following platforms : Win32, WinCE, Linux, Macintosh, XBox, PlayStation 2, GameCube<BR>
+<H3>See Also</H3>
+<A HREF=".html"></A>
+, 
+<A HREF="FSOUND_DSP_MixBuffers.html">FSOUND_DSP_MixBuffers</A>
+, 
+<A HREF="FSOUND_GetPan.html">FSOUND_GetPan</A>
+, 
+<A HREF="FSOUND_Sample_SetDefaults.html">FSOUND_Sample_SetDefaults</A>
+, 
+<A HREF="FSOUND_Sample_SetDefaultsEx.html">FSOUND_Sample_SetDefaultsEx</A>
+, 
+<A HREF="FSOUND_Stream_Play.html">FSOUND_Stream_Play</A>
+, 
+<A HREF="FSOUND_Stream_PlayEx.html">FSOUND_Stream_PlayEx</A>
+<HR><BR><FONT SIZE="-2">This document copyright &copy;Firelight Technologies, Pty, Ltd, 1999-2002. All rights reserved.</FONT><BR>
+<FONT SIZE="-2">Generated Mon Oct 18 11:07:59 2004
+ by SourceDoc v0.10, the automated source code documenter.</FONT><BR>
+</BODY>
+</HTML>
